@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Product_Group__c</fullName>
+    <description>Used to select groups for products. Perk-75</description>
+    <label>Product Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AA Compressors</fullName>
+                <default>false</default>
+                <label>AA Compressors</label>
+            </value>
+            <value>
+                <fullName>Application Pack</fullName>
+                <default>false</default>
+                <label>Application Pack</label>
+            </value>
+            <value>
+                <fullName>Blowers and Vents</fullName>
+                <default>false</default>
+                <label>Blowers and Vents</label>
+            </value>
+            <value>
+                <fullName>Burner Head Replacement Parts</fullName>
+                <default>false</default>
+                <label>Burner Head Replacement Parts</label>
+            </value>
+            <value>
+                <fullName>Caps/Septa</fullName>
+                <default>false</default>
+                <label>Caps/Septa</label>
+            </value>
+            <value>
+                <fullName>Cartridge Columns</fullName>
+                <default>false</default>
+                <label>Cartridge Columns</label>
+            </value>
+            <value>
+                <fullName>Cell Holders &amp; Changers</fullName>
+                <default>false</default>
+                <label>Cell Holders &amp; Changers</label>
+            </value>
+            <value>
+                <fullName>Chromatography</fullName>
+                <default>false</default>
+                <label>Chromatography</label>
+            </value>
+            <value>
+                <fullName>Crimpers</fullName>
+                <default>false</default>
+                <label>Crimpers</label>
+            </value>
+            <value>
+                <fullName>Decapper</fullName>
+                <default>false</default>
+                <label>Decapper</label>
+            </value>
+            <value>
+                <fullName>Detectors &amp; Kits</fullName>
+                <default>false</default>
+                <label>Detectors &amp; Kits</label>
+            </value>
+            <value>
+                <fullName>Falling Number, AM, IM 8800</fullName>
+                <default>false</default>
+                <label>Falling Number, AM, IM 8800</label>
+            </value>
+            <value>
+                <fullName>Fiber Optic Accessories</fullName>
+                <default>false</default>
+                <label>Fiber Optic Accessories</label>
+            </value>
+            <value>
+                <fullName>Filter Disks</fullName>
+                <default>false</default>
+                <label>Filter Disks</label>
+            </value>
+            <value>
+                <fullName>Fittings</fullName>
+                <default>false</default>
+                <label>Fittings</label>
+            </value>
+            <value>
+                <fullName>Flow Injection Tubing</fullName>
+                <default>false</default>
+                <label>Flow Injection Tubing</label>
+            </value>
+            <value>
+                <fullName>Flow-Through Cells</fullName>
+                <default>false</default>
+                <label>Flow-Through Cells</label>
+            </value>
+            <value>
+                <fullName>Gas/Liquid Separators and Replacement Parts</fullName>
+                <default>false</default>
+                <label>Gas/Liquid Separators and Replacement Parts</label>
+            </value>
+            <value>
+                <fullName>GC Compressors</fullName>
+                <default>false</default>
+                <label>GC Compressors</label>
+            </value>
+            <value>
+                <fullName>Hollow Cathode Lamp HCL</fullName>
+                <default>false</default>
+                <label>Hollow Cathode Lamp HCL</label>
+            </value>
+            <value>
+                <fullName>Hydrogen Generators</fullName>
+                <default>false</default>
+                <label>Hydrogen Generators</label>
+            </value>
+            <value>
+                <fullName>ICP-OES Compressors</fullName>
+                <default>false</default>
+                <label>ICP-OES Compressors</label>
+            </value>
+            <value>
+                <fullName>Injection Port Septa</fullName>
+                <default>false</default>
+                <label>Injection Port Septa</label>
+            </value>
+            <value>
+                <fullName>Kits</fullName>
+                <default>false</default>
+                <label>Kits</label>
+            </value>
+            <value>
+                <fullName>Liner o-ring</fullName>
+                <default>false</default>
+                <label>Liner o-ring</label>
+            </value>
+            <value>
+                <fullName>Mass Spectral Library</fullName>
+                <default>false</default>
+                <label>Mass Spectral Library</label>
+            </value>
+            <value>
+                <fullName>Nitrogen Generators</fullName>
+                <default>false</default>
+                <label>Nitrogen Generators</label>
+            </value>
+            <value>
+                <fullName>O-Rings</fullName>
+                <default>false</default>
+                <label>O-Rings</label>
+            </value>
+            <value>
+                <fullName>Pads</fullName>
+                <default>false</default>
+                <label>Pads</label>
+            </value>
+            <value>
+                <fullName>Regulators</fullName>
+                <default>false</default>
+                <label>Regulators</label>
+            </value>
+            <value>
+                <fullName>Replacement Column Sets</fullName>
+                <default>false</default>
+                <label>Replacement Column Sets</label>
+            </value>
+            <value>
+                <fullName>Sample Preparation Blocks</fullName>
+                <default>false</default>
+                <label>Sample Preparation Blocks</label>
+            </value>
+            <value>
+                <fullName>Semi-Micro Cells</fullName>
+                <default>false</default>
+                <label>Semi-Micro Cells</label>
+            </value>
+            <value>
+                <fullName>Software and Informatics</fullName>
+                <default>false</default>
+                <label>Software and Informatics</label>
+            </value>
+            <value>
+                <fullName>Specialty Cells</fullName>
+                <default>false</default>
+                <label>Specialty Cells</label>
+            </value>
+            <value>
+                <fullName>Specialty Fixtures &amp; Spares</fullName>
+                <default>false</default>
+                <label>Specialty Fixtures &amp; Spares</label>
+            </value>
+            <value>
+                <fullName>Starter Kit</fullName>
+                <default>false</default>
+                <label>Starter Kit</label>
+            </value>
+            <value>
+                <fullName>Sticks</fullName>
+                <default>false</default>
+                <label>Sticks</label>
+            </value>
+            <value>
+                <fullName>Torch Tools</fullName>
+                <default>false</default>
+                <label>Torch Tools</label>
+            </value>
+            <value>
+                <fullName>Transmission Accessories</fullName>
+                <default>false</default>
+                <label>Transmission Accessories</label>
+            </value>
+            <value>
+                <fullName>Trays and Racks</fullName>
+                <default>false</default>
+                <label>Trays and Racks</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix Accessories</fullName>
+                <default>false</default>
+                <label>TurboMatrix Accessories</label>
+            </value>
+            <value>
+                <fullName>Vial Inserts</fullName>
+                <default>false</default>
+                <label>Vial Inserts</label>
+            </value>
+            <value>
+                <fullName>Vials</fullName>
+                <default>false</default>
+                <label>Vials</label>
+            </value>
+            <value>
+                <fullName>Wrenches</fullName>
+                <default>false</default>
+                <label>Wrenches</label>
+            </value>
+            <value>
+                <fullName>Zero Air Generators</fullName>
+                <default>false</default>
+                <label>Zero Air Generators</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

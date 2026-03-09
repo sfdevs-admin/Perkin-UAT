@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Entity__c</fullName>
+    <label>PKI Entity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Boston Radar</fullName>
+                <default>false</default>
+                <label>Boston Radar</label>
+            </value>
+            <value>
+                <fullName>BU</fullName>
+                <default>false</default>
+                <label>BU</label>
+            </value>
+            <value>
+                <fullName>Caliper Life Sciences AG</fullName>
+                <default>false</default>
+                <label>Caliper Life Sciences AG</label>
+            </value>
+            <value>
+                <fullName>Caliper Life Sciences Benelux NV</fullName>
+                <default>false</default>
+                <label>Caliper Life Sciences Benelux NV</label>
+            </value>
+            <value>
+                <fullName>Caliper Life Sciences Europe</fullName>
+                <default>false</default>
+                <label>Caliper Life Sciences Europe</label>
+            </value>
+            <value>
+                <fullName>Caliper Life Sciences GmbH</fullName>
+                <default>false</default>
+                <label>Caliper Life Sciences GmbH</label>
+            </value>
+            <value>
+                <fullName>Caliper Life Sciences Limited</fullName>
+                <default>false</default>
+                <label>Caliper Life Sciences Limited</label>
+            </value>
+            <value>
+                <fullName>Caliper Life Sciences LTD</fullName>
+                <default>false</default>
+                <label>Caliper Life Sciences LTD</label>
+            </value>
+            <value>
+                <fullName>Caliper Life Sciences S.A</fullName>
+                <default>false</default>
+                <label>Caliper Life Sciences S.A</label>
+            </value>
+            <value>
+                <fullName>Candu Energy</fullName>
+                <default>false</default>
+                <label>Candu Energy</label>
+            </value>
+            <value>
+                <fullName>Haemonetics</fullName>
+                <default>false</default>
+                <label>Haemonetics</label>
+            </value>
+            <value>
+                <fullName>JAA Corporation</fullName>
+                <default>false</default>
+                <label>JAA Corporation</label>
+            </value>
+            <value>
+                <fullName>Lumac BV</fullName>
+                <default>false</default>
+                <label>Lumac BV</label>
+            </value>
+            <value>
+                <fullName>Merck Test Account</fullName>
+                <default>false</default>
+                <label>Merck Test Account</label>
+            </value>
+            <value>
+                <fullName>PKI, Inc.</fullName>
+                <default>false</default>
+                <label>PKI, Inc.</label>
+            </value>
+            <value>
+                <fullName>PKI (Ireland) Ltd.</fullName>
+                <default>false</default>
+                <label>PKI (Ireland) Ltd.</label>
+            </value>
+            <value>
+                <fullName>PKI (Schweiz) AG</fullName>
+                <default>false</default>
+                <label>PKI (Schweiz) AG</label>
+            </value>
+            <value>
+                <fullName>PKI Biosignal, Inc.</fullName>
+                <default>false</default>
+                <label>PKI Biosignal, Inc.</label>
+            </value>
+            <value>
+                <fullName>PKI Cellular Sciences Belgium Sprl</fullName>
+                <default>false</default>
+                <label>PKI Cellular Sciences Belgium Sprl</label>
+            </value>
+            <value>
+                <fullName>PKI Cellular Technologies Germany</fullName>
+                <default>false</default>
+                <label>PKI Cellular Technologies Germany</label>
+            </value>
+            <value>
+                <fullName>PKI de Mexico, S.A.</fullName>
+                <default>false</default>
+                <label>PKI de Mexico, S.A.</label>
+            </value>
+            <value>
+                <fullName>PKI do Brasil Ltda.</fullName>
+                <default>false</default>
+                <label>PKI do Brasil Ltda.</label>
+            </value>
+            <value>
+                <fullName>PKI Espana, S.L.</fullName>
+                <default>false</default>
+                <label>PKI Espana, S.L.</label>
+            </value>
+            <value>
+                <fullName>PKI Finance Holdings Limited</fullName>
+                <default>false</default>
+                <label>PKI Finance Holdings Limited</label>
+            </value>
+            <value>
+                <fullName>PKI Finland OY</fullName>
+                <default>false</default>
+                <label>PKI Finland OY</label>
+            </value>
+            <value>
+                <fullName>PKI Health Sciences, Inc.</fullName>
+                <default>false</default>
+                <label>PKI Health Sciences, Inc.</label>
+            </value>
+            <value>
+                <fullName>PKI Health Sciences BV</fullName>
+                <default>false</default>
+                <label>PKI Health Sciences BV</label>
+            </value>
+            <value>
+                <fullName>PKI Health Sciences Canada, Inc.</fullName>
+                <default>false</default>
+                <label>PKI Health Sciences Canada, Inc.</label>
+            </value>
+            <value>
+                <fullName>PKI Holdings, Inc.</fullName>
+                <default>false</default>
+                <label>PKI Holdings, Inc.</label>
+            </value>
+            <value>
+                <fullName>PKI Holdings BV</fullName>
+                <default>false</default>
+                <label>PKI Holdings BV</label>
+            </value>
+            <value>
+                <fullName>PKI International CV</fullName>
+                <default>false</default>
+                <label>PKI International CV</label>
+            </value>
+            <value>
+                <fullName>PKI Investment Ltd Partnership</fullName>
+                <default>false</default>
+                <label>PKI Investment Ltd Partnership</label>
+            </value>
+            <value>
+                <fullName>PKI Italy SpA</fullName>
+                <default>false</default>
+                <label>PKI Italy SpA</label>
+            </value>
+            <value>
+                <fullName>PKI LAS (Germany) GmbH</fullName>
+                <default>false</default>
+                <label>PKI LAS (Germany) GmbH</label>
+            </value>
+            <value>
+                <fullName>PKI LAS (UK) Ltd.</fullName>
+                <default>false</default>
+                <label>PKI LAS (UK) Ltd.</label>
+            </value>
+            <value>
+                <fullName>PKI LAS Srl</fullName>
+                <default>false</default>
+                <label>PKI LAS Srl</label>
+            </value>
+            <value>
+                <fullName>PKI Life Sciences Int&#39;l Holdings Ltd.</fullName>
+                <default>false</default>
+                <label>PKI Life Sciences Int&#39;l Holdings Ltd.</label>
+            </value>
+            <value>
+                <fullName>PKI Ltd. - UK</fullName>
+                <default>false</default>
+                <label>PKI Ltd. - UK</label>
+            </value>
+            <value>
+                <fullName>PKI Luxembourg Holdings SARL</fullName>
+                <default>false</default>
+                <label>PKI Luxembourg Holdings SARL</label>
+            </value>
+            <value>
+                <fullName>PKI Norge AS</fullName>
+                <default>false</default>
+                <label>PKI Norge AS</label>
+            </value>
+            <value>
+                <fullName>PKI OY</fullName>
+                <default>false</default>
+                <label>PKI OY</label>
+            </value>
+            <value>
+                <fullName>PKI Polska Sp Zo.o.</fullName>
+                <default>false</default>
+                <label>PKI Polska Sp Zo.o.</label>
+            </value>
+            <value>
+                <fullName>PKI Sverige AB</fullName>
+                <default>false</default>
+                <label>PKI Sverige AB</label>
+            </value>
+            <value>
+                <fullName>PKI Technologies GmbH &amp; Co KG</fullName>
+                <default>false</default>
+                <label>PKI Technologies GmbH &amp; Co KG</label>
+            </value>
+            <value>
+                <fullName>Sleep Health Center</fullName>
+                <default>false</default>
+                <label>Sleep Health Center</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

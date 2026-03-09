@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Instrument_Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Instrument Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Contract Discount Exceptions (Instrument)</relationshipLabel>
+    <relationshipName>Instrument_Contract_Discount_Exceptions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

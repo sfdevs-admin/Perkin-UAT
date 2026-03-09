@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Rev_Rec_Req_LST__c</fullName>
+    <description>a.	Acceptance  (Perkin Elmer must meet certain criteria before the customer will “Accept” the instrument (or we can take revenue) .   For Example this one may require that Installation and Performance Testing are provided utilizing the customer’s methods, protocols and they have to sign a physical document stating that we’ve met those requirements.
+b.	Installation (The instrument must be installed before we can recognize revenue)
+c.	Delivery (The instrument must be delivered/received by their receiving doc)
+d.	Other (Some smaller instruments don’t require any of the above and we can recognize the revenue shipment etc.</description>
+    <label>Additional Rev Rec Requirements</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acceptance</fullName>
+                <default>false</default>
+                <label>Acceptance</label>
+            </value>
+            <value>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+                <label>Delivery</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Lease</fullName>
+                <default>false</default>
+                <label>Lease</label>
+            </value>
+            <value>
+                <fullName>Red</fullName>
+                <default>false</default>
+                <label>Red</label>
+            </value>
+            <value>
+                <fullName>Yellow</fullName>
+                <default>false</default>
+                <label>Yellow</label>
+            </value>
+            <value>
+                <fullName>Green</fullName>
+                <default>false</default>
+                <label>Green</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

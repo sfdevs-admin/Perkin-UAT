@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Focus__c</fullName>
+    <label>BD Application Focus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ADME Tox</fullName>
+                <default>false</default>
+                <label>ADME Tox</label>
+            </value>
+            <value>
+                <fullName>Agent Development</fullName>
+                <default>false</default>
+                <label>Agent Development</label>
+            </value>
+            <value>
+                <fullName>Animal Models &amp; Service</fullName>
+                <default>false</default>
+                <label>Animal Models &amp; Service</label>
+            </value>
+            <value>
+                <fullName>Antibodies</fullName>
+                <default>false</default>
+                <label>Antibodies</label>
+            </value>
+            <value>
+                <fullName>Automated Sample Prep</fullName>
+                <default>false</default>
+                <label>Automated Sample Prep</label>
+            </value>
+            <value>
+                <fullName>Basic Supplies</fullName>
+                <default>false</default>
+                <label>Basic Supplies</label>
+            </value>
+            <value>
+                <fullName>Biologics /Immunogenicity</fullName>
+                <default>false</default>
+                <label>Biologics /Immunogenicity</label>
+            </value>
+            <value>
+                <fullName>Biomarker</fullName>
+                <default>false</default>
+                <label>Biomarker</label>
+            </value>
+            <value>
+                <fullName>Blood Banks</fullName>
+                <default>false</default>
+                <label>Blood Banks</label>
+            </value>
+            <value>
+                <fullName>Blotting Experiments</fullName>
+                <default>false</default>
+                <label>Blotting Experiments</label>
+            </value>
+            <value>
+                <fullName>Cancer</fullName>
+                <default>false</default>
+                <label>Cancer</label>
+            </value>
+            <value>
+                <fullName>Cellular Assays</fullName>
+                <default>false</default>
+                <label>Cellular Assays</label>
+            </value>
+            <value>
+                <fullName>Cellular Imaging &amp; Analysis</fullName>
+                <default>false</default>
+                <label>Cellular Imaging &amp; Analysis</label>
+            </value>
+            <value>
+                <fullName>Cloning</fullName>
+                <default>false</default>
+                <label>Cloning</label>
+            </value>
+            <value>
+                <fullName>Developmental Biology</fullName>
+                <default>false</default>
+                <label>Developmental Biology</label>
+            </value>
+            <value>
+                <fullName>DNA</fullName>
+                <default>false</default>
+                <label>DNA</label>
+            </value>
+            <value>
+                <fullName>DNA/RNA Labeling</fullName>
+                <default>false</default>
+                <label>DNA/RNA Labeling</label>
+            </value>
+            <value>
+                <fullName>Drug Discovery</fullName>
+                <default>false</default>
+                <label>Drug Discovery</label>
+            </value>
+            <value>
+                <fullName>ELISA/Immunoassay/RIA</fullName>
+                <default>false</default>
+                <label>ELISA/Immunoassay/RIA</label>
+            </value>
+            <value>
+                <fullName>Epigenetics</fullName>
+                <default>false</default>
+                <label>Epigenetics</label>
+            </value>
+            <value>
+                <fullName>Flow Cytometry</fullName>
+                <default>false</default>
+                <label>Flow Cytometry</label>
+            </value>
+            <value>
+                <fullName>Forensics</fullName>
+                <default>false</default>
+                <label>Forensics</label>
+            </value>
+            <value>
+                <fullName>General Imaging</fullName>
+                <default>false</default>
+                <label>General Imaging</label>
+            </value>
+            <value>
+                <fullName>Genetic Disease</fullName>
+                <default>false</default>
+                <label>Genetic Disease</label>
+            </value>
+            <value>
+                <fullName>Genotyping</fullName>
+                <default>false</default>
+                <label>Genotyping</label>
+            </value>
+            <value>
+                <fullName>GPCR</fullName>
+                <default>false</default>
+                <label>GPCR</label>
+            </value>
+            <value>
+                <fullName>HLA Typing</fullName>
+                <default>false</default>
+                <label>HLA Typing</label>
+            </value>
+            <value>
+                <fullName>Host cells</fullName>
+                <default>false</default>
+                <label>Host cells</label>
+            </value>
+            <value>
+                <fullName>ICH/ISH</fullName>
+                <default>false</default>
+                <label>ICH/ISH</label>
+            </value>
+            <value>
+                <fullName>Imaging/Analysis</fullName>
+                <default>false</default>
+                <label>Imaging/Analysis</label>
+            </value>
+            <value>
+                <fullName>Infectious Disease</fullName>
+                <default>false</default>
+                <label>Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>Ion Channel</fullName>
+                <default>false</default>
+                <label>Ion Channel</label>
+            </value>
+            <value>
+                <fullName>Kinase/Cell Signaling</fullName>
+                <default>false</default>
+                <label>Kinase/Cell Signaling</label>
+            </value>
+            <value>
+                <fullName>Label Free</fullName>
+                <default>false</default>
+                <label>Label Free</label>
+            </value>
+            <value>
+                <fullName>Life Time Measurements</fullName>
+                <default>false</default>
+                <label>Life Time Measurements</label>
+            </value>
+            <value>
+                <fullName>Ligand Receptor Binding</fullName>
+                <default>false</default>
+                <label>Ligand Receptor Binding</label>
+            </value>
+            <value>
+                <fullName>Liquid Handling</fullName>
+                <default>false</default>
+                <label>Liquid Handling</label>
+            </value>
+            <value>
+                <fullName>Luminex</fullName>
+                <default>false</default>
+                <label>Luminex</label>
+            </value>
+            <value>
+                <fullName>Macrophages</fullName>
+                <default>false</default>
+                <label>Macrophages</label>
+            </value>
+            <value>
+                <fullName>Manual Sample Prep</fullName>
+                <default>false</default>
+                <label>Manual Sample Prep</label>
+            </value>
+            <value>
+                <fullName>Microarrays</fullName>
+                <default>false</default>
+                <label>Microarrays</label>
+            </value>
+            <value>
+                <fullName>Microscopes</fullName>
+                <default>false</default>
+                <label>Microscopes</label>
+            </value>
+            <value>
+                <fullName>miRNA</fullName>
+                <default>false</default>
+                <label>miRNA</label>
+            </value>
+            <value>
+                <fullName>NAT (Nucleic Acid Testing)</fullName>
+                <default>false</default>
+                <label>NAT (Nucleic Acid Testing)</label>
+            </value>
+            <value>
+                <fullName>Nucleic Acid Purification</fullName>
+                <default>false</default>
+                <label>Nucleic Acid Purification</label>
+            </value>
+            <value>
+                <fullName>Pathogen Diagnostics</fullName>
+                <default>false</default>
+                <label>Pathogen Diagnostics</label>
+            </value>
+            <value>
+                <fullName>PCR/qPCR</fullName>
+                <default>false</default>
+                <label>PCR/qPCR</label>
+            </value>
+            <value>
+                <fullName>PCR Clean up</fullName>
+                <default>false</default>
+                <label>PCR Clean up</label>
+            </value>
+            <value>
+                <fullName>Pre-Cast Gels</fullName>
+                <default>false</default>
+                <label>Pre-Cast Gels</label>
+            </value>
+            <value>
+                <fullName>Preclinical</fullName>
+                <default>false</default>
+                <label>Preclinical</label>
+            </value>
+            <value>
+                <fullName>Probes/Primers</fullName>
+                <default>false</default>
+                <label>Probes/Primers</label>
+            </value>
+            <value>
+                <fullName>Protein Interactions</fullName>
+                <default>false</default>
+                <label>Protein Interactions</label>
+            </value>
+            <value>
+                <fullName>Proteomics</fullName>
+                <default>false</default>
+                <label>Proteomics</label>
+            </value>
+            <value>
+                <fullName>Radiometric Detection</fullName>
+                <default>false</default>
+                <label>Radiometric Detection</label>
+            </value>
+            <value>
+                <fullName>RNA</fullName>
+                <default>false</default>
+                <label>RNA</label>
+            </value>
+            <value>
+                <fullName>Sequencing</fullName>
+                <default>false</default>
+                <label>Sequencing</label>
+            </value>
+            <value>
+                <fullName>siRNA</fullName>
+                <default>false</default>
+                <label>siRNA</label>
+            </value>
+            <value>
+                <fullName>Stem Cells</fullName>
+                <default>false</default>
+                <label>Stem Cells</label>
+            </value>
+            <value>
+                <fullName>Tissue Culture</fullName>
+                <default>false</default>
+                <label>Tissue Culture</label>
+            </value>
+            <value>
+                <fullName>Transfection</fullName>
+                <default>false</default>
+                <label>Transfection</label>
+            </value>
+            <value>
+                <fullName>Water Filtration</fullName>
+                <default>false</default>
+                <label>Water Filtration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

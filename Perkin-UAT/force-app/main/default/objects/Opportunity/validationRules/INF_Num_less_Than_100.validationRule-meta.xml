@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Num_less_Than_100</fullName>
+    <active>true</active>
+    <description>This will prevent users to enter number between 1 to 100 for Research Analytics.</description>
+    <errorConditionFormula>AND( NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+    ,OR( INF_Analytics_AVS__c&gt;100
+        ,AND(
+             DateValue(CreatedDate) &gt;= $Setup.CSET_9900__c.FLD_Dep_OPP_Related_Market_Analytics__c 
+            ,Related_Market_Analytics__c&gt;0
+            )
+       )
+    )</errorConditionFormula>
+    <errorDisplayField>INF_Analytics_AVS__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_027: Ensure that you do not have more than 100 in Research Analytics. Related Market Analytics is no longer used, please do not have any values there.</errorMessage>
+</ValidationRule>

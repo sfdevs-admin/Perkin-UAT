@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPQ_OnDemand_2</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>CPQ OnDemand</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>var newURL = &quot;/apex/LaunchCPQVfp?server=Production&amp;id={!Opportunity.Id}&quot;
+window.open(newURL,&quot;_self&quot;)</url>
+</WebLink>

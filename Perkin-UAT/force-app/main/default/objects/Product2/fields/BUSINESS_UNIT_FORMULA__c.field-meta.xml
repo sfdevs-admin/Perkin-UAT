@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BUSINESS_UNIT_FORMULA__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( product_line__c), &quot;&quot;, 
+IF(CONTAINS(&quot;DL:AIG:ECO:FAB:LOP:OTH:PHM:IR:PUF:UVP:UVS:ICP:LAA:TA:TEA:ABG:AGP:BLC:CDS:CE:CHM:DNH:DNP:DNV:DU:HID:ASO:LCM:MGA:MIG:MMB:NIR:OCC:PBC:PBG:PCS:PHV:PSN:SDS:TRX:UPA:LHO:WEB:UV:LC:MAS:AGN:BIZ:BMC:CPC:DNE:DNS:ESI:SVC:GCM:PER:EMV:DCS:DLS:DSS:PIV:FLR:AA:-DU:BLS:DDV:DEL:MMS:MBA:IMG:AM:DAB:DAO:EXT:FN:GM:IMF:LM:RVA:SKC:TXV:CHD:GC:BIM:CRS:RAM:MCO:SVO:SVA:FTF:MET:CHO:BIO:ASE:CDI:SSS:ADS:LCA:MZG:PCK&quot;, product_line__c), &quot;APPLIED&quot;, 
+IF(CONTAINS(&quot;MAO:CRT:NEO:PRE:APS:AWS:SPS:CSC:MDX:CRD:NLB:GSO:RES:BAR:DIAC:DLF:NTD:EIM:VNT:NAP:NMO:MOX:CLH:MFT:SGL:ILB:BBT:GSG:CCM:ONC:GEN:DIA:ICL:CMG:DNA:SDO:CHS:SBD:EDO:PCR:TLP:VIR:ARS:NEX:MSD:AGO:RHS:SDX:NPT:DIO:HMG:MLB:NEI:OXI:PHE:POC:SOC&quot;, product_line__c), &quot;DIAGNOSTICS&quot;, 
+IF(CONTAINS(&quot;ASY&quot;,product_line__c), &quot;ILLUMINATION &amp; DETECTION SERVICES&quot;,
+IF(CONTAINS(&quot;CHE:ESS:LIM:ELM:GPZ:ENT:QAS:AVS:AVC:ISS:DSK:SIG:IFO:ATT:SPL:SRV&quot;,product_line__c), &quot;INFORMATICS&quot;,
+IF(CONTAINS(&quot;IDO:RSO:MPS:TIP:TKS:ANP:FGP:ARI:ARP:CSA:GIP:LVI:MLD:PGI:PRD:SCN:SPT:TOF:MOL:RRC:RRS:PBR:HCS:IAS:PCL:MMO:LSB:MCB:TIS:INV:CLR:NVS:TSC:EZR:QPS:TBR:RRD:HTS:DIS:CKP:LSO:SER:NUC:FAP:QTS:HCA:CSB:CVD:HBE:HBP:HCE:HDX:HOS:HRR:HZN&quot;,product_line__c), &quot;LIFE SCIENCES&quot;,
+IF(CONTAINS(&quot;SCI:DEX:CMS:ASG:ASP:MIO&quot;,product_line__c), &quot;MEDICAL IMAGING&quot;,
+IF(CONTAINS(&quot;ABI:AGT:OMV:TMO:OSO:WAT:OSAM:OSC:OSSS:OSIS:OSRL:OSAI&quot;,product_line__c), &quot;ONESOURCE&quot;,
+IF(CONTAINS(&quot;HTSC:ZZZ:HHO:EHO:BEA&quot;,product_line__c), &quot;UNCODED&quot;,
+&quot;PRODUCT LINE IN QUESTION&quot;)))))))))</formula>
+    <label>BUSINESS UNIT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

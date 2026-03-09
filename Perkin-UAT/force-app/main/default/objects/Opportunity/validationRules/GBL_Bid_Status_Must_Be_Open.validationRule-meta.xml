@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Bid_Status_Must_Be_Open</fullName>
+    <active>true</active>
+    <description>IF status=OPEN then triggers TRUE is bid receive date is blank</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c,
+IF( ISPICKVAL(Bid_Status__c,&quot;SUBMITTED&quot;) , ISBLANK( Bid_Submit_Date__c )   ,null))</errorConditionFormula>
+    <errorDisplayField>Bid_Status__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_007: Status cannot be SUBMITTED if the Bid Submit Date is blank. Change STATUS to OPEN.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_QA_Consumables_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>LST-QA Consumables</label>
+    <queue>ARQ_000632</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

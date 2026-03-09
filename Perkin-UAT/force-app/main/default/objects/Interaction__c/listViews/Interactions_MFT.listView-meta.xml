@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interactions_MFT</fullName>
+    <columns>NAME</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>Status__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Contact__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>Country__c</columns>
+    <columns>SolutionAreaofInterest__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>ProductClass__c</columns>
+    <columns>ProductName__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>equals</operation>
+        <value>MFT</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <label>Interactions Open Status- MFT-CY</label>
+</ListView>

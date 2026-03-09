@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Product_Description_length</fullName>
+    <active>true</active>
+    <description>This field referred in Quote line formula field</description>
+    <errorConditionFormula>AND(Business_Unit__c = &#39;INFORMATICS&#39;,LEN(Description) &gt; 1100)</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>Product Description cannot be more than 1100 characters</errorMessage>
+</ValidationRule>

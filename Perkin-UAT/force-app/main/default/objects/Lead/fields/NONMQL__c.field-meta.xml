@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NONMQL__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>ALL LEADS coming to the marketing queue will get assigned as NONMQL</description>
+    <label>NONMQL</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

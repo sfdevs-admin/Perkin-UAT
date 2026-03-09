@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_APAC_Stage__c</fullName>
+    <label>New Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <label>Closed Lost</label>
+            </value>
+            <value>
+                <fullName>Abandoned</fullName>
+                <default>false</default>
+                <label>Abandoned</label>
+            </value>
+            <value>
+                <fullName>Stage 1 - Create/Plan</fullName>
+                <default>false</default>
+                <label>Stage 1 - Create/Plan</label>
+            </value>
+            <value>
+                <fullName>Stage 2 - Qualify</fullName>
+                <default>false</default>
+                <label>Stage 2 - Qualify</label>
+            </value>
+            <value>
+                <fullName>Stage 3 - Develop</fullName>
+                <default>false</default>
+                <label>Stage 3 - Develop</label>
+            </value>
+            <value>
+                <fullName>Stage 4 - Prove</fullName>
+                <default>false</default>
+                <label>Stage 4 - Prove</label>
+            </value>
+            <value>
+                <fullName>Stage 5 - Negotiate</fullName>
+                <default>false</default>
+                <label>Stage 5 - Negotiate</label>
+            </value>
+            <value>
+                <fullName>Stage 6 - Implement</fullName>
+                <default>false</default>
+                <label>Stage 6 - Implement</label>
+            </value>
+            <value>
+                <fullName>Closed Won</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Closed Won</label>
+            </value>
+            <value>
+                <fullName>Stage 1 - Qualification</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stage 1 - Qualification</label>
+            </value>
+            <value>
+                <fullName>Stage 2 - Needs Analysis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stage 2 - Needs Analysis</label>
+            </value>
+            <value>
+                <fullName>Stage 3 - Solution Differentiation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stage 3 - Solution Differentiation</label>
+            </value>
+            <value>
+                <fullName>Stage 4 - Objection Handling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stage 4 - Objection Handling</label>
+            </value>
+            <value>
+                <fullName>Stage 5 - Preferred</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stage 5 - Preferred</label>
+            </value>
+            <value>
+                <fullName>Stage 6 - Negotiating/Forecast</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stage 6 - Negotiating/Forecast</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

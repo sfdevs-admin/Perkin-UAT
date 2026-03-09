@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAInsideSalesLeadQualQueue_ALLDx</fullName>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>Lead_Auto_Assign__c</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>BE__c</columns>
+    <columns>Product_Number__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Standard_Default</value>
+    </filters>
+    <filters>
+        <field>PKI_Test_Record__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>BE__c</field>
+        <operation>notEqual</operation>
+        <value>Dx</value>
+    </filters>
+    <label>NA Inside Sales Lead Qual Queue - ALLDx</label>
+    <language>en_US</language>
+    <queue>ARQ_000645</queue>
+</ListView>

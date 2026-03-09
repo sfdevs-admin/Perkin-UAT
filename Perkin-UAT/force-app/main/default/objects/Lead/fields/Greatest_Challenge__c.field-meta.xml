@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Greatest_Challenge__c</fullName>
+    <description>ANNUITAS PDG Program</description>
+    <label>Greatest Challenge</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Optimizing lab operations</fullName>
+                <default>false</default>
+                <label>Optimizing lab operations</label>
+            </value>
+            <value>
+                <fullName>Managing our instrument services</fullName>
+                <default>false</default>
+                <label>Managing our instrument services</label>
+            </value>
+            <value>
+                <fullName>Planning our lab relocation</fullName>
+                <default>false</default>
+                <label>Planning our lab relocation</label>
+            </value>
+            <value>
+                <fullName>Understanding diseases and why they occur</fullName>
+                <default>false</default>
+                <label>Understanding diseases and why they occur</label>
+            </value>
+            <value>
+                <fullName>Identifying and validating disease-relevant targets and leads</fullName>
+                <default>false</default>
+                <label>Identifying and validating disease-relevant targets and leads</label>
+            </value>
+            <value>
+                <fullName>Determining the safety and efficacy of a drug candidate prior to clinical trials</fullName>
+                <default>false</default>
+                <label>Determining the safety and efficacy of a drug candidate prior to clinical trials</label>
+            </value>
+            <value>
+                <fullName>Determining the efficacy and safety of a drug in human subjects</fullName>
+                <default>false</default>
+                <label>Determining the efficacy and safety of a drug in human subjects</label>
+            </value>
+            <value>
+                <fullName>Assuring science and risk-based drug manufacturing meets QbD and compliance regulations</fullName>
+                <default>false</default>
+                <label>Assuring science and risk-based drug manufacturing meets QbD and compliance regulations</label>
+            </value>
+            <value>
+                <fullName>Gaining critical insights from data analytics</fullName>
+                <default>false</default>
+                <label>Gaining critical insights from data analytics</label>
+            </value>
+            <value>
+                <fullName>Verification and Monitoring of Food Quality Standards</fullName>
+                <default>false</default>
+                <label>Verification and Monitoring of Food Quality Standards</label>
+            </value>
+            <value>
+                <fullName>Ensuring food safety and regulatory compliance</fullName>
+                <default>false</default>
+                <label>Ensuring food safety and regulatory compliance</label>
+            </value>
+            <value>
+                <fullName>Analyzing materials composition and performance</fullName>
+                <default>false</default>
+                <label>Analyzing materials composition and performance</label>
+            </value>
+            <value>
+                <fullName>Meeting chemical quality specifications and innovating next generation products</fullName>
+                <default>false</default>
+                <label>Meeting chemical quality specifications and innovating next generation products</label>
+            </value>
+            <value>
+                <fullName>Measuring a wide range of components in petrochemicals</fullName>
+                <default>false</default>
+                <label>Measuring a wide range of components in petrochemicals</label>
+            </value>
+            <value>
+                <fullName>Analytical testing to support the environmental requirements of the mining industry</fullName>
+                <default>false</default>
+                <label>Analytical testing to support the environmental requirements of the mining industry</label>
+            </value>
+            <value>
+                <fullName>Ensuring confident results in forensic and security applications</fullName>
+                <default>false</default>
+                <label>Ensuring confident results in forensic and security applications</label>
+            </value>
+            <value>
+                <fullName>Meeting the regulations and standards of safe drinking and environmental waters</fullName>
+                <default>false</default>
+                <label>Meeting the regulations and standards of safe drinking and environmental waters</label>
+            </value>
+            <value>
+                <fullName>Monitoring indoor and outdoor air to ensure compliance</fullName>
+                <default>false</default>
+                <label>Monitoring indoor and outdoor air to ensure compliance</label>
+            </value>
+            <value>
+                <fullName>Detecting soil contaminants and identifying unknown soil pollutants</fullName>
+                <default>false</default>
+                <label>Detecting soil contaminants and identifying unknown soil pollutants</label>
+            </value>
+            <value>
+                <fullName>Identifying the risk of pregnancy-related complications earlier</fullName>
+                <default>false</default>
+                <label>Identifying the risk of pregnancy-related complications earlier</label>
+            </value>
+            <value>
+                <fullName>Accurately detecting disorders in newborns earlier and more efficiently</fullName>
+                <default>false</default>
+                <label>Accurately detecting disorders in newborns earlier and more efficiently</label>
+            </value>
+            <value>
+                <fullName>Eliminating the challenges associated with genomic analysis</fullName>
+                <default>false</default>
+                <label>Eliminating the challenges associated with genomic analysis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

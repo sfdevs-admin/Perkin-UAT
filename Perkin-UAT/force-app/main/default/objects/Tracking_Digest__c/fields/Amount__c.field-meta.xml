@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount__c</fullName>
+    <description>The Converted Amount of the Opp
+(INC0298928) As per the Vibha Bhatia&#39;s request, we have changed the &quot;Amount &quot; field label to &quot;Amount Converted (USD)&quot;</description>
+    <externalId>false</externalId>
+    <label>Amount Converted (USD)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

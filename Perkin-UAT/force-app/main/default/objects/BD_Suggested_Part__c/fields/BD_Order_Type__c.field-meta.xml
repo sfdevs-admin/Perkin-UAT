@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Order_Type__c</fullName>
+    <label>Order Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administration</fullName>
+                <default>false</default>
+                <label>Administration</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Asset Genius</fullName>
+                <default>false</default>
+                <label>Asset Genius</label>
+            </value>
+            <value>
+                <fullName>Billable Calibration</fullName>
+                <default>false</default>
+                <label>Billable Calibration</label>
+            </value>
+            <value>
+                <fullName>Billable Install - Accessory</fullName>
+                <default>false</default>
+                <label>Billable Install - Accessory</label>
+            </value>
+            <value>
+                <fullName>Billable LabMetrix</fullName>
+                <default>false</default>
+                <label>Billable LabMetrix</label>
+            </value>
+            <value>
+                <fullName>Billable PM</fullName>
+                <default>false</default>
+                <label>Billable PM</label>
+            </value>
+            <value>
+                <fullName>Billable Qualification</fullName>
+                <default>false</default>
+                <label>Billable Qualification</label>
+            </value>
+            <value>
+                <fullName>Billable Repair</fullName>
+                <default>false</default>
+                <label>Billable Repair</label>
+            </value>
+            <value>
+                <fullName>Billable UOQ</fullName>
+                <default>false</default>
+                <label>Billable UOQ</label>
+            </value>
+            <value>
+                <fullName>Biomatic</fullName>
+                <default>false</default>
+                <label>Biomatic</label>
+            </value>
+            <value>
+                <fullName>Calibration</fullName>
+                <default>false</default>
+                <label>Calibration</label>
+            </value>
+            <value>
+                <fullName>Check</fullName>
+                <default>false</default>
+                <label>Check</label>
+            </value>
+            <value>
+                <fullName>Consumable sales on contract</fullName>
+                <default>false</default>
+                <label>Consumable sales on contract</label>
+            </value>
+            <value>
+                <fullName>Engineering Change Order</fullName>
+                <default>false</default>
+                <label>Engineering Change Order</label>
+            </value>
+            <value>
+                <fullName>Inside Service Call</fullName>
+                <default>false</default>
+                <label>Inside Service Call</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Installation Qualification</fullName>
+                <default>false</default>
+                <label>Installation Qualification</label>
+            </value>
+            <value>
+                <fullName>Instr. Performance Validation</fullName>
+                <default>false</default>
+                <label>Instr. Performance Validation</label>
+            </value>
+            <value>
+                <fullName>Labmetrix IQ</fullName>
+                <default>false</default>
+                <label>Labmetrix IQ</label>
+            </value>
+            <value>
+                <fullName>Laboratory IT</fullName>
+                <default>false</default>
+                <label>Laboratory IT</label>
+            </value>
+            <value>
+                <fullName>Move</fullName>
+                <default>false</default>
+                <label>Move</label>
+            </value>
+            <value>
+                <fullName>OQ/PQ</fullName>
+                <default>false</default>
+                <label>OQ/PQ</label>
+            </value>
+            <value>
+                <fullName>Out Of Scope</fullName>
+                <default>false</default>
+                <label>Out Of Scope</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Planned Maintenance</fullName>
+                <default>false</default>
+                <label>Planned Maintenance</label>
+            </value>
+            <value>
+                <fullName>Pre Install Visit</fullName>
+                <default>false</default>
+                <label>Pre Install Visit</label>
+            </value>
+            <value>
+                <fullName>Qualification - Lab Manager</fullName>
+                <default>false</default>
+                <label>Qualification - Lab Manager</label>
+            </value>
+            <value>
+                <fullName>Recondition</fullName>
+                <default>false</default>
+                <label>Recondition</label>
+            </value>
+            <value>
+                <fullName>Remote</fullName>
+                <default>false</default>
+                <label>Remote</label>
+            </value>
+            <value>
+                <fullName>Repair</fullName>
+                <default>false</default>
+                <label>Repair</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Scientific Services</fullName>
+                <default>false</default>
+                <label>Scientific Services</label>
+            </value>
+            <value>
+                <fullName>Site Audit</fullName>
+                <default>false</default>
+                <label>Site Audit</label>
+            </value>
+            <value>
+                <fullName>Software validation</fullName>
+                <default>false</default>
+                <label>Software validation</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Universal IQOQ</fullName>
+                <default>false</default>
+                <label>Universal IQOQ</label>
+            </value>
+            <value>
+                <fullName>Universal OQ</fullName>
+                <default>false</default>
+                <label>Universal OQ</label>
+            </value>
+            <value>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+            <value>
+                <fullName>Validation Services</fullName>
+                <default>false</default>
+                <label>Validation Services</label>
+            </value>
+            <value>
+                <fullName>Voucher sale - Parts only</fullName>
+                <default>false</default>
+                <label>Voucher sale - Parts only</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsQueueMember__c</fullName>
+    <description>formula to evaluate if the running user is included in the fxQueueMembers string of User Ids. We remove leading zeros from userID so we get 4 or 5 significant characters to compare by.</description>
+    <formula>CONTAINS(fxQueueMembers__c , SUBSTITUTE(SUBSTITUTE($User.fxUser8Char__c,&#39;0000&#39;,&#39;&#39;),&#39;000&#39;,&#39;&#39;)  )</formula>
+    <inlineHelpText>Used to determines if the running user is part of this queue owned interaction. Use in views for True = part of the queue</inlineHelpText>
+    <label>IsQueueMember</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

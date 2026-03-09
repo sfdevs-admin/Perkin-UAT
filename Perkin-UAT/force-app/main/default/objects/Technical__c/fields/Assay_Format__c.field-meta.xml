@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assay_Format__c</fullName>
+    <description>Assay Format (Source: S-692579)</description>
+    <label>Assay Format</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Biochemical</fullName>
+                <default>false</default>
+                <label>Biochemical</label>
+            </value>
+            <value>
+                <fullName>Cell-based</fullName>
+                <default>false</default>
+                <label>Cell-based</label>
+            </value>
+            <value>
+                <fullName>Tissue extracts/ endogenous material</fullName>
+                <default>false</default>
+                <label>Tissue extracts/ endogenous material</label>
+            </value>
+            <value>
+                <fullName>Other (inform your admin)</fullName>
+                <default>false</default>
+                <label>Other (inform your admin)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Recalculate_RCR__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Recalculate the Repair Callback Required (both 30 and 90 days)</description>
+    <inlineHelpText>Recalculate the Repair Callback Required (both 30 and 90 days)</inlineHelpText>
+    <label>Recalculate RCR</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

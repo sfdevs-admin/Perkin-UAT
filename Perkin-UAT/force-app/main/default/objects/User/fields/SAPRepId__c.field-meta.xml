@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAPRepId__c</fullName>
+    <description>this is the SAP Sales Rep ID. It is populated via automation, or manually</description>
+    <externalId>true</externalId>
+    <inlineHelpText>this is the SAP Sales Rep ID. It is populated via automation, or manually</inlineHelpText>
+    <label>SAP Rep Id</label>
+    <length>15</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

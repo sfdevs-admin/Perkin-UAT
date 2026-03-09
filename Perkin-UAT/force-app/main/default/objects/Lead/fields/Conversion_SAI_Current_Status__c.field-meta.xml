@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_SAI_Current_Status__c</fullName>
+    <formula>OR 
+( 
+IF(TEXT(Status_Strategic_Services__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Disease_Research__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Drug_Discovery__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Pre_Clinical_Studies__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Clinical_Studies__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_QA_QC_Drug_Manufacturing_Process__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Digital_Lab__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Food_Quality__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Food_Safety__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Material__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Chemicals__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Energy__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Geochemistry_Mining_and_Metals__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Forensics_and_Security__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Water__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Air__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Soil_Solids__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Maternal_Fetal_Health__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Newborn_Screening__c) = &#39;Converted to Opportunity&#39;, True, False), 
+IF(TEXT(Status_Applied_Genomics__c) = &#39;Converted to Opportunity&#39;, True, False) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Conversion SAI Current Status</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

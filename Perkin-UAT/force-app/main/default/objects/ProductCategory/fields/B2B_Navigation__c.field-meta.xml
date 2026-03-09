@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Navigation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>If true, user will be redirected to contact us page on store</inlineHelpText>
+    <label>B2B Navigation</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

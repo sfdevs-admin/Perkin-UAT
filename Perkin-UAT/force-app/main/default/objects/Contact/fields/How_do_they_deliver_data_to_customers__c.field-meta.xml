@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_do_they_deliver_data_to_customers__c</fullName>
+    <label>How do they deliver data to customers?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Manual email is sent</fullName>
+                <default>false</default>
+                <label>Manual email is sent</label>
+            </value>
+            <value>
+                <fullName>Software auto-sends via email</fullName>
+                <default>false</default>
+                <label>Software auto-sends via email</label>
+            </value>
+            <value>
+                <fullName>Manual upload to FTP Site</fullName>
+                <default>false</default>
+                <label>Manual upload to FTP Site</label>
+            </value>
+            <value>
+                <fullName>Manual transfer to CD-Rom</fullName>
+                <default>false</default>
+                <label>Manual transfer to CD-Rom</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ian_Sannes1</fullName>
+    <columns>Territory_Viacord__c</columns>
+    <columns>Sonocenter_ID__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_ZIP</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Viacord__c</field>
+        <operation>equals</operation>
+        <value>D401</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>NV,Nevada,CO,Colorado,Arizona,AZ</value>
+    </filters>
+    <label>D401 - ViaCord</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_001117</group>
+        <group>ARQ_001127</group>
+    </sharedTo>
+</ListView>

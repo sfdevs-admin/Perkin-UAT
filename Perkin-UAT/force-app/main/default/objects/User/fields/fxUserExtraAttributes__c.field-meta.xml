@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxUserExtraAttributes__c</fullName>
+    <description>We can apply multiple attributes to each user so these are used in fx Formula Fields, V.RULE, P.FLOW criteria, L.FLOW Criteria,</description>
+    <inlineHelpText>We can apply multiple attributes to each user so these are used in fx Formula Fields, V.RULE, P.FLOW criteria, L.FLOW Criteria,</inlineHelpText>
+    <label>fxUserExtraAttributes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1000-LDR</fullName>
+                <default>false</default>
+                <label>1000-LDR</label>
+            </value>
+            <value>
+                <fullName>1010-OneSource</fullName>
+                <default>false</default>
+                <label>1010-OneSource</label>
+            </value>
+            <value>
+                <fullName>1020-Create Dealer Opp</fullName>
+                <default>false</default>
+                <label>1020-Create Dealer Opp</label>
+            </value>
+            <value>
+                <fullName>1020-Create Dealer Opps</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1020-Create Dealer Opps</label>
+            </value>
+            <value>
+                <fullName>2000-SAP Not Required</fullName>
+                <default>false</default>
+                <label>2000-SAP Not Required</label>
+            </value>
+            <value>
+                <fullName>2010-QS3 Not Required</fullName>
+                <default>false</default>
+                <label>2010-QS3 Not Required</label>
+            </value>
+            <value>
+                <fullName>2020-SOS Not Required</fullName>
+                <default>false</default>
+                <label>2020-SOS Not Required</label>
+            </value>
+            <value>
+                <fullName>4000-Notify Exclude</fullName>
+                <default>false</default>
+                <label>4000-Notify Exclude</label>
+            </value>
+            <value>
+                <fullName>6110-Pricing Override China ELN</fullName>
+                <default>false</default>
+                <label>6110-Pricing Override China ELN</label>
+            </value>
+            <value>
+                <fullName>6200-Allow Delete Renewal Opp/Quote</fullName>
+                <default>false</default>
+                <label>6200-Allow Delete Renewal Opp/Quote</label>
+            </value>
+            <value>
+                <fullName>6210-Reject Opps</fullName>
+                <default>false</default>
+                <label>6210-Reject Opps</label>
+            </value>
+            <value>
+                <fullName>7010-Dynamic OBC Tag</fullName>
+                <default>false</default>
+                <label>7010-Dynamic OBC Tag</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FCO_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( FCO__r.FCO_Type__c,
+&quot;Important Field Safety Notice&quot;,&quot;Important Field Safety Notice&quot;,
+&quot;Important Field Safety Modification&quot;,&quot;Important Field Safety Modification&quot;,
+&quot;Important User Notice&quot;,&quot;Important User Notice&quot;,
+&quot;Important Product Modification&quot;,&quot;Important Product Modification&quot;,
+&quot;Product Bulletin&quot;,&quot;Product Bulletin&quot;,
+&quot;Product Modification&quot;,&quot;Product Modification&quot;,
+&quot;Product Recommendation&quot;,&quot;Product Recommendation&quot;,
+&quot;Internal Information Exchange&quot;,&quot;Internal Information Exchange&quot;,
+null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>FCO Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

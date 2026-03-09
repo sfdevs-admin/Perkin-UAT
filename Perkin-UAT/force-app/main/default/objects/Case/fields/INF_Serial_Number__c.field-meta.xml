@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Serial_Number__c</fullName>
+    <description>MG changed label 3 NOV  to  &#39;Activation Code&#39; per updated nomenclature inbound from WebForm (INF Supp)</description>
+    <externalId>false</externalId>
+    <label>Activation Code</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

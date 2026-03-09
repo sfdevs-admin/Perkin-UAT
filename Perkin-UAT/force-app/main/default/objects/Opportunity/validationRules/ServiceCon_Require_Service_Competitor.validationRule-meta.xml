@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ServiceCon_Require_Service_Competitor</fullName>
+    <active>true</active>
+    <description>Service Competitor is required when stage is Closed Lost and Closed Reasons is &#39;Using 3rd party service provider/in-house&#39;</description>
+    <errorConditionFormula>AND(  
+RecordType.DeveloperName = &quot;ServiceContract&quot;,  
+ISPICKVAL(StageName , &quot;Closed Lost&quot;), 
+ISPICKVAL(Closed_Reason__c , &quot;Using 3rd party service provider/in-house&quot;), 
+ISBLANK(TEXT(Service_Competitor__c) )
+)</errorConditionFormula>
+    <errorDisplayField>Service_Competitor__c</errorDisplayField>
+    <errorMessage>Service Competitor is required when stage is Closed Lost and Closed Reasons is &#39;Using 3rd party service provider/in-house&#39;.</errorMessage>
+</ValidationRule>

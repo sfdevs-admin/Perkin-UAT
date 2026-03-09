@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GROW__c</fullName>
+    <description>This ticket is created on behalf of Ateam-1910 to identify Grow interactions.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( GROW_Employee_Email__c )
+ ,&#39;&#39;
+ , IMAGE(&#39;/resource/Grow&#39;,&#39;Grow&#39;,25,25 ) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>It helps in identifying grow interactions.</inlineHelpText>
+    <label>GROW</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxFullName__c</fullName>
+    <description>S-692560/S-692561 -  Using this field for both the stories</description>
+    <externalId>false</externalId>
+    <formula>fxFirstName__c &amp; &quot; &quot; &amp;  fxLastName__c</formula>
+    <inlineHelpText>Concatenation of fxFirstName__c and  fxLastName__c and these values comes from either lead or contact record.</inlineHelpText>
+    <label>fxFullName</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

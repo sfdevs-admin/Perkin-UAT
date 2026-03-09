@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CA10_MRTs</fullName>
+    <columns>NAME</columns>
+    <columns>Sales_Person__c</columns>
+    <columns>Year__c</columns>
+    <columns>Month__c</columns>
+    <columns>Base_Target__c</columns>
+    <columns>Base_Target_Achieved__c</columns>
+    <columns>Commit_as_of_Base_Target__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>hey,freeman,chalhoub,hudson,pineault</value>
+    </filters>
+    <label>CA10 MRTs</label>
+    <language>en_US</language>
+</ListView>

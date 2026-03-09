@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEO_Assets</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>Product_Line__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>System_ID__c</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>NAP</value>
+    </filters>
+    <label>NAP Assets</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000778</group>
+        <group>ARQ_000788</group>
+        <group>ARQ_000789</group>
+        <group>ARQ_000794</group>
+        <group>ARQ_000795</group>
+        <group>ARQ_000796</group>
+        <group>ARQ_000797</group>
+        <group>ARQ_000799</group>
+    </sharedTo>
+</ListView>

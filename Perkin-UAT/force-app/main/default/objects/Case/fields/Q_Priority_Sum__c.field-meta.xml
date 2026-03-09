@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_Priority_Sum__c</fullName>
+    <externalId>false</externalId>
+    <formula>(IF(ISPICKVAL(  Type, &quot;Out of Box Failure&quot;), 30, 0))
++ 
+Product_Score__r.Product_Weight__c 
++
+(IF( ISPICKVAL( Q_Severity__c  , &quot;Serious&quot;), 15, (IF(ISPICKVAL( Q_Severity__c , &quot;Medium&quot;), 5, (IF(ISPICKVAL( Q_Severity__c, &quot;Minimal&quot;), 1, 0))))))
++
+(IF(ISPICKVAL( Q_Complaint__c , &quot;Yes&quot;), 10, 0))
++
+(IF( ISPICKVAL(  Q_Safety_Concern__c  , &quot;Serious&quot;), 10, (IF(ISPICKVAL( Q_Safety_Concern__c , &quot;Possible&quot;), 5, (IF(ISPICKVAL( Q_Safety_Concern__c , &quot;Minimal&quot;), 1, 0))))))
++
+(IF( ISPICKVAL(  Q_Revenue_Impact__c  , &quot;High&quot;), 10, (IF(ISPICKVAL(Q_Revenue_Impact__c , &quot;Medium&quot;), 5, (IF(ISPICKVAL(Q_Revenue_Impact__c , &quot;Low&quot;), 1, 0))))))
++
+(IF( ISPICKVAL( Q_Occurrences__c , &quot;1&quot;), 1,  (IF(ISPICKVAL( Q_Occurrences__c , &quot;2 - 5&quot;), 3, (IF(ISPICKVAL( Q_Occurrences__c , &quot;5 or More&quot;), 5, 0))))))
++
+(IF( ISPICKVAL( Q_Exposure__c  , &quot;All Customers&quot;), 5, (IF(ISPICKVAL( Q_Exposure__c , &quot;Product Line&quot;), 3, (IF(ISPICKVAL( Q_Exposure__c, &quot;Single&quot;), 1, 0))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Priority Sum</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Support_Required__c</fullName>
+    <label>Type of Support Required</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>Instruction/Training</fullName>
+                <default>false</default>
+                <label>Instruction/Training</label>
+            </value>
+            <value>
+                <fullName>Misdirected</fullName>
+                <default>false</default>
+                <label>Misdirected</label>
+            </value>
+            <value>
+                <fullName>Part Number</fullName>
+                <default>false</default>
+                <label>Part Number</label>
+            </value>
+            <value>
+                <fullName>Repair</fullName>
+                <default>false</default>
+                <label>Repair</label>
+            </value>
+            <value>
+                <fullName>Sale/Upgrade Lead</fullName>
+                <default>false</default>
+                <label>Sale/Upgrade Lead</label>
+            </value>
+            <value>
+                <fullName>Service Visit</fullName>
+                <default>false</default>
+                <label>Service Visit</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Remote Diagnostics</fullName>
+                <default>false</default>
+                <label>Remote Diagnostics</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

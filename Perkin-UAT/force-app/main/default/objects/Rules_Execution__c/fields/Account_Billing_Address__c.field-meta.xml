@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Billing_Address__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>If TRUE, used to run validation rules on Account&#39;s Billing Address.</description>
+    <label>Account Billing Address</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

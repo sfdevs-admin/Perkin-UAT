@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_rad_Labeling__c</fullName>
+    <label>Non-rad Labeling</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PKI</fullName>
+                <default>false</default>
+                <label>PKI</label>
+            </value>
+            <value>
+                <fullName>Amersham</fullName>
+                <default>false</default>
+                <label>Amersham</label>
+            </value>
+            <value>
+                <fullName>Mol Probes</fullName>
+                <default>false</default>
+                <label>Mol Probes</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

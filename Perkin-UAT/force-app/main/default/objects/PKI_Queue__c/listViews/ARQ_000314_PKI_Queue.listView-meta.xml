@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_000314_PKI_Queue</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: Solus Americas US East</label>
+    <queue>ARQ_000234</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

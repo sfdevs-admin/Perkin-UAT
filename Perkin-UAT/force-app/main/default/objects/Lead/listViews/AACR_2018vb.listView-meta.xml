@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AACR_2018vb</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LST_Send_Info_Only__c</columns>
+    <columns>eq_Default_MQL__c</columns>
+    <columns>NONMQL__c</columns>
+    <columns>MQL__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Standard_Default</value>
+    </filters>
+    <filters>
+        <field>LST_Send_Info_Only__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Middleton</value>
+    </filters>
+    <filters>
+        <field>UPDATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>vbhat</value>
+    </filters>
+    <label>AACR 2018vb</label>
+    <language>en_US</language>
+</ListView>

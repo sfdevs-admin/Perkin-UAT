@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_select_TXObj_to_enter_TXnumber</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(Reference_Transaction_Number__c))
+,ISBLANK(TEXT( Reference_Transaction_Object__c))
+)</errorConditionFormula>
+    <errorDisplayField>Reference_Transaction_Object__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_029: Please select a Reference Transaction Object if you have populated Reference Transaction Number.</errorMessage>
+</ValidationRule>

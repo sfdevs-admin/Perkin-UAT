@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Order_Type__c</fullName>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Order Type</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billable Calibration</fullName>
+                <default>true</default>
+                <label>Billable Calibration</label>
+            </value>
+            <value>
+                <fullName>Billable LabMetrix</fullName>
+                <default>false</default>
+                <label>Billable LabMetrix</label>
+            </value>
+            <value>
+                <fullName>Billable PM</fullName>
+                <default>false</default>
+                <label>Billable PM</label>
+            </value>
+            <value>
+                <fullName>Billable Qualification</fullName>
+                <default>false</default>
+                <label>Billable Qualification</label>
+            </value>
+            <value>
+                <fullName>Billable UOQ</fullName>
+                <default>false</default>
+                <label>Billable UOQ</label>
+            </value>
+            <value>
+                <fullName>Calibration</fullName>
+                <default>false</default>
+                <label>Calibration</label>
+            </value>
+            <value>
+                <fullName>Check</fullName>
+                <default>false</default>
+                <label>Check</label>
+            </value>
+            <value>
+                <fullName>Instr. Performance Validation</fullName>
+                <default>false</default>
+                <label>Instr. Performance Validation</label>
+            </value>
+            <value>
+                <fullName>OQ/PQ</fullName>
+                <default>false</default>
+                <label>OQ/PQ</label>
+            </value>
+            <value>
+                <fullName>Planned Maintenance</fullName>
+                <default>false</default>
+                <label>Planned Maintenance</label>
+            </value>
+            <value>
+                <fullName>Qualification - Lab Manager</fullName>
+                <default>false</default>
+                <label>Qualification - Lab Manager</label>
+            </value>
+            <value>
+                <fullName>Software validation</fullName>
+                <default>false</default>
+                <label>Software validation</label>
+            </value>
+            <value>
+                <fullName>Universal IQOQ</fullName>
+                <default>false</default>
+                <label>Universal IQOQ</label>
+            </value>
+            <value>
+                <fullName>Universal OQ</fullName>
+                <default>false</default>
+                <label>Universal OQ</label>
+            </value>
+            <value>
+                <fullName>Validation Services</fullName>
+                <default>false</default>
+                <label>Validation Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,1949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Assay__c</fullName>
+    <label>Assay</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>DX_Platform__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>17-OHP</fullName>
+                <default>false</default>
+                <label>17-OHP</label>
+            </value>
+            <value>
+                <fullName>25-OH Vitamin D EQ 6411</fullName>
+                <default>false</default>
+                <label>25-OH Vitamin D (EQ 6411)</label>
+            </value>
+            <value>
+                <fullName>6 BIOCHIP IFA Slides</fullName>
+                <default>false</default>
+                <label>6 BIOCHIP IFA Slides</label>
+            </value>
+            <value>
+                <fullName>9 Biochip IFA Slides</fullName>
+                <default>false</default>
+                <label>9 Biochip IFA Slides</label>
+            </value>
+            <value>
+                <fullName>aCGH reagents</fullName>
+                <default>false</default>
+                <label>aCGH reagents</label>
+            </value>
+            <value>
+                <fullName>ANA HEp-20-10 IFA</fullName>
+                <default>false</default>
+                <label>ANA HEp-20-10 IFA</label>
+            </value>
+            <value>
+                <fullName>ANA IFA 40</fullName>
+                <default>false</default>
+                <label>ANA IFA 40</label>
+            </value>
+            <value>
+                <fullName>ANA Profile 3 plus DFS70 IgG</fullName>
+                <default>false</default>
+                <label>ANA Profile 3 plus DFS70 IgG</label>
+            </value>
+            <value>
+                <fullName>ANA Screen dsDNA IgG</fullName>
+                <default>false</default>
+                <label>ANA Screen dsDNA IgG</label>
+            </value>
+            <value>
+                <fullName>ANCA Mosaic 13</fullName>
+                <default>false</default>
+                <label>ANCA Mosaic 13</label>
+            </value>
+            <value>
+                <fullName>ANCA Profile PR3, MPO IgG</fullName>
+                <default>false</default>
+                <label>ANCA Profile PR3, MPO IgG</label>
+            </value>
+            <value>
+                <fullName>Anti-B. Bburg US EUROLINE-WB IgM (DY 2133-1 M)</fullName>
+                <default>false</default>
+                <label>Anti-B. Bburg US EUROLINE-WB IgM (DY 2133-1 M)</label>
+            </value>
+            <value>
+                <fullName>Anti-B. burg US WESTERNBLOT IgG (DY 2133 G)</fullName>
+                <default>false</default>
+                <label>Anti-B. burg US WESTERNBLOT IgG (DY 2133 G)</label>
+            </value>
+            <value>
+                <fullName>Antibodies against Neuronal Angtigens IgG (DL 1111 #G)</fullName>
+                <default>false</default>
+                <label>Antibodies against Neuronal Angtigens IgG (DL 1111 #G)</label>
+            </value>
+            <value>
+                <fullName>Anti-Chlamydia MIF IgG (FI 2191-2010-3 G)</fullName>
+                <default>false</default>
+                <label>Anti-Chlamydia MIF IgG (FI 2191-2010-3 G)</label>
+            </value>
+            <value>
+                <fullName>Anti-Chlamydia MIF IgM (FI 2191-2010-3 M)</fullName>
+                <default>false</default>
+                <label>Anti-Chlamydia MIF IgM (FI 2191-2010-3 M)</label>
+            </value>
+            <value>
+                <fullName>Anti-Chlamydia MIF lgA (FI 2191-2010-80 A)</fullName>
+                <default>false</default>
+                <label>Anti-Chlamydia MIF lgA (FI 2191-2010-80 A)</label>
+            </value>
+            <value>
+                <fullName>Anti-Glutamate Receptor NMDA</fullName>
+                <default>false</default>
+                <label>Anti-Glutamate Receptor NMDA</label>
+            </value>
+            <value>
+                <fullName>Anti-SARS-CoV-2 IgG</fullName>
+                <default>false</default>
+                <label>Anti-SARS-CoV-2 IgG</label>
+            </value>
+            <value>
+                <fullName>Anti-THSD7A</fullName>
+                <default>false</default>
+                <label>Anti-THSD7A</label>
+            </value>
+            <value>
+                <fullName>Autoimm Encephalitis Mosaic 1</fullName>
+                <default>false</default>
+                <label>Autoimm Encephalitis Mosaic 1</label>
+            </value>
+            <value>
+                <fullName>Autoimm Encephalitis Mosaic 12</fullName>
+                <default>false</default>
+                <label>Autoimm Encephalitis Mosaic 12</label>
+            </value>
+            <value>
+                <fullName>Autoimm Inflam Myopathies 16 Ag</fullName>
+                <default>false</default>
+                <label>Autoimm Inflam Myopathies 16 Ag</label>
+            </value>
+            <value>
+                <fullName>Autoimm Inflam Myopathies IgG</fullName>
+                <default>false</default>
+                <label>Autoimm Inflam Myopathies IgG</label>
+            </value>
+            <value>
+                <fullName>Autoimmune Inflammatory Myopathies 16 Ag IgG (DL 1530-4 G)</fullName>
+                <default>false</default>
+                <label>Autoimmune Inflammatory Myopathies 16 Ag IgG (DL 1530-4 G)</label>
+            </value>
+            <value>
+                <fullName>B. abortus IgG</fullName>
+                <default>false</default>
+                <label>B. abortus IgG</label>
+            </value>
+            <value>
+                <fullName>B. abortus IgM</fullName>
+                <default>false</default>
+                <label>B. abortus IgM</label>
+            </value>
+            <value>
+                <fullName>B. henselae/quintana IgG</fullName>
+                <default>false</default>
+                <label>B. henselae/quintana IgG</label>
+            </value>
+            <value>
+                <fullName>B. henselae/quintana IgM</fullName>
+                <default>false</default>
+                <label>B. henselae/quintana IgM</label>
+            </value>
+            <value>
+                <fullName>Biotinidase</fullName>
+                <default>false</default>
+                <label>Biotinidase</label>
+            </value>
+            <value>
+                <fullName>BioTx</fullName>
+                <default>false</default>
+                <label>BioTx</label>
+            </value>
+            <value>
+                <fullName>Brucella abortus IgG EI 2189 G</fullName>
+                <default>false</default>
+                <label>Brucella abortus IgG (EI 2189 G)</label>
+            </value>
+            <value>
+                <fullName>Brucella abortus IgM EI 2189 M</fullName>
+                <default>false</default>
+                <label>Brucella abortus IgM (EI 2189 M)</label>
+            </value>
+            <value>
+                <fullName>C. jejuni IgG</fullName>
+                <default>false</default>
+                <label>C. jejuni IgG</label>
+            </value>
+            <value>
+                <fullName>C. pneumoniae IgG</fullName>
+                <default>false</default>
+                <label>C. pneumoniae IgG</label>
+            </value>
+            <value>
+                <fullName>Campylobacter jejuni IgG (FI 2091-1010 G)</fullName>
+                <default>false</default>
+                <label>Campylobacter jejuni IgG (FI 2091-1010 G)</label>
+            </value>
+            <value>
+                <fullName>Capillarys Neo Hb reagent</fullName>
+                <default>false</default>
+                <label>Capillarys Neo Hb reagent</label>
+            </value>
+            <value>
+                <fullName>Cardiolipin AMA M1 IgG/A/M (EA 1621 G/A/M)</fullName>
+                <default>false</default>
+                <label>Cardiolipin AMA M1 IgG/A/M (EA 1621 G/A/M)</label>
+            </value>
+            <value>
+                <fullName>Carry-over</fullName>
+                <default>false</default>
+                <label>Carry-over</label>
+            </value>
+            <value>
+                <fullName>CASPR2</fullName>
+                <default>false</default>
+                <label>CASPR2</label>
+            </value>
+            <value>
+                <fullName>cCMV</fullName>
+                <default>false</default>
+                <label>cCMV</label>
+            </value>
+            <value>
+                <fullName>CCP IgG</fullName>
+                <default>false</default>
+                <label>CCP IgG</label>
+            </value>
+            <value>
+                <fullName>Cell::explorer</fullName>
+                <default>false</default>
+                <label>Cell::explorer</label>
+            </value>
+            <value>
+                <fullName>cell nuclei ANA IFA 40</fullName>
+                <default>false</default>
+                <label>cell nuclei ANA IFA 40</label>
+            </value>
+            <value>
+                <fullName>cell nuclei ANA IFA 40 EUROPattern</fullName>
+                <default>false</default>
+                <label>cell nuclei ANA IFA 40 EUROPattern</label>
+            </value>
+            <value>
+                <fullName>Centromeres (EA 1611 G)</fullName>
+                <default>false</default>
+                <label>Centromeres (EA 1611 G)</label>
+            </value>
+            <value>
+                <fullName>Chemagen reagents</fullName>
+                <default>false</default>
+                <label>Chemagen reagents</label>
+            </value>
+            <value>
+                <fullName>Chik virus IgG EI 293a G</fullName>
+                <default>false</default>
+                <label>Chikungunya virus IgG (EI 293a G)</label>
+            </value>
+            <value>
+                <fullName>Chik virus IgM EI 293a M</fullName>
+                <default>false</default>
+                <label>Chikungunya virus IgM (EI 293a M)</label>
+            </value>
+            <value>
+                <fullName>Chlamydia pneumoniae IgG (FI 2192-2010-80 G)</fullName>
+                <default>false</default>
+                <label>Chlamydia pneumoniae IgG (FI 2192-2010-80 G)</label>
+            </value>
+            <value>
+                <fullName>CK-MM</fullName>
+                <default>false</default>
+                <label>CK-MM</label>
+            </value>
+            <value>
+                <fullName>Consolidation</fullName>
+                <default>false</default>
+                <label>Consolidation</label>
+            </value>
+            <value>
+                <fullName>Constitutional BoBs</fullName>
+                <default>false</default>
+                <label>Constitutional BoBs</label>
+            </value>
+            <value>
+                <fullName>COVID-19-PCR-AUS-C</fullName>
+                <default>false</default>
+                <label>COVID-19-PCR-AUS-C</label>
+            </value>
+            <value>
+                <fullName>CV2.1</fullName>
+                <default>false</default>
+                <label>CV2.1</label>
+            </value>
+            <value>
+                <fullName>DNA 12K</fullName>
+                <default>false</default>
+                <label>DNA 12K</label>
+            </value>
+            <value>
+                <fullName>DNA 1K</fullName>
+                <default>false</default>
+                <label>DNA 1K</label>
+            </value>
+            <value>
+                <fullName>DNA 5K</fullName>
+                <default>false</default>
+                <label>DNA 5K</label>
+            </value>
+            <value>
+                <fullName>DNA Hi Sens</fullName>
+                <default>false</default>
+                <label>DNA Hi Sens</label>
+            </value>
+            <value>
+                <fullName>DNA NGS 3K</fullName>
+                <default>false</default>
+                <label>DNA NGS 3K</label>
+            </value>
+            <value>
+                <fullName>DropPlate16-D+ Chips</fullName>
+                <default>false</default>
+                <label>DropPlate16-D+ Chips</label>
+            </value>
+            <value>
+                <fullName>DropPlate16-S Chips</fullName>
+                <default>false</default>
+                <label>DropPlate16-S Chips</label>
+            </value>
+            <value>
+                <fullName>DropPlate96-D+ Chips</fullName>
+                <default>false</default>
+                <label>DropPlate96-D+ Chips</label>
+            </value>
+            <value>
+                <fullName>DropPlate96-S Chips</fullName>
+                <default>false</default>
+                <label>DropPlate96-S Chips</label>
+            </value>
+            <value>
+                <fullName>dsDNA-NcX IgG EA 1572 G</fullName>
+                <default>false</default>
+                <label>dsDNA-NcX IgG (EA 1572 G)</label>
+            </value>
+            <value>
+                <fullName>EBNA-1 IgG EI 2793 G</fullName>
+                <default>false</default>
+                <label>EBNA-1 IgG (EI 2793 G)</label>
+            </value>
+            <value>
+                <fullName>ELISA ANCA Profile proteinase (EA 1200-1 G)</fullName>
+                <default>false</default>
+                <label>ELISA ANCA Profile proteinase (EA 1200-1 G)</label>
+            </value>
+            <value>
+                <fullName>ELISA Cyclic citruilinated peptide (EA 1505 G)</fullName>
+                <default>false</default>
+                <label>ELISA Cyclic citruilinated peptide (EA 1505 G)</label>
+            </value>
+            <value>
+                <fullName>ELISA  HSV-2 incl IgG/RF absorbent IgM (EI 2532-2 M)</fullName>
+                <default>false</default>
+                <label>ELISA  HSV-2 incl IgG/RF absorbent IgM (EI 2532-2 M)</label>
+            </value>
+            <value>
+                <fullName>ELISA PM-SCL recombinant IgG (EA 1584 G)</fullName>
+                <default>false</default>
+                <label>ELISA PM-SCL recombinant IgG (EA 1584 G)</label>
+            </value>
+            <value>
+                <fullName>EmA IgA</fullName>
+                <default>false</default>
+                <label>EmA IgA</label>
+            </value>
+            <value>
+                <fullName>Eonis™ SCID-SMA (IVD)</fullName>
+                <default>false</default>
+                <label>Eonis™ SCID-SMA (IVD)</label>
+            </value>
+            <value>
+                <fullName>Eonis™ SCID-SMA Assay</fullName>
+                <default>false</default>
+                <label>Eonis™ SCID-SMA Assay</label>
+            </value>
+            <value>
+                <fullName>Eonis™ SMN1, TREC, KREC (RUO)</fullName>
+                <default>false</default>
+                <label>Eonis™ SMN1, TREC, KREC (RUO)</label>
+            </value>
+            <value>
+                <fullName>EUROLINE ANA Profile 3 plus DFS70 IgG (DL 1590-30 G)</fullName>
+                <default>false</default>
+                <label>EUROLINE ANA Profile 3 plus DFS70 IgG (DL 1590-30 G)</label>
+            </value>
+            <value>
+                <fullName>EUROLINE Myositis Profile 3 IgG (DL 1530-3 G)</fullName>
+                <default>false</default>
+                <label>EUROLINE Myositis Profile 3 IgG (DL 1530-3 G)</label>
+            </value>
+            <value>
+                <fullName>EUROLINE Systemic Sclerosis Profile 12 Ag IgG (DL 1532 -12G)</fullName>
+                <default>false</default>
+                <label>EUROLINE Systemic Sclerosis Profile 12 Ag IgG (DL 1532 -12G)</label>
+            </value>
+            <value>
+                <fullName>EUROLINE-WB B burgdorferi USA IgM</fullName>
+                <default>false</default>
+                <label>EUROLINE-WB B burgdorferi USA IgM</label>
+            </value>
+            <value>
+                <fullName>FragilEase</fullName>
+                <default>false</default>
+                <label>FragilEase</label>
+            </value>
+            <value>
+                <fullName>Free hCGB</fullName>
+                <default>false</default>
+                <label>Free hCGB</label>
+            </value>
+            <value>
+                <fullName>FT4</fullName>
+                <default>false</default>
+                <label>FT4</label>
+            </value>
+            <value>
+                <fullName>G6PD</fullName>
+                <default>false</default>
+                <label>G6PD</label>
+            </value>
+            <value>
+                <fullName>GALT</fullName>
+                <default>false</default>
+                <label>GALT</label>
+            </value>
+            <value>
+                <fullName>Genomic DNA</fullName>
+                <default>false</default>
+                <label>Genomic DNA</label>
+            </value>
+            <value>
+                <fullName>Gliadin IgA (GAF-3X) (EV 3011 A)</fullName>
+                <default>false</default>
+                <label>Gliadin IgA (GAF-3X) (EV 3011 A)</label>
+            </value>
+            <value>
+                <fullName>Gliadin IgG (GAF-3X) (EV 3011 G)</fullName>
+                <default>false</default>
+                <label>Gliadin IgG (GAF-3X) (EV 3011 G)</label>
+            </value>
+            <value>
+                <fullName>Glycan</fullName>
+                <default>false</default>
+                <label>Glycan</label>
+            </value>
+            <value>
+                <fullName>hAFP</fullName>
+                <default>false</default>
+                <label>hAFP</label>
+            </value>
+            <value>
+                <fullName>hAFP/Free hCGB</fullName>
+                <default>false</default>
+                <label>hAFP/Free hCGB</label>
+            </value>
+            <value>
+                <fullName>Hb FASC Control Kit</fullName>
+                <default>false</default>
+                <label>Hb FASC Control Kit</label>
+            </value>
+            <value>
+                <fullName>hCG</fullName>
+                <default>false</default>
+                <label>hCG</label>
+            </value>
+            <value>
+                <fullName>Heliobacter pylori IgA (EI 2080 A)</fullName>
+                <default>false</default>
+                <label>Heliobacter pylori IgA (EI 2080 A)</label>
+            </value>
+            <value>
+                <fullName>Heliobacter pylori IgG (EI 2080 G)</fullName>
+                <default>false</default>
+                <label>Heliobacter pylori IgG (EI 2080 G)</label>
+            </value>
+            <value>
+                <fullName>Hemoglobin Kit</fullName>
+                <default>false</default>
+                <label>Hemoglobin Kit</label>
+            </value>
+            <value>
+                <fullName>hFSH</fullName>
+                <default>false</default>
+                <label>hFSH</label>
+            </value>
+            <value>
+                <fullName>Histones (EA 1560 G)</fullName>
+                <default>false</default>
+                <label>Histones (EA 1560 G)</label>
+            </value>
+            <value>
+                <fullName>HIV p24</fullName>
+                <default>false</default>
+                <label>HIV p24</label>
+            </value>
+            <value>
+                <fullName>hLH Spec</fullName>
+                <default>false</default>
+                <label>hLH Spec</label>
+            </value>
+            <value>
+                <fullName>HSV-2 incl IgG/IgM</fullName>
+                <default>false</default>
+                <label>HSV-2 incl IgG/IgM</label>
+            </value>
+            <value>
+                <fullName>hTSH</fullName>
+                <default>false</default>
+                <label>hTSH</label>
+            </value>
+            <value>
+                <fullName>hTSH Ultra</fullName>
+                <default>false</default>
+                <label>hTSH Ultra</label>
+            </value>
+            <value>
+                <fullName>IFA: Endomysium (FC 1911 A)</fullName>
+                <default>false</default>
+                <label>IFA: Endomysium (FC 1911 A)</label>
+            </value>
+            <value>
+                <fullName>IFA: Granulocyte Mosaic 13 (FC 1201-13)</fullName>
+                <default>false</default>
+                <label>IFA: Granulocyte Mosaic 13 (FC 1201-13)</label>
+            </value>
+            <value>
+                <fullName>IFA: Granulocyte Mosaic 2 (FC 1201-2)</fullName>
+                <default>false</default>
+                <label>IFA: Granulocyte Mosaic 2 (FC 1201-2)</label>
+            </value>
+            <value>
+                <fullName>IFA: Granulocyte Mosaic 32 (FC 1201-32)</fullName>
+                <default>false</default>
+                <label>IFA: Granulocyte Mosaic 32 (FC 1201-32)</label>
+            </value>
+            <value>
+                <fullName>IFA 40: Hep-20-10 (FC 1522-1)</fullName>
+                <default>false</default>
+                <label>IFA 40: Hep-20-10 (FC 1522-1)</label>
+            </value>
+            <value>
+                <fullName>Infectious Serology-TF</fullName>
+                <default>false</default>
+                <label>Infectious Serology-TF</label>
+            </value>
+            <value>
+                <fullName>Inhibin A</fullName>
+                <default>false</default>
+                <label>Inhibin A</label>
+            </value>
+            <value>
+                <fullName>IRT</fullName>
+                <default>false</default>
+                <label>IRT</label>
+            </value>
+            <value>
+                <fullName>Jo-1 (EA 1661 G)</fullName>
+                <default>false</default>
+                <label>Jo-1 (EA 1661 G)</label>
+            </value>
+            <value>
+                <fullName>KaryoLite BoBs</fullName>
+                <default>false</default>
+                <label>KaryoLite BoBs</label>
+            </value>
+            <value>
+                <fullName>LGI1</fullName>
+                <default>false</default>
+                <label>LGI1</label>
+            </value>
+            <value>
+                <fullName>Low MW Protein Express</fullName>
+                <default>false</default>
+                <label>Low MW Protein Express</label>
+            </value>
+            <value>
+                <fullName>LSD</fullName>
+                <default>false</default>
+                <label>LSD</label>
+            </value>
+            <value>
+                <fullName>Lyme IgGM (EI 2132-24 O)</fullName>
+                <default>false</default>
+                <label>Lyme IgGM (EI 2132-24 O)</label>
+            </value>
+            <value>
+                <fullName>Migele GEU</fullName>
+                <default>false</default>
+                <label>Migele GEU</label>
+            </value>
+            <value>
+                <fullName>Mosaic Coxsackie virus A IgG (FI 2730 G)</fullName>
+                <default>false</default>
+                <label>Mosaic Coxsackie virus A IgG (FI 2730 G)</label>
+            </value>
+            <value>
+                <fullName>Mosaic Coxsackie virus A IgM (FI 2730 M)</fullName>
+                <default>false</default>
+                <label>Mosaic Coxsackie virus A IgM (FI 2730 M)</label>
+            </value>
+            <value>
+                <fullName>MSMS Workstation</fullName>
+                <default>false</default>
+                <label>MSMS Workstation</label>
+            </value>
+            <value>
+                <fullName>MUP-44  NT5C1A (EA 1675-4801 G)</fullName>
+                <default>false</default>
+                <label>MUP-44  NT5C1A (EA 1675-4801 G)</label>
+            </value>
+            <value>
+                <fullName>Myositis Profile - Quest (DM 1530-1601-11 G)</fullName>
+                <default>false</default>
+                <label>Myositis Profile - Quest (DM 1530-1601-11 G)</label>
+            </value>
+            <value>
+                <fullName>NeoBase</fullName>
+                <default>false</default>
+                <label>NeoBase</label>
+            </value>
+            <value>
+                <fullName>NeoBase2</fullName>
+                <default>false</default>
+                <label>NeoBase2</label>
+            </value>
+            <value>
+                <fullName>NeoGram</fullName>
+                <default>false</default>
+                <label>NeoGram</label>
+            </value>
+            <value>
+                <fullName>NeoLSD 7-plex</fullName>
+                <default>false</default>
+                <label>NeoLSD 7-plex</label>
+            </value>
+            <value>
+                <fullName>NeoMDx™PCR Reagent</fullName>
+                <default>false</default>
+                <label>NeoMDx™PCR Reagent</label>
+            </value>
+            <value>
+                <fullName>Neuronal Ag Profile 8</fullName>
+                <default>false</default>
+                <label>Neuronal Ag Profile 8</label>
+            </value>
+            <value>
+                <fullName>NEXTflex reagents</fullName>
+                <default>false</default>
+                <label>NEXTflex reagents</label>
+            </value>
+            <value>
+                <fullName>NGS</fullName>
+                <default>false</default>
+                <label>NGS</label>
+            </value>
+            <value>
+                <fullName>NGS - NEX</fullName>
+                <default>false</default>
+                <label>NGS - NEX</label>
+            </value>
+            <value>
+                <fullName>nRNP/Sm IgG (EA 1591 G)</fullName>
+                <default>false</default>
+                <label>nRNP/Sm IgG (EA 1591 G)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PAPP-A</fullName>
+                <default>false</default>
+                <label>PAPP-A</label>
+            </value>
+            <value>
+                <fullName>PAPP-A/Free hCGB Dual DBS</fullName>
+                <default>false</default>
+                <label>PAPP-A/Free hCGB Dual DBS</label>
+            </value>
+            <value>
+                <fullName>Paraneoplastic Neurologic Syndromes (DL 1111-7G)</fullName>
+                <default>false</default>
+                <label>Paraneoplastic Neurologic Syndromes (DL 1111-7G)</label>
+            </value>
+            <value>
+                <fullName>PCR / HIV – HBV</fullName>
+                <default>false</default>
+                <label>PCR / HIV – HBV</label>
+            </value>
+            <value>
+                <fullName>PCR / HIV – HCV</fullName>
+                <default>false</default>
+                <label>PCR / HIV – HCV</label>
+            </value>
+            <value>
+                <fullName>Phenylalanine</fullName>
+                <default>false</default>
+                <label>Phenylalanine</label>
+            </value>
+            <value>
+                <fullName>Phosphatidylserine IgG/A/M (EA 162a G/A/M)</fullName>
+                <default>false</default>
+                <label>Phosphatidylserine IgG/A/M (EA 162a G/A/M)</label>
+            </value>
+            <value>
+                <fullName>Picoplex WGA</fullName>
+                <default>false</default>
+                <label>Picoplex WGA</label>
+            </value>
+            <value>
+                <fullName>Pico Protein Express</fullName>
+                <default>false</default>
+                <label>Pico Protein Express</label>
+            </value>
+            <value>
+                <fullName>PIFG</fullName>
+                <default>false</default>
+                <label>PIFG</label>
+            </value>
+            <value>
+                <fullName>PIGF</fullName>
+                <default>false</default>
+                <label>PIGF</label>
+            </value>
+            <value>
+                <fullName>PKAMP RESPIRATORY SARS-COV-2 RT-PCR PANEL</fullName>
+                <default>false</default>
+                <label>PKAMP RESPIRATORY SARS-COV-2 RT-PCR PANEL</label>
+            </value>
+            <value>
+                <fullName>PLA2 receptor</fullName>
+                <default>false</default>
+                <label>PLA2 receptor</label>
+            </value>
+            <value>
+                <fullName>PLA2R IgG (EA 1254 G)</fullName>
+                <default>false</default>
+                <label>PLA2R IgG (EA 1254 G)</label>
+            </value>
+            <value>
+                <fullName>Plate::handler Flex750</fullName>
+                <default>false</default>
+                <label>Plate::handler Flex750</label>
+            </value>
+            <value>
+                <fullName>PlGF</fullName>
+                <default>false</default>
+                <label>PlGF</label>
+            </value>
+            <value>
+                <fullName>PM-SCI recombinant IgG</fullName>
+                <default>false</default>
+                <label>PM-SCI recombinant IgG</label>
+            </value>
+            <value>
+                <fullName>Pooling</fullName>
+                <default>false</default>
+                <label>Pooling</label>
+            </value>
+            <value>
+                <fullName>Prenatal BoBs</fullName>
+                <default>false</default>
+                <label>Prenatal BoBs</label>
+            </value>
+            <value>
+                <fullName>Prolactin</fullName>
+                <default>false</default>
+                <label>Prolactin</label>
+            </value>
+            <value>
+                <fullName>Protein Charge Variant</fullName>
+                <default>false</default>
+                <label>Protein Charge Variant</label>
+            </value>
+            <value>
+                <fullName>Protein Clear</fullName>
+                <default>false</default>
+                <label>Protein Clear</label>
+            </value>
+            <value>
+                <fullName>Protein EXACT</fullName>
+                <default>false</default>
+                <label>Protein EXACT</label>
+            </value>
+            <value>
+                <fullName>Protein Express</fullName>
+                <default>false</default>
+                <label>Protein Express</label>
+            </value>
+            <value>
+                <fullName>Protein QC</fullName>
+                <default>false</default>
+                <label>Protein QC</label>
+            </value>
+            <value>
+                <fullName>PSA Free/Total</fullName>
+                <default>false</default>
+                <label>PSA Free/Total</label>
+            </value>
+            <value>
+                <fullName>QuantiFERON-TB Gold Plus (REF: 622130, 622832)</fullName>
+                <default>false</default>
+                <label>QuantiFERON-TB Gold Plus (REF: 622130, 622832)</label>
+            </value>
+            <value>
+                <fullName>Revvity 225 filter paper</fullName>
+                <default>false</default>
+                <label>Revvity 225 filter paper</label>
+            </value>
+            <value>
+                <fullName>Rheumatoid factor - ab of class IgA against IgG (EA 1814 A)</fullName>
+                <default>false</default>
+                <label>Rheumatoid factor - ab of class IgA against IgG (EA 1814 A)</label>
+            </value>
+            <value>
+                <fullName>Rheumatoid factor - ab of class IgG against IgG (EA 1814 G)</fullName>
+                <default>false</default>
+                <label>Rheumatoid factor - ab of class IgG against IgG (EA 1814 G)</label>
+            </value>
+            <value>
+                <fullName>Rheumatoid factor - ab of class IgM against IgG (EA 1814 M)</fullName>
+                <default>false</default>
+                <label>Rheumatoid factor - ab of class IgM against IgG (EA 1814 M)</label>
+            </value>
+            <value>
+                <fullName>Ribosomal P-proteins (EA 1641 G)</fullName>
+                <default>false</default>
+                <label>Ribosomal P-proteins (EA 1641 G)</label>
+            </value>
+            <value>
+                <fullName>RNA</fullName>
+                <default>false</default>
+                <label>RNA</label>
+            </value>
+            <value>
+                <fullName>RNA Pico Sensitivity</fullName>
+                <default>false</default>
+                <label>RNA Pico Sensitivity</label>
+            </value>
+            <value>
+                <fullName>RUO/ASR</fullName>
+                <default>false</default>
+                <label>RUO/ASR</label>
+            </value>
+            <value>
+                <fullName>Sa IgG (EA 151a-4802 G)</fullName>
+                <default>false</default>
+                <label>Sa IgG (EA 151a-4802 G)</label>
+            </value>
+            <value>
+                <fullName>SARS-CoV-2 Plus RT-qPCR Reagent kit</fullName>
+                <default>false</default>
+                <label>SARS-CoV-2 Plus RT-qPCR Reagent kit</label>
+            </value>
+            <value>
+                <fullName>SARS-COV-2 POSITIVE RNA CONTROL</fullName>
+                <default>false</default>
+                <label>SARS-COV-2 POSITIVE RNA CONTROL</label>
+            </value>
+            <value>
+                <fullName>SARS-COV-2 REAL-TIME RT-PCR ASSAY</fullName>
+                <default>false</default>
+                <label>SARS-COV-2 REAL-TIME RT-PCR ASSAY</label>
+            </value>
+            <value>
+                <fullName>SARS-COV-2 RT-QPCR REAGENT KIT</fullName>
+                <default>false</default>
+                <label>SARS-COV-2 RT-QPCR REAGENT KIT</label>
+            </value>
+            <value>
+                <fullName>Scl-70 IEA (1599 G)</fullName>
+                <default>false</default>
+                <label>Scl-70 IEA (1599 G)</label>
+            </value>
+            <value>
+                <fullName>sFlt-1</fullName>
+                <default>false</default>
+                <label>sFlt-1</label>
+            </value>
+            <value>
+                <fullName>Sm IgG (EA 1593 G)</fullName>
+                <default>false</default>
+                <label>Sm IgG (EA 1593 G)</label>
+            </value>
+            <value>
+                <fullName>SPE</fullName>
+                <default>false</default>
+                <label>SPE</label>
+            </value>
+            <value>
+                <fullName>SS-A Ro IgG (EA 1595 G)</fullName>
+                <default>false</default>
+                <label>SS-A Ro IgG (EA 1595 G)</label>
+            </value>
+            <value>
+                <fullName>SS-B La IgG (EA 1597 G)</fullName>
+                <default>false</default>
+                <label>SS-B La IgG (EA 1597 G)</label>
+            </value>
+            <value>
+                <fullName>SSc Profile 12 AG</fullName>
+                <default>false</default>
+                <label>SSc Profile 12 AG</label>
+            </value>
+            <value>
+                <fullName>SSc Profile Nucleoli</fullName>
+                <default>false</default>
+                <label>SSc Profile Nucleoli</label>
+            </value>
+            <value>
+                <fullName>ssDNA (EA 1576 G)</fullName>
+                <default>false</default>
+                <label>ssDNA (EA 1576 G)</label>
+            </value>
+            <value>
+                <fullName>Staccato</fullName>
+                <default>false</default>
+                <label>Staccato</label>
+            </value>
+            <value>
+                <fullName>Steroids</fullName>
+                <default>false</default>
+                <label>Steroids</label>
+            </value>
+            <value>
+                <fullName>Systemic Sclerosis Profile IgG (DL 1532 G)</fullName>
+                <default>false</default>
+                <label>Systemic Sclerosis Profile IgG (DL 1532 G)</label>
+            </value>
+            <value>
+                <fullName>T3</fullName>
+                <default>false</default>
+                <label>T3</label>
+            </value>
+            <value>
+                <fullName>T4</fullName>
+                <default>false</default>
+                <label>T4</label>
+            </value>
+            <value>
+                <fullName>TBD</fullName>
+                <default>false</default>
+                <label>TBD</label>
+            </value>
+            <value>
+                <fullName>Tetanus toxoid IgG (EI 2060 G)</fullName>
+                <default>false</default>
+                <label>Tetanus toxoid IgG (EI 2060 G)</label>
+            </value>
+            <value>
+                <fullName>TGAL</fullName>
+                <default>false</default>
+                <label>TGAL</label>
+            </value>
+            <value>
+                <fullName>Thyroglobulin (EA 1013 G)</fullName>
+                <default>false</default>
+                <label>Thyroglobulin (EA 1013 G)</label>
+            </value>
+            <value>
+                <fullName>Thyroid peroxidase (EA 1012 G)</fullName>
+                <default>false</default>
+                <label>Thyroid peroxidase (EA 1012 G)</label>
+            </value>
+            <value>
+                <fullName>TOXO</fullName>
+                <default>false</default>
+                <label>TOXO</label>
+            </value>
+            <value>
+                <fullName>TREC</fullName>
+                <default>false</default>
+                <label>TREC</label>
+            </value>
+            <value>
+                <fullName>TTG IgA (EA 1910-19202 A)</fullName>
+                <default>false</default>
+                <label>TTG IgA (EA 1910-19202 A)</label>
+            </value>
+            <value>
+                <fullName>TTG IgG (EA 1910-19202 G)</fullName>
+                <default>false</default>
+                <label>TTG IgG (EA 1910-19202 G)</label>
+            </value>
+            <value>
+                <fullName>Twister II</fullName>
+                <default>false</default>
+                <label>Twister II</label>
+            </value>
+            <value>
+                <fullName>Twister III</fullName>
+                <default>false</default>
+                <label>Twister III</label>
+            </value>
+            <value>
+                <fullName>uE3</fullName>
+                <default>false</default>
+                <label>uE3</label>
+            </value>
+            <value>
+                <fullName>Vitamin D</fullName>
+                <default>false</default>
+                <label>Vitamin D</label>
+            </value>
+            <value>
+                <fullName>Zika Virus IgM (EI 2668-9601 M)</fullName>
+                <default>false</default>
+                <label>Zika Virus IgM (EI 2668-9601 M)</label>
+            </value>
+            <value>
+                <fullName>β2-glycoprotein 1 IgG/A/M (EA 1632 G/A/M)</fullName>
+                <default>false</default>
+                <label>β2-glycoprotein 1 IgG/A/M (EA 1632 G/A/M)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <valueName>Anti-Chlamydia MIF IgG (FI 2191-2010-3 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <valueName>Anti-Chlamydia MIF IgM (FI 2191-2010-3 M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <valueName>Anti-Chlamydia MIF lgA (FI 2191-2010-80 A)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <valueName>Campylobacter jejuni IgG (FI 2091-1010 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <valueName>Chlamydia pneumoniae IgG (FI 2192-2010-80 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation IFA</controllingFieldValue>
+            <controllingFieldValue>EuroPattern</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>IFA: Endomysium (FC 1911 A)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation IFA</controllingFieldValue>
+            <controllingFieldValue>EuroPattern</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <controllingFieldValue>Mergite! 10</controllingFieldValue>
+            <valueName>IFA: Granulocyte Mosaic 13 (FC 1201-13)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation IFA</controllingFieldValue>
+            <controllingFieldValue>EuroPattern</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <controllingFieldValue>Mergite! 10</controllingFieldValue>
+            <valueName>IFA: Granulocyte Mosaic 2 (FC 1201-2)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation IFA</controllingFieldValue>
+            <controllingFieldValue>EuroPattern</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <controllingFieldValue>Mergite! 10</controllingFieldValue>
+            <valueName>IFA: Granulocyte Mosaic 32 (FC 1201-32)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation IFA</controllingFieldValue>
+            <controllingFieldValue>EuroPattern</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <controllingFieldValue>Mergite! 10</controllingFieldValue>
+            <valueName>IFA 40: Hep-20-10 (FC 1522-1)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <valueName>Mosaic Coxsackie virus A IgG (FI 2730 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <valueName>Mosaic Coxsackie virus A IgM (FI 2730 M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA</controllingFieldValue>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>TriNest</controllingFieldValue>
+            <controllingFieldValue>Twister</controllingFieldValue>
+            <controllingFieldValue>Vanadis</controllingFieldValue>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>VICTOR EnLite</controllingFieldValue>
+            <controllingFieldValue>Washer-Diskremove</controllingFieldValue>
+            <controllingFieldValue>Zephyr</controllingFieldValue>
+            <controllingFieldValue>Chemagic 360</controllingFieldValue>
+            <controllingFieldValue>Chemagic MSMI</controllingFieldValue>
+            <controllingFieldValue>Chemagic Prepito</controllingFieldValue>
+            <controllingFieldValue>Chemagic Prime</controllingFieldValue>
+            <controllingFieldValue>DBS Puncher</controllingFieldValue>
+            <controllingFieldValue>Agilent BioAnalyser</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <controllingFieldValue>Eonis Q</controllingFieldValue>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation IFA</controllingFieldValue>
+            <controllingFieldValue>EuroPattern</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <controllingFieldValue>Janus</controllingFieldValue>
+            <controllingFieldValue>LabChip GX (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip MultiDX</controllingFieldValue>
+            <controllingFieldValue>Luminex</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <controllingFieldValue>Mergite! 10</controllingFieldValue>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>MultiPuncher</controllingFieldValue>
+            <controllingFieldValue>None</controllingFieldValue>
+            <controllingFieldValue>Panthera Puncher</controllingFieldValue>
+            <controllingFieldValue>Plate::handler:</controllingFieldValue>
+            <controllingFieldValue>Plate Dispenser</controllingFieldValue>
+            <controllingFieldValue>Plate Shaker</controllingFieldValue>
+            <controllingFieldValue>Platewash</controllingFieldValue>
+            <controllingFieldValue>Platewasher</controllingFieldValue>
+            <controllingFieldValue>QSight</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>RESOLVE</controllingFieldValue>
+            <controllingFieldValue>ScanRi</controllingFieldValue>
+            <controllingFieldValue>Sciclone</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>25-OH Vitamin D EQ 6411</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Brucella abortus IgG EI 2189 G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Brucella abortus IgM EI 2189 M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Chik virus IgG EI 293a G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Chik virus IgM EI 293a M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>dsDNA-NcX IgG EA 1572 G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>EBNA-1 IgG EI 2793 G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>ELISA ANCA Profile proteinase (EA 1200-1 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>ELISA Cyclic citruilinated peptide (EA 1505 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>ELISA  HSV-2 incl IgG/RF absorbent IgM (EI 2532-2 M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>ELISA PM-SCL recombinant IgG (EA 1584 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Lyme IgGM (EI 2132-24 O)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>MUP-44  NT5C1A (EA 1675-4801 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>nRNP/Sm IgG (EA 1591 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>PLA2R IgG (EA 1254 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Sa IgG (EA 151a-4802 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Sm IgG (EA 1593 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>SS-A Ro IgG (EA 1595 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>SS-B La IgG (EA 1597 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Tetanus toxoid IgG (EI 2060 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sprinter XL IFA/ELISA</controllingFieldValue>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <controllingFieldValue>Manual EUROIMMUN Kit</controllingFieldValue>
+            <valueName>Zika Virus IgM (EI 2668-9601 M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Twister</controllingFieldValue>
+            <valueName>Staccato</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Twister</controllingFieldValue>
+            <valueName>Twister II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Twister</controllingFieldValue>
+            <valueName>Twister III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>17-OHP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>Anti-SARS-CoV-2 IgG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>Biotinidase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>CK-MM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <valueName>Free hCGB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>FT4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>G6PD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>GALT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <valueName>hAFP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>hAFP/Free hCGB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <valueName>hCG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>hFSH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>hLH Spec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>hTSH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>hTSH Ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>IRT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <valueName>PAPP-A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>PAPP-A/Free hCGB Dual DBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>Phenylalanine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <valueName>PlGF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>Prolactin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>PSA Free/Total</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>T3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>T4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>TGAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR</controllingFieldValue>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <valueName>uE3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VICTOR EnLite</controllingFieldValue>
+            <valueName>TREC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zephyr</controllingFieldValue>
+            <controllingFieldValue>Janus</controllingFieldValue>
+            <controllingFieldValue>Sciclone</controllingFieldValue>
+            <valueName>NGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zephyr</controllingFieldValue>
+            <controllingFieldValue>Janus</controllingFieldValue>
+            <controllingFieldValue>Sciclone</controllingFieldValue>
+            <valueName>NGS - NEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zephyr</controllingFieldValue>
+            <valueName>SPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemagic 360</controllingFieldValue>
+            <controllingFieldValue>Chemagic MSMI</controllingFieldValue>
+            <controllingFieldValue>Chemagic Prepito</controllingFieldValue>
+            <controllingFieldValue>Chemagic Prime</controllingFieldValue>
+            <valueName>Chemagen reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Covid-19</controllingFieldValue>
+            <valueName>COVID-19-PCR-AUS-C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Covid-19</controllingFieldValue>
+            <valueName>PKAMP RESPIRATORY SARS-COV-2 RT-PCR PANEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Covid-19</controllingFieldValue>
+            <valueName>SARS-CoV-2 Plus RT-qPCR Reagent kit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Covid-19</controllingFieldValue>
+            <valueName>SARS-COV-2 POSITIVE RNA CONTROL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Covid-19</controllingFieldValue>
+            <valueName>SARS-COV-2 REAL-TIME RT-PCR ASSAY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Covid-19</controllingFieldValue>
+            <valueName>SARS-COV-2 RT-QPCR REAGENT KIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agilent BioAnalyser</controllingFieldValue>
+            <valueName>FragilEase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoDELFIA</controllingFieldValue>
+            <valueName>Inhibin A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <valueName>Carry-over</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELFIA Xpress</controllingFieldValue>
+            <valueName>sFlt-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eonis</controllingFieldValue>
+            <controllingFieldValue>Eonis Q</controllingFieldValue>
+            <valueName>cCMV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eonis</controllingFieldValue>
+            <valueName>Eonis™ SCID-SMA Assay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eonis</controllingFieldValue>
+            <valueName>NeoMDx™PCR Reagent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eonis Q</controllingFieldValue>
+            <valueName>Eonis™ SCID-SMA (IVD)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eonis Q</controllingFieldValue>
+            <valueName>Eonis™ SMN1, TREC, KREC (RUO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>Anti-B. Bburg US EUROLINE-WB IgM (DY 2133-1 M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>Anti-B. burg US WESTERNBLOT IgG (DY 2133 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>Antibodies against Neuronal Angtigens IgG (DL 1111 #G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>Autoimmune Inflammatory Myopathies 16 Ag IgG (DL 1530-4 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>EUROLINE ANA Profile 3 plus DFS70 IgG (DL 1590-30 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>EUROLINE Myositis Profile 3 IgG (DL 1530-3 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>EUROLINE Systemic Sclerosis Profile 12 Ag IgG (DL 1532 -12G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>Myositis Profile - Quest (DM 1530-1601-11 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>Paraneoplastic Neurologic Syndromes (DL 1111-7G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROBlot Master</controllingFieldValue>
+            <controllingFieldValue>EUROBLot One</controllingFieldValue>
+            <valueName>Systemic Sclerosis Profile IgG (DL 1532 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Cardiolipin AMA M1 IgG/A/M (EA 1621 G/A/M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Centromeres (EA 1611 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Gliadin IgA (GAF-3X) (EV 3011 A)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Gliadin IgG (GAF-3X) (EV 3011 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Heliobacter pylori IgA (EI 2080 A)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Heliobacter pylori IgG (EI 2080 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Histones (EA 1560 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Jo-1 (EA 1661 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Phosphatidylserine IgG/A/M (EA 162a G/A/M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>QuantiFERON-TB Gold Plus (REF: 622130, 622832)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Rheumatoid factor - ab of class IgA against IgG (EA 1814 A)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Rheumatoid factor - ab of class IgG against IgG (EA 1814 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Rheumatoid factor - ab of class IgM against IgG (EA 1814 M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Ribosomal P-proteins (EA 1641 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Scl-70 IEA (1599 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>ssDNA (EA 1576 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Thyroglobulin (EA 1013 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>Thyroid peroxidase (EA 1012 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>TTG IgA (EA 1910-19202 A)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>TTG IgG (EA 1910-19202 G)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROIMMUN Analyzer</controllingFieldValue>
+            <controllingFieldValue>EUROLab Workstation ELISA</controllingFieldValue>
+            <valueName>β2-glycoprotein 1 IgG/A/M (EA 1632 G/A/M)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Revvity 225 filter paper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GSP</controllingFieldValue>
+            <valueName>TOXO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Janus</controllingFieldValue>
+            <valueName>BioTx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Janus</controllingFieldValue>
+            <valueName>Consolidation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Janus</controllingFieldValue>
+            <valueName>PCR / HIV – HBV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Janus</controllingFieldValue>
+            <valueName>PCR / HIV – HCV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Janus</controllingFieldValue>
+            <valueName>Pooling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip DropletQuant</controllingFieldValue>
+            <controllingFieldValue>LabChip DropSense</controllingFieldValue>
+            <valueName>DropPlate16-D+ Chips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip DropletQuant</controllingFieldValue>
+            <controllingFieldValue>LabChip DropSense</controllingFieldValue>
+            <valueName>DropPlate16-S Chips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip DropletQuant</controllingFieldValue>
+            <controllingFieldValue>LabChip DropSense</controllingFieldValue>
+            <valueName>DropPlate96-D+ Chips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip DropletQuant</controllingFieldValue>
+            <controllingFieldValue>LabChip DropSense</controllingFieldValue>
+            <valueName>DropPlate96-S Chips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GX (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <valueName>DNA 12K</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GX (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <valueName>DNA 1K</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GX (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <valueName>DNA 5K</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GX (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <valueName>DNA Hi Sens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GX (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <valueName>Genomic DNA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GX (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <valueName>RNA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GX (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <valueName>RNA Pico Sensitivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <valueName>Glycan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <valueName>Low MW Protein Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <valueName>Pico Protein Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <valueName>Protein Charge Variant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII (BlueBox)</controllingFieldValue>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <valueName>Protein Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <controllingFieldValue>LabChip GX Touch</controllingFieldValue>
+            <valueName>DNA NGS 3K</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <valueName>Protein Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <valueName>Protein EXACT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabChip GXII Touch</controllingFieldValue>
+            <valueName>Protein QC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Luminex</controllingFieldValue>
+            <valueName>Constitutional BoBs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Luminex</controllingFieldValue>
+            <valueName>KaryoLite BoBs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Luminex</controllingFieldValue>
+            <valueName>Picoplex WGA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Luminex</controllingFieldValue>
+            <valueName>Prenatal BoBs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>LSD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>MSMS Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>NeoBase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>NeoBase2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>NeoGram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>NeoLSD 7-plex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>RUO/ASR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>Steroids</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSMS</controllingFieldValue>
+            <controllingFieldValue>QSight 210 MD</controllingFieldValue>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>Vitamin D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None</controllingFieldValue>
+            <valueName>NEXTflex reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>HIV p24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plate::handler:</controllingFieldValue>
+            <valueName>Cell::explorer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plate::handler:</controllingFieldValue>
+            <valueName>Plate::handler Flex750</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QSight 225 MD</controllingFieldValue>
+            <controllingFieldValue>Sciex 4500 MD</controllingFieldValue>
+            <valueName>TBD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RESOLVE</controllingFieldValue>
+            <valueName>Hb FASC Control Kit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RESOLVE</controllingFieldValue>
+            <valueName>Hemoglobin Kit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RESOLVE</controllingFieldValue>
+            <valueName>Migele GEU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ScanRi</controllingFieldValue>
+            <valueName>aCGH reagents</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

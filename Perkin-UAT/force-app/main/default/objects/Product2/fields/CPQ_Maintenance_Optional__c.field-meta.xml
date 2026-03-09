@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPQ_Maintenance_Optional__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Prevents this product from triggering required approval if associated maintenance is removed</inlineHelpText>
+    <label>Maintenance Optional</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

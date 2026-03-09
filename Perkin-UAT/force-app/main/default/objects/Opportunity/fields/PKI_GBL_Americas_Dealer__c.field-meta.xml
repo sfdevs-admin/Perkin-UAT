@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_GBL_Americas_Dealer__c</fullName>
+    <inlineHelpText>Add Reseller name</inlineHelpText>
+    <label>Americas Dealer or Distributor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABC</fullName>
+                <default>false</default>
+                <label>ABC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

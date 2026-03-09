@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iRep__c</fullName>
+    <description>This fields is a Boolean that will look at the current user&#39;s email address and the sales rep email and evaluate if it is the same.</description>
+    <formula>sales_Rep_Email__c =  $User.Email ||  Opportunity__r.OwnerId = $User.Id</formula>
+    <label>iRep</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

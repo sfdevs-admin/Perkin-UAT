@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_000383_Interaction_Assignment_Rules</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: ID,MT,OR-HTS,CSB-A. Gonzalez</label>
+    <queue>ARQ_000282</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

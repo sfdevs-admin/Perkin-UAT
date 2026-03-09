@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owned_by_Company__c</fullName>
+    <description>Determines whether the record belongs to one company vs. others (for example: LSDx vs AES) (Source: CMC Story #S-696882)</description>
+    <label>Owned by Company</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_050_Owned_by_Company</valueSetName>
+    </valueSet>
+</CustomField>

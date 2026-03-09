@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Ignore_Users__c</fullName>
+    <description>Comma Separated list of tokens.
+During Contact Triggers, if Current Username contains any of the tokens the Platform Events will not be sent.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comma Separated list of tokens.
+During Contact Triggers, if Current Username contains any of the tokens the Platform Events will not be sent.</inlineHelpText>
+    <label>Ignore Users</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

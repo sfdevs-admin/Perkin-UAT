@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interactions_Tim_Applied</fullName>
+    <columns>NAME</columns>
+    <columns>Country__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Lead__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>ProductLine__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>contains</operation>
+        <value>ARS,AWS,BTX,CLH,HMG,MDX,MFT,NAP,NEX,NGS,RHS,SPS</value>
+    </filters>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>contains</operation>
+        <value>America</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>contains</operation>
+        <value>US</value>
+    </filters>
+    <label>Interactions Dx America US Applied</label>
+</ListView>

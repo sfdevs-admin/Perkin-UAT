@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Master_QUICK_FILTER</fullName>
+    <columns>NAME</columns>
+    <columns>PriceBook_Name__c</columns>
+    <columns>Product_Number__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Amount__c</columns>
+    <columns>External_Id__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PriceBook_Name__c</field>
+        <operation>contains</operation>
+        <value>JPS0</value>
+    </filters>
+    <label>Price Master (*QUICK FILTER*)</label>
+</ListView>

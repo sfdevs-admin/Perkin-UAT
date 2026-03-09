@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADMIN_All_PKI_Orders</fullName>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Order_Net_Currency__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Opp_Owner__c</columns>
+    <columns>Order_Total_Price__c</columns>
+    <columns>Order_Currency__c</columns>
+    <columns>Ship_To_Address_Country__c</columns>
+    <columns>Ship_To_Customer_Name__c</columns>
+    <columns>Contact_Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>11/21/2022 12:00 AM</value>
+    </filters>
+    <label>(ADMIN) All PKI Orders</label>
+    <sharedTo>
+        <group>ARQ_001007</group>
+    </sharedTo>
+</ListView>

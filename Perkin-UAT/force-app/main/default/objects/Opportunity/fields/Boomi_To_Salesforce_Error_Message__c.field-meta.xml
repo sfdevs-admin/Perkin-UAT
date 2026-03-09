@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Boomi_To_Salesforce_Error_Message__c</fullName>
+    <description>This field is used to track the error message while sending the JSON data from Boomi to Salesforce. (ITSFDC-5103)</description>
+    <inlineHelpText>This field is used to track the error message while sending the JSON data from Boomi to Salesforce. (ITSFDC-5103)</inlineHelpText>
+    <label>Boomi To Salesforce Error Message</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

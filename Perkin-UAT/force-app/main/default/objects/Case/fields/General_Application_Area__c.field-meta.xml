@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Application_Area__c</fullName>
+    <label>General Application Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analytics/Reporting</fullName>
+                <default>false</default>
+                <label>Analytics/Reporting</label>
+            </value>
+            <value>
+                <fullName>Platform Software</fullName>
+                <default>false</default>
+                <label>Platform Software</label>
+            </value>
+            <value>
+                <fullName>Configurability</fullName>
+                <default>false</default>
+                <label>Configurability</label>
+            </value>
+            <value>
+                <fullName>Customization</fullName>
+                <default>false</default>
+                <label>Customization</label>
+            </value>
+            <value>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+                <label>Data Management</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Help &amp; Training</fullName>
+                <default>false</default>
+                <label>Help &amp; Training</label>
+            </value>
+            <value>
+                <fullName>Integration / Code</fullName>
+                <default>false</default>
+                <label>Integration / Code</label>
+            </value>
+            <value>
+                <fullName>Other Applications</fullName>
+                <default>false</default>
+                <label>Other Applications</label>
+            </value>
+            <value>
+                <fullName>Portals</fullName>
+                <default>false</default>
+                <label>Portals</label>
+            </value>
+            <value>
+                <fullName>Sales Request</fullName>
+                <default>false</default>
+                <label>Sales Request</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>System Performance</fullName>
+                <default>false</default>
+                <label>System Performance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

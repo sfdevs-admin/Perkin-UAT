@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subgroup_of_App_Profile_7__c</fullName>
+    <label>Subgroup of App. Profile 7</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aequorin</fullName>
+                <default>false</default>
+                <label>Aequorin</label>
+            </value>
+            <value>
+                <fullName>Amino Acids</fullName>
+                <default>false</default>
+                <label>Amino Acids</label>
+            </value>
+            <value>
+                <fullName>Apotosis / Cytotoxicity</fullName>
+                <default>false</default>
+                <label>Apotosis / Cytotoxicity</label>
+            </value>
+            <value>
+                <fullName>Biochemical non-rad</fullName>
+                <default>false</default>
+                <label>Biochemical non-rad</label>
+            </value>
+            <value>
+                <fullName>Biochemical Radioactive</fullName>
+                <default>false</default>
+                <label>Biochemical Radioactive</label>
+            </value>
+            <value>
+                <fullName>Calcium Channels</fullName>
+                <default>false</default>
+                <label>Calcium Channels</label>
+            </value>
+            <value>
+                <fullName>cAMP</fullName>
+                <default>false</default>
+                <label>cAMP</label>
+            </value>
+            <value>
+                <fullName>Caspases</fullName>
+                <default>false</default>
+                <label>Caspases</label>
+            </value>
+            <value>
+                <fullName>Cell Proliferation</fullName>
+                <default>false</default>
+                <label>Cell Proliferation</label>
+            </value>
+            <value>
+                <fullName>Cellular Assays</fullName>
+                <default>false</default>
+                <label>Cellular Assays</label>
+            </value>
+            <value>
+                <fullName>Chemiluminescence detection</fullName>
+                <default>false</default>
+                <label>Chemiluminescence detection</label>
+            </value>
+            <value>
+                <fullName>Classic</fullName>
+                <default>false</default>
+                <label>Classic</label>
+            </value>
+            <value>
+                <fullName>ELISA</fullName>
+                <default>false</default>
+                <label>ELISA</label>
+            </value>
+            <value>
+                <fullName>Filtration Assays</fullName>
+                <default>false</default>
+                <label>Filtration Assays</label>
+            </value>
+            <value>
+                <fullName>-FP SNP detection</fullName>
+                <default>false</default>
+                <label>-FP SNP detection</label>
+            </value>
+            <value>
+                <fullName>GTP Binding</fullName>
+                <default>false</default>
+                <label>GTP Binding</label>
+            </value>
+            <value>
+                <fullName>Ion Channels</fullName>
+                <default>false</default>
+                <label>Ion Channels</label>
+            </value>
+            <value>
+                <fullName>IP3</fullName>
+                <default>false</default>
+                <label>IP3</label>
+            </value>
+            <value>
+                <fullName>Kodak</fullName>
+                <default>false</default>
+                <label>Kodak</label>
+            </value>
+            <value>
+                <fullName>Ligand Binding</fullName>
+                <default>false</default>
+                <label>Ligand Binding</label>
+            </value>
+            <value>
+                <fullName>Nitrocellulose membranes</fullName>
+                <default>false</default>
+                <label>Nitrocellulose membranes</label>
+            </value>
+            <value>
+                <fullName>Non-Kodak films</fullName>
+                <default>false</default>
+                <label>Non-Kodak films</label>
+            </value>
+            <value>
+                <fullName>Non Radioactive</fullName>
+                <default>false</default>
+                <label>Non Radioactive</label>
+            </value>
+            <value>
+                <fullName>Nylon Membranes</fullName>
+                <default>false</default>
+                <label>Nylon Membranes</label>
+            </value>
+            <value>
+                <fullName>Photina</fullName>
+                <default>false</default>
+                <label>Photina</label>
+            </value>
+            <value>
+                <fullName>PVDF membranes</fullName>
+                <default>false</default>
+                <label>PVDF membranes</label>
+            </value>
+            <value>
+                <fullName>Radioactive</fullName>
+                <default>false</default>
+                <label>Radioactive</label>
+            </value>
+            <value>
+                <fullName>Radiometric Assays</fullName>
+                <default>false</default>
+                <label>Radiometric Assays</label>
+            </value>
+            <value>
+                <fullName>Radiometric detection</fullName>
+                <default>false</default>
+                <label>Radiometric detection</label>
+            </value>
+            <value>
+                <fullName>Radionuclides</fullName>
+                <default>false</default>
+                <label>Radionuclides</label>
+            </value>
+            <value>
+                <fullName>Reporter Gene Assay</fullName>
+                <default>false</default>
+                <label>Reporter Gene Assay</label>
+            </value>
+            <value>
+                <fullName>RIA</fullName>
+                <default>false</default>
+                <label>RIA</label>
+            </value>
+            <value>
+                <fullName>Safe</fullName>
+                <default>false</default>
+                <label>Safe</label>
+            </value>
+            <value>
+                <fullName>Thymidines</fullName>
+                <default>false</default>
+                <label>Thymidines</label>
+            </value>
+            <value>
+                <fullName>TSA</fullName>
+                <default>false</default>
+                <label>TSA</label>
+            </value>
+            <value>
+                <fullName>Whole cell, SureFire</fullName>
+                <default>false</default>
+                <label>Whole cell, SureFire</label>
+            </value>
+            <value>
+                <fullName>Yttrium-90, Lutetium-177, Indium-111</fullName>
+                <default>false</default>
+                <label>Yttrium-90, Lutetium-177, Indium-111</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

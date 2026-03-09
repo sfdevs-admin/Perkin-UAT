@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Inner_Diameter__c</fullName>
+    <description>Used to select diameter for products. Perk-75</description>
+    <label>Inner Diameter</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0.0625 in</fullName>
+                <default>false</default>
+                <label>0.0625 in</label>
+            </value>
+            <value>
+                <fullName>11 mm</fullName>
+                <default>false</default>
+                <label>11 mm</label>
+            </value>
+            <value>
+                <fullName>2.1 mm</fullName>
+                <default>false</default>
+                <label>2.1 mm</label>
+            </value>
+            <value>
+                <fullName>2.79 mm</fullName>
+                <default>false</default>
+                <label>2.79 mm</label>
+            </value>
+            <value>
+                <fullName>20 mm</fullName>
+                <default>false</default>
+                <label>20 mm</label>
+            </value>
+            <value>
+                <fullName>4.6 mm</fullName>
+                <default>false</default>
+                <label>4.6 mm</label>
+            </value>
+            <value>
+                <fullName>8 mm</fullName>
+                <default>false</default>
+                <label>8 mm</label>
+            </value>
+            <value>
+                <fullName>9 mm</fullName>
+                <default>false</default>
+                <label>9 mm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

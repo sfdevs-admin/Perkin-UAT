@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Willing_to_Accept_Partial_Shipment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Please indicate, if known, whether the customer would be willing to accept a partial shipment of the order. This will enable faster order shipment.</inlineHelpText>
+    <label>Willing to Accept Partial Shipment?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

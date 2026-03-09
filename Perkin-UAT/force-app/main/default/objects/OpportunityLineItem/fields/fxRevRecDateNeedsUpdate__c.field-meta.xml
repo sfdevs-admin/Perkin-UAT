@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxRevRecDateNeedsUpdate__c</fullName>
+    <description>Determine if the Rev Rec Date has not been sync&#39;d</description>
+    <formula>OR( ServiceDate !=  fxOpportunity_Rev_Rec_Date__c  
+, ServiceDate !=  Opportunity.Revenue_Rec_Date__c )</formula>
+    <inlineHelpText>Determine if the Rev Rec Date has not been sync&#39;d</inlineHelpText>
+    <label>fxRevRecDateNeedsUpdate</label>
+    <type>Checkbox</type>
+</CustomField>

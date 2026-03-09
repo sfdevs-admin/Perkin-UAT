@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interest__c</fullName>
+    <label>Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GSAE - for NGS Analysis</fullName>
+                <default>false</default>
+                <label>GSAE - for NGS Analysis</label>
+            </value>
+            <value>
+                <fullName>GSAE - for Microarray Analysis</fullName>
+                <default>false</default>
+                <label>GSAE - for Microarray Analysis</label>
+            </value>
+            <value>
+                <fullName>GeneSifter Lab Edition</fullName>
+                <default>false</default>
+                <label>GeneSifter Lab Edition</label>
+            </value>
+            <value>
+                <fullName>GS AE Channel Partner</fullName>
+                <default>false</default>
+                <label>GS AE Channel Partner</label>
+            </value>
+            <value>
+                <fullName>Data Analysis Project</fullName>
+                <default>false</default>
+                <label>Data Analysis Project</label>
+            </value>
+            <value>
+                <fullName>GeneSifter Analysis Edition</fullName>
+                <default>false</default>
+                <label>GeneSifter Analysis Edition</label>
+            </value>
+            <value>
+                <fullName>NextGen</fullName>
+                <default>false</default>
+                <label>NextGen</label>
+            </value>
+            <value>
+                <fullName>FinchLab</fullName>
+                <default>false</default>
+                <label>FinchLab</label>
+            </value>
+            <value>
+                <fullName>iFinch</fullName>
+                <default>false</default>
+                <label>iFinch</label>
+            </value>
+            <value>
+                <fullName>Finch Suite Products</fullName>
+                <default>false</default>
+                <label>Finch Suite Products</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

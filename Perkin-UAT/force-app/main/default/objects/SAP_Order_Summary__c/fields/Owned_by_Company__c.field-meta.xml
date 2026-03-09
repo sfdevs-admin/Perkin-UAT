@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owned_by_Company__c</fullName>
+    <description>Used to indicate LSDX, AES or TBD</description>
+    <inlineHelpText>Used to indicate LSDX, AES or TBD</inlineHelpText>
+    <label>Owned by Company</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_050_Owned_by_Company</valueSetName>
+    </valueSet>
+</CustomField>

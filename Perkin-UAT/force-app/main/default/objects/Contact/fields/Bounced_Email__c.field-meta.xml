@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bounced_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Synced with Eloqua to track bounced or bad email</description>
+    <inlineHelpText>Checked = This email has bounced in an Eloqua email campaign.</inlineHelpText>
+    <label>Bounced Email</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

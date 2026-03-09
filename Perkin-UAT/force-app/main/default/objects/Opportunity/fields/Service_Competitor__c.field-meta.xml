@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Competitor__c</fullName>
+    <description>Created by PwC as part of SC-516</description>
+    <label>Service Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Remi</fullName>
+                <default>false</default>
+                <label>Remi</label>
+            </value>
+            <value>
+                <fullName>Agilent</fullName>
+                <default>false</default>
+                <label>Agilent</label>
+            </value>
+            <value>
+                <fullName>Specialty Underwriters</fullName>
+                <default>false</default>
+                <label>Specialty Underwriters</label>
+            </value>
+            <value>
+                <fullName>Thermo Fisher</fullName>
+                <default>false</default>
+                <label>Thermo Fisher</label>
+            </value>
+            <value>
+                <fullName>Avantor</fullName>
+                <default>false</default>
+                <label>Avantor</label>
+            </value>
+            <value>
+                <fullName>Independent Contractor</fullName>
+                <default>false</default>
+                <label>Independent Contractor</label>
+            </value>
+            <value>
+                <fullName>CBRE</fullName>
+                <default>false</default>
+                <label>CBRE</label>
+            </value>
+            <value>
+                <fullName>In-house</fullName>
+                <default>false</default>
+                <label>In-house</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

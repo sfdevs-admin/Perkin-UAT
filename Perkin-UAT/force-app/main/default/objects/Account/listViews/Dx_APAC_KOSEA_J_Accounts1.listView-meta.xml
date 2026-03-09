@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_APAC_KOSEA_J_Accounts1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Dx_INDIA_Region__c</field>
+        <operation>equals</operation>
+        <value>INDIA</value>
+    </filters>
+    <label>Dx India Accounts</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000776</group>
+        <group>ARQ_000784</group>
+        <group>ARQ_000785</group>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

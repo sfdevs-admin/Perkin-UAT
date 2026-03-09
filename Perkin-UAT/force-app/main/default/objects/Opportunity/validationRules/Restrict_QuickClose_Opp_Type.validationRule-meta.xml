@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_QuickClose_Opp_Type</fullName>
+    <active>true</active>
+    <description>Only allow certain Type to use Quick Close (Source: I-427256)</description>
+    <errorConditionFormula>AND(
+    $Permission.BD_Bypass_Automation != TRUE
+    ,Quick_Close__c  = True
+   ,NOT(ISBLANK( Territory2Id )) 
+    
+   ,OR(  
+        TEXT(Type)=&#39;Demo – New Unit Request ($0-SIOP Planning only)&#39;
+       ,TEXT(Type)=&#39;Demo – For Sale to Customer ($$-Not for SIOP planning)&#39;
+       ,TEXT(Type)=&#39;Instrument&#39;
+       ,TEXT(Type)=&#39;Instrument Upgrade&#39;
+       ,TEXT(Type)=&#39;Large Instrument&#39;
+       ,TEXT(Type)=&#39;Reagent - Custom Synthesis&#39;
+       ,TEXT(Type)=&#39;Software&#39;
+       ,TEXT(Type)=&#39;Expand&#39;
+       ,TEXT(Type)=&#39;Land&#39;
+       ,TEXT(Type)=&#39;Renew&#39;
+       ,TEXT(Type)=&#39;New Existing&#39;
+       ,TEXT(Type)=&#39;New Products&#39;
+       ,TEXT(Type)=&#39;Renewal&#39;
+       ,TEXT(Type)=&#39;Renewal - Upsell&#39;
+        ) 
+ )</errorConditionFormula>
+    <errorDisplayField>Quick_Close__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_086: You can not select Quick Close for this Type of Opportunity, Territory and Item Class.. Uncheck Quick Close and save.</errorMessage>
+</ValidationRule>

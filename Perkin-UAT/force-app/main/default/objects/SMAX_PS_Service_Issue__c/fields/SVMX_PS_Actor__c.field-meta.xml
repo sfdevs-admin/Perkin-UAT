@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Actor__c</fullName>
+    <label>Actor</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CRC - Customer Care</fullName>
+                <default>false</default>
+                <label>CRC - Customer Care</label>
+            </value>
+            <value>
+                <fullName>TS - Tech Support</fullName>
+                <default>false</default>
+                <label>TS - Tech Support</label>
+            </value>
+            <value>
+                <fullName>FSE - Field Service Engineer</fullName>
+                <default>false</default>
+                <label>FSE - Field Service Engineer</label>
+            </value>
+            <value>
+                <fullName>FSM - Field Service Manager</fullName>
+                <default>false</default>
+                <label>FSM - Field Service Manager</label>
+            </value>
+            <value>
+                <fullName>ENT - Enterprise</fullName>
+                <default>false</default>
+                <label>ENT - Enterprise</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

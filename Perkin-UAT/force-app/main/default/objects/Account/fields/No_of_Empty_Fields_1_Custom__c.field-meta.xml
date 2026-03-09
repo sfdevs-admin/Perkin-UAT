@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Empty_Fields_1_Custom__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Account_Alias__c), 1, 0) + IF(ISBLANK(TEXT(Account_Category__c)), 1, 0) + IF(ISBLANK(Account_Category_Calc__c), 1, 0) + IF(ISBLANK(Account_Class_INF__c), 1, 0)  + IF(ISBLANK(Account_Email__c), 1, 0) + IF(ISBLANK(TEXT(Account_Incorporated_Country__c)), 1, 0) + IF(ISBLANK(TEXT(Account_Incorporated_State__c)), 1, 0) + IF(ISBLANK(PKI_GBL_Account_Name_LC__c), 1, 0) + IF(ISBLANK(TEXT(Account_Sub_Category__c)), 1, 0) + IF(ISBLANK(Account_Sub_Category_Calc__c), 1, 0) + IF(ISBLANK(TEXT(Account_Type__c)), 1, 0) + IF(ISBLANK(TEXT(Account_Type_Contracts__c)), 1, 0) + IF(ISBLANK(Active_NTD__c), 1, 0) + IF(ISBLANK(Add_Screen_Notes__c), 1, 0) + IF(ISBLANK(Analytes_1__c), 1, 0) + IF(ISBLANK(Analytes_2__c), 1, 0) + IF(ISBLANK(Analytes_3__c), 1, 0) + IF(ISBLANK(TEXT(Analytical_process_lab__c)), 1, 0) + IF(ISBLANK(Billing_Method__c), 1, 0) + IF(ISBLANK(Borderline_Risks__c), 1, 0) + IF(ISBLANK(BU_INF__c), 1, 0) + IF(ISBLANK(Competitor_Systems_Owned__c), 1, 0) + IF(ISBLANK(Contract_Expirtion__c), 1, 0) + IF(ISBLANK(TEXT(Core_Lab__c)), 1, 0) + IF(ISBLANK(Country_of_Incorporation_Calc__c), 1, 0) + IF(ISBLANK(Lab_Services_DX__c), 1, 0) + IF(ISBLANK(Crl_Low_Limit__c), 1, 0) + IF(ISBLANK(Customer_Impl_Code__c), 1, 0)  + IF(ISBLANK(Default_SAP_Bill_To_No__c), 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>No of Empty Fields 1 (Custom)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

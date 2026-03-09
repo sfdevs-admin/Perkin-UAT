@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Schedule_Notes__c</fullName>
+    <description>This field is used to track the Billing Schedule Notes which we are sending to Netsuite. (ITSFDC-5103)</description>
+    <inlineHelpText>This field is used to track the Billing Schedule Notes which we are sending to Netsuite. (ITSFDC-5103)</inlineHelpText>
+    <label>Billing Schedule Notes</label>
+    <length>131072</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

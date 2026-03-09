@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TIS_Assets_US_CA</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Additional_User__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>equals</operation>
+        <value>47-TIS</value>
+    </filters>
+    <filters>
+        <field>Country_Asset__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <label>TIS Assets US &amp; CA</label>
+    <language>en_US</language>
+</ListView>

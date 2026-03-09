@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NTD_Physicians</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Title_SDx__c</columns>
+    <columns>Physician_ID__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Sonocenter_ID__c</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Physician_ID__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>NTD Physicians</label>
+    <language>en_US</language>
+</ListView>

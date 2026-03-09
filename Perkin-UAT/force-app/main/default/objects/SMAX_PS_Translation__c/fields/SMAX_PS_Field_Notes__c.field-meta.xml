@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Field_Notes__c</fullName>
+    <description>for schedule technician vf email template</description>
+    <externalId>false</externalId>
+    <inlineHelpText>for schedule technician vf email template</inlineHelpText>
+    <label>Field Notes</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

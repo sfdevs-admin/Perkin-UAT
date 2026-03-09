@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Contact_Requested__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to track information being updated by the Pardot Prospect record and is used in the MQL determination process.</description>
+    <inlineHelpText>This field is used to track information being updated by the Pardot Prospect record and is used in the MQL determination process.</inlineHelpText>
+    <label>Contact Requested</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

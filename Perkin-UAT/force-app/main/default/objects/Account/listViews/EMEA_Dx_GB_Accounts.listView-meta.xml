@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMEA_Dx_GB_Accounts</fullName>
+    <columns>Dx_Dx_EMEA_Region__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>SAP_Customer_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Dx_Dx_EMEA_Region__c</field>
+        <operation>equals</operation>
+        <value>UK/Ireland</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_COUNTRY</field>
+        <operation>contains</operation>
+        <value>GB,IE</value>
+    </filters>
+    <label>Dx EMEA GB Accounts</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

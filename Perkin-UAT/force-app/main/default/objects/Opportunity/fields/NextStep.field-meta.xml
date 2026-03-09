@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NextStep</fullName>
+    <inlineHelpText>Next step field is used to keep track of the agreed-upon next step with the buyer (this field can edited by going to the Next Step tab located on the Activity tab of the opportunity)</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+</CustomField>

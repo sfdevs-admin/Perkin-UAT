@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KoreaContacts_d_2</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CONTACT.LAST_UPDATE</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>KimNH,HuhY,clee,ParkCB,KimYD,BeakGH,KimHS,JungJW,KimSH,yryu,hmoon</value>
+    </filters>
+    <label># Korea Contacts</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000953</group>
+    </sharedTo>
+</ListView>

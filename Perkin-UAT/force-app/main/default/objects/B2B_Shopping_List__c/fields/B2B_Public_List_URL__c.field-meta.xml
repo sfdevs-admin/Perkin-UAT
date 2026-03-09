@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Public_List_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  B2B_Public__c,
+  $Label.B2B_Site_Public_Url_For_QR &amp; Id,
+  $Label.B2B_Site_Custom_Url_For_QR &amp; Id
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>B2B Public List URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

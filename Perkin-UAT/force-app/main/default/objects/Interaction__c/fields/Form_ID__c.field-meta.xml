@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Form_ID__c</fullName>
+    <description>This is used to collect unique ID for users to identify(Source : INC0393005).</description>
+    <inlineHelpText>The unique ID string that helps users to identify a source of form.</inlineHelpText>
+    <label>Form ID</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

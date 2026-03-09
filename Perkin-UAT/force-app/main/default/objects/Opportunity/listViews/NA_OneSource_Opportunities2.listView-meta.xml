@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA_OneSource_Opportunities2</fullName>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OS_Type__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>LSS_Pass_Through__c</columns>
+    <columns>Bid_Submit_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>OS_Type__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>OneSource AM Won Opportunities</label>
+    <language>en_US</language>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

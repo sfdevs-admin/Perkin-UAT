@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLAS_Event_list</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LQS_Warm_or_Hot__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Qualified_Lead_Hot_Date__c</field>
+        <operation>equals</operation>
+        <value>3/10/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Event</value>
+    </filters>
+    <filters>
+        <field>Last_SFDC_Campaign_ID__c</field>
+        <operation>equals</operation>
+        <value>7014V000002IwToQAK</value>
+    </filters>
+    <label>SLAS Event list</label>
+</ListView>

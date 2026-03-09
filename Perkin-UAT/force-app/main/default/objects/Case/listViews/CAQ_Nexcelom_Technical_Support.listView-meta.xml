@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAQ_Nexcelom_Technical_Support</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Case_Age_Hours_Minutes__c</columns>
+    <columns>SMAX_PS_IP_Product_Line__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Escalated,In Process,In Progress,New,On Hold</value>
+    </filters>
+    <label>CAQ: Nexcelom Technical Support</label>
+    <queue>ARQ_001270</queue>
+</ListView>

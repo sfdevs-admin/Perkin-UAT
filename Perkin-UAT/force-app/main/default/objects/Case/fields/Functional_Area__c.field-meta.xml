@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Functional_Area__c</fullName>
+    <label>Functional Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>General_Application_Area__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Application Performance</fullName>
+                <default>false</default>
+                <label>Application Performance</label>
+            </value>
+            <value>
+                <fullName>Billing Inquiry</fullName>
+                <default>false</default>
+                <label>Billing Inquiry</label>
+            </value>
+            <value>
+                <fullName>Contract Upgrade</fullName>
+                <default>false</default>
+                <label>Contract Upgrade</label>
+            </value>
+            <value>
+                <fullName>Custom Applications</fullName>
+                <default>false</default>
+                <label>Custom Applications</label>
+            </value>
+            <value>
+                <fullName>Custom Report Types</fullName>
+                <default>false</default>
+                <label>Custom Report Types</label>
+            </value>
+            <value>
+                <fullName>Data Export</fullName>
+                <default>false</default>
+                <label>Data Export</label>
+            </value>
+            <value>
+                <fullName>Data Loader</fullName>
+                <default>false</default>
+                <label>Data Loader</label>
+            </value>
+            <value>
+                <fullName>Document Management</fullName>
+                <default>false</default>
+                <label>Document Management</label>
+            </value>
+            <value>
+                <fullName>Email Messaging</fullName>
+                <default>false</default>
+                <label>Email Messaging</label>
+            </value>
+            <value>
+                <fullName>ERP Connectors (SAP, JD Edwards)</fullName>
+                <default>false</default>
+                <label>ERP Connectors (SAP, JD Edwards)</label>
+            </value>
+            <value>
+                <fullName>Excel</fullName>
+                <default>false</default>
+                <label>Excel</label>
+            </value>
+            <value>
+                <fullName>Excel Calculator</fullName>
+                <default>false</default>
+                <label>Excel Calculator</label>
+            </value>
+            <value>
+                <fullName>Gateway Adminstrator</fullName>
+                <default>false</default>
+                <label>Gateway Adminstrator</label>
+            </value>
+            <value>
+                <fullName>General Security</fullName>
+                <default>false</default>
+                <label>General Security</label>
+            </value>
+            <value>
+                <fullName>Instrument Maintenance &amp; Calibration</fullName>
+                <default>false</default>
+                <label>Instrument Maintenance &amp; Calibration</label>
+            </value>
+            <value>
+                <fullName>LABWORKS API</fullName>
+                <default>false</default>
+                <label>LABWORKS API</label>
+            </value>
+            <value>
+                <fullName>LABWORKS Desktop</fullName>
+                <default>false</default>
+                <label>LABWORKS Desktop</label>
+            </value>
+            <value>
+                <fullName>Language Translation Tool</fullName>
+                <default>false</default>
+                <label>Language Translation Tool</label>
+            </value>
+            <value>
+                <fullName>Local Language</fullName>
+                <default>false</default>
+                <label>Local Language</label>
+            </value>
+            <value>
+                <fullName>Login / Passwords</fullName>
+                <default>false</default>
+                <label>Login / Passwords</label>
+            </value>
+            <value>
+                <fullName>Outbound Messaging</fullName>
+                <default>false</default>
+                <label>Outbound Messaging</label>
+            </value>
+            <value>
+                <fullName>Page layouts</fullName>
+                <default>false</default>
+                <label>Page layouts</label>
+            </value>
+            <value>
+                <fullName>Personnel Training Tracker</fullName>
+                <default>false</default>
+                <label>Personnel Training Tracker</label>
+            </value>
+            <value>
+                <fullName>Process Scheduler</fullName>
+                <default>false</default>
+                <label>Process Scheduler</label>
+            </value>
+            <value>
+                <fullName>Report Formulas</fullName>
+                <default>false</default>
+                <label>Report Formulas</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+            <value>
+                <fullName>Roles / Profiles / User Setup</fullName>
+                <default>false</default>
+                <label>Roles / Profiles / User Setup</label>
+            </value>
+            <value>
+                <fullName>RS232 Connection Tool</fullName>
+                <default>false</default>
+                <label>RS232 Connection Tool</label>
+            </value>
+            <value>
+                <fullName>Search</fullName>
+                <default>false</default>
+                <label>Search</label>
+            </value>
+            <value>
+                <fullName>Security Settings</fullName>
+                <default>false</default>
+                <label>Security Settings</label>
+            </value>
+            <value>
+                <fullName>Solutions</fullName>
+                <default>false</default>
+                <label>Solutions</label>
+            </value>
+            <value>
+                <fullName>Tip Sheets</fullName>
+                <default>false</default>
+                <label>Tip Sheets</label>
+            </value>
+            <value>
+                <fullName>Training Courses</fullName>
+                <default>false</default>
+                <label>Training Courses</label>
+            </value>
+            <value>
+                <fullName>Workflow Architect</fullName>
+                <default>false</default>
+                <label>Workflow Architect</label>
+            </value>
+            <value>
+                <fullName>Workshops - Admin</fullName>
+                <default>false</default>
+                <label>Workshops - Admin</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sales Request</controllingFieldValue>
+            <valueName>Billing Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Request</controllingFieldValue>
+            <valueName>Contract Upgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <valueName>General Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <valueName>Login / Passwords</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <valueName>Security Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Performance</controllingFieldValue>
+            <valueName>Application Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Performance</controllingFieldValue>
+            <valueName>Search</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Analytics/Reporting</controllingFieldValue>
+            <valueName>Custom Report Types</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Analytics/Reporting</controllingFieldValue>
+            <valueName>Excel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Analytics/Reporting</controllingFieldValue>
+            <valueName>Report Formulas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Analytics/Reporting</controllingFieldValue>
+            <valueName>Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform Software</controllingFieldValue>
+            <valueName>Gateway Adminstrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform Software</controllingFieldValue>
+            <valueName>Instrument Maintenance &amp; Calibration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform Software</controllingFieldValue>
+            <valueName>LABWORKS Desktop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform Software</controllingFieldValue>
+            <valueName>Language Translation Tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform Software</controllingFieldValue>
+            <valueName>Personnel Training Tracker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform Software</controllingFieldValue>
+            <valueName>Process Scheduler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform Software</controllingFieldValue>
+            <valueName>RS232 Connection Tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform Software</controllingFieldValue>
+            <valueName>Workflow Architect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configurability</controllingFieldValue>
+            <valueName>Local Language</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configurability</controllingFieldValue>
+            <valueName>Page layouts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configurability</controllingFieldValue>
+            <valueName>Roles / Profiles / User Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customization</controllingFieldValue>
+            <valueName>ERP Connectors (SAP, JD Edwards)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customization</controllingFieldValue>
+            <controllingFieldValue>Integration / Code</controllingFieldValue>
+            <controllingFieldValue>Other Applications</controllingFieldValue>
+            <valueName>LABWORKS API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Data Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Data Loader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Email Messaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Outbound Messaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Help &amp; Training</controllingFieldValue>
+            <valueName>Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Help &amp; Training</controllingFieldValue>
+            <controllingFieldValue>Portals</controllingFieldValue>
+            <valueName>Tip Sheets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Help &amp; Training</controllingFieldValue>
+            <valueName>Training Courses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Help &amp; Training</controllingFieldValue>
+            <valueName>Workshops - Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integration / Code</controllingFieldValue>
+            <valueName>Custom Applications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integration / Code</controllingFieldValue>
+            <valueName>Excel Calculator</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

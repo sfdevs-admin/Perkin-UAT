@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MQL__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>LEADS assigned to a lead owner that is not a queue will have this field checked to be true in the system via backend</description>
+    <label>MQL</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

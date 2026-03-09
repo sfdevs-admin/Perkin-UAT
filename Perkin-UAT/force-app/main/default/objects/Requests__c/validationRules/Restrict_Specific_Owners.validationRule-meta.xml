@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Specific_Owners</fullName>
+    <active>true</active>
+    <description>the SFDC Admin team uses JIra as the enterprise service tool. All tickets must be created and assigned there, so specific SFDC Admins will be restricted from being owners on Requests in SFDC.</description>
+    <errorConditionFormula>OR(
+Owner:User.Username = &quot;brad.durbin@perkinelmer.com&quot;,
+Owner:User.Username = &quot;mary.mendoza@perkinelmer.com&quot;,
+Owner:User.Username = &quot;michael.glassmaker@perkinelmer.com&quot;,
+Owner:User.Username = &quot;rajalakshmi.r@listertechnologies.com&quot;,
+
+Owner:Queue.QueueName = &quot;Requests - SalesForce Queue&quot;)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>V.RULE_REQUEST_002: the SFDC Admin team uses JIra as the enterprise service tool. All tickets must be created and assigned there, so specific SFDC Admins will be restricted from being owners on Requests in SFDC.</errorMessage>
+</ValidationRule>

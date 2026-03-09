@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxOrderPath__c</fullName>
+    <externalId>false</externalId>
+    <formula>/*jirs ov-336   SAP Actual Ship Date - Data Mapping ID#31 is present then show status CR with dates*/
+IF(NOT(ISBLANK(Actual_Customer_Date__c )) &amp;&amp; NOT(ISBLANK(Actual_CER_date__c)), &quot;Order Shipped&quot;,
+
+/*SAP Estimated Ship Date - Data Mapping ID#29 is present then show status OS with dates*/
+IF(NOT(ISBLANK(Current_Global_Delivery_Date__c)) &amp;&amp; NOT(ISBLANK(Actual_Global_Delivery_Date__c)), &quot;Ready for Shipping&quot;,
+
+/*SAP Order Id is present and Credit Status is Not equal to Credit Hold and Global Delivery Date is present*/
+IF(NOT(ISBLANK(Current_Global_Delivery_Date__c)), &quot;Mfg Date Committed&quot;,
+
+/*When SAP Order Id is present and Credit Status is Not equal to Credit Hold*/
+IF(Credit_Status_Name__c=&quot;Approved&quot;  &amp;&amp; ISBLANK(Delivery_Block__c) &amp;&amp; ISBLANK(Delivery_Block_Description__c) &amp;&amp;  fxBlockedItems__c=0, &quot;Order Clear&quot;,
+
+/*Order status when its “Closed”, “Won” opportunity with SAP Order Id*/
+IF(NOT(ISBLANK(Name)), &quot;Processing Hold&quot;, &quot;&quot;)
+)
+)
+)
+)</formula>
+    <label>fxOrderPath</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Prod_App_For_EH_America_Sales</fullName>
+    <active>true</active>
+    <description>Others field has to be mandatory if Others is selected in Product Application Area is selected and the Owner&#39;s Profile is &quot;EH Americas Sales&quot;.</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c,
+IF(AND(( Owner.ProfileId  = &quot;00e30000000tfcwAAA&quot;),ISPICKVAL(Product_Application_Area__c,&quot;Other - Explain&quot;),(isblank(Product_Application_Area_Others__c))), true, false))</errorConditionFormula>
+    <errorDisplayField>Product_Application_Area_Others__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_015: Others field for Product Application Area has to be filled in.</errorMessage>
+</ValidationRule>

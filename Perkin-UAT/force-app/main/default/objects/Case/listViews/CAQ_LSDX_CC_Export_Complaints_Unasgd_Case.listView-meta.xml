@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAQ_LSDX_CC_Export_Complaints_Unasgd_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: LSDX CC Export Complaints Unasgd</label>
+    <queue>ARQ_000500</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

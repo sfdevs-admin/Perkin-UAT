@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Netsuite_Order__c</fullName>
+    <description>This field tracks the &quot;NetSuite order status&quot; once the Order is processed through integration by the &quot;Generate Netsuite Order&#39; button on the Quote. (ITSFDC-5103)</description>
+    <inlineHelpText>This field tracks the &quot;NetSuite order status&quot; once the Order is processed through integration by the &quot;Generate Netsuite Order&#39; button on the Quote. (ITSFDC-5103)</inlineHelpText>
+    <label>Netsuite Order Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Salesforce Failed</fullName>
+                <default>false</default>
+                <label>Salesforce Failed</label>
+            </value>
+            <value>
+                <fullName>Order Created In NetSuite</fullName>
+                <default>false</default>
+                <label>Order Created In NetSuite</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>ReSubmitted</fullName>
+                <default>false</default>
+                <label>ReSubmitted</label>
+            </value>
+            <value>
+                <fullName>Boomi to Netsuite Failed</fullName>
+                <default>false</default>
+                <label>Boomi to Netsuite Failed</label>
+            </value>
+            <value>
+                <fullName>Boomi to Salesforce Failed</fullName>
+                <default>false</default>
+                <label>Boomi to Salesforce Failed</label>
+            </value>
+            <value>
+                <fullName>Boomi Failed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Boomi Failed</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

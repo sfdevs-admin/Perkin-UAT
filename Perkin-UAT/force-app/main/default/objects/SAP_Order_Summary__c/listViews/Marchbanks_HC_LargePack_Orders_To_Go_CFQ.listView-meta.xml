@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marchbanks_HC_LargePack_Orders_To_Go_CFQ</fullName>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>Quote_Number__c</columns>
+    <columns>NAME</columns>
+    <columns>Order_Status_Name__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>Inco_Terms_Description__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Actual_CER_date__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Count_of_Items__c</columns>
+    <columns>Count_of_unblocked_items__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Sold_To_Address_Country__c</field>
+        <operation>equals</operation>
+        <value>CA,US</value>
+    </filters>
+    <filters>
+        <field>Source_Type__c</field>
+        <operation>equals</operation>
+        <value>ZGNA</value>
+    </filters>
+    <filters>
+        <field>Sales_Rep_First_Name__c</field>
+        <operation>contains</operation>
+        <value>Marchbanks,Feliciano,Shevlin,Zaharis,Hostetter,Serge,Parikh,Taylor Smith,Blankenship</value>
+    </filters>
+    <filters>
+        <field>Actual_Order_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <label>Marchbanks HC LargePack Orders To Go CFQ</label>
+</ListView>

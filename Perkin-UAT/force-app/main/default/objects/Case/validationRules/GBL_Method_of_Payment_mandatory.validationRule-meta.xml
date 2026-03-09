@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Method_of_Payment_mandatory</fullName>
+    <active>true</active>
+    <description>Applies to the &quot;Enterprise&quot; and &quot;Tech Support/Service&quot; Case record type</description>
+    <errorConditionFormula>AND( 
+$Permission.BD_Bypass_Automation != TRUE 
+,OR(RecordType.Name = &#39;Enterprise&#39;
+,RecordType.Name = &#39;Tech Support/Service&#39;)
+,ISPICKVAL(Status, &#39;Closed&#39;)
+,ISBLANK( TEXT( Method_of_Payment__c )) 
+)</errorConditionFormula>
+    <errorDisplayField>Method_of_Payment__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_025: When closing a Case, the Issue Resolution field cannot be blank</errorMessage>
+</ValidationRule>

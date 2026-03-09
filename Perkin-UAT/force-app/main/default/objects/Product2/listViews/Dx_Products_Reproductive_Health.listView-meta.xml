@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_Products_Reproductive_Health</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Partnum__c</columns>
+    <columns>product_line__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT2.QTY_SCHEDULE_ENABLED</columns>
+    <columns>PRODUCT2.REV_SCHEDULE_ENABLED</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>product_line__c</field>
+        <operation>contains</operation>
+        <value>MDX,NAP,CLH,MFT,SPS,NMO,MOX,AWS,ARS,APS,NEX,BTX,NGS</value>
+    </filters>
+    <label>Dx Products Applied Genomics</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000786</group>
+        <group>ARQ_000787</group>
+    </sharedTo>
+</ListView>

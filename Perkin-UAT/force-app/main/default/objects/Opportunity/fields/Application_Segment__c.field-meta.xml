@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Segment__c</fullName>
+    <defaultValue>if($RecordType.DeveloperName =&#39;Informatics&#39;,&#39;Informatics&#39;,null)</defaultValue>
+    <description>Identify Customer Industry</description>
+    <label>Application Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Applied</fullName>
+                <default>false</default>
+                <label>Applied</label>
+            </value>
+            <value>
+                <fullName>COVID</fullName>
+                <default>false</default>
+                <label>COVID</label>
+            </value>
+            <value>
+                <fullName>Diagnostics</fullName>
+                <default>false</default>
+                <label>Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Informatics</fullName>
+                <default>false</default>
+                <label>Informatics</label>
+            </value>
+            <value>
+                <fullName>Life Science</fullName>
+                <default>false</default>
+                <label>Life Science</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Food And Agriculture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Food And Agriculture</label>
+            </value>
+            <value>
+                <fullName>Human Health &amp; Life Sciences</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Human Health &amp; Life Sciences</label>
+            </value>
+            <value>
+                <fullName>Human Health and Life Sciences</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Human Health and Life Sciences</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

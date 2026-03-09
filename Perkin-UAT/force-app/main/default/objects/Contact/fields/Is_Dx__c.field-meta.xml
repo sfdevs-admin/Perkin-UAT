@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Dx__c</fullName>
+    <formula>AND 
+( 
+INCLUDES(BU__c, &quot;Dx&quot;), 
+NOT(INCLUDES(BU__c,&quot;SVC&quot;)), 
+NOT(INCLUDES(BU__c,&quot;INF&quot;)), 
+NOT(INCLUDES(BU__c,&quot;LST&quot;)), 
+NOT(INCLUDES(BU__c,&quot;MED&quot;)), 
+NOT(INCLUDES(BU__c,&quot;ONE&quot;)), 
+NOT(INCLUDES(BU__c,&quot;EH&quot;)) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is_Dx</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

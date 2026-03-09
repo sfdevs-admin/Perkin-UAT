@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_Opportunity_Dealer</fullName>
+    <fields>Name</fields>
+    <fields>CloseDate</fields>
+    <fields>Amount</fields>
+    <fields>OwnerId</fields>
+    <fields>StageName</fields>
+    <fields>Dealer_Approval_Status__c</fields>
+    <fields>Opportunity_Number__c</fields>
+    <label>C.LAY Opportunity Dealer</label>
+</CompactLayout>

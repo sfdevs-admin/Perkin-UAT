@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Material__c</fullName>
+    <description>Used to select material for products. Perk-75</description>
+    <label>Material</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amber Glass</fullName>
+                <default>false</default>
+                <label>Amber Glass</label>
+            </value>
+            <value>
+                <fullName>Clear Glass</fullName>
+                <default>false</default>
+                <label>Clear Glass</label>
+            </value>
+            <value>
+                <fullName>Graphite</fullName>
+                <default>false</default>
+                <label>Graphite</label>
+            </value>
+            <value>
+                <fullName>KALREZ®</fullName>
+                <default>false</default>
+                <label>KALREZ®</label>
+            </value>
+            <value>
+                <fullName>PTFE</fullName>
+                <default>false</default>
+                <label>PTFE</label>
+            </value>
+            <value>
+                <fullName>PTFE/Red Rubber</fullName>
+                <default>false</default>
+                <label>PTFE/Red Rubber</label>
+            </value>
+            <value>
+                <fullName>PTFE/Silicone</fullName>
+                <default>false</default>
+                <label>PTFE/Silicone</label>
+            </value>
+            <value>
+                <fullName>Quartz SUPRASIL</fullName>
+                <default>false</default>
+                <label>Quartz SUPRASIL</label>
+            </value>
+            <value>
+                <fullName>Sodium Chloride</fullName>
+                <default>false</default>
+                <label>Sodium Chloride</label>
+            </value>
+            <value>
+                <fullName>Solvent Flex</fullName>
+                <default>false</default>
+                <label>Solvent Flex</label>
+            </value>
+            <value>
+                <fullName>Viton</fullName>
+                <default>false</default>
+                <label>Viton</label>
+            </value>
+            <value>
+                <fullName>Viton®</fullName>
+                <default>false</default>
+                <label>Viton®</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

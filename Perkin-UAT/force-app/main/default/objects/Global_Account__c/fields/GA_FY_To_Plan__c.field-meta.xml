@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GA_FY_To_Plan__c</fullName>
+    <description>Performance to annual plan</description>
+    <formula>1-( GA_FY_Orders_Target__c-GA_FY_Orders_Achieved__c )/ GA_FY_Orders_Target__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Performance to annual plan</inlineHelpText>
+    <label>FY % To Plan</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

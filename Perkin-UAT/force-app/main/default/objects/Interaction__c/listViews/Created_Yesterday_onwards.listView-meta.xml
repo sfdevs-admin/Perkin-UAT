@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_Yesterday_onwards</fullName>
+    <columns>Country__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>GROW_Employee_Email__c</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>Lead__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>InteractionDate__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>2/1/2023 12:00 AM</value>
+    </filters>
+    <label>Created Feb 1 onwards</label>
+</ListView>

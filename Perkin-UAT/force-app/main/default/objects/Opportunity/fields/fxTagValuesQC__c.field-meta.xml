@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxTagValuesQC__c</fullName>
+    <description>This will display the attributes of this record, owner, territory and running user for QC purposes only</description>
+    <externalId>false</externalId>
+    <formula>&quot;OppOBC: &quot; &amp; TEXT(Owned_by_Company__c )
+&amp; &quot; / Terr.OBC: &quot; &amp;  TEXT(Territory2.Owned_By_Company__c )
+&amp; &quot; / Owner.OBC: &quot; &amp;  TEXT(Owner.Owned_by_Company__c )
+&amp; &quot; / Owner.Role: &quot; &amp; Owner.fxRoleName__c
+&amp; &quot; / User.OBC: &quot; &amp;  TEXT($User.Owned_by_Company__c )
+&amp; &quot; / User.Role: &quot; &amp;  $User.fxRoleName__c</formula>
+    <inlineHelpText>This will display the attributes of this record, owner, territory and running user for QC purposes only</inlineHelpText>
+    <label>fxTagValuesQC</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

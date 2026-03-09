@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SF_to_Boomi_Error_message__c</fullName>
+    <description>This field is used to track the Error Message from SF to Boomi when the Order is processed through NetSuite Integration (ITSFDC-5103)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used to track the Error Message from SF to Boomi when the Order is processed through NetSuite Integration (ITSFDC-5103)</inlineHelpText>
+    <label>SF to Boomi Error message.</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

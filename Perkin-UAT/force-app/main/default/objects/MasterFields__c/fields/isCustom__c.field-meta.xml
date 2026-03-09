@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isCustom__c</fullName>
+    <description>Field is Custom vs Native</description>
+    <formula>RIGHT(Field_API_Name__c,3)= &quot;_c&quot;</formula>
+    <inlineHelpText>Enter whether the Field is Custom vs Native</inlineHelpText>
+    <label>isCustom</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

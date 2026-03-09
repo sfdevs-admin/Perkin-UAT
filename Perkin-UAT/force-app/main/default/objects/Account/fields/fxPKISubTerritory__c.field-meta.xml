@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxPKISubTerritory__c</fullName>
+    <description>formula to get the territory info from PKI Country</description>
+    <externalId>false</externalId>
+    <formula>TEXT(PKICountry__r.Sub_Territory__c)</formula>
+    <inlineHelpText>formula to get the territory info from PKI Country</inlineHelpText>
+    <label>fx PKI Sub Territory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

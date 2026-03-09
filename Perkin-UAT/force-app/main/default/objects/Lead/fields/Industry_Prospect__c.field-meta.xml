@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Prospect__c</fullName>
+    <description>Mapped to Eloqua - for PDG program</description>
+    <label>Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academia</fullName>
+                <default>false</default>
+                <label>Academia</label>
+            </value>
+            <value>
+                <fullName>Pharma and BioPharma</fullName>
+                <default>false</default>
+                <label>Pharma and BioPharma</label>
+            </value>
+            <value>
+                <fullName>Pharma QA/QC Manufacturing</fullName>
+                <default>false</default>
+                <label>Pharma QA/QC Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Food and Agriculture</fullName>
+                <default>false</default>
+                <label>Food and Agriculture</label>
+            </value>
+            <value>
+                <fullName>Materials</fullName>
+                <default>false</default>
+                <label>Materials</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Geochemistry, Mining and Metals</fullName>
+                <default>false</default>
+                <label>Geochemistry, Mining and Metals</label>
+            </value>
+            <value>
+                <fullName>Forensics and Security</fullName>
+                <default>false</default>
+                <label>Forensics and Security</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>CRO</fullName>
+                <default>false</default>
+                <label>CRO</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Pharma</fullName>
+                <default>false</default>
+                <label>Pharma</label>
+            </value>
+            <value>
+                <fullName>Biopharma &amp; Biotech</fullName>
+                <default>false</default>
+                <label>Biopharma &amp; Biotech</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

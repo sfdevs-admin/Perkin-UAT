@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Modification_Complete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>must be chkd by Data Steward upon completing Acct Mod Requests before &#39;Save&#39;</description>
+    <inlineHelpText>If you&#39;ve completed Acct Mod. Req. Edits,
+please check this box and &#39;Save&#39;</inlineHelpText>
+    <label>Account Modification Complete</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

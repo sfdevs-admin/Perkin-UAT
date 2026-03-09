@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TS_Product_Line__c</fullName>
+    <description>PRIOR: SrvcMax Batch 2018.00.00
+NEW : MG: 2022.09.23    chnged label in UATFULL for testing clarity in Case Optimization UAT 2022.09.23-30</description>
+    <label>TSProduct Line</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AA	Atomic Absorption</fullName>
+                <default>false</default>
+                <label>AA	Atomic Absorption</label>
+            </value>
+            <value>
+                <fullName>ICP	Inductively Coupled Plasma</fullName>
+                <default>false</default>
+                <label>ICP	Inductively Coupled Plasma</label>
+            </value>
+            <value>
+                <fullName>MAS Inductively Coupled Plasma / Mass Spectroscopy</fullName>
+                <default>false</default>
+                <label>MAS Inductively Coupled Plasma / Mass Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>GC	Gas Chromatography</fullName>
+                <default>false</default>
+                <label>GC	Gas Chromatography</label>
+            </value>
+            <value>
+                <fullName>LC	Liquid Chromatography</fullName>
+                <default>false</default>
+                <label>LC	Liquid Chromatography</label>
+            </value>
+            <value>
+                <fullName>LCM Liquid Chromatography / Mass Spec</fullName>
+                <default>false</default>
+                <label>LCM Liquid Chromatography / Mass Spec</label>
+            </value>
+            <value>
+                <fullName>MBA Mobile Analyzers</fullName>
+                <default>false</default>
+                <label>MBA Mobile Analyzers</label>
+            </value>
+            <value>
+                <fullName>MMS Mobile Systems</fullName>
+                <default>false</default>
+                <label>MMS Mobile Systems</label>
+            </value>
+            <value>
+                <fullName>IR Infrared Spectroscopy</fullName>
+                <default>false</default>
+                <label>IR Infrared Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>TEA	Thermal &amp; Elemental Analysis</fullName>
+                <default>false</default>
+                <label>TEA	Thermal &amp; Elemental Analysis</label>
+            </value>
+            <value>
+                <fullName>UVS	Ultraviolet Spectroscopy</fullName>
+                <default>false</default>
+                <label>UVS	Ultraviolet Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>FLR	Flourescence</fullName>
+                <default>false</default>
+                <label>FLR	Flourescence</label>
+            </value>
+            <value>
+                <fullName>RAM RAMAN</fullName>
+                <default>false</default>
+                <label>RAM RAMAN</label>
+            </value>
+            <value>
+                <fullName>PER	PERTEN</fullName>
+                <default>false</default>
+                <label>PER	PERTEN</label>
+            </value>
+            <value>
+                <fullName>DEL	dough LAB</fullName>
+                <default>false</default>
+                <label>DEL	dough LAB</label>
+            </value>
+            <value>
+                <fullName>FN	Falling Number</fullName>
+                <default>false</default>
+                <label>FN	Falling Number</label>
+            </value>
+            <value>
+                <fullName>FTF	FT Food</fullName>
+                <default>false</default>
+                <label>FTF	FT Food</label>
+            </value>
+            <value>
+                <fullName>IMF	Flour Inframatic</fullName>
+                <default>false</default>
+                <label>IMF	Flour Inframatic</label>
+            </value>
+            <value>
+                <fullName>IMG	Whole Grain</fullName>
+                <default>false</default>
+                <label>IMG	Whole Grain</label>
+            </value>
+            <value>
+                <fullName>LM	Lab Mill</fullName>
+                <default>false</default>
+                <label>LM	Lab Mill</label>
+            </value>
+            <value>
+                <fullName>RVA	Rapid Visco Analyser</fullName>
+                <default>false</default>
+                <label>RVA	Rapid Visco Analyser</label>
+            </value>
+            <value>
+                <fullName>BIO	BIOO</fullName>
+                <default>false</default>
+                <label>BIO	BIOO</label>
+            </value>
+            <value>
+                <fullName>EZR	Easy Reader</fullName>
+                <default>false</default>
+                <label>EZR	Easy Reader</label>
+            </value>
+            <value>
+                <fullName>HCS High Content Screening</fullName>
+                <default>false</default>
+                <label>HCS High Content Screening</label>
+            </value>
+            <value>
+                <fullName>IAS	Imaging &amp; Analysis Solutions</fullName>
+                <default>false</default>
+                <label>IAS	Imaging &amp; Analysis Solutions</label>
+            </value>
+            <value>
+                <fullName>IDO	Imaging and Detection Other</fullName>
+                <default>false</default>
+                <label>IDO	Imaging and Detection Other</label>
+            </value>
+            <value>
+                <fullName>INV	In Vivo Imaging</fullName>
+                <default>false</default>
+                <label>INV	In Vivo Imaging</label>
+            </value>
+            <value>
+                <fullName>MLD Multi-Label Detection</fullName>
+                <default>false</default>
+                <label>MLD Multi-Label Detection</label>
+            </value>
+            <value>
+                <fullName>QTS	Quantitative Tomography Systems</fullName>
+                <default>false</default>
+                <label>QTS	Quantitative Tomography Systems</label>
+            </value>
+            <value>
+                <fullName>TBR	Tissue Biomarker Reagents</fullName>
+                <default>false</default>
+                <label>TBR	Tissue Biomarker Reagents</label>
+            </value>
+            <value>
+                <fullName>TIS Tissue</fullName>
+                <default>false</default>
+                <label>TIS Tissue</label>
+            </value>
+            <value>
+                <fullName>TSC	Tissue (Core)</fullName>
+                <default>false</default>
+                <label>TSC	Tissue (Core)</label>
+            </value>
+            <value>
+                <fullName>CLR	Caliper Reagents</fullName>
+                <default>false</default>
+                <label>CLR	Caliper Reagents</label>
+            </value>
+            <value>
+                <fullName>DDV Drug Development</fullName>
+                <default>false</default>
+                <label>DDV Drug Development</label>
+            </value>
+            <value>
+                <fullName>FAP	Fluorescence Agents Portfolio</fullName>
+                <default>false</default>
+                <label>FAP	Fluorescence Agents Portfolio</label>
+            </value>
+            <value>
+                <fullName>HTS	LS HTS &amp; Cellular Screening</fullName>
+                <default>false</default>
+                <label>HTS	LS HTS &amp; Cellular Screening</label>
+            </value>
+            <value>
+                <fullName>DRS Discovery Reagents Solution</fullName>
+                <default>false</default>
+                <label>DRS Discovery Reagents Solution</label>
+            </value>
+            <value>
+                <fullName>MOL Research Reagents</fullName>
+                <default>false</default>
+                <label>MOL Research Reagents</label>
+            </value>
+            <value>
+                <fullName>NVS	Alliances (NovaScreen)</fullName>
+                <default>false</default>
+                <label>NVS	Alliances (NovaScreen)</label>
+            </value>
+            <value>
+                <fullName>RRD Radiometric Detection</fullName>
+                <default>false</default>
+                <label>RRD Radiometric Detection</label>
+            </value>
+            <value>
+                <fullName>RRS Research Reagents</fullName>
+                <default>false</default>
+                <label>RRS Research Reagents</label>
+            </value>
+            <value>
+                <fullName>RSO Rad&#39;s and Service Other</fullName>
+                <default>false</default>
+                <label>RSO Rad&#39;s and Service Other</label>
+            </value>
+            <value>
+                <fullName>SCN Scanners</fullName>
+                <default>false</default>
+                <label>SCN Scanners</label>
+            </value>
+            <value>
+                <fullName>DIS	Distributor Products</fullName>
+                <default>false</default>
+                <label>DIS	Distributor Products</label>
+            </value>
+            <value>
+                <fullName>IDM	Imaging Detection Microfluids Automation</fullName>
+                <default>false</default>
+                <label>IDM	Imaging Detection Microfluids Automation</label>
+            </value>
+            <value>
+                <fullName>IDR	Imaging Detection Rad&#39;s Services</fullName>
+                <default>false</default>
+                <label>IDR	Imaging Detection Rad&#39;s Services</label>
+            </value>
+            <value>
+                <fullName>MMA Molecular Medicine Allocations</fullName>
+                <default>false</default>
+                <label>MMA Molecular Medicine Allocations</label>
+            </value>
+            <value>
+                <fullName>MMO Molecular Medecine Other</fullName>
+                <default>false</default>
+                <label>MMO Molecular Medecine Other</label>
+            </value>
+            <value>
+                <fullName>ANP	Analytical Proteomics</fullName>
+                <default>false</default>
+                <label>ANP	Analytical Proteomics</label>
+            </value>
+            <value>
+                <fullName>CKP	Cellular Kinetic Photoproteins</fullName>
+                <default>false</default>
+                <label>CKP	Cellular Kinetic Photoproteins</label>
+            </value>
+            <value>
+                <fullName>CSA	Cellular Screening &amp; Adme</fullName>
+                <default>false</default>
+                <label>CSA	Cellular Screening &amp; Adme</label>
+            </value>
+            <value>
+                <fullName>FGP	Functional Genomics &amp; Proteomics</fullName>
+                <default>false</default>
+                <label>FGP	Functional Genomics &amp; Proteomics</label>
+            </value>
+            <value>
+                <fullName>GIP Gel Imaging &amp; Prep</fullName>
+                <default>false</default>
+                <label>GIP Gel Imaging &amp; Prep</label>
+            </value>
+            <value>
+                <fullName>LSB	AI Life Science Business</fullName>
+                <default>false</default>
+                <label>LSB	AI Life Science Business</label>
+            </value>
+            <value>
+                <fullName>LVI Live Cell Imaging</fullName>
+                <default>false</default>
+                <label>LVI Live Cell Imaging</label>
+            </value>
+            <value>
+                <fullName>MCB Molecular &amp; Cell Biology Reagents</fullName>
+                <default>false</default>
+                <label>MCB Molecular &amp; Cell Biology Reagents</label>
+            </value>
+            <value>
+                <fullName>MPS Multiproble &amp; Automated Systems</fullName>
+                <default>false</default>
+                <label>MPS Multiproble &amp; Automated Systems</label>
+            </value>
+            <value>
+                <fullName>NUC Nuclear Counters</fullName>
+                <default>false</default>
+                <label>NUC Nuclear Counters</label>
+            </value>
+            <value>
+                <fullName>PBR	Protein Biology Reagents</fullName>
+                <default>false</default>
+                <label>PBR	Protein Biology Reagents</label>
+            </value>
+            <value>
+                <fullName>PCL	Photina Cell Lines</fullName>
+                <default>false</default>
+                <label>PCL	Photina Cell Lines</label>
+            </value>
+            <value>
+                <fullName>PGI	Proteomics &amp; Genomics Reagents</fullName>
+                <default>false</default>
+                <label>PGI	Proteomics &amp; Genomics Reagents</label>
+            </value>
+            <value>
+                <fullName>PRD Plate Readers</fullName>
+                <default>false</default>
+                <label>PRD Plate Readers</label>
+            </value>
+            <value>
+                <fullName>RRC Research Radiochemicals</fullName>
+                <default>false</default>
+                <label>RRC Research Radiochemicals</label>
+            </value>
+            <value>
+                <fullName>SER	LST Service</fullName>
+                <default>false</default>
+                <label>SER	LST Service</label>
+            </value>
+            <value>
+                <fullName>TIP	Tips &amp; Consumables</fullName>
+                <default>false</default>
+                <label>TIP	Tips &amp; Consumables</label>
+            </value>
+            <value>
+                <fullName>AVC	Analytics Plus (Analysis &amp; Visualization)</fullName>
+                <default>false</default>
+                <label>AVC	Analytics Plus (Analysis &amp; Visualization)</label>
+            </value>
+            <value>
+                <fullName>AVS	Analytics (Analysis &amp; Visualization)</fullName>
+                <default>false</default>
+                <label>AVS	Analytics (Analysis &amp; Visualization)</label>
+            </value>
+            <value>
+                <fullName>CHE Lims Lab Information Mgt</fullName>
+                <default>false</default>
+                <label>CHE Lims Lab Information Mgt</label>
+            </value>
+            <value>
+                <fullName>DSK	Desktop</fullName>
+                <default>false</default>
+                <label>DSK	Desktop</label>
+            </value>
+            <value>
+                <fullName>ELM	Elements</fullName>
+                <default>false</default>
+                <label>ELM	Elements</label>
+            </value>
+            <value>
+                <fullName>ENT	Enterprise R&amp;D</fullName>
+                <default>false</default>
+                <label>ENT	Enterprise R&amp;D</label>
+            </value>
+            <value>
+                <fullName>ESS	Enterprise Software Solutions</fullName>
+                <default>false</default>
+                <label>ESS	Enterprise Software Solutions</label>
+            </value>
+            <value>
+                <fullName>GPZ	Geospiza</fullName>
+                <default>false</default>
+                <label>GPZ	Geospiza</label>
+            </value>
+            <value>
+                <fullName>IFO	Informatics Other</fullName>
+                <default>false</default>
+                <label>IFO	Informatics Other</label>
+            </value>
+            <value>
+                <fullName>ISS	Informatics Imaging</fullName>
+                <default>false</default>
+                <label>ISS	Informatics Imaging</label>
+            </value>
+            <value>
+                <fullName>LIM	Laboratory Info. Mgmt Systems</fullName>
+                <default>false</default>
+                <label>LIM	Laboratory Info. Mgmt Systems</label>
+            </value>
+            <value>
+                <fullName>QAS Informatics QA/QC</fullName>
+                <default>false</default>
+                <label>QAS Informatics QA/QC</label>
+            </value>
+            <value>
+                <fullName>SIG	Signals</fullName>
+                <default>false</default>
+                <label>SIG	Signals</label>
+            </value>
+            <value>
+                <fullName>ABI	Applied Biosystems</fullName>
+                <default>false</default>
+                <label>ABI	Applied Biosystems</label>
+            </value>
+            <value>
+                <fullName>AGT	Agilent Technologies</fullName>
+                <default>false</default>
+                <label>AGT	Agilent Technologies</label>
+            </value>
+            <value>
+                <fullName>OMV Other Multi Vendor</fullName>
+                <default>false</default>
+                <label>OMV Other Multi Vendor</label>
+            </value>
+            <value>
+                <fullName>OSO OneSource Other</fullName>
+                <default>false</default>
+                <label>OSO OneSource Other</label>
+            </value>
+            <value>
+                <fullName>TMO Thermo Electron Corp</fullName>
+                <default>false</default>
+                <label>TMO Thermo Electron Corp</label>
+            </value>
+            <value>
+                <fullName>WAT Waters Corporation</fullName>
+                <default>false</default>
+                <label>WAT Waters Corporation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

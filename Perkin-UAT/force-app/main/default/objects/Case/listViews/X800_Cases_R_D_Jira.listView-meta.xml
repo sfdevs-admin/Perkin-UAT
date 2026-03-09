@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X800_Cases_R_D_Jira</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>JiraSyncYN__c</columns>
+    <columns>JiraSyncId__c</columns>
+    <columns>JiraTicket__c</columns>
+    <columns>fxLastTime_CaseComment__c</columns>
+    <columns>Strategic_Key_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BD_Record_Type_formula__c</field>
+        <operation>equals</operation>
+        <value>DX Software Services</value>
+    </filters>
+    <filters>
+        <field>TypeOfCase__c</field>
+        <operation>equals</operation>
+        <value>&quot;Performance, Security or Availability Issue&quot;</value>
+    </filters>
+    <label>800. Cases - R&amp;D Jira</label>
+</ListView>

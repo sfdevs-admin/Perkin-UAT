@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoCodeXxx__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ShippingCountry &lt;&gt; &quot;US&quot;,&quot;NA&quot;, 
+IF(CONTAINS(&quot;070, 071, 072, 073, 074, 075, 076, 078, 079, 103&quot;, left(ShippingPostalCode,3)), &quot;X02&quot;, 
+IF(CONTAINS(&quot;088, 089&quot;, left(ShippingPostalCode,3)), &quot;X03&quot;, 
+IF(CONTAINS(&quot;077, 085, 086, 087&quot;, left(ShippingPostalCode,3)), &quot;X04&quot;, 
+IF(CONTAINS(&quot;091, 092, 093, 094, 095, 096, 097, 098, 100, 101, 102, 104, 111, 112, 113, 114, 116&quot;, left(ShippingPostalCode,3)), &quot;X06&quot;, 
+IF(CONTAINS(&quot;110, 115, 117, 118, 119&quot;, left(ShippingPostalCode,3)), &quot;X07&quot;, 
+&quot;NA&quot;))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>GeoCodeXxx</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

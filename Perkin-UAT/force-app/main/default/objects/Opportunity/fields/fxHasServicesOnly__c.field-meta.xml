@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxHasServicesOnly__c</fullName>
+    <description>This will help for reporting to determine if the opportunity is only service products (which don&#39;t need a renewal)</description>
+    <formula>CountofRenewalProducts__c = 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If true, this Opp only has service products</inlineHelpText>
+    <label>fxHasServicesOnly</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

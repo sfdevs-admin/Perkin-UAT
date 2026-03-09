@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsCurrentUser__c</fullName>
+    <description>Compares the logged in user&#39;s name with the name in the field [Name of Requestor]</description>
+    <externalId>false</externalId>
+    <formula>Name_of_Requestor__r.FirstName + &#39; &#39; + Name_of_Requestor__r.LastName</formula>
+    <label>IsCurrentUser</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_Readout__c</fullName>
+    <description>S-692773/T-941080</description>
+    <inlineHelpText>Select the appropriate technology or readout</inlineHelpText>
+    <label>Technology &amp; Readout</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LS-CBB HTRF</fullName>
+                <default>false</default>
+                <label>LS-CBB HTRF</label>
+            </value>
+            <value>
+                <fullName>LS-PKI AlphaLISA</fullName>
+                <default>false</default>
+                <label>LS-PKI AlphaLISA</label>
+            </value>
+            <value>
+                <fullName>LS-PKI AlphaScreen SureFire</fullName>
+                <default>false</default>
+                <label>LS-PKI AlphaScreen SureFire</label>
+            </value>
+            <value>
+                <fullName>LS-PKI AlphaLISA SureFire Ultra</fullName>
+                <default>false</default>
+                <label>LS-PKI AlphaLISA SureFire Ultra</label>
+            </value>
+            <value>
+                <fullName>LS-PKI AlphaScreen</fullName>
+                <default>false</default>
+                <label>LS-PKI AlphaScreen</label>
+            </value>
+            <value>
+                <fullName>LS-PKI LANCE</fullName>
+                <default>false</default>
+                <label>LS-PKI LANCE</label>
+            </value>
+            <value>
+                <fullName>LS-PKI DELFIA</fullName>
+                <default>false</default>
+                <label>LS-PKI DELFIA</label>
+            </value>
+            <value>
+                <fullName>LS-PKI Luminescence</fullName>
+                <default>false</default>
+                <label>LS-PKI Luminescence</label>
+            </value>
+            <value>
+                <fullName>LS-PKI MOL</fullName>
+                <default>false</default>
+                <label>LS-PKI MOL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

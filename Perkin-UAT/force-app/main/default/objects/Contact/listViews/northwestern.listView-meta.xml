@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>northwestern</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>takahashi</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>greaterOrEqual</operation>
+        <value>16800</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>lessOrEqual</operation>
+        <value>19799</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>PA</value>
+    </filters>
+    <filters>
+        <field>CONTACT.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>takahashi</value>
+    </filters>
+    <label>northwestern</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

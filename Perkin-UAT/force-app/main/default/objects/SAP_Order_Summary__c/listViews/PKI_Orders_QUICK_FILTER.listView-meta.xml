@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Orders_QUICK_FILTER</fullName>
+    <columns>NAME</columns>
+    <columns>idocId__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Quote_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Count_of_Items__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Source_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>5013024</value>
+    </filters>
+    <label>PKI Orders (*QUICK FILTER*)</label>
+</ListView>

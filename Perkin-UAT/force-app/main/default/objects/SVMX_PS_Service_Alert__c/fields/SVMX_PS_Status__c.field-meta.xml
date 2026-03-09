@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BU Investigating</fullName>
+                <default>false</default>
+                <label>BU Investigating</label>
+            </value>
+            <value>
+                <fullName>Quality Approved</fullName>
+                <default>false</default>
+                <label>Business Unit Approved</label>
+            </value>
+            <value>
+                <fullName>Quality Rejected</fullName>
+                <default>false</default>
+                <label>Business Unit Rejected</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Confidence Testing</fullName>
+                <default>false</default>
+                <label>Confidence Testing</label>
+            </value>
+            <value>
+                <fullName>Engineering Investigating</fullName>
+                <default>false</default>
+                <label>Engineering Investigating</label>
+            </value>
+            <value>
+                <fullName>Field Service Investigating</fullName>
+                <default>false</default>
+                <label>Field Service Investigating</label>
+            </value>
+            <value>
+                <fullName>Implementation Specialist Investigating</fullName>
+                <default>false</default>
+                <label>Implementation Specialist Investigating</label>
+            </value>
+            <value>
+                <fullName>Manager Approved</fullName>
+                <default>false</default>
+                <label>Manager Approved</label>
+            </value>
+            <value>
+                <fullName>Manager Rejected</fullName>
+                <default>false</default>
+                <label>Manager Rejected</label>
+            </value>
+            <value>
+                <fullName>New instrument ordered</fullName>
+                <default>false</default>
+                <label>New instrument ordered</label>
+            </value>
+            <value>
+                <fullName>New instrument shipped</fullName>
+                <default>false</default>
+                <label>New instrument shipped</label>
+            </value>
+            <value>
+                <fullName>No Activity</fullName>
+                <default>false</default>
+                <label>No Activity</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Parts Shipped</fullName>
+                <default>false</default>
+                <label>Parts Shipped</label>
+            </value>
+            <value>
+                <fullName>Pending Manager Approval</fullName>
+                <default>false</default>
+                <label>Pending Manager Approval</label>
+            </value>
+            <value>
+                <fullName>Product Specialist Investigating</fullName>
+                <default>false</default>
+                <label>Product Specialist Investigating</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Replacement Completed</fullName>
+                <default>false</default>
+                <label>Replacement Completed</label>
+            </value>
+            <value>
+                <fullName>Replacement Requested</fullName>
+                <default>false</default>
+                <label>Replacement Requested</label>
+            </value>
+            <value>
+                <fullName>Request Canceled</fullName>
+                <default>false</default>
+                <label>Request Canceled</label>
+            </value>
+            <value>
+                <fullName>Sent to CRC</fullName>
+                <default>false</default>
+                <label>Sent to CRC</label>
+            </value>
+            <value>
+                <fullName>Shipping Damage</fullName>
+                <default>false</default>
+                <label>Shipping Damage</label>
+            </value>
+            <value>
+                <fullName>Software Investigating</fullName>
+                <default>false</default>
+                <label>Software Investigating</label>
+            </value>
+            <value>
+                <fullName>Support Investigating</fullName>
+                <default>false</default>
+                <label>Support Investigating</label>
+            </value>
+            <value>
+                <fullName>Waiting on Parts/Materials</fullName>
+                <default>false</default>
+                <label>Waiting on Parts/Materials</label>
+            </value>
+            <value>
+                <fullName>Waiting on Supplier Direct Delivered Part</fullName>
+                <default>false</default>
+                <label>Waiting on Supplier Direct Delivered Part</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

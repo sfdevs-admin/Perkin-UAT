@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Browser__c</fullName>
+    <label>Browser</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chrome v35+</fullName>
+                <default>false</default>
+                <label>Chrome v35+</label>
+            </value>
+            <value>
+                <fullName>Firefox 28.x</fullName>
+                <default>false</default>
+                <label>Firefox 28.x</label>
+            </value>
+            <value>
+                <fullName>Firefox 29.x</fullName>
+                <default>false</default>
+                <label>Firefox 29.x</label>
+            </value>
+            <value>
+                <fullName>Firefox 30.x</fullName>
+                <default>false</default>
+                <label>Firefox 30.x</label>
+            </value>
+            <value>
+                <fullName>Firefox 31.x</fullName>
+                <default>false</default>
+                <label>Firefox 31.x</label>
+            </value>
+            <value>
+                <fullName>Firefox 32.x+</fullName>
+                <default>false</default>
+                <label>Firefox 32.x+</label>
+            </value>
+            <value>
+                <fullName>IE 10.x</fullName>
+                <default>false</default>
+                <label>IE 10.x</label>
+            </value>
+            <value>
+                <fullName>IE 11.x</fullName>
+                <default>false</default>
+                <label>IE 11.x</label>
+            </value>
+            <value>
+                <fullName>IE 9.X</fullName>
+                <default>false</default>
+                <label>IE 9.X</label>
+            </value>
+            <value>
+                <fullName>Safari 7.0</fullName>
+                <default>false</default>
+                <label>Safari 7.0</label>
+            </value>
+            <value>
+                <fullName>Safari 8.0</fullName>
+                <default>false</default>
+                <label>Safari 8.0</label>
+            </value>
+            <value>
+                <fullName>Safari 9.0</fullName>
+                <default>false</default>
+                <label>Safari 9.0</label>
+            </value>
+            <value>
+                <fullName>IE 7.x</fullName>
+                <default>false</default>
+                <label>IE 7.x</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5_Software_Services_Turku_Chgd_last_30dN</fullName>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>Action__c</columns>
+    <columns>Case_Aging__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>TypeOfCase__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Strategic_Key_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Dx_Software_Services</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>DX Software Services - Akron</value>
+    </filters>
+    <filters>
+        <field>External_Email_Inbox__c</field>
+        <operation>equals</operation>
+        <value>specimengatesupportfi@revvity.com,specimengatesupportfi@perkinelmer.com</value>
+    </filters>
+    <filters>
+        <field>CASES.LAST_UPDATE</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:30</value>
+    </filters>
+    <label>5 Software Services Turku-Chgd last 30d</label>
+    <sharedTo>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

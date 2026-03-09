@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Software_Module__c</fullName>
+    <label>Software Module</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>About Box</fullName>
+                <default>false</default>
+                <label>About Box</label>
+            </value>
+            <value>
+                <fullName>Analysis List Setup</fullName>
+                <default>false</default>
+                <label>Analysis List Setup</label>
+            </value>
+            <value>
+                <fullName>Archive and Restore</fullName>
+                <default>false</default>
+                <label>Archive and Restore</label>
+            </value>
+            <value>
+                <fullName>Automatic Email Reporting</fullName>
+                <default>false</default>
+                <label>Automatic Email Reporting</label>
+            </value>
+            <value>
+                <fullName>Backlog Report</fullName>
+                <default>false</default>
+                <label>Backlog Report</label>
+            </value>
+            <value>
+                <fullName>Bar Code Printing</fullName>
+                <default>false</default>
+                <label>Bar Code Printing</label>
+            </value>
+            <value>
+                <fullName>Batch Number Generator</fullName>
+                <default>false</default>
+                <label>Batch Number Generator</label>
+            </value>
+            <value>
+                <fullName>Certificate of Analysis</fullName>
+                <default>false</default>
+                <label>Certificate of Analysis</label>
+            </value>
+            <value>
+                <fullName>Citrix</fullName>
+                <default>false</default>
+                <label>Citrix</label>
+            </value>
+            <value>
+                <fullName>Command Line Add Samples</fullName>
+                <default>false</default>
+                <label>Command Line Add Samples</label>
+            </value>
+            <value>
+                <fullName>Command Line Advance Status</fullName>
+                <default>false</default>
+                <label>Command Line Advance Status</label>
+            </value>
+            <value>
+                <fullName>Command Line Cross Reference</fullName>
+                <default>false</default>
+                <label>Command Line Cross Reference</label>
+            </value>
+            <value>
+                <fullName>Command Line Export</fullName>
+                <default>false</default>
+                <label>Command Line Export</label>
+            </value>
+            <value>
+                <fullName>Command Line Post Multi</fullName>
+                <default>false</default>
+                <label>Command Line Post Multi</label>
+            </value>
+            <value>
+                <fullName>Command Line Post Single</fullName>
+                <default>false</default>
+                <label>Command Line Post Single</label>
+            </value>
+            <value>
+                <fullName>Command Line Print Backlog</fullName>
+                <default>false</default>
+                <label>Command Line Print Backlog</label>
+            </value>
+            <value>
+                <fullName>Command Print Receipt</fullName>
+                <default>false</default>
+                <label>Command Print Receipt</label>
+            </value>
+            <value>
+                <fullName>Command Line Print Route Sheet</fullName>
+                <default>false</default>
+                <label>Command Line Print Route Sheet</label>
+            </value>
+            <value>
+                <fullName>Command Line Print Worksheet</fullName>
+                <default>false</default>
+                <label>Command Line Print Worksheet</label>
+            </value>
+            <value>
+                <fullName>Command Line QA/QC Batch</fullName>
+                <default>false</default>
+                <label>Command Line QA/QC Batch</label>
+            </value>
+            <value>
+                <fullName>Command Line QA/QC Data Export</fullName>
+                <default>false</default>
+                <label>Command Line QA/QC Data Export</label>
+            </value>
+            <value>
+                <fullName>Convert Data Export into Access</fullName>
+                <default>false</default>
+                <label>Convert Data Export into Access</label>
+            </value>
+            <value>
+                <fullName>Convert data Export into Excel</fullName>
+                <default>false</default>
+                <label>Convert data Export into Excel</label>
+            </value>
+            <value>
+                <fullName>Convert Tables into XML</fullName>
+                <default>false</default>
+                <label>Convert Tables into XML</label>
+            </value>
+            <value>
+                <fullName>Cross Reference Search</fullName>
+                <default>false</default>
+                <label>Cross Reference Search</label>
+            </value>
+            <value>
+                <fullName>Custom Form Printer</fullName>
+                <default>false</default>
+                <label>Custom Form Printer</label>
+            </value>
+            <value>
+                <fullName>Document Reference Setup</fullName>
+                <default>false</default>
+                <label>Document Reference Setup</label>
+            </value>
+            <value>
+                <fullName>Domain Authentication Setup</fullName>
+                <default>false</default>
+                <label>Domain Authentication Setup</label>
+            </value>
+            <value>
+                <fullName>Domain Authentication Login</fullName>
+                <default>false</default>
+                <label>Domain Authentication Login</label>
+            </value>
+            <value>
+                <fullName>Excel Calculations Setup</fullName>
+                <default>false</default>
+                <label>Excel Calculations Setup</label>
+            </value>
+            <value>
+                <fullName>Exception Report Automatic Batch</fullName>
+                <default>false</default>
+                <label>Exception Report Automatic Batch</label>
+            </value>
+            <value>
+                <fullName>Exception Report Automatic Single</fullName>
+                <default>false</default>
+                <label>Exception Report Automatic Single</label>
+            </value>
+            <value>
+                <fullName>Exception Report Setup</fullName>
+                <default>false</default>
+                <label>Exception Report Setup</label>
+            </value>
+            <value>
+                <fullName>Export Format Setup</fullName>
+                <default>false</default>
+                <label>Export Format Setup</label>
+            </value>
+            <value>
+                <fullName>Export and Conversion</fullName>
+                <default>false</default>
+                <label>Export and Conversion</label>
+            </value>
+            <value>
+                <fullName>Export Data unattended</fullName>
+                <default>false</default>
+                <label>Export Data unattended</label>
+            </value>
+            <value>
+                <fullName>Form Definition File FDF Editor</fullName>
+                <default>false</default>
+                <label>Form Definition File FDF Editor</label>
+            </value>
+            <value>
+                <fullName>Help Module</fullName>
+                <default>false</default>
+                <label>Help Module</label>
+            </value>
+            <value>
+                <fullName>INI File Editor</fullName>
+                <default>false</default>
+                <label>INI File Editor</label>
+            </value>
+            <value>
+                <fullName>Instrument Interfaces</fullName>
+                <default>false</default>
+                <label>Instrument Interfaces</label>
+            </value>
+            <value>
+                <fullName>Instrument Maintenance and Calibration</fullName>
+                <default>false</default>
+                <label>Instrument Maintenance and Calibration</label>
+            </value>
+            <value>
+                <fullName>Instrument Result Loading</fullName>
+                <default>false</default>
+                <label>Instrument Result Loading</label>
+            </value>
+            <value>
+                <fullName>Instrument Sequence Loader</fullName>
+                <default>false</default>
+                <label>Instrument Sequence Loader</label>
+            </value>
+            <value>
+                <fullName>Interim Results Export</fullName>
+                <default>false</default>
+                <label>Interim Results Export</label>
+            </value>
+            <value>
+                <fullName>Invoice Generation</fullName>
+                <default>false</default>
+                <label>Invoice Generation</label>
+            </value>
+            <value>
+                <fullName>LABWORKS Desktop</fullName>
+                <default>false</default>
+                <label>LABWORKS Desktop</label>
+            </value>
+            <value>
+                <fullName>LABWORKS Explorer</fullName>
+                <default>false</default>
+                <label>LABWORKS Explorer</label>
+            </value>
+            <value>
+                <fullName>LABWORKS training</fullName>
+                <default>false</default>
+                <label>LABWORKS training</label>
+            </value>
+            <value>
+                <fullName>Location List Setup</fullName>
+                <default>false</default>
+                <label>Location List Setup</label>
+            </value>
+            <value>
+                <fullName>Login Server</fullName>
+                <default>false</default>
+                <label>Login Server</label>
+            </value>
+            <value>
+                <fullName>Login Analyte Selection</fullName>
+                <default>false</default>
+                <label>Login Analyte Selection</label>
+            </value>
+            <value>
+                <fullName>login File Utility</fullName>
+                <default>false</default>
+                <label>login File Utility</label>
+            </value>
+            <value>
+                <fullName>Login Initiate Sample Container</fullName>
+                <default>false</default>
+                <label>Login Initiate Sample Container</label>
+            </value>
+            <value>
+                <fullName>Login Modify Project Analyte</fullName>
+                <default>false</default>
+                <label>Login Modify Project Analyte</label>
+            </value>
+            <value>
+                <fullName>Login Multisample</fullName>
+                <default>false</default>
+                <label>Login Multisample</label>
+            </value>
+            <value>
+                <fullName>Login Print Labels Chain of Custody</fullName>
+                <default>false</default>
+                <label>Login Print Labels Chain of Custody</label>
+            </value>
+            <value>
+                <fullName>Login Print Standard Label</fullName>
+                <default>false</default>
+                <label>Login Print Standard Label</label>
+            </value>
+            <value>
+                <fullName>Login Remove Project Analyte</fullName>
+                <default>false</default>
+                <label>Login Remove Project Analyte</label>
+            </value>
+            <value>
+                <fullName>Login Single Sample</fullName>
+                <default>false</default>
+                <label>Login Single Sample</label>
+            </value>
+            <value>
+                <fullName>Middle Tier Access</fullName>
+                <default>false</default>
+                <label>Middle Tier Access</label>
+            </value>
+            <value>
+                <fullName>Middle Tier Oracle</fullName>
+                <default>false</default>
+                <label>Middle Tier Oracle</label>
+            </value>
+            <value>
+                <fullName>MOR Monthly Operating Report</fullName>
+                <default>false</default>
+                <label>MOR Monthly Operating Report</label>
+            </value>
+            <value>
+                <fullName>Multi-Component Transfer</fullName>
+                <default>false</default>
+                <label>Multi-Component Transfer</label>
+            </value>
+            <value>
+                <fullName>Personnel Training</fullName>
+                <default>false</default>
+                <label>Personnel Training</label>
+            </value>
+            <value>
+                <fullName>Pick List Setup</fullName>
+                <default>false</default>
+                <label>Pick List Setup</label>
+            </value>
+            <value>
+                <fullName>Process Scheduler</fullName>
+                <default>false</default>
+                <label>Process Scheduler</label>
+            </value>
+            <value>
+                <fullName>Progress Report</fullName>
+                <default>false</default>
+                <label>Progress Report</label>
+            </value>
+            <value>
+                <fullName>Project Analyte Management</fullName>
+                <default>false</default>
+                <label>Project Analyte Management</label>
+            </value>
+            <value>
+                <fullName>QA/QC Reporting</fullName>
+                <default>false</default>
+                <label>QA/QC Reporting</label>
+            </value>
+            <value>
+                <fullName>Query Engine</fullName>
+                <default>false</default>
+                <label>Query Engine</label>
+            </value>
+            <value>
+                <fullName>Query Engine Setup</fullName>
+                <default>false</default>
+                <label>Query Engine Setup</label>
+            </value>
+            <value>
+                <fullName>Report Designer Access</fullName>
+                <default>false</default>
+                <label>Report Designer Access</label>
+            </value>
+            <value>
+                <fullName>Report Designer Crystal</fullName>
+                <default>false</default>
+                <label>Report Designer Crystal</label>
+            </value>
+            <value>
+                <fullName>Report Designer WORD</fullName>
+                <default>false</default>
+                <label>Report Designer WORD</label>
+            </value>
+            <value>
+                <fullName>Report Generator - Crystal</fullName>
+                <default>false</default>
+                <label>Report Generator - Crystal</label>
+            </value>
+            <value>
+                <fullName>Report Launcher Access</fullName>
+                <default>false</default>
+                <label>Report Launcher Access</label>
+            </value>
+            <value>
+                <fullName>Report Launcher Crystal</fullName>
+                <default>false</default>
+                <label>Report Launcher Crystal</label>
+            </value>
+            <value>
+                <fullName>Report Printing Word</fullName>
+                <default>false</default>
+                <label>Report Printing Word</label>
+            </value>
+            <value>
+                <fullName>Report Printing Extractor Word</fullName>
+                <default>false</default>
+                <label>Report Printing Extractor Word</label>
+            </value>
+            <value>
+                <fullName>Report Wizard Word</fullName>
+                <default>false</default>
+                <label>Report Wizard Word</label>
+            </value>
+            <value>
+                <fullName>Result Entry Template Setup</fullName>
+                <default>false</default>
+                <label>Result Entry Template Setup</label>
+            </value>
+            <value>
+                <fullName>Results Entry</fullName>
+                <default>false</default>
+                <label>Results Entry</label>
+            </value>
+            <value>
+                <fullName>Sample and Analysis Validation</fullName>
+                <default>false</default>
+                <label>Sample and Analysis Validation</label>
+            </value>
+            <value>
+                <fullName>Sample Container Custody Tracking</fullName>
+                <default>false</default>
+                <label>Sample Container Custody Tracking</label>
+            </value>
+            <value>
+                <fullName>Sample Modify</fullName>
+                <default>false</default>
+                <label>Sample Modify</label>
+            </value>
+            <value>
+                <fullName>Security Server</fullName>
+                <default>false</default>
+                <label>Security Server</label>
+            </value>
+            <value>
+                <fullName>Serial Instrument Interface Server</fullName>
+                <default>false</default>
+                <label>Serial Instrument Interface Server</label>
+            </value>
+            <value>
+                <fullName>Serial Port Interface</fullName>
+                <default>false</default>
+                <label>Serial Port Interface</label>
+            </value>
+            <value>
+                <fullName>Special Info Forms Object</fullName>
+                <default>false</default>
+                <label>Special Info Forms Object</label>
+            </value>
+            <value>
+                <fullName>Special Information Form Setup</fullName>
+                <default>false</default>
+                <label>Special Information Form Setup</label>
+            </value>
+            <value>
+                <fullName>SQC Chart Interface to NWA</fullName>
+                <default>false</default>
+                <label>SQC Chart Interface to NWA</label>
+            </value>
+            <value>
+                <fullName>SQC Chart Setup</fullName>
+                <default>false</default>
+                <label>SQC Chart Setup</label>
+            </value>
+            <value>
+                <fullName>Start Session Choose Database</fullName>
+                <default>false</default>
+                <label>Start Session Choose Database</label>
+            </value>
+            <value>
+                <fullName>SYS Mgr DB Account PW Utility</fullName>
+                <default>false</default>
+                <label>SYS Mgr DB Account PW Utility</label>
+            </value>
+            <value>
+                <fullName>System Manager Mode</fullName>
+                <default>false</default>
+                <label>System Manager Mode</label>
+            </value>
+            <value>
+                <fullName>Trend Charting</fullName>
+                <default>false</default>
+                <label>Trend Charting</label>
+            </value>
+            <value>
+                <fullName>Zip Sample Selection</fullName>
+                <default>false</default>
+                <label>Zip Sample Selection</label>
+            </value>
+            <value>
+                <fullName>Custom Program</fullName>
+                <default>false</default>
+                <label>Custom Program</label>
+            </value>
+            <value>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+                <label>Information Request</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

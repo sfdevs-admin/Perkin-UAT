@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Renewal_Required_Mandatory</fullName>
+    <active>true</active>
+    <description>Rule to check Renewal Required fields is selected when stage is either Closed Won or Stage 7</description>
+    <errorConditionFormula>AND(NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+,IF(
+   AND(
+       fxRecordTypeDevName__c = &#39;Informatics&#39;
+      ,OR(
+          TEXT(StageName)=&#39;Stage 7 - Submit Order&#39;
+         ,TEXT(StageName)=&#39;Closed Won&#39;
+        )
+      ,TEXT(Renewal_Required_INF__c)=&#39;&#39;  
+      )
+   ,TRUE
+   ,FALSE
+  )
+ )</errorConditionFormula>
+    <errorDisplayField>Likely_to_Purchase__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_030: The field Renewal Required is mandatory for the current stage.</errorMessage>
+</ValidationRule>

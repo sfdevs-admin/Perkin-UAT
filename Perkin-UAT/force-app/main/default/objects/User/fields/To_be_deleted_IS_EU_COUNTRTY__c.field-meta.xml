@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>To_be_deleted_IS_EU_COUNTRTY__c</fullName>
+    <formula>OR(CONTAINS(Home_Country__c, &#39;Italy&#39;),CONTAINS(Home_Country__c, &#39;UK&#39;),CONTAINS(Home_Country__c,&#39;Deutschland&#39;),CONTAINS(Home_Country__c,&#39;France&#39;),
+CONTAINS(Home_Country__c,&#39;Belgium&#39;),CONTAINS(Home_Country__c,&#39;Spain&#39;),CONTAINS(Home_Country__c,&#39;Poland&#39;),CONTAINS(Home_Country__c,&#39;Switzerland&#39;),
+CONTAINS(Home_Country__c,&#39;FR&#39;),CONTAINS(Home_Country__c,&#39;VA&#39;),CONTAINS(Home_Country__c,&#39;DE&#39;),CONTAINS(Home_Country__c,&#39;Austria&#39;),
+CONTAINS(Home_Country__c,&#39;United Kingdom&#39;),CONTAINS(Home_Country__c,&#39;GB&#39;),CONTAINS(Home_Country__c,&#39;Netherlands&#39;),
+CONTAINS(Home_Country__c,&#39;Norway&#39;),CONTAINS(Home_Country__c,&#39;Finland&#39;),CONTAINS(Home_Country__c,&#39;Denmark&#39;),
+CONTAINS(Home_Country__c,&#39;Sweden&#39;),CONTAINS(Home_Country__c,&#39;SE&#39;),CONTAINS(Home_Country__c,&#39;FI&#39;),
+CONTAINS(Home_Country__c,&#39;The Netherlands&#39;),CONTAINS(Home_Country__c,&#39;NO&#39;),CONTAINS(Home_Country__c,&#39;Ireland&#39;),
+CONTAINS(Home_Country__c,&#39;NE&#39;),CONTAINS(Home_Country__c,&#39;Brussels&#39;),CONTAINS(Home_Country__c,&#39;South Africa&#39;),
+CONTAINS(Home_Country__c,&#39;IT&#39;),CONTAINS(Home_Country__c,&#39;Turkey&#39;),CONTAINS(Home_Country__c,&#39;DK&#39;),CONTAINS(Home_Country__c,&#39;Israel&#39;),
+CONTAINS(Home_Country__c,&#39;IL&#39;),CONTAINS(Home_Country__c,&#39;EU&#39;),CONTAINS(Home_Country__c,&#39;Puerto Rico&#39;),CONTAINS(Home_Country__c,&#39;Gibraltar&#39;),
+CONTAINS(Home_Country__c,&#39;Lebanon&#39;),CONTAINS(Home_Country__c,&#39;Estonia&#39;)
+
+
+
+)</formula>
+    <label>To be deleted IS EU COUNTRTY</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

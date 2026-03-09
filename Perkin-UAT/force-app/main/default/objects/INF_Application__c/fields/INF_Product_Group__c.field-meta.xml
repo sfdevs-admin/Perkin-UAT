@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Product_Group__c</fullName>
+    <label>Product Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Spotfire</fullName>
+                <default>false</default>
+                <label>Spotfire</label>
+            </value>
+            <value>
+                <fullName>E-Notebook</fullName>
+                <default>false</default>
+                <label>E-Notebook</label>
+            </value>
+            <value>
+                <fullName>CBOE</fullName>
+                <default>false</default>
+                <label>CBOE</label>
+            </value>
+            <value>
+                <fullName>iLab/Limslink</fullName>
+                <default>false</default>
+                <label>iLab/Limslink</label>
+            </value>
+            <value>
+                <fullName>Personal Applications</fullName>
+                <default>false</default>
+                <label>Personal Applications</label>
+            </value>
+            <value>
+                <fullName>GeoSpiza</fullName>
+                <default>false</default>
+                <label>GeoSpiza</label>
+            </value>
+            <value>
+                <fullName>Columbus &amp; Volocity</fullName>
+                <default>false</default>
+                <label>Columbus &amp; Volocity</label>
+            </value>
+            <value>
+                <fullName>Elements</fullName>
+                <default>false</default>
+                <label>Elements</label>
+            </value>
+            <value>
+                <fullName>Signals Notebook</fullName>
+                <default>false</default>
+                <label>Signals Notebook</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

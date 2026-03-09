@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_a_Lead</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Create a Lead</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/20.0/connection.js&quot;)} 
+
+var connection = sforce.connection;
+
+//Declare Opportunity variable
+var campaignMemberLead =&quot;{!CampaignMember.LeadId}&quot;;
+
+
+//If an lead ID is populated then the redirection should not happen
+if (campaignMemberLead == &#39;NULL&#39; || campaignMemberLead == &#39;&#39;)
+ {
+       open(&#39;/00Q/e?name_firstlea2={!CampaignMember.FirstName}&amp;name_lastlea2={!CampaignMember.LastName}&amp;lea3={!CampaignMember.CompanyOrAccount}&amp;lea8={!CampaignMember.Phone}&amp;lea11={!CampaignMember.Email}&amp;lea4={!CampaignMember.Title}&amp;lea20={!CampaignMember.Campaign}&#39;)
+ }
+else
+ {
+       alert(&quot;Sorry cannot create a lead from a lead campaign member, click on lead record to track details&quot;)
+ }</url>
+</WebLink>

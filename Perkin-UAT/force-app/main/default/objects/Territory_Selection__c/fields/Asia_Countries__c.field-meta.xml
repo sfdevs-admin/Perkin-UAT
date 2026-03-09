@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asia_Countries__c</fullName>
+    <label>Asia Countries</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AMERICAN SAMOA</fullName>
+                <default>false</default>
+                <label>AMERICAN SAMOA</label>
+            </value>
+            <value>
+                <fullName>ANTARCTICA</fullName>
+                <default>false</default>
+                <label>ANTARCTICA</label>
+            </value>
+            <value>
+                <fullName>AUSTRALIA</fullName>
+                <default>false</default>
+                <label>AUSTRALIA</label>
+            </value>
+            <value>
+                <fullName>BANGLADESH</fullName>
+                <default>false</default>
+                <label>BANGLADESH</label>
+            </value>
+            <value>
+                <fullName>BHUTAN</fullName>
+                <default>false</default>
+                <label>BHUTAN</label>
+            </value>
+            <value>
+                <fullName>BRUNEI DARUSSALAM</fullName>
+                <default>false</default>
+                <label>BRUNEI DARUSSALAM</label>
+            </value>
+            <value>
+                <fullName>CAMBODIA</fullName>
+                <default>false</default>
+                <label>CAMBODIA</label>
+            </value>
+            <value>
+                <fullName>CHINA</fullName>
+                <default>false</default>
+                <label>CHINA</label>
+            </value>
+            <value>
+                <fullName>CHRISTMAS IS. (AUSTRAILIA</fullName>
+                <default>false</default>
+                <label>CHRISTMAS IS. (AUSTRAILIA</label>
+            </value>
+            <value>
+                <fullName>COCOS(KEELING) IS. (AUST)</fullName>
+                <default>false</default>
+                <label>COCOS(KEELING) IS. (AUST)</label>
+            </value>
+            <value>
+                <fullName>COOK ISLANDS</fullName>
+                <default>false</default>
+                <label>COOK ISLANDS</label>
+            </value>
+            <value>
+                <fullName>EAST TIMOR</fullName>
+                <default>false</default>
+                <label>EAST TIMOR</label>
+            </value>
+            <value>
+                <fullName>FIJI</fullName>
+                <default>false</default>
+                <label>FIJI</label>
+            </value>
+            <value>
+                <fullName>FRENCH POLYNESIA</fullName>
+                <default>false</default>
+                <label>FRENCH POLYNESIA</label>
+            </value>
+            <value>
+                <fullName>GREATER CHINA ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>GREATER CHINA ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>GUAM</fullName>
+                <default>false</default>
+                <label>GUAM</label>
+            </value>
+            <value>
+                <fullName>HEARD &amp; MCDONALD IS.(AUS)</fullName>
+                <default>false</default>
+                <label>HEARD &amp; MCDONALD IS.(AUS)</label>
+            </value>
+            <value>
+                <fullName>HONG KONG</fullName>
+                <default>false</default>
+                <label>HONG KONG</label>
+            </value>
+            <value>
+                <fullName>INDIA</fullName>
+                <default>false</default>
+                <label>INDIA</label>
+            </value>
+            <value>
+                <fullName>INDONESIA</fullName>
+                <default>false</default>
+                <label>INDONESIA</label>
+            </value>
+            <value>
+                <fullName>JAPAN</fullName>
+                <default>false</default>
+                <label>JAPAN</label>
+            </value>
+            <value>
+                <fullName>JAPAN ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>JAPAN ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>JAPAN-OCEANIC ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>JAPAN-OCEANIC ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>JOHNSTON,MIDWAY,WAKE ISLS</fullName>
+                <default>false</default>
+                <label>JOHNSTON,MIDWAY,WAKE ISLS</label>
+            </value>
+            <value>
+                <fullName>KIRIBATI</fullName>
+                <default>false</default>
+                <label>KIRIBATI</label>
+            </value>
+            <value>
+                <fullName>KOREA,DEM PEOPLES REP</fullName>
+                <default>false</default>
+                <label>KOREA,DEM PEOPLES REP</label>
+            </value>
+            <value>
+                <fullName>KOREA, REPUBLIC OF</fullName>
+                <default>false</default>
+                <label>KOREA, REPUBLIC OF</label>
+            </value>
+            <value>
+                <fullName>KOSEA ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>KOSEA ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>LAOS</fullName>
+                <default>false</default>
+                <label>LAOS</label>
+            </value>
+            <value>
+                <fullName>MACAU</fullName>
+                <default>false</default>
+                <label>MACAU</label>
+            </value>
+            <value>
+                <fullName>MALAYSIA</fullName>
+                <default>false</default>
+                <label>MALAYSIA</label>
+            </value>
+            <value>
+                <fullName>MALDIVES</fullName>
+                <default>false</default>
+                <label>MALDIVES</label>
+            </value>
+            <value>
+                <fullName>MARSHALL ISLANDS</fullName>
+                <default>false</default>
+                <label>MARSHALL ISLANDS</label>
+            </value>
+            <value>
+                <fullName>MICRONESIA, FEDERATED STS</fullName>
+                <default>false</default>
+                <label>MICRONESIA, FEDERATED STS</label>
+            </value>
+            <value>
+                <fullName>MONGOLIA</fullName>
+                <default>false</default>
+                <label>MONGOLIA</label>
+            </value>
+            <value>
+                <fullName>MYANMAR</fullName>
+                <default>false</default>
+                <label>MYANMAR</label>
+            </value>
+            <value>
+                <fullName>NAURU</fullName>
+                <default>false</default>
+                <label>NAURU</label>
+            </value>
+            <value>
+                <fullName>NEPAL</fullName>
+                <default>false</default>
+                <label>NEPAL</label>
+            </value>
+            <value>
+                <fullName>NEW ZEALAND</fullName>
+                <default>false</default>
+                <label>NEW ZEALAND</label>
+            </value>
+            <value>
+                <fullName>NIUE</fullName>
+                <default>false</default>
+                <label>NIUE</label>
+            </value>
+            <value>
+                <fullName>NORFOLK ISLAND (AUSTRALIA</fullName>
+                <default>false</default>
+                <label>NORFOLK ISLAND (AUSTRALIA</label>
+            </value>
+            <value>
+                <fullName>NORTHERN MARIANA ISLANDS</fullName>
+                <default>false</default>
+                <label>NORTHERN MARIANA ISLANDS</label>
+            </value>
+            <value>
+                <fullName>PACIFIC RIM ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>PACIFIC RIM ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>PALAU ISLANDS</fullName>
+                <default>false</default>
+                <label>PALAU ISLANDS</label>
+            </value>
+            <value>
+                <fullName>PAPUA NEW GUINEA</fullName>
+                <default>false</default>
+                <label>PAPUA NEW GUINEA</label>
+            </value>
+            <value>
+                <fullName>PHILIPPINES</fullName>
+                <default>false</default>
+                <label>PHILIPPINES</label>
+            </value>
+            <value>
+                <fullName>PITCAIRN ISLANDS</fullName>
+                <default>false</default>
+                <label>PITCAIRN ISLANDS</label>
+            </value>
+            <value>
+                <fullName>SINGAPORE</fullName>
+                <default>false</default>
+                <label>SINGAPORE</label>
+            </value>
+            <value>
+                <fullName>SOLOMON ISLANDS</fullName>
+                <default>false</default>
+                <label>SOLOMON ISLANDS</label>
+            </value>
+            <value>
+                <fullName>SOUTH ASIA ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>SOUTH ASIA ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>SRI LANKA</fullName>
+                <default>false</default>
+                <label>SRI LANKA</label>
+            </value>
+            <value>
+                <fullName>TAIWAN</fullName>
+                <default>false</default>
+                <label>TAIWAN</label>
+            </value>
+            <value>
+                <fullName>THAILAND</fullName>
+                <default>false</default>
+                <label>THAILAND</label>
+            </value>
+            <value>
+                <fullName>TOKELAU (N.Z.)</fullName>
+                <default>false</default>
+                <label>TOKELAU (N.Z.)</label>
+            </value>
+            <value>
+                <fullName>TONGA</fullName>
+                <default>false</default>
+                <label>TONGA</label>
+            </value>
+            <value>
+                <fullName>TUVALU</fullName>
+                <default>false</default>
+                <label>TUVALU</label>
+            </value>
+            <value>
+                <fullName>VANUATU</fullName>
+                <default>false</default>
+                <label>VANUATU</label>
+            </value>
+            <value>
+                <fullName>VIETNAM</fullName>
+                <default>false</default>
+                <label>VIETNAM</label>
+            </value>
+            <value>
+                <fullName>WALLIS &amp; FUTUNA IS.(FRANC</fullName>
+                <default>false</default>
+                <label>WALLIS &amp; FUTUNA IS.(FRANC</label>
+            </value>
+            <value>
+                <fullName>WESTERN SAMOA</fullName>
+                <default>false</default>
+                <label>WESTERN SAMOA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

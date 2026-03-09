@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CR_Status_Audit</fullName>
+    <columns>NAME</columns>
+    <columns>CaseRef__c</columns>
+    <columns>DX_CR_Status__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>TAT__c</columns>
+    <columns>Calc_CR_Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>5/25/2018 12:00 AM</value>
+    </filters>
+    <label>CR Status Audit</label>
+    <language>en_US</language>
+</ListView>

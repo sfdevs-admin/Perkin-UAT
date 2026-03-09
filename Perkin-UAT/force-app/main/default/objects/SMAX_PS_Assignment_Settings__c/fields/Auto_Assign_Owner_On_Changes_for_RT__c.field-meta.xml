@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Assign_Owner_On_Changes_for_RT__c</fullName>
+    <description>Auto Assign Owner On Changes for these Record Types</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Auto Assign Owner On Changes for these Record Types</inlineHelpText>
+    <label>Auto-Assign Owner On Changes for RT</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

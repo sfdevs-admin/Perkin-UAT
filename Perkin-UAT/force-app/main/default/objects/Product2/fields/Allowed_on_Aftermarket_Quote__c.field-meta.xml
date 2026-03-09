@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allowed_on_Aftermarket_Quote__c</fullName>
+    <description>Created by PwC as part of SC-685</description>
+    <formula>OR(
+ Item_Class__c = &#39;3&#39;,
+ Item_Class__c = &#39;4&#39;,
+ Item_Class__c = &#39;Q&#39;,
+ Item_Class__c = &#39;A&#39;,
+ Item_Class__c = &#39;6&#39;,
+ Item_Class__c = &#39;H&#39;,
+ Item_Class__c = &#39;B&#39;,
+ Item_Class__c = &#39;G&#39;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Allowed on Aftermarket Quote</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

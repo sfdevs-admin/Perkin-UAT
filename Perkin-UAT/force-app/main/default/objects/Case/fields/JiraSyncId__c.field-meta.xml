@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JiraSyncId__c</fullName>
+    <description>The Jira ID that this case is synced to. It is a numerical value for the Jira ID and is used in the sync. . Source ATEAM 1940</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Jira ID that this case is synced to. It is a numerical value for the Jira ID and is used in the sync. . Source ATEAM 1940</inlineHelpText>
+    <label>JiraSyncId</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

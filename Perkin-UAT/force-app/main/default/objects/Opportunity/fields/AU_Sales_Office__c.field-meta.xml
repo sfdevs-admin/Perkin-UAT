@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AU_Sales_Office__c</fullName>
+    <label>AU Sales Office</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NSW</fullName>
+                <default>false</default>
+                <label>NSW</label>
+            </value>
+            <value>
+                <fullName>QLD</fullName>
+                <default>false</default>
+                <label>QLD</label>
+            </value>
+            <value>
+                <fullName>VIC</fullName>
+                <default>false</default>
+                <label>VIC</label>
+            </value>
+            <value>
+                <fullName>NZ</fullName>
+                <default>false</default>
+                <label>NZ</label>
+            </value>
+            <value>
+                <fullName>SA/TAS</fullName>
+                <default>false</default>
+                <label>SA/TAS</label>
+            </value>
+            <value>
+                <fullName>WA</fullName>
+                <default>false</default>
+                <label>WA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

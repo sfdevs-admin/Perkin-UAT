@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Inventory__c</fullName>
+    <label>Demo Inventory</label>
+    <referenceTo>Field_Inventory__c</referenceTo>
+    <relationshipLabel>Reservations</relationshipLabel>
+    <relationshipName>R00N30000001Dly3EAC</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

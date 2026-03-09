@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Matthew_Reuter_CSB_Interactions_2023</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>State__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Status__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Qualification_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>contains</operation>
+        <value>CSB</value>
+    </filters>
+    <filters>
+        <field>OWNER.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Adolfo</value>
+    </filters>
+    <label>Matthew Reuter CSB Interactions 2023</label>
+</ListView>

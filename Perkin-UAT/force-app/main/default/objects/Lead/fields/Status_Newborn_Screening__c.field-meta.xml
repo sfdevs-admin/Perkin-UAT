@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Newborn_Screening__c</fullName>
+    <description>ANNUITAS PDG Program</description>
+    <label>Status - Newborn Screening</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Working</fullName>
+                <default>false</default>
+                <label>Working</label>
+            </value>
+            <value>
+                <fullName>Turnback - Call Attempts Complete</fullName>
+                <default>false</default>
+                <label>Turnback - Call Attempts Complete</label>
+            </value>
+            <value>
+                <fullName>Turnback - Future Opportunity</fullName>
+                <default>false</default>
+                <label>Turnback - Future Opportunity</label>
+            </value>
+            <value>
+                <fullName>Turnback - Bad Phone Number</fullName>
+                <default>false</default>
+                <label>Turnback - Bad Phone Number</label>
+            </value>
+            <value>
+                <fullName>Rejected - Bad Contact Details</fullName>
+                <default>false</default>
+                <label>Rejected - Bad Contact Details</label>
+            </value>
+            <value>
+                <fullName>Rejected - Not Involved</fullName>
+                <default>false</default>
+                <label>Rejected - Not Involved</label>
+            </value>
+            <value>
+                <fullName>Rejected - Distributor</fullName>
+                <default>false</default>
+                <label>Rejected - Distributor</label>
+            </value>
+            <value>
+                <fullName>Rejected - No Interest</fullName>
+                <default>false</default>
+                <label>Rejected - No Interest</label>
+            </value>
+            <value>
+                <fullName>Converted to Opportunity</fullName>
+                <default>false</default>
+                <label>Converted to Opportunity</label>
+            </value>
+            <value>
+                <fullName>Re-Qualified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Re-Qualified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

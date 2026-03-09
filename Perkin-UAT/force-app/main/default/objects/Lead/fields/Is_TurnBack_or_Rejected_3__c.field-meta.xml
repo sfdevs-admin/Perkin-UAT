@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_TurnBack_or_Rejected_3__c</fullName>
+    <description>Boolean yields true or false if any of the SAI fields say Turnback or Rejected</description>
+    <formula>And
+(
+OR(
+CONTAINS (TEXT(Status_Water__c),&quot;Turnback&quot;),
+CONTAINS (TEXT(Status_Water__c),&quot;Rejected&quot;),
+CONTAINS (TEXT(Status_Air__c),&quot;Turnback&quot;),
+CONTAINS (TEXT(Status_Air__c),&quot;Rejected&quot;),
+CONTAINS (TEXT(Status_Soil_Solids__c),&quot;Turnback&quot;),
+CONTAINS (TEXT(Status_Soil_Solids__c),&quot;Rejected&quot;),
+CONTAINS (TEXT(Status_Maternal_Fetal_Health__c),&quot;Turnback&quot;),
+CONTAINS (TEXT(Status_Maternal_Fetal_Health__c),&quot;Rejected&quot;),
+CONTAINS (TEXT(Status_Newborn_Screening__c),&quot;Turnback&quot;),
+CONTAINS (TEXT(Status_Newborn_Screening__c),&quot;Rejected&quot;),
+CONTAINS (TEXT(Status_Applied_Genomics__c),&quot;Turnback&quot;),
+CONTAINS (TEXT(Status_Applied_Genomics__c),&quot;Rejected&quot;)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is TurnBack or Rejected 3</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

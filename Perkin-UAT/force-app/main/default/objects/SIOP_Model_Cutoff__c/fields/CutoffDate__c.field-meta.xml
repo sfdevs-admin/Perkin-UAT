@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CutoffDate__c</fullName>
+    <inlineHelpText>Enter the Cutoff Date for each  Month and Year</inlineHelpText>
+    <label>Cutoff Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

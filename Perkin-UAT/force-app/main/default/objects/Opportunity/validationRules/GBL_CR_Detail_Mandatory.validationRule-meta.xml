@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_CR_Detail_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ PRIORVALUE(StageName) = &quot;Zero Stage&quot;,  
+NOT($Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE ),
+$Setup.Rules_Execution__c.Run__c, 
+
+NOT(CONTAINS($Profile.Name , &#39;PROFILE: Integration&#39;)),
+NOT(CONTAINS($Profile.Name , &#39;System Administrator&#39;)),  
+
+RecordType.Name &lt;&gt; &#39;Informatics&#39;,
+RecordType.Name &lt;&gt; &#39;Service Contract&#39;,
+RecordType.Name &lt;&gt; &#39;Project Farma&#39;,
+
+AND (ISBLANK(Reason_Lost_Detail__c), OR(ISPICKVAL( StageName ,&#39;Closed Won&#39;),ISPICKVAL( StageName ,&#39;Closed Lost&#39;))))
+
+/*
+
+AND(
+ PRIORVALUE(StageName) = &quot;Zero Stage&quot;,  
+NOT($Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE ),
+$Setup.Rules_Execution__c.Run__c, 
+$Profile.Name &lt;&gt; &#39;DAS After Market Inside Sales User&#39;,
+NOT(CONTAINS($Profile.Name , &#39;PROFILE: Integration&#39;)),
+NOT(CONTAINS($Profile.Name , &#39;Application Integration profiles&#39;)),
+NOT(CONTAINS($Profile.Name , &#39;System Administrator&#39;)),  
+NOT(CONTAINS($User.Username, &#39;scrumteam-boston&#39;)), 
+NOT(CONTAINS($User.Username, &#39;nicolle.mantia&#39;)), 
+NOT(CONTAINS($User.Username, &#39;catherine.holland&#39;)), 
+
+RecordType.Name &lt;&gt; &#39;Informatics&#39;,
+RecordType.Name &lt;&gt; &#39;Service Contract&#39;,
+
+AND (ISBLANK(Reason_Lost_Detail__c), OR(ISPICKVAL( StageName ,&#39;Closed Won&#39;),ISPICKVAL( StageName ,&#39;Closed Lost&#39;))))
+
+--------
+
+AND($Setup.Rules_Execution__c.Run__c, 
+$Profile.Name &lt;&gt; &#39;DAS After Market Inside Sales User&#39;,
+NOT(CONTAINS($Profile.Name , &#39;Application Integration profiles&#39;)),
+NOT(CONTAINS($Profile.Name , &#39;System Administrator&#39;)),  
+NOT(CONTAINS($User.Username, &#39;scrumteam-boston&#39;)), 
+NOT(CONTAINS($User.Username, &#39;nicolle.mantia&#39;)), 
+NOT(CONTAINS($User.Username, &#39;catherine.holland&#39;)), 
+
+RecordType.Name &lt;&gt; &#39;Informatics&#39;,
+RecordType.Name &lt;&gt; &#39;Dx Record Type&#39;,
+RecordType.Name &lt;&gt; &#39;Dx EMEA Record Type&#39;,
+
+AND (ISBLANK(Reason_Lost_Detail__c), OR(ISPICKVAL( StageName ,&#39;Closed Won&#39;),ISPICKVAL( StageName ,&#39;Closed Lost&#39;))))  &amp;&amp; 
+ $Profile.Name  &lt;&gt; &#39;Dealer&#39;
+*/</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_046: Please fill &quot;Closed Reason Detail&quot; field.</errorMessage>
+</ValidationRule>

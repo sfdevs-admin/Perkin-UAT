@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isNew__c</fullName>
+    <description>This is to help for a report that shows how many orders were updated by day. If it&#39;s new, then the number is more accurate</description>
+    <formula>DATEVALUE(CreatedDate) =  DATEVALUE(LastModifiedDate)
+&amp;&amp;
+
+/*We are new if the date is the same and the hours are roughly 4 hours apart*/
+ value(fxHourUpdated__c) -value(fxHourCreated__c) &lt;=4</formula>
+    <label>isNew</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

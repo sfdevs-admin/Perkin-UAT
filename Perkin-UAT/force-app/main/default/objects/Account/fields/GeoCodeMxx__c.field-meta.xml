@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoCodeMxx__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ShippingCountry &lt;&gt; &quot;US&quot;,&quot;NA&quot;,
+IF(CONTAINS(&quot;030, 031, 032, 033, 034, 035, 036, 037, 038, 039, 040, 041, 042, 043, 044, 045, 046, 047, 048, 049, 050, 051, 052, 053, 054, 056, 057, 058, 059&quot;, left(ShippingPostalCode,3)), &quot;M03&quot;,
+&quot;NA&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>GeoCodeMxx</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

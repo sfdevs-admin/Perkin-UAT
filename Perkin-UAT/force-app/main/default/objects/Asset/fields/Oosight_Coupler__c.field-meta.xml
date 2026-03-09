@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oosight_Coupler__c</fullName>
+    <label>Oosight Coupler</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1x Leica (EB10251-DMC)</fullName>
+                <default>false</default>
+                <label>1x Leica (EB10251-DMC)</label>
+            </value>
+            <value>
+                <fullName>1x Leica (EB10251-HCC)</fullName>
+                <default>false</default>
+                <label>1x Leica (EB10251-HCC)</label>
+            </value>
+            <value>
+                <fullName>1x Nikon (EB10251-HR1)</fullName>
+                <default>false</default>
+                <label>1x Nikon (EB10251-HR1)</label>
+            </value>
+            <value>
+                <fullName>1x Nikon (EB10251-NLC)</fullName>
+                <default>false</default>
+                <label>1x Nikon (EB10251-NLC)</label>
+            </value>
+            <value>
+                <fullName>1x Nikon (EB10251-TEC)</fullName>
+                <default>false</default>
+                <label>1x Nikon (EB10251-TEC)</label>
+            </value>
+            <value>
+                <fullName>1x Olympus (EB10251-BXC)</fullName>
+                <default>false</default>
+                <label>1x Olympus (EB10251-BXC)</label>
+            </value>
+            <value>
+                <fullName>1x Zeiss (EB10251-ZAC)</fullName>
+                <default>false</default>
+                <label>1x Zeiss (EB10251-ZAC)</label>
+            </value>
+            <value>
+                <fullName>1x Zeiss (EB10251-ZNC)</fullName>
+                <default>false</default>
+                <label>1x Zeiss (EB10251-ZNC)</label>
+            </value>
+            <value>
+                <fullName>0.70x Leica (OP10199-LEI)</fullName>
+                <default>false</default>
+                <label>0.70x Leica (OP10199-LEI)</label>
+            </value>
+            <value>
+                <fullName>0.67x Nikon (OP10199-NIK)</fullName>
+                <default>false</default>
+                <label>0.67x Nikon (OP10199-NIK)</label>
+            </value>
+            <value>
+                <fullName>0.70x Nikon TE2000 (OP10199-T2K)</fullName>
+                <default>false</default>
+                <label>0.70x Nikon TE2000 (OP10199-T2K)</label>
+            </value>
+            <value>
+                <fullName>0.63x Olympus IX-n1 (OP10199-OLY)</fullName>
+                <default>false</default>
+                <label>0.63x Olympus IX-n1 (OP10199-OLY)</label>
+            </value>
+            <value>
+                <fullName>0.67x Olympus IX-n0 (OP10199-OLY2)</fullName>
+                <default>false</default>
+                <label>0.67x Olympus IX-n0 (OP10199-OLY2)</label>
+            </value>
+            <value>
+                <fullName>0.63x Zeiss (OP10199-ZEI)</fullName>
+                <default>false</default>
+                <label>0.63x Zeiss (OP10199-ZEI)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

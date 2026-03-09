@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADMIN_Won_Opps_without_Orders</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>fxOrderNumber__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>SAP_Order__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>(ADMIN) Won Opps without Orders</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

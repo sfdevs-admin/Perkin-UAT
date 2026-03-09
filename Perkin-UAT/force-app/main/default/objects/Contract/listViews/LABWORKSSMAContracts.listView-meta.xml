@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LABWORKSSMAContracts</fullName>
+    <columns>OnSupport__c</columns>
+    <columns>CONTRACT.NAME</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <columns>Plan_Type__c</columns>
+    <columns>SAP_Contract_Number__c</columns>
+    <columns>Contract_Value__c</columns>
+    <columns>CONTRACT.END_DATE</columns>
+    <columns>Asset__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTRACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contract.LABWORKSSMA</value>
+    </filters>
+    <label>LABWORKS SMA Contracts</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000956</group>
+    </sharedTo>
+</ListView>

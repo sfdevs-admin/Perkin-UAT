@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Catalog_Profiles</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_Catalog_Profile__c</columns>
+    <columns>SMAX_PS_Code_Family__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Catalog Profiles</label>
+    <language>en_US</language>
+</ListView>

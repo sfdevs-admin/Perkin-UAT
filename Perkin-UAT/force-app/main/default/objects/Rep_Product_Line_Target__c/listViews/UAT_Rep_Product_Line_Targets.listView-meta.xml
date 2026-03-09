@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UAT_Rep_Product_Line_Targets</fullName>
+    <columns>NAME</columns>
+    <columns>Sales_Person__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Year__c</columns>
+    <columns>Month__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>11/5/2015 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>Gary Smith Partnership</value>
+    </filters>
+    <label>UAT Rep Product Line Targets</label>
+    <language>en_US</language>
+</ListView>

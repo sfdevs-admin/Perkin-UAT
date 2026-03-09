@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution__c</fullName>
+    <description>input text area for field service to pull into mail merge for customer facing Field Service Report
+PRIOR: 
+NEW: MG: changed label tp &#39;REsolution&#39; to avoid putting this on a layout - correct &#39;Resoltion&#39; field in on layout 2022.09.23</description>
+    <label>REsolution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

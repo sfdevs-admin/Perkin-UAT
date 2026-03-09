@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>xCA13OnOrderInventory</fullName>
+    <columns>NAME</columns>
+    <columns>Product_Line__c</columns>
+    <columns>User__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>On Order</value>
+    </filters>
+    <filters>
+        <field>Plant__c</field>
+        <operation>equals</operation>
+        <value>CA13</value>
+    </filters>
+    <filters>
+        <field>Marketing_Business_Unit__c</field>
+        <operation>equals</operation>
+        <value>ANALYTICAL SCIENCES</value>
+    </filters>
+    <label>CA13 - AS Inventory - ON ORDER</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000864</group>
+    </sharedTo>
+</ListView>

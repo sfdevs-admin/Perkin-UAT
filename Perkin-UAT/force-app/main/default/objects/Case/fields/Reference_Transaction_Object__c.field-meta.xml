@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference_Transaction_Object__c</fullName>
+    <inlineHelpText>The Object to be paired with a reference transaction number to lookup data in SAP.</inlineHelpText>
+    <label>Ref. Txn Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sales Order</fullName>
+                <default>false</default>
+                <label>Sales Order</label>
+            </value>
+            <value>
+                <fullName>Sales Quotation</fullName>
+                <default>false</default>
+                <label>Sales Quotation</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Service Contract</fullName>
+                <default>false</default>
+                <label>Service Contract</label>
+            </value>
+            <value>
+                <fullName>Credit Memo Request</fullName>
+                <default>false</default>
+                <label>Credit Memo Request</label>
+            </value>
+            <value>
+                <fullName>Debit Memo Request</fullName>
+                <default>false</default>
+                <label>Debit Memo Request</label>
+            </value>
+            <value>
+                <fullName>Credit Memo</fullName>
+                <default>false</default>
+                <label>Credit Memo</label>
+            </value>
+            <value>
+                <fullName>Debit Memo</fullName>
+                <default>false</default>
+                <label>Debit Memo</label>
+            </value>
+            <value>
+                <fullName>Invoice Cancellation</fullName>
+                <default>false</default>
+                <label>Invoice Cancellation</label>
+            </value>
+            <value>
+                <fullName>Credit Memo Cancellation</fullName>
+                <default>false</default>
+                <label>Credit Memo Cancellation</label>
+            </value>
+            <value>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+                <label>Delivery</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

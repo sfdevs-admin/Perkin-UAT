@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Relationship_1__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Contract Number</label>
+    <referenceTo>Contract</referenceTo>
+    <relationshipLabel>Account to Contract Relationships</relationshipLabel>
+    <relationshipName>Account_Contract_Junction_Objects</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

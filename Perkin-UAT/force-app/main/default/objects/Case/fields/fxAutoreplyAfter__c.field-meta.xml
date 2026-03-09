@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxAutoreplyAfter__c</fullName>
+    <description>This field is populated by L.FLOW 8660 and will be the timestamp when to send any next auto replies. This value is completed when an email message is caught in a loop and we need to prevent too many auto replies. C.META Emial Throttle settings are used to set the pause time.</description>
+    <inlineHelpText>If this is filled in, auto replies will not get triggered or out until after this time.</inlineHelpText>
+    <label>fxAutoreply After</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inside_Sales_Data_Hygiene_Project_2</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>Contact_Details_Verified_By__c</columns>
+    <columns>Contact_Details_Verified_On__c</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.ADDRESS2_COUNTRY</field>
+        <operation>startsWith</operation>
+        <value>U</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>startsWith</operation>
+        <value>IA</value>
+    </filters>
+    <filters>
+        <field>Contact_Details_Verified_By__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Inside Sales - Data Hygiene Project #2</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

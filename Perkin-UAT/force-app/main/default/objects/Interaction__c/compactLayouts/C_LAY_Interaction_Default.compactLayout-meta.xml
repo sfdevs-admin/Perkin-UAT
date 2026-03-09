@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_Interaction_Default</fullName>
+    <fields>Name</fields>
+    <fields>Qualification_Status__c</fields>
+    <fields>Lead__c</fields>
+    <fields>Contact__c</fields>
+    <fields>Opportunity__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Campaign__c</fields>
+    <label>C.LAY Interaction Default</label>
+</CompactLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxTerritoryMismatch__c</fullName>
+    <description>This is to account for the Territory model transition, where we preserve the prior Territory Dev Name and then compare it to the current Territory name and find where it is mismatched. Used in M.ACTION save the current Terr Dev Name accurately if ever changed.</description>
+    <formula>Territory2.DeveloperName != fxTerritoryDevName__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is to account for the Territory model transition, where we preserve the prior Territory Dev Name and then compare it to the current Territory name and find where it is mismatched. Used in M.ACTION save the current Terr Dev Name accurately if ever changed.</inlineHelpText>
+    <label>fxTerritoryMismatch</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

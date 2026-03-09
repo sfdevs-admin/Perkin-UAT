@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Acct_Creation_MDM</fullName>
+    <active>true</active>
+    <description>Cannot create SFDC Accounts in SFDC - Need to create them in EBX via integration. Only admin and sap webmethods connector user can create. Ticket # INC0305096.</description>
+    <errorConditionFormula>AND(
+ISNEW()
+,NOT( $Permission.C_PERM_9200_Allow_Creating_Account)
+)</errorConditionFormula>
+    <errorMessage>V.RULE_ACCOUNT_006: MDM requires creating a new Account to be performed through the button (&#39;New&#39;) found on the upper right of any Account list view (OR from your Account &quot;Smart Search&quot; tab)</errorMessage>
+</ValidationRule>

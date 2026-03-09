@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Denied</fullName>
+                <default>false</default>
+                <label>As Designed</label>
+            </value>
+            <value>
+                <fullName>Business Review</fullName>
+                <default>false</default>
+                <label>Business Review</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Future</fullName>
+                <default>false</default>
+                <label>Future</label>
+            </value>
+            <value>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+                <label>JIRA</label>
+            </value>
+            <value>
+                <fullName>Service Cloud</fullName>
+                <default>false</default>
+                <label>Service Cloud</label>
+            </value>
+            <value>
+                <fullName>Test Script Issue</fullName>
+                <default>false</default>
+                <label>Test Script Issue</label>
+            </value>
+            <value>
+                <fullName>Business Reviewed - No Further Action</fullName>
+                <default>false</default>
+                <label>Business Reviewed - No Further Action</label>
+            </value>
+            <value>
+                <fullName>Business Reviewed - Action Needed</fullName>
+                <default>false</default>
+                <label>Business Reviewed - Action Needed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

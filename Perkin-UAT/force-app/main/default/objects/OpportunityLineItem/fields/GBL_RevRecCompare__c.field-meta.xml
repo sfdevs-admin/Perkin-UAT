@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_RevRecCompare__c</fullName>
+    <description>Compare Product date and Revenue recognization date</description>
+    <formula>IF(ServiceDate = Opportunity_Revenue_Rec_Date__c,TRUE,FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsSameAsRevRecDate?</label>
+    <type>Checkbox</type>
+</CustomField>

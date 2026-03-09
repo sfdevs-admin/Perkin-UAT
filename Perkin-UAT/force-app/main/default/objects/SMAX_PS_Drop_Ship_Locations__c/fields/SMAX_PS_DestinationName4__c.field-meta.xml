@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_DestinationName4__c</fullName>
+    <description>Destination Name4</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Destination Name4</inlineHelpText>
+    <label>To Name4</label>
+    <length>35</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

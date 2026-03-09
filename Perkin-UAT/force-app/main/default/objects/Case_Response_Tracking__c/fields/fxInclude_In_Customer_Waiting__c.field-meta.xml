@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxInclude_In_Customer_Waiting__c</fullName>
+    <description>used to do summation in case rollup summary fields</description>
+    <formula>IF(  OR(Status__c =&#39;Closed:Pending Customer&#39;,
+       Status__c =&#39;Customer Hold&#39;,
+       Status__c =&#39;InProgress:Waiting for Customer&#39;
+      ), true, false)</formula>
+    <inlineHelpText>The field would filter the records for add up time spent in the following status:  In Progress:Waiting for Customer and Customer Hold and Closed:Pending Customer</inlineHelpText>
+    <label>fxInclude In Customer Waiting</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

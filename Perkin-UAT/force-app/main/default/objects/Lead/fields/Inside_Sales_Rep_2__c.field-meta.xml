@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inside_Sales_Rep_2__c</fullName>
+    <label>Inside Sales Rep</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cathy Chitwood</fullName>
+                <default>false</default>
+                <label>Cathy Chitwood</label>
+            </value>
+            <value>
+                <fullName>Elaine Amico</fullName>
+                <default>false</default>
+                <label>Elaine Amico</label>
+            </value>
+            <value>
+                <fullName>Jason Robinson</fullName>
+                <default>false</default>
+                <label>Jason Robinson</label>
+            </value>
+            <value>
+                <fullName>Melana Spalding</fullName>
+                <default>false</default>
+                <label>Melana Spalding</label>
+            </value>
+            <value>
+                <fullName>Phil Rogers</fullName>
+                <default>false</default>
+                <label>Phil Rogers</label>
+            </value>
+            <value>
+                <fullName>Allen Wardle</fullName>
+                <default>false</default>
+                <label>Allen Wardle</label>
+            </value>
+            <value>
+                <fullName>Carolyn Hummel</fullName>
+                <default>false</default>
+                <label>Carolyn Hummel</label>
+            </value>
+            <value>
+                <fullName>Meara Jones</fullName>
+                <default>false</default>
+                <label>Meara Jones</label>
+            </value>
+            <value>
+                <fullName>James Thouin</fullName>
+                <default>false</default>
+                <label>James Thouin</label>
+            </value>
+            <value>
+                <fullName>Richard Ouellette</fullName>
+                <default>false</default>
+                <label>Richard Ouellette</label>
+            </value>
+            <value>
+                <fullName>Joe Lavoie</fullName>
+                <default>false</default>
+                <label>Joe Lavoie</label>
+            </value>
+            <value>
+                <fullName>Stella Ponzo</fullName>
+                <default>false</default>
+                <label>Stella Ponzo</label>
+            </value>
+            <value>
+                <fullName>Rosemarie Connolly</fullName>
+                <default>false</default>
+                <label>Rosemarie Connolly</label>
+            </value>
+            <value>
+                <fullName>David Stanton</fullName>
+                <default>false</default>
+                <label>David Stanton</label>
+            </value>
+            <value>
+                <fullName>Barbara Fuller</fullName>
+                <default>false</default>
+                <label>Barbara Fuller</label>
+            </value>
+            <value>
+                <fullName>Blandine Buhot</fullName>
+                <default>false</default>
+                <label>Blandine Buhot</label>
+            </value>
+            <value>
+                <fullName>Marc Saché</fullName>
+                <default>false</default>
+                <label>Marc Saché</label>
+            </value>
+            <value>
+                <fullName>Michel Henvaux</fullName>
+                <default>false</default>
+                <label>Michel Henvaux</label>
+            </value>
+            <value>
+                <fullName>Johan Grootjans</fullName>
+                <default>false</default>
+                <label>Johan Grootjans</label>
+            </value>
+            <value>
+                <fullName>Andy Alban</fullName>
+                <default>false</default>
+                <label>Andy Alban</label>
+            </value>
+            <value>
+                <fullName>Lee Holland</fullName>
+                <default>false</default>
+                <label>Lee Holland</label>
+            </value>
+            <value>
+                <fullName>Azra Ramzan</fullName>
+                <default>false</default>
+                <label>Azra Ramzan</label>
+            </value>
+            <value>
+                <fullName>Barbara Siefker</fullName>
+                <default>false</default>
+                <label>Barbara Siefker</label>
+            </value>
+            <value>
+                <fullName>Stefan Woldmann</fullName>
+                <default>false</default>
+                <label>Stefan Woldmann</label>
+            </value>
+            <value>
+                <fullName>Ronald Edler</fullName>
+                <default>false</default>
+                <label>Ronald Edler</label>
+            </value>
+            <value>
+                <fullName>Sergio Baldessari</fullName>
+                <default>false</default>
+                <label>Sergio Baldessari</label>
+            </value>
+            <value>
+                <fullName>Riina Huovinen</fullName>
+                <default>false</default>
+                <label>Riina Huovinen</label>
+            </value>
+            <value>
+                <fullName>Hanne Olsen</fullName>
+                <default>false</default>
+                <label>Hanne Olsen</label>
+            </value>
+            <value>
+                <fullName>Elisabeth Ruettimann</fullName>
+                <default>false</default>
+                <label>Elisabeth Ruettimann</label>
+            </value>
+            <value>
+                <fullName>Robert Montefusco</fullName>
+                <default>false</default>
+                <label>Robert Montefusco</label>
+            </value>
+            <value>
+                <fullName>Veronica Venus</fullName>
+                <default>false</default>
+                <label>Veronica Venus</label>
+            </value>
+            <value>
+                <fullName>Matt Wiinikainen</fullName>
+                <default>false</default>
+                <label>Matt Wiinikainen</label>
+            </value>
+            <value>
+                <fullName>April Blodgett</fullName>
+                <default>false</default>
+                <label>April Blodgett</label>
+            </value>
+            <value>
+                <fullName>Gregory Murray</fullName>
+                <default>false</default>
+                <label>Gregory Murray</label>
+            </value>
+            <value>
+                <fullName>Tim Masters</fullName>
+                <default>false</default>
+                <label>Tim Masters</label>
+            </value>
+            <value>
+                <fullName>Goeff McConnell</fullName>
+                <default>false</default>
+                <label>Goeff McConnell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

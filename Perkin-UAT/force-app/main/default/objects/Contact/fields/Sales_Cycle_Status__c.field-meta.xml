@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Cycle_Status__c</fullName>
+    <label>Sales Cycle Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1a Lead</fullName>
+                <default>false</default>
+                <label>1a Lead</label>
+            </value>
+            <value>
+                <fullName>1b Trial Signup - no response</fullName>
+                <default>false</default>
+                <label>1b Trial Signup - no response</label>
+            </value>
+            <value>
+                <fullName>1nq - Not interested</fullName>
+                <default>false</default>
+                <label>1nq - Not interested</label>
+            </value>
+            <value>
+                <fullName>1s Follow up later to set up with trial</fullName>
+                <default>false</default>
+                <label>1s Follow up later to set up with trial</label>
+            </value>
+            <value>
+                <fullName>1z Trial scheduled, not yet active</fullName>
+                <default>false</default>
+                <label>1z Trial scheduled, not yet active</label>
+            </value>
+            <value>
+                <fullName>2a Trial Account - Inactive</fullName>
+                <default>false</default>
+                <label>2a Trial Account - Inactive</label>
+            </value>
+            <value>
+                <fullName>2b Trial Account - light use</fullName>
+                <default>false</default>
+                <label>2b Trial Account - light use</label>
+            </value>
+            <value>
+                <fullName>2c Trial Account - heavy use</fullName>
+                <default>false</default>
+                <label>2c Trial Account - heavy use</label>
+            </value>
+            <value>
+                <fullName>2d Trial Account - Extend</fullName>
+                <default>false</default>
+                <label>2d Trial Account - Extend</label>
+            </value>
+            <value>
+                <fullName>2x Quote Submitted</fullName>
+                <default>false</default>
+                <label>2x Quote Submitted</label>
+            </value>
+            <value>
+                <fullName>3a Customer</fullName>
+                <default>false</default>
+                <label>3a Customer</label>
+            </value>
+            <value>
+                <fullName>3d Customer co-user/associate/collaborator</fullName>
+                <default>false</default>
+                <label>3d Customer co-user/associate/collaborator</label>
+            </value>
+            <value>
+                <fullName>3st Stanford Core</fullName>
+                <default>false</default>
+                <label>3st Stanford Core</label>
+            </value>
+            <value>
+                <fullName>3uwR Restricted UW Library Account</fullName>
+                <default>false</default>
+                <label>3uwR Restricted UW Library Account</label>
+            </value>
+            <value>
+                <fullName>3uw UW Library Account</fullName>
+                <default>false</default>
+                <label>3uw UW Library Account</label>
+            </value>
+            <value>
+                <fullName>4a Trial Expired-No Use</fullName>
+                <default>false</default>
+                <label>4a Trial Expired-No Use</label>
+            </value>
+            <value>
+                <fullName>4b Trial Expired- Light Use</fullName>
+                <default>false</default>
+                <label>4b Trial Expired- Light Use</label>
+            </value>
+            <value>
+                <fullName>4c Trial Expired- Heavy Use</fullName>
+                <default>false</default>
+                <label>4c Trial Expired- Heavy Use</label>
+            </value>
+            <value>
+                <fullName>4d Former Customer Collaborator/Associate</fullName>
+                <default>false</default>
+                <label>4d Former Customer Collaborator/Associate</label>
+            </value>
+            <value>
+                <fullName>4r Trial disabled, to be revisited</fullName>
+                <default>false</default>
+                <label>4r Trial disabled, to be revisited</label>
+            </value>
+            <value>
+                <fullName>4st Former Stanford Core Account</fullName>
+                <default>false</default>
+                <label>4st Former Stanford Core Account</label>
+            </value>
+            <value>
+                <fullName>4uw Former UW Library Account</fullName>
+                <default>false</default>
+                <label>4uw Former UW Library Account</label>
+            </value>
+            <value>
+                <fullName>4x Former Customer</fullName>
+                <default>false</default>
+                <label>4x Former Customer</label>
+            </value>
+            <value>
+                <fullName>5d Collaborator ArrayIt</fullName>
+                <default>false</default>
+                <label>5d Collaborator ArrayIt</label>
+            </value>
+            <value>
+                <fullName>5e Collaborator Genome Explorations</fullName>
+                <default>false</default>
+                <label>5e Collaborator Genome Explorations</label>
+            </value>
+            <value>
+                <fullName>5f Customer&#39;s Collaborator</fullName>
+                <default>false</default>
+                <label>5f Customer&#39;s Collaborator</label>
+            </value>
+            <value>
+                <fullName>5x Collaborator other</fullName>
+                <default>false</default>
+                <label>5x Collaborator other</label>
+            </value>
+            <value>
+                <fullName>6a iFinch</fullName>
+                <default>false</default>
+                <label>6a iFinch</label>
+            </value>
+            <value>
+                <fullName>8a Business development</fullName>
+                <default>false</default>
+                <label>8a Business development</label>
+            </value>
+            <value>
+                <fullName>8b Investor</fullName>
+                <default>false</default>
+                <label>8b Investor</label>
+            </value>
+            <value>
+                <fullName>8c Tom</fullName>
+                <default>false</default>
+                <label>8c Tom</label>
+            </value>
+            <value>
+                <fullName>8d Competitor</fullName>
+                <default>false</default>
+                <label>8d Competitor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

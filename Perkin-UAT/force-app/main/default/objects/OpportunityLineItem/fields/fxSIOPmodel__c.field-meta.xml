@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxSIOPmodel__c</fullName>
+    <description>This formula will get the SIOP model from the product. It will be used to link to a SIOP Model actual  number</description>
+    <externalId>false</externalId>
+    <formula>PricebookEntry.Product2.SIOPModelMaster__c</formula>
+    <label>fxSIOPmodel</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

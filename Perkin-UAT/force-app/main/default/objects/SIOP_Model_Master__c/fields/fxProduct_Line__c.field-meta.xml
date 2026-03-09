@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxProduct_Line__c</fullName>
+    <description>The Product line for the linked Product</description>
+    <externalId>false</externalId>
+    <formula>Product__r.Product_Line_Name__c</formula>
+    <label>fxProduct Line</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

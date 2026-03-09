@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Grow_Lead_needs_Opp</fullName>
+    <active>true</active>
+    <description>This is used to require an Opportunity for GROW leads. It is exempted where using Custom S.FLOW_2410: Lead Convert Default to convert and we populate fxConvertMethod=Custom since process enforces data quality</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Employee_Email__c))
+    , ISCHANGED(IsConverted) 
+    ,IsConverted=true
+    ,ISBLANK(ConvertedOpportunityId)
+    ,TEXT(fxConvertMethod__c)!=&#39;Custom&#39;
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_008: Opportunity required for GROW Lead Conversion</errorMessage>
+</ValidationRule>

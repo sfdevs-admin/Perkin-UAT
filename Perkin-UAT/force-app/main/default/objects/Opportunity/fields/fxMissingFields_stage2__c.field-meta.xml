@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxMissingFields_stage2__c</fullName>
+    <description>fields missing at the current stage</description>
+    <externalId>false</externalId>
+    <formula>IF( fxRecordTypeDevName__c =&quot;PKI_Americas_SPI&quot;
+			,IF( Quick_Close__c = True
+							, &quot;&quot;
+     ,IF(TEXT(Sales_Type__c)=&quot;Product Sales&quot;
+									, IF(TEXT(FAS_Input_Required__c)=&quot;&quot;
+														,&quot;•FAS/SME Support Needed;&quot;
+														,&quot;&quot;)
+									,&quot;&quot;)
+     &amp; IF(TEXT(Sales_Type__c)=&quot;Product Sales&quot;
+										, IF(TEXT(Funding__c)=&quot;&quot;,&quot;•Funding;&quot;
+															,&quot;&quot;)
+										,&quot;&quot;)
+     )
+     &amp; IF(OR(TEXT(Owner.Owned_by_Company__c) = &#39;AES&#39;
+													, TEXT(Owned_by_Company__c) = &#39;AES&#39;) 
+										,IF(Territory2Id =&quot;&quot;
+														,&quot;•Territory;&quot;
+														,&quot;&quot;)
+										,&quot;&quot;)
+     &amp; IF(TEXT(Sales_Type__c)=&quot;Service Sales&quot;
+										, IF(ISBLANK(Length_of_Proposed_Contract__c)
+															,&#39;•Length of Contract;&#39;
+															,&quot;&quot;
+														)
+										,&quot;&quot;)
+     , IF(Source__c=&#39;true&#39;
+          ,IF(OR(TEXT(Owner.Owned_by_Company__c) = &#39;AES&#39;
+                 , TEXT(Owned_by_Company__c) = &#39;AES&#39;)
+                        ,IF(Territory2Id =&quot;&quot;
+                            ,&quot;•Territory;&quot;
+                            ,&quot;&quot;)
+              ,&quot;&quot;)
+										,&quot;&quot;)
+)</formula>
+    <inlineHelpText>fields missing at the current stage</inlineHelpText>
+    <label>fxMissingFields_stage2</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

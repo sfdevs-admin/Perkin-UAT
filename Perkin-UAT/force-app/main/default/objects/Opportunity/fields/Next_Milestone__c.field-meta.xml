@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Milestone__c</fullName>
+    <label>Next Milestone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Qualify Needs</fullName>
+                <default>false</default>
+                <label>Qualify Needs</label>
+            </value>
+            <value>
+                <fullName>Discovery Phase</fullName>
+                <default>false</default>
+                <label>Discovery Phase</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Short Listed</fullName>
+                <default>false</default>
+                <label>Short Listed</label>
+            </value>
+            <value>
+                <fullName>Quotation</fullName>
+                <default>false</default>
+                <label>Quotation</label>
+            </value>
+            <value>
+                <fullName>Final Presentation</fullName>
+                <default>false</default>
+                <label>Final Presentation</label>
+            </value>
+            <value>
+                <fullName>Awarded - Contract Stage</fullName>
+                <default>false</default>
+                <label>Awarded - Contract Stage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

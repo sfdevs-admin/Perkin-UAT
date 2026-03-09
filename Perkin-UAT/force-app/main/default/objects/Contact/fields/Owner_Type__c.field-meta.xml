@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Type__c</fullName>
+    <label>Owner Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Anesthesia System</fullName>
+                <default>false</default>
+                <label>Anesthesia System</label>
+            </value>
+            <value>
+                <fullName>ART/GE</fullName>
+                <default>false</default>
+                <label>ART/GE</label>
+            </value>
+            <value>
+                <fullName>Berthold</fullName>
+                <default>false</default>
+                <label>Berthold</label>
+            </value>
+            <value>
+                <fullName>Beta FMT 2500</fullName>
+                <default>false</default>
+                <label>Beta FMT 2500</label>
+            </value>
+            <value>
+                <fullName>CareStream</fullName>
+                <default>false</default>
+                <label>CareStream</label>
+            </value>
+            <value>
+                <fullName>CareStream Maestro</fullName>
+                <default>false</default>
+                <label>CareStream Maestro</label>
+            </value>
+            <value>
+                <fullName>Confocal Microscope</fullName>
+                <default>false</default>
+                <label>Confocal Microscope</label>
+            </value>
+            <value>
+                <fullName>CRI</fullName>
+                <default>false</default>
+                <label>CRI</label>
+            </value>
+            <value>
+                <fullName>FMT 1500</fullName>
+                <default>false</default>
+                <label>FMT 1500</label>
+            </value>
+            <value>
+                <fullName>FMT 1500 to 2500 LX upgrade module</fullName>
+                <default>false</default>
+                <label>FMT 1500 to 2500 LX upgrade module</label>
+            </value>
+            <value>
+                <fullName>FMT 2500</fullName>
+                <default>false</default>
+                <label>FMT 2500</label>
+            </value>
+            <value>
+                <fullName>FMT 2500 LX</fullName>
+                <default>false</default>
+                <label>FMT 2500 LX</label>
+            </value>
+            <value>
+                <fullName>FMT 2500 Two Channel Upgrade</fullName>
+                <default>false</default>
+                <label>FMT 2500 Two Channel Upgrade</label>
+            </value>
+            <value>
+                <fullName>Hamamatsu</fullName>
+                <default>false</default>
+                <label>Hamamatsu</label>
+            </value>
+            <value>
+                <fullName>Instrument -Beta FMT 1</fullName>
+                <default>false</default>
+                <label>Instrument -Beta FMT 1</label>
+            </value>
+            <value>
+                <fullName>Instrument-FMT 1</fullName>
+                <default>false</default>
+                <label>Instrument-FMT 1</label>
+            </value>
+            <value>
+                <fullName>Kodak</fullName>
+                <default>false</default>
+                <label>Kodak</label>
+            </value>
+            <value>
+                <fullName>Lab produced Agents</fullName>
+                <default>false</default>
+                <label>Lab produced Agents</label>
+            </value>
+            <value>
+                <fullName>LiCor Agents</fullName>
+                <default>false</default>
+                <label>LiCor Agents</label>
+            </value>
+            <value>
+                <fullName>LiCor System</fullName>
+                <default>false</default>
+                <label>LiCor System</label>
+            </value>
+            <value>
+                <fullName>Olympus</fullName>
+                <default>false</default>
+                <label>Olympus</label>
+            </value>
+            <value>
+                <fullName>VisEn Agents</fullName>
+                <default>false</default>
+                <label>VisEn Agents</label>
+            </value>
+            <value>
+                <fullName>VisEn Instruments and Agents</fullName>
+                <default>false</default>
+                <label>VisEn Instruments and Agents</label>
+            </value>
+            <value>
+                <fullName>Xenogen</fullName>
+                <default>false</default>
+                <label>Xenogen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Themes__c</fullName>
+    <inlineHelpText>Please fill based on the application that best fits the work that the customer is focussed on</inlineHelpText>
+    <label>LST Themes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NGS/Genomics</fullName>
+                <default>false</default>
+                <label>NGS/Genomics</label>
+            </value>
+            <value>
+                <fullName>Imaging and Pathology</fullName>
+                <default>false</default>
+                <label>Imaging and Pathology</label>
+            </value>
+            <value>
+                <fullName>Biomarkers</fullName>
+                <default>false</default>
+                <label>Biomarkers</label>
+            </value>
+            <value>
+                <fullName>Cellular Systems</fullName>
+                <default>false</default>
+                <label>Cellular Systems</label>
+            </value>
+            <value>
+                <fullName>Targeted Small Molecule Discovery</fullName>
+                <default>false</default>
+                <label>Targeted Small Molecule Discovery</label>
+            </value>
+            <value>
+                <fullName>Biotherapeutics</fullName>
+                <default>false</default>
+                <label>Biotherapeutics</label>
+            </value>
+            <value>
+                <fullName>Agricultural</fullName>
+                <default>false</default>
+                <label>Agricultural</label>
+            </value>
+            <value>
+                <fullName>Quantitative Pathology</fullName>
+                <default>false</default>
+                <label>Quantitative Pathology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxMissingFieldsstageAll__c</fullName>
+    <description>The missing fields on this opportunity regardless of current stage</description>
+    <inlineHelpText>All the fields needed to be completed on this opportunity (regardless of current stage)</inlineHelpText>
+    <label>fxMissingFields_stageAll</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

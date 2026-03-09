@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IncorrectEmailToCase__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>emial was not done correct with service address only in To Field</description>
+    <label>Incorrect EmailToCase</label>
+    <type>Checkbox</type>
+</CustomField>

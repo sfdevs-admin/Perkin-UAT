@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OneSource_Marketing_Lead_QueueV1DC</fullName>
+    <booleanFilter>(1 AND 2) OR (1 AND 3)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Non_Qualified__c</columns>
+    <columns>NONMQL__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>OSAI,OSAM,OSC,OSG,OSIS,OSIT,OSR,OSRL,OSSS</value>
+    </filters>
+    <filters>
+        <field>LEAD.EMAIL</field>
+        <operation>contains</operation>
+        <value>@takeda.com,@lonza.com,@shire.com,@westpharma.com,@bluebirdbio.com,@h3biomedicin</value>
+    </filters>
+    <filters>
+        <field>LEAD.EMAIL</field>
+        <operation>contains</operation>
+        <value>,@formatherapeutics.com,@hms.harvard.edu,@caprion.com,@merrimack.com,@adimab.com</value>
+    </filters>
+    <label>OneSource Marketing Leads QueueV1DC</label>
+    <language>en_US</language>
+    <queue>ARQ_000649</queue>
+</ListView>

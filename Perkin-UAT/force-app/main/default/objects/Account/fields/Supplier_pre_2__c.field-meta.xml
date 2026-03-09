@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_pre_2__c</fullName>
+    <label>Screening Reagent Supplier 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PerkinElmer</fullName>
+                <default>false</default>
+                <label>PerkinElmer</label>
+            </value>
+            <value>
+                <fullName>Roche</fullName>
+                <default>false</default>
+                <label>Roche</label>
+            </value>
+            <value>
+                <fullName>Beckman</fullName>
+                <default>false</default>
+                <label>Beckman</label>
+            </value>
+            <value>
+                <fullName>ThermoFisher</fullName>
+                <default>false</default>
+                <label>ThermoFisher</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

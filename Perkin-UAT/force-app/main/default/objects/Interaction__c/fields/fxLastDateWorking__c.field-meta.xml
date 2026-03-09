@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxLastDateWorking__c</fullName>
+    <description>This is the time the record was last set to Working filled by LFLOW 2502</description>
+    <inlineHelpText>This is the time the record was last set to Working,</inlineHelpText>
+    <label>fxLastDateWorking</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Collateral_Used_ViaCord__c</fullName>
+    <label>DX Collateral Used - ViaCord</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vis Aids</fullName>
+                <default>false</default>
+                <label>Vis Aids</label>
+            </value>
+            <value>
+                <fullName>2008 CONTEMP OBGYN ARTICLE</fullName>
+                <default>false</default>
+                <label>2008 CONTEMP OBGYN ARTICLE</label>
+            </value>
+            <value>
+                <fullName>3 STAGES CARE LEAVE BEHIND SELL SHEET</fullName>
+                <default>false</default>
+                <label>3 STAGES CARE LEAVE BEHIND SELL SHEET</label>
+            </value>
+            <value>
+                <fullName>ART REPRINT BY DR. PERLOW OF IMP</fullName>
+                <default>false</default>
+                <label>ART REPRINT BY DR. PERLOW OF IMP</label>
+            </value>
+            <value>
+                <fullName>ASD - PRICING LEAFLET</fullName>
+                <default>false</default>
+                <label>ASD - PRICING LEAFLET</label>
+            </value>
+            <value>
+                <fullName>ASD VISUAL AID</fullName>
+                <default>false</default>
+                <label>ASD VISUAL AID</label>
+            </value>
+            <value>
+                <fullName>ASH SELL SHEET</fullName>
+                <default>false</default>
+                <label>ASH SELL SHEET</label>
+            </value>
+            <value>
+                <fullName>COLLECTION FLASHCARD</fullName>
+                <default>false</default>
+                <label>COLLECTION FLASHCARD</label>
+            </value>
+            <value>
+                <fullName>CONSENT FORMS IN TEAR OFF PADS</fullName>
+                <default>false</default>
+                <label>CONSENT FORMS IN TEAR OFF PADS</label>
+            </value>
+            <value>
+                <fullName>CONSENT FORM - SPANISH</fullName>
+                <default>false</default>
+                <label>CONSENT FORM - SPANISH</label>
+            </value>
+            <value>
+                <fullName>CONTEM OBGYN SUPP ON CORD TISSUE MSCS</fullName>
+                <default>false</default>
+                <label>CONTEM OBGYN SUPP ON CORD TISSUE MSCS</label>
+            </value>
+            <value>
+                <fullName>CORD BLOOD 101 BROCHURE</fullName>
+                <default>false</default>
+                <label>CORD BLOOD 101 BROCHURE</label>
+            </value>
+            <value>
+                <fullName>CORD BLOOD BANKING FAQS ENGLISH</fullName>
+                <default>false</default>
+                <label>CORD BLOOD BANKING FAQS ENGLISH</label>
+            </value>
+            <value>
+                <fullName>CORD BLOOD BANKING FAQS SPANISH</fullName>
+                <default>false</default>
+                <label>CORD BLOOD BANKING FAQS SPANISH</label>
+            </value>
+            <value>
+                <fullName>CORD TISSUE SLIM JIM</fullName>
+                <default>false</default>
+                <label>CORD TISSUE SLIM JIM</label>
+            </value>
+            <value>
+                <fullName>CORD TISSUE VISUAL AID</fullName>
+                <default>false</default>
+                <label>CORD TISSUE VISUAL AID</label>
+            </value>
+            <value>
+                <fullName>CPD/Heparin Flashcard</fullName>
+                <default>false</default>
+                <label>CPD/Heparin Flashcard</label>
+            </value>
+            <value>
+                <fullName>Current Promo Coupon</fullName>
+                <default>false</default>
+                <label>Current Promo Coupon</label>
+            </value>
+            <value>
+                <fullName>DR. STONE ARTICLE FROM JANUARY 2010</fullName>
+                <default>false</default>
+                <label>DR. STONE ARTICLE FROM JANUARY 2010</label>
+            </value>
+            <value>
+                <fullName>ENHANCED PRODUCT VISUAL AID</fullName>
+                <default>false</default>
+                <label>ENHANCED PRODUCT VISUAL AID</label>
+            </value>
+            <value>
+                <fullName>FAQS FOR LABOR &amp; DELIVERY</fullName>
+                <default>false</default>
+                <label>FAQS FOR LABOR &amp; DELIVERY</label>
+            </value>
+            <value>
+                <fullName>GOLD STANDARD BROCHURE</fullName>
+                <default>false</default>
+                <label>GOLD STANDARD BROCHURE</label>
+            </value>
+            <value>
+                <fullName>HEPARIN FREE PHYSICIANS SELL SHEET</fullName>
+                <default>false</default>
+                <label>HEPARIN FREE PHYSICIANS SELL SHEET</label>
+            </value>
+            <value>
+                <fullName>LAB FLASH CARD</fullName>
+                <default>false</default>
+                <label>LAB FLASH CARD</label>
+            </value>
+            <value>
+                <fullName>LANCET - ALLOGENEIC SIBLING CORD BLOOD</fullName>
+                <default>false</default>
+                <label>LANCET - ALLOGENEIC SIBLING CORD BLOOD</label>
+            </value>
+            <value>
+                <fullName>LIFETIME PROBABILITY ARTICLE</fullName>
+                <default>false</default>
+                <label>LIFETIME PROBABILITY ARTICLE</label>
+            </value>
+            <value>
+                <fullName>NATIONAL PROMO PADS</fullName>
+                <default>false</default>
+                <label>NATIONAL PROMO PADS</label>
+            </value>
+            <value>
+                <fullName>NEW ENGLAND JOURNAL OF MEDICINE # 337</fullName>
+                <default>false</default>
+                <label>NEW ENGLAND JOURNAL OF MEDICINE # 337</label>
+            </value>
+            <value>
+                <fullName>NEW ENGLAND JOURNAL OF MEDICINE # 343</fullName>
+                <default>false</default>
+                <label>NEW ENGLAND JOURNAL OF MEDICINE # 343</label>
+            </value>
+            <value>
+                <fullName>NEW ENGLAND JOURNAL OF MEDICNE # 342</fullName>
+                <default>false</default>
+                <label>NEW ENGLAND JOURNAL OF MEDICNE # 342</label>
+            </value>
+            <value>
+                <fullName>PARENT PACK BROCHURE</fullName>
+                <default>false</default>
+                <label>PARENT PACK BROCHURE</label>
+            </value>
+            <value>
+                <fullName>PAT KNOWLEDGE OF CORD BLOOD BANK -PERLOW</fullName>
+                <default>false</default>
+                <label>PAT KNOWLEDGE OF CORD BLOOD BANK -PERLOW</label>
+            </value>
+            <value>
+                <fullName>PHYSICIAN PRICE CARD</fullName>
+                <default>false</default>
+                <label>PHYSICIAN PRICE CARD</label>
+            </value>
+            <value>
+                <fullName>QUARTERLY NEWSLETTER - 1</fullName>
+                <default>false</default>
+                <label>QUARTERLY NEWSLETTER - 1</label>
+            </value>
+            <value>
+                <fullName>QUARTERLY NEWSLETTER - 2</fullName>
+                <default>false</default>
+                <label>QUARTERLY NEWSLETTER - 2</label>
+            </value>
+            <value>
+                <fullName>QUARTERLY NEWSLETTER - 3</fullName>
+                <default>false</default>
+                <label>QUARTERLY NEWSLETTER - 3</label>
+            </value>
+            <value>
+                <fullName>SEGMENTED SELL SHEET - DABBLER</fullName>
+                <default>false</default>
+                <label>SEGMENTED SELL SHEET - DABBLER</label>
+            </value>
+            <value>
+                <fullName>SEGMENTED SELL SHEET - NON BELIEVER</fullName>
+                <default>false</default>
+                <label>SEGMENTED SELL SHEET - NON BELIEVER</label>
+            </value>
+            <value>
+                <fullName>SIBLING CONECTION BROCHURE - SPANISH</fullName>
+                <default>false</default>
+                <label>SIBLING CONECTION BROCHURE - SPANISH</label>
+            </value>
+            <value>
+                <fullName>SIBLING CONNECTION BROCHURE</fullName>
+                <default>false</default>
+                <label>SIBLING CONNECTION BROCHURE</label>
+            </value>
+            <value>
+                <fullName>SIBLING CONNECTION BROCHURE - ENGLISH</fullName>
+                <default>false</default>
+                <label>SIBLING CONNECTION BROCHURE - ENGLISH</label>
+            </value>
+            <value>
+                <fullName>SLIM JIM BROCHURE</fullName>
+                <default>false</default>
+                <label>SLIM JIM BROCHURE</label>
+            </value>
+            <value>
+                <fullName>SLIM JIM BROCHURE - CHINESE</fullName>
+                <default>false</default>
+                <label>SLIM JIM BROCHURE - CHINESE</label>
+            </value>
+            <value>
+                <fullName>SLIM JIM BROCHURE - SPANISH</fullName>
+                <default>false</default>
+                <label>SLIM JIM BROCHURE - SPANISH</label>
+            </value>
+            <value>
+                <fullName>SLIM JIM RUSSIAN</fullName>
+                <default>false</default>
+                <label>SLIM JIM RUSSIAN</label>
+            </value>
+            <value>
+                <fullName>VIACORD ANATOMY BROCH - DISEASE CATEGORI</fullName>
+                <default>false</default>
+                <label>VIACORD ANATOMY BROCH - DISEASE CATEGORI</label>
+            </value>
+            <value>
+                <fullName>VIACORD INFORMATION CARD WITH ONLINE EDU</fullName>
+                <default>false</default>
+                <label>VIACORD INFORMATION CARD WITH ONLINE EDU</label>
+            </value>
+            <value>
+                <fullName>VIACORD TRANSPLANT INFUSION SUMMARY</fullName>
+                <default>false</default>
+                <label>VIACORD TRANSPLANT INFUSION SUMMARY</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Source__c</fullName>
+    <label>PKI Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Call_Source__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <label>Operations</label>
+            </value>
+            <value>
+                <fullName>Customer Care</fullName>
+                <default>false</default>
+                <label>Customer Care</label>
+            </value>
+            <value>
+                <fullName>R&amp;D</fullName>
+                <default>false</default>
+                <label>R&amp;D</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+                <label>Product Management</label>
+            </value>
+            <value>
+                <fullName>Applications</fullName>
+                <default>false</default>
+                <label>Applications</label>
+            </value>
+            <value>
+                <fullName>Tech Support</fullName>
+                <default>false</default>
+                <label>Tech Support</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>Operations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>Customer Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>R&amp;D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>Product Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>Applications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI</controllingFieldValue>
+            <valueName>Tech Support</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

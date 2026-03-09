@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Events_this_FY_FAS</fullName>
+    <columns>DUE_DATE</columns>
+    <columns>SUBJECT</columns>
+    <columns>Event_Category__c</columns>
+    <columns>CategoryType__c</columns>
+    <columns>START_DATE_TIME</columns>
+    <columns>END_DATE_TIME</columns>
+    <columns>Hours_Spent_Travelling__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Model__c</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>WHO_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>DUE_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Event.Dx_Events</value>
+    </filters>
+    <label>My Events this FY - FAS</label>
+    <sharedTo>
+        <group>ARQ_001034</group>
+    </sharedTo>
+</ListView>

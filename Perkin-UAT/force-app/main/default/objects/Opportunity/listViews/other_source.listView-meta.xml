@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>other_source</fullName>
+    <booleanFilter>((1 AND 4) AND  (2 OR 3))</booleanFilter>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Source_china__c</columns>
+    <columns>Source__c</columns>
+    <columns>Referred_by__c</columns>
+    <columns>Referral_Email__c</columns>
+    <columns>IS_Lead_Action__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Service Generated Lead</value>
+    </filters>
+    <filters>
+        <field>Source__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Referral_Email__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2017 12:00 AM</value>
+    </filters>
+    <label>other source</label>
+    <language>en_US</language>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

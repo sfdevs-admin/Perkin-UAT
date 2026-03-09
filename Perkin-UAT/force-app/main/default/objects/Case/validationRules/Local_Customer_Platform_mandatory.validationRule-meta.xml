@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Customer_Platform_mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $Permission.BD_Bypass_Automation != TRUE,
+    DATEVALUE(CreatedDate) &gt; DATE(2023,09,26)
+    ,RecordType.Name = &#39;E-commerce&#39;
+    ,INCLUDES(Platform_Channel__c, &#39;Customer Specific&#39;)
+    ,ISBLANK(Local_Customer_Platform__c)  
+   )</errorConditionFormula>
+    <errorDisplayField>Local_Customer_Platform__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_050: Local Customer Platform is mandatory if Platform Channel includes Customer Specific.</errorMessage>
+</ValidationRule>

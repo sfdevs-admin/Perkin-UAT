@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NetSuite_Order_Type__c</fullName>
+    <description>This field is used for Salesforce and NetSuite Integration (ITSFDC-5103)
+Field Label changed from &#39;Netsuite Order Type&#39; to &#39;Amendment Type&#39; as per the &quot;INC0363788&quot;/INDEX-935 ticket and values changed</description>
+    <inlineHelpText>This field is used for Salesforce and NetSuite Integration (ITSFDC-5103)</inlineHelpText>
+    <label>Amendment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+                <label>Amendment</label>
+            </value>
+            <value>
+                <fullName>Amendment-Upsell</fullName>
+                <default>false</default>
+                <label>Amendment-Upsell</label>
+            </value>
+            <value>
+                <fullName>Amendment-Upgrade</fullName>
+                <default>false</default>
+                <label>Amendment-Upgrade</label>
+            </value>
+            <value>
+                <fullName>New Existing-Amendment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New Existing-Amendment</label>
+            </value>
+            <value>
+                <fullName>New Products-Amendment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New Products-Amendment</label>
+            </value>
+            <value>
+                <fullName>Renewal-Amendment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Renewal-Amendment</label>
+            </value>
+            <value>
+                <fullName>Renewal-Upsell-Amendment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Renewal-Upsell-Amendment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

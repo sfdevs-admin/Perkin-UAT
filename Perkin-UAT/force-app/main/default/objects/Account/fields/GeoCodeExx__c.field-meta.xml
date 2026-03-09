@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoCodeExx__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ShippingCountry &lt;&gt; &quot;US&quot;,&quot;NA&quot;,
+IF(CONTAINS(&quot;600, 601, 610, 611&quot;, left(ShippingPostalCode,3)), &quot;E02&quot;,
+IF(CONTAINS(&quot;463, 464, 602, 603, 604, 605, 606, 607, 608, 609, 612, 613, 614, 615, 616, 617&quot;, left(ShippingPostalCode,3)), &quot;E03&quot;,
+IF(CONTAINS(&quot;530, 531, 532, 534, 535, 537, 538, 539, 541, 542, 543, 544, 545, 549&quot;, left(ShippingPostalCode,3)), &quot;E04&quot;,
+IF(CONTAINS(&quot;500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 520, 521, 522, 523, 524, 525, 526, 527, 528&quot;, left(ShippingPostalCode,3)), &quot;E05&quot;,
+IF(CONTAINS(&quot;540, 546, 547, 548, 550, 551, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 570, 571, 572, 573, 574, 575, 576, 577, 580, 581, 582, 583, 584, 585, 586, 587, 588&quot;, left(ShippingPostalCode,3)), &quot;E06&quot;,
+&quot;NA&quot;))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>GeoCodeExx</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

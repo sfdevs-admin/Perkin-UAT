@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Level_11__c</fullName>
+    <label>Territory Level 11</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Territory_Level_10__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EH EU India Petro Sub Region 1 Sales Team</fullName>
+                <default>false</default>
+                <label>EH EU India Petro Sub Region 1 Sales Team</label>
+            </value>
+            <value>
+                <fullName>EH EU India South Central Sub Region 1 Sales Team</fullName>
+                <default>false</default>
+                <label>EH EU India South Central Sub Region 1 Sales Team</label>
+            </value>
+            <value>
+                <fullName>EH EU India West Sub Region 1 Sales</fullName>
+                <default>false</default>
+                <label>EH EU India West Sub Region 1 Sales</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>EH EU India Petro Sub Region 1 Leader</controllingFieldValue>
+            <valueName>EH EU India Petro Sub Region 1 Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU India South Central Sub Region 1 Leader</controllingFieldValue>
+            <valueName>EH EU India South Central Sub Region 1 Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU India West Sub Region 1 Leader</controllingFieldValue>
+            <valueName>EH EU India West Sub Region 1 Sales</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

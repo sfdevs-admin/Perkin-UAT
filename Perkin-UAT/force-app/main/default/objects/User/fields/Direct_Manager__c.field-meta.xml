@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direct_Manager__c</fullName>
+    <description>[INF] - Used by FPX Firepond CPQ system and is hard coded so important to have and entry if the user is part of Informatics</description>
+    <inlineHelpText>Used by FPX CPQ for Informatics</inlineHelpText>
+    <label>Direct Manager</label>
+    <relationshipName>Users</relationshipName>
+    <restrictedAdminField>false</restrictedAdminField>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Hierarchy</type>
+</CustomField>

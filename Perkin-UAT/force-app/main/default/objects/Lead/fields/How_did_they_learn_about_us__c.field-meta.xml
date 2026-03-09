@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_they_learn_about_us__c</fullName>
+    <label>How did they learn about us?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>Online Article</fullName>
+                <default>false</default>
+                <label>Online Article</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Printed Article</fullName>
+                <default>false</default>
+                <label>Printed Article</label>
+            </value>
+            <value>
+                <fullName>Received an email</fullName>
+                <default>false</default>
+                <label>Received an email</label>
+            </value>
+            <value>
+                <fullName>Received something in the mail</fullName>
+                <default>false</default>
+                <label>Received something in the mail</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Saw a banner advertisement</fullName>
+                <default>false</default>
+                <label>Saw a banner advertisement</label>
+            </value>
+            <value>
+                <fullName>Saw a white paper online</fullName>
+                <default>false</default>
+                <label>Saw a white paper online</label>
+            </value>
+            <value>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+                <label>Tradeshow</label>
+            </value>
+            <value>
+                <fullName>Web Search</fullName>
+                <default>false</default>
+                <label>Web Search</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

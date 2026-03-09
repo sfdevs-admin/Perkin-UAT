@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_GBL_Competitor_Lost_To__c</fullName>
+    <inlineHelpText>Please Select Winning Competitor from Picklist</inlineHelpText>
+    <label>Competitor Lost To</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>&quot;Home Grown/It System&quot;</fullName>
+                <default>false</default>
+                <label>&quot;Home Grown/It System&quot;</label>
+            </value>
+            <value>
+                <fullName>AATI</fullName>
+                <default>false</default>
+                <label>AATI</label>
+            </value>
+            <value>
+                <fullName>ABB Bomem</fullName>
+                <default>false</default>
+                <label>ABB Bomem</label>
+            </value>
+            <value>
+                <fullName>ABX</fullName>
+                <default>false</default>
+                <label>ABX</label>
+            </value>
+            <value>
+                <fullName>Affymetrix Inc</fullName>
+                <default>false</default>
+                <label>Affymetrix Inc</label>
+            </value>
+            <value>
+                <fullName>Agilent Technologies</fullName>
+                <default>false</default>
+                <label>Agilent Technologies</label>
+            </value>
+            <value>
+                <fullName>Ahura</fullName>
+                <default>false</default>
+                <label>Ahura</label>
+            </value>
+            <value>
+                <fullName>ALLtech Associates</fullName>
+                <default>false</default>
+                <label>ALLtech Associates</label>
+            </value>
+            <value>
+                <fullName>Alpha Innotech</fullName>
+                <default>false</default>
+                <label>Alpha Innotech</label>
+            </value>
+            <value>
+                <fullName>Amersham Biosiences</fullName>
+                <default>false</default>
+                <label>Amersham Biosiences</label>
+            </value>
+            <value>
+                <fullName>Analytical Instrument Systems</fullName>
+                <default>false</default>
+                <label>Analytical Instrument Systems</label>
+            </value>
+            <value>
+                <fullName>Analytical Lab Products</fullName>
+                <default>false</default>
+                <label>Analytical Lab Products</label>
+            </value>
+            <value>
+                <fullName>Analytical Spectral Devices Inc</fullName>
+                <default>false</default>
+                <label>Analytical Spectral Devices Inc</label>
+            </value>
+            <value>
+                <fullName>Analytik Jena</fullName>
+                <default>false</default>
+                <label>Analytik Jena</label>
+            </value>
+            <value>
+                <fullName>Andor Technology</fullName>
+                <default>false</default>
+                <label>Andor Technology</label>
+            </value>
+            <value>
+                <fullName>Anton Parr</fullName>
+                <default>false</default>
+                <label>Anton Parr</label>
+            </value>
+            <value>
+                <fullName>Applied Biosystems (ABI)</fullName>
+                <default>false</default>
+                <label>Applied Biosystems (ABI)</label>
+            </value>
+            <value>
+                <fullName>Arun Technology</fullName>
+                <default>false</default>
+                <label>Arun Technology</label>
+            </value>
+            <value>
+                <fullName>ATI</fullName>
+                <default>false</default>
+                <label>ATI</label>
+            </value>
+            <value>
+                <fullName>ATL - Accelerated Technologies Ltd</fullName>
+                <default>false</default>
+                <label>ATL - Accelerated Technologies Ltd</label>
+            </value>
+            <value>
+                <fullName>ATS Scientific Inc.</fullName>
+                <default>false</default>
+                <label>ATS Scientific Inc.</label>
+            </value>
+            <value>
+                <fullName>Aurora Instruments</fullName>
+                <default>false</default>
+                <label>Aurora Instruments</label>
+            </value>
+            <value>
+                <fullName>Autobio</fullName>
+                <default>false</default>
+                <label>Autobio</label>
+            </value>
+            <value>
+                <fullName>Axon Instruments</fullName>
+                <default>false</default>
+                <label>Axon Instruments</label>
+            </value>
+            <value>
+                <fullName>Beckman Coulter</fullName>
+                <default>false</default>
+                <label>Beckman Coulter</label>
+            </value>
+            <value>
+                <fullName>Benchling</fullName>
+                <default>false</default>
+                <label>Benchling</label>
+            </value>
+            <value>
+                <fullName>Berthold Detection Systems</fullName>
+                <default>false</default>
+                <label>Berthold Detection Systems</label>
+            </value>
+            <value>
+                <fullName>Bio-Rad Laboratories</fullName>
+                <default>false</default>
+                <label>Bio-Rad Laboratories</label>
+            </value>
+            <value>
+                <fullName>Bioscan</fullName>
+                <default>false</default>
+                <label>Bioscan</label>
+            </value>
+            <value>
+                <fullName>Bioscan- BioFLECT</fullName>
+                <default>false</default>
+                <label>Bioscan- BioFLECT</label>
+            </value>
+            <value>
+                <fullName>Biosino</fullName>
+                <default>false</default>
+                <label>Biosino</label>
+            </value>
+            <value>
+                <fullName>Biospace</fullName>
+                <default>false</default>
+                <label>Biospace</label>
+            </value>
+            <value>
+                <fullName>Bio-Tek Instruments</fullName>
+                <default>false</default>
+                <label>Bio-Tek Instruments</label>
+            </value>
+            <value>
+                <fullName>Biovia</fullName>
+                <default>false</default>
+                <label>Biovia</label>
+            </value>
+            <value>
+                <fullName>BlazeLIMS</fullName>
+                <default>false</default>
+                <label>BlazeLIMS</label>
+            </value>
+            <value>
+                <fullName>BMG International</fullName>
+                <default>false</default>
+                <label>BMG International</label>
+            </value>
+            <value>
+                <fullName>Boumem</fullName>
+                <default>false</default>
+                <label>Boumem</label>
+            </value>
+            <value>
+                <fullName>Bruker</fullName>
+                <default>false</default>
+                <label>Bruker</label>
+            </value>
+            <value>
+                <fullName>Bruker Albira</fullName>
+                <default>false</default>
+                <label>Bruker Albira</label>
+            </value>
+            <value>
+                <fullName>Bruker Daltronics</fullName>
+                <default>false</default>
+                <label>Bruker Daltronics</label>
+            </value>
+            <value>
+                <fullName>Bruker FXPro</fullName>
+                <default>false</default>
+                <label>Bruker FXPro</label>
+            </value>
+            <value>
+                <fullName>Bruker Icon uMRI</fullName>
+                <default>false</default>
+                <label>Bruker Icon uMRI</label>
+            </value>
+            <value>
+                <fullName>Bruker Optics</fullName>
+                <default>false</default>
+                <label>Bruker Optics</label>
+            </value>
+            <value>
+                <fullName>Bruker Skyscan uCT</fullName>
+                <default>false</default>
+                <label>Bruker Skyscan uCT</label>
+            </value>
+            <value>
+                <fullName>Bruker Xtreme</fullName>
+                <default>false</default>
+                <label>Bruker Xtreme</label>
+            </value>
+            <value>
+                <fullName>Büchi</fullName>
+                <default>false</default>
+                <label>Büchi</label>
+            </value>
+            <value>
+                <fullName>Buck Scientific</fullName>
+                <default>false</default>
+                <label>Buck Scientific</label>
+            </value>
+            <value>
+                <fullName>Caliper</fullName>
+                <default>false</default>
+                <label>Caliper</label>
+            </value>
+            <value>
+                <fullName>Carl Zeiss Microimaging</fullName>
+                <default>false</default>
+                <label>Carl Zeiss Microimaging</label>
+            </value>
+            <value>
+                <fullName>CDD Vault</fullName>
+                <default>false</default>
+                <label>CDD Vault</label>
+            </value>
+            <value>
+                <fullName>CETAC Technologies</fullName>
+                <default>false</default>
+                <label>CETAC Technologies</label>
+            </value>
+            <value>
+                <fullName>Cetaram</fullName>
+                <default>false</default>
+                <label>Cetaram</label>
+            </value>
+            <value>
+                <fullName>ChemImage</fullName>
+                <default>false</default>
+                <label>ChemImage</label>
+            </value>
+            <value>
+                <fullName>ChemWare</fullName>
+                <default>false</default>
+                <label>ChemWare</label>
+            </value>
+            <value>
+                <fullName>CHIVD</fullName>
+                <default>false</default>
+                <label>CHIVD</label>
+            </value>
+            <value>
+                <fullName>Consulting Partner (Accenture,Deloitte,EPAM,Other)</fullName>
+                <default>false</default>
+                <label>Consulting Partner (Accenture,Deloitte,EPAM,Other)</label>
+            </value>
+            <value>
+                <fullName>Costech</fullName>
+                <default>false</default>
+                <label>Costech</label>
+            </value>
+            <value>
+                <fullName>CPI</fullName>
+                <default>false</default>
+                <label>CPI</label>
+            </value>
+            <value>
+                <fullName>CyBio</fullName>
+                <default>false</default>
+                <label>CyBio</label>
+            </value>
+            <value>
+                <fullName>Danaher</fullName>
+                <default>false</default>
+                <label>Danaher</label>
+            </value>
+            <value>
+                <fullName>Delta Nu</fullName>
+                <default>false</default>
+                <label>Delta Nu</label>
+            </value>
+            <value>
+                <fullName>Delta Scientific Laboratory Products</fullName>
+                <default>false</default>
+                <label>Delta Scientific Laboratory Products</label>
+            </value>
+            <value>
+                <fullName>Digilab</fullName>
+                <default>false</default>
+                <label>Digilab</label>
+            </value>
+            <value>
+                <fullName>Dionex Corp</fullName>
+                <default>false</default>
+                <label>Dionex Corp</label>
+            </value>
+            <value>
+                <fullName>Dotmatics</fullName>
+                <default>false</default>
+                <label>Dotmatics</label>
+            </value>
+            <value>
+                <fullName>Eastman Kodak</fullName>
+                <default>false</default>
+                <label>Eastman Kodak</label>
+            </value>
+            <value>
+                <fullName>Elemental Scientific (ESI)</fullName>
+                <default>false</default>
+                <label>Elemental Scientific (ESI)</label>
+            </value>
+            <value>
+                <fullName>Endra</fullName>
+                <default>false</default>
+                <label>Endra</label>
+            </value>
+            <value>
+                <fullName>Eppendorf</fullName>
+                <default>false</default>
+                <label>Eppendorf</label>
+            </value>
+            <value>
+                <fullName>Femto</fullName>
+                <default>false</default>
+                <label>Femto</label>
+            </value>
+            <value>
+                <fullName>Fluoptics</fullName>
+                <default>false</default>
+                <label>Fluoptics</label>
+            </value>
+            <value>
+                <fullName>Foss</fullName>
+                <default>false</default>
+                <label>Foss</label>
+            </value>
+            <value>
+                <fullName>Fuji</fullName>
+                <default>false</default>
+                <label>Fuji</label>
+            </value>
+            <value>
+                <fullName>Gamble Technologies</fullName>
+                <default>false</default>
+                <label>Gamble Technologies</label>
+            </value>
+            <value>
+                <fullName>GBC Scientific equipment</fullName>
+                <default>false</default>
+                <label>GBC Scientific equipment</label>
+            </value>
+            <value>
+                <fullName>GE</fullName>
+                <default>false</default>
+                <label>GE</label>
+            </value>
+            <value>
+                <fullName>GeneData</fullName>
+                <default>false</default>
+                <label>GeneData</label>
+            </value>
+            <value>
+                <fullName>GeneFocus</fullName>
+                <default>false</default>
+                <label>GeneFocus</label>
+            </value>
+            <value>
+                <fullName>GeneMachines</fullName>
+                <default>false</default>
+                <label>GeneMachines</label>
+            </value>
+            <value>
+                <fullName>Genomic Solutions</fullName>
+                <default>false</default>
+                <label>Genomic Solutions</label>
+            </value>
+            <value>
+                <fullName>Gerstel</fullName>
+                <default>false</default>
+                <label>Gerstel</label>
+            </value>
+            <value>
+                <fullName>Gilson</fullName>
+                <default>false</default>
+                <label>Gilson</label>
+            </value>
+            <value>
+                <fullName>Hamilton</fullName>
+                <default>false</default>
+                <label>Hamilton</label>
+            </value>
+            <value>
+                <fullName>Hidex</fullName>
+                <default>false</default>
+                <label>Hidex</label>
+            </value>
+            <value>
+                <fullName>Hitachi Instruments</fullName>
+                <default>false</default>
+                <label>Hitachi Instruments</label>
+            </value>
+            <value>
+                <fullName>Homegrown LIMS</fullName>
+                <default>false</default>
+                <label>Homegrown LIMS</label>
+            </value>
+            <value>
+                <fullName>Horiba</fullName>
+                <default>false</default>
+                <label>Horiba</label>
+            </value>
+            <value>
+                <fullName>Horiba Jobin Yvon</fullName>
+                <default>false</default>
+                <label>Horiba Jobin Yvon</label>
+            </value>
+            <value>
+                <fullName>ICN</fullName>
+                <default>false</default>
+                <label>ICN</label>
+            </value>
+            <value>
+                <fullName>IDBS</fullName>
+                <default>false</default>
+                <label>IDBS</label>
+            </value>
+            <value>
+                <fullName>IGEN International</fullName>
+                <default>false</default>
+                <label>IGEN International</label>
+            </value>
+            <value>
+                <fullName>Intelligent Imaging Innovations</fullName>
+                <default>false</default>
+                <label>Intelligent Imaging Innovations</label>
+            </value>
+            <value>
+                <fullName>InterSciences Inc.</fullName>
+                <default>false</default>
+                <label>InterSciences Inc.</label>
+            </value>
+            <value>
+                <fullName>INUS</fullName>
+                <default>false</default>
+                <label>INUS</label>
+            </value>
+            <value>
+                <fullName>Invitrogen</fullName>
+                <default>false</default>
+                <label>Invitrogen</label>
+            </value>
+            <value>
+                <fullName>Isco Inc.</fullName>
+                <default>false</default>
+                <label>Isco Inc.</label>
+            </value>
+            <value>
+                <fullName>IThera</fullName>
+                <default>false</default>
+                <label>IThera</label>
+            </value>
+            <value>
+                <fullName>JASCO</fullName>
+                <default>false</default>
+                <label>JASCO</label>
+            </value>
+            <value>
+                <fullName>Jenoptik</fullName>
+                <default>false</default>
+                <label>Jenoptik</label>
+            </value>
+            <value>
+                <fullName>JEOL</fullName>
+                <default>false</default>
+                <label>JEOL</label>
+            </value>
+            <value>
+                <fullName>Johnson &amp; Johnson</fullName>
+                <default>false</default>
+                <label>Johnson &amp; Johnson</label>
+            </value>
+            <value>
+                <fullName>Kaiser Optical</fullName>
+                <default>false</default>
+                <label>Kaiser Optical</label>
+            </value>
+            <value>
+                <fullName>KHB</fullName>
+                <default>false</default>
+                <label>KHB</label>
+            </value>
+            <value>
+                <fullName>Knaur</fullName>
+                <default>false</default>
+                <label>Knaur</label>
+            </value>
+            <value>
+                <fullName>Kontron</fullName>
+                <default>false</default>
+                <label>Kontron</label>
+            </value>
+            <value>
+                <fullName>LabArchives</fullName>
+                <default>false</default>
+                <label>LabArchives</label>
+            </value>
+            <value>
+                <fullName>Labequip</fullName>
+                <default>false</default>
+                <label>Labequip</label>
+            </value>
+            <value>
+                <fullName>LabFolder</fullName>
+                <default>false</default>
+                <label>LabFolder</label>
+            </value>
+            <value>
+                <fullName>LabIndia</fullName>
+                <default>false</default>
+                <label>LabIndia</label>
+            </value>
+            <value>
+                <fullName>LabLogic</fullName>
+                <default>false</default>
+                <label>LabLogic</label>
+            </value>
+            <value>
+                <fullName>Labsphere</fullName>
+                <default>false</default>
+                <label>Labsphere</label>
+            </value>
+            <value>
+                <fullName>LabTech Inc</fullName>
+                <default>false</default>
+                <label>LabTech Inc</label>
+            </value>
+            <value>
+                <fullName>Lambda Solutions</fullName>
+                <default>false</default>
+                <label>Lambda Solutions</label>
+            </value>
+            <value>
+                <fullName>Leadman</fullName>
+                <default>false</default>
+                <label>Leadman</label>
+            </value>
+            <value>
+                <fullName>Leco Instruments</fullName>
+                <default>false</default>
+                <label>Leco Instruments</label>
+            </value>
+            <value>
+                <fullName>Leeds</fullName>
+                <default>false</default>
+                <label>Leeds</label>
+            </value>
+            <value>
+                <fullName>Leeman Labs</fullName>
+                <default>false</default>
+                <label>Leeman Labs</label>
+            </value>
+            <value>
+                <fullName>Leica Microsystems</fullName>
+                <default>false</default>
+                <label>Leica Microsystems</label>
+            </value>
+            <value>
+                <fullName>Licor</fullName>
+                <default>false</default>
+                <label>Licor</label>
+            </value>
+            <value>
+                <fullName>London Scientific</fullName>
+                <default>false</default>
+                <label>London Scientific</label>
+            </value>
+            <value>
+                <fullName>Mbook (MestroNova)</fullName>
+                <default>false</default>
+                <label>Mbook (MestroNova)</label>
+            </value>
+            <value>
+                <fullName>Mediso</fullName>
+                <default>false</default>
+                <label>Mediso</label>
+            </value>
+            <value>
+                <fullName>Mettler-Toledo International</fullName>
+                <default>false</default>
+                <label>Mettler-Toledo International</label>
+            </value>
+            <value>
+                <fullName>Microliter Analytical Supplies</fullName>
+                <default>false</default>
+                <label>Microliter Analytical Supplies</label>
+            </value>
+            <value>
+                <fullName>Microsoft PowerBI</fullName>
+                <default>false</default>
+                <label>Microsoft PowerBI</label>
+            </value>
+            <value>
+                <fullName>Midac Corporation</fullName>
+                <default>false</default>
+                <label>Midac Corporation</label>
+            </value>
+            <value>
+                <fullName>MiLabs</fullName>
+                <default>false</default>
+                <label>MiLabs</label>
+            </value>
+            <value>
+                <fullName>Milestone</fullName>
+                <default>false</default>
+                <label>Milestone</label>
+            </value>
+            <value>
+                <fullName>Milton Roy</fullName>
+                <default>false</default>
+                <label>Milton Roy</label>
+            </value>
+            <value>
+                <fullName>Mindray</fullName>
+                <default>false</default>
+                <label>Mindray</label>
+            </value>
+            <value>
+                <fullName>MiraiBio</fullName>
+                <default>false</default>
+                <label>MiraiBio</label>
+            </value>
+            <value>
+                <fullName>Molecular BioProducts</fullName>
+                <default>false</default>
+                <label>Molecular BioProducts</label>
+            </value>
+            <value>
+                <fullName>Molecular Devices Corp</fullName>
+                <default>false</default>
+                <label>Molecular Devices Corp</label>
+            </value>
+            <value>
+                <fullName>Molecular Dynamics</fullName>
+                <default>false</default>
+                <label>Molecular Dynamics</label>
+            </value>
+            <value>
+                <fullName>Moravek</fullName>
+                <default>false</default>
+                <label>Moravek</label>
+            </value>
+            <value>
+                <fullName>MRSolutions</fullName>
+                <default>false</default>
+                <label>MRSolutions</label>
+            </value>
+            <value>
+                <fullName>Netsch</fullName>
+                <default>false</default>
+                <label>Netsch</label>
+            </value>
+            <value>
+                <fullName>New Wave Research</fullName>
+                <default>false</default>
+                <label>New Wave Research</label>
+            </value>
+            <value>
+                <fullName>Nikon Instruments</fullName>
+                <default>false</default>
+                <label>Nikon Instruments</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Ocean Optics</fullName>
+                <default>false</default>
+                <label>Ocean Optics</label>
+            </value>
+            <value>
+                <fullName>OI Analytical</fullName>
+                <default>false</default>
+                <label>OI Analytical</label>
+            </value>
+            <value>
+                <fullName>Olympus</fullName>
+                <default>false</default>
+                <label>Olympus</label>
+            </value>
+            <value>
+                <fullName>Other Global</fullName>
+                <default>false</default>
+                <label>Other Global</label>
+            </value>
+            <value>
+                <fullName>Other Regional</fullName>
+                <default>false</default>
+                <label>Other Regional</label>
+            </value>
+            <value>
+                <fullName>PANalytical</fullName>
+                <default>false</default>
+                <label>PANalytical</label>
+            </value>
+            <value>
+                <fullName>Paracel</fullName>
+                <default>false</default>
+                <label>Paracel</label>
+            </value>
+            <value>
+                <fullName>Pharmacia Biotech</fullName>
+                <default>false</default>
+                <label>Pharmacia Biotech</label>
+            </value>
+            <value>
+                <fullName>Pierce</fullName>
+                <default>false</default>
+                <label>Pierce</label>
+            </value>
+            <value>
+                <fullName>Pike Technolgies</fullName>
+                <default>false</default>
+                <label>Pike Technolgies</label>
+            </value>
+            <value>
+                <fullName>Polymer Laboratories</fullName>
+                <default>false</default>
+                <label>Polymer Laboratories</label>
+            </value>
+            <value>
+                <fullName>PolyScience</fullName>
+                <default>false</default>
+                <label>PolyScience</label>
+            </value>
+            <value>
+                <fullName>P S Analytical</fullName>
+                <default>false</default>
+                <label>P S Analytical</label>
+            </value>
+            <value>
+                <fullName>Purkinje General Instrument Company (PG)</fullName>
+                <default>false</default>
+                <label>Purkinje General Instrument Company (PG)</label>
+            </value>
+            <value>
+                <fullName>Qiagen</fullName>
+                <default>false</default>
+                <label>Qiagen</label>
+            </value>
+            <value>
+                <fullName>Qlik</fullName>
+                <default>false</default>
+                <label>Qlik</label>
+            </value>
+            <value>
+                <fullName>Questron Technologies Corp.</fullName>
+                <default>false</default>
+                <label>Questron Technologies Corp.</label>
+            </value>
+            <value>
+                <fullName>Renishaw</fullName>
+                <default>false</default>
+                <label>Renishaw</label>
+            </value>
+            <value>
+                <fullName>Roche Diagnostics</fullName>
+                <default>false</default>
+                <label>Roche Diagnostics</label>
+            </value>
+            <value>
+                <fullName>RSD2 uMRI</fullName>
+                <default>false</default>
+                <label>RSD2 uMRI</label>
+            </value>
+            <value>
+                <fullName>Scanco uCT</fullName>
+                <default>false</default>
+                <label>Scanco uCT</label>
+            </value>
+            <value>
+                <fullName>SCP Science</fullName>
+                <default>false</default>
+                <label>SCP Science</label>
+            </value>
+            <value>
+                <fullName>Setaram</fullName>
+                <default>false</default>
+                <label>Setaram</label>
+            </value>
+            <value>
+                <fullName>Shimadzu</fullName>
+                <default>false</default>
+                <label>Shimadzu</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>Sigma</fullName>
+                <default>false</default>
+                <label>Sigma</label>
+            </value>
+            <value>
+                <fullName>Smiths Detection</fullName>
+                <default>false</default>
+                <label>Smiths Detection</label>
+            </value>
+            <value>
+                <fullName>Snibe</fullName>
+                <default>false</default>
+                <label>Snibe</label>
+            </value>
+            <value>
+                <fullName>Spectral Instruemnts Lago</fullName>
+                <default>false</default>
+                <label>Spectral Instruemnts Lago</label>
+            </value>
+            <value>
+                <fullName>Spectro Analytical Instruments Inc</fullName>
+                <default>false</default>
+                <label>Spectro Analytical Instruments Inc</label>
+            </value>
+            <value>
+                <fullName>StarLIMS</fullName>
+                <default>false</default>
+                <label>StarLIMS</label>
+            </value>
+            <value>
+                <fullName>Sysmex</fullName>
+                <default>false</default>
+                <label>Sysmex</label>
+            </value>
+            <value>
+                <fullName>Tableau</fullName>
+                <default>false</default>
+                <label>Tableau</label>
+            </value>
+            <value>
+                <fullName>TA Instruments</fullName>
+                <default>false</default>
+                <label>TA Instruments</label>
+            </value>
+            <value>
+                <fullName>TECAN</fullName>
+                <default>false</default>
+                <label>TECAN</label>
+            </value>
+            <value>
+                <fullName>Thermo-Core Informatics</fullName>
+                <default>false</default>
+                <label>Thermo-Core Informatics</label>
+            </value>
+            <value>
+                <fullName>Thermo Fisher Scientific</fullName>
+                <default>false</default>
+                <label>Thermo Fisher Scientific</label>
+            </value>
+            <value>
+                <fullName>Tomtec</fullName>
+                <default>false</default>
+                <label>Tomtec</label>
+            </value>
+            <value>
+                <fullName>Turner Biosystems</fullName>
+                <default>false</default>
+                <label>Turner Biosystems</label>
+            </value>
+            <value>
+                <fullName>Used Market Service</fullName>
+                <default>false</default>
+                <label>Used Market Service</label>
+            </value>
+            <value>
+                <fullName>Used PerkinElmer</fullName>
+                <default>false</default>
+                <label>Used PerkinElmer</label>
+            </value>
+            <value>
+                <fullName>UVP</fullName>
+                <default>false</default>
+                <label>UVP</label>
+            </value>
+            <value>
+                <fullName>V&amp;P Scientific</fullName>
+                <default>false</default>
+                <label>V&amp;P Scientific</label>
+            </value>
+            <value>
+                <fullName>Varian</fullName>
+                <default>false</default>
+                <label>Varian</label>
+            </value>
+            <value>
+                <fullName>Viscotek Corp</fullName>
+                <default>false</default>
+                <label>Viscotek Corp</label>
+            </value>
+            <value>
+                <fullName>VisualSonics US</fullName>
+                <default>false</default>
+                <label>VisualSonics US</label>
+            </value>
+            <value>
+                <fullName>VWR International</fullName>
+                <default>false</default>
+                <label>VWR International</label>
+            </value>
+            <value>
+                <fullName>Waters Corp.</fullName>
+                <default>false</default>
+                <label>Waters Corp.</label>
+            </value>
+            <value>
+                <fullName>WITec</fullName>
+                <default>false</default>
+                <label>WITec</label>
+            </value>
+            <value>
+                <fullName>YOKOGAWA</fullName>
+                <default>false</default>
+                <label>YOKOGAWA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

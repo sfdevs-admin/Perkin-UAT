@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Terms__c</fullName>
+    <description>Used in the NetSuite/SalesForce integrationvia DellBoomi
+No Longer used as of Feb25, 2016 based on meeting with Justin, Mariah, and Kim.
+This field can be re-purposed.</description>
+    <label>Terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Net 10</fullName>
+                <default>false</default>
+                <label>Net 10</label>
+            </value>
+            <value>
+                <fullName>Net 15</fullName>
+                <default>false</default>
+                <label>Net 15</label>
+            </value>
+            <value>
+                <fullName>Net 30</fullName>
+                <default>false</default>
+                <label>Net 30</label>
+            </value>
+            <value>
+                <fullName>Net 40</fullName>
+                <default>false</default>
+                <label>Net 40</label>
+            </value>
+            <value>
+                <fullName>Net 45</fullName>
+                <default>false</default>
+                <label>Net 45</label>
+            </value>
+            <value>
+                <fullName>Net 60</fullName>
+                <default>false</default>
+                <label>Net 60</label>
+            </value>
+            <value>
+                <fullName>Net 90</fullName>
+                <default>false</default>
+                <label>Net 90</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

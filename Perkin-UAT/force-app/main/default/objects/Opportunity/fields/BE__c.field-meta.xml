@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BE__c</fullName>
+    <description>Changed label from BE to BU and reactivating for Oct13</description>
+    <inlineHelpText>Please select the Primary Business Unit for this opportunity.</inlineHelpText>
+    <label>BU</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ASLS</fullName>
+                <default>false</default>
+                <label>ASLS</label>
+            </value>
+            <value>
+                <fullName>Dx</fullName>
+                <default>false</default>
+                <label>Dx</label>
+            </value>
+            <value>
+                <fullName>GS</fullName>
+                <default>false</default>
+                <label>GS</label>
+            </value>
+            <value>
+                <fullName>INF</fullName>
+                <default>false</default>
+                <label>INF</label>
+            </value>
+            <value>
+                <fullName>LST</fullName>
+                <default>false</default>
+                <label>LST</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

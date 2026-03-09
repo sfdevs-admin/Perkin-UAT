@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Display_Country_of_Ultimate_Destination__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field decides whether to print Country of Ultimate Destination on PDF Quote. (I-428416)</description>
+    <inlineHelpText>This field decides whether to print Country of Ultimate Destination on PDF Quote.</inlineHelpText>
+    <label>Display Country of Ultimate Destination</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

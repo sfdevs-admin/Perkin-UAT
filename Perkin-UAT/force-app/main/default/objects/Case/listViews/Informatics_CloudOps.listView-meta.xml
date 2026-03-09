@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Informatics_CloudOps</fullName>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Cloud_Operations</value>
+    </filters>
+    <label>Informatics-CloudOps</label>
+    <language>en_US</language>
+    <queue>ARQ_000592</queue>
+    <sharedTo>
+        <group>ARQ_000930</group>
+        <group>ARQ_000932</group>
+    </sharedTo>
+</ListView>

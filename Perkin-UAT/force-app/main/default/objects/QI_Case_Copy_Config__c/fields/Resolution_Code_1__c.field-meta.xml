@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Code_1__c</fullName>
+    <label>Resolution Code 1</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100% - No field replacements</fullName>
+                <default>false</default>
+                <label>100% - No field replacements</label>
+            </value>
+            <value>
+                <fullName>50% - Only Minor field replacements</fullName>
+                <default>false</default>
+                <label>50% - Only Minor field replacements</label>
+            </value>
+            <value>
+                <fullName>0% - Major field replacements</fullName>
+                <default>false</default>
+                <label>0% - Major field replacements</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

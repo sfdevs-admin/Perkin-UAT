@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subsegment__c</fullName>
+    <label>Subsegment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Food_Market_Segment__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3rd party lab</fullName>
+                <default>false</default>
+                <label>3rd party lab</label>
+            </value>
+            <value>
+                <fullName>Animal feed</fullName>
+                <default>false</default>
+                <label>Animal feed</label>
+            </value>
+            <value>
+                <fullName>Aquaculture</fullName>
+                <default>false</default>
+                <label>Aquaculture</label>
+            </value>
+            <value>
+                <fullName>Aquafeed</fullName>
+                <default>false</default>
+                <label>Aquafeed</label>
+            </value>
+            <value>
+                <fullName>Biofuel</fullName>
+                <default>false</default>
+                <label>Biofuel</label>
+            </value>
+            <value>
+                <fullName>Bread/baking</fullName>
+                <default>false</default>
+                <label>Bread/baking</label>
+            </value>
+            <value>
+                <fullName>Brewing</fullName>
+                <default>false</default>
+                <label>Brewing</label>
+            </value>
+            <value>
+                <fullName>Central Milk Testing</fullName>
+                <default>false</default>
+                <label>Central Milk Testing</label>
+            </value>
+            <value>
+                <fullName>Cheese producer</fullName>
+                <default>false</default>
+                <label>Cheese producer</label>
+            </value>
+            <value>
+                <fullName>Dairy farms/cooperatives</fullName>
+                <default>false</default>
+                <label>Dairy farms/cooperatives</label>
+            </value>
+            <value>
+                <fullName>Dairy powders</fullName>
+                <default>false</default>
+                <label>Dairy powders</label>
+            </value>
+            <value>
+                <fullName>Farmer</fullName>
+                <default>false</default>
+                <label>Farmer</label>
+            </value>
+            <value>
+                <fullName>Feed premixes</fullName>
+                <default>false</default>
+                <label>Feed premixes</label>
+            </value>
+            <value>
+                <fullName>Fish processing</fullName>
+                <default>false</default>
+                <label>Fish processing</label>
+            </value>
+            <value>
+                <fullName>Flour milling</fullName>
+                <default>false</default>
+                <label>Flour milling</label>
+            </value>
+            <value>
+                <fullName>Forage</fullName>
+                <default>false</default>
+                <label>Forage</label>
+            </value>
+            <value>
+                <fullName>Grain research</fullName>
+                <default>false</default>
+                <label>Grain research</label>
+            </value>
+            <value>
+                <fullName>Grain trader/Elevator/Terminal</fullName>
+                <default>false</default>
+                <label>Grain trader/Elevator/Terminal</label>
+            </value>
+            <value>
+                <fullName>Ground meat and Burger production</fullName>
+                <default>false</default>
+                <label>Ground meat and Burger production</label>
+            </value>
+            <value>
+                <fullName>Human milk providers</fullName>
+                <default>false</default>
+                <label>Human milk providers</label>
+            </value>
+            <value>
+                <fullName>Ice cream</fullName>
+                <default>false</default>
+                <label>Ice cream</label>
+            </value>
+            <value>
+                <fullName>Livestock (cattle, pigs, poultry)</fullName>
+                <default>false</default>
+                <label>Livestock (cattle, pigs, poultry)</label>
+            </value>
+            <value>
+                <fullName>Malting</fullName>
+                <default>false</default>
+                <label>Malting</label>
+            </value>
+            <value>
+                <fullName>Mechanically separated meat</fullName>
+                <default>false</default>
+                <label>Mechanically separated meat</label>
+            </value>
+            <value>
+                <fullName>Milk collection centers</fullName>
+                <default>false</default>
+                <label>Milk collection centers</label>
+            </value>
+            <value>
+                <fullName>Oilseed crushing</fullName>
+                <default>false</default>
+                <label>Oilseed crushing</label>
+            </value>
+            <value>
+                <fullName>Olive crushing</fullName>
+                <default>false</default>
+                <label>Olive crushing</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other dairy</fullName>
+                <default>false</default>
+                <label>Other dairy</label>
+            </value>
+            <value>
+                <fullName>Other foods</fullName>
+                <default>false</default>
+                <label>Other foods</label>
+            </value>
+            <value>
+                <fullName>Other grain processing</fullName>
+                <default>false</default>
+                <label>Other grain processing</label>
+            </value>
+            <value>
+                <fullName>Other meat</fullName>
+                <default>false</default>
+                <label>Other meat</label>
+            </value>
+            <value>
+                <fullName>Packaged milk</fullName>
+                <default>false</default>
+                <label>Packaged milk</label>
+            </value>
+            <value>
+                <fullName>Pasta/Noodle production</fullName>
+                <default>false</default>
+                <label>Pasta/Noodle production</label>
+            </value>
+            <value>
+                <fullName>Petfood</fullName>
+                <default>false</default>
+                <label>Petfood</label>
+            </value>
+            <value>
+                <fullName>Pharma</fullName>
+                <default>false</default>
+                <label>Pharma</label>
+            </value>
+            <value>
+                <fullName>Potato processing</fullName>
+                <default>false</default>
+                <label>Potato processing</label>
+            </value>
+            <value>
+                <fullName>Premixes and ingredient production</fullName>
+                <default>false</default>
+                <label>Premixes and ingredient production</label>
+            </value>
+            <value>
+                <fullName>Rendering</fullName>
+                <default>false</default>
+                <label>Rendering</label>
+            </value>
+            <value>
+                <fullName>Research - other than grain</fullName>
+                <default>false</default>
+                <label>Research - other than grain</label>
+            </value>
+            <value>
+                <fullName>Resin production</fullName>
+                <default>false</default>
+                <label>Resin production</label>
+            </value>
+            <value>
+                <fullName>Sausage production</fullName>
+                <default>false</default>
+                <label>Sausage production</label>
+            </value>
+            <value>
+                <fullName>Seed breeder</fullName>
+                <default>false</default>
+                <label>Seed breeder</label>
+            </value>
+            <value>
+                <fullName>Snackfood</fullName>
+                <default>false</default>
+                <label>Snackfood</label>
+            </value>
+            <value>
+                <fullName>Starch production</fullName>
+                <default>false</default>
+                <label>Starch production</label>
+            </value>
+            <value>
+                <fullName>Sugar production</fullName>
+                <default>false</default>
+                <label>Sugar production</label>
+            </value>
+            <value>
+                <fullName>Tobacco - cigarette manufacturing</fullName>
+                <default>false</default>
+                <label>Tobacco - cigarette manufacturing</label>
+            </value>
+            <value>
+                <fullName>Tobacco - leaf processing</fullName>
+                <default>false</default>
+                <label>Tobacco - leaf processing</label>
+            </value>
+            <value>
+                <fullName>Tobacco - Reduced Risk Products</fullName>
+                <default>false</default>
+                <label>Tobacco - Reduced Risk Products</label>
+            </value>
+            <value>
+                <fullName>University/Institute for teaching</fullName>
+                <default>false</default>
+                <label>University/Institute for teaching</label>
+            </value>
+            <value>
+                <fullName>Vegetable oil refining</fullName>
+                <default>false</default>
+                <label>Vegetable oil refining</label>
+            </value>
+            <value>
+                <fullName>Wine</fullName>
+                <default>false</default>
+                <label>Wine</label>
+            </value>
+            <value>
+                <fullName>Wood-based panels</fullName>
+                <default>false</default>
+                <label>Wood-based panels</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Grain</controllingFieldValue>
+            <valueName>Farmer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grain</controllingFieldValue>
+            <valueName>Flour milling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grain</controllingFieldValue>
+            <valueName>Grain research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grain</controllingFieldValue>
+            <valueName>Grain trader/Elevator/Terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grain</controllingFieldValue>
+            <valueName>Malting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grain</controllingFieldValue>
+            <valueName>Oilseed crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grain</controllingFieldValue>
+            <valueName>Other grain processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grain</controllingFieldValue>
+            <valueName>Seed breeder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Central Milk Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Cheese producer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Dairy farms/cooperatives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Dairy powders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Human milk providers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Ice cream</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Milk collection centers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Other dairy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <valueName>Packaged milk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meat and fish</controllingFieldValue>
+            <valueName>Aquaculture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meat and fish</controllingFieldValue>
+            <valueName>Fish processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meat and fish</controllingFieldValue>
+            <valueName>Ground meat and Burger production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meat and fish</controllingFieldValue>
+            <valueName>Livestock (cattle, pigs, poultry)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meat and fish</controllingFieldValue>
+            <valueName>Mechanically separated meat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meat and fish</controllingFieldValue>
+            <valueName>Other meat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meat and fish</controllingFieldValue>
+            <valueName>Rendering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meat and fish</controllingFieldValue>
+            <valueName>Sausage production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Bread/baking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Brewing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Olive crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Other foods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Pasta/Noodle production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Potato processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Premixes and ingredient production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Snackfood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Sugar production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Vegetable oil refining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food general</controllingFieldValue>
+            <valueName>Wine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed &amp; Petfood</controllingFieldValue>
+            <valueName>Animal feed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed &amp; Petfood</controllingFieldValue>
+            <valueName>Aquafeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed &amp; Petfood</controllingFieldValue>
+            <valueName>Feed premixes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed &amp; Petfood</controllingFieldValue>
+            <valueName>Forage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed &amp; Petfood</controllingFieldValue>
+            <valueName>Petfood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>3rd party lab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Biofuel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Pharma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Research - other than grain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Resin production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Starch production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Tobacco - cigarette manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Tobacco - leaf processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Tobacco - Reduced Risk Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>University/Institute for teaching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Wood-based panels</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

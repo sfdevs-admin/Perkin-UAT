@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Active_Campaigns_AES_Spiff</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>Campaign_Leader__c</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>Sales_Team__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Functional_Owner__c</columns>
+    <columns>CAMPAIGN.ACTIVE</columns>
+    <columns>Region__c</columns>
+    <columns>Opportunity_Conversion_Rate__c</columns>
+    <columns>AMOUNT_ALL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.END_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>12/31/2023</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NUM_OPPORTUNITIES</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>GROW</value>
+    </filters>
+    <label>All Active Campaigns (AES) Spiff</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

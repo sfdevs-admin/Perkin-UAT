@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_PBE_ID_check__c</fullName>
+    <formula>Pricebook_Entry_Formula__c = Pricebook_entry_ID__c</formula>
+    <label>PKI PBE ID check</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

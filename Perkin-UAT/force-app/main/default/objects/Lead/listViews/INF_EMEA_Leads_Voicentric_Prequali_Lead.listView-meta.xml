@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_EMEA_Leads_Voicentric_Prequali_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>INF EMEA Leads Voicentric Prequal</label>
+    <queue>ARQ_000581</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

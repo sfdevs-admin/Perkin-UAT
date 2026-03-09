@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CountofQuotes__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Total Quotes on Opp</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total Quotes on Opp</inlineHelpText>
+    <label>Count of Quotes(INF)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

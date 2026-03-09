@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PL_Is_blank_CFY</fullName>
+    <columns>Owned_by_Company__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Status__c</columns>
+    <columns>ClosedStatus__c</columns>
+    <columns>Rejected_Reason__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>NAME</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>fxFirstName__c</columns>
+    <columns>fxLastName__c</columns>
+    <columns>State__c</columns>
+    <columns>Country__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Working</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Qualification_Status__c</field>
+        <operation>equals</operation>
+        <value>QL Hot</value>
+    </filters>
+    <label>PL Is blank CFY</label>
+</ListView>

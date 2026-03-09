@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amendment_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is a technical field created which is used to overcome CPQ limitations where &quot;account cannot be changed on the activated contract&quot; (INC0289063). The Account LKUP field will be used during amendment process only.
+*** See  ATEAM-1752 for attachment of Lookup Filter removed from this field 2022.07.07 release</description>
+    <inlineHelpText>This account is used when an amendment is needed on an existing contract to a different account name, but for the same parent account.</inlineHelpText>
+    <label>Amendment Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities (Amendment Account)</relationshipLabel>
+    <relationshipName>OpportunitiesUpdatedAccount</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

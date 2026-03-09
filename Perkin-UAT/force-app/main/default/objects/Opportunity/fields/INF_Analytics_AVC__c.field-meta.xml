@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Analytics_AVC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( DATEVALUE(CreatedDate) &gt;= DATE(2022,05,18)
+   ,IF(ISBLANK(INF_Analytics_AVS__c)
+       ,NULL 
+       ,100 - BLANKVALUE(INF_Analytics_AVS__c,0)
+      )
+
+   ,IF(AND(
+           ISBLANK(INF_Analytics_AVS__c)
+          ,ISBLANK(Related_Market_Analytics__c))
+       ,NULL
+       ,100 - (BLANKVALUE(INF_Analytics_AVS__c,0) + BLANKVALUE(Related_Market_Analytics__c,0))
+      )
+   )</formula>
+    <inlineHelpText>Enter % of Research analytics products and Clinical % will auto update</inlineHelpText>
+    <label>Clinical Analytics/Non-Research</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

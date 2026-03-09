@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X100_ARQ_Marketing_General_Monitor</fullName>
+    <columns>NAME</columns>
+    <columns>Assigned_To__c</columns>
+    <columns>Status__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>Country__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Last_Lead_Source_Channel__c</columns>
+    <columns>Lead__c</columns>
+    <columns>GROW__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:14</value>
+    </filters>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>equals</operation>
+        <value>Americas</value>
+    </filters>
+    <filters>
+        <field>Assigned_To__c</field>
+        <operation>startsWith</operation>
+        <value>ARQ: Marketing Queue</value>
+    </filters>
+    <label>100. ARQ: Marketing General (Monitor)</label>
+</ListView>

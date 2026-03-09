@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Customer_Specific_Promotion_BG__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Is Customer Specific Promotion BG</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

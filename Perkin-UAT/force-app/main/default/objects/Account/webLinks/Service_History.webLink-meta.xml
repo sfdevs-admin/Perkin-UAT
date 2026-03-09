@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_History</fullName>
+    <availability>online</availability>
+    <description>Link to Lotus Notes Service History DB by Shipto or Funcational Location number</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>true</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Recent Service History</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>http://165.88.94.24/service/servicecallhistoryna.nsf/1c9435c382d36503852571e500444829?SearchView&amp;query={!Account.SAP_Customer_Number__c}</url>
+    <width>800</width>
+</WebLink>

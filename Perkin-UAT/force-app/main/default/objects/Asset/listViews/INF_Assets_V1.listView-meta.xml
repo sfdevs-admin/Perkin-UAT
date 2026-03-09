@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Assets_V1</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Unit_Price_LC__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>ASSET.QUANTITY</columns>
+    <columns>Renewal_Opportunity__c</columns>
+    <columns>U_of_M__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_Informatics__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>INF Assets V1</label>
+    <language>en_US</language>
+</ListView>

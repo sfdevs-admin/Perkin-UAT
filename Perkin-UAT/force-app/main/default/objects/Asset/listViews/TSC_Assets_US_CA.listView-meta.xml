@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TSC_Assets_US_CA</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Contact_Country__c</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Shipment_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>TSC</value>
+    </filters>
+    <filters>
+        <field>Contact_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA,USA,Canada</value>
+    </filters>
+    <label>TSC Assets US &amp; CA</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Work_Order_Record_Type__c</fullName>
+    <description>Denotes the work order record type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Denotes the work order record type</inlineHelpText>
+    <label>Work Order Record Type</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

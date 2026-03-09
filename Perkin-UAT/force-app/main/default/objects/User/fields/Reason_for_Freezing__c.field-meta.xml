@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Freezing__c</fullName>
+    <description>Field to track users who are Frozen as opposed to having left PKI or who no longer need their accounts.</description>
+    <inlineHelpText>Please select the reason the User is being Frozen and then be sure to indicate the date the user was unfrozen.</inlineHelpText>
+    <label>Reason for Freezing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>HR Feed</fullName>
+                <default>false</default>
+                <label>HR Feed</label>
+            </value>
+            <value>
+                <fullName>Last login more than 120 days - Frozen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Last login more than 120 days - Frozen</label>
+            </value>
+            <value>
+                <fullName>Last login more than 60 days hence Frozen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Last login more than 60 days hence Frozen</label>
+            </value>
+            <value>
+                <fullName>Last login over 60 days</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Last login over 60 days</label>
+            </value>
+            <value>
+                <fullName>Manager request</fullName>
+                <default>false</default>
+                <label>Manager request</label>
+            </value>
+            <value>
+                <fullName>No Login for too many consecutive days</fullName>
+                <default>false</default>
+                <label>No Login for too many consecutive days</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Security Notice</fullName>
+                <default>false</default>
+                <label>Security Notice</label>
+            </value>
+            <value>
+                <fullName>User Never Logged In</fullName>
+                <default>false</default>
+                <label>User Never Logged In</label>
+            </value>
+            <value>
+                <fullName>User Never Logged In.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>User Never Logged In.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

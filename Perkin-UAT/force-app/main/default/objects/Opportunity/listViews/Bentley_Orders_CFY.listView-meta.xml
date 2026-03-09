@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bentley_Orders_CFY</fullName>
+    <columns>Date_Entered_SAP__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>SAP_Order_Status__c</columns>
+    <columns>SAP_Inco_Terms__c</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>SAP_Estimated_Ship_Date__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Pipeline,Best Case,Commit,Closed</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>Shipping_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Bentley</value>
+    </filters>
+    <label>Bentley Orders CFY</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

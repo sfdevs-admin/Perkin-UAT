@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inside_Sales_Rep_Name_List__c</fullName>
+    <label>Inside Sales Rep Name List</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cathy Chitwood</fullName>
+                <default>false</default>
+                <label>Cathy Chitwood</label>
+            </value>
+            <value>
+                <fullName>Elaine Amico</fullName>
+                <default>false</default>
+                <label>Elaine Amico</label>
+            </value>
+            <value>
+                <fullName>Jason Robinson</fullName>
+                <default>false</default>
+                <label>Jason Robinson</label>
+            </value>
+            <value>
+                <fullName>Melana Spalding</fullName>
+                <default>false</default>
+                <label>Melana Spalding</label>
+            </value>
+            <value>
+                <fullName>Nicole Dyck</fullName>
+                <default>false</default>
+                <label>Nicole Dyck</label>
+            </value>
+            <value>
+                <fullName>Phil Rogers</fullName>
+                <default>false</default>
+                <label>Phil Rogers</label>
+            </value>
+            <value>
+                <fullName>Susan Hegseth</fullName>
+                <default>false</default>
+                <label>Susan Hegseth</label>
+            </value>
+            <value>
+                <fullName>Allen Wardle</fullName>
+                <default>false</default>
+                <label>Allen Wardle</label>
+            </value>
+            <value>
+                <fullName>Lynn Laptalo</fullName>
+                <default>false</default>
+                <label>Lynn Laptalo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

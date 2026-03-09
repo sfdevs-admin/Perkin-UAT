@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grid_opp</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Converted_Amount__c</columns>
+    <columns>OPPORTUNITY.CURRENCY_ISO_CODE</columns>
+    <columns>Amount_converted_place_holder_grid__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>equals</operation>
+        <value>test</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>GALAPAGOS BIOFOCUS</value>
+    </filters>
+    <label>Grid opp</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

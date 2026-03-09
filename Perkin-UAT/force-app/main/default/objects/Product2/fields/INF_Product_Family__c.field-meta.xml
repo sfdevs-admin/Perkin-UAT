@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Product_Family__c</fullName>
+    <label>INF Product Family</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Attivio</fullName>
+                <default>false</default>
+                <label>Attivio</label>
+            </value>
+            <value>
+                <fullName>CBOE</fullName>
+                <default>false</default>
+                <label>CBOE</label>
+            </value>
+            <value>
+                <fullName>ChemDraw Cloud</fullName>
+                <default>false</default>
+                <label>ChemDraw Cloud</label>
+            </value>
+            <value>
+                <fullName>ChemDraw Prime</fullName>
+                <default>false</default>
+                <label>ChemDraw Prime</label>
+            </value>
+            <value>
+                <fullName>ChemDraw Professional</fullName>
+                <default>false</default>
+                <label>ChemDraw Professional</label>
+            </value>
+            <value>
+                <fullName>ChemOffice</fullName>
+                <default>false</default>
+                <label>ChemOffice</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>Elements</fullName>
+                <default>false</default>
+                <label>Elements</label>
+            </value>
+            <value>
+                <fullName>E-Notebook</fullName>
+                <default>false</default>
+                <label>E-Notebook</label>
+            </value>
+            <value>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+                <label>Enterprise</label>
+            </value>
+            <value>
+                <fullName>High Content Profiler</fullName>
+                <default>false</default>
+                <label>High Content Profiler</label>
+            </value>
+            <value>
+                <fullName>iLab</fullName>
+                <default>false</default>
+                <label>iLab</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>InfomatiX</fullName>
+                <default>false</default>
+                <label>InfomatiX</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery Biologics</fullName>
+                <default>false</default>
+                <label>Lead Discovery Biologics</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery Research</fullName>
+                <default>false</default>
+                <label>Lead Discovery Research</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>QAQC</fullName>
+                <default>false</default>
+                <label>QAQC</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Scitara DLX</fullName>
+                <default>false</default>
+                <label>Scitara DLX</label>
+            </value>
+            <value>
+                <fullName>Services</fullName>
+                <default>false</default>
+                <label>Services</label>
+            </value>
+            <value>
+                <fullName>Signals</fullName>
+                <default>false</default>
+                <label>Signals</label>
+            </value>
+            <value>
+                <fullName>Signals Clinical</fullName>
+                <default>false</default>
+                <label>Signals Clinical</label>
+            </value>
+            <value>
+                <fullName>Signals DLX</fullName>
+                <default>false</default>
+                <label>Signals DLX</label>
+            </value>
+            <value>
+                <fullName>Signals Lead Discovery</fullName>
+                <default>false</default>
+                <label>Signals Lead Discovery</label>
+            </value>
+            <value>
+                <fullName>Signals Notebook</fullName>
+                <default>false</default>
+                <label>Signals Notebook</label>
+            </value>
+            <value>
+                <fullName>Signals Screening</fullName>
+                <default>false</default>
+                <label>Signals Screening</label>
+            </value>
+            <value>
+                <fullName>Signals Suite Private</fullName>
+                <default>false</default>
+                <label>Signals Suite Private</label>
+            </value>
+            <value>
+                <fullName>Signals Suite Standard</fullName>
+                <default>false</default>
+                <label>Signals Suite Standard</label>
+            </value>
+            <value>
+                <fullName>Signals Translational</fullName>
+                <default>false</default>
+                <label>Signals Translational</label>
+            </value>
+            <value>
+                <fullName>Special License</fullName>
+                <default>false</default>
+                <label>Special License</label>
+            </value>
+            <value>
+                <fullName>Special Maintenance</fullName>
+                <default>false</default>
+                <label>Special Maintenance</label>
+            </value>
+            <value>
+                <fullName>Special SAAS</fullName>
+                <default>false</default>
+                <label>Special SAAS</label>
+            </value>
+            <value>
+                <fullName>Special Services</fullName>
+                <default>false</default>
+                <label>Special Services</label>
+            </value>
+            <value>
+                <fullName>Special Subscription</fullName>
+                <default>false</default>
+                <label>Special Subscription</label>
+            </value>
+            <value>
+                <fullName>Special Term</fullName>
+                <default>false</default>
+                <label>Special Term</label>
+            </value>
+            <value>
+                <fullName>Spotfire</fullName>
+                <default>false</default>
+                <label>Spotfire</label>
+            </value>
+            <value>
+                <fullName>StreamBase</fullName>
+                <default>false</default>
+                <label>StreamBase</label>
+            </value>
+            <value>
+                <fullName>TIBCO Spotfire PaaS</fullName>
+                <default>false</default>
+                <label>TIBCO Spotfire PaaS</label>
+            </value>
+            <value>
+                <fullName>Translational</fullName>
+                <default>false</default>
+                <label>Translational</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

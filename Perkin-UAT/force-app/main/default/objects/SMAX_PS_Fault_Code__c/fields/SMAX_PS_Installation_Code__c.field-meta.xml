@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Installation_Code__c</fullName>
+    <description>Installation Codes</description>
+    <label>Installation Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IN01 - Application Problems</fullName>
+                <default>false</default>
+                <label>IN01 - Application Problems</label>
+            </value>
+            <value>
+                <fullName>IN02 - Computer problem PKI</fullName>
+                <default>false</default>
+                <label>IN02 - Computer problem PKI</label>
+            </value>
+            <value>
+                <fullName>IN03 - Customer site unready or problem</fullName>
+                <default>false</default>
+                <label>IN03 - Customer site unready or problem</label>
+            </value>
+            <value>
+                <fullName>IN04 - Delivery Incomplete</fullName>
+                <default>false</default>
+                <label>IN04 - Delivery Incomplete</label>
+            </value>
+            <value>
+                <fullName>IN05 - Installation with no problem</fullName>
+                <default>false</default>
+                <label>IN05 - Installation with no problem</label>
+            </value>
+            <value>
+                <fullName>IN06 - Major Adjustment</fullName>
+                <default>false</default>
+                <label>IN06 - Major Adjustment</label>
+            </value>
+            <value>
+                <fullName>IN07 - Major parts replacement</fullName>
+                <default>false</default>
+                <label>IN07 - Major parts replacement</label>
+            </value>
+            <value>
+                <fullName>IN08 - Major repair carried out</fullName>
+                <default>false</default>
+                <label>IN08 - Major repair carried out</label>
+            </value>
+            <value>
+                <fullName>IN09 - Minor installation problem-no follow up</fullName>
+                <default>false</default>
+                <label>IN09 - Minor installation problem-no follow up</label>
+            </value>
+            <value>
+                <fullName>IN10 - Sales Order Incorrect/Incomplete</fullName>
+                <default>false</default>
+                <label>IN10 - Sales Order Incorrect/Incomplete</label>
+            </value>
+            <value>
+                <fullName>IN11 - Shipping Damage</fullName>
+                <default>false</default>
+                <label>IN11 - Shipping Damage</label>
+            </value>
+            <value>
+                <fullName>IN12 - Accessory Problem</fullName>
+                <default>false</default>
+                <label>IN12 - Accessory Problem</label>
+            </value>
+            <value>
+                <fullName>IN13 - Software Issue PKI</fullName>
+                <default>false</default>
+                <label>IN13 - Software Issue PKI</label>
+            </value>
+            <value>
+                <fullName>IN14 - Software Issue non-PKI</fullName>
+                <default>false</default>
+                <label>IN14 - Software Issue non-PKI</label>
+            </value>
+            <value>
+                <fullName>IN15 - Computer problem non-PKI</fullName>
+                <default>false</default>
+                <label>IN15 - Computer problem non-PKI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

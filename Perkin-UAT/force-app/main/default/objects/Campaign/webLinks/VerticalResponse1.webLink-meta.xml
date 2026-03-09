@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VerticalResponse1</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>VerticalResponse</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>http://salesforce.verticalresponse.com/login/salesforce_login.html?Organization_Address={!Organization.Street}&amp;Organization_City={!Organization.City}&amp;Organization_Country={!Organization.Country}&amp;Organization_Fax={!Organization.Fax}&amp;Organization_Name={!Organization.Name}&amp;Organization_Phone={!Organization.Phone}&amp;Organization_Postal_Code={!Organization.PostalCode}&amp;Organization_State={!Organization.State}&amp;User_Email={!User.Email}&amp;User_First_Name={!User.FirstName}&amp;User_Last_Name={!User.LastName}&amp;User_ID={!User.Id}&amp;User_Title={!User.Title}</url>
+</WebLink>

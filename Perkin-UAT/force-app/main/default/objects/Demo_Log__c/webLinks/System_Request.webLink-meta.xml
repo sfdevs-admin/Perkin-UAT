@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Request</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>System Request</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>https://na45.salesforce.com/a0Q/e?CF00N3A00000CKuAv={!Demo_Log__c.Name}&amp;CF00N3A00000CKuAv_lkid={!Demo_Log__c.Id}&amp;CF00N30000001GFds={!Demo_Log__c.Opportunity_Name__c}&amp;CF00N30000001GFds_lkid={!Demo_Log__c.System_OppId__c}&amp;00N3000000Ba2N4={!Demo_Log__c.Primary_Product_INF__c}&amp;retURL=%2Fa0Q3000000ILRZk&amp;RecordType=0123A0000019VjS&amp;ent=01I3000000059Kt</url>
+</WebLink>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buket_Field_Record_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RecordType.Name = &#39;Informatics&#39;, &#39;INF&#39;,
+IF( RecordType.Name = &#39;Onesource Service&#39;, &#39;OneSource Service&#39;,
+IF( RecordType.Name = &#39;LSS OneSource SPI&#39;, &#39;OneSource&#39;,
+IF( RecordType.Name = &#39;	EH Record Type&#39;, &#39;EH&#39;,&#39;LST&#39;))))</formula>
+    <label>Buket Field: Record Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

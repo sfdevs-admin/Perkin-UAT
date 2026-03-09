@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Can_submit_EMD_as_BG_not_Bank_Draft__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Can submit EMD as BG, not Bank Draft?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

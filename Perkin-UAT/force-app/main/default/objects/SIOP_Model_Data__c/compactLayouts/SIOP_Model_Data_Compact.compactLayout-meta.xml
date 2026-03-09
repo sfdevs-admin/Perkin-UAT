@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIOP_Model_Data_Compact</fullName>
+    <fields>Name</fields>
+    <fields>SIOP_Model_Master__c</fields>
+    <fields>Region__c</fields>
+    <fields>Type__c</fields>
+    <fields>Date__c</fields>
+    <fields>Units__c</fields>
+    <fields>Regional_Forecast_Owner__c</fields>
+    <label>SIOP Model Data (Compact)</label>
+</CompactLayout>

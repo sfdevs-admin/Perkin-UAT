@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PY_Order_Number__c</fullName>
+    <description>This field was requested by Diane Kosheff via JIRA Issue SFDC-410</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to identify the Order Number for the prior year (2016 specifically).</inlineHelpText>
+    <label>PY Order Number (Prior Year)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

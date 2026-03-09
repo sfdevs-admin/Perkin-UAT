@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_SAP_Customer_Number_Formatted__c</fullName>
+    <description>SAP - KNA1/KUNNR. Customer number for SoldToShipTo. Same as PKI SAP Customer Number except mapped to numerical field to remove leading zero</description>
+    <externalId>false</externalId>
+    <label>PKI SAP Customer Number Formatted</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

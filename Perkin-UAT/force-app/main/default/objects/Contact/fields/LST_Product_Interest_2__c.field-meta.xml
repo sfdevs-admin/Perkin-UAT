@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Product_Interest_2__c</fullName>
+    <label>LST-Product Interest 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>APS - (ALH) SYSTEMS APPLICATION</fullName>
+                <default>false</default>
+                <label>APS - (ALH) SYSTEMS APPLICATION</label>
+            </value>
+            <value>
+                <fullName>ARS - (ALH) SYSTEMS AUTOMATED ROBOTIC</fullName>
+                <default>false</default>
+                <label>ARS - (ALH) SYSTEMS AUTOMATED ROBOTIC</label>
+            </value>
+            <value>
+                <fullName>AWS - (ALH) AUTOMATED LIQUID HANDLING</fullName>
+                <default>false</default>
+                <label>AWS - (ALH) AUTOMATED LIQUID HANDLING</label>
+            </value>
+            <value>
+                <fullName>BTX - BIOTHERAPEUTICS</fullName>
+                <default>false</default>
+                <label>BTX - BIOTHERAPEUTICS</label>
+            </value>
+            <value>
+                <fullName>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</fullName>
+                <default>false</default>
+                <label>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</label>
+            </value>
+            <value>
+                <fullName>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</fullName>
+                <default>false</default>
+                <label>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</label>
+            </value>
+            <value>
+                <fullName>CLR - REAGENTS CALIPER</fullName>
+                <default>false</default>
+                <label>CLR - REAGENTS CALIPER</label>
+            </value>
+            <value>
+                <fullName>DIS - DISTRIBUTOR</fullName>
+                <default>false</default>
+                <label>DIS - DISTRIBUTOR</label>
+            </value>
+            <value>
+                <fullName>DNA -  DNS Services</fullName>
+                <default>false</default>
+                <label>DNA -  DNS Services</label>
+            </value>
+            <value>
+                <fullName>EZR-EZR</fullName>
+                <default>false</default>
+                <label>EZR-EZR</label>
+            </value>
+            <value>
+                <fullName>FAP - AGENTS FLOURESCENT IMAGING</fullName>
+                <default>false</default>
+                <label>FAP - AGENTS FLOURESCENT IMAGING</label>
+            </value>
+            <value>
+                <fullName>GPZ - Geospiza</fullName>
+                <default>false</default>
+                <label>GPZ - Geospiza</label>
+            </value>
+            <value>
+                <fullName>HCS - SYSTEMS HIGH CONTENT SCREENING</fullName>
+                <default>false</default>
+                <label>HCS - SYSTEMS HIGH CONTENT SCREENING</label>
+            </value>
+            <value>
+                <fullName>HTS - ONPOINT SERVICES</fullName>
+                <default>false</default>
+                <label>HTS - ONPOINT SERVICES</label>
+            </value>
+            <value>
+                <fullName>HTS - REAGENTS SCREENING</fullName>
+                <default>false</default>
+                <label>HTS - REAGENTS SCREENING</label>
+            </value>
+            <value>
+                <fullName>IAS - SOFTWARE IMAGING &amp; ANALYSIS</fullName>
+                <default>false</default>
+                <label>IAS - SOFTWARE IMAGING &amp; ANALYSIS</label>
+            </value>
+            <value>
+                <fullName>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</fullName>
+                <default>false</default>
+                <label>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</label>
+            </value>
+            <value>
+                <fullName>LVI - SYSTEMS LIVE CELL IMAGING</fullName>
+                <default>false</default>
+                <label>LVI - SYSTEMS LIVE CELL IMAGING</label>
+            </value>
+            <value>
+                <fullName>MFT - SYSTEMS MICROFLUIDICS</fullName>
+                <default>false</default>
+                <label>MFT - SYSTEMS MICROFLUIDICS</label>
+            </value>
+            <value>
+                <fullName>MLD - SYSTEMS MULTIMODE DETECTION</fullName>
+                <default>false</default>
+                <label>MLD - SYSTEMS MULTIMODE DETECTION</label>
+            </value>
+            <value>
+                <fullName>MMO - LST DIAGNOSTIC OTHER</fullName>
+                <default>false</default>
+                <label>MMO - LST DIAGNOSTIC OTHER</label>
+            </value>
+            <value>
+                <fullName>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</fullName>
+                <default>false</default>
+                <label>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</label>
+            </value>
+            <value>
+                <fullName>MOX - LST DIAGNOSTICS SYSTEMS LABCHIP DX</fullName>
+                <default>false</default>
+                <label>MOX - LST DIAGNOSTICS SYSTEMS LABCHIP DX</label>
+            </value>
+            <value>
+                <fullName>NAP - Chemagen Products</fullName>
+                <default>false</default>
+                <label>NAP - Chemagen Products</label>
+            </value>
+            <value>
+                <fullName>NGS - Next Gen Sequencing</fullName>
+                <default>false</default>
+                <label>NGS - Next Gen Sequencing</label>
+            </value>
+            <value>
+                <fullName>NMO - LST NEW MARKETS OTHER</fullName>
+                <default>false</default>
+                <label>NMO - LST NEW MARKETS OTHER</label>
+            </value>
+            <value>
+                <fullName>NVS - LST ALLIANCES NOVASCREEN</fullName>
+                <default>false</default>
+                <label>NVS - LST ALLIANCES NOVASCREEN</label>
+            </value>
+            <value>
+                <fullName>PBR - REAGENTS PROTEIN BIOLOGY</fullName>
+                <default>false</default>
+                <label>PBR - REAGENTS PROTEIN BIOLOGY</label>
+            </value>
+            <value>
+                <fullName>PGI - SYSTEMS PROTEOMICS &amp; GENOMICS</fullName>
+                <default>false</default>
+                <label>PGI - SYSTEMS PROTEOMICS &amp; GENOMICS</label>
+            </value>
+            <value>
+                <fullName>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</fullName>
+                <default>false</default>
+                <label>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</label>
+            </value>
+            <value>
+                <fullName>RRD - SYSTEMS RADIOMETRIC DETECTION</fullName>
+                <default>false</default>
+                <label>RRD - SYSTEMS RADIOMETRIC DETECTION</label>
+            </value>
+            <value>
+                <fullName>RRS- REAGENTS NON-RAD</fullName>
+                <default>false</default>
+                <label>RRS- REAGENTS NON-RAD</label>
+            </value>
+            <value>
+                <fullName>RRS - REAGENTS RAD</fullName>
+                <default>false</default>
+                <label>RRS - REAGENTS RAD</label>
+            </value>
+            <value>
+                <fullName>RRS - REAGENTS RADIOMETRIC SERVICES</fullName>
+                <default>false</default>
+                <label>RRS - REAGENTS RADIOMETRIC SERVICES</label>
+            </value>
+            <value>
+                <fullName>RTH - Radioimaging &amp; Radiotherapeutics</fullName>
+                <default>false</default>
+                <label>RTH - Radioimaging &amp; Radiotherapeutics</label>
+            </value>
+            <value>
+                <fullName>SPS - (ALH) SYSTEMS SAMPLE PREP &amp; HTS</fullName>
+                <default>false</default>
+                <label>SPS - (ALH) SYSTEMS SAMPLE PREP &amp; HTS</label>
+            </value>
+            <value>
+                <fullName>SVC - OneSource Service &amp; Support</fullName>
+                <default>false</default>
+                <label>SVC - OneSource Service &amp; Support</label>
+            </value>
+            <value>
+                <fullName>TBR - Tissue Biomarker Reagents</fullName>
+                <default>false</default>
+                <label>TBR - Tissue Biomarker Reagents</label>
+            </value>
+            <value>
+                <fullName>TIS - LST Optical Components/Polarization</fullName>
+                <default>false</default>
+                <label>TIS - LST Optical Components/Polarization</label>
+            </value>
+            <value>
+                <fullName>TSC - LST Microscopy &amp; Analysis</fullName>
+                <default>false</default>
+                <label>TSC - LST Microscopy &amp; Analysis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Native_Queue_Exist</fullName>
+    <active>true</active>
+    <description>V.RULE_PKI_QUEUE_MEMBER_001: Please allow up to 2 minutes for the new queue to finish being created before adding a member</description>
+    <errorConditionFormula>AND(PKI_Queue_Name__c &lt;&gt; null, OR(PKI_Queue_Name__r.NativeQueueID__c == null ,PKI_Queue_Name__r.NativeQueueID__c ==&#39;Not Available&#39;))</errorConditionFormula>
+    <errorMessage>V.RULE_PKI_QUEUE_MEMBER_001: Please allow up to 2 minutes for the new queue to finish being created before adding a member</errorMessage>
+</ValidationRule>

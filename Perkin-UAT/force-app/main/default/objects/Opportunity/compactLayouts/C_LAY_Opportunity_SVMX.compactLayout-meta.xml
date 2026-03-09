@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_Opportunity_SVMX</fullName>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>CloseDate</fields>
+    <fields>Amount</fields>
+    <fields>OwnerId</fields>
+    <fields>IqScore</fields>
+    <label>C.LAY Opportunity SVMX</label>
+</CompactLayout>

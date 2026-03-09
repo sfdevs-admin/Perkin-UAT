@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MapToNorthAmerica</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Map To (North America)</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>http://maps.google.com/maps?q=from%20{!User.Street}&quot;,&quot;%20{!User.City}%20{!User.State}%20{!User.PostalCode}%20to%20{!Account.ShippingStreet}%20{!Account.ShippingCity}%20{!Account.ShippingState}%20{!Account.ShippingPostalCode}</url>
+</WebLink>

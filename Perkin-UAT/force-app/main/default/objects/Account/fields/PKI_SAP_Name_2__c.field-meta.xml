@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_SAP_Name_2__c</fullName>
+    <description>SAP - KNA1/NAME2
+MG changed label to &#39;Account Name 2&#39;  7-21-20  API name stays same</description>
+    <externalId>false</externalId>
+    <label>Account Name 2</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

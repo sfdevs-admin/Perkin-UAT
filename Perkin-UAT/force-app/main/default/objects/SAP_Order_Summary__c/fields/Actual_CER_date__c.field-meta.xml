@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_CER_date__c</fullName>
+    <inlineHelpText>Based on delivery information an actual CER date when PKI order was shipped from PKI facility for single site order or from crossdoc or DC for multisite order</inlineHelpText>
+    <label>Actual Consolidation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

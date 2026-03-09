@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Inventory__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Demo Inventory</label>
+    <referenceTo>Field_Inventory__c</referenceTo>
+    <relationshipName>R00N30000001FWDfEAO</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

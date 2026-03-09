@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Send_As_Org_Email_Address__c</fullName>
+    <defaultValue>&quot;sfdc@perkinelmer.com&quot;</defaultValue>
+    <description>The email address from an Organization Wide email to send the alert emails from. If left blank, the emails will be sent as the user that started the batch job.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The email address from an Organization Wide email to send the alert emails from. If left blank, the emails will be sent as the user that started the batch job.</inlineHelpText>
+    <label>Send As Org Email Address</label>
+    <length>50</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_System__c</fullName>
+    <label>Current System</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In House</fullName>
+                <default>false</default>
+                <label>In House</label>
+            </value>
+            <value>
+                <fullName>StarLIMS</fullName>
+                <default>false</default>
+                <label>StarLIMS</label>
+            </value>
+            <value>
+                <fullName>ABI SQL LIMS</fullName>
+                <default>false</default>
+                <label>ABI SQL LIMS</label>
+            </value>
+            <value>
+                <fullName>LabVantage</fullName>
+                <default>false</default>
+                <label>LabVantage</label>
+            </value>
+            <value>
+                <fullName>Chemware</fullName>
+                <default>false</default>
+                <label>Chemware</label>
+            </value>
+            <value>
+                <fullName>Thermo</fullName>
+                <default>false</default>
+                <label>Thermo</label>
+            </value>
+            <value>
+                <fullName>LabWare</fullName>
+                <default>false</default>
+                <label>LabWare</label>
+            </value>
+            <value>
+                <fullName>ATL</fullName>
+                <default>false</default>
+                <label>ATL</label>
+            </value>
+            <value>
+                <fullName>LabSoft</fullName>
+                <default>false</default>
+                <label>LabSoft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

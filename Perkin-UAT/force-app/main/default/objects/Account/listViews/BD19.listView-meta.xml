@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD19</fullName>
+    <columns>PKI_GBL_Account_Name_LC__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>JP</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.SITE</field>
+        <operation>equals</operation>
+        <value>primary</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_STATE</field>
+        <operation>contains</operation>
+        <value>石川</value>
+    </filters>
+    <label>取引先（石川）</label>
+    <language>ja</language>
+    <sharedTo />
+</ListView>

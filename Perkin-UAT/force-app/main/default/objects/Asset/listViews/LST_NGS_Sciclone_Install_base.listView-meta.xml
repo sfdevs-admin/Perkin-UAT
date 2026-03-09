@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_NGS_Sciclone_Install_base</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Country_Asset__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.CUSTOMER_PRODUCT_ID</field>
+        <operation>contains</operation>
+        <value>SG3-31020,134386,126947,124582,127229</value>
+    </filters>
+    <label>LST - NGS Sciclone Install base</label>
+    <language>en_US</language>
+</ListView>

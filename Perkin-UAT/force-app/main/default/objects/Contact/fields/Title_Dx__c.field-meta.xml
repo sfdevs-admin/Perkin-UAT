@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Title_Dx__c</fullName>
+    <label>Title</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Physician</fullName>
+                <default>false</default>
+                <label>Physician</label>
+            </value>
+            <value>
+                <fullName>Genetic Counselor</fullName>
+                <default>false</default>
+                <label>Genetic Counselor</label>
+            </value>
+            <value>
+                <fullName>Nurse</fullName>
+                <default>false</default>
+                <label>Nurse</label>
+            </value>
+            <value>
+                <fullName>Sonographer</fullName>
+                <default>false</default>
+                <label>Sonographer</label>
+            </value>
+            <value>
+                <fullName>Medical Assistant</fullName>
+                <default>false</default>
+                <label>Medical Assistant</label>
+            </value>
+            <value>
+                <fullName>Office Manager</fullName>
+                <default>false</default>
+                <label>Office Manager</label>
+            </value>
+            <value>
+                <fullName>Financial Contact</fullName>
+                <default>false</default>
+                <label>Financial Contact</label>
+            </value>
+            <value>
+                <fullName>Reporting Contact</fullName>
+                <default>false</default>
+                <label>Reporting Contact</label>
+            </value>
+            <value>
+                <fullName>Shipping Contact</fullName>
+                <default>false</default>
+                <label>Shipping Contact</label>
+            </value>
+            <value>
+                <fullName>Receptionist</fullName>
+                <default>false</default>
+                <label>Receptionist</label>
+            </value>
+            <value>
+                <fullName>Lab Director</fullName>
+                <default>false</default>
+                <label>Lab Director</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

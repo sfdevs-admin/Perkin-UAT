@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Informatics</fullName>
+    <columns>Product_Line__c</columns>
+    <columns>CAMPAIGN.CREATED_DATE</columns>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>Campaign_Leader__c</columns>
+    <columns>CAMPAIGN.ACTIVE</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.NUM_RESPONSES</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>Imaging Day</value>
+    </filters>
+    <label>Informatics</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000713</group>
+    </sharedTo>
+</ListView>

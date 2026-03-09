@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastModified_EBXScope__c</fullName>
+    <description>for timestamping when EBX has received updates on Contact to MDM fields
+New: MG 2022.10.18 revised field label/API name from &quot;LastModified_EBXScopeContact&quot;
+to &quot;LastModified_EBXScope / LastModified_EBXScope__c&quot;
+New: MG 2023.01.30  removed NOW() default - logic is in updated L.FLOW 2202 Contact After General</description>
+    <inlineHelpText>This TimeStamp field reflects EBX update based on MDM fields being updated on Contact</inlineHelpText>
+    <label>LastModified_EBXScope</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

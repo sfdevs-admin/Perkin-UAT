@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMETA_E2C_Recipients</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Service_Address_Email__c</columns>
+    <columns>From_Address__c</columns>
+    <columns>Reply_To_All_Recipients__c</columns>
+    <columns>Reply_to_Sender__c</columns>
+    <columns>OwnerQueueLabel__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>CMETA E2C Recipients</label>
+    <language>en_US</language>
+</ListView>

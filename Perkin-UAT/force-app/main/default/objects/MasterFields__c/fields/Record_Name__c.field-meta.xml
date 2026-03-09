@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Name__c</fullName>
+    <description>This is the default Record Name SF applies to every record. Here is an AutoNumber (but we use fxAutoId for consistency</description>
+    <displayFormat>Field-{000000000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the default Record Name SF applies to every record. Here is an AutoNumber (but we use fxAutoId for consistency</inlineHelpText>
+    <label>Record Name</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

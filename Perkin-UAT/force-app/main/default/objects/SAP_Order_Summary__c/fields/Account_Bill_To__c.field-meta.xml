@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Bill_To__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Bill To Customer Id</description>
+    <label>Account Bill To</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>PKI Order Summary (Account Bill To)</relationshipLabel>
+    <relationshipName>PKI_Order_Summary_BillTo</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

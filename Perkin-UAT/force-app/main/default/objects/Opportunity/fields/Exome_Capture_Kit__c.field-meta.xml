@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exome_Capture_Kit__c</fullName>
+    <label>Exome Capture Kit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agilent SureSelect 38Mb</fullName>
+                <default>false</default>
+                <label>Agilent SureSelect 38Mb</label>
+            </value>
+            <value>
+                <fullName>Agilent SureSelect 50Mb</fullName>
+                <default>false</default>
+                <label>Agilent SureSelect 50Mb</label>
+            </value>
+            <value>
+                <fullName>Nimblegen EZ Exome v2.0</fullName>
+                <default>false</default>
+                <label>Nimblegen EZ Exome v2.0</label>
+            </value>
+            <value>
+                <fullName>Illumina TruSeq</fullName>
+                <default>false</default>
+                <label>Illumina TruSeq</label>
+            </value>
+            <value>
+                <fullName>Custom Kit</fullName>
+                <default>false</default>
+                <label>Custom Kit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

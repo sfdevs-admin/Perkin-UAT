@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_SFDC_Group__c</fullName>
+    <inlineHelpText>Field used to help filter the list of SFDC users according to their use of the software. Helpful when sending mass emails to groups of specific users</inlineHelpText>
+    <label>User SFDC Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Normal User</fullName>
+                <default>true</default>
+                <label>Normal User</label>
+            </value>
+            <value>
+                <fullName>Power User</fullName>
+                <default>false</default>
+                <label>Power User</label>
+            </value>
+            <value>
+                <fullName>SBE Sales Operations</fullName>
+                <default>false</default>
+                <label>SBE Sales Operations</label>
+            </value>
+            <value>
+                <fullName>SBE Mrkt Operations</fullName>
+                <default>false</default>
+                <label>SBE Mrkt Operations</label>
+            </value>
+            <value>
+                <fullName>SBE Administrator</fullName>
+                <default>false</default>
+                <label>SBE Administrator</label>
+            </value>
+            <value>
+                <fullName>System Administrator</fullName>
+                <default>false</default>
+                <label>System Administrator</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

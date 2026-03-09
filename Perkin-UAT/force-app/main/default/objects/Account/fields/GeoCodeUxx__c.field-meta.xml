@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoCodeUxx__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ShippingCountry &lt;&gt; &quot;US&quot;,&quot;NA&quot;, 
+IF(CONTAINS(&quot;967, 968&quot;, left(ShippingPostalCode,3)), &quot;U01&quot;, 
+IF(CONTAINS(&quot;940, 941, 943, 944, 949, 963, 964, 965, 966&quot;, left(ShippingPostalCode,3)), &quot;U02&quot;, 
+IF(CONTAINS(&quot;939, 950&quot;, left(ShippingPostalCode,3)), &quot;U03&quot;, 
+IF(CONTAINS(&quot;893, 894, 895, 897, 898, 936, 937, 938, 942, 952, 953, 956, 957, 958, 959, 960, 961, 962&quot;, left(ShippingPostalCode,3)), &quot;U04&quot;, 
+IF(CONTAINS(&quot;945, 946, 947, 948, 951&quot;, left(ShippingPostalCode,3)), &quot;U06&quot;, 
+IF(CONTAINS(&quot;954, 955&quot;, left(ShippingPostalCode,3)), &quot;U07&quot;, 
+IF(CONTAINS(&quot;900, 902, 903, 904, 905, 906, 907, 908, 910, 911, 912, 913, 914, 915, 916, 918, 930, 931, 932, 933, 934, 935&quot;, left(ShippingPostalCode,3)), &quot;U09&quot;, 
+IF(CONTAINS(&quot;917, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928&quot;, left(ShippingPostalCode,3)), &quot;U10&quot;, 
+&quot;NA&quot;)))))))))</formula>
+    <label>GeoCodeUxx</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

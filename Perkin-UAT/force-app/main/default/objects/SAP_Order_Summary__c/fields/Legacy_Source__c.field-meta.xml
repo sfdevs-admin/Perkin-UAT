@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legacy_Source__c</fullName>
+    <description>used for legacy data loads(S-692785)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>used for legacy data loads</inlineHelpText>
+    <label>Legacy Source</label>
+    <length>8</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

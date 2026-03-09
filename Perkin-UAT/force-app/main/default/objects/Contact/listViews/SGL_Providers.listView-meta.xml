@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SGL_Providers</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.SITE</field>
+        <operation>contains</operation>
+        <value>SGL</value>
+    </filters>
+    <label>SGL Providers</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

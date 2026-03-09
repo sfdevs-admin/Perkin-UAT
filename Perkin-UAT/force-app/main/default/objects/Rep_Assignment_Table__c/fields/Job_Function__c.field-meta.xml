@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Function__c</fullName>
+    <label>Job Function</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academic Researcher</fullName>
+                <default>false</default>
+                <label>Academic Researcher</label>
+            </value>
+            <value>
+                <fullName>B2B Manager</fullName>
+                <default>false</default>
+                <label>B2B Manager</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Clinical Coordinator</fullName>
+                <default>false</default>
+                <label>Clinical Coordinator</label>
+            </value>
+            <value>
+                <fullName>Cord Blood Contact</fullName>
+                <default>false</default>
+                <label>Cord Blood Contact</label>
+            </value>
+            <value>
+                <fullName>Corporate Management</fullName>
+                <default>false</default>
+                <label>Corporate Management</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Lab Manager</fullName>
+                <default>false</default>
+                <label>Lab Manager</label>
+            </value>
+            <value>
+                <fullName>Labor &amp; Delivery Manager</fullName>
+                <default>false</default>
+                <label>Labor &amp; Delivery Manager</label>
+            </value>
+            <value>
+                <fullName>Lab Technician</fullName>
+                <default>false</default>
+                <label>Lab Technician</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Manufacturing &amp; QA/QC</fullName>
+                <default>false</default>
+                <label>Manufacturing &amp; QA/QC</label>
+            </value>
+            <value>
+                <fullName>Nurse/Medical Assistant</fullName>
+                <default>false</default>
+                <label>Nurse/Medical Assistant</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Physician</fullName>
+                <default>false</default>
+                <label>Physician</label>
+            </value>
+            <value>
+                <fullName>Practice Manager</fullName>
+                <default>false</default>
+                <label>Practice Manager</label>
+            </value>
+            <value>
+                <fullName>Principle Investigator</fullName>
+                <default>false</default>
+                <label>Principle Investigator</label>
+            </value>
+            <value>
+                <fullName>Purchasing/Finance</fullName>
+                <default>false</default>
+                <label>Purchasing/Finance</label>
+            </value>
+            <value>
+                <fullName>R&amp;D Scientist</fullName>
+                <default>false</default>
+                <label>R&amp;D Scientist</label>
+            </value>
+            <value>
+                <fullName>Receptionist</fullName>
+                <default>false</default>
+                <label>Receptionist</label>
+            </value>
+            <value>
+                <fullName>Regulatory Manager</fullName>
+                <default>false</default>
+                <label>Regulatory Manager</label>
+            </value>
+            <value>
+                <fullName>Scientific Analyst</fullName>
+                <default>false</default>
+                <label>Scientific Analyst</label>
+            </value>
+            <value>
+                <fullName>Site Leader</fullName>
+                <default>false</default>
+                <label>Site Leader</label>
+            </value>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>Women’s Director</fullName>
+                <default>false</default>
+                <label>Women’s Director</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Compliance</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>Facilities</fullName>
+                <default>false</default>
+                <label>Facilities</label>
+            </value>
+            <value>
+                <fullName>EH&amp;S</fullName>
+                <default>false</default>
+                <label>EH&amp;S</label>
+            </value>
+            <value>
+                <fullName>Regulatory</fullName>
+                <default>false</default>
+                <label>Regulatory</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

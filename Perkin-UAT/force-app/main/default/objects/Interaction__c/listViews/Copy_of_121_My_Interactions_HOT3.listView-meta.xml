@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_121_My_Interactions_HOT3</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>fxDaysFromLastTransfer__c</columns>
+    <columns>fxFullName__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Interaction_Icon__c</columns>
+    <columns>fxAccountCompany__c</columns>
+    <columns>Country__c</columns>
+    <columns>PostalCode__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>fxDaysCreateToClose__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Contact__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Qualification_Status__c</field>
+        <operation>equals</operation>
+        <value>QL Hot</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Working</value>
+    </filters>
+    <filters>
+        <field>fxMyInteraction__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>IsQueueMember__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>TEST Copy of 121. My Interactions (HOT)</label>
+</ListView>

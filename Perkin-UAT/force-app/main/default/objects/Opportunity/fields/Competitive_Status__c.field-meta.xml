@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitive_Status__c</fullName>
+    <inlineHelpText>Please select Status of Competition</inlineHelpText>
+    <label>Competitive Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-Behind Competition</fullName>
+                <default>false</default>
+                <label>1-Behind Competition</label>
+            </value>
+            <value>
+                <fullName>2-Even with Competition</fullName>
+                <default>false</default>
+                <label>2-Even with Competition</label>
+            </value>
+            <value>
+                <fullName>3-Ahead of Competition</fullName>
+                <default>false</default>
+                <label>3-Ahead of Competition</label>
+            </value>
+            <value>
+                <fullName>4-Vendor of Choice</fullName>
+                <default>false</default>
+                <label>4-Vendor of Choice</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

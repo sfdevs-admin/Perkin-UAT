@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Update Product Family &amp; Product Family Numbered for Product Line</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Product Line Mapping List</label>
+    <visibility>Public</visibility>
+</CustomObject>

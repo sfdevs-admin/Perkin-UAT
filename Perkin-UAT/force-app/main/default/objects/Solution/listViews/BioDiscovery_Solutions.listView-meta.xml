@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BioDiscovery_Solutions</fullName>
+    <columns>SOLUTION.ISSUE</columns>
+    <columns>SOLUTION.SOLUTION_NUMBER</columns>
+    <columns>SOLUTION.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>SOLUTION.TIMES_USED</columns>
+    <columns>SOLUTION.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SOLUTION.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Solution.BioDiscoverySolution</value>
+    </filters>
+    <label>BioDiscovery Solutions</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bentley_Sales_Orders</fullName>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>Opp_Owner__c</columns>
+    <columns>NAME</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Sold_To_Customer_Name__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Inco_Terms_Description__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Actual_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sold_To_Address_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CAN</value>
+    </filters>
+    <filters>
+        <field>fxRevRecDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>Sold_To_Customer_Name__c</field>
+        <operation>contains</operation>
+        <value>Bentl</value>
+    </filters>
+    <label>Bentley Sales Orders</label>
+</ListView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Food_Stage_6_Opportunities_Need_SO</fullName>
+    <columns>Opportunity_Number__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Date_Entered_SAP__c</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>SAP_Estimated_Ship_Date__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>SAP_Inco_Terms__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>Shipping_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Monthly RunRate</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>contains</operation>
+        <value>Food-AM-NA,Food-AM-US-Can</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>equals</operation>
+        <value>Demo – New Unit Request ($0-SIOP Planning only),Demo – For Sale to Customer ($$-Not for SIOP planning),Instrument,Instrument Upgrade</value>
+    </filters>
+    <label>Food - CFP - Open Ops</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

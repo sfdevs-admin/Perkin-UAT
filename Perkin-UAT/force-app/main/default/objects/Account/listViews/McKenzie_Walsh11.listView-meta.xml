@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>McKenzie_Walsh11</fullName>
+    <columns>Territory_Viacord__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_ZIP</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory_Viacord__c</field>
+        <operation>equals</operation>
+        <value>D223</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>TX,Texas</value>
+    </filters>
+    <label>D223 - ViaCord</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_001112</group>
+        <group>ARQ_001113</group>
+        <group>ARQ_001116</group>
+        <group>ARQ_001122</group>
+    </sharedTo>
+</ListView>

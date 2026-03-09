@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CA13TradeShowBoothsItems</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Current_Location__c</columns>
+    <columns>Material_Description__c</columns>
+    <columns>Date_Sent__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Plant__c</field>
+        <operation>equals</operation>
+        <value>CA13</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>InHouse Available,InHouse Pending Service,Customer Site,Under Repair</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>Trade</value>
+    </filters>
+    <label>CA13 - Trade Show Booths &amp; Items</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000757</group>
+    </sharedTo>
+</ListView>

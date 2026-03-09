@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NE_MMD_MFT</fullName>
+    <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>equals</operation>
+        <value>17-MLD,45-MFT</value>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>MFT,MLD</value>
+    </filters>
+    <filters>
+        <field>State__c</field>
+        <operation>equals</operation>
+        <value>MA,ME,RI</value>
+    </filters>
+    <label>NE MMD &amp; MFT</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>One_Sources_leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>BE__c</columns>
+    <columns>Product_Line__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BE__c</field>
+        <operation>equals</operation>
+        <value>ONE</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2015 12:00 AM</value>
+    </filters>
+    <label>One Sources leads</label>
+    <language>en_US</language>
+</ListView>

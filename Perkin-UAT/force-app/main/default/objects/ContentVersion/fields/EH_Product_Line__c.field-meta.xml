@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_Product_Line__c</fullName>
+    <label>Product Line</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AA</fullName>
+                <default>false</default>
+                <label>AA</label>
+            </value>
+            <value>
+                <fullName>AMS</fullName>
+                <default>false</default>
+                <label>AMS</label>
+            </value>
+            <value>
+                <fullName>Asset Informatics and Analytics</fullName>
+                <default>false</default>
+                <label>Asset Informatics and Analytics</label>
+            </value>
+            <value>
+                <fullName>Asset Procurement &amp; Disposition</fullName>
+                <default>false</default>
+                <label>Asset Procurement &amp; Disposition</label>
+            </value>
+            <value>
+                <fullName>BVM</fullName>
+                <default>false</default>
+                <label>BVM</label>
+            </value>
+            <value>
+                <fullName>CHNSO Analysis</fullName>
+                <default>false</default>
+                <label>CHNSO Analysis</label>
+            </value>
+            <value>
+                <fullName>Data Analytics</fullName>
+                <default>false</default>
+                <label>Data Analytics</label>
+            </value>
+            <value>
+                <fullName>Data Mgnt &amp; Collaboration Platforms</fullName>
+                <default>false</default>
+                <label>Data Mgnt &amp; Collaboration Platforms</label>
+            </value>
+            <value>
+                <fullName>DMA</fullName>
+                <default>false</default>
+                <label>DMA</label>
+            </value>
+            <value>
+                <fullName>DSA/TOF</fullName>
+                <default>false</default>
+                <label>DSA/TOF</label>
+            </value>
+            <value>
+                <fullName>DSC</fullName>
+                <default>false</default>
+                <label>DSC</label>
+            </value>
+            <value>
+                <fullName>Falling Number</fullName>
+                <default>false</default>
+                <label>Falling Number</label>
+            </value>
+            <value>
+                <fullName>Fluorescence Spectrophotometry</fullName>
+                <default>false</default>
+                <label>Fluorescence Spectrophotometry</label>
+            </value>
+            <value>
+                <fullName>FT-IR</fullName>
+                <default>false</default>
+                <label>FT-IR</label>
+            </value>
+            <value>
+                <fullName>GC</fullName>
+                <default>false</default>
+                <label>GC</label>
+            </value>
+            <value>
+                <fullName>GC/MS</fullName>
+                <default>false</default>
+                <label>GC/MS</label>
+            </value>
+            <value>
+                <fullName>GC/MS/MS</fullName>
+                <default>false</default>
+                <label>GC/MS/MS</label>
+            </value>
+            <value>
+                <fullName>Headspace</fullName>
+                <default>false</default>
+                <label>Headspace</label>
+            </value>
+            <value>
+                <fullName>ICP-MS</fullName>
+                <default>false</default>
+                <label>ICP-MS</label>
+            </value>
+            <value>
+                <fullName>ICP-OES</fullName>
+                <default>false</default>
+                <label>ICP-OES</label>
+            </value>
+            <value>
+                <fullName>Information Services</fullName>
+                <default>false</default>
+                <label>Information Services</label>
+            </value>
+            <value>
+                <fullName>Instrument Control &amp; Upgrades</fullName>
+                <default>false</default>
+                <label>Instrument Control &amp; Upgrades</label>
+            </value>
+            <value>
+                <fullName>Instrument Service &amp; Repair</fullName>
+                <default>false</default>
+                <label>Instrument Service &amp; Repair</label>
+            </value>
+            <value>
+                <fullName>Laboratory Relocation</fullName>
+                <default>false</default>
+                <label>Laboratory Relocation</label>
+            </value>
+            <value>
+                <fullName>LC</fullName>
+                <default>false</default>
+                <label>LC</label>
+            </value>
+            <value>
+                <fullName>LC/MS</fullName>
+                <default>false</default>
+                <label>LC/MS</label>
+            </value>
+            <value>
+                <fullName>Mercury Analysis Systems</fullName>
+                <default>false</default>
+                <label>Mercury Analysis Systems</label>
+            </value>
+            <value>
+                <fullName>Microwave Digestion</fullName>
+                <default>false</default>
+                <label>Microwave Digestion</label>
+            </value>
+            <value>
+                <fullName>MMS</fullName>
+                <default>false</default>
+                <label>MMS</label>
+            </value>
+            <value>
+                <fullName>NIR</fullName>
+                <default>false</default>
+                <label>NIR</label>
+            </value>
+            <value>
+                <fullName>Portable GC/MS</fullName>
+                <default>false</default>
+                <label>Portable GC/MS</label>
+            </value>
+            <value>
+                <fullName>Qualification &amp; Validation</fullName>
+                <default>false</default>
+                <label>Qualification &amp; Validation</label>
+            </value>
+            <value>
+                <fullName>Radio Frequency</fullName>
+                <default>false</default>
+                <label>Radio Frequency</label>
+            </value>
+            <value>
+                <fullName>Rapid Visco Analysis</fullName>
+                <default>false</default>
+                <label>Rapid Visco Analysis</label>
+            </value>
+            <value>
+                <fullName>Rheology</fullName>
+                <default>false</default>
+                <label>Rheology</label>
+            </value>
+            <value>
+                <fullName>Scientific Services</fullName>
+                <default>false</default>
+                <label>Scientific Services</label>
+            </value>
+            <value>
+                <fullName>Small Scale Protein Purification</fullName>
+                <default>false</default>
+                <label>Small Scale Protein Purification</label>
+            </value>
+            <value>
+                <fullName>Speciation</fullName>
+                <default>false</default>
+                <label>Speciation</label>
+            </value>
+            <value>
+                <fullName>STA</fullName>
+                <default>false</default>
+                <label>STA</label>
+            </value>
+            <value>
+                <fullName>Texture Analysis</fullName>
+                <default>false</default>
+                <label>Texture Analysis</label>
+            </value>
+            <value>
+                <fullName>TGA</fullName>
+                <default>false</default>
+                <label>TGA</label>
+            </value>
+            <value>
+                <fullName>TG-GC/MS</fullName>
+                <default>false</default>
+                <label>TG-GC/MS</label>
+            </value>
+            <value>
+                <fullName>TG-IR</fullName>
+                <default>false</default>
+                <label>TG-IR</label>
+            </value>
+            <value>
+                <fullName>TG-IR-GC/MS</fullName>
+                <default>false</default>
+                <label>TG-IR-GC/MS</label>
+            </value>
+            <value>
+                <fullName>TG-MS</fullName>
+                <default>false</default>
+                <label>TG-MS</label>
+            </value>
+            <value>
+                <fullName>Thermal Desorption</fullName>
+                <default>false</default>
+                <label>Thermal Desorption</label>
+            </value>
+            <value>
+                <fullName>TMA</fullName>
+                <default>false</default>
+                <label>TMA</label>
+            </value>
+            <value>
+                <fullName>UV-DMA</fullName>
+                <default>false</default>
+                <label>UV-DMA</label>
+            </value>
+            <value>
+                <fullName>UV-DSC</fullName>
+                <default>false</default>
+                <label>UV-DSC</label>
+            </value>
+            <value>
+                <fullName>UV-Vis</fullName>
+                <default>false</default>
+                <label>UV-Vis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

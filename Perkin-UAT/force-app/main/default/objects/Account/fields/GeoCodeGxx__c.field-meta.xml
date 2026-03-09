@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoCodeGxx__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ShippingCountry &lt;&gt; &quot;US&quot;,&quot;NA&quot;,
+IF(CONTAINS(&quot;832, 833, 834, 835, 836, 837&quot;, left(ShippingPostalCode,3)), &quot;G01&quot;,
+IF(CONTAINS(&quot;840, 841, 842, 843, 844, 845, 846, 847&quot;, left(ShippingPostalCode,3)), &quot;G02&quot;,
+IF(CONTAINS(&quot;799, 870, 871, 872, 873, 874, 875, 877, 878, 879, 880, 881, 882, 883, 884, 885&quot;, left(ShippingPostalCode,3)), &quot;G03&quot;,
+IF(CONTAINS(&quot;800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816&quot;, left(ShippingPostalCode,3)), &quot;G04&quot;,
+IF(CONTAINS(&quot;590, 591, 592, 593, 594, 595, 596, 597, 598, 599&quot;, left(ShippingPostalCode,3)), &quot;G05&quot;,
+IF(CONTAINS(&quot;850, 852, 853, 855, 856, 857, 859, 860, 863, 864, 865&quot;, left(ShippingPostalCode,3)), &quot;G06&quot;,
+IF(CONTAINS(&quot;820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831&quot;, left(ShippingPostalCode,3)), &quot;G07&quot;,
+IF(CONTAINS(&quot;838, 982, 983, 984, 985, 987, 988, 990, 991, 992, 994&quot;, left(ShippingPostalCode,3)), &quot;G08&quot;,
+IF(CONTAINS(&quot;970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 986, 989, 993&quot;, left(ShippingPostalCode,3)), &quot;G09&quot;,
+IF(CONTAINS(&quot;995, 996, 997, 998, 999&quot;, left(ShippingPostalCode,3)), &quot;G10&quot;,
+IF(CONTAINS(&quot;889, 890, 891&quot;, left(ShippingPostalCode,3)), &quot;G11&quot;,
+&quot;NA&quot;))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>GeoCodeGxx</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

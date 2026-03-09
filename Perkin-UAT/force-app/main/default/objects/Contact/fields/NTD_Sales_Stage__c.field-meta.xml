@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NTD_Sales_Stage__c</fullName>
+    <label>NTD Sales Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Skeptic</fullName>
+                <default>false</default>
+                <label>Skeptic</label>
+            </value>
+            <value>
+                <fullName>Dabbler</fullName>
+                <default>false</default>
+                <label>Dabbler</label>
+            </value>
+            <value>
+                <fullName>Believer</fullName>
+                <default>false</default>
+                <label>Believer</label>
+            </value>
+            <value>
+                <fullName>Advocate</fullName>
+                <default>false</default>
+                <label>Advocate</label>
+            </value>
+            <value>
+                <fullName>Competitive Advocate</fullName>
+                <default>false</default>
+                <label>Competitive Advocate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_SLA_Sales__c</fullName>
+    <description>ANNUITAS PDG Program</description>
+    <label>Conversion SLA - Sales</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Opportunity SLA In-policy</fullName>
+                <default>false</default>
+                <label>Opportunity SLA In-policy</label>
+            </value>
+            <value>
+                <fullName>Opportunity SLA Out-of-policy</fullName>
+                <default>false</default>
+                <label>Opportunity SLA Out-of-policy</label>
+            </value>
+            <value>
+                <fullName>Opportunity SLA Out-of-policy Completed</fullName>
+                <default>false</default>
+                <label>Opportunity SLA Out-of-policy Completed</label>
+            </value>
+            <value>
+                <fullName>Opportunity SLA In-policy Completed</fullName>
+                <default>false</default>
+                <label>Opportunity SLA In-policy Completed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

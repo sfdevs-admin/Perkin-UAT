@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_OS_Middletier__c</fullName>
+    <label>OS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RedHat/centOS 4.x-32 bit</fullName>
+                <default>false</default>
+                <label>RedHat/centOS 4.x-32 bit</label>
+            </value>
+            <value>
+                <fullName>RedHat/centOS 5.x-32 bit</fullName>
+                <default>false</default>
+                <label>RedHat/centOS 5.x-32 bit</label>
+            </value>
+            <value>
+                <fullName>RedHat/centOS 4.x-64 bit</fullName>
+                <default>false</default>
+                <label>RedHat/centOS 4.x-64 bit</label>
+            </value>
+            <value>
+                <fullName>RedHat/centOS 6.x-32 bit</fullName>
+                <default>false</default>
+                <label>RedHat/centOS 6.x-32 bit</label>
+            </value>
+            <value>
+                <fullName>RedHat/centOS 6.x-64 bit</fullName>
+                <default>false</default>
+                <label>RedHat/centOS 6.x-64 bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2000 Server</fullName>
+                <default>false</default>
+                <label>Windows 2000 Server</label>
+            </value>
+            <value>
+                <fullName>Windows 2003 Server 32-bit</fullName>
+                <default>false</default>
+                <label>Windows 2003 Server 32-bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2003 Server 64-bit</fullName>
+                <default>false</default>
+                <label>Windows 2003 Server 64-bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2008 Server 32-bit</fullName>
+                <default>false</default>
+                <label>Windows 2008 Server 32-bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2008 Server 64-bit</fullName>
+                <default>false</default>
+                <label>Windows 2008 Server 64-bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2012 Server</fullName>
+                <default>false</default>
+                <label>Windows 2012 Server</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

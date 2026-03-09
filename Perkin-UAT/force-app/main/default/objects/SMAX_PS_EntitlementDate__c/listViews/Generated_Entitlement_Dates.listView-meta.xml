@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generated_Entitlement_Dates</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_Entitlement__c</columns>
+    <columns>SMAX_PS_ContractItem__c</columns>
+    <columns>SMAX_PS_CoveredProduct__c</columns>
+    <columns>SMAX_PS_PlannedDate__c</columns>
+    <columns>SMAX_PS_ServiceOrderNumber__c</columns>
+    <columns>SMAX_PS_WorkOrder__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMAX_PS_WorkOrder__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Generated Entitlement Dates</label>
+    <language>en_US</language>
+</ListView>

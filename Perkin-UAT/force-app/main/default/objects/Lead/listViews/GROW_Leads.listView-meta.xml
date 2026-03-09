@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GROW_Leads</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Global_Region__c</columns>
+    <columns>Employee_Email__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>Owner_by_Queue__c</columns>
+    <columns>GROW__c</columns>
+    <columns>Lead_Type_INF__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GROW__c</field>
+        <operation>contains</operation>
+        <value>GROW</value>
+    </filters>
+    <label>GROW Leads</label>
+</ListView>

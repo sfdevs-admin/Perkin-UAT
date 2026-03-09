@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Service__c</fullName>
+    <label>Product Service</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Topic_you_need_help_with__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Instruments</fullName>
+                <default>false</default>
+                <label>Instruments</label>
+            </value>
+            <value>
+                <fullName>Consumables &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Consumables &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>PCs &amp; Software</fullName>
+                <default>false</default>
+                <label>PCs &amp; Software</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Instrument Service</fullName>
+                <default>false</default>
+                <label>Instrument Service</label>
+            </value>
+            <value>
+                <fullName>Pathogen Detection</fullName>
+                <default>false</default>
+                <label>Pathogen Detection</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Request Product/Service Information</controllingFieldValue>
+            <controllingFieldValue>Request a Quote</controllingFieldValue>
+            <valueName>Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request Product/Service Information</controllingFieldValue>
+            <controllingFieldValue>Request a Quote</controllingFieldValue>
+            <valueName>Consumables &amp; Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request Product/Service Information</controllingFieldValue>
+            <controllingFieldValue>Request a Quote</controllingFieldValue>
+            <valueName>PCs &amp; Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request Product/Service Information</controllingFieldValue>
+            <controllingFieldValue>Request a Quote</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request Product/Service Information</controllingFieldValue>
+            <controllingFieldValue>Request a Quote</controllingFieldValue>
+            <valueName>Instrument Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request Product/Service Information</controllingFieldValue>
+            <controllingFieldValue>Request a Quote</controllingFieldValue>
+            <valueName>Pathogen Detection</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

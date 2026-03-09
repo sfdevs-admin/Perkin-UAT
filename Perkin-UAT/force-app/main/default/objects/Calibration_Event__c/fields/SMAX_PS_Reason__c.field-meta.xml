@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Reason__c</fullName>
+    <description>Reason for making the changes</description>
+    <inlineHelpText>Reason for making the changes</inlineHelpText>
+    <label>Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Data Correction</fullName>
+                <default>false</default>
+                <label>Data Correction</label>
+            </value>
+            <value>
+                <fullName>Calibration Date Change</fullName>
+                <default>false</default>
+                <label>Calibration Date Change</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

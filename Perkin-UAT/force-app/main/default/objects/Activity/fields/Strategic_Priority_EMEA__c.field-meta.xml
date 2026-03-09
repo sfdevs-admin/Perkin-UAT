@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_Priority_EMEA__c</fullName>
+    <label>Strategic Priority EMEA</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Pharma</fullName>
+                <default>false</default>
+                <label>Pharma</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+            <value>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+                <label>Automotive</label>
+            </value>
+            <value>
+                <fullName>Detection – Academic</fullName>
+                <default>false</default>
+                <label>Detection – Academic</label>
+            </value>
+            <value>
+                <fullName>Detection – Cancer</fullName>
+                <default>false</default>
+                <label>Detection – Cancer</label>
+            </value>
+            <value>
+                <fullName>Detection – Inflammation</fullName>
+                <default>false</default>
+                <label>Detection – Inflammation</label>
+            </value>
+            <value>
+                <fullName>Detection – Metabolism</fullName>
+                <default>false</default>
+                <label>Detection – Metabolism</label>
+            </value>
+            <value>
+                <fullName>Detection – Neuroscience</fullName>
+                <default>false</default>
+                <label>Detection – Neuroscience</label>
+            </value>
+            <value>
+                <fullName>HCS – Microbe</fullName>
+                <default>false</default>
+                <label>HCS – Microbe</label>
+            </value>
+            <value>
+                <fullName>HCS – Immunotherapy</fullName>
+                <default>false</default>
+                <label>HCS – Immunotherapy</label>
+            </value>
+            <value>
+                <fullName>HCS – Metabolic</fullName>
+                <default>false</default>
+                <label>HCS – Metabolic</label>
+            </value>
+            <value>
+                <fullName>INV -  Optical Install Base</fullName>
+                <default>false</default>
+                <label>INV -  Optical Install Base</label>
+            </value>
+            <value>
+                <fullName>INV – Soft Tissue</fullName>
+                <default>false</default>
+                <label>INV – Soft Tissue</label>
+            </value>
+            <value>
+                <fullName>Biotech- Immune Oncology</fullName>
+                <default>false</default>
+                <label>Biotech- Immune Oncology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

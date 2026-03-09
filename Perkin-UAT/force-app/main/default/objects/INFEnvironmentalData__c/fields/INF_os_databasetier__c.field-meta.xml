@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_os_databasetier__c</fullName>
+    <label>OS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>windows 2000 server</fullName>
+                <default>false</default>
+                <label>windows 2000 server</label>
+            </value>
+            <value>
+                <fullName>windows 2003 Server 32-bit</fullName>
+                <default>false</default>
+                <label>windows 2003 Server 32-bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2003 Server 2008 64-bit</fullName>
+                <default>false</default>
+                <label>Windows 2003 Server 2008 64-bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2008 Server 32-bit</fullName>
+                <default>false</default>
+                <label>Windows 2008 Server 32-bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2008 Server 64-bit</fullName>
+                <default>false</default>
+                <label>Windows 2008 Server 64-bit</label>
+            </value>
+            <value>
+                <fullName>Windows 2012 Server</fullName>
+                <default>false</default>
+                <label>Windows 2012 Server</label>
+            </value>
+            <value>
+                <fullName>Linux RH(Version?) Intel 32-bit/64-bit</fullName>
+                <default>false</default>
+                <label>Linux RH(Version?) Intel 32-bit/64-bit</label>
+            </value>
+            <value>
+                <fullName>Linux Suse(Version?) Intel 32-bit/64-bit</fullName>
+                <default>false</default>
+                <label>Linux Suse(Version?) Intel 32-bit/64-bit</label>
+            </value>
+            <value>
+                <fullName>HP/UX PA-RISC(Version?)</fullName>
+                <default>false</default>
+                <label>HP/UX PA-RISC(Version?)</label>
+            </value>
+            <value>
+                <fullName>Sun Solaries(Version?) SPARC 32bit/64bit</fullName>
+                <default>false</default>
+                <label>Sun Solaries(Version?) SPARC 32bit/64bit</label>
+            </value>
+            <value>
+                <fullName>IBM AIX p/z-series (Version?)</fullName>
+                <default>false</default>
+                <label>IBM AIX p/z-series (Version?)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

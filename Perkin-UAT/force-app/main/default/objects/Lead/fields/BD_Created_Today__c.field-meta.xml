@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Created_Today__c</fullName>
+    <formula>IF(
+    DATEVALUE(CreatedDate) = TODAY(), TRUE, FALSE
+ )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Created Today</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

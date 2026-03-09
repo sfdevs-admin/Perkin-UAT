@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Serial_Batch__c</fullName>
+    <description>Expected Serial or Batch Number</description>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK( SMAX_PS_BatchNumber__c ), &quot;Serial Number&quot;, &quot;Batch Number&quot;)</formula>
+    <inlineHelpText>This field indicates whether to enter Serial Number or Batch Number</inlineHelpText>
+    <label>Serial/Batch</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

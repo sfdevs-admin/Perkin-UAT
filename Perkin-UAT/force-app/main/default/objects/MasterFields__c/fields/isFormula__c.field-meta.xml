@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isFormula__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field uses formula to calculate the value</description>
+    <inlineHelpText>Check if the Field uses formula to calculate the value</inlineHelpText>
+    <label>isFormula</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

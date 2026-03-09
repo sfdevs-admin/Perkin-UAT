@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_with_CPQ__c</fullName>
+    <description>This field has been created on behalf of Ticket #-INC0314956 to know if the account can be used with CPQ. This one is different from fxSetMergeflag based on below condition: CONTAINS(&quot;0001,ZBR1&quot;, PKI_SAP_Account_Group__c) AND CONTAINS(&quot;Approved&quot;, MDM_Status__c)</description>
+    <formula>AND(
+    RecordType.Name = &#39;Customer&#39;
+    , CONTAINS(&quot;0001,ZBR1&quot;, PKI_SAP_Account_Group__c)
+    , CONTAINS(&quot;Approved&quot;, MDM_Status__c)
+    , NOT(CONTAINS(Name,&#39;*IDLE*&#39;))
+    , PKI_SAP_Marked_for_Deletion__c = FALSE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>It helps in identifying the account which can be used with CPQ.</inlineHelpText>
+    <label>Use with CPQ</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

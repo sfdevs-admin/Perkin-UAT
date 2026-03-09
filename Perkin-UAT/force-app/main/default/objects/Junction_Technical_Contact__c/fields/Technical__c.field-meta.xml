@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technical__c</fullName>
+    <description>Technical Master-Detail (Source: S-692579)</description>
+    <label>Technical</label>
+    <referenceTo>Technical__c</referenceTo>
+    <relationshipLabel>Contacts roles</relationshipLabel>
+    <relationshipName>Junction_technical_contact</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

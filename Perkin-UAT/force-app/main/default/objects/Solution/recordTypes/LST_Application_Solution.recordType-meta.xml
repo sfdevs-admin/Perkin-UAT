@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Application_Solution</fullName>
+    <active>true</active>
+    <businessProcess>BioDiscovery Solution Process</businessProcess>
+    <description>Created 04/13 for LST Applications Knowledge base</description>
+    <label>LST Application Solution</label>
+</RecordType>

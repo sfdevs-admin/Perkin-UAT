@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Experience_View</fullName>
+    <columns>MasterLabel</columns>
+    <columns>SMAX_PS_Type__c</columns>
+    <columns>SMAX_PS_Score__c</columns>
+    <columns>SMAX_PS_Minimum_Months__c</columns>
+    <columns>SMAX_PS_Maximum_Months__c</columns>
+    <columns>SMAX_PS_Order_Types__c</columns>
+    <columns>SMAX_PS_Work_Minimum__c</columns>
+    <columns>SMAX_PS_Work_Maximum__c</columns>
+    <columns>SMAX_PS_Training_Score__c</columns>
+    <columns>SMAX_PS_Field_Score__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Experience View</label>
+    <language>en_US</language>
+</ListView>

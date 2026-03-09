@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Create_New_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will indicate if a new Contact is being created from Case. A trigger on the Contact object will then update SAP which will return a Contact SAP Id.</description>
+    <label>Create/Edit Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Code_Level__c</fullName>
+    <label>Industry Code Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st Level</fullName>
+                <default>false</default>
+                <label>1st Level</label>
+            </value>
+            <value>
+                <fullName>2nd Level</fullName>
+                <default>false</default>
+                <label>2nd Level</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

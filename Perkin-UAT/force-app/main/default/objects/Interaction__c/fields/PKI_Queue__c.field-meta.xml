@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Queue__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This will hold the Custom PKI Queue Reference that mirrrors the Native Queue owner. This is so that we can monitor the OwnedByCompany Value of the Queue vs. the Interaction through formula</description>
+    <inlineHelpText>This will hold the Custom PKI Queue Reference that mirrrors the Native Queue owner. This is so that we can monitor the OwnedByCompany Value of the Queue vs. the Interaction through formula</inlineHelpText>
+    <label>PKI Queue</label>
+    <referenceTo>PKI_Queue__c</referenceTo>
+    <relationshipLabel>Interactions</relationshipLabel>
+    <relationshipName>Interactions</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Product_Lines__c</fullName>
+    <description>Product Lines from Lead</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product Lines from Lead</inlineHelpText>
+    <label>Lead Product Lines</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

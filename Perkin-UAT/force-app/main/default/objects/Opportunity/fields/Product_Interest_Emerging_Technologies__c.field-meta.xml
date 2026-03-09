@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Interest_Emerging_Technologies__c</fullName>
+    <label>Product Interest-Emerging Technologies</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Custom Exome Re-Sequencing</fullName>
+                <default>false</default>
+                <label>Custom Exome Re-Sequencing</label>
+            </value>
+            <value>
+                <fullName>Exome Re-Sequencing Human</fullName>
+                <default>false</default>
+                <label>Exome Re-Sequencing Human</label>
+            </value>
+            <value>
+                <fullName>Exome Re-Sequencing Mouse</fullName>
+                <default>false</default>
+                <label>Exome Re-Sequencing Mouse</label>
+            </value>
+            <value>
+                <fullName>RNA-Seq</fullName>
+                <default>false</default>
+                <label>RNA-Seq</label>
+            </value>
+            <value>
+                <fullName>Whole Human Genome Re-Sequencing</fullName>
+                <default>false</default>
+                <label>Whole Human Genome Re-Sequencing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

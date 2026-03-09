@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ext_Warranty_Calculation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Defines if this product should be included in the calculation. (Source: S-695040)</description>
+    <inlineHelpText>Defines if this product should be included in the calculation.</inlineHelpText>
+    <label>Ext Warranty Calculation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

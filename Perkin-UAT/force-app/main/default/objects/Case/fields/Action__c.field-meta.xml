@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action__c</fullName>
+    <label>Action</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Replaced Part</fullName>
+                <default>false</default>
+                <label>Replaced Part</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Update Hardware</fullName>
+                <default>false</default>
+                <label>Update Hardware</label>
+            </value>
+            <value>
+                <fullName>Lab Problem</fullName>
+                <default>false</default>
+                <label>Lab Problem</label>
+            </value>
+            <value>
+                <fullName>No Problem Found</fullName>
+                <default>false</default>
+                <label>No Problem Found</label>
+            </value>
+            <value>
+                <fullName>Referred to Appllication</fullName>
+                <default>false</default>
+                <label>Referred to Appllication</label>
+            </value>
+            <value>
+                <fullName>Defect Free Install</fullName>
+                <default>false</default>
+                <label>Defect Free Install</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Re-Open</fullName>
+                <default>false</default>
+                <label>Re-Open</label>
+            </value>
+            <value>
+                <fullName>Email Received</fullName>
+                <default>false</default>
+                <label>Email Received</label>
+            </value>
+            <value>
+                <fullName>Email Sent</fullName>
+                <default>false</default>
+                <label>Email Sent</label>
+            </value>
+            <value>
+                <fullName>Email Read</fullName>
+                <default>false</default>
+                <label>Email Read</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

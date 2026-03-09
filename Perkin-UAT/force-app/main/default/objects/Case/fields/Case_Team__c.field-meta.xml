@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Team__c</fullName>
+    <label>Case Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Care</fullName>
+                <default>true</default>
+                <label>Customer Care</label>
+            </value>
+            <value>
+                <fullName>Tech Support</fullName>
+                <default>false</default>
+                <label>Tech Support</label>
+            </value>
+            <value>
+                <fullName>Finance / Credit Collection</fullName>
+                <default>false</default>
+                <label>Finance / Credit Collection</label>
+            </value>
+            <value>
+                <fullName>E-Invoicing</fullName>
+                <default>false</default>
+                <label>E-Invoicing</label>
+            </value>
+            <value>
+                <fullName>E-commerce</fullName>
+                <default>false</default>
+                <label>E-commerce</label>
+            </value>
+            <value>
+                <fullName>Customer Training</fullName>
+                <default>false</default>
+                <label>Customer Training</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

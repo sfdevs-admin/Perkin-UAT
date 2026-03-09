@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Americas_Leads_Lead</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.TITLE</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Secondary_Qualification__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Product_Name__c</columns>
+    <columns>Comment__c</columns>
+    <columns>Requested_Interests__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>INF Americas Leads</label>
+    <queue>ARQ_000579</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

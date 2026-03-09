@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ENV_Campaigns3</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>Lead_Conversion_Rate__c</columns>
+    <columns>CAMPAIGN.TOT_NUM_RESPONSES</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>Opportunity_Conversion_Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>EH</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>7/1/2015</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>CN</value>
+    </filters>
+    <label>ENV Campaigns</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKIQueue__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>User selects PKI QUEUE and P.FLOW 4200: Interaction Rules will update the Owner to the same Queue (but link to the NATIVE Queue by the same name). Native queue must have the Object Interaction Rule, Interaction, PKI Queue available to it.</description>
+    <inlineHelpText>Select the PKi Queue for this rule. If the PKI queue deos not show up here, or a new one is needed, please create a JIRA ticket to reques tit from SFDC IT Admins.</inlineHelpText>
+    <label>PKI Queue</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>PKI_Queue__c.API_Name__c</field>
+            <operation>startsWith</operation>
+            <value>ARQ_</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>PKI_Queue__c</referenceTo>
+    <relationshipLabel>Interaction Assignment Rules</relationshipLabel>
+    <relationshipName>Interaction_Assignment_Rules</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

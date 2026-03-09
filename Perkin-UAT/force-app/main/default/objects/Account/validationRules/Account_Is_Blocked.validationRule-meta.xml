@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Is_Blocked</fullName>
+    <active>true</active>
+    <description>Account_Is_Blocked</description>
+    <errorConditionFormula>AND(
+  $Permission.BD_Bypass_Automation != TRUE, 
+  (Account_Blocked_Date__c &lt; DATEVALUE(NOW())), 
+  NOT(ISNEW()),  
+ NOT(Contains($User.Username,&quot;webmethodsconnector@webmethods.com&quot;))
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_ACCOUNT_002:  All transactions with this account is blocked. No further activities should be pursued. Please contact Legal with any questions</errorMessage>
+</ValidationRule>

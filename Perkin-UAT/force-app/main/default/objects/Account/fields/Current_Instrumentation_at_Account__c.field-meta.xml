@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Instrumentation_at_Account__c</fullName>
+    <label>Current Instrumentation at Account</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MSM1</fullName>
+                <default>false</default>
+                <label>MSM1</label>
+            </value>
+            <value>
+                <fullName>Prepito</fullName>
+                <default>false</default>
+                <label>Prepito</label>
+            </value>
+            <value>
+                <fullName>Chemagic STAR</fullName>
+                <default>false</default>
+                <label>Chemagic STAR</label>
+            </value>
+            <value>
+                <fullName>Integrated LH</fullName>
+                <default>false</default>
+                <label>Integrated LH</label>
+            </value>
+            <value>
+                <fullName>Qiacube</fullName>
+                <default>false</default>
+                <label>Qiacube</label>
+            </value>
+            <value>
+                <fullName>Symphony</fullName>
+                <default>false</default>
+                <label>Symphony</label>
+            </value>
+            <value>
+                <fullName>AutoGen</fullName>
+                <default>false</default>
+                <label>AutoGen</label>
+            </value>
+            <value>
+                <fullName>KingFisher</fullName>
+                <default>false</default>
+                <label>KingFisher</label>
+            </value>
+            <value>
+                <fullName>MagNa Pure</fullName>
+                <default>false</default>
+                <label>MagNa Pure</label>
+            </value>
+            <value>
+                <fullName>Maxwell</fullName>
+                <default>false</default>
+                <label>Maxwell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

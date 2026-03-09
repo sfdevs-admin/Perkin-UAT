@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Warranty_Contract_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Warranty Contract Item</label>
+    <referenceTo>SVMXC__Service_Contract__c</referenceTo>
+    <relationshipLabel>Extended Warranty Coverages (Warranty Contract Item)</relationshipLabel>
+    <relationshipName>Extended_Warranty_Coverages1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

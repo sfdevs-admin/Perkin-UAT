@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Amount_of_Renewal_Quote__c</fullName>
+    <description>This field refers  Original Amount of Renewal Quote (Source:RITM0113734)</description>
+    <inlineHelpText>Value = original amount of auto-generated renewal quote</inlineHelpText>
+    <label>Original Amount of Renewal Quote</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

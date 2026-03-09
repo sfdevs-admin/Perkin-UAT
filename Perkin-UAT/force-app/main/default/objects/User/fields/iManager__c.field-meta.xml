@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iManager__c</fullName>
+    <description>This solves for if the running user is also an upline Manager of the record owner</description>
+    <formula>OR( ManagerId =  $User.Id 
+,  Manager2up__c =  $User.Id
+, CONTAINS( fxManagerLine__c , $User.fxUserFullName__c )
+ )</formula>
+    <inlineHelpText>This solves for if the running user is also an upline Manager of the record owner</inlineHelpText>
+    <label>iManager</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

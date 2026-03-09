@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X400_My_Groups</fullName>
+    <columns>NAME</columns>
+    <columns>PKI_Queue_Name__c</columns>
+    <columns>fxType__c</columns>
+    <columns>User__c</columns>
+    <columns>RemoveMember__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>isMyUser__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>fxType__c</field>
+        <operation>equals</operation>
+        <value>Regular</value>
+    </filters>
+    <label>400. My Groups</label>
+</ListView>

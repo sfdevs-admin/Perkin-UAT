@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Channel_Partner_Mandatory</fullName>
+    <active>true</active>
+    <description>To capture the other Channel Partner associated to Opportunity.</description>
+    <errorConditionFormula>AND
+( $Setup.Rules_Execution__c.Run__c,ISPICKVAL(Channel_Partner__c , &quot;Other&quot;) ,  
+  ISBLANK( Other_Channel_Partner__c ))</errorConditionFormula>
+    <errorDisplayField>Other_Channel_Partner__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_009: Enter the other Channel Partner</errorMessage>
+</ValidationRule>

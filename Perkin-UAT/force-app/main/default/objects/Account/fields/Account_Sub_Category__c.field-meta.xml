@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Sub_Category__c</fullName>
+    <label>Account Sub Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Genetic Screening</fullName>
+                <default>false</default>
+                <label>Genetic Screening</label>
+            </value>
+            <value>
+                <fullName>Educational - State</fullName>
+                <default>false</default>
+                <label>Educational - State</label>
+            </value>
+            <value>
+                <fullName>State Agencies</fullName>
+                <default>false</default>
+                <label>State Agencies</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

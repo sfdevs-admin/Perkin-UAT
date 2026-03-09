@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FundsApprovNum__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(ispickval( Funds_Approval__c ,&quot;Funded to or above our price&quot;),30,if(ispickval( Funds_Approval__c ,&quot;High probability of funds approval&quot;),20,if(ispickval( Funds_Approval__c ,&quot;Good probability of obtaining funds&quot;),10,0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>FundsApprovNum</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

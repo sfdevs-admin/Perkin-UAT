@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Month_MRTs</fullName>
+    <columns>Sales_Person__c</columns>
+    <columns>Base_Target__c</columns>
+    <columns>Won_Revenue_Stretch__c</columns>
+    <columns>Base_Target_Achieved__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Start_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>Current Month Performance by Salesperson</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000862</group>
+    </sharedTo>
+</ListView>

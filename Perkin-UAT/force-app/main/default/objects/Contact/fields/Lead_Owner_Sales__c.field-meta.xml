@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Owner_Sales__c</fullName>
+    <description>Stamped with the Sales Rep when the opportunity owner changes away from the LDR for the first time on that Contact record.  Note: This is a custom field for historical tracking, it is a stamp of the first assigned Sales Rep and does not update.</description>
+    <externalId>false</externalId>
+    <label>Lead Owner - Sales</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

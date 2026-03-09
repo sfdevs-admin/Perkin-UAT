@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Case_Open__c</fullName>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <defaultValue>NOW()</defaultValue>
+    <description>ATEAM-1912: Assessment shows this field is not used</description>
+    <label>Original Case Opened</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_ES_Service_Report_Name__c</fullName>
+    <description>This field stores the names of service reports which need to be send. This should contain a unique set of characters which can be in attachment name and uniquely identify the document for sending. This can contain many names separated by comma</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field stores the names of service reports which need to be send. This should contain a unique set of characters which can be in attachment name and uniquely identify the document for sending. This can contain many names separated by comma</inlineHelpText>
+    <label>Service Report Name</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

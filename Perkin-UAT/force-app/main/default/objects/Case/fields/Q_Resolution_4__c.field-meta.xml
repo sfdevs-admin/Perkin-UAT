@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_Resolution_4__c</fullName>
+    <label>Q-Resolution 4</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Q_Resolution_3__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1CFR Part 11</fullName>
+                <default>false</default>
+                <label>1CFR Part 11</label>
+            </value>
+            <value>
+                <fullName>3rd Party Equipment</fullName>
+                <default>false</default>
+                <label>3rd Party Equipment</label>
+            </value>
+            <value>
+                <fullName>3rd Party Issue</fullName>
+                <default>false</default>
+                <label>3rd Party Issue</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Balance</fullName>
+                <default>false</default>
+                <label>Balance</label>
+            </value>
+            <value>
+                <fullName>Basket Sensor</fullName>
+                <default>false</default>
+                <label>Basket Sensor</label>
+            </value>
+            <value>
+                <fullName>Basket Turret</fullName>
+                <default>false</default>
+                <label>Basket Turret</label>
+            </value>
+            <value>
+                <fullName>BOM Issue/Error</fullName>
+                <default>false</default>
+                <label>BOM Issue/Error</label>
+            </value>
+            <value>
+                <fullName>Booster Pump</fullName>
+                <default>false</default>
+                <label>Booster Pump</label>
+            </value>
+            <value>
+                <fullName>Capacity</fullName>
+                <default>false</default>
+                <label>Capacity</label>
+            </value>
+            <value>
+                <fullName>Carrier Problems</fullName>
+                <default>false</default>
+                <label>Carrier Problems</label>
+            </value>
+            <value>
+                <fullName>CE</fullName>
+                <default>false</default>
+                <label>CE</label>
+            </value>
+            <value>
+                <fullName>Communication Error</fullName>
+                <default>false</default>
+                <label>Communication Error</label>
+            </value>
+            <value>
+                <fullName>Communication Failure</fullName>
+                <default>false</default>
+                <label>Communication Failure</label>
+            </value>
+            <value>
+                <fullName>Communication Issue</fullName>
+                <default>false</default>
+                <label>Communication Issue</label>
+            </value>
+            <value>
+                <fullName>Computer</fullName>
+                <default>false</default>
+                <label>Computer</label>
+            </value>
+            <value>
+                <fullName>Damage</fullName>
+                <default>false</default>
+                <label>Damage</label>
+            </value>
+            <value>
+                <fullName>Disk Problem</fullName>
+                <default>false</default>
+                <label>Disk Problem</label>
+            </value>
+            <value>
+                <fullName>Dispense Off-Center</fullName>
+                <default>false</default>
+                <label>Dispense Off-Center</label>
+            </value>
+            <value>
+                <fullName>Doc/Labeling</fullName>
+                <default>false</default>
+                <label>Doc/Labeling</label>
+            </value>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>Electrical Failure</fullName>
+                <default>false</default>
+                <label>Electrical Failure</label>
+            </value>
+            <value>
+                <fullName>Environmental Issue</fullName>
+                <default>false</default>
+                <label>Environmental Issue</label>
+            </value>
+            <value>
+                <fullName>Equipment Not Available</fullName>
+                <default>false</default>
+                <label>Equipment Not Available</label>
+            </value>
+            <value>
+                <fullName>External</fullName>
+                <default>false</default>
+                <label>External</label>
+            </value>
+            <value>
+                <fullName>Faulty Design</fullName>
+                <default>false</default>
+                <label>Faulty Design</label>
+            </value>
+            <value>
+                <fullName>FCC</fullName>
+                <default>false</default>
+                <label>FCC</label>
+            </value>
+            <value>
+                <fullName>Functional</fullName>
+                <default>false</default>
+                <label>Functional</label>
+            </value>
+            <value>
+                <fullName>Functional Failure</fullName>
+                <default>false</default>
+                <label>Functional Failure</label>
+            </value>
+            <value>
+                <fullName>Gripper Motor</fullName>
+                <default>false</default>
+                <label>Gripper Motor</label>
+            </value>
+            <value>
+                <fullName>High Risk</fullName>
+                <default>false</default>
+                <label>High Risk</label>
+            </value>
+            <value>
+                <fullName>Inadequate/Inaccurate</fullName>
+                <default>false</default>
+                <label>Inadequate/Inaccurate</label>
+            </value>
+            <value>
+                <fullName>Inadequate Test Plan</fullName>
+                <default>false</default>
+                <label>Inadequate Test Plan</label>
+            </value>
+            <value>
+                <fullName>Incoming Inspection</fullName>
+                <default>false</default>
+                <label>Incoming Inspection</label>
+            </value>
+            <value>
+                <fullName>Incorrectly Addressed</fullName>
+                <default>false</default>
+                <label>Incorrectly Addressed</label>
+            </value>
+            <value>
+                <fullName>Interface Issue</fullName>
+                <default>false</default>
+                <label>Interface Issue</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>ISO 9001</fullName>
+                <default>false</default>
+                <label>ISO 9001</label>
+            </value>
+            <value>
+                <fullName>Issue Unresolved</fullName>
+                <default>false</default>
+                <label>Issue Unresolved</label>
+            </value>
+            <value>
+                <fullName>Kinks</fullName>
+                <default>false</default>
+                <label>Kinks</label>
+            </value>
+            <value>
+                <fullName>Labelling</fullName>
+                <default>false</default>
+                <label>Labelling</label>
+            </value>
+            <value>
+                <fullName>Lack Of Procedure</fullName>
+                <default>false</default>
+                <label>Lack Of Procedure</label>
+            </value>
+            <value>
+                <fullName>Leaks</fullName>
+                <default>false</default>
+                <label>Leaks</label>
+            </value>
+            <value>
+                <fullName>Low Risk</fullName>
+                <default>false</default>
+                <label>Low Risk</label>
+            </value>
+            <value>
+                <fullName>Mechanical Failure</fullName>
+                <default>false</default>
+                <label>Mechanical Failure</label>
+            </value>
+            <value>
+                <fullName>Media Pump</fullName>
+                <default>false</default>
+                <label>Media Pump</label>
+            </value>
+            <value>
+                <fullName>Membrane</fullName>
+                <default>false</default>
+                <label>Membrane</label>
+            </value>
+            <value>
+                <fullName>Missing/Wrong Parts</fullName>
+                <default>false</default>
+                <label>Missing/Wrong Parts</label>
+            </value>
+            <value>
+                <fullName>Need For Service Bulletin</fullName>
+                <default>false</default>
+                <label>Need For Service Bulletin</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Non-Existent</fullName>
+                <default>false</default>
+                <label>Non-Existent</label>
+            </value>
+            <value>
+                <fullName>Not Following Doc Control</fullName>
+                <default>false</default>
+                <label>Not Following Doc Control</label>
+            </value>
+            <value>
+                <fullName>Not Following PDP</fullName>
+                <default>false</default>
+                <label>Not Following PDP</label>
+            </value>
+            <value>
+                <fullName>Not Within Customer Expectations</fullName>
+                <default>false</default>
+                <label>Not Within Customer Expectations</label>
+            </value>
+            <value>
+                <fullName>Not Within Zymark Spec</fullName>
+                <default>false</default>
+                <label>Not Within Zymark Spec</label>
+            </value>
+            <value>
+                <fullName>Nozzle Plate</fullName>
+                <default>false</default>
+                <label>Nozzle Plate</label>
+            </value>
+            <value>
+                <fullName>Packaging Design</fullName>
+                <default>false</default>
+                <label>Packaging Design</label>
+            </value>
+            <value>
+                <fullName>Pantograph</fullName>
+                <default>false</default>
+                <label>Pantograph</label>
+            </value>
+            <value>
+                <fullName>Part Interface/Fit</fullName>
+                <default>false</default>
+                <label>Part Interface/Fit</label>
+            </value>
+            <value>
+                <fullName>PCB</fullName>
+                <default>false</default>
+                <label>PCB</label>
+            </value>
+            <value>
+                <fullName>PM Issue</fullName>
+                <default>false</default>
+                <label>PM Issue</label>
+            </value>
+            <value>
+                <fullName>PO Issue</fullName>
+                <default>false</default>
+                <label>PO Issue</label>
+            </value>
+            <value>
+                <fullName>POTS</fullName>
+                <default>false</default>
+                <label>POTS</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Pricing Issue</fullName>
+                <default>false</default>
+                <label>Pricing Issue</label>
+            </value>
+            <value>
+                <fullName>Procedure Not Followed</fullName>
+                <default>false</default>
+                <label>Procedure Not Followed</label>
+            </value>
+            <value>
+                <fullName>Product Enhancements</fullName>
+                <default>false</default>
+                <label>Product Enhancements</label>
+            </value>
+            <value>
+                <fullName>Product Specification</fullName>
+                <default>false</default>
+                <label>Product Specification</label>
+            </value>
+            <value>
+                <fullName>Purchasing</fullName>
+                <default>false</default>
+                <label>Purchasing</label>
+            </value>
+            <value>
+                <fullName>Quote Error</fullName>
+                <default>false</default>
+                <label>Quote Error</label>
+            </value>
+            <value>
+                <fullName>Receiving Issue</fullName>
+                <default>false</default>
+                <label>Receiving Issue</label>
+            </value>
+            <value>
+                <fullName>Regulator</fullName>
+                <default>false</default>
+                <label>Regulator</label>
+            </value>
+            <value>
+                <fullName>Revision Issue</fullName>
+                <default>false</default>
+                <label>Revision Issue</label>
+            </value>
+            <value>
+                <fullName>S/W Patch/Service Pack Issue</fullName>
+                <default>false</default>
+                <label>S/W Patch/Service Pack Issue</label>
+            </value>
+            <value>
+                <fullName>Sample Pump</fullName>
+                <default>false</default>
+                <label>Sample Pump</label>
+            </value>
+            <value>
+                <fullName>Scheduling</fullName>
+                <default>false</default>
+                <label>Scheduling</label>
+            </value>
+            <value>
+                <fullName>Seals</fullName>
+                <default>false</default>
+                <label>Seals</label>
+            </value>
+            <value>
+                <fullName>Sensors</fullName>
+                <default>false</default>
+                <label>Sensors</label>
+            </value>
+            <value>
+                <fullName>Shipped Late</fullName>
+                <default>false</default>
+                <label>Shipped Late</label>
+            </value>
+            <value>
+                <fullName>Shipping Unreleased Product</fullName>
+                <default>false</default>
+                <label>Shipping Unreleased Product</label>
+            </value>
+            <value>
+                <fullName>Sinkers</fullName>
+                <default>false</default>
+                <label>Sinkers</label>
+            </value>
+            <value>
+                <fullName>SOM Booking Error</fullName>
+                <default>false</default>
+                <label>SOM Booking Error</label>
+            </value>
+            <value>
+                <fullName>Specification Error</fullName>
+                <default>false</default>
+                <label>Specification Error</label>
+            </value>
+            <value>
+                <fullName>Staff Knowledge</fullName>
+                <default>false</default>
+                <label>Staff Knowledge</label>
+            </value>
+            <value>
+                <fullName>Stockroom Error</fullName>
+                <default>false</default>
+                <label>Stockroom Error</label>
+            </value>
+            <value>
+                <fullName>Supplier Issue</fullName>
+                <default>false</default>
+                <label>Supplier Issue</label>
+            </value>
+            <value>
+                <fullName>Supplier Quality</fullName>
+                <default>false</default>
+                <label>Supplier Quality</label>
+            </value>
+            <value>
+                <fullName>Support Availability/Coordination</fullName>
+                <default>false</default>
+                <label>Support Availability/Coordination</label>
+            </value>
+            <value>
+                <fullName>Thermistors</fullName>
+                <default>false</default>
+                <label>Thermistors</label>
+            </value>
+            <value>
+                <fullName>Training Issue</fullName>
+                <default>false</default>
+                <label>Training Issue</label>
+            </value>
+            <value>
+                <fullName>Training Never Occurred</fullName>
+                <default>false</default>
+                <label>Training Never Occurred</label>
+            </value>
+            <value>
+                <fullName>Training Not Adequate</fullName>
+                <default>false</default>
+                <label>Training Not Adequate</label>
+            </value>
+            <value>
+                <fullName>Training Not Documented</fullName>
+                <default>false</default>
+                <label>Training Not Documented</label>
+            </value>
+            <value>
+                <fullName>UL</fullName>
+                <default>false</default>
+                <label>UL</label>
+            </value>
+            <value>
+                <fullName>Unusual Handling</fullName>
+                <default>false</default>
+                <label>Unusual Handling</label>
+            </value>
+            <value>
+                <fullName>Valves</fullName>
+                <default>false</default>
+                <label>Valves</label>
+            </value>
+            <value>
+                <fullName>Vendor/Supplier Issue</fullName>
+                <default>false</default>
+                <label>Vendor/Supplier Issue</label>
+            </value>
+            <value>
+                <fullName>Vessels</fullName>
+                <default>false</default>
+                <label>Vessels</label>
+            </value>
+            <value>
+                <fullName>Workmanship</fullName>
+                <default>false</default>
+                <label>Workmanship</label>
+            </value>
+            <value>
+                <fullName>Yes Inspection</fullName>
+                <default>false</default>
+                <label>Yes Inspection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

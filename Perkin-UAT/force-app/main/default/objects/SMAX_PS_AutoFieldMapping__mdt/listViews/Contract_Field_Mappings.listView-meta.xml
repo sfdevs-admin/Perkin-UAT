@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Field_Mappings</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>SMAX_PS_SObject__c</columns>
+    <columns>SMAX_PS_SourceField__c</columns>
+    <columns>SMAX_PS_SourceValue__c</columns>
+    <columns>SMAX_PS_TargetField__c</columns>
+    <columns>SMAX_PS_TargetValue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMAX_PS_SObject__c</field>
+        <operation>contains</operation>
+        <value>Contract</value>
+    </filters>
+    <label>Contract Field Mappings</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type__c</fullName>
+    <description>Marketing Activity Type</description>
+    <label>Activity Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tradeshows</fullName>
+                <default>false</default>
+                <label>Tradeshows</label>
+            </value>
+            <value>
+                <fullName>Web-cast</fullName>
+                <default>false</default>
+                <label>Web-cast</label>
+            </value>
+            <value>
+                <fullName>Virtual Booth</fullName>
+                <default>false</default>
+                <label>Virtual Booth</label>
+            </value>
+            <value>
+                <fullName>PKI Web-site</fullName>
+                <default>false</default>
+                <label>PKI Web-site</label>
+            </value>
+            <value>
+                <fullName>E-mail Campaign</fullName>
+                <default>false</default>
+                <label>E-mail Campaign</label>
+            </value>
+            <value>
+                <fullName>On-line Newsletter</fullName>
+                <default>false</default>
+                <label>On-line Newsletter</label>
+            </value>
+            <value>
+                <fullName>On-line BuyerGuides/Directories</fullName>
+                <default>false</default>
+                <label>On-line BuyerGuides/Directories</label>
+            </value>
+            <value>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+                <label>Seminar</label>
+            </value>
+            <value>
+                <fullName>Usergroups</fullName>
+                <default>false</default>
+                <label>Usergroups</label>
+            </value>
+            <value>
+                <fullName>Workshops</fullName>
+                <default>false</default>
+                <label>Workshops</label>
+            </value>
+            <value>
+                <fullName>Blitz</fullName>
+                <default>false</default>
+                <label>Blitz</label>
+            </value>
+            <value>
+                <fullName>Vendor Show</fullName>
+                <default>false</default>
+                <label>Vendor Show</label>
+            </value>
+            <value>
+                <fullName>Account Specific Event</fullName>
+                <default>false</default>
+                <label>Account Specific Event</label>
+            </value>
+            <value>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+                <label>Customer Event</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Promotional Items</fullName>
+                <default>false</default>
+                <label>Promotional Items</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Newsletter</fullName>
+                <default>false</default>
+                <label>Newsletter</label>
+            </value>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+                <label>Public Relations</label>
+            </value>
+            <value>
+                <fullName>BuyerGuides/Directories</fullName>
+                <default>false</default>
+                <label>BuyerGuides/Directories</label>
+            </value>
+            <value>
+                <fullName>Catalog</fullName>
+                <default>false</default>
+                <label>Catalog</label>
+            </value>
+            <value>
+                <fullName>ISR Outbound Call</fullName>
+                <default>false</default>
+                <label>ISR Outbound Call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

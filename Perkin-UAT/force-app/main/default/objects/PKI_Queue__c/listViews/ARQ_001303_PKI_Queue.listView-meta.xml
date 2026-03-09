@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_001303_PKI_Queue</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: GGM ASEAN LS SG ID MY PH VN BN</label>
+    <queue>ARQ_001239</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

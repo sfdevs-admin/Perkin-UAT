@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_open_date_exceeded__c</fullName>
+    <formula>TODAY() - 30 &gt; DATEVALUE(CreatedDate)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lead open date exceeded</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

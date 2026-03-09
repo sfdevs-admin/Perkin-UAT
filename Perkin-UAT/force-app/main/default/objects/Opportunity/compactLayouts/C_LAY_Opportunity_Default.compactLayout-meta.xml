@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_Opportunity_Default</fullName>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>CloseDate</fields>
+    <fields>Amount</fields>
+    <fields>OwnerId</fields>
+    <fields>StageName</fields>
+    <fields>Opportunity_Number__c</fields>
+    <fields>fxProductLines__c</fields>
+    <fields>fxRecordTypeName__c</fields>
+    <fields>NextStep</fields>
+    <label>C.LAY Opportunity Default</label>
+</CompactLayout>

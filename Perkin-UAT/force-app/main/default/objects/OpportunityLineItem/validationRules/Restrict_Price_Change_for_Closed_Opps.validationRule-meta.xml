@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Price_Change_for_Closed_Opps</fullName>
+    <active>true</active>
+    <description>Restrict price change when Opportunity reaches &#39;Closed - Won&#39; stage.</description>
+    <errorConditionFormula>AND(  ISPICKVAL( Opportunity.StageName , &quot;Stage 6 - Implement (Closed)&quot;)  ,  OR(ISCHANGED( UnitPrice ),  ISCHANGED( Quantity ) ) ,   $Profile.Name = &quot;Dealer&quot; )</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_PRODUCT_004: Cant Modify Product Price or Quantity for Closed Opportunities.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Informatics Cloud Operations</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>InProgress%3AEscalated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>InProgress%3AWaiting for Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Incident</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Maintenance</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Need FineTune</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New Cloud Ops</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Open</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending CAB Approval</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Service Request</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

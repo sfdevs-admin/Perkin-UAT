@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Workflow_criteria_met_once__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Opportunity Workflow Field. This field keeps a check on the workflow from firing second time when the record is considered new during re parenting (e.g. associating the opportunity to new pricebook). This field has been referenced in 22 Closed Won/Lost Opportunity Workflows with Email Alerts.</description>
+    <label>Workflow criteria met once?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

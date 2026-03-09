@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PL_My_OPEN_Opportunities_SOS_PKI_SPI</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>PAIN__c</columns>
+    <columns>POWER__c</columns>
+    <columns>VISION__c</columns>
+    <columns>VALUE__c</columns>
+    <columns>COLLABORATE__c</columns>
+    <columns>COMPELLING_REASON_TO_ACT_CRTA__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Pipeline,Best Case,Commit</value>
+    </filters>
+    <label>My OPEN Opps w/ SOS Details (excl. INF)</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

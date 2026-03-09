@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Contact_Merge_Set_Flag</fullName>
+    <active>false</active>
+    <description>S-693772/ Cannot create a contact until MergeFlag checkbox is to TRUE.</description>
+    <errorConditionFormula>Account.Merged_Flag__c  &lt;&gt; true</errorConditionFormula>
+    <errorMessage>V.RULE_CONTACT_021:Cannot create a contact until MergeFlag checkbox is to TRUE.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Hierarchy_Type__c</fullName>
+    <inlineHelpText>Use this field to classify how this Account is related to other Accounts that are within the same university or company.</inlineHelpText>
+    <label>Account Hierarchy Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Company - Global Headquarters</fullName>
+                <default>false</default>
+                <label>Company - Global Headquarters</label>
+            </value>
+            <value>
+                <fullName>Company - Domestic Headquarters</fullName>
+                <default>false</default>
+                <label>Company - Domestic Headquarters</label>
+            </value>
+            <value>
+                <fullName>Company - Headquarters, Internal Location</fullName>
+                <default>false</default>
+                <label>Company - Headquarters, Internal Location</label>
+            </value>
+            <value>
+                <fullName>Company - Site</fullName>
+                <default>false</default>
+                <label>Company - Site</label>
+            </value>
+            <value>
+                <fullName>Company - Site, Internal Location</fullName>
+                <default>false</default>
+                <label>Company - Site, Internal Location</label>
+            </value>
+            <value>
+                <fullName>Univeristy - Main Campus</fullName>
+                <default>false</default>
+                <label>Univeristy - Main Campus</label>
+            </value>
+            <value>
+                <fullName>University - Main Campus, Building</fullName>
+                <default>false</default>
+                <label>University - Main Campus, Building</label>
+            </value>
+            <value>
+                <fullName>University - Main Campus, Office</fullName>
+                <default>false</default>
+                <label>University - Main Campus, Office</label>
+            </value>
+            <value>
+                <fullName>University - Branch Campus</fullName>
+                <default>false</default>
+                <label>University - Branch Campus</label>
+            </value>
+            <value>
+                <fullName>University - Branch Campus, Building</fullName>
+                <default>false</default>
+                <label>University - Branch Campus, Building</label>
+            </value>
+            <value>
+                <fullName>University - Branch Campus, Office</fullName>
+                <default>false</default>
+                <label>University - Branch Campus, Office</label>
+            </value>
+            <value>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+                <label>Subsidiary</label>
+            </value>
+            <value>
+                <fullName>Other - Duplicate Account</fullName>
+                <default>false</default>
+                <label>Other - Duplicate Account</label>
+            </value>
+            <value>
+                <fullName>Other - Payee</fullName>
+                <default>false</default>
+                <label>Other - Payee</label>
+            </value>
+            <value>
+                <fullName>Other - Shipping Dock</fullName>
+                <default>false</default>
+                <label>Other - Shipping Dock</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

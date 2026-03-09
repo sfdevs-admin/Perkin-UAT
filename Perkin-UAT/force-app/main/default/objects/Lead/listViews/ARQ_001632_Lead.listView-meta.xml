@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_001632_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: EMEA/DE:GC,GCM,LC,LCA,LCM,MBA</label>
+    <queue>ARQ_001321</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

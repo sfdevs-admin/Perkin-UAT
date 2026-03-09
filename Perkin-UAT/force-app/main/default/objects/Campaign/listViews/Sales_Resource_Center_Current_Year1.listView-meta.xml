@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Resource_Center_Current_Year1</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Business_Unit__c</columns>
+    <columns>Campaign_Leader__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Territory__c</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>CAMPAIGN.NUM_CONVERTED_LEADS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Business_Unit__c</field>
+        <operation>equals</operation>
+        <value>Bio-discovery,LST</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>12/31/2011</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>12/31/2012</value>
+    </filters>
+    <label>Sales Resource Center - Previous Year</label>
+    <language>en_US</language>
+</ListView>

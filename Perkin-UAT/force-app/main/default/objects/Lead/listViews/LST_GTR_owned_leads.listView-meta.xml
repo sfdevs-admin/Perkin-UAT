@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_GTR_owned_leads</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Next_Action_Date_INF__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Secondary_Qualification__c</columns>
+    <columns>Requested_Interests__c</columns>
+    <columns>Global_Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Standard_Default</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>Americas</value>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>NGS,BTX,MFT,AWS,ARS,SPS</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Middleton,Coleman,Paragas,Ambrose,Kestenbaum</value>
+    </filters>
+    <label>LST GTR owned leads</label>
+    <language>en_US</language>
+</ListView>

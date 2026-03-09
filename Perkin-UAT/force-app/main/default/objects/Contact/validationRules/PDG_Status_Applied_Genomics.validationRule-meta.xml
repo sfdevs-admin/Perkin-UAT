@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDG_Status_Applied_Genomics</fullName>
+    <active>false</active>
+    <description>Ensures that the correct Status - Applied Genomics is used at the appropriate Lead Qualification Stages.</description>
+    <errorConditionFormula>AND 
+( 
+$User.Id!=&quot;0053A00000DPNX3&quot;, 
+OR 
+( 
+ISCHANGED(Status_Applied_Genomics__c) 
+&amp;&amp; 
+ISPICKVAL(Status_Applied_Genomics__c, &quot;Open&quot;), 
+NOT 
+( 
+OR 
+( 
+ISPICKVAL(LQS_Applied_Genomics__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL(LQS_Applied_Genomics__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL(LQS_Applied_Genomics__c, &quot;Turnback&quot;), 
+ISPICKVAL(LQS_Applied_Genomics__c, &quot;&quot;) 
+) 
+) 
+&amp;&amp; 
+ISCHANGED(Status_Applied_Genomics__c) 
+&amp;&amp; 
+CONTAINS(TEXT(Status_Applied_Genomics__c), &quot;Turnback&quot;), 
+NOT 
+( 
+OR 
+( 
+ISPICKVAL(LQS_Applied_Genomics__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL(LQS_Applied_Genomics__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL(LQS_Applied_Genomics__c, &quot;Rejected&quot;), 
+ISPICKVAL(LQS_Applied_Genomics__c, &quot;&quot;) 
+) 
+) 
+&amp;&amp; 
+ISCHANGED(Status_Applied_Genomics__c) 
+&amp;&amp; 
+CONTAINS(TEXT(Status_Applied_Genomics__c), &quot;Reject&quot;) 
+) 
+)</errorConditionFormula>
+    <errorDisplayField>Status_Applied_Genomics__c</errorDisplayField>
+    <errorMessage>V.RULE_CONTACTS_002: The Status - Applied Genomics field cannot be updated to this value at the current LQS - Applied Genomics.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interaction_Type__c</fullName>
+    <inlineHelpText>Accelerator form: Request-A-Quote or Contact-Us form on PKI website.
+Ad-hoc Hot form : One-off promotional offers (End of quarter discount) .
+Ad-how Warm form: One-off marketing campaigns .
+List Upload : From an event or 3rd party campaign.
+Progressive Form : Form on PKI website for accessing select Content (app notes, case studies, recorded webinars.. etc..) .
+Warm Scoring  : lead or Contact hit a scoring threshold.
+Webinar : For PKI Integrated webinars automating the lead capture process.</inlineHelpText>
+    <label>Interaction Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_416_Interaction_Type</valueSetName>
+    </valueSet>
+</CustomField>

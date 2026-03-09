@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxHasContactAccount__c</fullName>
+    <description>Formula helps make it easy to decide to show the Quick Create Opp Panel</description>
+    <formula>NOT (ISBLANK( Contact__c )) &amp;&amp;
+NOT (ISBLANK( Account__c)) &amp;&amp;
+ISBLANK( Opportunity__c) &amp;&amp;
+ LEFT(OwnerId,3) =&quot;005&quot;</formula>
+    <inlineHelpText>Formula helps make it easy to decide to show the Quick Create Opp Panel</inlineHelpText>
+    <label>fxHasContactAccount</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

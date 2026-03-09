@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Stakeholder_DecisionMaker_Influencer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Key Stakeholder-DecisionMaker/Influencer</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Opportunities (Key Stakeholder-DecisionMaker/Influencer)</relationshipLabel>
+    <relationshipName>Opportunities3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

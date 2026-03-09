@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Informatics_Support_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>INF_Application_Name__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>INF_Account_Country__c</columns>
+    <columns>INF_Account_Gold_Support__c</columns>
+    <columns>INF_Contact_Gold_Support__c</columns>
+    <columns>INF_Hosted_Solutions__c</columns>
+    <columns>External_Email_Inbox__c</columns>
+    <columns>Last_Reply_By_Rep_Mins__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Informatics Support</label>
+    <queue>ARQ_000591</queue>
+    <sharedTo>
+        <group>ARQ_000925</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_Dx_APAC_Region__c</fullName>
+    <description>Territory Code</description>
+    <label>Dx APAC Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Australia/New Zealand</fullName>
+                <default>false</default>
+                <label>Australia/New Zealand</label>
+            </value>
+            <value>
+                <fullName>Cambodia</fullName>
+                <default>false</default>
+                <label>Cambodia</label>
+            </value>
+            <value>
+                <fullName>Greater China – China</fullName>
+                <default>false</default>
+                <label>Greater China – China</label>
+            </value>
+            <value>
+                <fullName>Greater China – Taiwan</fullName>
+                <default>false</default>
+                <label>Greater China – Taiwan</label>
+            </value>
+            <value>
+                <fullName>Greater China – Hong Kong</fullName>
+                <default>false</default>
+                <label>Greater China – Hong Kong</label>
+            </value>
+            <value>
+                <fullName>Indonesia</fullName>
+                <default>false</default>
+                <label>Indonesia</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Korea</fullName>
+                <default>false</default>
+                <label>Korea</label>
+            </value>
+            <value>
+                <fullName>Laos</fullName>
+                <default>false</default>
+                <label>Laos</label>
+            </value>
+            <value>
+                <fullName>Malaysia</fullName>
+                <default>false</default>
+                <label>Malaysia</label>
+            </value>
+            <value>
+                <fullName>Myanmar</fullName>
+                <default>false</default>
+                <label>Myanmar</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Philippines</fullName>
+                <default>false</default>
+                <label>Philippines</label>
+            </value>
+            <value>
+                <fullName>Singapore</fullName>
+                <default>false</default>
+                <label>Singapore</label>
+            </value>
+            <value>
+                <fullName>Thailand</fullName>
+                <default>false</default>
+                <label>Thailand</label>
+            </value>
+            <value>
+                <fullName>Vietnam</fullName>
+                <default>false</default>
+                <label>Vietnam</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

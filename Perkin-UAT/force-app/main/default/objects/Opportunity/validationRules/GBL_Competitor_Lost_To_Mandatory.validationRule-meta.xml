@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Competitor_Lost_To_Mandatory</fullName>
+    <active>true</active>
+    <description>Please enter the competitor lost to.</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c,
+AND(ISPICKVAL( StageName, &quot;Closed Lost&quot;), 
+ ISPICKVAL( PKI_GBL_Competitor_Lost_To__c ,&quot;&quot;),
+  Owner.ProfileId  = &#39;00e30000000tfcwAAA&#39;)
+)</errorConditionFormula>
+    <errorDisplayField>PKI_GBL_Competitor_Lost_To__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_010: Please enter the competitor lost to.</errorMessage>
+</ValidationRule>

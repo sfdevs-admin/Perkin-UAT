@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Service_Alert_PL_Emails</fullName>
+    <columns>DeveloperName</columns>
+    <columns>SMAX_PS_Product_Line__c</columns>
+    <columns>SMAX_PS_Ignore_Product_Line__c</columns>
+    <columns>SMAX_PS_Email_Addresses__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Service Alert PL Emails</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_Fields_for_Stage</fullName>
+    <active>false</active>
+    <description>Determine if there are missing fields for stages 0 to 7 on PKi Sales Record Type</description>
+    <errorConditionFormula>/*Legacy Opp-open=rules apply
+  Legacy Opp-closed=rules not apply
+  New Opp = rules apply*/
+  
+AND( 
+     NOT($Permission.C_PERM_8020_Bypass_Opp_V_RULE) 
+   , OR(
+        fxRecordTypeName__c = &quot;PKI SPI Sales Process&quot; 
+       ,fxRecordTypeName__c = &quot;PKI SPI Sales Process For Dealers&quot;
+       )
+   , OR(
+        AND( /*New opps-all stages*/
+           DateValue(CreatedDate) &gt;= $Setup.CSET_9900__c.OppCutoverDate__c 
+         , fxStageNumber__c &lt;=7
+         , fxStageNumber__c &gt; fxStageNumberToAdvance__c
+	    )
+      , AND( /*legacy opps-open*/  
+            DateValue(CreatedDate) &lt; $Setup.CSET_9900__c.OppCutoverDate__c 	  
+         ,  fxStageNumber__c &lt;=6
+         ,  fxStageNumber__c &gt; fxStageNumberToAdvance__c
+         ,  ISCHANGED(StageName)
+	   )	   
+        )
+  )</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_070: You are missing fields to advance to the stage selected. Review the section called &quot;Fields to Complete&quot; and fill in missing fields.</errorMessage>
+</ValidationRule>

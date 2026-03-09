@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_WANTS__c</fullName>
+    <inlineHelpText>The WANT is where the customer desires to be at….the difference is the GAP and this is where the rep. must focus.</inlineHelpText>
+    <label>Customer WANTS</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

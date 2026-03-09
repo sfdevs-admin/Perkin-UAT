@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Renew_Status__c</fullName>
+    <label>B2B Renew Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Step 1: Order and Order Items Creation</fullName>
+                <default>false</default>
+                <label>Step 1: Order and Order Items Creation</label>
+            </value>
+            <value>
+                <fullName>Step 2: Shipping Calculations</fullName>
+                <default>false</default>
+                <label>Step 2: Shipping Calculations</label>
+            </value>
+            <value>
+                <fullName>Step 3: Tax Calculations</fullName>
+                <default>false</default>
+                <label>Step 3: Tax Calculations</label>
+            </value>
+            <value>
+                <fullName>Step 4: Process Payment</fullName>
+                <default>false</default>
+                <label>Step 4: Process Payment</label>
+            </value>
+            <value>
+                <fullName>Step 5: Subscription Renewed</fullName>
+                <default>false</default>
+                <label>Step 5: Subscription Renewed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

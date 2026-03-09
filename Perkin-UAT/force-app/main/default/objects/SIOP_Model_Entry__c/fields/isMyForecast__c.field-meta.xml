@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isMyForecast__c</fullName>
+    <description>formula to determine if the forceast owner is the same as the running user. Used for Views/Reports</description>
+    <formula>Region_Forecast_Owner__c =  $User.FirstName &amp;&quot; &quot; &amp; $User.LastName</formula>
+    <inlineHelpText>Is the Forecast Owner the running user?</inlineHelpText>
+    <label>isMyForecast</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

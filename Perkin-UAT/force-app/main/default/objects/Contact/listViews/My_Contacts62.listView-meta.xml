@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Contacts62</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.LEAD_SOURCE</columns>
+    <columns>Requested_Interests__c</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <label>*My Contacts</label>
+    <language>en_US</language>
+</ListView>

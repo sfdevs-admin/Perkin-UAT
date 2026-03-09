@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Karyotype_88262_Chrom_analysis__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Karyotype - 88262 Chrom analysis (15-20 cells/2 ktype)</inlineHelpText>
+    <label>Karyotype - 88262 Chrom analysis</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

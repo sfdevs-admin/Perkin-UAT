@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Submitted_tickets</fullName>
+    <columns>NAME</columns>
+    <columns>HelpDesk_Email__c</columns>
+    <columns>Status__c</columns>
+    <columns>Problem_type__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Submitted tickets to IT HelpDesk</label>
+    <language>en_US</language>
+</ListView>

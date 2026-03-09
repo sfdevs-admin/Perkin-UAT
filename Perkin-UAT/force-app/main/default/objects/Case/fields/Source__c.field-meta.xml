@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <description>Used for Customer Care Complaint</description>
+    <label>Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SE01       Customer Care Error</fullName>
+                <default>false</default>
+                <label>SE01       Customer Care Error</label>
+            </value>
+            <value>
+                <fullName>SE02       One Source Service Admin Error</fullName>
+                <default>false</default>
+                <label>SE02       One Source Service Admin Error</label>
+            </value>
+            <value>
+                <fullName>SE03       Customer Error</fullName>
+                <default>false</default>
+                <label>SE03       Customer Error</label>
+            </value>
+            <value>
+                <fullName>SE04       Sales Rep Error</fullName>
+                <default>false</default>
+                <label>SE04       Sales Rep Error</label>
+            </value>
+            <value>
+                <fullName>SE05       Field Service Engineer Error</fullName>
+                <default>false</default>
+                <label>SE05       Field Service Engineer Error</label>
+            </value>
+            <value>
+                <fullName>SE06       SAP Master Database error</fullName>
+                <default>false</default>
+                <label>SE06       SAP Master Database error</label>
+            </value>
+            <value>
+                <fullName>SE07       Other &quot;described in text&quot;</fullName>
+                <default>false</default>
+                <label>SE07       Other &quot;described in text&quot;</label>
+            </value>
+            <value>
+                <fullName>SE08       Manufacturing Error - Do Not Use</fullName>
+                <default>false</default>
+                <label>SE08       Manufacturing Error - Do Not Use</label>
+            </value>
+            <value>
+                <fullName>SE09       Packaging Error - Do Not Use</fullName>
+                <default>false</default>
+                <label>SE09       Packaging Error - Do Not Use</label>
+            </value>
+            <value>
+                <fullName>SE10       Shipping Error - Do Not Use</fullName>
+                <default>false</default>
+                <label>SE10       Shipping Error - Do Not Use</label>
+            </value>
+            <value>
+                <fullName>SE11       Sent to QMS</fullName>
+                <default>false</default>
+                <label>SE11       Sent to QMS</label>
+            </value>
+            <value>
+                <fullName>SE12       EU only – Dispute</fullName>
+                <default>false</default>
+                <label>SE12       EU only – Dispute</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

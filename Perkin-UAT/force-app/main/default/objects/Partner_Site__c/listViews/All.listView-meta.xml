@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>PKI_SAP_Name_1__c</columns>
+    <columns>PKI_SAP_Name_2__c</columns>
+    <columns>PKI_SAP_Customer_Number__c</columns>
+    <columns>PKI_SAP_Function__c</columns>
+    <columns>PKI_SAP_Street__c</columns>
+    <columns>PKI_SAP_City__c</columns>
+    <columns>PKI_SAP_Region__c</columns>
+    <columns>PKI_SAP_Postal_Code__c</columns>
+    <columns>PKI_SAP_Country_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2012_ASLS_Tradeshows</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>AMOUNT_WON</columns>
+    <columns>Opportunity_Conversion_Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>ASLS-TS</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2012</value>
+    </filters>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>Americas,Canada,US-EAST,US-WEST</value>
+    </filters>
+    <label>2012 ASLS Tradeshows</label>
+    <language>en_US</language>
+</ListView>

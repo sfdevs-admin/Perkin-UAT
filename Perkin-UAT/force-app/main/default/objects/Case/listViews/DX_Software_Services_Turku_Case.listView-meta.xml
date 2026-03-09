@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Software_Services_Turku_Case</fullName>
+    <columns>Action__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>TypeOfCase__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>External_Email_Inbox__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>Strategic_Key_Account__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notEqual</operation>
+        <value>TRASH CASES</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Merged,Closed</value>
+    </filters>
+    <label>3 Software Services Turku Unassigned</label>
+    <queue>ARQ_000551</queue>
+    <sharedTo>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Training_MFT</fullName>
+    <filterScope>Queue</filterScope>
+    <label>LST-Training-MFT</label>
+    <language>en_US</language>
+    <queue>ARQ_000637</queue>
+    <sharedTo>
+        <group>ARQ_000975</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Master_Recently_Updated</fullName>
+    <columns>NAME</columns>
+    <columns>PriceBook_Name__c</columns>
+    <columns>Product_Number__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Amount__c</columns>
+    <columns>External_Id__c</columns>
+    <columns>fxAutoID__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LAST_UPDATE</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:5</value>
+    </filters>
+    <label>Price Master (Recently Updated)</label>
+</ListView>

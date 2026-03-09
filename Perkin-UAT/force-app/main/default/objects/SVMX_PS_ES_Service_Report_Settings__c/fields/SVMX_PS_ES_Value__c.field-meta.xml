@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_ES_Value__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This holds if the functionality is on or off</description>
+    <inlineHelpText>This holds if the functionality is on or off</inlineHelpText>
+    <label>Value</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

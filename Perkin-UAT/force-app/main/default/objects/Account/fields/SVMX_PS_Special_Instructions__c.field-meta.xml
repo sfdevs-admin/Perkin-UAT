@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Special_Instructions__c</fullName>
+    <description>Enter special site access requirements for an Installed Product, such as protective equipment needed, security clearance, unique access requirements, etc.</description>
+    <inlineHelpText>Enter special site access requirements for an Installed Product, such as protective equipment needed, security clearance, unique access requirements, etc.</inlineHelpText>
+    <label>Special Service Instructions</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>8</visibleLines>
+</CustomField>

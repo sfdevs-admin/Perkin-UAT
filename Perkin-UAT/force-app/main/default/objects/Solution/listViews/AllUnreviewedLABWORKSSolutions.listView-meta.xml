@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllUnreviewedLABWORKSSolutions</fullName>
+    <columns>SOLUTION.SOLUTION_NUMBER</columns>
+    <columns>SOLUTION.ISSUE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>SOLUTION.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SOLUTION.STATUS_CODE</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>SOLUTION.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Solution.LabworksSolution</value>
+    </filters>
+    <label>UNREVIEWED LABWORKS Solutions</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000956</group>
+    </sharedTo>
+</ListView>

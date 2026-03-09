@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Depth__c</fullName>
+    <description>Used to select the depth for products. Perk- 75</description>
+    <label>Depth</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>30.0 cm</fullName>
+                <default>false</default>
+                <label>30.0 cm</label>
+            </value>
+            <value>
+                <fullName>44.0 cm</fullName>
+                <default>false</default>
+                <label>44.0 cm</label>
+            </value>
+            <value>
+                <fullName>61.0 cm</fullName>
+                <default>false</default>
+                <label>61.0 cm</label>
+            </value>
+            <value>
+                <fullName>72.0 cm</fullName>
+                <default>false</default>
+                <label>72.0 cm</label>
+            </value>
+            <value>
+                <fullName>85.0 cm</fullName>
+                <default>false</default>
+                <label>85.0 cm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

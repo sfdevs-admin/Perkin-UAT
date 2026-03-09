@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Rejected_Reason__c</fullName>
+    <label>Rejected Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FSE resolved after alert was raised</fullName>
+                <default>false</default>
+                <label>FSE resolved after alert was raised</label>
+            </value>
+            <value>
+                <fullName>Wrong alert type (parts availability or replacement)</fullName>
+                <default>false</default>
+                <label>Wrong alert type (parts availability or replacement)</label>
+            </value>
+            <value>
+                <fullName>Insufficient details provided for Problem Description</fullName>
+                <default>false</default>
+                <label>Insufficient details provided for Problem Description</label>
+            </value>
+            <value>
+                <fullName>Insufficient details provided for Actions Taken</fullName>
+                <default>false</default>
+                <label>Insufficient details provided for Actions Taken</label>
+            </value>
+            <value>
+                <fullName>Environment Operating conditions</fullName>
+                <default>false</default>
+                <label>Environment Operating conditions</label>
+            </value>
+            <value>
+                <fullName>Lack of service documentation in ALERT</fullName>
+                <default>false</default>
+                <label>Lack of service documentation in ALERT</label>
+            </value>
+            <value>
+                <fullName>Problem can be easily rectified with parts (Cosmetic or operation)</fullName>
+                <default>false</default>
+                <label>Problem can be easily rectified with parts (Cosmetic or operation)</label>
+            </value>
+            <value>
+                <fullName>Sales Demo or used equipment</fullName>
+                <default>false</default>
+                <label>Sales Demo or used equipment</label>
+            </value>
+            <value>
+                <fullName>Instrument replacement will not correct issue (Application, Environment, Power, Network,  or PC Clone)</fullName>
+                <default>false</default>
+                <label>Instrument replacement will not correct issue (Application, Environment, Power, Network,  or PC Clone)</label>
+            </value>
+            <value>
+                <fullName>Service Specialist not involved (resources not exhausted)</fullName>
+                <default>false</default>
+                <label>Service Specialist not involved (resources not exhausted)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

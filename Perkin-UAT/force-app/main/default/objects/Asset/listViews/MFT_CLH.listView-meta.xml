@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MFT_CLH</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Contact_Country__c</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>equals</operation>
+        <value>44-CLH,45-MFT</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notContain</operation>
+        <value>Caliper Life</value>
+    </filters>
+    <label>MFT/CLH - N. Am</label>
+    <language>en_US</language>
+</ListView>

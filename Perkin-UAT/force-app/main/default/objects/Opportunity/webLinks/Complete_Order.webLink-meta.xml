@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complete_Order</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Complete Order</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/18.0/connection.js&quot;)}
+
+var StageValue= &quot;{!Opportunity.StageName}&quot;;
+var profile = &quot;{!$Profile.Name}&quot;;
+ if (StageValue == &#39;Stage 6 - Implement (Closed)&#39; &amp;&amp; (profile==&#39;Informatics Operations&#39;|| profile==&#39;System Administrator&#39;))
+{
+sforce.connection.query(&quot;SELECT Id,Order_Processing_Status_INF__c,Name,StageName FROM Opportunity where Id= &#39;{!Opportunity.Id}&#39;&quot;,{onSuccess: handleSuccess,onFailure: handleFailure});
+function handleSuccess(queryresult)
+{    
+    try
+    {
+    records = queryresult.getArray(&quot;records&quot;);        
+                records[0].Id=&#39;{!Opportunity.Id}&#39;;
+                records[0].StageName=&#39;Closed Won&#39;;
+                records[0].Order_Processing_Status_INF__c=&#39;Completed&#39;;
+                var uprec = sforce.connection.update(records);
+        if (uprec[0].getBoolean(&quot;success&quot;))     
+        {            
+            window.location.reload();
+                    }     
+        else 
+        {
+            alert(uprec[0]);
+        }        
+       }
+    catch(error)
+    {
+        alert(error);
+    }
+}
+function handleFailure(error)
+{
+    alert(error);
+}
+}
+else
+{
+alert(&quot;Invalid Operation&quot;);
+}</url>
+</WebLink>

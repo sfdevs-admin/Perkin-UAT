@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GROW_Leads_test</fullName>
+    <booleanFilter>(1 AND 2 AND 3)</booleanFilter>
+    <columns>Source__c</columns>
+    <columns>Employee_Email__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.FIRST_NAME</columns>
+    <columns>LEAD.LAST_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Service Generated Lead</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Employee_Email__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>GROW Leads test</label>
+    <sharedTo />
+</ListView>

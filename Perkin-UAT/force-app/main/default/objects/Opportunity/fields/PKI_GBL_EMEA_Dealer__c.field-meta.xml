@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_GBL_EMEA_Dealer__c</fullName>
+    <label>EMEA Dealer or Distributor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABC</fullName>
+                <default>false</default>
+                <label>ABC</label>
+            </value>
+            <value>
+                <fullName>Americas</fullName>
+                <default>false</default>
+                <label>Americas</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>EMEAI</fullName>
+                <default>false</default>
+                <label>EMEAI</label>
+            </value>
+            <value>
+                <fullName>PAC</fullName>
+                <default>false</default>
+                <label>PAC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

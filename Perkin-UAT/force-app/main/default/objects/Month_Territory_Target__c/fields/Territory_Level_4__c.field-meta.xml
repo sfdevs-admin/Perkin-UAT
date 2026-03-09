@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Level_4__c</fullName>
+    <label>Territory Level 4</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Territory_Level_3__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EH US Consumables Inside Sales Leader</fullName>
+                <default>false</default>
+                <label>EH US Consumables Inside Sales Leader</label>
+            </value>
+            <value>
+                <fullName>EU AS Sales Development &amp; Marketing</fullName>
+                <default>false</default>
+                <label>EU AS Sales Development &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>EU Export Sales Leader</fullName>
+                <default>false</default>
+                <label>EU Export Sales Leader</label>
+            </value>
+            <value>
+                <fullName>EU Sales Operations &amp; Marketing Ldr</fullName>
+                <default>false</default>
+                <label>EU Sales Operations &amp; Marketing Ldr</label>
+            </value>
+            <value>
+                <fullName>NA AS Product Specialists</fullName>
+                <default>false</default>
+                <label>NA AS Product Specialists</label>
+            </value>
+            <value>
+                <fullName>US10 Inside Sales Leader</fullName>
+                <default>false</default>
+                <label>US10 Inside Sales Leader</label>
+            </value>
+            <value>
+                <fullName>EBNLX Access</fullName>
+                <default>false</default>
+                <label>EBNLX Access</label>
+            </value>
+            <value>
+                <fullName>EDACH Access Territory</fullName>
+                <default>false</default>
+                <label>EDACH Access Territory</label>
+            </value>
+            <value>
+                <fullName>EES2 Access</fullName>
+                <default>false</default>
+                <label>EES2 Access</label>
+            </value>
+            <value>
+                <fullName>EFR2 Access</fullName>
+                <default>false</default>
+                <label>EFR2 Access</label>
+            </value>
+            <value>
+                <fullName>EGB2 Access</fullName>
+                <default>false</default>
+                <label>EGB2 Access</label>
+            </value>
+            <value>
+                <fullName>EIT2 Access</fullName>
+                <default>false</default>
+                <label>EIT2 Access</label>
+            </value>
+            <value>
+                <fullName>ENOR Nordics Access</fullName>
+                <default>false</default>
+                <label>ENOR Nordics Access</label>
+            </value>
+            <value>
+                <fullName>Liechtenstein Account Access</fullName>
+                <default>false</default>
+                <label>Liechtenstein Account Access</label>
+            </value>
+            <value>
+                <fullName>Americas SVC Rev OneSource Director</fullName>
+                <default>false</default>
+                <label>Americas SVC Rev OneSource Director</label>
+            </value>
+            <value>
+                <fullName>EH Global Sales &amp; Service</fullName>
+                <default>false</default>
+                <label>EH Global Sales &amp; Service</label>
+            </value>
+            <value>
+                <fullName>Emerging Diagnostics</fullName>
+                <default>false</default>
+                <label>Emerging Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Emerging Technologies - DNA</fullName>
+                <default>false</default>
+                <label>Emerging Technologies - DNA</label>
+            </value>
+            <value>
+                <fullName>Labworks Global Manager</fullName>
+                <default>false</default>
+                <label>Labworks Global Manager</label>
+            </value>
+            <value>
+                <fullName>VP Bio-discovery Global Sales</fullName>
+                <default>false</default>
+                <label>VP Bio-discovery Global Sales</label>
+            </value>
+            <value>
+                <fullName>VP Bio-Discovery Global Sales (Redundant)</fullName>
+                <default>false</default>
+                <label>VP Bio-Discovery Global Sales (Redundant)</label>
+            </value>
+            <value>
+                <fullName>VP Dx Global Sales</fullName>
+                <default>false</default>
+                <label>VP Dx Global Sales</label>
+            </value>
+            <value>
+                <fullName>VP GM OneSource LSS</fullName>
+                <default>false</default>
+                <label>VP GM OneSource LSS</label>
+            </value>
+            <value>
+                <fullName>VP Informatics Team LST</fullName>
+                <default>false</default>
+                <label>VP Informatics Team LST</label>
+            </value>
+            <value>
+                <fullName>VP Sales PAC RIM</fullName>
+                <default>false</default>
+                <label>VP Sales PAC RIM</label>
+            </value>
+            <value>
+                <fullName>VP South America, India, EMEA</fullName>
+                <default>false</default>
+                <label>VP South America, India, EMEA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>EH - Holding Area - To be removed</controllingFieldValue>
+            <valueName>EH US Consumables Inside Sales Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH - Holding Area - To be removed</controllingFieldValue>
+            <valueName>EU AS Sales Development &amp; Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH - Holding Area - To be removed</controllingFieldValue>
+            <valueName>EU Export Sales Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH - Holding Area - To be removed</controllingFieldValue>
+            <valueName>EU Sales Operations &amp; Marketing Ldr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH - Holding Area - To be removed</controllingFieldValue>
+            <valueName>NA AS Product Specialists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH - Holding Area - To be removed</controllingFieldValue>
+            <valueName>US10 Inside Sales Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Forecasting Access Territories</controllingFieldValue>
+            <valueName>EBNLX Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Forecasting Access Territories</controllingFieldValue>
+            <valueName>EDACH Access Territory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Forecasting Access Territories</controllingFieldValue>
+            <valueName>EES2 Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Forecasting Access Territories</controllingFieldValue>
+            <valueName>EFR2 Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Forecasting Access Territories</controllingFieldValue>
+            <valueName>EGB2 Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Forecasting Access Territories</controllingFieldValue>
+            <valueName>EIT2 Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Forecasting Access Territories</controllingFieldValue>
+            <valueName>ENOR Nordics Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Forecasting Access Territories</controllingFieldValue>
+            <valueName>Liechtenstein Account Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>Americas SVC Rev OneSource Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>EH Global Sales &amp; Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>Emerging Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>Emerging Technologies - DNA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>Labworks Global Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>VP Bio-discovery Global Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>VP Bio-Discovery Global Sales (Redundant)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>VP Dx Global Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>VP GM OneSource LSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>VP Informatics Team LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>VP Sales PAC RIM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBU President</controllingFieldValue>
+            <valueName>VP South America, India, EMEA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

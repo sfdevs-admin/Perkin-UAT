@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_by_Lead__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to easily identify Opps that were created upon Lead conversion (field on Opp can be used in validations/workflow).</description>
+    <label>Created by Lead</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

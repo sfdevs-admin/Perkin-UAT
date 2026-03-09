@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxOppType__c</fullName>
+    <description>The field confirms the Opportunity Territory Name belongs to the Life Science BU and enables to bypass the Quote Studio related opportunity fields (S-695552). This field is modified to include Diagnostic value based on Ticket#- INC0371307.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+   AND( TEXT(Territory2.Owned_By_Company__c) = &quot;LSDX&quot;
+        ,OR(CONTAINS(Territory2.Name , &quot;LifeSci&quot;)
+            ,CONTAINS(Territory2.Name , &quot;LifSci&quot;)
+           )
+      )
+   ,&quot;Life Science&quot;
+   ,IF(
+		AND( TEXT(Territory2.Owned_By_Company__c) = &quot;LSDX&quot;
+		     ,OR(CONTAINS(SUBSTITUTE(Territory2.Name, &#39;LSDX&#39;, &#39;&#39;)   , &quot;DX&quot;)
+			 ,CONTAINS(SUBSTITUTE(Territory2.Name, &#39;LSDX&#39;, &#39;&#39;) , &quot;Dx&quot;)
+			)
+		   )
+        ,&quot;Diagnostic&quot;
+        ,&quot;&quot;
+      )
+   )</formula>
+    <inlineHelpText>The field confirms the Opportunity Territory Name belongs to the Life Science BU and enables to bypass the Quote Studio related opportunity fields</inlineHelpText>
+    <label>fxOppType</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

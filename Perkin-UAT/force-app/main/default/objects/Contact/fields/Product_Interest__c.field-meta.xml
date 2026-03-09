@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Interest__c</fullName>
+    <description>Essentially the PKI Product Line</description>
+    <label>Primary Product Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>After Market Services - AMS</fullName>
+                <default>false</default>
+                <label>After Market Services - AMS</label>
+            </value>
+            <value>
+                <fullName>Analytical Protoemics (ANP)</fullName>
+                <default>false</default>
+                <label>Analytical Protoemics (ANP)</label>
+            </value>
+            <value>
+                <fullName>APS</fullName>
+                <default>false</default>
+                <label>APS</label>
+            </value>
+            <value>
+                <fullName>ARS</fullName>
+                <default>false</default>
+                <label>ARS</label>
+            </value>
+            <value>
+                <fullName>AS Consumables</fullName>
+                <default>false</default>
+                <label>AS Consumables</label>
+            </value>
+            <value>
+                <fullName>Atomic Absorption - AA</fullName>
+                <default>false</default>
+                <label>Atomic Absorption - AA</label>
+            </value>
+            <value>
+                <fullName>Atomic Absorption GFAA</fullName>
+                <default>false</default>
+                <label>Atomic Absorption GFAA</label>
+            </value>
+            <value>
+                <fullName>Automated Liquid Handling - AWS</fullName>
+                <default>false</default>
+                <label>Automated Liquid Handling - AWS</label>
+            </value>
+            <value>
+                <fullName>BioDiscovery Consumables</fullName>
+                <default>false</default>
+                <label>BioDiscovery Consumables</label>
+            </value>
+            <value>
+                <fullName>BioFuels</fullName>
+                <default>false</default>
+                <label>BioFuels</label>
+            </value>
+            <value>
+                <fullName>Cellular Sciences &amp; ADME - CSA</fullName>
+                <default>false</default>
+                <label>Cellular Sciences &amp; ADME - CSA</label>
+            </value>
+            <value>
+                <fullName>Chromatography Data Systems</fullName>
+                <default>false</default>
+                <label>Chromatography Data Systems</label>
+            </value>
+            <value>
+                <fullName>CLH</fullName>
+                <default>false</default>
+                <label>CLH</label>
+            </value>
+            <value>
+                <fullName>CLR</fullName>
+                <default>false</default>
+                <label>CLR</label>
+            </value>
+            <value>
+                <fullName>Custom Services</fullName>
+                <default>false</default>
+                <label>Custom Services</label>
+            </value>
+            <value>
+                <fullName>Cytogenetics</fullName>
+                <default>false</default>
+                <label>Cytogenetics</label>
+            </value>
+            <value>
+                <fullName>ESS</fullName>
+                <default>false</default>
+                <label>ESS</label>
+            </value>
+            <value>
+                <fullName>FAP</fullName>
+                <default>false</default>
+                <label>FAP</label>
+            </value>
+            <value>
+                <fullName>Fluorescence Spectroscopy</fullName>
+                <default>false</default>
+                <label>Fluorescence Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Gas Chromatography - GC</fullName>
+                <default>false</default>
+                <label>Gas Chromatography - GC</label>
+            </value>
+            <value>
+                <fullName>GC-Arnel</fullName>
+                <default>false</default>
+                <label>GC-Arnel</label>
+            </value>
+            <value>
+                <fullName>GC-HS</fullName>
+                <default>false</default>
+                <label>GC-HS</label>
+            </value>
+            <value>
+                <fullName>GC-MS</fullName>
+                <default>false</default>
+                <label>GC-MS</label>
+            </value>
+            <value>
+                <fullName>GC-TD</fullName>
+                <default>false</default>
+                <label>GC-TD</label>
+            </value>
+            <value>
+                <fullName>Genetic Disease Screening</fullName>
+                <default>false</default>
+                <label>Genetic Disease Screening</label>
+            </value>
+            <value>
+                <fullName>Health Services</fullName>
+                <default>false</default>
+                <label>Health Services</label>
+            </value>
+            <value>
+                <fullName>High Content Screening - HCS</fullName>
+                <default>false</default>
+                <label>High Content Screening - HCS</label>
+            </value>
+            <value>
+                <fullName>High Throughput Screening Reagents - HTS</fullName>
+                <default>false</default>
+                <label>High Throughput Screening Reagents - HTS</label>
+            </value>
+            <value>
+                <fullName>ICP-Mass Spectrometry - ICPMS</fullName>
+                <default>false</default>
+                <label>ICP-Mass Spectrometry - ICPMS</label>
+            </value>
+            <value>
+                <fullName>ICP - Optical Emission Spectrometry</fullName>
+                <default>false</default>
+                <label>ICP - Optical Emission Spectrometry</label>
+            </value>
+            <value>
+                <fullName>Imaging Analysis Systems - IAS</fullName>
+                <default>false</default>
+                <label>Imaging Analysis Systems - IAS</label>
+            </value>
+            <value>
+                <fullName>InfraRed Spectroscopy - IR</fullName>
+                <default>false</default>
+                <label>InfraRed Spectroscopy - IR</label>
+            </value>
+            <value>
+                <fullName>Inorganic Sample Preparation</fullName>
+                <default>false</default>
+                <label>Inorganic Sample Preparation</label>
+            </value>
+            <value>
+                <fullName>INV</fullName>
+                <default>false</default>
+                <label>INV</label>
+            </value>
+            <value>
+                <fullName>IR-Imaging</fullName>
+                <default>false</default>
+                <label>IR-Imaging</label>
+            </value>
+            <value>
+                <fullName>IR-Microscopy</fullName>
+                <default>false</default>
+                <label>IR-Microscopy</label>
+            </value>
+            <value>
+                <fullName>IR-NIR</fullName>
+                <default>false</default>
+                <label>IR-NIR</label>
+            </value>
+            <value>
+                <fullName>LC-MS</fullName>
+                <default>false</default>
+                <label>LC-MS</label>
+            </value>
+            <value>
+                <fullName>Liquid Chromatography - LC</fullName>
+                <default>false</default>
+                <label>Liquid Chromatography - LC</label>
+            </value>
+            <value>
+                <fullName>LVI</fullName>
+                <default>false</default>
+                <label>LVI</label>
+            </value>
+            <value>
+                <fullName>Maternal Fetal Health</fullName>
+                <default>false</default>
+                <label>Maternal Fetal Health</label>
+            </value>
+            <value>
+                <fullName>MFT</fullName>
+                <default>false</default>
+                <label>MFT</label>
+            </value>
+            <value>
+                <fullName>Molecular Biology Reagents - MOL</fullName>
+                <default>false</default>
+                <label>Molecular Biology Reagents - MOL</label>
+            </value>
+            <value>
+                <fullName>Molecular Diagnostics</fullName>
+                <default>false</default>
+                <label>Molecular Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Multilabel Detection - MLD</fullName>
+                <default>false</default>
+                <label>Multilabel Detection - MLD</label>
+            </value>
+            <value>
+                <fullName>Neonatal screening</fullName>
+                <default>false</default>
+                <label>Neonatal screening</label>
+            </value>
+            <value>
+                <fullName>Nucleic Acid Extraction</fullName>
+                <default>false</default>
+                <label>Nucleic Acid Extraction</label>
+            </value>
+            <value>
+                <fullName>NVS</fullName>
+                <default>false</default>
+                <label>NVS</label>
+            </value>
+            <value>
+                <fullName>OneSource Service &amp; Support</fullName>
+                <default>false</default>
+                <label>OneSource Service &amp; Support</label>
+            </value>
+            <value>
+                <fullName>Other Products/Services</fullName>
+                <default>false</default>
+                <label>Other Products/Services</label>
+            </value>
+            <value>
+                <fullName>Photina Cell Lines - PCL</fullName>
+                <default>false</default>
+                <label>Photina Cell Lines - PCL</label>
+            </value>
+            <value>
+                <fullName>Polarimetry</fullName>
+                <default>false</default>
+                <label>Polarimetry</label>
+            </value>
+            <value>
+                <fullName>Protein Biology Reagents - PBR</fullName>
+                <default>false</default>
+                <label>Protein Biology Reagents - PBR</label>
+            </value>
+            <value>
+                <fullName>Protein Detection</fullName>
+                <default>false</default>
+                <label>Protein Detection</label>
+            </value>
+            <value>
+                <fullName>Proteomics &amp; Genomics Instruments - PGI</fullName>
+                <default>false</default>
+                <label>Proteomics &amp; Genomics Instruments - PGI</label>
+            </value>
+            <value>
+                <fullName>QTS</fullName>
+                <default>false</default>
+                <label>QTS</label>
+            </value>
+            <value>
+                <fullName>Radiometric Detection - RRD</fullName>
+                <default>false</default>
+                <label>Radiometric Detection - RRD</label>
+            </value>
+            <value>
+                <fullName>RAMAN</fullName>
+                <default>false</default>
+                <label>RAMAN</label>
+            </value>
+            <value>
+                <fullName>Raman Spectroscopy</fullName>
+                <default>false</default>
+                <label>Raman Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Receptor Ligands Studies</fullName>
+                <default>false</default>
+                <label>Receptor Ligands Studies</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>Research Reagents - RRS</fullName>
+                <default>false</default>
+                <label>Research Reagents - RRS</label>
+            </value>
+            <value>
+                <fullName>Sample Prep Systems - SPS</fullName>
+                <default>false</default>
+                <label>Sample Prep Systems - SPS</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>SNP Detection</fullName>
+                <default>false</default>
+                <label>SNP Detection</label>
+            </value>
+            <value>
+                <fullName>SPA Technology</fullName>
+                <default>false</default>
+                <label>SPA Technology</label>
+            </value>
+            <value>
+                <fullName>SSS</fullName>
+                <default>false</default>
+                <label>SSS</label>
+            </value>
+            <value>
+                <fullName>Thermal Elemental Analysis - TEA</fullName>
+                <default>false</default>
+                <label>Thermal Elemental Analysis - TEA</label>
+            </value>
+            <value>
+                <fullName>TIS</fullName>
+                <default>false</default>
+                <label>TIS</label>
+            </value>
+            <value>
+                <fullName>TOF</fullName>
+                <default>false</default>
+                <label>TOF</label>
+            </value>
+            <value>
+                <fullName>Triage</fullName>
+                <default>false</default>
+                <label>Triage</label>
+            </value>
+            <value>
+                <fullName>TSC</fullName>
+                <default>false</default>
+                <label>TSC</label>
+            </value>
+            <value>
+                <fullName>UV/Vis Spectroscopy</fullName>
+                <default>false</default>
+                <label>UV/Vis Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Virology – VIR</fullName>
+                <default>false</default>
+                <label>Virology – VIR</label>
+            </value>
+            <value>
+                <fullName>VisEn Agents &amp; Imaging Systems</fullName>
+                <default>false</default>
+                <label>VisEn Agents &amp; Imaging Systems</label>
+            </value>
+            <value>
+                <fullName>VisEn Fluorescence Agents</fullName>
+                <default>false</default>
+                <label>VisEn Fluorescence Agents</label>
+            </value>
+            <value>
+                <fullName>VisEn Imaging Systems</fullName>
+                <default>false</default>
+                <label>VisEn Imaging Systems</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

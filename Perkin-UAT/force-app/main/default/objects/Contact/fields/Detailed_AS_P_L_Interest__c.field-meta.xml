@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detailed_AS_P_L_Interest__c</fullName>
+    <label>Detailed AS P/L Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Atomic Absorption Consumables</fullName>
+                <default>false</default>
+                <label>Atomic Absorption Consumables</label>
+            </value>
+            <value>
+                <fullName>Benchtop spectrometer</fullName>
+                <default>false</default>
+                <label>Benchtop spectrometer</label>
+            </value>
+            <value>
+                <fullName>Compliance</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>Contracts and warranties</fullName>
+                <default>false</default>
+                <label>Contracts and warranties</label>
+            </value>
+            <value>
+                <fullName>Data Handling (CDS) - Client</fullName>
+                <default>false</default>
+                <label>Data Handling (CDS) - Client</label>
+            </value>
+            <value>
+                <fullName>Data Handling (CDS) - Workstation</fullName>
+                <default>false</default>
+                <label>Data Handling (CDS) - Workstation</label>
+            </value>
+            <value>
+                <fullName>DMA</fullName>
+                <default>false</default>
+                <label>DMA</label>
+            </value>
+            <value>
+                <fullName>DSC</fullName>
+                <default>false</default>
+                <label>DSC</label>
+            </value>
+            <value>
+                <fullName>Elemental Analysis</fullName>
+                <default>false</default>
+                <label>Elemental Analysis</label>
+            </value>
+            <value>
+                <fullName>Elemental Analysis Consumables</fullName>
+                <default>false</default>
+                <label>Elemental Analysis Consumables</label>
+            </value>
+            <value>
+                <fullName>Fast LC / UPLC</fullName>
+                <default>false</default>
+                <label>Fast LC / UPLC</label>
+            </value>
+            <value>
+                <fullName>Flame AA</fullName>
+                <default>false</default>
+                <label>Flame AA</label>
+            </value>
+            <value>
+                <fullName>Flow injection</fullName>
+                <default>false</default>
+                <label>Flow injection</label>
+            </value>
+            <value>
+                <fullName>Flow Injection / FIFU</fullName>
+                <default>false</default>
+                <label>Flow Injection / FIFU</label>
+            </value>
+            <value>
+                <fullName>Fluorescence Software</fullName>
+                <default>false</default>
+                <label>Fluorescence Software</label>
+            </value>
+            <value>
+                <fullName>Fluorescence Spectroscopy</fullName>
+                <default>false</default>
+                <label>Fluorescence Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>FT-IR</fullName>
+                <default>false</default>
+                <label>FT-IR</label>
+            </value>
+            <value>
+                <fullName>FT-NIR</fullName>
+                <default>false</default>
+                <label>FT-NIR</label>
+            </value>
+            <value>
+                <fullName>FT-NIR spectrometers</fullName>
+                <default>false</default>
+                <label>FT-NIR spectrometers</label>
+            </value>
+            <value>
+                <fullName>Gas Chromatography</fullName>
+                <default>false</default>
+                <label>Gas Chromatography</label>
+            </value>
+            <value>
+                <fullName>GC Analyzers</fullName>
+                <default>false</default>
+                <label>GC Analyzers</label>
+            </value>
+            <value>
+                <fullName>GC Columns</fullName>
+                <default>false</default>
+                <label>GC Columns</label>
+            </value>
+            <value>
+                <fullName>GC Consumables</fullName>
+                <default>false</default>
+                <label>GC Consumables</label>
+            </value>
+            <value>
+                <fullName>GC MS-MS</fullName>
+                <default>false</default>
+                <label>GC MS-MS</label>
+            </value>
+            <value>
+                <fullName>GC MS - Other</fullName>
+                <default>false</default>
+                <label>GC MS - Other</label>
+            </value>
+            <value>
+                <fullName>GC Single quad MS Spec</fullName>
+                <default>false</default>
+                <label>GC Single quad MS Spec</label>
+            </value>
+            <value>
+                <fullName>GLP, IQ/OQ, preventative maintenance</fullName>
+                <default>false</default>
+                <label>GLP, IQ/OQ, preventative maintenance</label>
+            </value>
+            <value>
+                <fullName>Graphite furnace AA</fullName>
+                <default>false</default>
+                <label>Graphite furnace AA</label>
+            </value>
+            <value>
+                <fullName>Headspace</fullName>
+                <default>false</default>
+                <label>Headspace</label>
+            </value>
+            <value>
+                <fullName>Hg/Hydride systems</fullName>
+                <default>false</default>
+                <label>Hg/Hydride systems</label>
+            </value>
+            <value>
+                <fullName>High Perf. UV/Vis/NIR spectrophotometers</fullName>
+                <default>false</default>
+                <label>High Perf. UV/Vis/NIR spectrophotometers</label>
+            </value>
+            <value>
+                <fullName>HyperDSC</fullName>
+                <default>false</default>
+                <label>HyperDSC</label>
+            </value>
+            <value>
+                <fullName>ICP-MAS</fullName>
+                <default>false</default>
+                <label>ICP-MAS</label>
+            </value>
+            <value>
+                <fullName>ICP-MAS Consumables</fullName>
+                <default>false</default>
+                <label>ICP-MAS Consumables</label>
+            </value>
+            <value>
+                <fullName>ICP-OES Consumables</fullName>
+                <default>false</default>
+                <label>ICP-OES Consumables</label>
+            </value>
+            <value>
+                <fullName>Inorganic Sample preparation</fullName>
+                <default>false</default>
+                <label>Inorganic Sample preparation</label>
+            </value>
+            <value>
+                <fullName>IR/FIR</fullName>
+                <default>false</default>
+                <label>IR/FIR</label>
+            </value>
+            <value>
+                <fullName>IR/NIR</fullName>
+                <default>false</default>
+                <label>IR/NIR</label>
+            </value>
+            <value>
+                <fullName>IR Consumables</fullName>
+                <default>false</default>
+                <label>IR Consumables</label>
+            </value>
+            <value>
+                <fullName>LABWORKS</fullName>
+                <default>false</default>
+                <label>LABWORKS</label>
+            </value>
+            <value>
+                <fullName>Laser sampling</fullName>
+                <default>false</default>
+                <label>Laser sampling</label>
+            </value>
+            <value>
+                <fullName>LC Columns</fullName>
+                <default>false</default>
+                <label>LC Columns</label>
+            </value>
+            <value>
+                <fullName>LC-MS</fullName>
+                <default>false</default>
+                <label>LC-MS</label>
+            </value>
+            <value>
+                <fullName>LC-MS/MS, TOF, MALDI</fullName>
+                <default>false</default>
+                <label>LC-MS/MS, TOF, MALDI</label>
+            </value>
+            <value>
+                <fullName>Liquid Chromatography</fullName>
+                <default>false</default>
+                <label>Liquid Chromatography</label>
+            </value>
+            <value>
+                <fullName>Managed Maintenance</fullName>
+                <default>false</default>
+                <label>Managed Maintenance</label>
+            </value>
+            <value>
+                <fullName>Microscope/Imaging</fullName>
+                <default>false</default>
+                <label>Microscope/Imaging</label>
+            </value>
+            <value>
+                <fullName>Modular high performance accessories</fullName>
+                <default>false</default>
+                <label>Modular high performance accessories</label>
+            </value>
+            <value>
+                <fullName>Multi-Vendor Contract</fullName>
+                <default>false</default>
+                <label>Multi-Vendor Contract</label>
+            </value>
+            <value>
+                <fullName>Multi-Vendor Validation</fullName>
+                <default>false</default>
+                <label>Multi-Vendor Validation</label>
+            </value>
+            <value>
+                <fullName>Nano LC</fullName>
+                <default>false</default>
+                <label>Nano LC</label>
+            </value>
+            <value>
+                <fullName>Nework CDS</fullName>
+                <default>false</default>
+                <label>Nework CDS</label>
+            </value>
+            <value>
+                <fullName>Oil analysis ICP-OES</fullName>
+                <default>false</default>
+                <label>Oil analysis ICP-OES</label>
+            </value>
+            <value>
+                <fullName>Oil condition monitoring</fullName>
+                <default>false</default>
+                <label>Oil condition monitoring</label>
+            </value>
+            <value>
+                <fullName>OneSource Service &amp; Support</fullName>
+                <default>false</default>
+                <label>OneSource Service &amp; Support</label>
+            </value>
+            <value>
+                <fullName>Optical component measurements</fullName>
+                <default>false</default>
+                <label>Optical component measurements</label>
+            </value>
+            <value>
+                <fullName>Polarimetry</fullName>
+                <default>false</default>
+                <label>Polarimetry</label>
+            </value>
+            <value>
+                <fullName>PUF Consumables</fullName>
+                <default>false</default>
+                <label>PUF Consumables</label>
+            </value>
+            <value>
+                <fullName>Pumps</fullName>
+                <default>false</default>
+                <label>Pumps</label>
+            </value>
+            <value>
+                <fullName>Raman consumables/accessories</fullName>
+                <default>false</default>
+                <label>Raman consumables/accessories</label>
+            </value>
+            <value>
+                <fullName>Raman Fibre Probes</fullName>
+                <default>false</default>
+                <label>Raman Fibre Probes</label>
+            </value>
+            <value>
+                <fullName>Raman Microscope/Imaging</fullName>
+                <default>false</default>
+                <label>Raman Microscope/Imaging</label>
+            </value>
+            <value>
+                <fullName>Raman spectrometers</fullName>
+                <default>false</default>
+                <label>Raman spectrometers</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>Routine analysis ICP-MS</fullName>
+                <default>false</default>
+                <label>Routine analysis ICP-MS</label>
+            </value>
+            <value>
+                <fullName>Routine analysis ICP-OES</fullName>
+                <default>false</default>
+                <label>Routine analysis ICP-OES</label>
+            </value>
+            <value>
+                <fullName>Routine UV/VIS spectrophotometers</fullName>
+                <default>false</default>
+                <label>Routine UV/VIS spectrophotometers</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Software for adavanced calculations</fullName>
+                <default>false</default>
+                <label>Software for adavanced calculations</label>
+            </value>
+            <value>
+                <fullName>Software for Polarimetry Systems</fullName>
+                <default>false</default>
+                <label>Software for Polarimetry Systems</label>
+            </value>
+            <value>
+                <fullName>Software for regulated industry</fullName>
+                <default>false</default>
+                <label>Software for regulated industry</label>
+            </value>
+            <value>
+                <fullName>Software for UV systems</fullName>
+                <default>false</default>
+                <label>Software for UV systems</label>
+            </value>
+            <value>
+                <fullName>STA</fullName>
+                <default>false</default>
+                <label>STA</label>
+            </value>
+            <value>
+                <fullName>TA Consumables</fullName>
+                <default>false</default>
+                <label>TA Consumables</label>
+            </value>
+            <value>
+                <fullName>TGA</fullName>
+                <default>false</default>
+                <label>TGA</label>
+            </value>
+            <value>
+                <fullName>Thermal Desorption</fullName>
+                <default>false</default>
+                <label>Thermal Desorption</label>
+            </value>
+            <value>
+                <fullName>TOF</fullName>
+                <default>false</default>
+                <label>TOF</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Trap</fullName>
+                <default>false</default>
+                <label>Trap</label>
+            </value>
+            <value>
+                <fullName>Triage</fullName>
+                <default>false</default>
+                <label>Triage</label>
+            </value>
+            <value>
+                <fullName>Triple quad</fullName>
+                <default>false</default>
+                <label>Triple quad</label>
+            </value>
+            <value>
+                <fullName>Upgrades – software or system</fullName>
+                <default>false</default>
+                <label>Upgrades – software or system</label>
+            </value>
+            <value>
+                <fullName>Viscometers</fullName>
+                <default>false</default>
+                <label>Viscometers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

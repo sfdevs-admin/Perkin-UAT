@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>L3_Tech_Support_SVMX_PS_Service_Alert</fullName>
+    <filterScope>Queue</filterScope>
+    <label>L3 Tech Support</label>
+    <queue>ARQ_001367</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

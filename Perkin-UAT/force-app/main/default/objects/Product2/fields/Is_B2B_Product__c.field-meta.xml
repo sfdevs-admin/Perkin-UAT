@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_B2B_Product__c</fullName>
+    <formula>NOT(ISNULL( B2B_Sales_Org_And_Sales_Status__c ))</formula>
+    <label>Is B2B Product?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

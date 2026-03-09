@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxMissingFieldsstageCurrent__c</fullName>
+    <description>This is auto populated using P.FLOW_2000.node 04</description>
+    <inlineHelpText>The fields needed to be completed in this stage</inlineHelpText>
+    <label>fxMissingFields_stageCurrent</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

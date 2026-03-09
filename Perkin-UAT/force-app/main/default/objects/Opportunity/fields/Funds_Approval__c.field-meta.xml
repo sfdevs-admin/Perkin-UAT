@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funds_Approval__c</fullName>
+    <label>Funds Approval</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Funded to or above our price</fullName>
+                <default>false</default>
+                <label>Funded to or above our price</label>
+            </value>
+            <value>
+                <fullName>High probability of funds approval</fullName>
+                <default>false</default>
+                <label>High probability of funds approval</label>
+            </value>
+            <value>
+                <fullName>Good probability of obtaining funds</fullName>
+                <default>false</default>
+                <label>Good probability of obtaining funds</label>
+            </value>
+            <value>
+                <fullName>Funds not yet available and/or approved</fullName>
+                <default>false</default>
+                <label>Funds not yet available and/or approved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ToxSuite_Caspases__c</fullName>
+    <label>ToxSuite - Caspases</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PKI</fullName>
+                <default>false</default>
+                <label>PKI</label>
+            </value>
+            <value>
+                <fullName>EMD</fullName>
+                <default>false</default>
+                <label>EMD</label>
+            </value>
+            <value>
+                <fullName>Promega</fullName>
+                <default>false</default>
+                <label>Promega</label>
+            </value>
+            <value>
+                <fullName>Siigma/Aldrich</fullName>
+                <default>false</default>
+                <label>Siigma/Aldrich</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_if_Sales_Rejected__c</fullName>
+    <inlineHelpText>Add Existing Opportunity Name if Duplicate, Explanation if Other Reason.</inlineHelpText>
+    <label>Reason if Sales Rejected</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

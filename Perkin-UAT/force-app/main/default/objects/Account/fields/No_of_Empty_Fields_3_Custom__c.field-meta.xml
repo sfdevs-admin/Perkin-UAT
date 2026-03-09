@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Empty_Fields_3_Custom__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Installed_Instruments__c), 1, 0)  + IF(ISBLANK(Lab_Services__c), 1, 0) + IF(ISBLANK(TEXT(Laboratory_Type__c)), 1, 0) + IF(ISBLANK(Legacy_Source__c), 1, 0) + IF(ISBLANK(LegacyAcctID__c), 1, 0) + IF(ISBLANK(TEXT(Legal_Entity__c)), 1, 0) + IF(ISBLANK(LW_Support_ID__c), 1, 0) + IF(ISBLANK(Market_Penetration__c), 1, 0) + IF(ISBLANK(TEXT(Market_Segment__c)), 1, 0) + IF(ISBLANK(Name2__c), 1, 0) + IF(ISBLANK(Name3__c), 1, 0) + IF(ISBLANK(Name4__c), 1, 0) + IF(ISBLANK(No_Of_Closed_Won_Opportunities_INF__c), 1, 0) + IF(ISBLANK(No_of_Contacts_INF__c), 1, 0) + IF(ISBLANK(No_Of_Open_Opportunities_INF__c), 1, 0)  + IF(ISBLANK(Office_Access_Info__c), 1, 0) +  IF(ISBLANK(PKI_Labs_Customer_Type__c), 1, 0) + IF(ISBLANK(TEXT(Plan_type__c)), 1, 0) + IF(ISBLANK(Pre_Reagents_1__c), 1, 0) + IF(ISBLANK(Pre_Reagents_2__c), 1, 0)  + IF(ISBLANK(Products__c), 1, 0) + IF(ISBLANK(TEXT(Quote_Invoice_Required__c)), 1, 0) + IF(ISBLANK(TEXT(Ranking__c)), 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>No of Empty Fields 3 (Custom)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

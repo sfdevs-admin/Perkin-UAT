@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_no_Sales_Rep_Update_Stage_Name</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c, AND(RecordType.Name=&#39;Informatics&#39;,ISPICKVAL(StageName, &#39;Closed Won&#39;), 
+$Profile.Name=&#39;Informatics Sales&#39;))</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_026: Please use Submit Order workflow</errorMessage>
+</ValidationRule>

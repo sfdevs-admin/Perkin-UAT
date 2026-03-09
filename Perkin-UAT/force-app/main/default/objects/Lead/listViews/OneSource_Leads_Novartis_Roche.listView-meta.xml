@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OneSource_Leads_Novartis_Roche</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Non_Qualified__c</columns>
+    <columns>NONMQL__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>OSAI,OSAM,OSC,OSG,OSIS,OSIT,OSR,OSRL,OSSS</value>
+    </filters>
+    <filters>
+        <field>LEAD.EMAIL</field>
+        <operation>contains</operation>
+        <value>@novarti.com,@rroche.com</value>
+    </filters>
+    <filters>
+        <field>LEAD.COMPANY</field>
+        <operation>contains</operation>
+        <value>Novartis,Roche,GSK</value>
+    </filters>
+    <filters>
+        <field>GROW__c</field>
+        <operation>equals</operation>
+        <value>TRUE</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>EMEA</value>
+    </filters>
+    <label>OneSource Leads Novartis Roche</label>
+    <language>en_US</language>
+</ListView>

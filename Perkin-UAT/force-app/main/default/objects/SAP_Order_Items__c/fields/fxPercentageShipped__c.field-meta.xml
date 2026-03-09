@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxPercentageShipped__c</fullName>
+    <description>This calculates the percentage shipped from Quantity Confirmed and Quantity Shipped</description>
+    <formula>if (Quantity_Confirmed__c &gt; 0, Quantity_Shipped__c   / Quantity_Confirmed__c , IF(Quantity_Ordered__c &gt;0,  Quantity_Shipped__c   / Quantity_Ordered__c, 0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>fxPercentageShipped</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

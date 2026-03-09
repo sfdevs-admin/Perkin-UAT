@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>SAP_PLType_Code__c</columns>
+    <columns>PLTypeCode__c</columns>
+    <columns>PriceBook__c</columns>
+    <columns>Currency__c</columns>
+    <columns>NAME</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PLTypeCode__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>All</label>
+</ListView>

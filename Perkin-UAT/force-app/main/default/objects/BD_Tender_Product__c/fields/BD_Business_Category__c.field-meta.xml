@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Business_Category__c</fullName>
+    <label>Business Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Analytical</fullName>
+                <default>false</default>
+                <label>Analytical</label>
+            </value>
+            <value>
+                <fullName>Material Characterization</fullName>
+                <default>false</default>
+                <label>Material Characterization</label>
+            </value>
+            <value>
+                <fullName>Inorganic</fullName>
+                <default>false</default>
+                <label>Inorganic</label>
+            </value>
+            <value>
+                <fullName>Chromatography</fullName>
+                <default>false</default>
+                <label>Chromatography</label>
+            </value>
+            <value>
+                <fullName>Atomic Spectroscopy</fullName>
+                <default>false</default>
+                <label>Atomic Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Mass Spectrometry</fullName>
+                <default>false</default>
+                <label>Mass Spectrometry</label>
+            </value>
+            <value>
+                <fullName>Molecular Spectroscopy</fullName>
+                <default>false</default>
+                <label>Molecular Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Thermal Analysis</fullName>
+                <default>false</default>
+                <label>Thermal Analysis</label>
+            </value>
+            <value>
+                <fullName>Hyphenated Techniques</fullName>
+                <default>false</default>
+                <label>Hyphenated Techniques</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clone_Line_Items__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A hidden field to be used with Clone with Line Items button.</description>
+    <label>Clone Line Items</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

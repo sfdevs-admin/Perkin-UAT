@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Leads_by_Owner_Last_Name</fullName>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Source__c</columns>
+    <columns>Employee_Email__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>GROW__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Guerbaa</value>
+    </filters>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Standard_Default</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open,Working,Future-Nurturing</value>
+    </filters>
+    <label>Open Leads by Owner Last Name</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

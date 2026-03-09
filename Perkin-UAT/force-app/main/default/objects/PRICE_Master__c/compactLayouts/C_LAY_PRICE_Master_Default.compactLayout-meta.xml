@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_PRICE_Master_Default</fullName>
+    <fields>External_Id__c</fields>
+    <fields>Product_Number__c</fields>
+    <fields>PriceBook_Name__c</fields>
+    <fields>CurrencyIsoCode</fields>
+    <fields>Amount__c</fields>
+    <fields>isActive__c</fields>
+    <fields>fxPriceBookEntry__c</fields>
+    <fields>LastModifiedById</fields>
+    <fields>fxAutoID__c</fields>
+    <label>C.LAY PRICE Master Default</label>
+</CompactLayout>

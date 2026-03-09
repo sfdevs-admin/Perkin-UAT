@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>eProcurement_Catalog_Channel_Contracts__c</fullName>
+    <label>eProcurement Catalog Channel Contracts</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SciQuest</fullName>
+                <default>false</default>
+                <label>SciQuest</label>
+            </value>
+            <value>
+                <fullName>Ariba</fullName>
+                <default>false</default>
+                <label>Ariba</label>
+            </value>
+            <value>
+                <fullName>Hubwoo</fullName>
+                <default>false</default>
+                <label>Hubwoo</label>
+            </value>
+            <value>
+                <fullName>Perfect Commerce</fullName>
+                <default>false</default>
+                <label>Perfect Commerce</label>
+            </value>
+            <value>
+                <fullName>GHX</fullName>
+                <default>false</default>
+                <label>GHX</label>
+            </value>
+            <value>
+                <fullName>Intramalls</fullName>
+                <default>false</default>
+                <label>Intramalls</label>
+            </value>
+            <value>
+                <fullName>Customer Specific</fullName>
+                <default>false</default>
+                <label>Customer Specific</label>
+            </value>
+            <value>
+                <fullName>ePlus</fullName>
+                <default>false</default>
+                <label>ePlus</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

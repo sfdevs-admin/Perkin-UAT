@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_Created_in_EBX_AMERICAS</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>MDM_ID__c</columns>
+    <columns>MDM_Status__c</columns>
+    <columns>PKI_SAP_Account_Group__c</columns>
+    <columns>PKI_SAP_Customer_Number__c</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PKI_Global_Region__c</field>
+        <operation>equals</operation>
+        <value>Americas,APAC,EMEAI</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>PKI_SAP_Account_Group__c</field>
+        <operation>equals</operation>
+        <value>0001</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>CA</value>
+    </filters>
+    <label>MDM New Accounts Created  - AMERICAS</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

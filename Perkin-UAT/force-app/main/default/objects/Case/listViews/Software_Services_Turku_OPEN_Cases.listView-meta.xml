@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Software_Services_Turku_OPEN_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>DX_CR_Status__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>TypeOfCase__c</columns>
+    <columns>Priority_Score__c</columns>
+    <columns>Strategic_Key_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Dx_Software_Services</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Active,Waiting for Customer Response</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>DX Software Services - Akron,TRASH CASES</value>
+    </filters>
+    <filters>
+        <field>TypeOfCase__c</field>
+        <operation>equals</operation>
+        <value>Change Request - Customer,Change Request - Internal,Change Request - Quality</value>
+    </filters>
+    <filters>
+        <field>External_Email_Inbox__c</field>
+        <operation>equals</operation>
+        <value>specimengatesupportfi@revvity.com,specimengatesupportfi@perkinelmer.com,specimen.gate.support.fi@perkinelmer.com</value>
+    </filters>
+    <label>4 Software Services Turku OPEN CR</label>
+    <sharedTo>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GotoNextStage__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this box to go to the next stage (if allowed). Used in L.FLOW 2004. Rules in place to prevent moving to a future stage if not ready yet.</description>
+    <inlineHelpText>Check this box to go to the next stage. You must have all fields completed for all stages up to this point in order to advance, otherwise the stage will not advance. (There is no warning displayed if there are fields to complete)</inlineHelpText>
+    <label>Go to Next Stage</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

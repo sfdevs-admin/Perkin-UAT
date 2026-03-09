@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Viacord__c</fullName>
+    <label>Activity</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sales Detail</fullName>
+                <default>false</default>
+                <label>Sales Detail</label>
+            </value>
+            <value>
+                <fullName>Lunch &amp; Learn</fullName>
+                <default>false</default>
+                <label>Lunch &amp; Learn</label>
+            </value>
+            <value>
+                <fullName>In Service</fullName>
+                <default>false</default>
+                <label>In Service</label>
+            </value>
+            <value>
+                <fullName>Speaker Program</fullName>
+                <default>false</default>
+                <label>Speaker Program</label>
+            </value>
+            <value>
+                <fullName>Account Activity</fullName>
+                <default>false</default>
+                <label>Account Activity</label>
+            </value>
+            <value>
+                <fullName>Promo/Coupon</fullName>
+                <default>false</default>
+                <label>Promo/Coupon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

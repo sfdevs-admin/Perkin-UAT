@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_GBL_APAC_Dealer__c</fullName>
+    <description>Link to APAC Dealer / Resellers</description>
+    <inlineHelpText>Add Reseller name</inlineHelpText>
+    <label>APAC Dealer or Distributor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C&amp;J Marketing Software Co., Ltd</fullName>
+                <default>false</default>
+                <label>C&amp;J Marketing Software Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>Fujitsu Limited</fullName>
+                <default>false</default>
+                <label>Fujitsu Limited</label>
+            </value>
+            <value>
+                <fullName>Hulinks Inc.</fullName>
+                <default>false</default>
+                <label>Hulinks Inc.</label>
+            </value>
+            <value>
+                <fullName>JUCA, Inc</fullName>
+                <default>false</default>
+                <label>JUCA, Inc</label>
+            </value>
+            <value>
+                <fullName>CONFLEX Corporation</fullName>
+                <default>false</default>
+                <label>CONFLEX Corporation</label>
+            </value>
+            <value>
+                <fullName>BITEK Chems Inc.</fullName>
+                <default>false</default>
+                <label>BITEK Chems Inc.</label>
+            </value>
+            <value>
+                <fullName>Inchalbase Co., Ltd.</fullName>
+                <default>false</default>
+                <label>Inchalbase Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>Linksoft Inc.</fullName>
+                <default>false</default>
+                <label>Linksoft Inc.</label>
+            </value>
+            <value>
+                <fullName>GNX Technologies Pte Ltd.</fullName>
+                <default>false</default>
+                <label>GNX Technologies Pte Ltd.</label>
+            </value>
+            <value>
+                <fullName>AsoftTech Solutions (M) Sdn Bhd</fullName>
+                <default>false</default>
+                <label>AsoftTech Solutions (M) Sdn Bhd</label>
+            </value>
+            <value>
+                <fullName>Hearne Scientific Software Pty Ltd.</fullName>
+                <default>false</default>
+                <label>Hearne Scientific Software Pty Ltd.</label>
+            </value>
+            <value>
+                <fullName>Scientific Formosa, Inc.</fullName>
+                <default>false</default>
+                <label>Scientific Formosa, Inc.</label>
+            </value>
+            <value>
+                <fullName>SENKO Corporation</fullName>
+                <default>false</default>
+                <label>SENKO Corporation</label>
+            </value>
+            <value>
+                <fullName>SoftHome International, Inc.</fullName>
+                <default>false</default>
+                <label>SoftHome International, Inc.</label>
+            </value>
+            <value>
+                <fullName>Tara Tech International Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>Tara Tech International Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>CAC Croit Corporation</fullName>
+                <default>false</default>
+                <label>CAC Croit Corporation</label>
+            </value>
+            <value>
+                <fullName>Wuxi Webforce Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>Wuxi Webforce Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Wason Biotech Inc</fullName>
+                <default>false</default>
+                <label>Wason Biotech Inc</label>
+            </value>
+            <value>
+                <fullName>Beijing Rainbow Technology &amp; Tradec</fullName>
+                <default>false</default>
+                <label>Beijing Rainbow Technology &amp; Tradec</label>
+            </value>
+            <value>
+                <fullName>Changsha Feiniu Biological</fullName>
+                <default>false</default>
+                <label>Changsha Feiniu Biological</label>
+            </value>
+            <value>
+                <fullName>Chengdu Fortune Int&#39;L Trading</fullName>
+                <default>false</default>
+                <label>Chengdu Fortune Int&#39;L Trading</label>
+            </value>
+            <value>
+                <fullName>Clinical Genetic Service</fullName>
+                <default>false</default>
+                <label>Clinical Genetic Service</label>
+            </value>
+            <value>
+                <fullName>Hangzhou Bio-San Biochemical</fullName>
+                <default>false</default>
+                <label>Hangzhou Bio-San Biochemical</label>
+            </value>
+            <value>
+                <fullName>Kunming Feikubi Trading Co.Ltd</fullName>
+                <default>false</default>
+                <label>Kunming Feikubi Trading Co.Ltd</label>
+            </value>
+            <value>
+                <fullName>Line Analytics Life Sci. Ltd.</fullName>
+                <default>false</default>
+                <label>Line Analytics Life Sci. Ltd.</label>
+            </value>
+            <value>
+                <fullName>Nanchang Tian Di Ren Technology</fullName>
+                <default>false</default>
+                <label>Nanchang Tian Di Ren Technology</label>
+            </value>
+            <value>
+                <fullName>Princess Margaret Hospital</fullName>
+                <default>false</default>
+                <label>Princess Margaret Hospital</label>
+            </value>
+            <value>
+                <fullName>Prisma Biotech Corporation</fullName>
+                <default>false</default>
+                <label>Prisma Biotech Corporation</label>
+            </value>
+            <value>
+                <fullName>Shanghai Huiguan Int&#39;L Trading</fullName>
+                <default>false</default>
+                <label>Shanghai Huiguan Int&#39;L Trading</label>
+            </value>
+            <value>
+                <fullName>Shanghai Multi-Med Union</fullName>
+                <default>false</default>
+                <label>Shanghai Multi-Med Union</label>
+            </value>
+            <value>
+                <fullName>Shanghai Shaoli Biotechnology Scien</fullName>
+                <default>false</default>
+                <label>Shanghai Shaoli Biotechnology Scien</label>
+            </value>
+            <value>
+                <fullName>The Chinese Uni Of Hk</fullName>
+                <default>false</default>
+                <label>The Chinese Uni Of Hk</label>
+            </value>
+            <value>
+                <fullName>Tsan Yuk Hospital</fullName>
+                <default>false</default>
+                <label>Tsan Yuk Hospital</label>
+            </value>
+            <value>
+                <fullName>Zhongke Scientific &amp; Technical Co.,</fullName>
+                <default>false</default>
+                <label>Zhongke Scientific &amp; Technical Co.,</label>
+            </value>
+            <value>
+                <fullName>GC-Qinghai Wasson Medical Technology</fullName>
+                <default>false</default>
+                <label>GC-Qinghai Wasson Medical Technology</label>
+            </value>
+            <value>
+                <fullName>GC-Shanghai Jie Yi Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-Shanghai Jie Yi Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-Shaanxi Aikang Medical Equipment Co Ltd.</fullName>
+                <default>false</default>
+                <label>GC-Shaanxi Aikang Medical Equipment Co Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-Shaanxi Gaoyuan In-Vitro</fullName>
+                <default>false</default>
+                <label>GC-Shaanxi Gaoyuan In-Vitro</label>
+            </value>
+            <value>
+                <fullName>GC-Sichuan Dien Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-Sichuan Dien Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-Suzhou Youshi Medical Apparatus And</fullName>
+                <default>false</default>
+                <label>GC-Suzhou Youshi Medical Apparatus And</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Anhui Tongruntang</fullName>
+                <default>false</default>
+                <label>GC-AG-Anhui Tongruntang</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Beijing Rejing Biotech Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Beijing Rejing Biotech Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Beijing Shenggu Tongchuang</fullName>
+                <default>false</default>
+                <label>GC-AG-Beijing Shenggu Tongchuang</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Bei Qing Long Yue Biotech,Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Bei Qing Long Yue Biotech,Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Bioroy International Ltd.</fullName>
+                <default>false</default>
+                <label>GC-AG-Bioroy International Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Cangzhou Sunshine Medical Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Cangzhou Sunshine Medical Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Changtuwanhen Medtech Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Changtuwanhen Medtech Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Changchun Ruikang Biotech Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Changchun Ruikang Biotech Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Changshafeiniu Biotech Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Changshafeiniu Biotech Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Changshu Clinical Medical</fullName>
+                <default>false</default>
+                <label>GC-AG-Changshu Clinical Medical</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Chongqing Runkang Medical Devices Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>GC-AG-Chongqing Runkang Medical Devices Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Fuzhou Yimuyuan Medical</fullName>
+                <default>false</default>
+                <label>GC-AG-Fuzhou Yimuyuan Medical</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Guangdong Hongcheng Biotech</fullName>
+                <default>false</default>
+                <label>GC-AG-Guangdong Hongcheng Biotech</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Guangzhou Ke Hua Biological Technol</fullName>
+                <default>false</default>
+                <label>GC-AG-Guangzhou Ke Hua Biological Technol</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Harbin Situ Economic And Trade Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Harbin Situ Economic And Trade Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Hangzhou Hongjian Biotechnology Co., Ltd.</fullName>
+                <default>false</default>
+                <label>GC-AG-Hangzhou Hongjian Biotechnology Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Hangzhou Tangtai Biological Technol</fullName>
+                <default>false</default>
+                <label>GC-AG-Hangzhou Tangtai Biological Technol</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Ji&#39;Nan Changxin Medical Equipment Co., Ltd.</fullName>
+                <default>false</default>
+                <label>GC-AG-Ji&#39;Nan Changxin Medical Equipment Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Jiangsu Huabao Medicines Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Jiangsu Huabao Medicines Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Jiangsu Woerfu Medical instrument co., LTD</fullName>
+                <default>false</default>
+                <label>GC-AG-Jiangsu Woerfu Medical instrument co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Jilin Bo Xiang Trading Company</fullName>
+                <default>false</default>
+                <label>GC-AG-Jilin Bo Xiang Trading Company</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Jinan Kunrui Biotech,Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Jinan Kunrui Biotech,Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Jilin Province Musheng Technology Co. Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Jilin Province Musheng Technology Co. Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Jinhua Cody Medical Instrument Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Jinhua Cody Medical Instrument Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Mao Tiotechnoioge Co.,Ltd Hangzhou</fullName>
+                <default>false</default>
+                <label>GC-AG-Mao Tiotechnoioge Co.,Ltd Hangzhou</label>
+            </value>
+            <value>
+                <fullName>GC-AG-National Pharmaceutical Group Shang</fullName>
+                <default>false</default>
+                <label>GC-AG-National Pharmaceutical Group Shang</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shandong Furunde Medical Equipment</fullName>
+                <default>false</default>
+                <label>GC-AG-Shandong Furunde Medical Equipment</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shandong Haidai Biotech Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Shandong Haidai Biotech Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shanghai Danli Inspection</fullName>
+                <default>false</default>
+                <label>GC-AG-Shanghai Danli Inspection</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shanghai Topgen Biopharm Technology</fullName>
+                <default>false</default>
+                <label>GC-AG-Shanghai Topgen Biopharm Technology</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shanghai Kindly Hospital Management</fullName>
+                <default>false</default>
+                <label>GC-AG-Shanghai Kindly Hospital Management</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shanghai Kunai Biotechnology</fullName>
+                <default>false</default>
+                <label>GC-AG-Shanghai Kunai Biotechnology</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shanghai Panying Trading</fullName>
+                <default>false</default>
+                <label>GC-AG-Shanghai Panying Trading</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shanghai Yaoxun Biotech Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Shanghai Yaoxun Biotech Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shenyang Antaisheng Trade,Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Shenyang Antaisheng Trade,Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Shenzhen Yu Jie Biological Technolo</fullName>
+                <default>false</default>
+                <label>GC-AG-Shenzhen Yu Jie Biological Technolo</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Sichuan Ruijianhengye S&amp;T Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Sichuan Ruijianhengye S&amp;T Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Suzhou Perkinelmer Medical Lab</fullName>
+                <default>false</default>
+                <label>GC-AG-Suzhou Perkinelmer Medical Lab</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Suzhou Sym-Bio Lifescience</fullName>
+                <default>false</default>
+                <label>GC-AG-Suzhou Sym-Bio Lifescience</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Taiwan Xunlian Biotech Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Taiwan Xunlian Biotech Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Taiyuan Xinmiao Medical technology co., LTD</fullName>
+                <default>false</default>
+                <label>GC-AG-Taiyuan Xinmiao Medical technology co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Tianjin Jinjia Medical Device</fullName>
+                <default>false</default>
+                <label>GC-AG-Tianjin Jinjia Medical Device</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Tianjin Jingshen Biotech development of science and technology co., LTD</fullName>
+                <default>false</default>
+                <label>GC-AG-Tianjin Jingshen Biotech development of science and technology co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Wuhan Jingchen Biological Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Wuhan Jingchen Biological Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Wuhan Kangzhong Medical technology co., LTD</fullName>
+                <default>false</default>
+                <label>GC-AG-Wuhan Kangzhong Medical technology co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Xiamen Guilu Trading Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Xiamen Guilu Trading Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Xiamen Ruijieshengke Trading Co. Ltd.</fullName>
+                <default>false</default>
+                <label>GC-AG-Xiamen Ruijieshengke Trading Co. Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Yichang Langdi Medical Equipment</fullName>
+                <default>false</default>
+                <label>GC-AG-Yichang Langdi Medical Equipment</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Yunnan Ximaohuamei Technology</fullName>
+                <default>false</default>
+                <label>GC-AG-Yunnan Ximaohuamei Technology</label>
+            </value>
+            <value>
+                <fullName>GC-AG-Zhuhai Yiti Biotech,Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-AG-Zhuhai Yiti Biotech,Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Anhui Yuanwang Medical Equipment Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Anhui Yuanwang Medical Equipment Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Beijing Jiuzhou Huikang Co., LTD</fullName>
+                <default>false</default>
+                <label>GC-BB-Beijing Jiuzhou Huikang Co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Changchun Yishen Software Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Changchun Yishen Software Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Changsha Suolin Medical Equipment Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Changsha Suolin Medical Equipment Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Guangdong hongkang economic development co. LTD</fullName>
+                <default>false</default>
+                <label>GC-BB-Guangdong hongkang economic development co. LTD</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Haerbin Haodetianyu Trading Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Haerbin Haodetianyu Trading Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Haerbin Ruijian Drug Distributor Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Haerbin Ruijian Drug Distributor Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-HeYuan Weierkang pharmaceutical Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-HeYuan Weierkang pharmaceutical Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB- Huarun Kunming Medicine Co., Ltd.</fullName>
+                <default>false</default>
+                <label>GC-BB- Huarun Kunming Medicine Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Jinan Kangji Co., LTD</fullName>
+                <default>false</default>
+                <label>GC-BB-Jinan Kangji Co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Kunming Jiameiyi Trade Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Kunming Jiameiyi Trade Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Qinghai hull medical equipment co. Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Qinghai hull medical equipment co. Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Shanxi Lucky Medicines Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Shanxi Lucky Medicines Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Shandong Rongchen Co., LTD</fullName>
+                <default>false</default>
+                <label>GC-BB-Shandong Rongchen Co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Shanghai Runda Medical S&amp;T Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Shanghai Runda Medical S&amp;T Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Shenyang Dikentiancheng Medical Equipment Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Shenyang Dikentiancheng Medical Equipment Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Sinopharm Nei Mongol Medical Equipment Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Sinopharm Nei Mongol Medical Equipment Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Wuhan Yihetong Biotechnology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Wuhan Yihetong Biotechnology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Xinjiang santai tongfang medical equipment co. LTD</fullName>
+                <default>false</default>
+                <label>GC-BB-Xinjiang santai tongfang medical equipment co. LTD</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Yantai Chengkang Co., LTD</fullName>
+                <default>false</default>
+                <label>GC-BB-Yantai Chengkang Co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-BB-YUNNAN JIANMEI TRADE CO.,LTD</fullName>
+                <default>false</default>
+                <label>GC-BB-Yunnan Jianmei Trade Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-BB-Zhengzhou Feilong Medical Equipment Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-BB-Zhengzhou Feilong Medical Equipment Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-An Hui Da An Gene&amp;Health Consultant Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-An Hui Da An Gene&amp;Health Consultant Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-An Hui Hao Ren Health Management Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-An Hui Hao Ren Health Management Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Beijing Bai Cao Ting Tech. Development Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Beijing Bai Cao Ting Tech. Development Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Beijing Guang Da He Yue Medical &amp; Tech. Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Beijing Guang Da He Yue Medical &amp; Tech. Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Beijing Heng Kai Yi Yuan Tech. Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Beijing Heng Kai Yi Yuan Tech. Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Beijing Hui Yuan Shan Zhi Gene Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Beijing Hui Yuan Shan Zhi Gene Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Beijing Jin Zhun Gene Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Beijing Jin Zhun Gene Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Beijing Kang Xu Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Beijing Kang Xu Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Beijing Sheng Heng Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Beijing Sheng Heng Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Chang Sha Adicon Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Chang Sha Adicon Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Cheng Du Adicon Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Cheng Du Adicon Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Cheng Du Qian Mai Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Cheng Du Qian Mai Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Cheng Du San Hao Biotechnology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Cheng Du San Hao Biotechnology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Cheng Du New Genegle Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Cheng Du New Genegle Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Cheng Du Xing Ye Commercial Service Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Cheng Du Xing Ye Commercial Service Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Chong Qing Tian Yu Zhi Yuan Medical Instrument Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Chong Qing Tian Yu Zhi Yuan Medical Instrument Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Gan Su Jin Ma Gene Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Gan Su Jin Ma Gene Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Guang Xi Hua Yin Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Guang Xi Hua Yin Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Guang Zhou Hua Yin Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Guang Zhou Hua Yin Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Guang Zhou Lai Fu Ke Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Guang Zhou Lai Fu Ke Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Guang Zhou Min Si Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Guang Zhou Min Si Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Guang Zhou Rui An Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Guang Zhou Rui An Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Ha Er Bin De Yun Hospital Management &amp; Consultant Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Ha Er Bin De Yun Hospital Management &amp; Consultant Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Hang Zhou Biosan Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Hang Zhou Biosan Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Hang Zhou Jian Zhan Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Hang Zhou Jian Zhan Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Hang Zhou Wei Pu Commercial consultant Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Hang Zhou Wei Pu Commercial consultant Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-He Fei Kang Rui Yuan Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-He Fei Kang Rui Yuan Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-He Fei Shai De Medical Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-He Fei Shai De Medical Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-He Nan En Zong Medical Instrument Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-He Nan En Zong Medical Instrument Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-He Nan Jie Shuo Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-He Nan Jie Shuo Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-He Nan Shu Yao Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-He Nan Shu Yao Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Hei Long Jiang Hua Cheng Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Hei Long Jiang Hua Cheng Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Hu Bei Kang Si Da Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Hu Bei Kang Si Da Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Ji Lin Shan Zhi Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Ji Lin Shan Zhi Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Ji Lin Hua Da Kang Jian Biotechnology consultant Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Ji Lin Hua Da Kang Jian Biotechnology consultant Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Ji Nan Bao Er Mo medical Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Ji Nan Bao Er Mo medical Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Ji Nan Bao Wei Ya Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Ji Nan Bao Wei Ya Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Jia Xing De Yu Commercial Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Jia Xing De Yu Commercial Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Jiang Su Ou Lan Fu Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Jiang Su Ou Lan Fu Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Jin Xi Medical Technology (Shanghai)Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Jin Xi Medical Technology (Shanghai)Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Kun Ming Ji Rui Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Kun Ming Ji Rui Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Liu Cheng Xi</fullName>
+                <default>false</default>
+                <label>GC-ICL-Liu Cheng Xi</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Luo Yang Tian Ai Health Management Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Luo Yang Tian Ai Health Management Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Nan Jing Yu Lang Trading Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Nan Jing Yu Lang Trading Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Nan Jing Fan Ke Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Nan Jing Fan Ke Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Qing Hai Wo Run Lian Zong Bio-Medical Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Qing Hai Wo Run Lian Zong Bio-Medical Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shan Dong Bao Ang Na Zhi Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shan Dong Bao Ang Na Zhi Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shan Dong Bao Er Mo Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shan Dong Bao Er Mo Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shan Xi Bai Mei Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shan Xi Bai Mei Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shan Xi Mi Yang Medical Instrument Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shan Xi Mi Yang Medical Instrument Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shanghai Fei Te Li Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shanghai Fei Te Li Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shanghai Lai Bo Medical Instrument Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shanghai Lai Bo Medical Instrument Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shanghai Shi Ji Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shanghai Shi Ji Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shanghai Chang Yang Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shanghai Chang Yang Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shanghai Tong Qian Trading Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shanghai Tong Qian Trading Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shanghai Yi Chang Bio-Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shanghai Yi Chang Bio-Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Shen Yang Jia Rui Kang Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Shen Yang Jia Rui Kang Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Si Chuan Jian He Er Bio-technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Si Chuan Jian He Er Bio-technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Si Chuan Zong Lian Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Si Chuan Zong Lian Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Su Zhou Wan Feng Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Su Zhou Wan Feng Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Sun Lian Rui</fullName>
+                <default>false</default>
+                <label>GC-ICL-Sun Lian Rui</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Tian Jin Adicon Medical Intuition Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Tian Jin Adicon Medical Intuition Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Wen Hong Ding Hui (Beijing)Enterprise Consultant Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Wen Hong Ding Hui (Beijing)Enterprise Consultant Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Wu Han Ke Yi Ren Medical Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Wu Han Ke Yi Ren Medical Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Xi An Dong Ao Medical Instrument Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Xi An Dong Ao Medical Instrument Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Xi An Tian Bo Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Xi An Tian Bo Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Xin Xiang Ya Shi Jie Medical Institution Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Xin Xiang Ya Shi Jie Medical Institution Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Yang Jun</fullName>
+                <default>false</default>
+                <label>GC-ICL-Yang Jun</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Yang Jun Sheng</fullName>
+                <default>false</default>
+                <label>GC-ICL-Yang Jun Sheng</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Zhang Bo</fullName>
+                <default>false</default>
+                <label>GC-ICL-Zhang Bo</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Zhe Jiang Biosan Technology Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Zhe Jiang Biosan Technology Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-ICL-Zheng Zhou Adicon Medical Intuition Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-ICL-Zheng Zhou Adicon Medical Intuition Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Beijing Ember Dean Biological Techn Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Beijing Ember Dean Biological Techn Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Bio Gene Technology Ltd.</fullName>
+                <default>false</default>
+                <label>GC-RH-Bio Gene Technology Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-RH-CHENGDU FORTUNE INT&#39;L TRADING</fullName>
+                <default>false</default>
+                <label>GC-RH-CHENGDU FORTUNE INT&#39;L TRADING</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Chongqing Oumai</fullName>
+                <default>false</default>
+                <label>GC-RH-Chongqing Oumai</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Feng Chi Biotech Corp</fullName>
+                <default>false</default>
+                <label>GC-RH-Feng Chi Biotech Corp</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Guangxi Beibuwan Medical Treatment Science And Technology Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>GC-RH-Guangxi Beibuwan Medical Treatment Science And Technology Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Guangxi Shuoshi Biotechnology Scien And Technology Ltd.</fullName>
+                <default>false</default>
+                <label>GC-RH-Guangxi Shuoshi Biotechnology Scien And Technology Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Guangzhou Pe Trading Co., Ltd.</fullName>
+                <default>false</default>
+                <label>GC-RH-Guangzhou Pe Trading Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Guizhou Xiangjihai Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Guizhou Xiangjihai Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Hangzhou Beisheng Pharmacy Equipment</fullName>
+                <default>false</default>
+                <label>GC-RH-Hangzhou Beisheng Pharmacy Equipment</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Henan Aierkang Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Henan Aierkang Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Hk Victory Medical Tech Holdings</fullName>
+                <default>false</default>
+                <label>GC-RH-Hk Victory Medical Tech Holdings</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Kim Forest Enterprise Co Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Kim Forest Enterprise Co Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Kunming Youning Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Kunming Youning Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Jiangsu Honest Medical Equip Co Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Jiangsu Honest Medical Equip Co Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Ningxia Avidi Biotechnology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Ningxia Avidi Biotechnology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Northeast Other Small Dealers</fullName>
+                <default>false</default>
+                <label>GC-RH-Northeast Other Small Dealers</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Shanghai LongXing Medical Equipment, Ltd.</fullName>
+                <default>false</default>
+                <label>GC-RH-Shanghai LongXing Medical Equipment, Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Shanghai Shunyi Biotech Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Shanghai Shunyi Biotech Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Shijiazhuang Golden Screening</fullName>
+                <default>false</default>
+                <label>GC-RH-Shijiazhuang Golden Screening</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Sichuan Biwin I/E Trade Co Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Sichuan Biwin I/E Trade Co Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Sichuan Meibote Biotechnology Techn Co., Ltd.</fullName>
+                <default>false</default>
+                <label>GC-RH-Sichuan Meibote Biotechnology Techn Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Sinopharm Holding Ningxia Medical Tech Development Co Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Sinopharm Holding Ningxia Medical Tech Development Co Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Urumqi Jindongsheng Commerce And Tr</fullName>
+                <default>false</default>
+                <label>GC-RH-Urumqi Jindongsheng Commerce And Tr</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Yangke Trade (Shanghai ) Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-RH-Yangke Trade (Shanghai ) Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-RH-Zhejiang Bio-San Biochemical</fullName>
+                <default>false</default>
+                <label>GC-RH-Zhejiang Bio-San Biochemical</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Beijing Deshankang Medical Technolo</fullName>
+                <default>false</default>
+                <label>GC-SBD-Beijing Deshankang Medical Technolo</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Beijing Genuine Medical Equipmemt</fullName>
+                <default>false</default>
+                <label>GC-SBD-Beijing Genuine Medical Equipmemt</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Beijing Lankeaobo Technology</fullName>
+                <default>false</default>
+                <label>GC-SBD-Beijing Lankeaobo Technology</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Beijing Sifang Kangding Trade Limit</fullName>
+                <default>false</default>
+                <label>GC-SBD-Beijing Sifang Kangding Trade Limit</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Changchun Zhicheng Trade Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Changchun Zhicheng Trade Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Chongqing Kesheng Medical Instrumen</fullName>
+                <default>false</default>
+                <label>GC-SBD-Chongqing Kesheng Medical Instrumen</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Chongqing Zhanhyuan Medical</fullName>
+                <default>false</default>
+                <label>GC-SBD-Chongqing Zhanhyuan Medical</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Fujian Jianfa Co., LTD</fullName>
+                <default>false</default>
+                <label>GC-SBD-Fujian Jianfa Co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Foshan Nanhai Xinsheng Biological</fullName>
+                <default>false</default>
+                <label>GC-SBD-Foshan Nanhai Xinsheng Biological</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Gansu Duolan Medical Instrument Co</fullName>
+                <default>false</default>
+                <label>GC-SBD-Gansu Duolan Medical Instrument Co</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Gansu Xintianli Biotechnology Scien</fullName>
+                <default>false</default>
+                <label>GC-SBD-Gansu Xintianli Biotechnology Scien</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Gansu Zhongxinkeda Trading Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Gansu Zhongxinkeda Trading Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Guangxi Changrong Science And Techn</fullName>
+                <default>false</default>
+                <label>GC-SBD-Guangxi Changrong Science And Techn</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Guangxi Nanning Qixuan  Medical</fullName>
+                <default>false</default>
+                <label>GC-SBD-Guangxi Nanning Qixuan  Medical</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Guangzhou Jiatian Tranding Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Guangzhou Jiatian Tranding Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Guangzhou Ruihua Tranding Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Guangzhou Ruihua Tranding Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Guotuo (Xiamen) Cold Chain Logistics Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Guotuo (Xiamen) Cold Chain Logistics Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Guoyao Group Shanxi Medical Apparat</fullName>
+                <default>false</default>
+                <label>GC-SBD-Guoyao Group Shanxi Medical Apparat</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Haerbing Haoyuanhongtuo Medical</fullName>
+                <default>false</default>
+                <label>GC-SBD-Haerbing Haoyuanhongtuo Medical</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Hainan Xinao Biological Technology Co., Ltd( Qiqihar Branch)</fullName>
+                <default>false</default>
+                <label>GC-SBD-Hainan Xinao Biological Technology Co., Ltd( Qiqihar Branch)</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Harbin Haode Tianyu Trade Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Harbin Haode Tianyu Trade Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Harbin Shuangjie Weiye Scientific A</fullName>
+                <default>false</default>
+                <label>GC-SBD-Harbin Shuangjie Weiye Scientific A</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Handan City Congtai District Boqing</fullName>
+                <default>false</default>
+                <label>GC-SBD-Handan City Congtai District Boqing</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Hangzhou Benchang Biotechnology co., LTD</fullName>
+                <default>false</default>
+                <label>GC-SBD-Hangzhou Benchang Biotechnology co., LTD</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Hangzhou HuaShuo Clinical laboratories Company</fullName>
+                <default>false</default>
+                <label>GC-SBD-Hangzhou HuaShuo Clinical laboratories Company</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Hangzhou Taimao Science And Technol</fullName>
+                <default>false</default>
+                <label>GC-SBD-Hangzhou Taimao Science And Technol</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Hangzhou Yitian Biochemical</fullName>
+                <default>false</default>
+                <label>GC-SBD-Hangzhou Yitian Biochemical</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-HARBIN SHENGJIONG TECHNOLOGY CO., L</fullName>
+                <default>false</default>
+                <label>GC-SBD-HARBIN SHENGJIONG TECHNOLOGY CO., L</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Henan Hongzhiyu Medical Equipment C</fullName>
+                <default>false</default>
+                <label>GC-SBD-Henan Hongzhiyu Medical Equipment C</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Henan Jingtai Medical Apparatus And</fullName>
+                <default>false</default>
+                <label>GC-SBD-Henan Jingtai Medical Apparatus And</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Henan Red Cross Blood Center</fullName>
+                <default>false</default>
+                <label>GC-SBD-Henan Red Cross Blood Center</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Henan Taihe Technology Develop Co.,</fullName>
+                <default>false</default>
+                <label>GC-SBD-Henan Taihe Technology Develop Co.,</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Henan Zhengqingyuan Biotech Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Henan Zhengqingyuan Biotech Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Hubei Chenyun Trading Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Hubei Chenyun Trading Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Hubei Renfu Changjiang Medicine Co.</fullName>
+                <default>false</default>
+                <label>GC-SBD-Hubei Renfu Changjiang Medicine Co.</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Hunan Symbio Technology Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>GC-SBD-Hunan Symbio Technology Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-SBD- Guangzhou Kingmed Diagnostics Group Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>GC-SBD- Guangzhou Kingmed Diagnostics Group Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-GUIZHOU XIANGJIHAI SCIENCE AND</fullName>
+                <default>false</default>
+                <label>GC-SBD-GUIZHOU XIANGJIHAI SCIENCE AND</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Guizhou Xindali Biological Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Guizhou Xindali Biological Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Guiyang Jiacheng Medical Instrument</fullName>
+                <default>false</default>
+                <label>GC-SBD-Guiyang Jiacheng Medical Instrument</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Ji&#39;Nan Renjie Medical Instrument Co</fullName>
+                <default>false</default>
+                <label>GC-SBD-Ji&#39;Nan Renjie Medical Instrument Co</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-JIANGSU GULING BIOLOGICAL TECHNOLOG</fullName>
+                <default>false</default>
+                <label>GC-SBD-Jiangsu Guling Biological Technolog</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Jiangsu Tianhengda Medical Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Jiangsu Tianhengda Medical Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Jinan Diao Medical Equipment Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Jinan Diao Medical Equipment Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Lanzhou Xiangyu Technology</fullName>
+                <default>false</default>
+                <label>GC-SBD-Lanzhou Xiangyu Technology</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Lanzhou Xindawei Commerce And Trade</fullName>
+                <default>false</default>
+                <label>GC-SBD-Lanzhou Xindawei Commerce And Trade</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Meikang Biotechnology Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>GC-SBD-Meikang Biotechnology Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Ningbo Diamicron</fullName>
+                <default>false</default>
+                <label>GC-SBD-Ningbo Diamicron</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Ningbo Meikang Shengde Medical Laboratory Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Ningbo Meikang Shengde Medical Laboratory Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Benchang Biotechnology Sci</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Benchang Biotechnology Sci</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Benze Biotech Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Benze Biotech Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Chukang Medical Instrument</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Chukang Medical Instrument</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Danli Biological Technology</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Danli Biological Technology</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Foze Medicine Technology C</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Foze Medicine Technology C</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Haolai Medical Apparatus A</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Haolai Medical Apparatus A</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Liaoying Medical Equipment</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Liaoying Medical Equipment</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Runda Medical Treatment Li</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Runda Medical Treatment Li</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Yinshi Investment Co.Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Yinshi Investment Co.Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Yasen Medical Equipment Sale</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Yasen Medical Equipment Sale</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Jiakang Medical Trading Co.L</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Jiakang Medical Trading Co.L</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Boanhongtong Medical Treatme</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Boanhongtong Medical Treatme</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Demeng Trading Company Ltd.</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Demeng Trading Company Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shenyang Shangwo Medical Electronic</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shenyang Shangwo Medical Electronic</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shaanxi Hengtai Diagnostic Reagent</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shaanxi Hengtai Diagnostic Reagent</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shaanxi Zhuoyu Pharmaceutical Suppl</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shaanxi Zhuoyu Pharmaceutical Suppl</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shaanxi Tianxin Technology Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shaanxi Tianxin Technology Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shaanxi Haiaosi Medical Technology</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shaanxi Haiaosi Medical Technology</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shaanxi Yixinsheng Biotechnology</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shaanxi Yixinsheng Biotechnology</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanghai Boqing Trading Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Boqing Trading Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-SHANGHAI FUJIAN PHARMACEUTICAL</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanghai Fujian Pharmaceutical</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Gude Medical Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Gude Medical Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Guoyao Co, LTD</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Guoyao Co, LTD</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Guoyao Jifu Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Guoyao Jifu Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Kangzhirui Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Kangzhirui Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Kngzhirui Co, LTD</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Kngzhirui Co, LTD</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shanxi Wenjian Co, LTD</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shanxi Wenjian Co, LTD</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Jiangsu Skyray precision medicine Treatment</fullName>
+                <default>false</default>
+                <label>GC-SBD-Jiangsu Skyray precision medicine Treatment</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Shenyang Jingsheng Commerce And Trad</fullName>
+                <default>false</default>
+                <label>GC-SBD-Shenyang Jingsheng Commerce And Trad</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Sichuan Mike (Guangdong Branch)</fullName>
+                <default>false</default>
+                <label>GC-SBD-Sichuan Mike (Guangdong Branch)</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Taiyuan Hekang Co, LTD</fullName>
+                <default>false</default>
+                <label>GC-SBD-Taiyuan Hekang Co, LTD</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Taiyuan Zhaoqiangshenghuamedical</fullName>
+                <default>false</default>
+                <label>GC-SBD-Taiyuan Zhaoqiangshenghuamedical</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Tianjing Weifu Biotech Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>GC-SBD-Tianjing Weifu Biotech Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Tus-Health Science&amp;Technology CO.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Tus-Health Science&amp;Technology CO.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Wenjiang Yiliao Corporation</fullName>
+                <default>false</default>
+                <label>GC-SBD-Wenjiang Yiliao Corporation</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Wuhan Ariel technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Wuhan Ariel technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Wuhan Sailisi Science And Technolog</fullName>
+                <default>false</default>
+                <label>GC-SBD-Wuhan Sailisi Science And Technolog</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Wuxi Haolai Medical Equipment Co. Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Wuxi Haolai Medical Equipment Co. Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Wuxi Xinhua Technology Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Wuxi Xinhua Technology Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Xi&#39;An Gaosheng Ivd Reagents Co.,Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Xi&#39;An Gaosheng Ivd Reagents Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Xi An Haohua Medicine Medical Equip</fullName>
+                <default>false</default>
+                <label>GC-SBD-Xi An Haohua Medicine Medical Equip</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Xi&#39;An Laibo Biotechnology Science A</fullName>
+                <default>false</default>
+                <label>GC-SBD-Xi&#39;An Laibo Biotechnology Science A</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Xiamen Guilu Commerce And Trade Lim</fullName>
+                <default>false</default>
+                <label>GC-SBD-Xiamen Guilu Commerce And Trade Lim</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-XIMEN MINSITE TRADING CO., LTD</fullName>
+                <default>false</default>
+                <label>GC-SBD-Ximen Minsite Trading Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Xining Kangchenda Commerce And Trad</fullName>
+                <default>false</default>
+                <label>GC-SBD-Xining Kangchenda Commerce And Trad</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Xinjiang Fenghuakangxin Medical</fullName>
+                <default>false</default>
+                <label>GC-SBD-Xinjiang Fenghuakangxin Medical</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Xuzhou Hongyi Trading Co., Ltd</fullName>
+                <default>false</default>
+                <label>GC-SBD-Xuzhou Hongyi Trading Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-YUNNAN SAILISI BIOTECHNOLOGY CO., L</fullName>
+                <default>false</default>
+                <label>GC-SBD-Yunnan Sailisi Biotechnology Co., L</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Yunnan Ximao Huamei Science And</fullName>
+                <default>false</default>
+                <label>GC-SBD-Yunnan Ximao Huamei Science And</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Zhenzhou Chengsheng Medical Apparat</fullName>
+                <default>false</default>
+                <label>GC-SBD-Zhenzhou Chengsheng Medical Apparat</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Zhengzhou Langrun Medical Instrumen</fullName>
+                <default>false</default>
+                <label>GC-SBD-Zhengzhou Langrun Medical Instrumen</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Zhengzhou Ruizhixiang Medical Equip</fullName>
+                <default>false</default>
+                <label>GC-SBD-Zhengzhou Ruizhixiang Medical Equip</label>
+            </value>
+            <value>
+                <fullName>GC-SBD-Zhongshan Zhong&#39;An Medical Apparatu</fullName>
+                <default>false</default>
+                <label>GC-SBD-Zhongshan Zhong&#39;An Medical Apparatu</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-JPN-Eiken Chemical Co. (Eiken)</fullName>
+                <default>false</default>
+                <label>KOSEAJ-JPN-Eiken Chemical Co. (Eiken)</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-JPN-Medical &amp; Biological Laboratories Co.  (MBL)</fullName>
+                <default>false</default>
+                <label>KOSEAJ-JPN-Medical &amp; Biological Laboratories Co.  (MBL)</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-KOR-Bio-Medical Science Co., Ltd (BMS)</fullName>
+                <default>false</default>
+                <label>KOSEAJ-KOR-Bio-Medical Science Co., Ltd (BMS)</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-KOR-Bio4U</fullName>
+                <default>false</default>
+                <label>KOSEAJ-KOR-Bio4U</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-KOR-DiaGenex Co., Ltd</fullName>
+                <default>false</default>
+                <label>KOSEAJ-KOR-DiaGenex Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-OCE-ESL</fullName>
+                <default>false</default>
+                <label>KOSEAJ-OCE-ESL</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-OCE-Geneworks</fullName>
+                <default>false</default>
+                <label>KOSEAJ-OCE-Geneworks</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-OCE-Mediray</fullName>
+                <default>false</default>
+                <label>KOSEAJ-OCE-Mediray</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-OCE-Scientific Partners</fullName>
+                <default>false</default>
+                <label>KOSEAJ-OCE-Scientific Partners</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-OCE-Scientifix</fullName>
+                <default>false</default>
+                <label>KOSEAJ-OCE-Scientifix</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-OCE-SciMed Ltd</fullName>
+                <default>false</default>
+                <label>KOSEAJ-OCE-SciMed Ltd</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-Bio-Active Co., Ltd</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-Bio-Active Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-Dynamic Pharma Co., Ltd</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-Dynamic Pharma Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-Gene plus Co.,Ltd.</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-Gene plus Co.,Ltd.</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-ITS Vietnam</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-ITS Vietnam</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-MP Medgroup Co.,Ltd</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-MP Medgroup Co.,Ltd</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-Nanova Co., Ltd</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-Nanova Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-PT. Andaman Medical Indonesia</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-PT. Andaman Medical Indonesia</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-PT. Pacific Biotekindo Intralab (PBI)</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-PT. Pacific Biotekindo Intralab (PBI)</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-PT. Sona Medika Jaya (SOMEDA)</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-PT. Sona Medika Jaya (SOMEDA)</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-PT. UBC Medical Indonesia</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-PT. UBC Medical Indonesia</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-Saigon Instrumentation Joint Stock Company (SISC)</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-Saigon Instrumentation Joint Stock Company (SISC)</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-ScienceVision Sdn Bhd</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-ScienceVision Sdn Bhd</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-Simply Science Pte Ltd</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-Simply Science Pte Ltd</label>
+            </value>
+            <value>
+                <fullName>KOSEAJ-SEA-Zafire Distributors Inc</fullName>
+                <default>false</default>
+                <label>KOSEAJ-SEA-Zafire Distributors Inc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

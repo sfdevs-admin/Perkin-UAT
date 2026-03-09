@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PF_Opportunity_Type__c</fullName>
+    <label>PF Opportunity Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Site</fullName>
+                <default>false</default>
+                <label>New Site</label>
+            </value>
+            <value>
+                <fullName>Existing Site/Project Extension</fullName>
+                <default>false</default>
+                <label>Existing Site/Project Extension</label>
+            </value>
+            <value>
+                <fullName>Existing Site/New Project</fullName>
+                <default>false</default>
+                <label>Existing Site/New Project</label>
+            </value>
+            <value>
+                <fullName>Service Expansion</fullName>
+                <default>false</default>
+                <label>Service Expansion</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

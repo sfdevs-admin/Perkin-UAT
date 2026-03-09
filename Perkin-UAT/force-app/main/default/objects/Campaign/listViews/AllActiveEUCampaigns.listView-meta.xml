@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllActiveEUCampaigns</fullName>
+    <columns>INF_Campaign_Id__c</columns>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <columns>Region__c</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>Adtrack_Event_Source_Code__c</columns>
+    <columns>AMOUNT_WON</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Territory__c</field>
+        <operation>equals</operation>
+        <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Completed,Aborted</value>
+    </filters>
+    <label>eb-Active EMEA Campaigns</label>
+    <language>en_US</language>
+</ListView>

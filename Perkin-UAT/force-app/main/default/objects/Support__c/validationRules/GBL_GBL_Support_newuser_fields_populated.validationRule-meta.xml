@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_GBL_Support_newuser_fields_populated</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND( ISPICKVAL( Problem_type__c,&#39;New User Request&#39;), ISBLANK( New_User_Email_ID__c ) ) , 
+AND(NOT( ISBLANK( New_User_Email_ID__c )) , NOT(ISPICKVAL( Problem_type__c,&#39;New User Request&#39;))) )</errorConditionFormula>
+    <errorMessage>V.RULE_SUPPORT_001: IF &#39;problem type&#39; is New User Request, ensure &#39;New User Creation Details&#39; section is populated. Otherwise leave it blank.</errorMessage>
+</ValidationRule>

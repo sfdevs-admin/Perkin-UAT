@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TS_MFT_Apps_chips</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.REASON</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.LST_Support_Service</value>
+    </filters>
+    <filters>
+        <field>Sub_Type__c</field>
+        <operation>equals</operation>
+        <value>Application,Chips &amp; Reagent</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <label>TS-MFT Apps-chips-Closed</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000756</group>
+        <group>ARQ_000975</group>
+    </sharedTo>
+</ListView>

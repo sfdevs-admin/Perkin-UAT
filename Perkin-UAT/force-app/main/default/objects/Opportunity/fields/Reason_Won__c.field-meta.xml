@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Won__c</fullName>
+    <description>Pick the main reason which determined why this order was won.</description>
+    <label>Reason Won</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Best Price/Performance</fullName>
+                <default>false</default>
+                <label>Best Price/Performance</label>
+            </value>
+            <value>
+                <fullName>Brand loyalty/recognition</fullName>
+                <default>false</default>
+                <label>Brand loyalty/recognition</label>
+            </value>
+            <value>
+                <fullName>PKI Promotion</fullName>
+                <default>false</default>
+                <label>PKI Promotion</label>
+            </value>
+            <value>
+                <fullName>Prior PKI Ownership Experience</fullName>
+                <default>false</default>
+                <label>Prior PKI Ownership Experience</label>
+            </value>
+            <value>
+                <fullName>Add-on to existing system</fullName>
+                <default>false</default>
+                <label>Add-on to existing system</label>
+            </value>
+            <value>
+                <fullName>Applications / Proofs / References</fullName>
+                <default>false</default>
+                <label>Applications / Proofs / References</label>
+            </value>
+            <value>
+                <fullName>Relationship to local sales</fullName>
+                <default>false</default>
+                <label>Relationship to local sales</label>
+            </value>
+            <value>
+                <fullName>Relationship to local service</fullName>
+                <default>false</default>
+                <label>Relationship to local service</label>
+            </value>
+            <value>
+                <fullName>Transfer of Methods</fullName>
+                <default>false</default>
+                <label>Transfer of Methods</label>
+            </value>
+            <value>
+                <fullName>Good Demonstration</fullName>
+                <default>false</default>
+                <label>Good Demonstration</label>
+            </value>
+            <value>
+                <fullName>Specification</fullName>
+                <default>false</default>
+                <label>Specification</label>
+            </value>
+            <value>
+                <fullName>Product performance</fullName>
+                <default>false</default>
+                <label>Product performance</label>
+            </value>
+            <value>
+                <fullName>Product not available to sell</fullName>
+                <default>false</default>
+                <label>Product not available to sell</label>
+            </value>
+            <value>
+                <fullName>Delivery Timeline</fullName>
+                <default>false</default>
+                <label>Delivery Timeline</label>
+            </value>
+            <value>
+                <fullName>Service availability</fullName>
+                <default>false</default>
+                <label>Service availability</label>
+            </value>
+            <value>
+                <fullName>Preferred vendor</fullName>
+                <default>false</default>
+                <label>Preferred vendor</label>
+            </value>
+            <value>
+                <fullName>Reputation</fullName>
+                <default>false</default>
+                <label>Reputation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

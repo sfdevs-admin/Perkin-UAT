@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxMissingFields_stage4__c</fullName>
+    <description>fields missing at the current stage</description>
+    <externalId>false</externalId>
+    <formula>IF( Quick_Close__c =True, &quot;&quot;,
+
+IF(
+ AND(
+       IsClosed = False
+     , fxStageNumber__c &lt;=4
+     
+     , OR (
+          CloseDate &lt; Today()-31
+        , CloseDate &gt; Today()+3650
+       )
+     )
+    ,&#39;•Verify Close Date;&#39;
+    ,&quot;&quot;
+   ))
+/*
+&amp; IF(  Territory2Id =&quot;&quot;,&quot;•Territory;&quot;,&quot;&quot;) */</formula>
+    <inlineHelpText>fields missing at the current stage</inlineHelpText>
+    <label>fxMissingFields_stage4</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

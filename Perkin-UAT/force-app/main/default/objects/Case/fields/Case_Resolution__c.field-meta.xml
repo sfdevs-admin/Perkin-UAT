@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Resolution__c</fullName>
+    <description>LST Service cases</description>
+    <label>Case Resolution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adjustment – Elect/Mech</fullName>
+                <default>false</default>
+                <label>Adjustment – Elect/Mech</label>
+            </value>
+            <value>
+                <fullName>Admin (Non-Billable)</fullName>
+                <default>false</default>
+                <label>Admin (Non-Billable)</label>
+            </value>
+            <value>
+                <fullName>Calibration</fullName>
+                <default>false</default>
+                <label>Calibration</label>
+            </value>
+            <value>
+                <fullName>Clean</fullName>
+                <default>false</default>
+                <label>Clean</label>
+            </value>
+            <value>
+                <fullName>Created Quality Case</fullName>
+                <default>false</default>
+                <label>Created Quality Case</label>
+            </value>
+            <value>
+                <fullName>Installation Complete</fullName>
+                <default>false</default>
+                <label>Installation Complete</label>
+            </value>
+            <value>
+                <fullName>Method Development</fullName>
+                <default>false</default>
+                <label>Method Development</label>
+            </value>
+            <value>
+                <fullName>Move Complete</fullName>
+                <default>false</default>
+                <label>Move Complete</label>
+            </value>
+            <value>
+                <fullName>Order Part</fullName>
+                <default>false</default>
+                <label>Order Part</label>
+            </value>
+            <value>
+                <fullName>Phone Fix</fullName>
+                <default>false</default>
+                <label>Phone Fix</label>
+            </value>
+            <value>
+                <fullName>PM Complete</fullName>
+                <default>false</default>
+                <label>PM Complete</label>
+            </value>
+            <value>
+                <fullName>Reconfigure Software</fullName>
+                <default>false</default>
+                <label>Reconfigure Software</label>
+            </value>
+            <value>
+                <fullName>Repaired Part</fullName>
+                <default>false</default>
+                <label>Repaired Part</label>
+            </value>
+            <value>
+                <fullName>Replaced Part</fullName>
+                <default>false</default>
+                <label>Replaced Part</label>
+            </value>
+            <value>
+                <fullName>Re-teach</fullName>
+                <default>false</default>
+                <label>Re-teach</label>
+            </value>
+            <value>
+                <fullName>Train Operator/Customer</fullName>
+                <default>false</default>
+                <label>Train Operator/Customer</label>
+            </value>
+            <value>
+                <fullName>Update/Upgrade Complete</fullName>
+                <default>false</default>
+                <label>Update/Upgrade Complete</label>
+            </value>
+            <value>
+                <fullName>Duplicate Case-N/A</fullName>
+                <default>false</default>
+                <label>Duplicate Case-N/A</label>
+            </value>
+            <value>
+                <fullName>Training Complete</fullName>
+                <default>false</default>
+                <label>Training Complete</label>
+            </value>
+            <value>
+                <fullName>RevRec - Additional training pending</fullName>
+                <default>false</default>
+                <label>RevRec - Additional training pending</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Adjustment – Elect/Mech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Calibration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <valueName>Created Quality Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Installation Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Method Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Order Part</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Phone Fix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Reconfigure Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Replaced Part</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Re-teach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Train Operator/Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Update/Upgrade Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>Training Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>RevRec - Additional training pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Admin (Non-Billable)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Clean</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Move Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>PM Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Repaired Part</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

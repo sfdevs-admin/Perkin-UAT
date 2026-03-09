@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Business_Unit__c</fullName>
+    <label>Sub Business Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>APPLIED GENOMICS</fullName>
+                <default>false</default>
+                <label>APPLIED GENOMICS</label>
+            </value>
+            <value>
+                <fullName>BIO-D DISCO OPS</fullName>
+                <default>false</default>
+                <label>BIO-D DISCO OPS</label>
+            </value>
+            <value>
+                <fullName>CLINICAL DIAGNOSTICS</fullName>
+                <default>false</default>
+                <label>CLINICAL DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>EMERGING DIAGNOSTICS</fullName>
+                <default>false</default>
+                <label>EMERGING DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>EUROIMMUN</fullName>
+                <default>false</default>
+                <label>EUROIMMUN</label>
+            </value>
+            <value>
+                <fullName>FOOD</fullName>
+                <default>false</default>
+                <label>FOOD</label>
+            </value>
+            <value>
+                <fullName>GENETIC TESTING SERVICES</fullName>
+                <default>false</default>
+                <label>GENETIC TESTING SERVICES</label>
+            </value>
+            <value>
+                <fullName>IMAGING &amp; DETECTION</fullName>
+                <default>false</default>
+                <label>IMAGING &amp; DETECTION</label>
+            </value>
+            <value>
+                <fullName>INFORMATICS</fullName>
+                <default>false</default>
+                <label>INFORMATICS</label>
+            </value>
+            <value>
+                <fullName>INORGANIC</fullName>
+                <default>false</default>
+                <label>INORGANIC</label>
+            </value>
+            <value>
+                <fullName>LIGHTING</fullName>
+                <default>false</default>
+                <label>LIGHTING</label>
+            </value>
+            <value>
+                <fullName>MATERNAL FETAL HEALTH</fullName>
+                <default>false</default>
+                <label>MATERNAL FETAL HEALTH</label>
+            </value>
+            <value>
+                <fullName>MEDICAL IMAGING</fullName>
+                <default>false</default>
+                <label>MEDICAL IMAGING</label>
+            </value>
+            <value>
+                <fullName>MULTI-VENDOR</fullName>
+                <default>false</default>
+                <label>MULTI-VENDOR</label>
+            </value>
+            <value>
+                <fullName>NEONATAL</fullName>
+                <default>false</default>
+                <label>NEONATAL</label>
+            </value>
+            <value>
+                <fullName>NTD LABS</fullName>
+                <default>false</default>
+                <label>NTD LABS</label>
+            </value>
+            <value>
+                <fullName>ONCOLOGY</fullName>
+                <default>false</default>
+                <label>ONCOLOGY</label>
+            </value>
+            <value>
+                <fullName>ORGANIC</fullName>
+                <default>false</default>
+                <label>ORGANIC</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>PRODUCT LINE IN QUESTION</fullName>
+                <default>false</default>
+                <label>PRODUCT LINE IN QUESTION</label>
+            </value>
+            <value>
+                <fullName>QUANTITATIVE PATHOLOGY</fullName>
+                <default>false</default>
+                <label>QUANTITATIVE PATHOLOGY</label>
+            </value>
+            <value>
+                <fullName>RADS &amp; SERVICE</fullName>
+                <default>false</default>
+                <label>RADS &amp; SERVICE</label>
+            </value>
+            <value>
+                <fullName>SERVICE</fullName>
+                <default>false</default>
+                <label>SERVICE</label>
+            </value>
+            <value>
+                <fullName>SIGNATURE GENOMICS LAB</fullName>
+                <default>false</default>
+                <label>SIGNATURE GENOMICS LAB</label>
+            </value>
+            <value>
+                <fullName>UNCODED</fullName>
+                <default>false</default>
+                <label>UNCODED</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

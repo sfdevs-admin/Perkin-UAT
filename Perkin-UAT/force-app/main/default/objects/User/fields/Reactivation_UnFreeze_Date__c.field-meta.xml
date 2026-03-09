@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reactivation_UnFreeze_Date__c</fullName>
+    <description>Date the user is either Reactivated or UnFrozen - (to assist in Reporting purposes and in Automation.)</description>
+    <inlineHelpText>Please enter the date the user is either Reactivated or UnFrozen</inlineHelpText>
+    <label>Reactivation/UnFreeze Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

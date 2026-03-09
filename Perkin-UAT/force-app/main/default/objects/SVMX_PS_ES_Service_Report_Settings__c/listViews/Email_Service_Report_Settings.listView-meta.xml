@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Service_Report_Settings</fullName>
+    <columns>NAME</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>SETUP_TYPE</columns>
+    <columns>SETUP_OWNER_NAME</columns>
+    <columns>SVMX_PS_ES_Text_Value__c</columns>
+    <columns>SVMX_PS_ES_Value__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Email Service Report Settings</label>
+    <language>en_US</language>
+</ListView>

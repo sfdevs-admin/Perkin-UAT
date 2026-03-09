@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonDoNotDelete__c</fullName>
+    <description>ReasonDoNotDelete holds the reason why this field should not be deleted</description>
+    <inlineHelpText>Please fill out the reason why this field should not be deleted.</inlineHelpText>
+    <label>ReasonDoNotDelete</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

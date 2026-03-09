@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Line__c</fullName>
+    <label>Product Line</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Marketing_Business_Unit__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AA</fullName>
+                <default>false</default>
+                <label>AA</label>
+            </value>
+            <value>
+                <fullName>ANP</fullName>
+                <default>false</default>
+                <label>ANP</label>
+            </value>
+            <value>
+                <fullName>APS</fullName>
+                <default>false</default>
+                <label>APS</label>
+            </value>
+            <value>
+                <fullName>AWS</fullName>
+                <default>false</default>
+                <label>AWS</label>
+            </value>
+            <value>
+                <fullName>CSA</fullName>
+                <default>false</default>
+                <label>CSA</label>
+            </value>
+            <value>
+                <fullName>DIA</fullName>
+                <default>false</default>
+                <label>DIA</label>
+            </value>
+            <value>
+                <fullName>DIS</fullName>
+                <default>false</default>
+                <label>DIS</label>
+            </value>
+            <value>
+                <fullName>ESS</fullName>
+                <default>false</default>
+                <label>ESS</label>
+            </value>
+            <value>
+                <fullName>GC</fullName>
+                <default>false</default>
+                <label>GC</label>
+            </value>
+            <value>
+                <fullName>HCS</fullName>
+                <default>false</default>
+                <label>HCS</label>
+            </value>
+            <value>
+                <fullName>HTS</fullName>
+                <default>false</default>
+                <label>HTS</label>
+            </value>
+            <value>
+                <fullName>ICP</fullName>
+                <default>false</default>
+                <label>ICP</label>
+            </value>
+            <value>
+                <fullName>IR</fullName>
+                <default>false</default>
+                <label>IR</label>
+            </value>
+            <value>
+                <fullName>LC</fullName>
+                <default>false</default>
+                <label>LC</label>
+            </value>
+            <value>
+                <fullName>LVI</fullName>
+                <default>false</default>
+                <label>LVI</label>
+            </value>
+            <value>
+                <fullName>MAS</fullName>
+                <default>false</default>
+                <label>MAS</label>
+            </value>
+            <value>
+                <fullName>MLD</fullName>
+                <default>false</default>
+                <label>MLD</label>
+            </value>
+            <value>
+                <fullName>NEO</fullName>
+                <default>false</default>
+                <label>NEO</label>
+            </value>
+            <value>
+                <fullName>PGI</fullName>
+                <default>false</default>
+                <label>PGI</label>
+            </value>
+            <value>
+                <fullName>PRE</fullName>
+                <default>false</default>
+                <label>PRE</label>
+            </value>
+            <value>
+                <fullName>RAM</fullName>
+                <default>false</default>
+                <label>RAM</label>
+            </value>
+            <value>
+                <fullName>RRD</fullName>
+                <default>false</default>
+                <label>RRD</label>
+            </value>
+            <value>
+                <fullName>RRS</fullName>
+                <default>false</default>
+                <label>RRS</label>
+            </value>
+            <value>
+                <fullName>SPS</fullName>
+                <default>false</default>
+                <label>SPS</label>
+            </value>
+            <value>
+                <fullName>TEA</fullName>
+                <default>false</default>
+                <label>TEA</label>
+            </value>
+            <value>
+                <fullName>UVS</fullName>
+                <default>false</default>
+                <label>UVS</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>AA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>ESS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>GC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>ICP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>IR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>LC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>MAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>RAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>TEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANALYTICAL SCIENCES</controllingFieldValue>
+            <valueName>UVS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPECIALTY DIAGNOSTICS</controllingFieldValue>
+            <valueName>NEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPECIALTY DIAGNOSTICS</controllingFieldValue>
+            <valueName>PRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>ANP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>APS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>AWS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>CSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>DIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>DIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>HTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>LVI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>MLD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>PGI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>RRD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>RRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LIFE SCIENCE TECHNOLOGIES</controllingFieldValue>
+            <valueName>SPS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

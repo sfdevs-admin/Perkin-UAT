@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interest_Type__c</fullName>
+    <label>Interest Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Interest__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Associate Program</fullName>
+                <default>false</default>
+                <label>Associate Program</label>
+            </value>
+            <value>
+                <fullName>Partner/Re-seller</fullName>
+                <default>false</default>
+                <label>Partner/Re-seller</label>
+            </value>
+            <value>
+                <fullName>iFinch Trial Account</fullName>
+                <default>false</default>
+                <label>iFinch Trial Account</label>
+            </value>
+            <value>
+                <fullName>iFinch Purchase Request</fullName>
+                <default>false</default>
+                <label>iFinch Purchase Request</label>
+            </value>
+            <value>
+                <fullName>Personal Edition</fullName>
+                <default>false</default>
+                <label>Personal Edition</label>
+            </value>
+            <value>
+                <fullName>Team Edition</fullName>
+                <default>false</default>
+                <label>Team Edition</label>
+            </value>
+            <value>
+                <fullName>New Business</fullName>
+                <default>false</default>
+                <label>New Business</label>
+            </value>
+            <value>
+                <fullName>Add-on Business</fullName>
+                <default>false</default>
+                <label>Add-on Business</label>
+            </value>
+            <value>
+                <fullName>Support/Maintenance</fullName>
+                <default>false</default>
+                <label>Support/Maintenance</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FinchLab</controllingFieldValue>
+            <controllingFieldValue>Finch Suite Products</controllingFieldValue>
+            <valueName>New Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FinchLab</controllingFieldValue>
+            <controllingFieldValue>Finch Suite Products</controllingFieldValue>
+            <valueName>Add-on Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FinchLab</controllingFieldValue>
+            <controllingFieldValue>Finch Suite Products</controllingFieldValue>
+            <valueName>Support/Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FinchLab</controllingFieldValue>
+            <controllingFieldValue>Finch Suite Products</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FinchLab</controllingFieldValue>
+            <controllingFieldValue>Finch Suite Products</controllingFieldValue>
+            <valueName>Professional Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iFinch</controllingFieldValue>
+            <valueName>Associate Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iFinch</controllingFieldValue>
+            <valueName>Partner/Re-seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iFinch</controllingFieldValue>
+            <valueName>iFinch Trial Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iFinch</controllingFieldValue>
+            <valueName>iFinch Purchase Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iFinch</controllingFieldValue>
+            <valueName>Personal Edition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iFinch</controllingFieldValue>
+            <valueName>Team Edition</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

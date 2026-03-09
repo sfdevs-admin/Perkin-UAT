@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_CC_Onclose_Resln_mandatory</fullName>
+    <active>true</active>
+    <description>Applies to the &quot;CC- General&quot; Case record type</description>
+    <errorConditionFormula>AND( 
+RecordType.Name = &#39;Customer Care - General&#39;
+,ISPICKVAL(Status, &#39;Closed&#39;)
+,ISBLANK( BD_SAP_Reference_Number__c )
+,ISBLANK(  DX_Resolution__c ))</errorConditionFormula>
+    <errorDisplayField>DX_Resolution__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_022: When closing a Case, you must enter either the SAP Reference Number or the Resolution</errorMessage>
+</ValidationRule>

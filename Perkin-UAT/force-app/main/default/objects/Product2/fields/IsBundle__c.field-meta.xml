@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsBundle__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Set it to True if its a bundle product. This field will be used as a check to exclude the product line from sending to SAP (Source: S-692816)</description>
+    <inlineHelpText>Set it to True if its a bundle product.</inlineHelpText>
+    <label>IsBundle</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

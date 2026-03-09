@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Submitted_Status_Date_Time__c</fullName>
+    <description>Updates Submitted Status Date/Time to (now)</description>
+    <inlineHelpText>Updates Submitted Status Date/Time to (now)</inlineHelpText>
+    <label>Submitted Status Date/Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Specification_Favoring__c</fullName>
+    <label>Specification Favoring</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>BD_Business_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AAS</fullName>
+                <default>false</default>
+                <label>AAS</label>
+            </value>
+            <value>
+                <fullName>CHNS</fullName>
+                <default>false</default>
+                <label>CHNS</label>
+            </value>
+            <value>
+                <fullName>DMA</fullName>
+                <default>false</default>
+                <label>DMA</label>
+            </value>
+            <value>
+                <fullName>DSC</fullName>
+                <default>false</default>
+                <label>DSC</label>
+            </value>
+            <value>
+                <fullName>Fluorescence Spectrophotometer</fullName>
+                <default>false</default>
+                <label>Fluorescence Spectrophotometer</label>
+            </value>
+            <value>
+                <fullName>FTIR</fullName>
+                <default>false</default>
+                <label>FTIR</label>
+            </value>
+            <value>
+                <fullName>FT-NIR</fullName>
+                <default>false</default>
+                <label>FT-NIR</label>
+            </value>
+            <value>
+                <fullName>Gas Chromatography</fullName>
+                <default>false</default>
+                <label>Gas Chromatography</label>
+            </value>
+            <value>
+                <fullName>Gas Chromatography Analyzers</fullName>
+                <default>false</default>
+                <label>Gas Chromatography Analyzers</label>
+            </value>
+            <value>
+                <fullName>Gas Chromatography with Headspace samplers</fullName>
+                <default>false</default>
+                <label>Gas Chromatography with Headspace samplers</label>
+            </value>
+            <value>
+                <fullName>GCMS</fullName>
+                <default>false</default>
+                <label>GCMS</label>
+            </value>
+            <value>
+                <fullName>ICP</fullName>
+                <default>false</default>
+                <label>ICP</label>
+            </value>
+            <value>
+                <fullName>ICP-MS</fullName>
+                <default>false</default>
+                <label>ICP-MS</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>IR</fullName>
+                <default>false</default>
+                <label>IR</label>
+            </value>
+            <value>
+                <fullName>LC-MS</fullName>
+                <default>false</default>
+                <label>LC-MS</label>
+            </value>
+            <value>
+                <fullName>Liquid Chromatography</fullName>
+                <default>false</default>
+                <label>Liquid Chromatography</label>
+            </value>
+            <value>
+                <fullName>MS</fullName>
+                <default>false</default>
+                <label>MS</label>
+            </value>
+            <value>
+                <fullName>MS UV-Vis</fullName>
+                <default>false</default>
+                <label>MS UV-Vis</label>
+            </value>
+            <value>
+                <fullName>N2 Analyzers</fullName>
+                <default>false</default>
+                <label>N2 Analyzers</label>
+            </value>
+            <value>
+                <fullName>NIR Microscopy</fullName>
+                <default>false</default>
+                <label>NIR Microscopy</label>
+            </value>
+            <value>
+                <fullName>O</fullName>
+                <default>false</default>
+                <label>O</label>
+            </value>
+            <value>
+                <fullName>Portable GC</fullName>
+                <default>false</default>
+                <label>Portable GC</label>
+            </value>
+            <value>
+                <fullName>Sample Digestion</fullName>
+                <default>false</default>
+                <label>Sample Digestion</label>
+            </value>
+            <value>
+                <fullName>STA (DTA)</fullName>
+                <default>false</default>
+                <label>STA (DTA)</label>
+            </value>
+            <value>
+                <fullName>TGA</fullName>
+                <default>false</default>
+                <label>TGA</label>
+            </value>
+            <value>
+                <fullName>TGA-IR-GCC</fullName>
+                <default>false</default>
+                <label>TGA-IR-GCC</label>
+            </value>
+            <value>
+                <fullName>TG-GC/</fullName>
+                <default>false</default>
+                <label>TG-GC/</label>
+            </value>
+            <value>
+                <fullName>TG-IR</fullName>
+                <default>false</default>
+                <label>TG-IR</label>
+            </value>
+            <value>
+                <fullName>TG-MS</fullName>
+                <default>false</default>
+                <label>TG-MS</label>
+            </value>
+            <value>
+                <fullName>UV-DSC</fullName>
+                <default>false</default>
+                <label>UV-DSC</label>
+            </value>
+            <value>
+                <fullName>UV-Vis-NIR</fullName>
+                <default>false</default>
+                <label>UV-Vis-NIR</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Inorganic</controllingFieldValue>
+            <valueName>AAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inorganic</controllingFieldValue>
+            <valueName>ICP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inorganic</controllingFieldValue>
+            <valueName>ICP-MS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inorganic</controllingFieldValue>
+            <valueName>Sample Digestion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chromatography</controllingFieldValue>
+            <valueName>Gas Chromatography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chromatography</controllingFieldValue>
+            <valueName>Gas Chromatography Analyzers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chromatography</controllingFieldValue>
+            <valueName>Gas Chromatography with Headspace samplers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chromatography</controllingFieldValue>
+            <valueName>Liquid Chromatography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mass Spectrometry</controllingFieldValue>
+            <valueName>GCMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mass Spectrometry</controllingFieldValue>
+            <valueName>LC-MS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mass Spectrometry</controllingFieldValue>
+            <controllingFieldValue>Hyphenated Techniques</controllingFieldValue>
+            <valueName>MS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mass Spectrometry</controllingFieldValue>
+            <valueName>Portable GC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Spectroscopy</controllingFieldValue>
+            <valueName>Fluorescence Spectrophotometer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Spectroscopy</controllingFieldValue>
+            <valueName>FTIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Spectroscopy</controllingFieldValue>
+            <valueName>FT-NIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Spectroscopy</controllingFieldValue>
+            <valueName>Imaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Spectroscopy</controllingFieldValue>
+            <valueName>IR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Spectroscopy</controllingFieldValue>
+            <valueName>NIR Microscopy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Spectroscopy</controllingFieldValue>
+            <valueName>UV-Vis-NIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Thermal Analysis</controllingFieldValue>
+            <valueName>CHNS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Thermal Analysis</controllingFieldValue>
+            <controllingFieldValue>Hyphenated Techniques</controllingFieldValue>
+            <valueName>DMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Thermal Analysis</controllingFieldValue>
+            <valueName>DSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Thermal Analysis</controllingFieldValue>
+            <valueName>N2 Analyzers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Thermal Analysis</controllingFieldValue>
+            <valueName>O</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Thermal Analysis</controllingFieldValue>
+            <valueName>STA (DTA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Thermal Analysis</controllingFieldValue>
+            <valueName>TGA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hyphenated Techniques</controllingFieldValue>
+            <valueName>TGA-IR-GCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hyphenated Techniques</controllingFieldValue>
+            <valueName>TG-GC/</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hyphenated Techniques</controllingFieldValue>
+            <valueName>TG-IR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hyphenated Techniques</controllingFieldValue>
+            <valueName>TG-MS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hyphenated Techniques</controllingFieldValue>
+            <valueName>UV-DSC</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

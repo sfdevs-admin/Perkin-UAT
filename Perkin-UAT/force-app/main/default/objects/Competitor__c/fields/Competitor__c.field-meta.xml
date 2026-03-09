@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor__c</fullName>
+    <label>Competitor</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Line__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ABB Bomem</fullName>
+                <default>false</default>
+                <label>ABB Bomem</label>
+            </value>
+            <value>
+                <fullName>Affymetrix Inc</fullName>
+                <default>false</default>
+                <label>Affymetrix Inc</label>
+            </value>
+            <value>
+                <fullName>Agilent Technologies</fullName>
+                <default>false</default>
+                <label>Agilent Technologies</label>
+            </value>
+            <value>
+                <fullName>ALLtech Associates</fullName>
+                <default>false</default>
+                <label>ALLtech Associates</label>
+            </value>
+            <value>
+                <fullName>Alpha Innotech</fullName>
+                <default>false</default>
+                <label>Alpha Innotech</label>
+            </value>
+            <value>
+                <fullName>Analitik Jena</fullName>
+                <default>false</default>
+                <label>Analitik Jena</label>
+            </value>
+            <value>
+                <fullName>Applied Biosystems (ABI)</fullName>
+                <default>false</default>
+                <label>Applied Biosystems (ABI)</label>
+            </value>
+            <value>
+                <fullName>Applied Biosystems (Tropix)</fullName>
+                <default>false</default>
+                <label>Applied Biosystems (Tropix)</label>
+            </value>
+            <value>
+                <fullName>AssayNet</fullName>
+                <default>false</default>
+                <label>AssayNet</label>
+            </value>
+            <value>
+                <fullName>ATI</fullName>
+                <default>false</default>
+                <label>ATI</label>
+            </value>
+            <value>
+                <fullName>Atlantic Lab Equipment</fullName>
+                <default>false</default>
+                <label>Atlantic Lab Equipment</label>
+            </value>
+            <value>
+                <fullName>ATS Scientific Inc.</fullName>
+                <default>false</default>
+                <label>ATS Scientific Inc.</label>
+            </value>
+            <value>
+                <fullName>Axon Instruments (Molecular Devices)</fullName>
+                <default>false</default>
+                <label>Axon Instruments (Molecular Devices)</label>
+            </value>
+            <value>
+                <fullName>Beckman Coulter</fullName>
+                <default>false</default>
+                <label>Beckman Coulter</label>
+            </value>
+            <value>
+                <fullName>Berthold Detection Systems</fullName>
+                <default>false</default>
+                <label>Berthold Detection Systems</label>
+            </value>
+            <value>
+                <fullName>Bio-Rad Laboratories</fullName>
+                <default>false</default>
+                <label>Bio-Rad Laboratories</label>
+            </value>
+            <value>
+                <fullName>Bioscan</fullName>
+                <default>false</default>
+                <label>Bioscan</label>
+            </value>
+            <value>
+                <fullName>Biotage</fullName>
+                <default>false</default>
+                <label>Biotage</label>
+            </value>
+            <value>
+                <fullName>BioTek Instruments</fullName>
+                <default>false</default>
+                <label>BioTek Instruments</label>
+            </value>
+            <value>
+                <fullName>BlazeLIMS</fullName>
+                <default>false</default>
+                <label>BlazeLIMS</label>
+            </value>
+            <value>
+                <fullName>BMG International</fullName>
+                <default>false</default>
+                <label>BMG International</label>
+            </value>
+            <value>
+                <fullName>Boumem</fullName>
+                <default>false</default>
+                <label>Boumem</label>
+            </value>
+            <value>
+                <fullName>Bruker Daltronics</fullName>
+                <default>false</default>
+                <label>Bruker Daltronics</label>
+            </value>
+            <value>
+                <fullName>Buck Scientific</fullName>
+                <default>false</default>
+                <label>Buck Scientific</label>
+            </value>
+            <value>
+                <fullName>Caliper</fullName>
+                <default>false</default>
+                <label>Caliper</label>
+            </value>
+            <value>
+                <fullName>Canberra Packard</fullName>
+                <default>false</default>
+                <label>Canberra Packard</label>
+            </value>
+            <value>
+                <fullName>Carlo Erba</fullName>
+                <default>false</default>
+                <label>Carlo Erba</label>
+            </value>
+            <value>
+                <fullName>Carl Zeiss Microimaging</fullName>
+                <default>false</default>
+                <label>Carl Zeiss Microimaging</label>
+            </value>
+            <value>
+                <fullName>Carsen Group</fullName>
+                <default>false</default>
+                <label>Carsen Group</label>
+            </value>
+            <value>
+                <fullName>CEM</fullName>
+                <default>false</default>
+                <label>CEM</label>
+            </value>
+            <value>
+                <fullName>Cetaram</fullName>
+                <default>false</default>
+                <label>Cetaram</label>
+            </value>
+            <value>
+                <fullName>ChemWare</fullName>
+                <default>false</default>
+                <label>ChemWare</label>
+            </value>
+            <value>
+                <fullName>Ciphergen</fullName>
+                <default>false</default>
+                <label>Ciphergen</label>
+            </value>
+            <value>
+                <fullName>Cohesive</fullName>
+                <default>false</default>
+                <label>Cohesive</label>
+            </value>
+            <value>
+                <fullName>Corning</fullName>
+                <default>false</default>
+                <label>Corning</label>
+            </value>
+            <value>
+                <fullName>CPI</fullName>
+                <default>false</default>
+                <label>CPI</label>
+            </value>
+            <value>
+                <fullName>CyBio</fullName>
+                <default>false</default>
+                <label>CyBio</label>
+            </value>
+            <value>
+                <fullName>Delta Scientific Laboratory Products</fullName>
+                <default>false</default>
+                <label>Delta Scientific Laboratory Products</label>
+            </value>
+            <value>
+                <fullName>Diamed</fullName>
+                <default>false</default>
+                <label>Diamed</label>
+            </value>
+            <value>
+                <fullName>Dionex Corp</fullName>
+                <default>false</default>
+                <label>Dionex Corp</label>
+            </value>
+            <value>
+                <fullName>DiscoverX</fullName>
+                <default>false</default>
+                <label>DiscoverX</label>
+            </value>
+            <value>
+                <fullName>Eastman Kodak</fullName>
+                <default>false</default>
+                <label>Eastman Kodak</label>
+            </value>
+            <value>
+                <fullName>Elemental Analysis</fullName>
+                <default>false</default>
+                <label>Elemental Analysis</label>
+            </value>
+            <value>
+                <fullName>Eppendorf</fullName>
+                <default>false</default>
+                <label>Eppendorf</label>
+            </value>
+            <value>
+                <fullName>Exeter</fullName>
+                <default>false</default>
+                <label>Exeter</label>
+            </value>
+            <value>
+                <fullName>Femto</fullName>
+                <default>false</default>
+                <label>Femto</label>
+            </value>
+            <value>
+                <fullName>Fisher Scientific</fullName>
+                <default>false</default>
+                <label>Fisher Scientific</label>
+            </value>
+            <value>
+                <fullName>Foss</fullName>
+                <default>false</default>
+                <label>Foss</label>
+            </value>
+            <value>
+                <fullName>Gamble Technologies</fullName>
+                <default>false</default>
+                <label>Gamble Technologies</label>
+            </value>
+            <value>
+                <fullName>GBC Scientific equipment</fullName>
+                <default>false</default>
+                <label>GBC Scientific equipment</label>
+            </value>
+            <value>
+                <fullName>GE Amersham Biosciences</fullName>
+                <default>false</default>
+                <label>GE Amersham Biosciences</label>
+            </value>
+            <value>
+                <fullName>GeneFocus</fullName>
+                <default>false</default>
+                <label>GeneFocus</label>
+            </value>
+            <value>
+                <fullName>GeneMachines</fullName>
+                <default>false</default>
+                <label>GeneMachines</label>
+            </value>
+            <value>
+                <fullName>Genetix</fullName>
+                <default>false</default>
+                <label>Genetix</label>
+            </value>
+            <value>
+                <fullName>Genomic Solutions</fullName>
+                <default>false</default>
+                <label>Genomic Solutions</label>
+            </value>
+            <value>
+                <fullName>Gilson</fullName>
+                <default>false</default>
+                <label>Gilson</label>
+            </value>
+            <value>
+                <fullName>Hach</fullName>
+                <default>false</default>
+                <label>Hach</label>
+            </value>
+            <value>
+                <fullName>Hamilton</fullName>
+                <default>false</default>
+                <label>Hamilton</label>
+            </value>
+            <value>
+                <fullName>Hammamatsu</fullName>
+                <default>false</default>
+                <label>Hammamatsu</label>
+            </value>
+            <value>
+                <fullName>Hitachi Instruments</fullName>
+                <default>false</default>
+                <label>Hitachi Instruments</label>
+            </value>
+            <value>
+                <fullName>Home Brew Luciferin</fullName>
+                <default>false</default>
+                <label>Home Brew Luciferin</label>
+            </value>
+            <value>
+                <fullName>ICN</fullName>
+                <default>false</default>
+                <label>ICN</label>
+            </value>
+            <value>
+                <fullName>IGEN International</fullName>
+                <default>false</default>
+                <label>IGEN International</label>
+            </value>
+            <value>
+                <fullName>InterSciences Inc</fullName>
+                <default>false</default>
+                <label>InterSciences Inc</label>
+            </value>
+            <value>
+                <fullName>Isco Inc</fullName>
+                <default>false</default>
+                <label>Isco Inc</label>
+            </value>
+            <value>
+                <fullName>JEOL</fullName>
+                <default>false</default>
+                <label>JEOL</label>
+            </value>
+            <value>
+                <fullName>Jobin Yvon</fullName>
+                <default>false</default>
+                <label>Jobin Yvon</label>
+            </value>
+            <value>
+                <fullName>Kompakar</fullName>
+                <default>false</default>
+                <label>Kompakar</label>
+            </value>
+            <value>
+                <fullName>Labequip</fullName>
+                <default>false</default>
+                <label>Labequip</label>
+            </value>
+            <value>
+                <fullName>Labsphere</fullName>
+                <default>false</default>
+                <label>Labsphere</label>
+            </value>
+            <value>
+                <fullName>Leco Instruments</fullName>
+                <default>false</default>
+                <label>Leco Instruments</label>
+            </value>
+            <value>
+                <fullName>Leeman Labs</fullName>
+                <default>false</default>
+                <label>Leeman Labs</label>
+            </value>
+            <value>
+                <fullName>Leica Microsystems</fullName>
+                <default>false</default>
+                <label>Leica Microsystems</label>
+            </value>
+            <value>
+                <fullName>London Scientific</fullName>
+                <default>false</default>
+                <label>London Scientific</label>
+            </value>
+            <value>
+                <fullName>Mandel</fullName>
+                <default>false</default>
+                <label>Mandel</label>
+            </value>
+            <value>
+                <fullName>Markes</fullName>
+                <default>false</default>
+                <label>Markes</label>
+            </value>
+            <value>
+                <fullName>Matrix</fullName>
+                <default>false</default>
+                <label>Matrix</label>
+            </value>
+            <value>
+                <fullName>Mattson Instruments</fullName>
+                <default>false</default>
+                <label>Mattson Instruments</label>
+            </value>
+            <value>
+                <fullName>Mettler-Toledo International</fullName>
+                <default>false</default>
+                <label>Mettler-Toledo International</label>
+            </value>
+            <value>
+                <fullName>MicroCal</fullName>
+                <default>false</default>
+                <label>MicroCal</label>
+            </value>
+            <value>
+                <fullName>Micromass (Waters)</fullName>
+                <default>false</default>
+                <label>Micromass (Waters)</label>
+            </value>
+            <value>
+                <fullName>MicroMedic</fullName>
+                <default>false</default>
+                <label>MicroMedic</label>
+            </value>
+            <value>
+                <fullName>Midac Corporation</fullName>
+                <default>false</default>
+                <label>Midac Corporation</label>
+            </value>
+            <value>
+                <fullName>Milton Roy</fullName>
+                <default>false</default>
+                <label>Milton Roy</label>
+            </value>
+            <value>
+                <fullName>MiraiBio</fullName>
+                <default>false</default>
+                <label>MiraiBio</label>
+            </value>
+            <value>
+                <fullName>Molecular BioProducts</fullName>
+                <default>false</default>
+                <label>Molecular BioProducts</label>
+            </value>
+            <value>
+                <fullName>Molecular Devices Corp</fullName>
+                <default>false</default>
+                <label>Molecular Devices Corp</label>
+            </value>
+            <value>
+                <fullName>Molecular Dynamics</fullName>
+                <default>false</default>
+                <label>Molecular Dynamics</label>
+            </value>
+            <value>
+                <fullName>Montreal Biotech</fullName>
+                <default>false</default>
+                <label>Montreal Biotech</label>
+            </value>
+            <value>
+                <fullName>Moravek</fullName>
+                <default>false</default>
+                <label>Moravek</label>
+            </value>
+            <value>
+                <fullName>MP Biomedical</fullName>
+                <default>false</default>
+                <label>MP Biomedical</label>
+            </value>
+            <value>
+                <fullName>Netsch</fullName>
+                <default>false</default>
+                <label>Netsch</label>
+            </value>
+            <value>
+                <fullName>Nikon Instruments</fullName>
+                <default>false</default>
+                <label>Nikon Instruments</label>
+            </value>
+            <value>
+                <fullName>NIRSystems Inc</fullName>
+                <default>false</default>
+                <label>NIRSystems Inc</label>
+            </value>
+            <value>
+                <fullName>OI Analytical</fullName>
+                <default>false</default>
+                <label>OI Analytical</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PANalytical</fullName>
+                <default>false</default>
+                <label>PANalytical</label>
+            </value>
+            <value>
+                <fullName>Paracel</fullName>
+                <default>false</default>
+                <label>Paracel</label>
+            </value>
+            <value>
+                <fullName>Pharmacia Biotech</fullName>
+                <default>false</default>
+                <label>Pharmacia Biotech</label>
+            </value>
+            <value>
+                <fullName>Pierce</fullName>
+                <default>false</default>
+                <label>Pierce</label>
+            </value>
+            <value>
+                <fullName>Pike Technolgies</fullName>
+                <default>false</default>
+                <label>Pike Technolgies</label>
+            </value>
+            <value>
+                <fullName>Polymer Laboratories</fullName>
+                <default>false</default>
+                <label>Polymer Laboratories</label>
+            </value>
+            <value>
+                <fullName>PolyScience</fullName>
+                <default>false</default>
+                <label>PolyScience</label>
+            </value>
+            <value>
+                <fullName>Promega</fullName>
+                <default>false</default>
+                <label>Promega</label>
+            </value>
+            <value>
+                <fullName>Promium</fullName>
+                <default>false</default>
+                <label>Promium</label>
+            </value>
+            <value>
+                <fullName>Qiagen</fullName>
+                <default>false</default>
+                <label>Qiagen</label>
+            </value>
+            <value>
+                <fullName>QSI WinLIMS</fullName>
+                <default>false</default>
+                <label>QSI WinLIMS</label>
+            </value>
+            <value>
+                <fullName>Questron Technologies Corp.</fullName>
+                <default>false</default>
+                <label>Questron Technologies Corp.</label>
+            </value>
+            <value>
+                <fullName>Quorum</fullName>
+                <default>false</default>
+                <label>Quorum</label>
+            </value>
+            <value>
+                <fullName>Rheology Systems</fullName>
+                <default>false</default>
+                <label>Rheology Systems</label>
+            </value>
+            <value>
+                <fullName>Roche Diagnostics</fullName>
+                <default>false</default>
+                <label>Roche Diagnostics</label>
+            </value>
+            <value>
+                <fullName>SCP Science</fullName>
+                <default>false</default>
+                <label>SCP Science</label>
+            </value>
+            <value>
+                <fullName>Sequenom</fullName>
+                <default>false</default>
+                <label>Sequenom</label>
+            </value>
+            <value>
+                <fullName>Shimadzu</fullName>
+                <default>false</default>
+                <label>Shimadzu</label>
+            </value>
+            <value>
+                <fullName>Sigma</fullName>
+                <default>false</default>
+                <label>Sigma</label>
+            </value>
+            <value>
+                <fullName>Solimere</fullName>
+                <default>false</default>
+                <label>Solimere</label>
+            </value>
+            <value>
+                <fullName>Spectro Analytical Instruments Inc</fullName>
+                <default>false</default>
+                <label>Spectro Analytical Instruments Inc</label>
+            </value>
+            <value>
+                <fullName>StarLIMS</fullName>
+                <default>false</default>
+                <label>StarLIMS</label>
+            </value>
+            <value>
+                <fullName>TA Instruments</fullName>
+                <default>false</default>
+                <label>TA Instruments</label>
+            </value>
+            <value>
+                <fullName>TECAN</fullName>
+                <default>false</default>
+                <label>TECAN</label>
+            </value>
+            <value>
+                <fullName>Tekmar</fullName>
+                <default>false</default>
+                <label>Tekmar</label>
+            </value>
+            <value>
+                <fullName>Telecation</fullName>
+                <default>false</default>
+                <label>Telecation</label>
+            </value>
+            <value>
+                <fullName>Thermo</fullName>
+                <default>false</default>
+                <label>Thermo</label>
+            </value>
+            <value>
+                <fullName>Thermo ARL</fullName>
+                <default>false</default>
+                <label>Thermo ARL</label>
+            </value>
+            <value>
+                <fullName>Thermo Elemental</fullName>
+                <default>false</default>
+                <label>Thermo Elemental</label>
+            </value>
+            <value>
+                <fullName>Thermo Finnigan</fullName>
+                <default>false</default>
+                <label>Thermo Finnigan</label>
+            </value>
+            <value>
+                <fullName>Thermo Jarrell Ash</fullName>
+                <default>false</default>
+                <label>Thermo Jarrell Ash</label>
+            </value>
+            <value>
+                <fullName>Thermo LabSystems</fullName>
+                <default>false</default>
+                <label>Thermo LabSystems</label>
+            </value>
+            <value>
+                <fullName>Thermo Nicolet</fullName>
+                <default>false</default>
+                <label>Thermo Nicolet</label>
+            </value>
+            <value>
+                <fullName>Thermo Optek - Spectratech</fullName>
+                <default>false</default>
+                <label>Thermo Optek - Spectratech</label>
+            </value>
+            <value>
+                <fullName>Thermo Quest</fullName>
+                <default>false</default>
+                <label>Thermo Quest</label>
+            </value>
+            <value>
+                <fullName>Thermo Separations</fullName>
+                <default>false</default>
+                <label>Thermo Separations</label>
+            </value>
+            <value>
+                <fullName>Thermo Spectronic</fullName>
+                <default>false</default>
+                <label>Thermo Spectronic</label>
+            </value>
+            <value>
+                <fullName>Turner Biosystems</fullName>
+                <default>false</default>
+                <label>Turner Biosystems</label>
+            </value>
+            <value>
+                <fullName>V&amp;P Scientific</fullName>
+                <default>false</default>
+                <label>V&amp;P Scientific</label>
+            </value>
+            <value>
+                <fullName>Varian</fullName>
+                <default>false</default>
+                <label>Varian</label>
+            </value>
+            <value>
+                <fullName>Velocity 11</fullName>
+                <default>false</default>
+                <label>Velocity 11</label>
+            </value>
+            <value>
+                <fullName>Viscotek Corp</fullName>
+                <default>false</default>
+                <label>Viscotek Corp</label>
+            </value>
+            <value>
+                <fullName>VWR International</fullName>
+                <default>false</default>
+                <label>VWR International</label>
+            </value>
+            <value>
+                <fullName>Waters Corp</fullName>
+                <default>false</default>
+                <label>Waters Corp</label>
+            </value>
+            <value>
+                <fullName>Zeiss</fullName>
+                <default>false</default>
+                <label>Zeiss</label>
+            </value>
+            <value>
+                <fullName>Zymark Corp</fullName>
+                <default>false</default>
+                <label>Zymark Corp</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>RRD</controllingFieldValue>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <controllingFieldValue>SPS</controllingFieldValue>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Beckman Coulter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD</controllingFieldValue>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <valueName>Berthold Detection Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD</controllingFieldValue>
+            <valueName>MicroMedic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD</controllingFieldValue>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <controllingFieldValue>ICP</controllingFieldValue>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>LVI</controllingFieldValue>
+            <controllingFieldValue>MAS</controllingFieldValue>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <controllingFieldValue>CSA</controllingFieldValue>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <valueName>Bio-Rad Laboratories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>Corning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <controllingFieldValue>SPS</controllingFieldValue>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Fisher Scientific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <valueName>GE Amersham Biosciences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>Home Brew Luciferin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>Matrix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>MP Biomedical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <controllingFieldValue>SPS</controllingFieldValue>
+            <valueName>VWR International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPS</controllingFieldValue>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <controllingFieldValue>CSA</controllingFieldValue>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <valueName>Molecular Devices Corp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPS</controllingFieldValue>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>TECAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPS</controllingFieldValue>
+            <valueName>Velocity 11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Carlo Erba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <valueName>Elemental Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <valueName>Exeter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <controllingFieldValue>ICP</controllingFieldValue>
+            <valueName>Leco Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <valueName>Mettler-Toledo International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <valueName>Netsch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <valueName>Rheology Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <controllingFieldValue>ICP</controllingFieldValue>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Shimadzu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <valueName>TA Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEA</controllingFieldValue>
+            <controllingFieldValue>ICP</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <valueName>Thermo Elemental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>MAS</controllingFieldValue>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Agilent Technologies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <valueName>Hach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Hitachi Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <valueName>Milton Roy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <valueName>Pharmacia Biotech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <valueName>Thermo Spectronic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UVS</controllingFieldValue>
+            <controllingFieldValue>ICP</controllingFieldValue>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>MAS</controllingFieldValue>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Varian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>Applied Biosystems (Tropix)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>Promega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICP</controllingFieldValue>
+            <valueName>Jobin Yvon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICP</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <valueName>Leeman Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICP</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <valueName>Spectro Analytical Instruments Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <valueName>ABB Bomem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <valueName>ATS Scientific Inc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <valueName>Bruker Daltronics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <valueName>Foss</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <valueName>Mattson Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <valueName>Midac Corporation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <valueName>NIRSystems Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IR</controllingFieldValue>
+            <valueName>Thermo Nicolet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <valueName>Biotage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <valueName>Dionex Corp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>GBC Scientific equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <valueName>Micromass (Waters)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Thermo Separations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LC</controllingFieldValue>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <valueName>Waters Corp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI</controllingFieldValue>
+            <valueName>Carl Zeiss Microimaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI</controllingFieldValue>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Carsen Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI</controllingFieldValue>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Nikon Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI</controllingFieldValue>
+            <valueName>Quorum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI</controllingFieldValue>
+            <valueName>Solimere</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI</controllingFieldValue>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Zeiss</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <valueName>Bioscan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <valueName>BioTek Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <valueName>BMG International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD</controllingFieldValue>
+            <valueName>Thermo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Buck Scientific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AA</controllingFieldValue>
+            <valueName>CEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Atlantic Lab Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Caliper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Cohesive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>CyBio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Eppendorf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Gilson</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Hamilton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Qiagen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALH</controllingFieldValue>
+            <valueName>Viscotek Corp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <valueName>Applied Biosystems (ABI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <valueName>Ciphergen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <valueName>Genomic Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <valueName>Sequenom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANP</controllingFieldValue>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Thermo Finnigan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSA</controllingFieldValue>
+            <valueName>Hammamatsu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Alpha Innotech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Canberra Packard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Delta Scientific Laboratory Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Diamed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Eastman Kodak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Gamble Technologies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Leica Microsystems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Mandel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>Montreal Biotech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIS</controllingFieldValue>
+            <valueName>SCP Science</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>AssayNet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>BlazeLIMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>ChemWare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>Kompakar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>Promium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>QSI WinLIMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>StarLIMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>Telecation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ESS</controllingFieldValue>
+            <valueName>Thermo LabSystems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <valueName>Affymetrix Inc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <valueName>Axon Instruments (Molecular Devices)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FGP</controllingFieldValue>
+            <valueName>Genetix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GC</controllingFieldValue>
+            <valueName>Tekmar</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

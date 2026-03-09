@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resource_Type__c</fullName>
+    <label>Resource Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PI - Product Image</fullName>
+                <default>false</default>
+                <label>PI - Product Image</label>
+            </value>
+            <value>
+                <fullName>Video</fullName>
+                <default>false</default>
+                <label>Video</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>All Resources</fullName>
+                <default>false</default>
+                <label>All Resources</label>
+            </value>
+            <value>
+                <fullName>Infographic</fullName>
+                <default>false</default>
+                <label>Infographic</label>
+            </value>
+            <value>
+                <fullName>Brief</fullName>
+                <default>false</default>
+                <label>Brief</label>
+            </value>
+            <value>
+                <fullName>Blog</fullName>
+                <default>false</default>
+                <label>Blog</label>
+            </value>
+            <value>
+                <fullName>Technical Note</fullName>
+                <default>false</default>
+                <label>Technical Note</label>
+            </value>
+            <value>
+                <fullName>Case Study</fullName>
+                <default>false</default>
+                <label>Case Study</label>
+            </value>
+            <value>
+                <fullName>Application Note</fullName>
+                <default>false</default>
+                <label>Application Note</label>
+            </value>
+            <value>
+                <fullName>Calendar</fullName>
+                <default>false</default>
+                <label>Calendar</label>
+            </value>
+            <value>
+                <fullName>Article</fullName>
+                <default>false</default>
+                <label>Article</label>
+            </value>
+            <value>
+                <fullName>Link</fullName>
+                <default>false</default>
+                <label>Link</label>
+            </value>
+            <value>
+                <fullName>Brochure</fullName>
+                <default>false</default>
+                <label>Brochure</label>
+            </value>
+            <value>
+                <fullName>White Paper</fullName>
+                <default>false</default>
+                <label>White Paper</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Video Talk</fullName>
+                <default>false</default>
+                <label>Video Talk</label>
+            </value>
+            <value>
+                <fullName>Application Brief</fullName>
+                <default>false</default>
+                <label>Application Brief</label>
+            </value>
+            <value>
+                <fullName>Category</fullName>
+                <default>false</default>
+                <label>Category</label>
+            </value>
+            <value>
+                <fullName>Webinar Resources</fullName>
+                <default>false</default>
+                <label>Webinar Resources</label>
+            </value>
+            <value>
+                <fullName>Case Chemicals Testing Solutions</fullName>
+                <default>false</default>
+                <label>Case Chemicals Testing Solutions</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+                <label>Webinars</label>
+            </value>
+            <value>
+                <fullName>Whitepaper</fullName>
+                <default>false</default>
+                <label>Whitepaper</label>
+            </value>
+            <value>
+                <fullName>Flyer</fullName>
+                <default>false</default>
+                <label>Flyer</label>
+            </value>
+            <value>
+                <fullName>Podcast</fullName>
+                <default>false</default>
+                <label>Podcast</label>
+            </value>
+            <value>
+                <fullName>Workflow Solutions</fullName>
+                <default>false</default>
+                <label>Workflow Solutions</label>
+            </value>
+            <value>
+                <fullName>FAQ</fullName>
+                <default>false</default>
+                <label>FAQ</label>
+            </value>
+            <value>
+                <fullName>Slideshow</fullName>
+                <default>false</default>
+                <label>Slideshow</label>
+            </value>
+            <value>
+                <fullName>Chart &amp; Summary</fullName>
+                <default>false</default>
+                <label>Chart &amp; Summary</label>
+            </value>
+            <value>
+                <fullName>Specification Sheet</fullName>
+                <default>false</default>
+                <label>Specification Sheet</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Guide</fullName>
+                <default>false</default>
+                <label>Guide</label>
+            </value>
+            <value>
+                <fullName>Data Sheet</fullName>
+                <default>false</default>
+                <label>Data Sheet</label>
+            </value>
+            <value>
+                <fullName>Manual</fullName>
+                <default>false</default>
+                <label>Manual</label>
+            </value>
+            <value>
+                <fullName>Product Note</fullName>
+                <default>false</default>
+                <label>Product Note</label>
+            </value>
+            <value>
+                <fullName>Regulatory Compliance Certification</fullName>
+                <default>false</default>
+                <label>Regulatory Compliance Certification</label>
+            </value>
+            <value>
+                <fullName>Ebook</fullName>
+                <default>false</default>
+                <label>Ebook</label>
+            </value>
+            <value>
+                <fullName>Poster</fullName>
+                <default>false</default>
+                <label>Poster</label>
+            </value>
+            <value>
+                <fullName>Catalog</fullName>
+                <default>false</default>
+                <label>Catalog</label>
+            </value>
+            <value>
+                <fullName>Product Info</fullName>
+                <default>false</default>
+                <label>Product Info</label>
+            </value>
+            <value>
+                <fullName>Newsletter</fullName>
+                <default>false</default>
+                <label>Newsletter</label>
+            </value>
+            <value>
+                <fullName>Field Application Report</fullName>
+                <default>false</default>
+                <label>Field Application Report</label>
+            </value>
+            <value>
+                <fullName>Instructions for use (IFU)</fullName>
+                <default>false</default>
+                <label>Instructions for use (IFU)</label>
+            </value>
+            <value>
+                <fullName>Handbook</fullName>
+                <default>false</default>
+                <label>Handbook</label>
+            </value>
+            <value>
+                <fullName>MSDS</fullName>
+                <default>false</default>
+                <label>MSDS</label>
+            </value>
+            <value>
+                <fullName>Poster (Scientific)</fullName>
+                <default>false</default>
+                <label>Poster (Scientific)</label>
+            </value>
+            <value>
+                <fullName>Customer Story</fullName>
+                <default>false</default>
+                <label>Customer Story</label>
+            </value>
+            <value>
+                <fullName>Safety Data Sheet</fullName>
+                <default>false</default>
+                <label>Safety Data Sheet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

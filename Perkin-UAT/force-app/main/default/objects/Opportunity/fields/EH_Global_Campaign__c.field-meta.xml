@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_Global_Campaign__c</fullName>
+    <description>EH 2015 Global Campaign</description>
+    <label>Global Campaign</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Food Authenticity and Provenance</fullName>
+                <default>false</default>
+                <label>Food Authenticity and Provenance</label>
+            </value>
+            <value>
+                <fullName>Nutritional Elemental Analysis</fullName>
+                <default>false</default>
+                <label>Nutritional Elemental Analysis</label>
+            </value>
+            <value>
+                <fullName>Industrial Materials</fullName>
+                <default>false</default>
+                <label>Industrial Materials</label>
+            </value>
+            <value>
+                <fullName>Air pollution link to public Health</fullName>
+                <default>false</default>
+                <label>Air pollution link to public Health</label>
+            </value>
+            <value>
+                <fullName>Nano material characterization</fullName>
+                <default>false</default>
+                <label>Nano material characterization</label>
+            </value>
+            <value>
+                <fullName>USP 232/233 Compliance</fullName>
+                <default>false</default>
+                <label>USP 232/233 Compliance</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

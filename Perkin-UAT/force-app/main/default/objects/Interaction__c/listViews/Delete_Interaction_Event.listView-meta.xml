@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delete_Interaction_Event</fullName>
+    <columns>NAME</columns>
+    <columns>Campaign__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Event_Status__c</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Status__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>contains</operation>
+        <value>REG-LSC-GNRL-2023-AMER-EVENT-3RD-DG-US-SITC</value>
+    </filters>
+    <label>REG-LSC-GNRL-2023-AMER-EVENT-3RD-DG-US</label>
+</ListView>

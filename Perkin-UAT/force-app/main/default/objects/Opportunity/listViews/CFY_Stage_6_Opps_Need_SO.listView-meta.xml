@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CFY_Stage_6_Opps_Need_SO</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>SAP_Quote__c</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>SAP_Estimated_Ship_Date__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>SAP_Inco_Terms__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>Shipping_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Reagent - One Time,Reagent - Standing Order,Monthly RunRate,Reagent Rental - GS,Consumable - One Time,Consumable - Standing Order,Renewal,Renewal - Upsell,Services,Renew,Reagents,Service Lab,Accessories</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>reagent,runrate,run rate</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Stage 6 - Implement (Closed)</value>
+    </filters>
+    <filters>
+        <field>SAP_Order__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>greaterThan</operation>
+        <value>USD 14999</value>
+    </filters>
+    <label>CFY Stage 6 Inst Opps - Need SO</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

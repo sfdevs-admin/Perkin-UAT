@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Quality_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(  FirstName ),0,1) + IF(ISBLANK(  Title ),0,1)+IF(ISBLANK( Email),0,1)+IF(ISBLANK(  Preferred_Language__c ),0,1)+IF(ISBLANK(  MailingAddress ),0,1) + 
+
+IF( ISPICKVAL( Salutation ,&quot;&quot;), 0,1) + IF(LEN(Phone) = 0, 0,1)/* + IF( ISPICKVAL(  Job_Function__c  ,&quot;&quot;), 0,1)*/ +IF( ISBLANK(  Areas_of_Work__c  ), 0,1) + IF(ISBLANK(  Product_Interest__c ),0,1)</formula>
+    <inlineHelpText>The profile completeness score depends on providing accurate information in the following fields
+First name
+Salutation
+Job function
+Title
+Phone
+Email
+Preferred Language
+Mailing Address
+Market Segment
+Primary Product Interest</inlineHelpText>
+    <label>Profile Completeness Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

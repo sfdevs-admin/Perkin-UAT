@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Cannot_be_Updated</fullName>
+    <active>true</active>
+    <description>Request cannot be updated because a JIRA Issue was created. However, Notes and Comments can be added to the Request for clarification purposes.</description>
+    <errorConditionFormula>AND(NOT(ISPICKVAL(Request_Status__c, &quot;Submitted&quot;)),
+ OR(ISCHANGED(Affected_PKI_Application__c),
+  ISCHANGED(As_a__c),
+  ISCHANGED(I_know_this_is_done_when__c),
+  ISCHANGED(I_want_to__c),
+  ISCHANGED(Bug_Details__c),
+  ISCHANGED(So_that_I__c)),
+ AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+  $Profile.Name &lt;&gt; &quot;Delegated Administrator&quot;))</errorConditionFormula>
+    <errorMessage>V.RULE_REQUEST_001: This Request was reviewed and approved. Work has begun on the Request so details cannot be changed. Although you can&#39;t make changes to the Request, you can add notes and Chatter comments for clarification purposes.</errorMessage>
+</ValidationRule>

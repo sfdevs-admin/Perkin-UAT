@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VIP_Club_Member__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>ASLS/ENV Field</description>
+    <inlineHelpText>ASLS/ENV Field</inlineHelpText>
+    <label>VIP Club Member</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_SAP_Customer_Number__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>SAP - KNA1/KUNNR. Customer number for SoldToShipTo. IMPORTANT this is the external ID for the Customer Master integration used by Dell Boomi between SAP and SDFC. It is critical to the integrity of the data being passed from SAP</description>
+    <externalId>true</externalId>
+    <label>PKI SAP Customer Number</label>
+    <length>30</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

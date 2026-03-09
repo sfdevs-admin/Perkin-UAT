@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Marketing_Leads_queue_ALL_notstudent</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Lead_Type_INF__c</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>LEAD.RATING</columns>
+    <columns>Secondary_Qualification__c</columns>
+    <columns>Requested_Interests__c</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>Global_Region__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>Job_Function__c</field>
+        <operation>contains</operation>
+        <value>Student</value>
+    </filters>
+    <label>INF Marketing Leads queue ALLnot student</label>
+    <language>en_US</language>
+    <queue>ARQ_000587</queue>
+</ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X100_Queue_QUICK_FILTER</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>MembersCount__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>API_Name__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Email__c</columns>
+    <columns>iSalesLeader__c</columns>
+    <columns>SalesLeader__c</columns>
+    <columns>Owned_By_Company__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>fxQueueMembers__c</columns>
+    <columns>NativeQueueID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Email__c</field>
+        <operation>contains</operation>
+        <value>Pawel</value>
+    </filters>
+    <label>100. Queue (*QUICK FILTER*)</label>
+</ListView>

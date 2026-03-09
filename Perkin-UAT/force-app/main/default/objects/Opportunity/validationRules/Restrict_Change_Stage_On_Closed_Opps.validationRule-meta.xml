@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Change_Stage_On_Closed_Opps</fullName>
+    <active>true</active>
+    <description>Prevent users from moving an opp out of closed won/lost
+Updated by PwC as part of SC-433 - Consumables and Service Contract record types included in the validation</description>
+    <errorConditionFormula>AND(
+     NOT($Permission.C_PERM_8000_Revert_Opp_Stage)
+     ,OR( fxRecordTypeName__c = &quot;PKI SPI Sales Process&quot;
+         ,fxRecordTypeName__c = &quot;PKI SPI Sales Process for Dealers&quot;,
+RecordType.DeveloperName = &#39;Consumables&#39;,
+RecordType.DeveloperName = &#39;ServiceContract&#39;
+        )
+    , AND( PRIORVALUE(StageNumber__c) &gt;=7
+          ,PRIORVALUE(StageNumber__c) &lt;=8
+         )
+    , ISCHANGED(StageName)
+   )</errorConditionFormula>
+    <errorDisplayField>Likely_to_Purchase__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_074: You cannot change the opportunity stage once it is Closed Won/Lost or Abandoned.</errorMessage>
+</ValidationRule>

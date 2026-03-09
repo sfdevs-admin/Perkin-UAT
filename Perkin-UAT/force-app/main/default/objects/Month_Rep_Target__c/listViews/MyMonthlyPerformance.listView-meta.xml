@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyMonthlyPerformance</fullName>
+    <columns>NAME</columns>
+    <columns>Sales_Person__c</columns>
+    <columns>Year__c</columns>
+    <columns>Month__c</columns>
+    <columns>Base_Target__c</columns>
+    <columns>Won_Revenue__c</columns>
+    <columns>Commit_Amount_Stretch__c</columns>
+    <columns>Total_Forecast_Revenue_Stretch__c</columns>
+    <columns>Closed_Lost_Amount_Stretch__c</columns>
+    <columns>Base_Target_Achieved__c</columns>
+    <columns>Forecast_Base_Target_Achievement__c</columns>
+    <columns>Stretch_Target__c</columns>
+    <columns>Stretch_Target_Achieved__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>Commit_as_of_Stretch_Target__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Monthly Performance</label>
+    <language>en_US</language>
+</ListView>

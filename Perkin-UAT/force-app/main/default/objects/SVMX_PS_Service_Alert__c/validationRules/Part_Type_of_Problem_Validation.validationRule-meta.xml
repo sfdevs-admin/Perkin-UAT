@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Part_Type_of_Problem_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(SVMX_PS_Type_of_Problem__c, &quot;Part&quot;),
+    ISBLANK(SVMX_PS_Work_Order__c))</errorConditionFormula>
+    <errorMessage>When the Type of Problem is Part, a Work Order must be selected.</errorMessage>
+</ValidationRule>

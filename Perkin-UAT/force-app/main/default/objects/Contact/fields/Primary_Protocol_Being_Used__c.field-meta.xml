@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Protocol_Being_Used__c</fullName>
+    <label>Primary Protocol Being Used</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First trimester screening</fullName>
+                <default>false</default>
+                <label>First trimester screening</label>
+            </value>
+            <value>
+                <fullName>First trimester screening with IRA</fullName>
+                <default>false</default>
+                <label>First trimester screening with IRA</label>
+            </value>
+            <value>
+                <fullName>First trimester screening with Nasal Bone</fullName>
+                <default>false</default>
+                <label>First trimester screening with Nasal Bone</label>
+            </value>
+            <value>
+                <fullName>Integrated screening</fullName>
+                <default>false</default>
+                <label>Integrated screening</label>
+            </value>
+            <value>
+                <fullName>Sequential screening</fullName>
+                <default>false</default>
+                <label>Sequential screening</label>
+            </value>
+            <value>
+                <fullName>Contingent screening</fullName>
+                <default>false</default>
+                <label>Contingent screening</label>
+            </value>
+            <value>
+                <fullName>Serum integrated screening</fullName>
+                <default>false</default>
+                <label>Serum integrated screening</label>
+            </value>
+            <value>
+                <fullName>Triple screen</fullName>
+                <default>false</default>
+                <label>Triple screen</label>
+            </value>
+            <value>
+                <fullName>Quad screen</fullName>
+                <default>false</default>
+                <label>Quad screen</label>
+            </value>
+            <value>
+                <fullName>AFP only</fullName>
+                <default>false</default>
+                <label>AFP only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_is_Originator__c</fullName>
+    <description>Used in report for Service Leads</description>
+    <formula>Source__c = $User.FirstName &amp; &quot; &quot; &amp; $User.LastName</formula>
+    <label>User is Originator</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

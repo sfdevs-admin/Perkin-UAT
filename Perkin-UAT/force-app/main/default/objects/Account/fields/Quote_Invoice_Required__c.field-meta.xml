@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Invoice_Required__c</fullName>
+    <label>Quote/Invoice Required?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote required before PO &amp; Payment</fullName>
+                <default>false</default>
+                <label>Quote required before PO &amp; Payment</label>
+            </value>
+            <value>
+                <fullName>Invoice to trigger payment</fullName>
+                <default>false</default>
+                <label>Invoice to trigger payment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

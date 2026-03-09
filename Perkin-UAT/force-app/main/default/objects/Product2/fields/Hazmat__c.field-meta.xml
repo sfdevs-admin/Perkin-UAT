@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hazmat__c</fullName>
+    <description>This field can tell whether product has Hazmat tag or not.(S-692500)</description>
+    <formula>CONTAINS(&quot;;9002;9003;9018;9022;9023;9024;9025;9026;9027;9028;9029;9030;9031;9032;9033;9034;9035;9036;9037;9038;9039;9040;9041;9042;9043;9049;9050;9051;9052;9053;9054;9055;9056;9057;9058;9059;9060;9061;9062;9063;9064;9065;&quot; , &quot;;&quot;&amp; SMAX_PS_TransportationGroup__c &amp; &quot;;&quot; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field can tell whether product has Hazmat tag or not.</inlineHelpText>
+    <label>Hazmat</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mismatch_Contact_To_Account</fullName>
+    <active>true</active>
+    <description>This alerts the user when the Existing Contact does not have the same account ID as the existing account (both are optional fields)</description>
+    <errorConditionFormula>AND( ExistingContact__r.AccountId  &lt;&gt;  ExistingAccount__c 
+    ,ExistingContact__c &lt;&gt; null
+    ,ExistingAccount__c &lt;&gt; null
+   )</errorConditionFormula>
+    <errorDisplayField>ExistingContact__c</errorDisplayField>
+    <errorMessage>V.RULE_LEAD_012: The Contact&#39;s account does not match the Existing Account selected</errorMessage>
+</ValidationRule>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_dbdatabase__c</fullName>
+    <label>Database</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MySql</fullName>
+                <default>false</default>
+                <label>MySql</label>
+            </value>
+            <value>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+                <label>Oracle</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Postgresql</fullName>
+                <default>false</default>
+                <label>Postgresql</label>
+            </value>
+            <value>
+                <fullName>SQL Server</fullName>
+                <default>false</default>
+                <label>SQL Server</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

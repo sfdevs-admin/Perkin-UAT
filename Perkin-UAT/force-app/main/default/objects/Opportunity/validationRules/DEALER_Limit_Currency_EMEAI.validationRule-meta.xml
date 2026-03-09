@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DEALER_Limit_Currency_EMEAI</fullName>
+    <active>true</active>
+    <description>for dealers with EMEAI as super territory, either USD or EUR will be applicable for selection of Opportunity currency</description>
+    <errorConditionFormula>AND(
+  CONTAINS($Profile.Name,&#39;Dealer&#39;)
+ /*CONTAINS($User.License_type__c,&#39;Partner&#39;) */
+, TEXT($User.PKISuperTerritory__c) = &#39;EMEAI&#39; 
+, IF( TEXT($User.Sales_Region__c)=&#39;NORDICS&#39; 
+, NOT(CONTAINS(&#39;USD,EUR,DKK,NOK&#39;, TEXT(CurrencyIsoCode)))
+, NOT(CONTAINS(&#39;USD,EUR&#39;, TEXT(CurrencyIsoCode)))
+)
+)</errorConditionFormula>
+    <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+    <errorMessage>V.RULE_OPP_055: For EMEAI Dealer Portal Users, currency can be either USD or EUR</errorMessage>
+</ValidationRule>

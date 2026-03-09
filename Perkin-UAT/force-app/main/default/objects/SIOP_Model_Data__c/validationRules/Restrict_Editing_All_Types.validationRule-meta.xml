@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Editing_All_Types</fullName>
+    <active>false</active>
+    <description>This prevents Refional Forecast owners from editing SIOP types other than Regional Ask</description>
+    <errorConditionFormula>AND(
+  TEXT(Type__c) &lt;&gt; &quot;Region Ask-Orders&quot; 
+, TEXT(Type__c) &lt;&gt; &quot;Region Ask-Shipment&quot; 
+, NOT( $Permission.C_PERM_4000_SIOP_Edit_All_Types )
+
+)</errorConditionFormula>
+    <errorDisplayField>Units__c</errorDisplayField>
+    <errorMessage>V.RULE_SIOP_Data_002: You do not have the permission to edit types other than Region Ask. Only SIOP OTR and GCE can edit the other types.</errorMessage>
+</ValidationRule>

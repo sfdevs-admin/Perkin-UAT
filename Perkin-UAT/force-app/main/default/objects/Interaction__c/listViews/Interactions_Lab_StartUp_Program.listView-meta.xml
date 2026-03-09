@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interactions_Lab_StartUp_Program</fullName>
+    <columns>GlobalRegion__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>ClosedStatus__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Email__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Country__c</columns>
+    <columns>SolutionAreaofInterest__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Eloqua_Campaign_ID__c</field>
+        <operation>contains</operation>
+        <value>7014V000002YpyN</value>
+    </filters>
+    <label>Interactions - Lab StartUp Program</label>
+</ListView>

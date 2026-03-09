@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_GBL_Sub_function__c</fullName>
+    <label>Sub-function</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>PKI_GBL_Job_Family__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin + Site Support</fullName>
+                <default>false</default>
+                <label>Admin + Site Support</label>
+            </value>
+            <value>
+                <fullName>Admin Leadership</fullName>
+                <default>false</default>
+                <label>Admin Leadership</label>
+            </value>
+            <value>
+                <fullName>Business Development</fullName>
+                <default>false</default>
+                <label>Business Development</label>
+            </value>
+            <value>
+                <fullName>Emerging Technologies</fullName>
+                <default>false</default>
+                <label>Emerging Technologies</label>
+            </value>
+            <value>
+                <fullName>Collections</fullName>
+                <default>false</default>
+                <label>Collections</label>
+            </value>
+            <value>
+                <fullName>Controller</fullName>
+                <default>false</default>
+                <label>Controller</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>FPA</fullName>
+                <default>false</default>
+                <label>FPA</label>
+            </value>
+            <value>
+                <fullName>Investor Relations</fullName>
+                <default>false</default>
+                <label>Investor Relations</label>
+            </value>
+            <value>
+                <fullName>Tax</fullName>
+                <default>false</default>
+                <label>Tax</label>
+            </value>
+            <value>
+                <fullName>Treasury</fullName>
+                <default>false</default>
+                <label>Treasury</label>
+            </value>
+            <value>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+                <label>Human Resources</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>IT Applications</fullName>
+                <default>false</default>
+                <label>IT Applications</label>
+            </value>
+            <value>
+                <fullName>IT E-Business</fullName>
+                <default>false</default>
+                <label>IT E-Business</label>
+            </value>
+            <value>
+                <fullName>IT Infrastructure</fullName>
+                <default>false</default>
+                <label>IT Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Regulatory Compliance</fullName>
+                <default>false</default>
+                <label>Regulatory Compliance</label>
+            </value>
+            <value>
+                <fullName>Corporate Communications</fullName>
+                <default>false</default>
+                <label>Corporate Communications</label>
+            </value>
+            <value>
+                <fullName>Customer Care (Mkt)</fullName>
+                <default>false</default>
+                <label>Customer Care (Mkt)</label>
+            </value>
+            <value>
+                <fullName>E-Business</fullName>
+                <default>false</default>
+                <label>E-Business</label>
+            </value>
+            <value>
+                <fullName>MarComm/Marketing</fullName>
+                <default>false</default>
+                <label>MarComm/Marketing</label>
+            </value>
+            <value>
+                <fullName>Planning</fullName>
+                <default>false</default>
+                <label>Planning</label>
+            </value>
+            <value>
+                <fullName>Customer Care</fullName>
+                <default>false</default>
+                <label>Customer Care</label>
+            </value>
+            <value>
+                <fullName>Facilities/Maint/Mfg Other</fullName>
+                <default>false</default>
+                <label>Facilities/Maint/Mfg Other</label>
+            </value>
+            <value>
+                <fullName>Health/Safety/Environmental</fullName>
+                <default>false</default>
+                <label>Health/Safety/Environmental</label>
+            </value>
+            <value>
+                <fullName>Lifecycle Engineering</fullName>
+                <default>false</default>
+                <label>Lifecycle Engineering</label>
+            </value>
+            <value>
+                <fullName>Logistics</fullName>
+                <default>false</default>
+                <label>Logistics</label>
+            </value>
+            <value>
+                <fullName>Manufacturing Direct</fullName>
+                <default>false</default>
+                <label>Manufacturing Direct</label>
+            </value>
+            <value>
+                <fullName>Manufacturing Engineering</fullName>
+                <default>false</default>
+                <label>Manufacturing Engineering</label>
+            </value>
+            <value>
+                <fullName>Material Handling/Logistics</fullName>
+                <default>false</default>
+                <label>Material Handling/Logistics</label>
+            </value>
+            <value>
+                <fullName>Operations Mgmt</fullName>
+                <default>false</default>
+                <label>Operations Mgmt</label>
+            </value>
+            <value>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+                <label>Order Management</label>
+            </value>
+            <value>
+                <fullName>Purchasing</fullName>
+                <default>false</default>
+                <label>Purchasing</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Six Sigma/CI</fullName>
+                <default>false</default>
+                <label>Six Sigma/CI</label>
+            </value>
+            <value>
+                <fullName>Sourcing</fullName>
+                <default>false</default>
+                <label>Sourcing</label>
+            </value>
+            <value>
+                <fullName>Supply Chain</fullName>
+                <default>false</default>
+                <label>Supply Chain</label>
+            </value>
+            <value>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+                <label>Product Management</label>
+            </value>
+            <value>
+                <fullName>Program Management</fullName>
+                <default>false</default>
+                <label>Program Management</label>
+            </value>
+            <value>
+                <fullName>Product Dev/Engineering</fullName>
+                <default>false</default>
+                <label>Product Dev/Engineering</label>
+            </value>
+            <value>
+                <fullName>RD + Engineering Mgmt</fullName>
+                <default>false</default>
+                <label>RD + Engineering Mgmt</label>
+            </value>
+            <value>
+                <fullName>RD Technician</fullName>
+                <default>false</default>
+                <label>RD Technician</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Software Quality</fullName>
+                <default>false</default>
+                <label>Software Quality</label>
+            </value>
+            <value>
+                <fullName>Application Engineer</fullName>
+                <default>false</default>
+                <label>Application Engineer</label>
+            </value>
+            <value>
+                <fullName>Field Marketing</fullName>
+                <default>false</default>
+                <label>Field Marketing</label>
+            </value>
+            <value>
+                <fullName>Inside Sales</fullName>
+                <default>false</default>
+                <label>Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Product Specialists</fullName>
+                <default>false</default>
+                <label>Product Specialists</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Sales Indirect</fullName>
+                <default>false</default>
+                <label>Sales Indirect</label>
+            </value>
+            <value>
+                <fullName>Sales Mgmt</fullName>
+                <default>false</default>
+                <label>Sales Mgmt</label>
+            </value>
+            <value>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+                <label>Sales Support</label>
+            </value>
+            <value>
+                <fullName>Service Direct</fullName>
+                <default>false</default>
+                <label>Service Direct</label>
+            </value>
+            <value>
+                <fullName>Service Indirect</fullName>
+                <default>false</default>
+                <label>Service Indirect</label>
+            </value>
+            <value>
+                <fullName>Service Management</fullName>
+                <default>false</default>
+                <label>Service Management</label>
+            </value>
+            <value>
+                <fullName>Service Marketing</fullName>
+                <default>false</default>
+                <label>Service Marketing</label>
+            </value>
+            <value>
+                <fullName>Service Operations</fullName>
+                <default>false</default>
+                <label>Service Operations</label>
+            </value>
+            <value>
+                <fullName>Service Tech Support</fullName>
+                <default>false</default>
+                <label>Service Tech Support</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>RD + Engineering</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <controllingFieldValue>Admin Leadership</controllingFieldValue>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <controllingFieldValue>Human Resources</controllingFieldValue>
+            <controllingFieldValue>Information Technology</controllingFieldValue>
+            <controllingFieldValue>MarComm/Corp Comm</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Product/Program Mgt</controllingFieldValue>
+            <valueName>Admin + Site Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RD + Engineering</controllingFieldValue>
+            <valueName>Product Dev/Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RD + Engineering</controllingFieldValue>
+            <valueName>RD + Engineering Mgmt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RD + Engineering</controllingFieldValue>
+            <valueName>RD Technician</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RD + Engineering</controllingFieldValue>
+            <valueName>Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RD + Engineering</controllingFieldValue>
+            <valueName>Software Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Application Engineer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Field Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Inside Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Product Specialists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Sales Indirect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Sales Mgmt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Sales Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Service Direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Service Indirect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Service Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Service Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Service Operations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Service Tech Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Leadership</controllingFieldValue>
+            <valueName>Admin Leadership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Development</controllingFieldValue>
+            <valueName>Business Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emerging Technologies</controllingFieldValue>
+            <valueName>Emerging Technologies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Collections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Controller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>FPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Investor Relations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Treasury</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Human Resources</controllingFieldValue>
+            <valueName>Human Resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Technology</controllingFieldValue>
+            <valueName>IT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Technology</controllingFieldValue>
+            <valueName>IT Applications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Technology</controllingFieldValue>
+            <valueName>IT E-Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Technology</controllingFieldValue>
+            <valueName>IT Infrastructure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Regulatory Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MarComm/Corp Comm</controllingFieldValue>
+            <valueName>Corporate Communications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MarComm/Corp Comm</controllingFieldValue>
+            <valueName>Customer Care (Mkt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MarComm/Corp Comm</controllingFieldValue>
+            <valueName>E-Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MarComm/Corp Comm</controllingFieldValue>
+            <valueName>MarComm/Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Customer Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Facilities/Maint/Mfg Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Health/Safety/Environmental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Lifecycle Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Manufacturing Direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Manufacturing Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Material Handling/Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Operations Mgmt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Order Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Purchasing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Six Sigma/CI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Sourcing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Supply Chain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product/Program Mgt</controllingFieldValue>
+            <valueName>Product Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product/Program Mgt</controllingFieldValue>
+            <valueName>Program Management</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

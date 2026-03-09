@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllReviewedSolutions</fullName>
+    <columns>SOLUTION.SOLUTION_NUMBER</columns>
+    <columns>SOLUTION.ISSUE</columns>
+    <columns>SOLUTION.IS_PUBLISHED_PKB</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>SOLUTION.TIMES_USED</columns>
+    <columns>SOLUTION.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SOLUTION.STATUS_CODE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>SOLUTION.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Solution.LabworksSolution</value>
+    </filters>
+    <filters>
+        <field>SOLUTION.IS_PUBLISHED_PKB</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>SOLUTION.EXTERNAL</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>PUBLISHED LABWORKS Solutions</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000956</group>
+    </sharedTo>
+</ListView>

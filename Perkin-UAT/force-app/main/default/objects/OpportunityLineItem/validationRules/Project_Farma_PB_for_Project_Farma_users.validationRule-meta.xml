@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Farma_PB_for_Project_Farma_users</fullName>
+    <active>true</active>
+    <description>Project_Farma_PB_for_Project_Farma_users</description>
+    <errorConditionFormula>Opportunity.Pricebook2.Name &lt;&gt; &quot;Project Farma&quot; &amp;&amp; 
+ $User.ProfileName__c = &quot;PROFILE: PKI Project Farma&quot;</errorConditionFormula>
+    <errorMessage>You can only add products from the &#39;Project-Farma Pricebook&#39;. Please select the correct PriceBook on the Opportunity.</errorMessage>
+</ValidationRule>

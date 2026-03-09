@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoCodeRxx__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ShippingCountry &lt;&gt; &quot;US&quot;,&quot;NA&quot;, 
+IF(CONTAINS(&quot;350, 351, 352, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 367, 368, 369&quot;, left(ShippingPostalCode,3)), &quot;R01&quot;, 
+IF(CONTAINS(&quot;304, 308, 309, 310, 312, 313, 314, 315, 316, 317, 318, 319,398&quot;, left(ShippingPostalCode,3)), &quot;R02&quot;, 
+IF(CONTAINS(&quot;376, 377, 378, 379, 385&quot;, left(ShippingPostalCode,3)), &quot;R03&quot;, 
+IF(CONTAINS(&quot;305, 307&quot;, left(ShippingPostalCode,3)), &quot;R04&quot;, 
+IF(CONTAINS(&quot;373, 374&quot;, left(ShippingPostalCode,3)), &quot;R05&quot;, 
+IF(CONTAINS(&quot;300, 301, 302, 303, 306, 311, 399&quot;, left(ShippingPostalCode,3)), &quot;R06&quot;, 
+IF(CONTAINS(&quot;320, 321, 322, 323, 324, 326, 327, 328, 337, 344, 346, 347&quot;, left(ShippingPostalCode,3)), &quot;R07&quot;, 
+IF(CONTAINS(&quot;329, 330, 331, 332, 333, 334, 335, 336, 338, 339, 340, 341, 342, 349&quot;, left(ShippingPostalCode,3)), &quot;R08&quot;, 
+IF(CONTAINS(&quot;370, 371, 372, 375, 380, 381, 382, 383, 384, 386, 387, 388, 389, 397&quot;, left(ShippingPostalCode,3)), &quot;R09&quot;, 
+IF(CONTAINS(&quot;325, 365, 366, 390, 391, 392, 393, 394, 395, 396&quot;, left(ShippingPostalCode,3)), &quot;R10&quot;, 
+IF(CONTAINS(&quot;270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285&quot;, left(ShippingPostalCode,3)), &quot;R11&quot;, 
+IF(CONTAINS(&quot;290, 291, 292, 293, 295, 297&quot;, left(ShippingPostalCode,3)), &quot;R12&quot;, 
+IF(CONTAINS(&quot;286, 287, 288, 289&quot;, left(ShippingPostalCode,3)), &quot;R13&quot;, 
+IF(CONTAINS(&quot;294, 298, 299&quot;, left(ShippingPostalCode,3)), &quot;R14&quot;, 
+IF(CONTAINS(&quot;296&quot;, left(ShippingPostalCode,3)), &quot;R15&quot;, 
+&quot;NA&quot;))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>GeoCodeRxx</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

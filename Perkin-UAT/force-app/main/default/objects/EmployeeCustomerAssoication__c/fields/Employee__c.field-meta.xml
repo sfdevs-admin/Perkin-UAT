@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee__c</fullName>
+    <description>Non Officer Contact who is associated with Customer</description>
+    <label>Employee</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Employee__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Non Officer</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Employee__c</referenceTo>
+    <relationshipLabel>Customers</relationshipLabel>
+    <relationshipName>EmployeeCustomerAssoications</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

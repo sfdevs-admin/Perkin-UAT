@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Servas_Performance_Codes__c</fullName>
+    <label>Servas Performance Codes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SSP- Empty Securitainer</fullName>
+                <default>false</default>
+                <label>SSP- Empty Securitainer</label>
+            </value>
+            <value>
+                <fullName>SSP- Impure Reagent/Contamination in vials</fullName>
+                <default>false</default>
+                <label>SSP- Impure Reagent/Contamination in vials</label>
+            </value>
+            <value>
+                <fullName>SSP- Inadequate/Incorrect/Smudged Labels</fullName>
+                <default>false</default>
+                <label>SSP- Inadequate/Incorrect/Smudged Labels</label>
+            </value>
+            <value>
+                <fullName>SSP- Leaking vials/bottles</fullName>
+                <default>false</default>
+                <label>SSP- Leaking vials/bottles</label>
+            </value>
+            <value>
+                <fullName>SSP- Not perform to spec</fullName>
+                <default>false</default>
+                <label>SSP- Not perform to spec</label>
+            </value>
+            <value>
+                <fullName>SSP- Incorrect id of customer req</fullName>
+                <default>false</default>
+                <label>SSP- Incorrect id of customer req</label>
+            </value>
+            <value>
+                <fullName>OVP- Product Application Issue</fullName>
+                <default>false</default>
+                <label>OVP- Product Application Issue</label>
+            </value>
+            <value>
+                <fullName>SSP- Packaging Error/Special pkg instructions not followed</fullName>
+                <default>false</default>
+                <label>SSP- Packaging Error/Special pkg instructions not followed</label>
+            </value>
+            <value>
+                <fullName>SSP- Short filled/Empty vial</fullName>
+                <default>false</default>
+                <label>SSP- Short filled/Empty vial</label>
+            </value>
+            <value>
+                <fullName>CRT- Customer Return (Please be very descriptive)</fullName>
+                <default>false</default>
+                <label>CRT- Customer Return (Please be very descriptive)</label>
+            </value>
+            <value>
+                <fullName>SSP- Supplier (OEM product)</fullName>
+                <default>false</default>
+                <label>SSP- Supplier (OEM product)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analytical_East_recent_leads</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Product_Line__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_QUARTER</value>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>includes</operation>
+        <value>AA,IR,GC,LC,MAS,TEA</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>contains</operation>
+        <value>MA,CT,NJ,NY,PA,DC,MD,FL</value>
+    </filters>
+    <label>Analytical East -  recent leads</label>
+    <language>en_US</language>
+</ListView>

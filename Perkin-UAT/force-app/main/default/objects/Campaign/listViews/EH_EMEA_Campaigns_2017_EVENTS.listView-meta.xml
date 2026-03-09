@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_EMEA_Campaigns_2017_EVENTS</fullName>
+    <booleanFilter>(1 AND 2 AND 3 AND 4 AND 5 and 10) OR (1 AND 2 AND 3 AND 4 AND 6 and 10) or (7 AND 8 AND 9 and 10)</booleanFilter>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>CAMPAIGN.TOT_CONVERTED_LEADS</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>Lead_Conversion_Rate__c</columns>
+    <columns>CAMPAIGN.TOT_NUM_RESPONSES</columns>
+    <columns>Opportunity_Conversion_Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>ENV,EH</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2017</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>EU,EMEA</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>notContain</operation>
+        <value>KOSPAC,APAC,OneSource,LST,DX</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>contains</operation>
+        <value>kezyte,osman,constable,de bouteiller,goth,heid,bertram,Murè,Balsa</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>contains</operation>
+        <value>sales notification</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>GLO</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>contains</operation>
+        <value>kezyte,osman,constable,de bouteiller,goth,heid,bertram,Murè,Balsa</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2017</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+        <operation>equals</operation>
+        <value>Customer Event,Sponsorship,Tradeshows,Usergroups,Workshops,Seminar</value>
+    </filters>
+    <label>EH EMEA Campaigns 2017 EVENTS</label>
+    <language>en_US</language>
+</ListView>

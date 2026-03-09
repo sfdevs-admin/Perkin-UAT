@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Empty_Fields_Standard__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(AccountNumber), 1, 0) + IF(ISBLANK(TEXT(AccountSource)), 1, 0) + IF(ISBLANK(AnnualRevenue), 1, 0) + IF(ISBLANK(BillingCity), 1, 0) + IF(ISBLANK(BillingCountry), 1, 0) + IF(ISBLANK(BillingPostalCode), 1, 0) + IF(ISBLANK(BillingState), 1, 0) + IF(ISBLANK(BillingStreet), 1, 0) + /*IF(ISBLANK(DunsNumber), 1, 0) + */ IF(ISBLANK(Fax), 1, 0) + IF(ISBLANK(TEXT(Industry)), 1, 0) + 
+
+/*IF(ISBLANK(Jigsaw), 1, 0) +*/ 
+
+IF(ISBLANK(LastActivityDate), 1, 0) +
+
+/*IF(ISBLANK(NaicsCode), 1, 0) + IF(ISBLANK(NaicsDesc), 1, 0) + */
+
+IF(ISBLANK(Name), 1, 0) + IF(ISBLANK(NumberOfEmployees), 1, 0) + IF(ISBLANK(OwnerId), 1, 0) + IF(ISBLANK(TEXT(Ownership)), 1, 0) + IF(ISBLANK(ParentId), 1, 0) + IF(ISBLANK(Phone), 1, 0) + IF(ISBLANK(TEXT(Rating)), 1, 0) + IF(ISBLANK(RecordTypeId), 1, 0) + IF(ISBLANK(ShippingCity), 1, 0) + IF(ISBLANK(ShippingCountry), 1, 0) + IF(ISBLANK(ShippingPostalCode), 1, 0) + IF(ISBLANK(ShippingState), 1, 0) + IF(ISBLANK(ShippingStreet), 1, 0) + IF(ISBLANK(Sic), 1, 0) + IF(ISBLANK(SicDesc), 1, 0) + IF(ISBLANK(Site), 1, 0) + IF(ISBLANK(TickerSymbol), 1, 0) +
+
+/*IF(ISBLANK(Tradestyle), 1, 0) +*/ 
+
+IF(ISBLANK(TEXT(Type)), 1, 0) + IF(ISBLANK(Website), 1, 0)
+
+/*+ IF(ISBLANK(YearStarted), 1, 0)*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>No of Empty Fields (Standard)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

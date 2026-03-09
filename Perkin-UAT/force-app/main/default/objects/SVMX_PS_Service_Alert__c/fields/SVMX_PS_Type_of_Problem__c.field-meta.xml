@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Type_of_Problem__c</fullName>
+    <label>Type of Problem</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Instrument</fullName>
+                <default>false</default>
+                <label>Instrument</label>
+            </value>
+            <value>
+                <fullName>PerkinElmer Accessory</fullName>
+                <default>false</default>
+                <label>PerkinElmer Accessory</label>
+            </value>
+            <value>
+                <fullName>Other Supplier Accessory</fullName>
+                <default>false</default>
+                <label>Other Supplier Accessory</label>
+            </value>
+            <value>
+                <fullName>Computer</fullName>
+                <default>false</default>
+                <label>Computer</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Accessory</fullName>
+                <default>false</default>
+                <label>Accessory</label>
+            </value>
+            <value>
+                <fullName>PC</fullName>
+                <default>false</default>
+                <label>PC</label>
+            </value>
+            <value>
+                <fullName>Part</fullName>
+                <default>false</default>
+                <label>Part</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

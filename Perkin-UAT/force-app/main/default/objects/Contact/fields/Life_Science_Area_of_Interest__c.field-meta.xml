@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Life_Science_Area_of_Interest__c</fullName>
+    <description>S-692773/T-941080. Created as part of data migration</description>
+    <label>Life Science Area of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aging</fullName>
+                <default>false</default>
+                <label>Aging</label>
+            </value>
+            <value>
+                <fullName>Autoimmune disease</fullName>
+                <default>false</default>
+                <label>Autoimmune disease</label>
+            </value>
+            <value>
+                <fullName>Biotherapeutics</fullName>
+                <default>false</default>
+                <label>Biotherapeutics</label>
+            </value>
+            <value>
+                <fullName>Blood disorders</fullName>
+                <default>false</default>
+                <label>Blood disorders</label>
+            </value>
+            <value>
+                <fullName>Cardiovascular disease</fullName>
+                <default>false</default>
+                <label>Cardiovascular disease</label>
+            </value>
+            <value>
+                <fullName>CNS</fullName>
+                <default>false</default>
+                <label>CNS</label>
+            </value>
+            <value>
+                <fullName>Cosmetology</fullName>
+                <default>false</default>
+                <label>Cosmetology</label>
+            </value>
+            <value>
+                <fullName>Dermatology</fullName>
+                <default>false</default>
+                <label>Dermatology</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Gene and cell therapy</fullName>
+                <default>false</default>
+                <label>Gene and cell therapy</label>
+            </value>
+            <value>
+                <fullName>HTS - Assay development</fullName>
+                <default>false</default>
+                <label>HTS - Assay development</label>
+            </value>
+            <value>
+                <fullName>HTS - Centralized lead optimisation</fullName>
+                <default>false</default>
+                <label>HTS - Centralized lead optimisation</label>
+            </value>
+            <value>
+                <fullName>HTS - Screening per se</fullName>
+                <default>false</default>
+                <label>HTS - Screening per se</label>
+            </value>
+            <value>
+                <fullName>Immuno-Oncology</fullName>
+                <default>false</default>
+                <label>Immuno-Oncology</label>
+            </value>
+            <value>
+                <fullName>Inf Disease and virology</fullName>
+                <default>false</default>
+                <label>Inf Disease and virology</label>
+            </value>
+            <value>
+                <fullName>Inflammation and Immunology</fullName>
+                <default>false</default>
+                <label>Inflammation and Immunology</label>
+            </value>
+            <value>
+                <fullName>In Vitro Diagnostic</fullName>
+                <default>false</default>
+                <label>In Vitro Diagnostic</label>
+            </value>
+            <value>
+                <fullName>Metabolism</fullName>
+                <default>false</default>
+                <label>Metabolism</label>
+            </value>
+            <value>
+                <fullName>NASH/ Fibrosis</fullName>
+                <default>false</default>
+                <label>NASH/ Fibrosis</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <label>Oncology</label>
+            </value>
+            <value>
+                <fullName>Ophtalmology</fullName>
+                <default>false</default>
+                <label>Ophtalmology</label>
+            </value>
+            <value>
+                <fullName>Pain</fullName>
+                <default>false</default>
+                <label>Pain</label>
+            </value>
+            <value>
+                <fullName>Pharmacology</fullName>
+                <default>false</default>
+                <label>Pharmacology</label>
+            </value>
+            <value>
+                <fullName>Production/ QC</fullName>
+                <default>false</default>
+                <label>Production/ QC</label>
+            </value>
+            <value>
+                <fullName>PROTAC</fullName>
+                <default>false</default>
+                <label>PROTAC</label>
+            </value>
+            <value>
+                <fullName>Purchasing</fullName>
+                <default>false</default>
+                <label>Purchasing</label>
+            </value>
+            <value>
+                <fullName>Rare disease</fullName>
+                <default>false</default>
+                <label>Rare disease</label>
+            </value>
+            <value>
+                <fullName>Reproductive research</fullName>
+                <default>false</default>
+                <label>Reproductive research</label>
+            </value>
+            <value>
+                <fullName>Toxicology</fullName>
+                <default>false</default>
+                <label>Toxicology</label>
+            </value>
+            <value>
+                <fullName>Vaccines</fullName>
+                <default>false</default>
+                <label>Vaccines</label>
+            </value>
+            <value>
+                <fullName>NASH / Fibrosis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NASH / Fibrosis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

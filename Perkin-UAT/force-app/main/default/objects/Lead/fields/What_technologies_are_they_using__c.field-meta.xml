@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_technologies_are_they_using__c</fullName>
+    <label>What technologies are they using?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bead Array</fullName>
+                <default>false</default>
+                <label>Bead Array</label>
+            </value>
+            <value>
+                <fullName>Chip Array</fullName>
+                <default>false</default>
+                <label>Chip Array</label>
+            </value>
+            <value>
+                <fullName>Fragment Analysis</fullName>
+                <default>false</default>
+                <label>Fragment Analysis</label>
+            </value>
+            <value>
+                <fullName>Luminex</fullName>
+                <default>false</default>
+                <label>Luminex</label>
+            </value>
+            <value>
+                <fullName>RT-PCR</fullName>
+                <default>false</default>
+                <label>RT-PCR</label>
+            </value>
+            <value>
+                <fullName>Sequencing</fullName>
+                <default>false</default>
+                <label>Sequencing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

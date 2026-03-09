@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fault__c</fullName>
+    <label>Fault</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Noise</fullName>
+                <default>false</default>
+                <label>Noise</label>
+            </value>
+            <value>
+                <fullName>Baseline Problems</fullName>
+                <default>false</default>
+                <label>Baseline Problems</label>
+            </value>
+            <value>
+                <fullName>No Power</fullName>
+                <default>false</default>
+                <label>No Power</label>
+            </value>
+            <value>
+                <fullName>Sample Data Problem</fullName>
+                <default>false</default>
+                <label>Sample Data Problem</label>
+            </value>
+            <value>
+                <fullName>Device Communication</fullName>
+                <default>false</default>
+                <label>Device Communication</label>
+            </value>
+            <value>
+                <fullName>No Problem</fullName>
+                <default>false</default>
+                <label>No Problem</label>
+            </value>
+            <value>
+                <fullName>Fails Diagnostics</fullName>
+                <default>false</default>
+                <label>Fails Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Hardware Failure</fullName>
+                <default>false</default>
+                <label>Hardware Failure</label>
+            </value>
+            <value>
+                <fullName>Intermittent Hardware</fullName>
+                <default>false</default>
+                <label>Intermittent Hardware</label>
+            </value>
+            <value>
+                <fullName>Intermittant Software</fullName>
+                <default>false</default>
+                <label>Intermittant Software</label>
+            </value>
+            <value>
+                <fullName>Software Failure</fullName>
+                <default>false</default>
+                <label>Software Failure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

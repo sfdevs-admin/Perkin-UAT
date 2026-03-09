@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQS_Warm_or_Hot__c</fullName>
+    <description>Populates when any LQS field is either Qualified Lead - Warm or Qualified Lead - Hot. If multiple LQS fields are Warm and Hot concurrently, this field will populate with Qualified Lead - Hot.</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+OR(
+ISPICKVAL(LQS_Air__c , &quot;Qualified Lead - Hot&quot;) ,
+ISPICKVAL( LQS_Applied_Genomics__c, &quot;Qualified Lead - Hot&quot;),
+ISPICKVAL( LQS_Chemicals__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Clinical_Studies__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Digital_Lab__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Disease_Research__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Drug_Discovery__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Energy__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL(LQS_Food_Quality__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Food_Safety__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Forensics_and_Security__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Geochemistry_Mining_and_Metals__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Material__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Maternal_Fetal_Health__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Newborn_Screening__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Geochemistry_Mining_and_Metals__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Pre_Clinical_Studies__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_QA_QC_Drug_Manufacturing_Process__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Soil_Solids__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Strategic_Services__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL( LQS_Water__c, &quot;Qualified Lead - Hot&quot;),
+ISPICKVAL( Lead_Qualification_Stage__c, &quot;Qualified Lead - Hot&quot;) ),
+&quot;Qualified Lead - Hot&quot;, 
+
+IF( 
+OR(
+ISPICKVAL(LQS_Air__c , &quot;Qualified Lead - Warm&quot;) ,
+ISPICKVAL( LQS_Applied_Genomics__c, &quot;Qualified Lead - Warm&quot;),
+ISPICKVAL( LQS_Chemicals__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Clinical_Studies__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Digital_Lab__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Disease_Research__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Drug_Discovery__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Energy__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL(LQS_Food_Quality__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Food_Safety__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Forensics_and_Security__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Geochemistry_Mining_and_Metals__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Material__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Maternal_Fetal_Health__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Newborn_Screening__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Geochemistry_Mining_and_Metals__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Pre_Clinical_Studies__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_QA_QC_Drug_Manufacturing_Process__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Soil_Solids__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Strategic_Services__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL( LQS_Water__c, &quot;Qualified Lead - Warm&quot;),
+ISPICKVAL( Lead_Qualification_Stage__c, &quot;Qualified Lead - Warm&quot;) ), 
+&quot;Qualified Lead - Warm&quot;, 
+null))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LQS - Warm or Hot</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

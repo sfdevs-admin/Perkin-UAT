@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Plant_Work_Center__c</fullName>
+    <externalId>false</externalId>
+    <formula>SMAX_PS_Plant__c &amp; SMAX_PS_Work_Center__c</formula>
+    <label>Plant Work Center</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X320_Queue_wo_Members</fullName>
+    <columns>NAME</columns>
+    <columns>MembersCount__c</columns>
+    <columns>Subgroups__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>API_Name__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>fxQueueMembers__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Email__c</columns>
+    <columns>iSalesLeader__c</columns>
+    <columns>SalesLeader__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MembersCount__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Queue</value>
+    </filters>
+    <filters>
+        <field>Subgroups__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>320. Queue wo/Members</label>
+</ListView>

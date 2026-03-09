@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxSameAccount__c</fullName>
+    <description>ITSFDC-4806</description>
+    <formula>/*running user is the owner of the current Opp, and see all other opps for same Account  */
+
+Account.Name =fxUserAccountId__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>fxSameAccount</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

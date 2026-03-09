@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>P_G_Contact_by_Account_Lookup</fullName>
+    <columns>Full_Name_Temp__c</columns>
+    <columns>ACCOUNT.NAME_LOCAL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Global_Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SVMX_PS_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>FULL_NAME</field>
+        <operation>contains</operation>
+        <value>P&amp;G,P &amp; G</value>
+    </filters>
+    <label>P&amp;G Contact by Account Lookup</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

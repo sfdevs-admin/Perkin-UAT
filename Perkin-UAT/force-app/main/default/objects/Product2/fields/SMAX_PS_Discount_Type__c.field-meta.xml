@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Discount_Type__c</fullName>
+    <description>This field indicates a Product Type to be used for Contract discounting when different from the actual Product Type.</description>
+    <inlineHelpText>This field indicates a Product Type to be used for Contract discounting when different from the actual Product Type.</inlineHelpText>
+    <label>Discount Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consumable</fullName>
+                <default>false</default>
+                <label>Consumable</label>
+            </value>
+            <value>
+                <fullName>Labor</fullName>
+                <default>false</default>
+                <label>Labor</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Service Parts</fullName>
+                <default>false</default>
+                <label>Service Parts</label>
+            </value>
+            <value>
+                <fullName>Other Parts</fullName>
+                <default>false</default>
+                <label>Other Parts</label>
+            </value>
+            <value>
+                <fullName>Expenses</fullName>
+                <default>false</default>
+                <label>Expenses</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

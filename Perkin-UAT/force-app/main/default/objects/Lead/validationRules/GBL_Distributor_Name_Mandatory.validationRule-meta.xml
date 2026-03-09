@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Distributor_Name_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+    ISPICKVAL( Status ,&#39;Distributor&#39;)
+    ,ISBLANK(Distributor_Name__c) 
+    )</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_004: Please make sure the Distributor Name is entered whenever the Lead Status is set to &quot;Distributor&quot;</errorMessage>
+</ValidationRule>

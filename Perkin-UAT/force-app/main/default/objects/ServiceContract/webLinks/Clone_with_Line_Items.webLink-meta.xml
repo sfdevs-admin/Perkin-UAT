@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clone_with_Line_Items</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Clone with Line Items</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/24.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/24.0/apex.js&quot;)}
+
+var objID = &quot;{!ServiceContract.Id}&quot;;
+
+var finishedLocation;
+
+if (window.parent.location.href==&quot;/ui/desktop/DesktopPage&quot;) { 
+finishedLocation = &#39;/{!ServiceContract.Id}&amp;isdtp=mn&#39;; 
+} else { 
+finishedLocation = &#39;/&#39; + objID; 
+}; 
+
+if (objID.length != 0) {
+
+// Make a synchronous call to Apex Web service method
+var result = sforce.apex.execute(
+&quot;ServiceContractButton&quot;, // Class
+&quot;cloneServiceContract&quot;, // method
+{serviceContractId: objID});
+
+// createAttempt() returns new Service Contract page
+if (result != &#39;&#39;) {
+window.location.href = &#39;/&#39; + result;
+}
+
+} else if (objID.length == 0) {
+
+alert(&quot;No Service Contract has been cloned.&quot;);
+}</url>
+</WebLink>

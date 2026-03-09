@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bounced_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Syncs with Eloqua on bounce backs. Workflow rule unchecks this box when email is upadated.</description>
+    <inlineHelpText>Checkbox = a bounced email from an eloqua campaign, please correct email if known.</inlineHelpText>
+    <label>Bounced Email</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

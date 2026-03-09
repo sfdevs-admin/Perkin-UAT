@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Request_For_field</fullName>
+    <active>true</active>
+    <errorConditionFormula>$Permission.BD_Bypass_Automation != TRUE
+&amp;&amp; ISBLANK(Request_For__c)</errorConditionFormula>
+    <errorMessage>Please fill &#39;Request For&#39; field</errorMessage>
+</ValidationRule>

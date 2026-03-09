@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAPCombo__c</fullName>
+    <externalId>false</externalId>
+    <formula>BLANKVALUE(Email,&#39;&#39;) + BLANKVALUE(Completion_Action_Product__c,&#39;&#39;) + BLANKVALUE(IGOR_PAC__c ,&#39;&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CAPCombo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

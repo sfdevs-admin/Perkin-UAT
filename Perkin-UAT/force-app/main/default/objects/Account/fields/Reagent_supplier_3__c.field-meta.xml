@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reagent_supplier_3__c</fullName>
+    <label>Reagent supplier 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PerkinElmer</fullName>
+                <default>false</default>
+                <label>PerkinElmer</label>
+            </value>
+            <value>
+                <fullName>Bio-Rad</fullName>
+                <default>false</default>
+                <label>Bio-Rad</label>
+            </value>
+            <value>
+                <fullName>Chromsystems</fullName>
+                <default>false</default>
+                <label>Chromsystems</label>
+            </value>
+            <value>
+                <fullName>Homebrew</fullName>
+                <default>false</default>
+                <label>Homebrew</label>
+            </value>
+            <value>
+                <fullName>ANI Labsystems</fullName>
+                <default>false</default>
+                <label>ANI Labsystems</label>
+            </value>
+            <value>
+                <fullName>Sebia</fullName>
+                <default>false</default>
+                <label>Sebia</label>
+            </value>
+            <value>
+                <fullName>Luminex</fullName>
+                <default>false</default>
+                <label>Luminex</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

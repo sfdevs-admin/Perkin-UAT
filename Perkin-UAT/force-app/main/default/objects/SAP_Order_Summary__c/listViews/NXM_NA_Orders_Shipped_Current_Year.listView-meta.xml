@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NXM_NA_Orders_Shipped_Current_Year</fullName>
+    <columns>NAME</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Opp_Owner__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Actual_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Inco_Terms_Description__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Order_Net_Currency__c</columns>
+    <columns>Ultimate_Destination_Country__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Order_Path__c</field>
+        <operation>equals</operation>
+        <value>Order Shipped</value>
+    </filters>
+    <filters>
+        <field>Opportunity__c</field>
+        <operation>contains</operation>
+        <value>NXM</value>
+    </filters>
+    <filters>
+        <field>Actual_Order_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <filters>
+        <field>Sales_Org__c</field>
+        <operation>equals</operation>
+        <value>US10,CA10</value>
+    </filters>
+    <label>NXM NA Orders Shipped - Current Year</label>
+</ListView>

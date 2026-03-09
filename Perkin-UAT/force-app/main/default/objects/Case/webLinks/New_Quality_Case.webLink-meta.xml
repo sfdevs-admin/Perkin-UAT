@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Quality_Case</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New Quality Case</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/18.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/18.0/apex.js&quot;)}
+var value = &quot;{!NULLVALUE(Case.Quality_Case__c, &#39;&#39;)}&quot;;
+if (value.length &gt; 0)
+{
+alert(&#39;A quality case exist for this service case&#39;);
+}
+else
+{
+window.location.href = &quot;/{!Case.Id}/e?clone=1&amp;RecordType=01230000000byd8AAA&amp;CF00N30000009PhQp={!Case.CaseNumber}&amp;CF00N30000009PhQp_lkid={!Case.Id}&amp;cas14=Quality-{!Case.Subject}&amp;cas5=Quality Failure&amp;00N30000009PhQq=&amp;cas11=	LST&amp;retURL={!Case.Id}&quot;;
+}</url>
+</WebLink>

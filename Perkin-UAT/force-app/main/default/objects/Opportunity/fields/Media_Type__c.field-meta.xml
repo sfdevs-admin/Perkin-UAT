@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Media_Type__c</fullName>
+    <description>Maps from Lead Field</description>
+    <inlineHelpText>Transfers on Lead Conversion</inlineHelpText>
+    <label>Media Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bonus Leads</fullName>
+                <default>false</default>
+                <label>Bonus Leads</label>
+            </value>
+            <value>
+                <fullName>Direct Mail/EMail</fullName>
+                <default>false</default>
+                <label>Direct Mail/EMail</label>
+            </value>
+            <value>
+                <fullName>Directory/Buyer guide</fullName>
+                <default>false</default>
+                <label>Directory/Buyer guide</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>News Release</fullName>
+                <default>false</default>
+                <label>News Release</label>
+            </value>
+            <value>
+                <fullName>Paid Media</fullName>
+                <default>false</default>
+                <label>Paid Media</label>
+            </value>
+            <value>
+                <fullName>Sales Team</fullName>
+                <default>false</default>
+                <label>Sales Team</label>
+            </value>
+            <value>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+                <label>Telemarketing</label>
+            </value>
+            <value>
+                <fullName>Tradeshows</fullName>
+                <default>false</default>
+                <label>Tradeshows</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO6Contacts</fullName>
+    <booleanFilter>(1 AND 2) or (3 AND 4) OR (5 AND 6)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.ADDRESS2_STREET</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>CONTACT.ADDRESS2_ZIP</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>GC_List__c</columns>
+    <columns>LC_List__c</columns>
+    <columns>IR_List__c</columns>
+    <columns>UVS_List__c</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>greaterOrEqual</operation>
+        <value>16800</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>lessOrEqual</operation>
+        <value>16999</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>greaterOrEqual</operation>
+        <value>17700</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>lessOrEqual</operation>
+        <value>17899</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>greaterOrEqual</operation>
+        <value>18000</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>lessOrEqual</operation>
+        <value>18899</value>
+    </filters>
+    <label>SO6 Contacts</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OneSource_Leads_Sales_AM_2016_priorOpenW</fullName>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Global_Region__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Product_Line__c</columns>
+    <columns>BE__c</columns>
+    <columns>LEAD.STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>includes</operation>
+        <value>OSAM,OSR,OSIT,OSSS,OSRL,OSAI,OST,OSSR,OSG,One Source</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>12/31/2016 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notContain</operation>
+        <value>OneSourceMarketingLeads -MarketingQueue$,One Source America,trash/spam</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>Americas</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open,Working</value>
+    </filters>
+    <label>OneSource Leads Sales AM 2016&amp;priorOpenW</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CALPAPACSAMFTCLH_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CALP- APAC/SA MFT/CLH</label>
+    <queue>ARQ_000410</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

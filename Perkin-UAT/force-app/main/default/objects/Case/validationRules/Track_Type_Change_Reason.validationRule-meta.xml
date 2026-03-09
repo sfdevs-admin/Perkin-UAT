@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Track_Type_Change_Reason</fullName>
+    <active>true</active>
+    <description>When users change Type, we require them to choose a reason why they changed it</description>
+    <errorConditionFormula>/*Not AI User, and New.Type !=Prior.Type and Prior.Type!=null. Excluded integartion and edit admin and include check for sub type asked by Naresh
+AND(
+				 TEXT(Reason_For_Type_SubType_Change__c)=null
+				,TEXT(Type)!=PRIORVALUE(Type)
+				,PRIORVALUE(Type)!=null
+				,NOT(CONTAINS($User.Username,&#39;ai.user@&#39;))
+				,NOT(CONTAINS($User.Username,&#39;integration@&#39;))
+				,NOT(CONTAINS($User.Username,&#39;sfdcedit@&#39;))
+				,TEXT(Owned_by_Company__c)=&#39;LSDX&#39;   
+				)
+				*/
+AND(
+				OR(
+								AND(
+												  ISCHANGED(Type)
+												, NOT( ISBLANK( PRIORVALUE(Type))) 
+								)
+								, AND(
+												  ISCHANGED(Sub_Type__c) 
+												, NOT( ISBLANK( PRIORVALUE(Sub_Type__c)))
+								)
+				)
+				, NOT($Permission.C_PERM_2400_Bypass_Case_V_RULES) 
+				, TEXT( Owned_by_Company__c)=&#39;LSDX&#39; 
+				, fxRecordTypeDevName__c=&#39;Customer_Care_General&#39;/*Asked by Isa on Email scope Of AI is only for CC general cases with case origin : Email*/
+				, TEXT( Origin)=&#39;Email&#39;
+				, ISBLANK( TEXT( Reason_For_Type_SubType_Change__c))
+)</errorConditionFormula>
+    <errorDisplayField>Reason_For_Type_SubType_Change__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_053: Enter a reason for changing the type- or subtype.</errorMessage>
+</ValidationRule>

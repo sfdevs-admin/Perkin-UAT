@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DE_NON_MQL_leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.COUNTRY</field>
+        <operation>equals</operation>
+        <value>DE</value>
+    </filters>
+    <filters>
+        <field>CaptureDate__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2016</value>
+    </filters>
+    <label>DE NON-MQL leads</label>
+    <language>en_US</language>
+    <queue>ARQ_000572</queue>
+</ListView>

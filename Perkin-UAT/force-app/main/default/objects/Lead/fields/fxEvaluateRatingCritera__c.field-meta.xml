@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxEvaluateRatingCritera__c</fullName>
+    <description>To evaluate criteria for Rating field for Informatics. It is testing 4 fields to determine a rating, then P.FLOW 2300 copies it to the Rating Field</description>
+    <externalId>false</externalId>
+    <formula>IF(
+   (RecordType.DeveloperName = &#39;Informatics&#39;
+  &amp;&amp; eq_Is_Eloqua_Lead__c = true
+   )
+, IF(   (TEXT(eq_Default_MQL__c)= &#39;true&#39; 
+	  || TEXT(eq_Contact_Requested__c)= &#39;true&#39;
+	  || TEXT(eq_Quote_Requested__c)= &#39;true&#39;
+	  || TEXT(Buying_Horizon__c)= &#39;0-3 Months&#39;
+	  || TEXT(Buying_Horizon__c)= &#39;3-6 Months&#39;
+		)
+	  , &#39;A - Sales Ready/MQL&#39;
+	  
+	  , IF(
+		  (
+			  (TEXT(eq_Default_MQL__c)= &#39;false&#39;
+			|| TEXT(eq_Default_MQL__c)= &#39;Unknown&#39;
+			|| TEXT(eq_Default_MQL__c)= &#39;&#39;
+			   ) 
+		   &amp;&amp; (TEXT(eq_Contact_Requested__c)= &#39;false&#39;
+			|| TEXT(eq_Contact_Requested__c)= &#39;Unknown&#39; 
+			|| TEXT(eq_Contact_Requested__c)= &#39;&#39;
+			   ) 
+		   &amp;&amp; (TEXT(eq_Quote_Requested__c)= &#39;false&#39;
+			|| TEXT(eq_Quote_Requested__c)= &#39;Unknown&#39;
+			|| TEXT(eq_Quote_Requested__c)= &#39;&#39;
+			  ) 
+		   &amp;&amp; (TEXT(Buying_Horizon__c)= &#39;6-12 Months&#39;
+			|| TEXT(Buying_Horizon__c)= &#39;12+ Months&#39;
+			  )
+		  )
+		   , &#39;B - Prospect&#39;
+				  
+				  , IF(
+					   (
+						   (TEXT(eq_Default_MQL__c)= &#39;false&#39;
+						 || TEXT(eq_Default_MQL__c)= &#39;Unknown&#39;
+						 || TEXT(eq_Default_MQL__c)= &#39;&#39;
+							)
+						 &amp;&amp; (TEXT(eq_Contact_Requested__c)= &#39;false&#39;
+						 ||  TEXT(eq_Contact_Requested__c)= &#39;Unknown&#39;
+						 ||  TEXT(eq_Contact_Requested__c)= &#39;&#39;
+							)
+						 &amp;&amp; (TEXT(eq_Quote_Requested__c)= &#39;false&#39;
+						 || TEXT(eq_Quote_Requested__c)= &#39;Unknown&#39;
+						 || TEXT(eq_Quote_Requested__c)= &#39;&#39;
+							)
+						 &amp;&amp; (TEXT(Buying_Horizon__c)= &#39;Not Asked&#39;
+						 || TEXT(Buying_Horizon__c)= &#39;No Plans&#39;
+						 || TEXT(Buying_Horizon__c)= &#39;&#39;
+							)
+						)							   
+					   , &#39;C - Suspect&#39;
+					   , &#39;&#39;
+					  ) 
+		  ) 
+			)
+		, &#39;&#39;
+  )
+/* TEST Data with:*/
+/*SELECT Id,fxEvaluateRatingCritera__c,Rating, eq_Default_MQL__c,eq_Contact_Requested__c,eq_Quote_Requested__c,Buying_Horizon__c,LeadSource,Contact_Requested__c FROM Lead where recordtype.developername = &#39;Informatics&#39; LIMIT 1000 */</formula>
+    <inlineHelpText>formula to calculate Rating for informatics</inlineHelpText>
+    <label>fxEvaluateRatingCritera</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

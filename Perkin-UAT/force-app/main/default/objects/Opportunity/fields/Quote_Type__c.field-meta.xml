@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Type__c</fullName>
+    <inlineHelpText>Single Line (Bundled): Instrument, service, and/or consumables grouped under one line item. 
+Line-Level Detail (Itemized): Instrument, service, and consumables listed separately for cost transparency.</inlineHelpText>
+    <label>Quote Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single Line (Bundled)</fullName>
+                <default>false</default>
+                <label>Single Line (Bundled)</label>
+            </value>
+            <value>
+                <fullName>Line-Level Detail (Itemized)</fullName>
+                <default>false</default>
+                <label>Line-Level Detail (Itemized)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

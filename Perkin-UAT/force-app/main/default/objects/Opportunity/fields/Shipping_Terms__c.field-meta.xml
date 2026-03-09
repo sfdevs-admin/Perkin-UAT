@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shipping_Terms__c</fullName>
+    <inlineHelpText>FOB Factory = Customer willing to accept liability as soon as the order leaves PKI factory
+FOB Destination = Customer will not accept liability until order is delivered to customer site</inlineHelpText>
+    <label>Shipping Terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FOB Factory</fullName>
+                <default>true</default>
+                <label>FOB Factory</label>
+            </value>
+            <value>
+                <fullName>FOB Destination</fullName>
+                <default>false</default>
+                <label>FOB Destination</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Free Into Store</fullName>
+                <default>false</default>
+                <label>Free Into Store</label>
+            </value>
+            <value>
+                <fullName>Delivered Duties Paid</fullName>
+                <default>false</default>
+                <label>Delivered Duties Paid</label>
+            </value>
+            <value>
+                <fullName>DDU (HCS only)</fullName>
+                <default>false</default>
+                <label>DDU (HCS only)</label>
+            </value>
+            <value>
+                <fullName>DDP</fullName>
+                <default>false</default>
+                <label>DDP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

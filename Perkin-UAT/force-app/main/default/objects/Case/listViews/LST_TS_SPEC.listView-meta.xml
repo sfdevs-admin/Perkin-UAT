@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_TS_SPEC</fullName>
+    <filterScope>Queue</filterScope>
+    <label>LST-TS-SPEC</label>
+    <language>en_US</language>
+    <queue>ARQ_000642</queue>
+    <sharedTo>
+        <group>ARQ_000975</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TBD_Interaction_QC_View</fullName>
+    <columns>NAME</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>Country__c</columns>
+    <columns>Status__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>TBD</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>InteractionDate__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>notEqual</operation>
+        <value>LSC-USCAN-2024-EVENT-AACR</value>
+    </filters>
+    <label>TBD Interaction QC View</label>
+</ListView>

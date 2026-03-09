@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InteractionAssignmentRules__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Links to the custom PKI QUEUE object</description>
+    <label>Interaction Assignment Rules</label>
+    <referenceTo>Interaction_Assignment_Rules__c</referenceTo>
+    <relationshipLabel>Interactions (Interaction Assignment Rules)</relationshipLabel>
+    <relationshipName>InteractionAssignmentRules</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

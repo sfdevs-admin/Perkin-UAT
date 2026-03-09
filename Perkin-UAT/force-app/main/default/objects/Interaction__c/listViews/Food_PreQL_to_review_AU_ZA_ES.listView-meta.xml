@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Food_PreQL_to_review_AU_ZA_ES</fullName>
+    <booleanFilter>(1 OR 4 OR 6 ) AND 2 AND 3 AND 5</booleanFilter>
+    <columns>InteractionDate__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>NAME</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>Email__c</columns>
+    <columns>Country__c</columns>
+    <columns>Last_Lead_Source_Channel__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>Content_Title__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>ProductName__c</columns>
+    <columns>Comment__c</columns>
+    <columns>Lead_Qualification_Stage__c</columns>
+    <columns>InitialLeadQualificationStage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>equals</operation>
+        <value>AM,BIO,DAB,DAO,DCS,DEL,DLS,DSS,EXT,FN,FTF,GM,IMF,IMG,LM,PER,RVA,SKC,TXV</value>
+    </filters>
+    <filters>
+        <field>Qualification_Status__c</field>
+        <operation>equals</operation>
+        <value>Pre-QL</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>contains</operation>
+        <value>AU,ZA,ES</value>
+    </filters>
+    <filters>
+        <field>SolutionAreaofInterest__c</field>
+        <operation>equals</operation>
+        <value>Cannabis,Food</value>
+    </filters>
+    <filters>
+        <field>InteractionDate__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>7/1/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Content_Title__c</field>
+        <operation>contains</operation>
+        <value>food,dairy,grain,milk,olive,corn,wheat,canna,feed,tomato,meat,meal,juice,malt,farm,wine,rice,fruit,potato,honey,poultry,dietary,sugar,gluten,eggs,salmonella,spice,pasta,edible,seed,soybean,flour,starch,palm oil,breakfast</value>
+    </filters>
+    <label>Food - PreQL to review (AU, ZA, ES)</label>
+</ListView>

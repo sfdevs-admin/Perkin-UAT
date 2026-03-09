@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Misdirected_Call_Type__c</fullName>
+    <label>Misdirected Call Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Call_Source__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Internal transfer</fullName>
+                <default>false</default>
+                <label>Internal transfer</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Misdirected Call</controllingFieldValue>
+            <valueName>Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misdirected Call</controllingFieldValue>
+            <valueName>Internal transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misdirected Call</controllingFieldValue>
+            <valueName>NA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

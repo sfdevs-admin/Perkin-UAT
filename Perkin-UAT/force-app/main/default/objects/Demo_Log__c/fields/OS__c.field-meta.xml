@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OS__c</fullName>
+    <label>Operating system required instead of OS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MS 2008 R2 64bit</fullName>
+                <default>false</default>
+                <label>MS 2008 R2 64bit</label>
+            </value>
+            <value>
+                <fullName>MS 2012 R2 64bit</fullName>
+                <default>false</default>
+                <label>MS 2012 R2 64bit</label>
+            </value>
+            <value>
+                <fullName>Linux</fullName>
+                <default>false</default>
+                <label>Linux</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

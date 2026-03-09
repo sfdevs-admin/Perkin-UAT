@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Long_Job_Validation</fullName>
+    <active>false</active>
+    <description>If Is Long Job is true, Start and End Date/Time fields cannot be updated.</description>
+    <errorConditionFormula>AND(SMAX_PS_Is_Long_Job__c = true,
+ISCHANGED(ActivityDateTime))</errorConditionFormula>
+    <errorMessage>This event is for a Long Job.  Start and End Date/Time cannot be updated.  Notify CRC for reassignment.</errorMessage>
+</ValidationRule>

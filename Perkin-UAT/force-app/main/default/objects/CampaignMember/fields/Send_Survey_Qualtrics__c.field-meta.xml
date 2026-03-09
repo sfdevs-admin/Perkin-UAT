@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Survey_Qualtrics__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for workflow rules to send survey to a campaign member.  Qualtrics GloriaM</description>
+    <inlineHelpText>Check when this person should receive the designated survey</inlineHelpText>
+    <label>Send Survey</label>
+    <type>Checkbox</type>
+</CustomField>

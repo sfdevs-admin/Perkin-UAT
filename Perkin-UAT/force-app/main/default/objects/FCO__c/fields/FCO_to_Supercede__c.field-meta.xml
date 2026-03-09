@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FCO_to_Supercede__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>FCO to Supercede</label>
+    <referenceTo>FCO__c</referenceTo>
+    <relationshipLabel>FCO</relationshipLabel>
+    <relationshipName>FCO</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

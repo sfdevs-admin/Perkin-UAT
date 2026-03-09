@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_LST_Products__c</fullName>
+    <description>REMOVE THIS FIELD - AFTER FORECAST SETTINGS PRODUCTION DEPLOYMENT</description>
+    <formula>OR (
+Product_Line__c = &quot;APS&quot;, Product_Line__c = &quot;ARS&quot;, Product_Line__c = &quot;AWS&quot;, Product_Line__c = &quot;CLH&quot;, Product_Line__c = &quot;CLR&quot;, Product_Line__c = &quot;DIS&quot;, Product_Line__c = &quot;FAP&quot;, Product_Line__c = &quot;HCS&quot;, Product_Line__c = &quot;HTS&quot;, Product_Line__c = &quot;IAS&quot;, Product_Line__c = &quot;INV&quot;, Product_Line__c = &quot;LVI&quot;, Product_Line__c = &quot;MFT&quot;, Product_Line__c = &quot;MLD&quot;, Product_Line__c = &quot;MOL&quot;, Product_Line__c = &quot;MOX&quot;, Product_Line__c = &quot;NMO&quot;, Product_Line__c = &quot;NVS&quot;, Product_Line__c = &quot;PBR&quot;, Product_Line__c = &quot;PGI&quot;, Product_Line__c = &quot;QTS&quot;, Product_Line__c = &quot;RRD&quot;, Product_Line__c = &quot;RRS&quot;, Product_Line__c = &quot;SPS&quot;, Product_Line__c = &quot;TBR&quot;, Product_Line__c = &quot;TIS&quot;, Product_Line__c = &quot;TSC&quot;,
+Product_Line__c = &quot;EZR&quot;,Product_Line__c=&quot;HCA&quot;,Product_Line__c=&quot;CVD&quot;,Product_Line__c=&quot;HBE&quot;,Product_Line__c=&quot;HBP&quot;,Product_Line__c=&quot;HCE&quot;,Product_Line__c=&quot;HDX&quot;,Product_Line__c=&quot;HOS&quot;,Product_Line__c=&quot;HRR&quot;,Product_Line__c=&quot;HZN&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is LST Products?</label>
+    <type>Checkbox</type>
+</CustomField>

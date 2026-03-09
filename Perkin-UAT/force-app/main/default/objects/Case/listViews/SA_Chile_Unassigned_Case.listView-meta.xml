@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Chile_Unassigned_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SA Chile Unassigned</label>
+    <queue>SA_Chile_Unassigned</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

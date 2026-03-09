@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_000191_Interaction</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: EMEAI - All products - EMT - 1</label>
+    <queue>ARQ_000132</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

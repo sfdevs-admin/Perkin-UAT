@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>BD_Skill__c</columns>
+    <columns>SMAX_PS_Training_Course_Title__c</columns>
+    <columns>BD_Related_Training_Course__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

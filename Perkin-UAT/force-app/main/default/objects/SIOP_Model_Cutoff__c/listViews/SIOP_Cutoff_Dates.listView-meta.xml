@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIOP_Cutoff_Dates</fullName>
+    <columns>CutoffDate__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CutoffDate__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>LAST_N_MONTHS:6</value>
+    </filters>
+    <label>SIOP Cutoff Dates</label>
+</ListView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plant__c</fullName>
+    <label>Plant</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CA13</fullName>
+                <default>false</default>
+                <label>CA13</label>
+            </value>
+            <value>
+                <fullName>US13</fullName>
+                <default>false</default>
+                <label>US13</label>
+            </value>
+            <value>
+                <fullName>1BE3</fullName>
+                <default>false</default>
+                <label>1BE3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <label>Business Element</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ASLS</fullName>
+                <default>false</default>
+                <label>ASLS</label>
+            </value>
+            <value>
+                <fullName>CORP</fullName>
+                <default>false</default>
+                <label>CORP</label>
+            </value>
+            <value>
+                <fullName>DAS</fullName>
+                <default>false</default>
+                <label>DAS</label>
+            </value>
+            <value>
+                <fullName>Dx</fullName>
+                <default>false</default>
+                <label>Dx</label>
+            </value>
+            <value>
+                <fullName>Emerging Tech.</fullName>
+                <default>false</default>
+                <label>Emerging Tech.</label>
+            </value>
+            <value>
+                <fullName>INF</fullName>
+                <default>false</default>
+                <label>INF</label>
+            </value>
+            <value>
+                <fullName>LST</fullName>
+                <default>false</default>
+                <label>LST</label>
+            </value>
+            <value>
+                <fullName>MULTI</fullName>
+                <default>false</default>
+                <label>MULTI</label>
+            </value>
+            <value>
+                <fullName>ONE</fullName>
+                <default>false</default>
+                <label>ONE</label>
+            </value>
+            <value>
+                <fullName>Project Farma</fullName>
+                <default>false</default>
+                <label>Project Farma</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

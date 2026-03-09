@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform_Channel__c</fullName>
+    <label>Platform/Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Ariba/ Ariba light</fullName>
+                <default>false</default>
+                <label>Ariba/ Ariba light</label>
+            </value>
+            <value>
+                <fullName>Basware &amp; CoPlatforms</fullName>
+                <default>false</default>
+                <label>Basware &amp; CoPlatforms</label>
+            </value>
+            <value>
+                <fullName>Chorus</fullName>
+                <default>false</default>
+                <label>Chorus</label>
+            </value>
+            <value>
+                <fullName>Coupa</fullName>
+                <default>false</default>
+                <label>Coupa</label>
+            </value>
+            <value>
+                <fullName>Customer Specific</fullName>
+                <default>false</default>
+                <label>Customer Specific</label>
+            </value>
+            <value>
+                <fullName>InfoCert</fullName>
+                <default>false</default>
+                <label>InfoCert</label>
+            </value>
+            <value>
+                <fullName>Jaggaer</fullName>
+                <default>false</default>
+                <label>Jaggaer</label>
+            </value>
+            <value>
+                <fullName>OSN</fullName>
+                <default>false</default>
+                <label>OSN</label>
+            </value>
+            <value>
+                <fullName>ScienceWarehouse</fullName>
+                <default>false</default>
+                <label>ScienceWarehouse</label>
+            </value>
+            <value>
+                <fullName>Seres</fullName>
+                <default>false</default>
+                <label>Seres</label>
+            </value>
+            <value>
+                <fullName>Taulia</fullName>
+                <default>false</default>
+                <label>Taulia</label>
+            </value>
+            <value>
+                <fullName>Tungsten</fullName>
+                <default>false</default>
+                <label>Tungsten</label>
+            </value>
+            <value>
+                <fullName>Visma Proceedo</fullName>
+                <default>false</default>
+                <label>Visma Proceedo</label>
+            </value>
+            <value>
+                <fullName>ZeroComa</fullName>
+                <default>false</default>
+                <label>ZeroComa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

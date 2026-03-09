@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAP_Material_Status_Description__c</fullName>
+    <description>Populates from SAP based on SAP Material Status Code. (Source:-S-692820)</description>
+    <externalId>false</externalId>
+    <label>SAP Material Status Description</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

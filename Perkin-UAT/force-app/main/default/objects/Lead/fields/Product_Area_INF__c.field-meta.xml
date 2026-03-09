@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Area_INF__c</fullName>
+    <label>Product Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Desktop Software</fullName>
+                <default>false</default>
+                <label>Desktop Software</label>
+            </value>
+            <value>
+                <fullName>Scientific Databases</fullName>
+                <default>false</default>
+                <label>Scientific Databases</label>
+            </value>
+            <value>
+                <fullName>Enterprise Solutions</fullName>
+                <default>false</default>
+                <label>Enterprise Solutions</label>
+            </value>
+            <value>
+                <fullName>Workgroup Solutions</fullName>
+                <default>false</default>
+                <label>Workgroup Solutions</label>
+            </value>
+            <value>
+                <fullName>Cloud Computing</fullName>
+                <default>false</default>
+                <label>Cloud Computing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

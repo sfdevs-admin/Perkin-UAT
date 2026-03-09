@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCheckPartNum__c</fullName>
+    <description>Validates if the Part Number is same as Product Code</description>
+    <formula>Product2.Partnum__c = Product2.ProductCode</formula>
+    <inlineHelpText>Validates if the Part Number is same as Product Code</inlineHelpText>
+    <label>fxCheckPartNum</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CategoryType__c</fullName>
+    <label>Category Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Event_Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1 - Believer/Only NTD</fullName>
+                <default>false</default>
+                <label>1 - Believer/Only NTD</label>
+            </value>
+            <value>
+                <fullName>1 - Believer/Only SGL</fullName>
+                <default>false</default>
+                <label>1 - Believer/Only SGL</label>
+            </value>
+            <value>
+                <fullName>1 – Believer/Only Uses PKI or Verinata</fullName>
+                <default>false</default>
+                <label>1 – Believer/Only Uses PKI or Verinata</label>
+            </value>
+            <value>
+                <fullName>1 - Believer/Only VC</fullName>
+                <default>false</default>
+                <label>1 - Believer/Only VC</label>
+            </value>
+            <value>
+                <fullName>2 – Promotes PKI, Verinata &amp; other Labs</fullName>
+                <default>false</default>
+                <label>2 – Promotes PKI, Verinata &amp; other Labs</label>
+            </value>
+            <value>
+                <fullName>2 - Promotes VC &amp; Others</fullName>
+                <default>false</default>
+                <label>2 - Promotes VC &amp; Others</label>
+            </value>
+            <value>
+                <fullName>2 - Uses NTD &amp; Others</fullName>
+                <default>false</default>
+                <label>2 - Uses NTD &amp; Others</label>
+            </value>
+            <value>
+                <fullName>2 - Uses SGL &amp; Others</fullName>
+                <default>false</default>
+                <label>2 - Uses SGL &amp; Others</label>
+            </value>
+            <value>
+                <fullName>3 Stages of Care Flashcard</fullName>
+                <default>false</default>
+                <label>3 Stages of Care Flashcard</label>
+            </value>
+            <value>
+                <fullName>3 – Uses a Competitor</fullName>
+                <default>false</default>
+                <label>3 – Uses a Competitor</label>
+            </value>
+            <value>
+                <fullName>3 - Uses Competitor</fullName>
+                <default>false</default>
+                <label>3 - Uses Competitor</label>
+            </value>
+            <value>
+                <fullName>4 - Dabbler</fullName>
+                <default>false</default>
+                <label>4 - Dabbler</label>
+            </value>
+            <value>
+                <fullName>4 – Dabbler</fullName>
+                <default>false</default>
+                <label>4 – Dabbler</label>
+            </value>
+            <value>
+                <fullName>5 - Pro Public Banking</fullName>
+                <default>false</default>
+                <label>5 - Pro Public Banking</label>
+            </value>
+            <value>
+                <fullName>5 - Uneducated</fullName>
+                <default>false</default>
+                <label>5 - Uneducated</label>
+            </value>
+            <value>
+                <fullName>5 – Uneducated</fullName>
+                <default>false</default>
+                <label>5 – Uneducated</label>
+            </value>
+            <value>
+                <fullName>6 - Uneducated</fullName>
+                <default>false</default>
+                <label>6 - Uneducated</label>
+            </value>
+            <value>
+                <fullName>Additional Post Sales Training</fullName>
+                <default>false</default>
+                <label>Additional Post Sales Training</label>
+            </value>
+            <value>
+                <fullName>Application Development</fullName>
+                <default>false</default>
+                <label>Application Development</label>
+            </value>
+            <value>
+                <fullName>Application Development – Paid</fullName>
+                <default>false</default>
+                <label>Application Development – Paid</label>
+            </value>
+            <value>
+                <fullName>Application Development – Unpaid</fullName>
+                <default>false</default>
+                <label>Application Development – Unpaid</label>
+            </value>
+            <value>
+                <fullName>Attending Application, Software or Instrument Training</fullName>
+                <default>false</default>
+                <label>Attending Application, Software or Instrument Training</label>
+            </value>
+            <value>
+                <fullName>Attending Tradeshows</fullName>
+                <default>false</default>
+                <label>Attending Tradeshows</label>
+            </value>
+            <value>
+                <fullName>Attending Training</fullName>
+                <default>false</default>
+                <label>Attending Training</label>
+            </value>
+            <value>
+                <fullName>BU Support</fullName>
+                <default>false</default>
+                <label>BU Support</label>
+            </value>
+            <value>
+                <fullName>Conference Calls internal</fullName>
+                <default>false</default>
+                <label>Conference Calls internal</label>
+            </value>
+            <value>
+                <fullName>Configure / Confirm Configuration</fullName>
+                <default>false</default>
+                <label>Configure / Confirm Configuration</label>
+            </value>
+            <value>
+                <fullName>Cord Tissue Detail Aid and Reprints</fullName>
+                <default>false</default>
+                <label>Cord Tissue Detail Aid and Reprints</label>
+            </value>
+            <value>
+                <fullName>Cord Tissue Reprints</fullName>
+                <default>false</default>
+                <label>Cord Tissue Reprints</label>
+            </value>
+            <value>
+                <fullName>Cord Tissue VisAid</fullName>
+                <default>false</default>
+                <label>Cord Tissue VisAid</label>
+            </value>
+            <value>
+                <fullName>CPD/Heparin Flashcard</fullName>
+                <default>false</default>
+                <label>CPD/Heparin Flashcard</label>
+            </value>
+            <value>
+                <fullName>Current Promotion</fullName>
+                <default>false</default>
+                <label>Current Promotion</label>
+            </value>
+            <value>
+                <fullName>Customer presentation – Online or Onsite</fullName>
+                <default>false</default>
+                <label>Customer presentation – Online or Onsite</label>
+            </value>
+            <value>
+                <fullName>Customer Support - phone/internet/lab work</fullName>
+                <default>false</default>
+                <label>Customer Support - phone/internet/lab work</label>
+            </value>
+            <value>
+                <fullName>Customer Training - Paid</fullName>
+                <default>false</default>
+                <label>Customer Training - Paid</label>
+            </value>
+            <value>
+                <fullName>Customer Training - Unpaid</fullName>
+                <default>false</default>
+                <label>Customer Training - Unpaid</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Demo at Customer Site</fullName>
+                <default>false</default>
+                <label>Demo at Customer Site</label>
+            </value>
+            <value>
+                <fullName>Demo at Tech Center</fullName>
+                <default>false</default>
+                <label>Demo at Tech Center</label>
+            </value>
+            <value>
+                <fullName>Demo Debriefing</fullName>
+                <default>false</default>
+                <label>Demo Debriefing</label>
+            </value>
+            <value>
+                <fullName>Demo Preparation Time</fullName>
+                <default>false</default>
+                <label>Demo Preparation Time</label>
+            </value>
+            <value>
+                <fullName>Demo Remote Online</fullName>
+                <default>false</default>
+                <label>Demo Remote Online</label>
+            </value>
+            <value>
+                <fullName>Email / Online Support</fullName>
+                <default>false</default>
+                <label>Email / Online Support</label>
+            </value>
+            <value>
+                <fullName>Email Support</fullName>
+                <default>false</default>
+                <label>Email Support</label>
+            </value>
+            <value>
+                <fullName>FAQs</fullName>
+                <default>false</default>
+                <label>FAQs</label>
+            </value>
+            <value>
+                <fullName>Generate demo report</fullName>
+                <default>false</default>
+                <label>Generate demo report</label>
+            </value>
+            <value>
+                <fullName>Information Kits</fullName>
+                <default>false</default>
+                <label>Information Kits</label>
+            </value>
+            <value>
+                <fullName>Instrument Demo Request</fullName>
+                <default>false</default>
+                <label>Instrument Demo Request</label>
+            </value>
+            <value>
+                <fullName>Joint sales visit</fullName>
+                <default>false</default>
+                <label>Joint sales visit</label>
+            </value>
+            <value>
+                <fullName>Key Account Mapping</fullName>
+                <default>false</default>
+                <label>Key Account Mapping</label>
+            </value>
+            <value>
+                <fullName>Leave Options Easel</fullName>
+                <default>false</default>
+                <label>Leave Options Easel</label>
+            </value>
+            <value>
+                <fullName>Merchandising Call</fullName>
+                <default>false</default>
+                <label>Merchandising Call</label>
+            </value>
+            <value>
+                <fullName>Microplate Evaluation</fullName>
+                <default>false</default>
+                <label>Microplate Evaluation</label>
+            </value>
+            <value>
+                <fullName>Odds &amp; sodds</fullName>
+                <default>false</default>
+                <label>Odds &amp; sodds</label>
+            </value>
+            <value>
+                <fullName>Office Time</fullName>
+                <default>false</default>
+                <label>Office Time</label>
+            </value>
+            <value>
+                <fullName>One-to-one - Paid</fullName>
+                <default>false</default>
+                <label>One-to-one - Paid</label>
+            </value>
+            <value>
+                <fullName>One to one training - Unpaid</fullName>
+                <default>false</default>
+                <label>One to one training - Unpaid</label>
+            </value>
+            <value>
+                <fullName>Online Education Form and Card</fullName>
+                <default>false</default>
+                <label>Online Education Form and Card</label>
+            </value>
+            <value>
+                <fullName>Optimizing Collection Flashcard</fullName>
+                <default>false</default>
+                <label>Optimizing Collection Flashcard</label>
+            </value>
+            <value>
+                <fullName>Options and Answers</fullName>
+                <default>false</default>
+                <label>Options and Answers</label>
+            </value>
+            <value>
+                <fullName>Other Company Training</fullName>
+                <default>false</default>
+                <label>Other Company Training</label>
+            </value>
+            <value>
+                <fullName>PerkinElmer Company Overview</fullName>
+                <default>false</default>
+                <label>PerkinElmer Company Overview</label>
+            </value>
+            <value>
+                <fullName>Perlow Article</fullName>
+                <default>false</default>
+                <label>Perlow Article</label>
+            </value>
+            <value>
+                <fullName>Phone Support</fullName>
+                <default>false</default>
+                <label>Phone Support</label>
+            </value>
+            <value>
+                <fullName>Preparation For Training</fullName>
+                <default>false</default>
+                <label>Preparation For Training</label>
+            </value>
+            <value>
+                <fullName>Product Specialist Training</fullName>
+                <default>false</default>
+                <label>Product Specialist Training</label>
+            </value>
+            <value>
+                <fullName>Providing training to sales people /product specialists</fullName>
+                <default>false</default>
+                <label>Providing training to sales people /product specialists</label>
+            </value>
+            <value>
+                <fullName>PTO</fullName>
+                <default>false</default>
+                <label>PTO</label>
+            </value>
+            <value>
+                <fullName>Qualify Opportunity</fullName>
+                <default>false</default>
+                <label>Qualify Opportunity</label>
+            </value>
+            <value>
+                <fullName>Quality Management</fullName>
+                <default>false</default>
+                <label>Quality Management</label>
+            </value>
+            <value>
+                <fullName>Reagent Evaluation</fullName>
+                <default>false</default>
+                <label>Reagent Evaluation</label>
+            </value>
+            <value>
+                <fullName>Research Flashcard</fullName>
+                <default>false</default>
+                <label>Research Flashcard</label>
+            </value>
+            <value>
+                <fullName>Sales Phone Support</fullName>
+                <default>false</default>
+                <label>Sales Phone Support</label>
+            </value>
+            <value>
+                <fullName>Sales Tools Generation</fullName>
+                <default>false</default>
+                <label>Sales Tools Generation</label>
+            </value>
+            <value>
+                <fullName>Sample runs for opportunity</fullName>
+                <default>false</default>
+                <label>Sample runs for opportunity</label>
+            </value>
+            <value>
+                <fullName>Seminar &amp; Event Support</fullName>
+                <default>false</default>
+                <label>Seminar &amp; Event Support</label>
+            </value>
+            <value>
+                <fullName>Service support</fullName>
+                <default>false</default>
+                <label>Service Support</label>
+            </value>
+            <value>
+                <fullName>Sibling Connection</fullName>
+                <default>false</default>
+                <label>Sibling Connection</label>
+            </value>
+            <value>
+                <fullName>Slim Jims</fullName>
+                <default>false</default>
+                <label>Slim Jims</label>
+            </value>
+            <value>
+                <fullName>Speaker Programs</fullName>
+                <default>false</default>
+                <label>Speaker Programs</label>
+            </value>
+            <value>
+                <fullName>Supporting the BU / PKI</fullName>
+                <default>false</default>
+                <label>Supporting the BU / PKI</label>
+            </value>
+            <value>
+                <fullName>Support outside NA</fullName>
+                <default>false</default>
+                <label>Support outside NA</label>
+            </value>
+            <value>
+                <fullName>Survival Flashcard</fullName>
+                <default>false</default>
+                <label>Survival Flashcard</label>
+            </value>
+            <value>
+                <fullName>Testimonials</fullName>
+                <default>false</default>
+                <label>Testimonials</label>
+            </value>
+            <value>
+                <fullName>Training Class - Paid</fullName>
+                <default>false</default>
+                <label>Training Class - Paid</label>
+            </value>
+            <value>
+                <fullName>Training PKI People</fullName>
+                <default>false</default>
+                <label>Training PKI People</label>
+            </value>
+            <value>
+                <fullName>Transplant/Infusion Summary</fullName>
+                <default>false</default>
+                <label>Transplant/Infusion Summary</label>
+            </value>
+            <value>
+                <fullName>Traveling Admin</fullName>
+                <default>false</default>
+                <label>Traveling Admin</label>
+            </value>
+            <value>
+                <fullName>Traveling Post Sales</fullName>
+                <default>false</default>
+                <label>Traveling Post Sales</label>
+            </value>
+            <value>
+                <fullName>Traveling Pre Sales</fullName>
+                <default>false</default>
+                <label>Traveling Pre Sales</label>
+            </value>
+            <value>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+                <label>Vacation</label>
+            </value>
+            <value>
+                <fullName>VisAid Comparison Chart</fullName>
+                <default>false</default>
+                <label>VisAid Comparison Chart</label>
+            </value>
+            <value>
+                <fullName>VisAids</fullName>
+                <default>false</default>
+                <label>VisAids</label>
+            </value>
+            <value>
+                <fullName>Webinar / Workshop / Lunch &amp; Learn</fullName>
+                <default>false</default>
+                <label>Webinar / Workshop / Lunch &amp; Learn</label>
+            </value>
+            <value>
+                <fullName>Worker Council</fullName>
+                <default>false</default>
+                <label>Worker Council</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ViaCord</controllingFieldValue>
+            <valueName>1 - Believer/Only VC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ViaCord</controllingFieldValue>
+            <valueName>2 - Promotes VC &amp; Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ViaCord</controllingFieldValue>
+            <valueName>3 - Uses Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ViaCord</controllingFieldValue>
+            <valueName>4 - Dabbler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ViaCord</controllingFieldValue>
+            <valueName>5 - Pro Public Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ViaCord</controllingFieldValue>
+            <valueName>6 - Uneducated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ViaCord</controllingFieldValue>
+            <valueName>Merchandising Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Application Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Configure / Confirm Configuration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Customer presentation – Online or Onsite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Demo at Customer Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Demo at Tech Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Demo Debriefing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Demo Preparation Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Demo Remote Online</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Email / Online Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Generate demo report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Instrument Demo Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Joint sales visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Key Account Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Phone Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Qualify Opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Reagent Evaluation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Sales Phone Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Sales Tools Generation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Sample runs for opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Seminar &amp; Event Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Support outside NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Traveling Pre Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presales</controllingFieldValue>
+            <valueName>Webinar / Workshop / Lunch &amp; Learn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Additional Post Sales Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Application Development – Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Application Development – Unpaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Customer Support - phone/internet/lab work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Customer Training - Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Customer Training - Unpaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>One-to-one - Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>One to one training - Unpaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Preparation For Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Product Specialist Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Service support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Training Class - Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Postsales</controllingFieldValue>
+            <valueName>Traveling Post Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Attending Application, Software or Instrument Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Attending Tradeshows</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Attending Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>BU Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Odds &amp; sodds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Office Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Other Company Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Providing training to sales people /product specialists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>PTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Quality Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Supporting the BU / PKI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Training PKI People</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Traveling Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Vacation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; General</controllingFieldValue>
+            <valueName>Worker Council</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#1 ViaCord Believer</controllingFieldValue>
+            <controllingFieldValue>#2 Promotes all CB Banks</controllingFieldValue>
+            <valueName>Cord Tissue Reprints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#1 ViaCord Believer</controllingFieldValue>
+            <controllingFieldValue>#2 Promotes all CB Banks</controllingFieldValue>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>CPD/Heparin Flashcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#1 ViaCord Believer</controllingFieldValue>
+            <controllingFieldValue>#2 Promotes all CB Banks</controllingFieldValue>
+            <controllingFieldValue>#3 Pro Private/Uses Competitor</controllingFieldValue>
+            <controllingFieldValue>#4 Dabbler/Doesn&#39;t Educate Patient</controllingFieldValue>
+            <controllingFieldValue>#5 Pro-Public Banking</controllingFieldValue>
+            <controllingFieldValue>#6 Uneducated/Non-Believer</controllingFieldValue>
+            <valueName>PerkinElmer Company Overview</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#1 ViaCord Believer</controllingFieldValue>
+            <controllingFieldValue>#2 Promotes all CB Banks</controllingFieldValue>
+            <controllingFieldValue>#4 Dabbler/Doesn&#39;t Educate Patient</controllingFieldValue>
+            <controllingFieldValue>#5 Pro-Public Banking</controllingFieldValue>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Research Flashcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#1 ViaCord Believer</controllingFieldValue>
+            <controllingFieldValue>#2 Promotes all CB Banks</controllingFieldValue>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Survival Flashcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#1 ViaCord Believer</controllingFieldValue>
+            <controllingFieldValue>#2 Promotes all CB Banks</controllingFieldValue>
+            <controllingFieldValue>#3 Pro Private/Uses Competitor</controllingFieldValue>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Transplant/Infusion Summary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#1 ViaCord Believer</controllingFieldValue>
+            <controllingFieldValue>#4 Dabbler/Doesn&#39;t Educate Patient</controllingFieldValue>
+            <controllingFieldValue>#5 Pro-Public Banking</controllingFieldValue>
+            <controllingFieldValue>#6 Uneducated/Non-Believer</controllingFieldValue>
+            <valueName>VisAids</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#2 Promotes all CB Banks</controllingFieldValue>
+            <valueName>Speaker Programs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#3 Pro Private/Uses Competitor</controllingFieldValue>
+            <valueName>3 Stages of Care Flashcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#3 Pro Private/Uses Competitor</controllingFieldValue>
+            <valueName>VisAid Comparison Chart</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#4 Dabbler/Doesn&#39;t Educate Patient</controllingFieldValue>
+            <valueName>Cord Tissue Detail Aid and Reprints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#4 Dabbler/Doesn&#39;t Educate Patient</controllingFieldValue>
+            <valueName>Optimizing Collection Flashcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#4 Dabbler/Doesn&#39;t Educate Patient</controllingFieldValue>
+            <valueName>Testimonials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#5 Pro-Public Banking</controllingFieldValue>
+            <valueName>Cord Tissue VisAid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#5 Pro-Public Banking</controllingFieldValue>
+            <controllingFieldValue>#6 Uneducated/Non-Believer</controllingFieldValue>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Information Kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#5 Pro-Public Banking</controllingFieldValue>
+            <controllingFieldValue>#6 Uneducated/Non-Believer</controllingFieldValue>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Slim Jims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>#6 Uneducated/Non-Believer</controllingFieldValue>
+            <valueName>Perlow Article</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Current Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>FAQs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Leave Options Easel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Online Education Form and Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Options and Answers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSA</controllingFieldValue>
+            <valueName>Sibling Connection</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description</fullName>
+    <inlineHelpText>Ensure this field contains the &quot;What:&quot; &amp; &quot;Why:&quot; aspects filled out with the right format and syntax.
+These two fields are case sensitive and must be filled out as noted below.
+If you are seeing that it is still missing, please add the following near the end of the description field.
+What: something
+Why: something</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prefix_is_required</fullName>
+    <active>false</active>
+    <description>This requires the ARQ Rules to have a dedicated PRefix</description>
+    <errorConditionFormula>LEFT(Name,5) != &quot;ARQ: &quot;</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>V.RULE_PKI_QUEUE_002: The PKI Queue must begin with the prefix &quot;ARQ: &quot; 
+ ARQ(colon)(space)</errorMessage>
+</ValidationRule>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Team__c</fullName>
+    <description>Name given to local sales district. Lowest level of the Territory - Region - Sales Team hierarchy</description>
+    <label>Sales Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sales_Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>US NE Team CT</fullName>
+                <default>false</default>
+                <label>US NE Team CT</label>
+            </value>
+            <value>
+                <fullName>US NE Team Mass</fullName>
+                <default>false</default>
+                <label>US NE Team Mass</label>
+            </value>
+            <value>
+                <fullName>US NE Team NNJ</fullName>
+                <default>false</default>
+                <label>US NE Team NNJ</label>
+            </value>
+            <value>
+                <fullName>US NE Team CNJ</fullName>
+                <default>false</default>
+                <label>US NE Team CNJ</label>
+            </value>
+            <value>
+                <fullName>US NE Team Capital</fullName>
+                <default>false</default>
+                <label>US NE Team Capital</label>
+            </value>
+            <value>
+                <fullName>US NE Team Penn</fullName>
+                <default>false</default>
+                <label>US NE Team Penn</label>
+            </value>
+            <value>
+                <fullName>US SE Team Florida</fullName>
+                <default>false</default>
+                <label>US SE Team Florida</label>
+            </value>
+            <value>
+                <fullName>US SE Team Atlanta</fullName>
+                <default>false</default>
+                <label>US SE Team Atlanta</label>
+            </value>
+            <value>
+                <fullName>US SE Team Tennessee</fullName>
+                <default>false</default>
+                <label>US SE Team Tennessee</label>
+            </value>
+            <value>
+                <fullName>US SE Team Texas</fullName>
+                <default>false</default>
+                <label>US SE Team Texas</label>
+            </value>
+            <value>
+                <fullName>US10 AS MidWest</fullName>
+                <default>false</default>
+                <label>US10 AS MidWest</label>
+            </value>
+            <value>
+                <fullName>US MW Team Pittsburgh</fullName>
+                <default>false</default>
+                <label>US MW Team Pittsburgh</label>
+            </value>
+            <value>
+                <fullName>US10 AS West</fullName>
+                <default>false</default>
+                <label>US10 AS West</label>
+            </value>
+            <value>
+                <fullName>US West Team Henrickson</fullName>
+                <default>false</default>
+                <label>US West Team Henrickson</label>
+            </value>
+            <value>
+                <fullName>CA10 Analytical</fullName>
+                <default>false</default>
+                <label>CA10 Analytical</label>
+            </value>
+            <value>
+                <fullName>CA10 LS Instrument</fullName>
+                <default>false</default>
+                <label>CA10 LS Instrument</label>
+            </value>
+            <value>
+                <fullName>CA10 Reagents</fullName>
+                <default>false</default>
+                <label>CA10 Reagents</label>
+            </value>
+            <value>
+                <fullName>Northern - EMEA - Islands</fullName>
+                <default>false</default>
+                <label>Northern - EMEA - Islands</label>
+            </value>
+            <value>
+                <fullName>Central - EMEA - Islands</fullName>
+                <default>false</default>
+                <label>Central - EMEA - Islands</label>
+            </value>
+            <value>
+                <fullName>Southern - EMEA - Islands</fullName>
+                <default>false</default>
+                <label>Southern - EMEA - Islands</label>
+            </value>
+            <value>
+                <fullName>UK GDS</fullName>
+                <default>false</default>
+                <label>UK GDS</label>
+            </value>
+            <value>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+                <label>Belgium</label>
+            </value>
+            <value>
+                <fullName>Denmark</fullName>
+                <default>false</default>
+                <label>Denmark</label>
+            </value>
+            <value>
+                <fullName>Finland</fullName>
+                <default>false</default>
+                <label>Finland</label>
+            </value>
+            <value>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+                <label>Netherlands</label>
+            </value>
+            <value>
+                <fullName>Norway</fullName>
+                <default>false</default>
+                <label>Norway</label>
+            </value>
+            <value>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+                <label>Sweden</label>
+            </value>
+            <value>
+                <fullName>Ben/Nordics GDS</fullName>
+                <default>false</default>
+                <label>Ben/Nordics GDS</label>
+            </value>
+            <value>
+                <fullName>Germany North East</fullName>
+                <default>false</default>
+                <label>Germany North East</label>
+            </value>
+            <value>
+                <fullName>Germany South</fullName>
+                <default>false</default>
+                <label>Germany South</label>
+            </value>
+            <value>
+                <fullName>Germany West</fullName>
+                <default>false</default>
+                <label>Germany West</label>
+            </value>
+            <value>
+                <fullName>Germany GDS</fullName>
+                <default>false</default>
+                <label>Germany GDS</label>
+            </value>
+            <value>
+                <fullName>Austria</fullName>
+                <default>false</default>
+                <label>Austria</label>
+            </value>
+            <value>
+                <fullName>France North</fullName>
+                <default>false</default>
+                <label>France North</label>
+            </value>
+            <value>
+                <fullName>France South</fullName>
+                <default>false</default>
+                <label>France South</label>
+            </value>
+            <value>
+                <fullName>France &amp; Spain GDS</fullName>
+                <default>false</default>
+                <label>France &amp; Spain GDS</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>Switzerland</fullName>
+                <default>false</default>
+                <label>Switzerland</label>
+            </value>
+            <value>
+                <fullName>Italy North West</fullName>
+                <default>false</default>
+                <label>Italy North West</label>
+            </value>
+            <value>
+                <fullName>Italy North East</fullName>
+                <default>false</default>
+                <label>Italy North East</label>
+            </value>
+            <value>
+                <fullName>Italy Centre</fullName>
+                <default>false</default>
+                <label>Italy Centre</label>
+            </value>
+            <value>
+                <fullName>Italy South</fullName>
+                <default>false</default>
+                <label>Italy South</label>
+            </value>
+            <value>
+                <fullName>Italy GDS</fullName>
+                <default>false</default>
+                <label>Italy GDS</label>
+            </value>
+            <value>
+                <fullName>Export CIS</fullName>
+                <default>false</default>
+                <label>Export CIS</label>
+            </value>
+            <value>
+                <fullName>Export CEE</fullName>
+                <default>false</default>
+                <label>Export CEE</label>
+            </value>
+            <value>
+                <fullName>Export Gulf</fullName>
+                <default>false</default>
+                <label>Export Gulf</label>
+            </value>
+            <value>
+                <fullName>Export Africa, SEE &amp; ED</fullName>
+                <default>false</default>
+                <label>Export Africa, SEE &amp; ED</label>
+            </value>
+            <value>
+                <fullName>US10 AS SouthEast</fullName>
+                <default>false</default>
+                <label>US10 AS SouthEast</label>
+            </value>
+            <value>
+                <fullName>US10 AS MidAtlantic</fullName>
+                <default>false</default>
+                <label>US10 AS MidAtlantic</label>
+            </value>
+            <value>
+                <fullName>US10 AS NorthEast</fullName>
+                <default>false</default>
+                <label>US10 AS NorthEast</label>
+            </value>
+            <value>
+                <fullName>Americas Academic</fullName>
+                <default>false</default>
+                <label>Americas Academic</label>
+            </value>
+            <value>
+                <fullName>Americas East</fullName>
+                <default>false</default>
+                <label>Americas East</label>
+            </value>
+            <value>
+                <fullName>Americas Law/IP</fullName>
+                <default>false</default>
+                <label>Americas Law/IP</label>
+            </value>
+            <value>
+                <fullName>Americas Manager</fullName>
+                <default>false</default>
+                <label>Americas Manager</label>
+            </value>
+            <value>
+                <fullName>Americas West</fullName>
+                <default>false</default>
+                <label>Americas West</label>
+            </value>
+            <value>
+                <fullName>Americas Inside</fullName>
+                <default>false</default>
+                <label>Americas Inside</label>
+            </value>
+            <value>
+                <fullName>APAC Manager</fullName>
+                <default>false</default>
+                <label>APAC Manager</label>
+            </value>
+            <value>
+                <fullName>Europe</fullName>
+                <default>false</default>
+                <label>Europe</label>
+            </value>
+            <value>
+                <fullName>Simons Team</fullName>
+                <default>false</default>
+                <label>Simons Team</label>
+            </value>
+            <value>
+                <fullName>Gameiro Team</fullName>
+                <default>false</default>
+                <label>Gameiro Team</label>
+            </value>
+            <value>
+                <fullName>India</fullName>
+                <default>false</default>
+                <label>India</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Globals</fullName>
+                <default>false</default>
+                <label>Globals</label>
+            </value>
+            <value>
+                <fullName>Channel Sales</fullName>
+                <default>false</default>
+                <label>Channel Sales</label>
+            </value>
+            <value>
+                <fullName>INF Japanese</fullName>
+                <default>false</default>
+                <label>INF Japanese</label>
+            </value>
+            <value>
+                <fullName>INF Misc Sales</fullName>
+                <default>false</default>
+                <label>INF Misc Sales</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>APAC Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>China</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Americas</controllingFieldValue>
+            <valueName>Americas East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Americas</controllingFieldValue>
+            <valueName>Americas West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Americas</controllingFieldValue>
+            <valueName>Americas Inside</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Americas</controllingFieldValue>
+            <valueName>Channel Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Simons Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Gameiro Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>India</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JP/KR</controllingFieldValue>
+            <valueName>Japan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JP/KR</controllingFieldValue>
+            <valueName>INF Japanese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <valueName>Globals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <valueName>INF Misc Sales</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

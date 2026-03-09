@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxDaysInStage__c</fullName>
+    <description>We calculate the days at the current stage.</description>
+    <externalId>false</externalId>
+    <formula>/*We want to calculate the days of the current stage*/
+
+
+CASE ( fxOrderPath__c ,
+
+&quot;Processing Hold&quot;, TODAY() - Actual_Order_Date__c ,
+
+&quot;Order Clear&quot;, TODAY() - Actual_Order_Date__c ,
+
+&quot;Mfg Date Committed&quot;,  Current_Global_Delivery_Date__c - TODAY(),
+
+&quot;Ready for Shipping&quot;,  TODAY() - Actual_Global_Delivery_Date__c ,
+
+&quot;Order Shipped&quot;, Actual_Global_Delivery_Date__c  - Actual_Order_Date__c ,
+
+/*ELSE*/
+ Actual_Global_Delivery_Date__c - Actual_Order_Date__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Days In Stage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

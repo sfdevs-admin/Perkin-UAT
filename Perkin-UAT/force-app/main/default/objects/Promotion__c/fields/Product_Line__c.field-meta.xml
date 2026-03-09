@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Line__c</fullName>
+    <label>Product Line</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AA	Atomic absorption</fullName>
+                <default>false</default>
+                <label>AA	Atomic absorption</label>
+            </value>
+            <value>
+                <fullName>ABI	Applied biosystems</fullName>
+                <default>false</default>
+                <label>ABI	Applied biosystems</label>
+            </value>
+            <value>
+                <fullName>AGT	Agilent technologies</fullName>
+                <default>false</default>
+                <label>AGT	Agilent technologies</label>
+            </value>
+            <value>
+                <fullName>AIG	Analytical general</fullName>
+                <default>false</default>
+                <label>AIG	Analytical general</label>
+            </value>
+            <value>
+                <fullName>ANP	Analytical proteomics</fullName>
+                <default>false</default>
+                <label>ANP	Analytical proteomics</label>
+            </value>
+            <value>
+                <fullName>APS	Application systems</fullName>
+                <default>false</default>
+                <label>APS	Application systems</label>
+            </value>
+            <value>
+                <fullName>AWS	Automated workstations</fullName>
+                <default>false</default>
+                <label>AWS	Automated workstations</label>
+            </value>
+            <value>
+                <fullName>CKP	Cellular kinetic photoproteins</fullName>
+                <default>false</default>
+                <label>CKP	Cellular kinetic photoproteins</label>
+            </value>
+            <value>
+                <fullName>CSA	Cellular screening &amp; ADME</fullName>
+                <default>false</default>
+                <label>CSA	Cellular screening &amp; ADME</label>
+            </value>
+            <value>
+                <fullName>DIA	Diagnostics</fullName>
+                <default>false</default>
+                <label>DIA	Diagnostics</label>
+            </value>
+            <value>
+                <fullName>DIS	Distributor products / other</fullName>
+                <default>false</default>
+                <label>DIS	Distributor products / other</label>
+            </value>
+            <value>
+                <fullName>ESS	Enterprise software solutions</fullName>
+                <default>false</default>
+                <label>ESS	Enterprise software solutions</label>
+            </value>
+            <value>
+                <fullName>FGP	Functional genomics &amp; proteomics</fullName>
+                <default>false</default>
+                <label>FGP	Functional genomics &amp; proteomics</label>
+            </value>
+            <value>
+                <fullName>GC	Gas chromatography</fullName>
+                <default>false</default>
+                <label>GC	Gas chromatography</label>
+            </value>
+            <value>
+                <fullName>HCS	High content screening</fullName>
+                <default>false</default>
+                <label>HCS	High content screening</label>
+            </value>
+            <value>
+                <fullName>HTS	Drug discovery reagents</fullName>
+                <default>false</default>
+                <label>HTS	Drug discovery reagents</label>
+            </value>
+            <value>
+                <fullName>IAS	Imaging &amp; analysis soln</fullName>
+                <default>false</default>
+                <label>IAS	Imaging &amp; analysis soln</label>
+            </value>
+            <value>
+                <fullName>ICP	ICP-OES</fullName>
+                <default>false</default>
+                <label>ICP	ICP-OES</label>
+            </value>
+            <value>
+                <fullName>IR	IR spectroscopy</fullName>
+                <default>false</default>
+                <label>IR	IR spectroscopy</label>
+            </value>
+            <value>
+                <fullName>LC	Liquid chromatography</fullName>
+                <default>false</default>
+                <label>LC	Liquid chromatography</label>
+            </value>
+            <value>
+                <fullName>LVI	Live cell proteomics</fullName>
+                <default>false</default>
+                <label>LVI	Live cell proteomics</label>
+            </value>
+            <value>
+                <fullName>MAS	ICP-MS</fullName>
+                <default>false</default>
+                <label>MAS	ICP-MS</label>
+            </value>
+            <value>
+                <fullName>MDX	Molecular diagnostics</fullName>
+                <default>false</default>
+                <label>MDX	Molecular diagnostics</label>
+            </value>
+            <value>
+                <fullName>MLD	Multi-label detection</fullName>
+                <default>false</default>
+                <label>MLD	Multi-label detection</label>
+            </value>
+            <value>
+                <fullName>MOL	Research reagents</fullName>
+                <default>false</default>
+                <label>MOL	Research reagents</label>
+            </value>
+            <value>
+                <fullName>NEO	Neonatal</fullName>
+                <default>false</default>
+                <label>NEO	Neonatal</label>
+            </value>
+            <value>
+                <fullName>OMV	Other multi vendor</fullName>
+                <default>false</default>
+                <label>OMV	Other multi vendor</label>
+            </value>
+            <value>
+                <fullName>PBR	Protein biology reagents</fullName>
+                <default>false</default>
+                <label>PBR	Protein biology reagents</label>
+            </value>
+            <value>
+                <fullName>PCL	Photina cell lines</fullName>
+                <default>false</default>
+                <label>PCL	Photina cell lines</label>
+            </value>
+            <value>
+                <fullName>PGI	Proteomics &amp; genomics instruments</fullName>
+                <default>false</default>
+                <label>PGI	Proteomics &amp; genomics instruments</label>
+            </value>
+            <value>
+                <fullName>PRE	Prenatal</fullName>
+                <default>false</default>
+                <label>PRE	Prenatal</label>
+            </value>
+            <value>
+                <fullName>RAM	Raman spectroscopy</fullName>
+                <default>false</default>
+                <label>RAM	Raman spectroscopy</label>
+            </value>
+            <value>
+                <fullName>RES	Research</fullName>
+                <default>false</default>
+                <label>RES	Research</label>
+            </value>
+            <value>
+                <fullName>RRD	Radiometric detection</fullName>
+                <default>false</default>
+                <label>RRD	Radiometric detection</label>
+            </value>
+            <value>
+                <fullName>RRS	Research reagents</fullName>
+                <default>false</default>
+                <label>RRS	Research reagents</label>
+            </value>
+            <value>
+                <fullName>SPS	Sample preparation &amp; HTS systems</fullName>
+                <default>false</default>
+                <label>SPS	Sample preparation &amp; HTS systems</label>
+            </value>
+            <value>
+                <fullName>SVC	Service</fullName>
+                <default>false</default>
+                <label>SVC	Service</label>
+            </value>
+            <value>
+                <fullName>TEA	Thermal &amp; elemental</fullName>
+                <default>false</default>
+                <label>TEA	Thermal &amp; elemental</label>
+            </value>
+            <value>
+                <fullName>TMO	Thermo electron corp</fullName>
+                <default>false</default>
+                <label>TMO	Thermo electron corp</label>
+            </value>
+            <value>
+                <fullName>TRN	Training</fullName>
+                <default>false</default>
+                <label>TRN	Training</label>
+            </value>
+            <value>
+                <fullName>UVS	Uv-Vis spectroscopy</fullName>
+                <default>false</default>
+                <label>UVS	Uv-Vis spectroscopy</label>
+            </value>
+            <value>
+                <fullName>WAT	Waters corporation</fullName>
+                <default>false</default>
+                <label>WAT	Waters corporation</label>
+            </value>
+            <value>
+                <fullName>WCO	West coast optics</fullName>
+                <default>false</default>
+                <label>WCO	West coast optics</label>
+            </value>
+            <value>
+                <fullName>ZZZ	Uncoded item</fullName>
+                <default>false</default>
+                <label>ZZZ	Uncoded item</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

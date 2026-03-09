@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSDX_APAC_AU</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>contains</operation>
+        <value>AU</value>
+    </filters>
+    <label>LSDX APAC AU</label>
+</ListView>

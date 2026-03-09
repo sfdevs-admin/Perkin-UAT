@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_SubOwner__c</fullName>
+    <description>Use to delegate Opp to other Service Personnel</description>
+    <label>Opportunity SubOwner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eiserle, David</fullName>
+                <default>false</default>
+                <label>Eiserle, David</label>
+            </value>
+            <value>
+                <fullName>Abate, Mark</fullName>
+                <default>false</default>
+                <label>Abate, Mark</label>
+            </value>
+            <value>
+                <fullName>Charnosky, Mike</fullName>
+                <default>false</default>
+                <label>Charnosky, Mike</label>
+            </value>
+            <value>
+                <fullName>Corbin, Mike</fullName>
+                <default>false</default>
+                <label>Corbin, Mike</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

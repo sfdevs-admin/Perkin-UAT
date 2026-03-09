@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxOwnerOBC__c</fullName>
+    <description>This is set by L.FLOW 2502 and is the OBC of the Queue Owner using the PKI Queue Object as reference</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is set by L.FLOW 2502 and is the OBC of the Queue Owner using the PKI Queue Object as reference</inlineHelpText>
+    <label>fxOwnerOBC</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

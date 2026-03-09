@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TEST_Spanning_Relationships_Case</fullName>
+    <active>false</active>
+    <description>This is used to test how many spanning relationships exist. Add several fields to the V.RULE, and check syntax, and you will get the warning. Copy to the correct Matrix for analysis: https://docs.google.com/spreadsheets/d/1Dd1MLi1yzOk0qc-v2BPfG1lwaHVHk8</description>
+    <errorConditionFormula>or (
+
+INF_Account_Country__c =&#39;abc&#39;,
+Approver_Level_1__r.Alias =&#39;abc&#39;,
+Approver__r.Country=&#39;abc&#39;,
+Asset.Active_Contract_Type__c =&#39;acb&#39;,
+Bill_To__r.Account_Information__c =&#39;abc&#39;,
+SVMXC__Booking_Window__r.RecordType.Name =&#39;abc&#39;,
+Source:EmailMessage.BccAddress =&#39;abc&#39;
+)</errorConditionFormula>
+    <errorMessage>V.RULE_CASE_099: Test</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Voicentric_OS_Future_Nurturing_not_Queue</fullName>
+    <columns>BE__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>notEqual</operation>
+        <value>APAC</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Future-Nurturing</value>
+    </filters>
+    <filters>
+        <field>BE__c</field>
+        <operation>equals</operation>
+        <value>ONE</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>OneSourceMarketingLeads -MarketingQueue$</value>
+    </filters>
+    <label>Voicentric OS Future-Nurturing not Queue</label>
+    <language>en_US</language>
+</ListView>

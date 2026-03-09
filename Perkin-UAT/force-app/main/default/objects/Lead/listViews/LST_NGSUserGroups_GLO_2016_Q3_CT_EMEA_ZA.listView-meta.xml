@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_NGSUserGroups_GLO_2016_Q3_CT_EMEA_ZA</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>NONMQL__c</columns>
+    <columns>MQL__c</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Product_Line__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open,Working,Future-Nurturing</value>
+    </filters>
+    <filters>
+        <field>LEAD.COUNTRY</field>
+        <operation>equals</operation>
+        <value>ZA</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2016 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LST_Send_Info_Only__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>LST-NGSUserGroups-GLO-2016-Q3-CT-EMEA-ZA</label>
+    <language>en_US</language>
+</ListView>

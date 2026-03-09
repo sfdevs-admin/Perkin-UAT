@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Assets_Nicolle</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <columns>Location_Detail__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>equals</operation>
+        <value>44-CLH,45-MFT,46-INV,47-TIS</value>
+    </filters>
+    <label>LST - Assets (Nicolle)</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attended_Event__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check denotes Member ATTENDED this event</inlineHelpText>
+    <label>Attended Event</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pack_Type__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Pack Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Small Pack</fullName>
+                <default>true</default>
+                <label>Small Pack</label>
+            </value>
+            <value>
+                <fullName>Large Pack</fullName>
+                <default>false</default>
+                <label>Large Pack</label>
+            </value>
+            <value>
+                <fullName>SP-RH</fullName>
+                <default>false</default>
+                <label>SP-RH</label>
+            </value>
+            <value>
+                <fullName>SP-RAD</fullName>
+                <default>false</default>
+                <label>SP-RAD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_Account</fullName>
+    <active>true</active>
+    <description>Recordtype for records which belong to the Global Account Program</description>
+    <label>Global Account</label>
+</RecordType>

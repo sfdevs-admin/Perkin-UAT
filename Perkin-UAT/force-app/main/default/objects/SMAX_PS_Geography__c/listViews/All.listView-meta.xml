@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>OBJECT_ID</columns>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_LocationCode__c</columns>
+    <columns>SMAX_PS_Geography_Description__c</columns>
+    <columns>BD_Territory__c</columns>
+    <columns>SMAX_PS_3_Digit_Zip__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMAX_PS_3_Digit_Zip__c</field>
+        <operation>notEqual</operation>
+        <value>Null</value>
+    </filters>
+    <label>All</label>
+</ListView>

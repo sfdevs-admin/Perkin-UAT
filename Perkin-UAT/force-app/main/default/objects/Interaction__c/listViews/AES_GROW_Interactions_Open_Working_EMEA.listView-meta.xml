@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AES_GROW_Interactions_Open_Working_EMEA</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+    <columns>Interaction_Icon__c</columns>
+    <columns>NAME</columns>
+    <columns>Country__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>fxAccountCompany__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>PostalCode__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>Contact__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Status__c</columns>
+    <columns>fxDaysCreateToClose__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>Lead__c</columns>
+    <columns>End_User_Name_Int__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Qualification_Status__c</field>
+        <operation>equals</operation>
+        <value>QL Hot</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Working</value>
+    </filters>
+    <filters>
+        <field>Interaction_Type__c</field>
+        <operation>equals</operation>
+        <value>GROW</value>
+    </filters>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>equals</operation>
+        <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>OWNER.ALIAS</field>
+        <operation>startsWith</operation>
+        <value>ARQ:</value>
+    </filters>
+    <label>AES GROW Interactions Open/Working EMEA</label>
+</ListView>

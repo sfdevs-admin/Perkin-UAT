@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_META_Countries_ALL</fullName>
+    <columns>DeveloperName</columns>
+    <columns>MasterLabel</columns>
+    <columns>Country__c</columns>
+    <columns>SubTerritory__c</columns>
+    <columns>Territory__c</columns>
+    <columns>SuperTerritory__c</columns>
+    <columns>GlobalTerritory__c</columns>
+    <columns>CountryISOAlpha2__c</columns>
+    <columns>CountryISOAlpha3__c</columns>
+    <columns>CountryISOCode__c</columns>
+    <columns>CurrencyISOCode__c</columns>
+    <columns>Description__c</columns>
+    <columns>Inactive__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>C.META: Countries (ALL)</label>
+    <language>en_US</language>
+</ListView>

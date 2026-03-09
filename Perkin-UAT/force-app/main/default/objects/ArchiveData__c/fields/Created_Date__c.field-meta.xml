@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_Date__c</fullName>
+    <defaultValue>NOW()</defaultValue>
+    <description>Normally a default field, but since it doesn&#39;t seem to have appeared will create it for now and delete later if need be. as it will be a duplicate .</description>
+    <inlineHelpText>Enter the date created.</inlineHelpText>
+    <label>Created Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

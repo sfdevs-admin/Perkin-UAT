@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Col_Pre_Sale_Credit_Review</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 and 7</booleanFilter>
+    <columns>Shipping_Country__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SAP_Quote__c</columns>
+    <columns>Pre_Sale_Credit_Review__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Shipping_State__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>Amount_converted_place_holder_grid__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>contains</operation>
+        <value>Best Case,Commit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>greaterThan</operation>
+        <value>USD 99999</value>
+    </filters>
+    <filters>
+        <field>Pre_Sale_Credit_Review__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>equals</operation>
+        <value>Instrument,Large Instrument,Instrument Upgrade</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>lessThan</operation>
+        <value>1/1/2020</value>
+    </filters>
+    <label>Credit &amp; Col - Pre-Sale Credit Review</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

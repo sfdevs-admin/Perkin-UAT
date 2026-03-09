@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UAT_Month_Rep_Targets_ROSE</fullName>
+    <columns>NAME</columns>
+    <columns>Sales_Person__c</columns>
+    <columns>Year__c</columns>
+    <columns>Month__c</columns>
+    <columns>Base_Target__c</columns>
+    <columns>Won_Revenue__c</columns>
+    <columns>Commit_Amount_Stretch__c</columns>
+    <columns>Total_Forecast_Revenue_Stretch__c</columns>
+    <columns>Closed_Lost_Amount_Stretch__c</columns>
+    <columns>Base_Target_Achieved__c</columns>
+    <columns>Forecast_Base_Target_Achievement__c</columns>
+    <columns>Stretch_Target__c</columns>
+    <columns>Stretch_Target_Achieved__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>Commit_as_of_Stretch_Target__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2015 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Sales_Person__c</field>
+        <operation>equals</operation>
+        <value>otto rose</value>
+    </filters>
+    <label>UAT Month Rep Targets - ROSE</label>
+    <language>en_US</language>
+</ListView>

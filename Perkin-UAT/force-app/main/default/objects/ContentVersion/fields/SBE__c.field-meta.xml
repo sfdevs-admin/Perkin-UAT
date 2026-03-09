@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBE__c</fullName>
+    <description>Name of the division to which the training material references</description>
+    <label>SBE</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EH</fullName>
+                <default>false</default>
+                <label>EH</label>
+            </value>
+            <value>
+                <fullName>LSS</fullName>
+                <default>false</default>
+                <label>LSS</label>
+            </value>
+            <value>
+                <fullName>INF</fullName>
+                <default>false</default>
+                <label>INF</label>
+            </value>
+            <value>
+                <fullName>DX</fullName>
+                <default>false</default>
+                <label>DX</label>
+            </value>
+            <value>
+                <fullName>MI</fullName>
+                <default>false</default>
+                <label>MI</label>
+            </value>
+            <value>
+                <fullName>GENERIC</fullName>
+                <default>false</default>
+                <label>GENERIC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

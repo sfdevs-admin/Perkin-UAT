@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Case</fullName>
+    <availability>online</availability>
+    <description>This is used for one click close, where no case close page layout appears</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Close Case</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)}
+var caseObj = new sforce.SObject(&quot;Case&quot;);
+caseObj.Id = &#39;{!Case.Id}&#39;;
+if ({!NOT(Case.IsClosed)}){
+   caseObj.Status = &#39;Closed&#39;;
+   var result = sforce.connection.update([caseObj]);
+   if (result[0].success==&#39;false&#39;) {
+      alert(result[0].errors.message);
+   } else {
+      location.reload(true);
+   }
+}</url>
+</WebLink>

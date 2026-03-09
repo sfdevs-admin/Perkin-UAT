@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLD_Dep_OPP_Related_Market_Analytics__c</fullName>
+    <description>This is used within V.RULE_OPP_027, Opp.INF_Analytics_AVC &amp; P.FLOW_2000 to determine cut over the date when the Related_Market_Analytics field is no longer used. (RITM0097554)</description>
+    <inlineHelpText>This is used within V.RULE_OPP_027, Opp.INF_Analytics_AVC &amp; P.FLOW_2000 to determine cut over the date when the Related_Market_Analytics field is no longer used. (RITM0097554)</inlineHelpText>
+    <label>FLD_Dep_OPP_Related_Market_Analytics</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

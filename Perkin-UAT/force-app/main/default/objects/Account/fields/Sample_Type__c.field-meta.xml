@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sample_Type__c</fullName>
+    <label>Sample Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blood</fullName>
+                <default>false</default>
+                <label>Blood</label>
+            </value>
+            <value>
+                <fullName>Saliva</fullName>
+                <default>false</default>
+                <label>Saliva</label>
+            </value>
+            <value>
+                <fullName>Saliva in OraGene</fullName>
+                <default>false</default>
+                <label>Saliva in OraGene</label>
+            </value>
+            <value>
+                <fullName>Buffy Coat</fullName>
+                <default>false</default>
+                <label>Buffy Coat</label>
+            </value>
+            <value>
+                <fullName>Amniotic Fluid</fullName>
+                <default>false</default>
+                <label>Amniotic Fluid</label>
+            </value>
+            <value>
+                <fullName>CVS Cells and Cell Pellets</fullName>
+                <default>false</default>
+                <label>CVS Cells and Cell Pellets</label>
+            </value>
+            <value>
+                <fullName>FFPE Tissue</fullName>
+                <default>false</default>
+                <label>FFPE Tissue</label>
+            </value>
+            <value>
+                <fullName>Buccal Swab</fullName>
+                <default>false</default>
+                <label>Buccal Swab</label>
+            </value>
+            <value>
+                <fullName>Serum/Plasma</fullName>
+                <default>false</default>
+                <label>Serum/Plasma</label>
+            </value>
+            <value>
+                <fullName>Feces</fullName>
+                <default>false</default>
+                <label>Feces</label>
+            </value>
+            <value>
+                <fullName>Urine	Not Checked</fullName>
+                <default>false</default>
+                <label>Urine	Not Checked</label>
+            </value>
+            <value>
+                <fullName>Bacterial Culture</fullName>
+                <default>false</default>
+                <label>Bacterial Culture</label>
+            </value>
+            <value>
+                <fullName>Food count</fullName>
+                <default>false</default>
+                <label>Food count</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

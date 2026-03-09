@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer_Name__c</fullName>
+    <description>fetches logged in user&#39;s related contact name</description>
+    <externalId>false</externalId>
+    <formula>IF($User.License_type__c =&quot;Partner Community&quot;, $User.Related_Contact_Name__c, &quot;&quot;)</formula>
+    <label>Dealer Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

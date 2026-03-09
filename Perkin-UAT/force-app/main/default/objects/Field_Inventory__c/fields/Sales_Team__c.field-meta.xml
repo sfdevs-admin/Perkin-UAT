@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Team__c</fullName>
+    <label>Sales Team</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CA10 ANALYTICAL</fullName>
+                <default>false</default>
+                <label>CA10 ANALYTICAL</label>
+            </value>
+            <value>
+                <fullName>US10 NorthEast</fullName>
+                <default>false</default>
+                <label>US10 NorthEast</label>
+            </value>
+            <value>
+                <fullName>US10 MidAtlantic</fullName>
+                <default>false</default>
+                <label>US10 MidAtlantic</label>
+            </value>
+            <value>
+                <fullName>US10 South</fullName>
+                <default>false</default>
+                <label>US10 South</label>
+            </value>
+            <value>
+                <fullName>US10 MidWest</fullName>
+                <default>false</default>
+                <label>US10 MidWest</label>
+            </value>
+            <value>
+                <fullName>US10 West</fullName>
+                <default>false</default>
+                <label>US10 West</label>
+            </value>
+            <value>
+                <fullName>CA10 LST</fullName>
+                <default>false</default>
+                <label>CA10 LST</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxShippingAddressFull__c</fullName>
+    <externalId>false</externalId>
+    <formula>ShippingStreet +&#39;, &#39;+ ShippingCity +&#39;, &#39;+ ShippingState +&#39;, &#39;+ ShippingPostalCode+&#39;, &#39;+ ShippingCountry</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>fxShippingAddressFull</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

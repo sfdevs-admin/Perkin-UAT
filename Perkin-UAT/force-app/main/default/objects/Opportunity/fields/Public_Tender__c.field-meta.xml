@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Public_Tender__c</fullName>
+    <label>Public Tender</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Public Tender</fullName>
+                <default>false</default>
+                <label>Public Tender</label>
+            </value>
+            <value>
+                <fullName>Not a Public Tender</fullName>
+                <default>false</default>
+                <label>Not a Public Tender</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

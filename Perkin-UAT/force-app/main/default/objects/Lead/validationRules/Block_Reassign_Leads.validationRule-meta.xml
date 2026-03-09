@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Reassign_Leads</fullName>
+    <active>true</active>
+    <description>There is an issue with Lead being reassigned after being assigned due to integration. This will block it.</description>
+    <errorConditionFormula>AND(
+  Lead_Auto_Assign__c 
+  , $User.fxUserFullName__c =&quot;Service Admin&quot;
+  ,OR( NOT(ISNEW())
+    , NOW() &gt; CreatedDate
+   )
+)</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_009: Service Admin can not trigger Lead Auto Assign a 2nd time</errorMessage>
+</ValidationRule>

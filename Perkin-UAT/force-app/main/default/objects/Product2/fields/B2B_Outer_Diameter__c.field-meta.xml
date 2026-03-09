@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Outer_Diameter__c</fullName>
+    <description>Used to select outer diameter for products. Perk-75</description>
+    <label>Outer Diameter</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>11 mm</fullName>
+                <default>false</default>
+                <label>11 mm</label>
+            </value>
+            <value>
+                <fullName>2 in</fullName>
+                <default>false</default>
+                <label>2 in</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

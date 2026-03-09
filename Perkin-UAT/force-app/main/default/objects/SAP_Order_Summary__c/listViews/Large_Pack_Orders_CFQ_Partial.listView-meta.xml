@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Large_Pack_Orders_CFQ_Partial</fullName>
+    <columns>Opportunity__c</columns>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>Quote_Number__c</columns>
+    <columns>Account__c</columns>
+    <columns>Bill_To_Customer_Name__c</columns>
+    <columns>Ship_To_Customer_Name__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Order_Path__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Actual_CER_date__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Inco_Terms_Description__c</columns>
+    <columns>Order_Status_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Order_Path__c</field>
+        <operation>equals</operation>
+        <value>Processing Hold,Order Clear,Mfg Date Committed,Ready for Shipping,Order Shipped</value>
+    </filters>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Sold_To_Address_Country__c</field>
+        <operation>equals</operation>
+        <value>CA,US</value>
+    </filters>
+    <filters>
+        <field>Order_Net_Value__c</field>
+        <operation>greaterThan</operation>
+        <value>15000</value>
+    </filters>
+    <filters>
+        <field>Source_Type__c</field>
+        <operation>equals</operation>
+        <value>ZGNA</value>
+    </filters>
+    <filters>
+        <field>fxRevRecDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>Bill_To_Customer_Name__c</field>
+        <operation>contains</operation>
+        <value>Franklin Young</value>
+    </filters>
+    <label>Large Pack Orders CFQ by Order Path</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

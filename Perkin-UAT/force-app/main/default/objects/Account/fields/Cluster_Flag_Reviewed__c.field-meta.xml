@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cluster_Flag_Reviewed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>for 3 field array</description>
+    <label>Cluster Flag Reviewed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contracts_Name__c</fullName>
+    <label>Contracts Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On-Prem License Agreement</fullName>
+                <default>false</default>
+                <label>On-Prem License Agreement</label>
+            </value>
+            <value>
+                <fullName>SaaS License Agreement</fullName>
+                <default>false</default>
+                <label>SaaS License Agreement</label>
+            </value>
+            <value>
+                <fullName>Services Agreement</fullName>
+                <default>false</default>
+                <label>Services Agreement</label>
+            </value>
+            <value>
+                <fullName>NDA</fullName>
+                <default>false</default>
+                <label>NDA</label>
+            </value>
+            <value>
+                <fullName>SOW</fullName>
+                <default>false</default>
+                <label>SOW</label>
+            </value>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>RFI/RFQ/RFP</fullName>
+                <default>false</default>
+                <label>RFI/RFQ/RFP</label>
+            </value>
+            <value>
+                <fullName>Vendor Form</fullName>
+                <default>false</default>
+                <label>Vendor Form</label>
+            </value>
+            <value>
+                <fullName>Security Questionnaire</fullName>
+                <default>false</default>
+                <label>Security Questionnaire</label>
+            </value>
+            <value>
+                <fullName>SOC2</fullName>
+                <default>false</default>
+                <label>SOC2</label>
+            </value>
+            <value>
+                <fullName>Vendor Qualification</fullName>
+                <default>false</default>
+                <label>Vendor Qualification</label>
+            </value>
+            <value>
+                <fullName>Data Protection Addendum</fullName>
+                <default>false</default>
+                <label>Data Protection Addendum</label>
+            </value>
+            <value>
+                <fullName>VPAT / HECVAT</fullName>
+                <default>false</default>
+                <label>VPAT / HECVAT</label>
+            </value>
+            <value>
+                <fullName>Audit form</fullName>
+                <default>false</default>
+                <label>Audit form</label>
+            </value>
+            <value>
+                <fullName>W-9</fullName>
+                <default>false</default>
+                <label>W-9</label>
+            </value>
+            <value>
+                <fullName>Cert. Ltr.</fullName>
+                <default>false</default>
+                <label>Cert. Ltr.</label>
+            </value>
+            <value>
+                <fullName>PO</fullName>
+                <default>false</default>
+                <label>PO</label>
+            </value>
+            <value>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+                <label>Amendment</label>
+            </value>
+            <value>
+                <fullName>Sole Source</fullName>
+                <default>false</default>
+                <label>Sole Source</label>
+            </value>
+            <value>
+                <fullName>Distribution Agreement</fullName>
+                <default>false</default>
+                <label>Distribution Agreement</label>
+            </value>
+            <value>
+                <fullName>Cert. of Ins.</fullName>
+                <default>false</default>
+                <label>Cert. of Ins.</label>
+            </value>
+            <value>
+                <fullName>Tax Cert.</fullName>
+                <default>false</default>
+                <label>Tax Cert.</label>
+            </value>
+            <value>
+                <fullName>Activation override</fullName>
+                <default>false</default>
+                <label>Activation override</label>
+            </value>
+            <value>
+                <fullName>Review for Team</fullName>
+                <default>false</default>
+                <label>Review for Team</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

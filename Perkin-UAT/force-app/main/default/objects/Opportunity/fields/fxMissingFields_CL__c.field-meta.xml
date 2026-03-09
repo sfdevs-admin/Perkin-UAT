@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxMissingFields_CL__c</fullName>
+    <description>fields missing at the current stage</description>
+    <externalId>false</externalId>
+    <formula>IF( AND(
+      TEXT(StageName) = &quot;Closed Lost&quot;
+    , TEXT( Closed_Reason__c ) = &quot;&quot;
+       )
+  , &quot;•Closed Reason;&quot;
+  ,&quot;&quot;
+  )
+&amp;  IF(TEXT(Application_Segment__c )=&quot;&quot;,&quot;•Application Segment;&quot;,&quot;&quot;)
+&amp;  IF(TEXT(Application_Market__c )=&quot;&quot;,&quot;•Application Market;&quot;,&quot;&quot;)
+&amp;  IF(TEXT(Application__c )=&quot;&quot;,&quot;•Application;&quot;,&quot;&quot;)
+
+/*You can not include &#39;Closed Reason Detail&#39; as it is Long Text Area and not allowed in formulas*/</formula>
+    <inlineHelpText>fields missing at the current stage</inlineHelpText>
+    <label>fxMissingFields_CL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

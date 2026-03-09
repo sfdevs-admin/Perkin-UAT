@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSETS_QUICK_FILTER</fullName>
+    <columns>Label__c</columns>
+    <columns>NAME</columns>
+    <columns>Description__c</columns>
+    <columns>IsCustom__c</columns>
+    <columns>IsOwnedByProfile__c</columns>
+    <columns>CreatedDate_FromStandard__c</columns>
+    <columns>CreatedById_FromStandard__c</columns>
+    <columns>LastModifiedById_FromStandard__c</columns>
+    <columns>LastModifiedDate_FromStandard__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Label__c</field>
+        <operation>contains</operation>
+        <value>test</value>
+    </filters>
+    <label>PSETS (*QUICK FILTER*)</label>
+</ListView>

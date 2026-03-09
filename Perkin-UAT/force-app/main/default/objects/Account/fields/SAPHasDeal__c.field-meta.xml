@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAPHasDeal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is to indicate that this Account (typically  Payer Account) has the &quot;Deal&quot; flag on it in SAP. (This is set through Automation, users can not edit value)</description>
+    <inlineHelpText>This is to indicate that this Account (typically  Payer Account) has the &quot;Deal&quot; flag on it in SAP. (This is set through Automation, users can not edit value)</inlineHelpText>
+    <label>SAP Has Deal</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

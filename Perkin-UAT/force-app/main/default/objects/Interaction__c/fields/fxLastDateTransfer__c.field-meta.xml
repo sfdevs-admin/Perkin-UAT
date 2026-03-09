@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxLastDateTransfer__c</fullName>
+    <description>This field shows when interaction was last transferred using L.Flow 2502.</description>
+    <inlineHelpText>This field shows when interaction was last transferred.</inlineHelpText>
+    <label>fxLastDateTransfer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

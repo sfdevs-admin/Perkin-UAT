@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Service_Case</fullName>
+    <availability>online</availability>
+    <description>Create new service case from the asset page</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Service Case</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/500/e?retURL=%2F500%2Fo&amp;def_asset_id={!Asset.Id}
+&amp;RecordType=01230000000byd9
+&amp;cas4={!Asset.Account}
+&amp;cas4_lkid={!Asset.AccountId}
+&amp;00N30000009PhQH={!Entitlement.Type}
+&amp;00N30000009PhQF={!Entitlement.EndDate}
+&amp;ent=Case</url>
+</WebLink>

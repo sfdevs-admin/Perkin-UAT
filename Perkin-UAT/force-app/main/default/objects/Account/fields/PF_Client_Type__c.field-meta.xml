@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PF_Client_Type__c</fullName>
+    <label>PF Client Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academia</fullName>
+                <default>false</default>
+                <label>Academia</label>
+            </value>
+            <value>
+                <fullName>CDMO</fullName>
+                <default>false</default>
+                <label>CDMO</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>PE / Investment Firm</fullName>
+                <default>false</default>
+                <label>PE / Investment Firm</label>
+            </value>
+            <value>
+                <fullName>Therapeutic Developer</fullName>
+                <default>false</default>
+                <label>Therapeutic Developer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

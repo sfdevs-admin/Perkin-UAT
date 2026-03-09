@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GB_required_for_UK</fullName>
+    <active>true</active>
+    <description>&quot;GB&quot; is the ISO standardized value required for Country Code</description>
+    <errorConditionFormula>$Permission.BD_Bypass_Automation != TRUE &amp;&amp; ShippingCountry = &quot;UK&quot;</errorConditionFormula>
+    <errorDisplayField>ShippingCountry</errorDisplayField>
+    <errorMessage>V.RULE_ACCOUNT_003: Must Enter &quot;GB&quot; as Country Code for  UK-based Countries</errorMessage>
+</ValidationRule>

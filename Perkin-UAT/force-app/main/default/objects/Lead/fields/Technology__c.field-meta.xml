@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology__c</fullName>
+    <label>Technology</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Next Gen</fullName>
+                <default>false</default>
+                <label>Next Gen</label>
+            </value>
+            <value>
+                <fullName>Sanger</fullName>
+                <default>false</default>
+                <label>Sanger</label>
+            </value>
+            <value>
+                <fullName>Roche 454</fullName>
+                <default>false</default>
+                <label>Roche 454</label>
+            </value>
+            <value>
+                <fullName>Illumina Genome Analyzer</fullName>
+                <default>false</default>
+                <label>Illumina Genome Analyzer</label>
+            </value>
+            <value>
+                <fullName>AB SOLiD</fullName>
+                <default>false</default>
+                <label>AB SOLiD</label>
+            </value>
+            <value>
+                <fullName>AB Sanger</fullName>
+                <default>false</default>
+                <label>AB Sanger</label>
+            </value>
+            <value>
+                <fullName>Tag Profiling</fullName>
+                <default>false</default>
+                <label>Tag Profiling</label>
+            </value>
+            <value>
+                <fullName>ChIP Seq</fullName>
+                <default>false</default>
+                <label>ChIP Seq</label>
+            </value>
+            <value>
+                <fullName>Resequencing</fullName>
+                <default>false</default>
+                <label>Resequencing</label>
+            </value>
+            <value>
+                <fullName>Transcriptome Pipeline</fullName>
+                <default>false</default>
+                <label>Transcriptome Pipeline</label>
+            </value>
+            <value>
+                <fullName>De novo Genome Assembly</fullName>
+                <default>false</default>
+                <label>De novo Genome Assembly</label>
+            </value>
+            <value>
+                <fullName>De novo Transcriptome Assembly</fullName>
+                <default>false</default>
+                <label>De novo Transcriptome Assembly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

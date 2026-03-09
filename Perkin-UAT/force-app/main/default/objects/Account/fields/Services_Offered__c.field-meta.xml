@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services_Offered__c</fullName>
+    <label>Services Offered</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sanger Sequencing</fullName>
+                <default>false</default>
+                <label>Sanger Sequencing</label>
+            </value>
+            <value>
+                <fullName>Genotyping</fullName>
+                <default>false</default>
+                <label>Genotyping</label>
+            </value>
+            <value>
+                <fullName>Next Gen Sequencing</fullName>
+                <default>false</default>
+                <label>Next Gen Sequencing</label>
+            </value>
+            <value>
+                <fullName>Microarray</fullName>
+                <default>false</default>
+                <label>Microarray</label>
+            </value>
+            <value>
+                <fullName>Proteomics</fullName>
+                <default>false</default>
+                <label>Proteomics</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

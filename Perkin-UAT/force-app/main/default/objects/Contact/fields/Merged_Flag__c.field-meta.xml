@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Merged_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is the mirror of the Accounts Merge Flag. Updates on edit if not in sync, or when Account changes</description>
+    <inlineHelpText>This is the mirror of the Accounts Merge Flag</inlineHelpText>
+    <label>Merged Flag</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

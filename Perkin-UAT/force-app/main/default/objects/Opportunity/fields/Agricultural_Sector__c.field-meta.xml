@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agricultural_Sector__c</fullName>
+    <description>Must select an Agricultural Sector when selecting A Food and Agriculture Segment.</description>
+    <label>Agricultural Sector</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Grains/Milling</fullName>
+                <default>false</default>
+                <label>Grains/Milling</label>
+            </value>
+            <value>
+                <fullName>Fruits/Vegetables</fullName>
+                <default>false</default>
+                <label>Fruits/Vegetables</label>
+            </value>
+            <value>
+                <fullName>Feed</fullName>
+                <default>false</default>
+                <label>Feed</label>
+            </value>
+            <value>
+                <fullName>Processed Food</fullName>
+                <default>false</default>
+                <label>Processed Food</label>
+            </value>
+            <value>
+                <fullName>Poultry/Meat/Seafood</fullName>
+                <default>false</default>
+                <label>Poultry/Meat/Seafood</label>
+            </value>
+            <value>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+                <label>Dairy</label>
+            </value>
+            <value>
+                <fullName>Liquids</fullName>
+                <default>false</default>
+                <label>Liquids</label>
+            </value>
+            <value>
+                <fullName>Natural Compounds/Cannabis</fullName>
+                <default>false</default>
+                <label>Natural Compounds/Cannabis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

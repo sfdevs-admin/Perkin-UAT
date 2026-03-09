@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_Created_Last_60_Days</fullName>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Product_Line__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>Lead_Assignment__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Owner_by_Queue__c</columns>
+    <columns>Lead_Qualification_Stage__c</columns>
+    <columns>LQS_Warm_or_Hot__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxPKISuperTerritory__c</field>
+        <operation>equals</operation>
+        <value>EMEAI</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>PerkinElmer Leads</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <label>Leads Created Last 60 Days</label>
+</ListView>

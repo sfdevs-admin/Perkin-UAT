@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Account</fullName>
+    <availability>online</availability>
+    <description>Invokes S_FLOW_2104 which will open a URL in a new window based on fx result &amp; overrides default New Account Behavior (SBX ready)</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Create Account</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/flow/S_FLOW_2104_Account_Invoke_New_Account?retURL=/lightning/o/Account/list?filterName=Recent</url>
+</WebLink>

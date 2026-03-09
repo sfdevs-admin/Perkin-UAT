@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_non_web_case_Asset_mandatory</fullName>
+    <active>true</active>
+    <description>LST - An Asset is required on this Case</description>
+    <errorConditionFormula>NOT($Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE)
+&amp;&amp; ISPICKVAL(Type, &quot;Tech Support&quot;) 
+&amp;&amp; TEXT( Origin ) &lt;&gt; &quot;Web&quot;
+&amp;&amp; OR(ISPICKVAL(Sub_Type__c,&quot;Adapter Support&quot;)
+,ISPICKVAL(Sub_Type__c , &quot;Application&quot;)
+,ISPICKVAL(Sub_Type__c , &quot;Chips &amp; Reagent&quot;)
+,ISPICKVAL(Sub_Type__c , &quot;Computer&quot;)
+,ISPICKVAL(Sub_Type__c , &quot;Consumable&quot;)
+,ISPICKVAL(Sub_Type__c , &quot;Hardware&quot;)
+,ISPICKVAL(Sub_Type__c , &quot;Installation&quot;)
+,ISPICKVAL(Sub_Type__c , &quot;Integration&quot;)
+,ISPICKVAL(Sub_Type__c , &quot;Software&quot;)) 
+&amp;&amp; 
+ISBLANK(AssetId)</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>V.RULE_CASE_026: An Asset is required on this Case - See &quot;Assets&quot; tab on layout</errorMessage>
+</ValidationRule>

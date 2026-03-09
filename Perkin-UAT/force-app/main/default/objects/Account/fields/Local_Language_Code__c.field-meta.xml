@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Language_Code__c</fullName>
+    <description>This is a 1-character country code to define the local language. Used for integrations only, not for user viewing. (C=Chinese, H=Hangul, K=Kanji, M=Chinese Trad.,T=Thai)
+ITSFDC-5086</description>
+    <externalId>false</externalId>
+    <inlineHelpText>SAP International Version Indicator</inlineHelpText>
+    <label>Local Language Code</label>
+    <length>2</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

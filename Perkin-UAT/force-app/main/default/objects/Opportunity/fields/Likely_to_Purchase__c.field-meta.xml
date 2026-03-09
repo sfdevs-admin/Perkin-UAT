@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Likely_to_Purchase__c</fullName>
+    <inlineHelpText>Enter a percent value of whether this account is likely to purchase in timeframe or at all</inlineHelpText>
+    <label>%Likelihood to Buy</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_Product__c</fullName>
+    <label>Q-Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Line__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3D Histech</fullName>
+                <default>false</default>
+                <label>3D Histech</label>
+            </value>
+            <value>
+                <fullName>Abrio</fullName>
+                <default>false</default>
+                <label>Abrio</label>
+            </value>
+            <value>
+                <fullName>Affymetrix</fullName>
+                <default>false</default>
+                <label>Affymetrix</label>
+            </value>
+            <value>
+                <fullName>Agilent Chips</fullName>
+                <default>false</default>
+                <label>Agilent Chips</label>
+            </value>
+            <value>
+                <fullName>Autotrace</fullName>
+                <default>false</default>
+                <label>Autotrace</label>
+            </value>
+            <value>
+                <fullName>Bioware</fullName>
+                <default>false</default>
+                <label>Bioware</label>
+            </value>
+            <value>
+                <fullName>Chips (Other)</fullName>
+                <default>false</default>
+                <label>Chips (Other)</label>
+            </value>
+            <value>
+                <fullName>DISTIPS</fullName>
+                <default>false</default>
+                <label>DISTIPS</label>
+            </value>
+            <value>
+                <fullName>EZ Reader II</fullName>
+                <default>false</default>
+                <label>EZ Reader II</label>
+            </value>
+            <value>
+                <fullName>InForm Software</fullName>
+                <default>false</default>
+                <label>InForm Software</label>
+            </value>
+            <value>
+                <fullName>IVIS 200</fullName>
+                <default>false</default>
+                <label>IVIS 200</label>
+            </value>
+            <value>
+                <fullName>IVIS Kinetic</fullName>
+                <default>false</default>
+                <label>IVIS Kinetic</label>
+            </value>
+            <value>
+                <fullName>Lumina III</fullName>
+                <default>false</default>
+                <label>Lumina III</label>
+            </value>
+            <value>
+                <fullName>IVIS Lumina II</fullName>
+                <default>false</default>
+                <label>IVIS Lumina II</label>
+            </value>
+            <value>
+                <fullName>IVIS Lumina XR</fullName>
+                <default>false</default>
+                <label>IVIS Lumina XR</label>
+            </value>
+            <value>
+                <fullName>IVIS Quantum uCT</fullName>
+                <default>false</default>
+                <label>IVIS Quantum uCT</label>
+            </value>
+            <value>
+                <fullName>IVIS Spectrum</fullName>
+                <default>false</default>
+                <label>IVIS Spectrum</label>
+            </value>
+            <value>
+                <fullName>IVIS Spectrum CT</fullName>
+                <default>false</default>
+                <label>IVIS Spectrum CT</label>
+            </value>
+            <value>
+                <fullName>Labchip 3000</fullName>
+                <default>false</default>
+                <label>Labchip 3000</label>
+            </value>
+            <value>
+                <fullName>LabChip 90</fullName>
+                <default>false</default>
+                <label>LabChip 90</label>
+            </value>
+            <value>
+                <fullName>LabChip DS</fullName>
+                <default>false</default>
+                <label>LabChip DS</label>
+            </value>
+            <value>
+                <fullName>LabChip DX</fullName>
+                <default>false</default>
+                <label>LabChip DX</label>
+            </value>
+            <value>
+                <fullName>Labchip GX</fullName>
+                <default>false</default>
+                <label>Labchip GX</label>
+            </value>
+            <value>
+                <fullName>Labchip GXII</fullName>
+                <default>false</default>
+                <label>Labchip GXII</label>
+            </value>
+            <value>
+                <fullName>LabChip XT</fullName>
+                <default>false</default>
+                <label>LabChip XT</label>
+            </value>
+            <value>
+                <fullName>Maestro</fullName>
+                <default>false</default>
+                <label>Maestro</label>
+            </value>
+            <value>
+                <fullName>Living Image</fullName>
+                <default>false</default>
+                <label>Living Image</label>
+            </value>
+            <value>
+                <fullName>Micro*Color/Macro*Color RGB Filters</fullName>
+                <default>false</default>
+                <label>Micro*Color/Macro*Color RGB Filters</label>
+            </value>
+            <value>
+                <fullName>Nuance</fullName>
+                <default>false</default>
+                <label>Nuance</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Oosight</fullName>
+                <default>false</default>
+                <label>Oosight</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>RapidPlate</fullName>
+                <default>false</default>
+                <label>RapidPlate</label>
+            </value>
+            <value>
+                <fullName>RapidTrace</fullName>
+                <default>false</default>
+                <label>RapidTrace</label>
+            </value>
+            <value>
+                <fullName>Reagents</fullName>
+                <default>false</default>
+                <label>Reagents</label>
+            </value>
+            <value>
+                <fullName>Sciclone ALH</fullName>
+                <default>false</default>
+                <label>Sciclone ALH</label>
+            </value>
+            <value>
+                <fullName>Spatial Light Modulator (SLM)</fullName>
+                <default>false</default>
+                <label>Spatial Light Modulator (SLM)</label>
+            </value>
+            <value>
+                <fullName>Staccato Systems</fullName>
+                <default>false</default>
+                <label>Staccato Systems</label>
+            </value>
+            <value>
+                <fullName>Trio</fullName>
+                <default>false</default>
+                <label>Trio</label>
+            </value>
+            <value>
+                <fullName>Turbovap 500</fullName>
+                <default>false</default>
+                <label>Turbovap 500</label>
+            </value>
+            <value>
+                <fullName>Turbovap 96</fullName>
+                <default>false</default>
+                <label>Turbovap 96</label>
+            </value>
+            <value>
+                <fullName>Turbovap II</fullName>
+                <default>false</default>
+                <label>Turbovap II</label>
+            </value>
+            <value>
+                <fullName>Turbovap LV</fullName>
+                <default>false</default>
+                <label>Turbovap LV</label>
+            </value>
+            <value>
+                <fullName>Twister I</fullName>
+                <default>false</default>
+                <label>Twister I</label>
+            </value>
+            <value>
+                <fullName>Twister II</fullName>
+                <default>false</default>
+                <label>Twister II</label>
+            </value>
+            <value>
+                <fullName>VariSpec Filters</fullName>
+                <default>false</default>
+                <label>VariSpec Filters</label>
+            </value>
+            <value>
+                <fullName>Vectra</fullName>
+                <default>false</default>
+                <label>Vectra</label>
+            </value>
+            <value>
+                <fullName>Zephyr</fullName>
+                <default>false</default>
+                <label>Zephyr</label>
+            </value>
+            <value>
+                <fullName>Zephyr GW</fullName>
+                <default>false</default>
+                <label>Zephyr GW</label>
+            </value>
+            <value>
+                <fullName>Zephyr SPE</fullName>
+                <default>false</default>
+                <label>Zephyr SPE</label>
+            </value>
+            <value>
+                <fullName>Janus</fullName>
+                <default>false</default>
+                <label>Janus</label>
+            </value>
+            <value>
+                <fullName>Janus AWS</fullName>
+                <default>false</default>
+                <label>Janus AWS</label>
+            </value>
+            <value>
+                <fullName>Janus OIL</fullName>
+                <default>false</default>
+                <label>Janus OIL</label>
+            </value>
+            <value>
+                <fullName>Janus NGS</fullName>
+                <default>false</default>
+                <label>Janus NGS</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SPEC (CALP)</controllingFieldValue>
+            <valueName>Autotrace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPEC (CALP)</controllingFieldValue>
+            <valueName>RapidTrace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPEC (CALP)</controllingFieldValue>
+            <valueName>Turbovap 500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPEC (CALP)</controllingFieldValue>
+            <valueName>Turbovap 96</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPEC (CALP)</controllingFieldValue>
+            <valueName>Turbovap II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPEC (CALP)</controllingFieldValue>
+            <valueName>Turbovap LV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR</controllingFieldValue>
+            <valueName>Reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>3D Histech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>Abrio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>InForm Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>Micro*Color/Macro*Color RGB Filters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>Nuance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>Oosight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>Spatial Light Modulator (SLM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>Trio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>VariSpec Filters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS/TSC</controllingFieldValue>
+            <valueName>Vectra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>EZ Reader II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>Janus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>Janus AWS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>Janus OIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>Janus NGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Affymetrix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Agilent Chips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Chips (Other)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>DISTIPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>RapidPlate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Sciclone ALH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Staccato Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Twister I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Twister II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Zephyr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Zephyr GW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Zephyr SPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Bioware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>IVIS 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>IVIS Kinetic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>IVIS Lumina II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>IVIS Lumina XR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>IVIS Quantum uCT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>IVIS Spectrum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>IVIS Spectrum CT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Maestro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Labchip 3000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip 90</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Labchip GX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Labchip GXII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip XT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOX</controllingFieldValue>
+            <valueName>LabChip DX</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

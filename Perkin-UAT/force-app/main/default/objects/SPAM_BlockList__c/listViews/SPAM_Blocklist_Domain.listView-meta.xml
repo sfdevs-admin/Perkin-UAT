@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SPAM_Blocklist_Domain</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>Spam_Value__c</columns>
+    <columns>fxDomain__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>Block_Domain__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Block_Domain__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>SPAM Blocklist (Domain)</label>
+</ListView>

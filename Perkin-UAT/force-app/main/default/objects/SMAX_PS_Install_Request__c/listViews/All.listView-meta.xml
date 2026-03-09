@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_InstallType__c</columns>
+    <columns>SMAX_PS_Status__c</columns>
+    <columns>SMAX_PS_Account__c</columns>
+    <columns>SMAX_PS_Product__c</columns>
+    <columns>SMAX_PS_InstalledProduct__c</columns>
+    <columns>SMAX_PS_WorkOrder__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>SMAX_PS_Location_ExtId__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

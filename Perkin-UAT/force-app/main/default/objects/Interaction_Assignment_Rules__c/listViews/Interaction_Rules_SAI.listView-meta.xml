@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interaction_Rules_SAI</fullName>
+    <columns>NAME</columns>
+    <columns>Region__c</columns>
+    <columns>Country__c</columns>
+    <columns>State__c</columns>
+    <columns>PostalCode__c</columns>
+    <columns>SolutionsAreaofInterest__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>ProductClass__c</columns>
+    <columns>PKIQueue__c</columns>
+    <columns>RunOrder__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>fxSortOrder__c</columns>
+    <columns>fxRuleWeight__c</columns>
+    <columns>fxQueueEmail__c</columns>
+    <columns>Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>contains</operation>
+        <value>ES</value>
+    </filters>
+    <filters>
+        <field>Region__c</field>
+        <operation>contains</operation>
+        <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>includes</operation>
+        <value>RRD</value>
+    </filters>
+    <label>Interaction Rules - (SAI)</label>
+</ListView>

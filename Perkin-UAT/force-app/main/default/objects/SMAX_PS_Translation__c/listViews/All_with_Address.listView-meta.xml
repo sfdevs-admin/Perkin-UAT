@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_with_Address</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_Owned_By_Company__c</columns>
+    <columns>SMAX_PS_Language__c</columns>
+    <columns>SMAX_PS_Country__c</columns>
+    <columns>SMAX_PS_Address_Name__c</columns>
+    <columns>SMAX_PS_Address_Line1__c</columns>
+    <columns>SMAX_PS_Address_Line2__c</columns>
+    <columns>SMAX_PS_Address_Line3__c</columns>
+    <columns>SMAX_PS_Address_Line4__c</columns>
+    <columns>SMAX_PS_Address_Telephone__c</columns>
+    <columns>SMAX_PS_Address_Website__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All with Address</label>
+</ListView>

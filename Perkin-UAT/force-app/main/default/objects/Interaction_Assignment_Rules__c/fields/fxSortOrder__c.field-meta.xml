@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxSortOrder__c</fullName>
+    <description>We want to make a logical way that the Loop runs through Rules. This makes heaviest weighted run first
+and the lowest Run Order run second. By subtracting the run order from 1000 and adding to the weight we get a number to sort Descending</description>
+    <externalId>false</externalId>
+    <formula>fxRuleWeight__c *1000 + (1000- RunOrder__c )
+/*We want to make a logical way that the Loop runs through Rules. This makes heaviest weighted run first
+and the lowest Run Order run second. By subtracting the run order from 1000 and adding to the weight we get a number to sort Descending */</formula>
+    <inlineHelpText>Formulated Descending Sort order used in automation logic</inlineHelpText>
+    <label>fxSortOrder</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

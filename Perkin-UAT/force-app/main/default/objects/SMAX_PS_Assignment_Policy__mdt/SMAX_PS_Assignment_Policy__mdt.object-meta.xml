@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Settings to dictate the weights applied when suggesting or auto-assigning technicians to work orders.</description>
+    <label>Assignment Policy</label>
+    <pluralLabel>Assignment Policies</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_new_request_records</fullName>
+    <active>true</active>
+    <description>Requests is being deactivated, and we are not allowing new records. All issues go to OnIt or Jira</description>
+    <errorConditionFormula>OR( 
+  ISNEW()
+, ISCLONE()
+
+, AND(
+  $User.FirstName  &lt;&gt; &quot;Brad&quot;
+, $User.FirstName  &lt;&gt; &quot;Mary&quot;
+, $Profile.Name &lt;&gt;&quot;DAS Operations&quot;
+, $Profile.Name &lt;&gt;&quot;System Administrator&quot;
+  )
+)</errorConditionFormula>
+    <errorMessage>V.RULE_REQUEST_003: Please create a JIRA IT Intake request for Salesforce platform issues (or OnIT for permissions/license requests). Requests is no longer getting new records or allowing edits as of June 30, 2020.</errorMessage>
+</ValidationRule>

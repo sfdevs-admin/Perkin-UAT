@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CountofConsummableProducts__c</fullName>
+    <description>this is filled by a L.FLOW for products that are marked a Consumable. If Opp has a consumable, then it can not Quick Close.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>this is filled by a L.FLOW for products that are marked a Consumable. If Opp has a consumable, then it can not Quick Close.</inlineHelpText>
+    <label>Count of Consummable Products</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

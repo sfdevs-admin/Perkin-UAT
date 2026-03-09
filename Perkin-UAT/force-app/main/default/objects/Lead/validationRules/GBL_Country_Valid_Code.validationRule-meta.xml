@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Country_Valid_Code</fullName>
+    <active>true</active>
+    <description>Please use valid 2 Digit ISO Code when entering a country.</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK( Country )) 
+    ,LEN( Country ) &lt;&gt; 2
+    ,$Setup.Rules_Execution__c.Run__c
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_003: Please use valid 2 Digit ISO Code when entering a country</errorMessage>
+</ValidationRule>

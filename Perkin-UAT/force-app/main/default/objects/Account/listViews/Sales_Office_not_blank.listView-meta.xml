@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Office_not_blank</fullName>
+    <booleanFilter>1</booleanFilter>
+    <columns>Sales_Territory__c</columns>
+    <columns>INF_Geo_Region__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>PreGeoCode__c</columns>
+    <columns>GeoCodeAxx__c</columns>
+    <columns>GeoCodeBxx__c</columns>
+    <columns>GeoCodeDxx__c</columns>
+    <columns>GeoCodeExx__c</columns>
+    <columns>GeoCodeGxx__c</columns>
+    <columns>GeoCodeLxx__c</columns>
+    <columns>GeoCodeMxx__c</columns>
+    <columns>GeoCodeRxx__c</columns>
+    <columns>GeoCodeSxx__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>startsWith</operation>
+        <value>Stanford University</value>
+    </filters>
+    <label>Sales Office not blank</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

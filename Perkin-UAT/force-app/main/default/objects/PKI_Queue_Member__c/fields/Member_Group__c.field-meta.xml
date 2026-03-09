@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is a sub group of a group.</description>
+    <inlineHelpText>This is a sub group of a group.</inlineHelpText>
+    <label>Member Group</label>
+    <referenceTo>PKI_Queue__c</referenceTo>
+    <relationshipLabel>Member Group</relationshipLabel>
+    <relationshipName>Member_Group</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

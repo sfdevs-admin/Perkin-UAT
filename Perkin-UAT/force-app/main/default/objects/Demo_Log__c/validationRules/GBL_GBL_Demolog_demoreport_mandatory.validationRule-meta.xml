@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_GBL_Demolog_demoreport_mandatory</fullName>
+    <active>false</active>
+    <description>Ensuring that demo report is filled for completed status</description>
+    <errorConditionFormula>AND(ISPICKVAL( Status_INF__c ,&quot;Completed&quot;),OR(ISBLANK( Demo_Notes_INF__c ),ISPICKVAL( Demo_Location__c,&quot;&quot; ),ISPICKVAL( Level_INF__c,&quot;&quot; )))</errorConditionFormula>
+    <errorDisplayField>Activity_INF__c</errorDisplayField>
+    <errorMessage>V.RULE_DEMO_LOG: 001 Kindly enter Demo Report, Level and Demo Location for Completed Demo Log</errorMessage>
+</ValidationRule>

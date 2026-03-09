@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Acct_SAP_Cust_Num__c</fullName>
+    <description>Account SAP Customer Number</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Account SAP Customer Number</inlineHelpText>
+    <label>Account SAP Customer Number</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

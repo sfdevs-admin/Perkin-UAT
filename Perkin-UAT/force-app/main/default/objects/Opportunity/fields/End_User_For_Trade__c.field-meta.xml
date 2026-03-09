@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_User_For_Trade__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>For legal reasons it is necessary to at least have verbal agreement from the customer that they are the end user of the order and that it is not going to be shipped on elsewhere, please check to copnfirm.</inlineHelpText>
+    <label>End User For Trade?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

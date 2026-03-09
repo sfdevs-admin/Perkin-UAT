@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_LSS_Current_Vendor_Mandatory</fullName>
+    <active>true</active>
+    <description>Validation to have details about &#39;other&#39; current vendor
+Updated by PwC as part of SC-433 - Consumables and Service Contract record types excluded from the validation</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c,
+RecordType.DeveloperName &lt;&gt; &#39;Consumables&#39;,
+RecordType.DeveloperName &lt;&gt; &#39;ServiceContract&#39;,
+AND(( ISPICKVAL(LSS_Bid_Current_Vendor__c , &quot;other&quot;) ),  LSS_Current_Vendor_Other__c  =&quot;&quot; ))</errorConditionFormula>
+    <errorDisplayField>Likely_to_Purchase__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_014: If &quot;Other&quot; Current vendor is selected, provide details</errorMessage>
+</ValidationRule>

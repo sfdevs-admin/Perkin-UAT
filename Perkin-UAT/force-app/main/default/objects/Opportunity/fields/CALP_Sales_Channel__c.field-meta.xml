@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CALP_Sales_Channel__c</fullName>
+    <label>CALP Sales Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>CDAS</fullName>
+                <default>false</default>
+                <label>CDAS</label>
+            </value>
+            <value>
+                <fullName>Contract Sales</fullName>
+                <default>false</default>
+                <label>Contract Sales</label>
+            </value>
+            <value>
+                <fullName>Tissue</fullName>
+                <default>false</default>
+                <label>Tissue</label>
+            </value>
+            <value>
+                <fullName>Whole Slide Imaging</fullName>
+                <default>false</default>
+                <label>Whole Slide Imaging</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

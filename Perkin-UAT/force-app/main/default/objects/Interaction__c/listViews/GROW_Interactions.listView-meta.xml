@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GROW_Interactions</fullName>
+    <columns>GROW__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Email__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Status__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Lead__c</columns>
+    <columns>GROW_Employee_Email__c</columns>
+    <columns>Country__c</columns>
+    <columns>GlobalRegion__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GROW_Employee_Email__c</field>
+        <operation>notContain</operation>
+    </filters>
+    <label>GROW Interactions</label>
+</ListView>

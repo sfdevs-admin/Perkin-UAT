@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_Informatics</fullName>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT2.LAST_UPDATE</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>INF_Product_Family__c</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>Product_Type_INF__c</columns>
+    <columns>License_Type_INF__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Platform_INF__c</field>
+        <operation>equals</operation>
+        <value>INFSOFTWARE</value>
+    </filters>
+    <label>Products - Informatics</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

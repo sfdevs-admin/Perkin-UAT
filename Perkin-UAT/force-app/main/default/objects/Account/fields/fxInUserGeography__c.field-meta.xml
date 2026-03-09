@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxInUserGeography__c</fullName>
+    <formula>ISPICKVAL( $User.GeographyLevel__c , &quot;ALL&quot;) ||
+
+AND((ISPICKVAL( $User.GeographyLevel__c , &quot;Country&quot;)), (  TEXT( $User.GeographyValue__c )  =  PKICountry__r.Name     )) ||
+
+AND((ISPICKVAL( $User.GeographyLevel__c , &quot;Super Territory&quot;)), (  TEXT( $User.GeographyValue__c )  =   TEXT(PKICountry__r.Super_Territory__c))) || 
+
+AND((ISPICKVAL( $User.GeographyLevel__c , &quot;Global territory&quot;)), (  TEXT( $User.GeographyValue__c )  =   TEXT( PKICountry__r.Global_Territory__c ))) ||
+
+AND((ISPICKVAL( $User.GeographyLevel__c , &quot;Territory&quot;)), (  TEXT( $User.GeographyValue__c )  =   TEXT(  PKICountry__r.Territory__c  ))) ||
+
+AND((ISPICKVAL( $User.GeographyLevel__c , &quot;Sub Territory&quot;)), (  TEXT( $User.GeographyValue__c )  =   TEXT(   PKICountry__r.Sub_Territory__c   )))</formula>
+    <label>fxInUserGeography</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

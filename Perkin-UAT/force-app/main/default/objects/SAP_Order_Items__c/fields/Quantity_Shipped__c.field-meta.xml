@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity_Shipped__c</fullName>
+    <description>This will SUM up the quantity shipped at the Item tracking level so it can be used at the Item level to determine the percentage shipped and &quot;Partial Ship&quot; field</description>
+    <label>Quantity Shipped</label>
+    <summarizedField>SAP_Order_Item_Tracking__c.Quantity_Shipped__c</summarizedField>
+    <summaryForeignKey>SAP_Order_Item_Tracking__c.PKIOrderItems__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

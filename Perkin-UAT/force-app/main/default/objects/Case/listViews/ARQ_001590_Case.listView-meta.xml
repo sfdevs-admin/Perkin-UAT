@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_001590_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: Global CloudOps Support</label>
+    <queue>ARQ_001272</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

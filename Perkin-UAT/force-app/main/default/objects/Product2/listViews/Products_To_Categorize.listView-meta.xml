@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_To_Categorize</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>notContain</operation>
+        <value>AES,LSDX</value>
+    </filters>
+    <label>Products: (To Categorize)</label>
+    <sharedTo>
+        <group>ARQ_001000</group>
+    </sharedTo>
+</ListView>

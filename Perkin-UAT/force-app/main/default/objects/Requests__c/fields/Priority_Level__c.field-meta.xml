@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Level__c</fullName>
+    <description>Admin sets the priority during the triage/assessment stage</description>
+    <inlineHelpText>Admin sets the priority during the triage/assessment stage</inlineHelpText>
+    <label>Priority Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - Critical</fullName>
+                <default>false</default>
+                <label>1 - Critical</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>2 - High</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>3 - Medium</label>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>4 - Low</label>
+            </value>
+            <value>
+                <fullName>5 - Nice to Have</fullName>
+                <default>false</default>
+                <label>5 - Nice to Have</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

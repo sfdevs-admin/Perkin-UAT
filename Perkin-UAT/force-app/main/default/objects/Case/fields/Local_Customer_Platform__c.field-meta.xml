@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Customer_Platform__c</fullName>
+    <description>When Customer Specific picklist is selected it should require that Local Customer Platform field be available and mandatory to fill out, created as per INC0329394.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Required when Platform Channel value includes Customer Specific.</inlineHelpText>
+    <label>Local Customer Platform</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

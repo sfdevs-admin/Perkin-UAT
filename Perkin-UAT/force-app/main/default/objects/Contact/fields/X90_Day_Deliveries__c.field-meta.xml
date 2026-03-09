@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X90_Day_Deliveries__c</fullName>
+    <description>Adds Month 0,1,2,3 for reporting</description>
+    <externalId>false</externalId>
+    <formula>Viacord_Deliver_Month0__c  +  Viacord_Deliver_Month1__c  +  Viacord_Deliver_Month2__c  +  Viacord_Deliver_Month3__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Deliveries Last 90 Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

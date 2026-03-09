@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>B2B Product Shippings</relationshipLabel>
+    <relationshipName>B2B_Product_Shippings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

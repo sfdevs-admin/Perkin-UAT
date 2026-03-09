@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxOppName__c</fullName>
+    <description>The formulated and standardized opp name</description>
+    <externalId>false</externalId>
+    <formula>BLANKVALUE(Account.Account_Short_Name__c , LEFT( Account.Name ,40))
+
+&amp; &quot;-&quot; &amp; TEXT(YEAR(CloseDate))
+
+&amp; &quot;-&quot; &amp;  BLANKVALUE( Primary_Contact_LastName__c ,&quot;&quot;)
+
+&amp; &quot;-(&quot; &amp; SUBSTITUTE(SUBSTITUTE( fxProductLines__c,&quot;;&quot;,&quot;/&quot;),&quot; &quot;,&quot;&quot;) &amp; &quot;)&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The formulated and standardized opp name</inlineHelpText>
+    <label>fxOppName</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

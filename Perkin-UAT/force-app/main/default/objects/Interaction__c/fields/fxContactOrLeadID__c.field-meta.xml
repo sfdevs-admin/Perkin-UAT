@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxContactOrLeadID__c</fullName>
+    <description>This will get us the Contact ID First, or the Lead ID if there is no Contact record. Used in L.FLOW 8000</description>
+    <externalId>false</externalId>
+    <formula>BLANKVALUE(Contact__c, Lead__c)</formula>
+    <inlineHelpText>This will get us the Contact ID First, or the Lead ID if there is no Contact record (used in automation)</inlineHelpText>
+    <label>fxContactOrLeadID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

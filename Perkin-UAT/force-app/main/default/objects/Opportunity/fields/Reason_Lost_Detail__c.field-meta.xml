@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Lost_Detail__c</fullName>
+    <inlineHelpText>-Technologies being used and Application
+- What our competitors did and said to try and win the business
+- What we said and did to counteract them to try and win the business
+- What made the customer choose our competitor over us</inlineHelpText>
+    <label>Closed Reason Detail</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

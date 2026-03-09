@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_Iliana_Corria_Arias_Queue_VoiceCall</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SCV Iliana Corria Arias Queue</label>
+    <queue>SCV_Iliana_Corria_Arias_Queue</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

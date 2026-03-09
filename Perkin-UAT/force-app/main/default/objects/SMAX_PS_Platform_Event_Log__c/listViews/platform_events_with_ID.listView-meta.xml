@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>platform_events_with_ID</fullName>
+    <columns>SMAX_PS_Replay_Id__c</columns>
+    <columns>SMAX_PS_Action__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>SMAX_PS_Related_Element_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMAX_PS_Platform_Event_Type__c</field>
+        <operation>equals</operation>
+        <value>SMAX_PS_WorkOrder_Event__e</value>
+    </filters>
+    <filters>
+        <field>SMAX_PS_Replay_Id__c</field>
+        <operation>greaterThan</operation>
+        <value>11844</value>
+    </filters>
+    <filters>
+        <field>SMAX_PS_Replay_Id__c</field>
+        <operation>lessThan</operation>
+        <value>11962</value>
+    </filters>
+    <label>WO events with ID during duplicate</label>
+    <language>en_US</language>
+</ListView>

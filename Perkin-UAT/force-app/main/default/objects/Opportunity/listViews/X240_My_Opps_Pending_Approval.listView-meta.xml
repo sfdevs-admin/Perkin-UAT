@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X240_My_Opps_Pending_Approval</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Dealer_Approval_Status__c</field>
+        <operation>equals</operation>
+        <value>Pending_For_Approval</value>
+    </filters>
+    <label>240. My Opps (Pending Approval)</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

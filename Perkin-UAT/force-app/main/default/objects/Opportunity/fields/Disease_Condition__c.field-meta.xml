@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disease_Condition__c</fullName>
+    <description>When “Drug Discovery” is selected, required additional identification of a condition, disease, disorder, or problem by systematic analysis</description>
+    <label>Disease Condition</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Application_Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cancer Pathology (QPS) (Cellular, Tissue, Small Animal)</fullName>
+                <default>false</default>
+                <label>Cancer Pathology (QPS) (Cellular, Tissue, Small Animal)</label>
+            </value>
+            <value>
+                <fullName>R&amp;D Pathology - Infectious Diseases (QPS) (Cellular, Tissue, Small Animal)</fullName>
+                <default>false</default>
+                <label>R&amp;D Pathology - Infectious Diseases (QPS) (Cellular, Tissue, Small Animal)</label>
+            </value>
+            <value>
+                <fullName>R&amp;D Pathology -Neurological (QPS) (Cellular, Tissue, Small Animal)</fullName>
+                <default>false</default>
+                <label>R&amp;D Pathology -Neurological (QPS) (Cellular, Tissue, Small Animal)</label>
+            </value>
+            <value>
+                <fullName>Microbiology and Infection (InVitro, InVivo)</fullName>
+                <default>false</default>
+                <label>Microbiology and Infection (InVitro, InVivo)</label>
+            </value>
+            <value>
+                <fullName>Other Health Research Or Biological Research</fullName>
+                <default>false</default>
+                <label>Other Health Research Or Biological Research</label>
+            </value>
+            <value>
+                <fullName>R&amp;D Cancer Diagnostics (Includes Companion Diagnostics) Pre-Clinical</fullName>
+                <default>false</default>
+                <label>R&amp;D Cancer Diagnostics (Includes Companion Diagnostics) Pre-Clinical</label>
+            </value>
+            <value>
+                <fullName>COVID</fullName>
+                <default>false</default>
+                <label>COVID</label>
+            </value>
+            <value>
+                <fullName>Disease Condition</fullName>
+                <default>false</default>
+                <label>Disease Condition</label>
+            </value>
+            <value>
+                <fullName>Oncology /Immuno Oncology</fullName>
+                <default>false</default>
+                <label>Oncology /Immuno Oncology</label>
+            </value>
+            <value>
+                <fullName>Autoimmune &amp; Inflammation</fullName>
+                <default>false</default>
+                <label>Autoimmune &amp; Inflammation</label>
+            </value>
+            <value>
+                <fullName>Cardio Vascular &amp; Metabolic</fullName>
+                <default>false</default>
+                <label>Cardio Vascular &amp; Metabolic</label>
+            </value>
+            <value>
+                <fullName>Neuroscience</fullName>
+                <default>false</default>
+                <label>Neuroscience</label>
+            </value>
+            <value>
+                <fullName>Infectious Diseases &amp; Vaccines</fullName>
+                <default>false</default>
+                <label>Infectious Diseases &amp; Vaccines</label>
+            </value>
+            <value>
+                <fullName>Respiratory diseases</fullName>
+                <default>false</default>
+                <label>Respiratory diseases</label>
+            </value>
+            <value>
+                <fullName>Rare diseases</fullName>
+                <default>false</default>
+                <label>Rare diseases</label>
+            </value>
+            <value>
+                <fullName>Other/multiple</fullName>
+                <default>false</default>
+                <label>Other/multiple</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Oncology /Immuno Oncology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Autoimmune &amp; Inflammation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Cardio Vascular &amp; Metabolic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Neuroscience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Infectious Diseases &amp; Vaccines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Respiratory diseases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Rare diseases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Other/multiple</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Restrict_Qualified_Status</fullName>
+    <active>true</active>
+    <description>This Rule will restrict the user from selecting &quot;Qualified&quot; unless the Lead is converted.</description>
+    <errorConditionFormula>AND( $Permission.BD_Bypass_Automation != TRUE,
+  ISPICKVAL( Status , &#39;Qualified&#39;) ,
+! ( IsConverted ), $Setup.Rules_Execution__c.Run__c)</errorConditionFormula>
+    <errorDisplayField>AA_List__c</errorDisplayField>
+    <errorMessage>V.RULE_LEAD_006: You can&#39;t set this lead as &#39;Qualified&#39;. The lead will be automatically be set to &quot;Qualified&quot; by the system during conversion of lead to contact</errorMessage>
+</ValidationRule>

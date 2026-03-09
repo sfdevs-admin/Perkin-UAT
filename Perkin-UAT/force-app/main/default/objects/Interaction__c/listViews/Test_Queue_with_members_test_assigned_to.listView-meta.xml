@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Queue_with_members_test_assigned_to</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>Assigned_To__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Status__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>NAME</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>Email__c</columns>
+    <columns>Country__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Content_Title__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Working,Closed</value>
+    </filters>
+    <filters>
+        <field>Assigned_To__c</field>
+        <operation>contains</operation>
+        <value>ARQ: GGM LATAM RH LSDX</value>
+    </filters>
+    <label>Assigned to-ARQ: GGM LATAM RH LSDX</label>
+</ListView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X100_Opportunity_QUICK_FILTER</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Referral_Email__c</columns>
+    <columns>GROW__c</columns>
+    <columns>GROW_Employee_ID__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>fxRecordTypeName__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>LSDX</value>
+    </filters>
+    <label>100. Opportunity (*QUICK FILTER*)</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

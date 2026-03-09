@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_GBL_Support_reactivatefields_popultd</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND( ISPICKVAL( Problem_type__c,&#39;User Reactivation&#39;), ISBLANK( Username_to_Reactivate__c ) ) , 
+AND(NOT( ISBLANK( Username_to_Reactivate__c )) , NOT(ISPICKVAL( Problem_type__c,&#39;User Reactivation&#39;))) )</errorConditionFormula>
+    <errorMessage>V.RULE_SUPPORT_002: IF &#39;problem type&#39; is User Reactivation, ensure &#39;Username to reactivate&#39; field is populated. For all other problem types, &#39;Username to reactivate&#39;  field must be left blank.</errorMessage>
+</ValidationRule>

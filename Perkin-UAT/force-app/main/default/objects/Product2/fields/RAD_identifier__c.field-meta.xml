@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RAD_identifier__c</fullName>
+    <description>S-692531 / T-939564</description>
+    <externalId>false</externalId>
+    <inlineHelpText>RAD identifiers are brought in via integration with SAP</inlineHelpText>
+    <label>RAD identifier</label>
+    <length>200</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

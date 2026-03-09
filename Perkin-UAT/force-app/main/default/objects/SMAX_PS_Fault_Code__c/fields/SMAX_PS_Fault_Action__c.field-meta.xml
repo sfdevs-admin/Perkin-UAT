@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Fault_Action__c</fullName>
+    <label>Fault Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advised~AC01</fullName>
+                <default>false</default>
+                <label>Advised~AC01</label>
+            </value>
+            <value>
+                <fullName>Adjusted~AC02</fullName>
+                <default>false</default>
+                <label>Adjusted~AC02</label>
+            </value>
+            <value>
+                <fullName>Aligned~AC03</fullName>
+                <default>false</default>
+                <label>Aligned~AC03</label>
+            </value>
+            <value>
+                <fullName>Calibrated~AC04</fullName>
+                <default>false</default>
+                <label>Calibrated~AC04</label>
+            </value>
+            <value>
+                <fullName>Cleaned~AC05</fullName>
+                <default>false</default>
+                <label>Cleaned~AC05</label>
+            </value>
+            <value>
+                <fullName>Customer Action Req~AC06</fullName>
+                <default>false</default>
+                <label>Customer Action Req~AC06</label>
+            </value>
+            <value>
+                <fullName>Follow Up Required~AC07</fullName>
+                <default>false</default>
+                <label>Follow Up Required~AC07</label>
+            </value>
+            <value>
+                <fullName>Lubricated~AC08</fullName>
+                <default>false</default>
+                <label>Lubricated~AC08</label>
+            </value>
+            <value>
+                <fullName>Monitored~AC09</fullName>
+                <default>false</default>
+                <label>Monitored~AC09</label>
+            </value>
+            <value>
+                <fullName>Rebuilt~AC10</fullName>
+                <default>false</default>
+                <label>Rebuilt~AC10</label>
+            </value>
+            <value>
+                <fullName>Reconfigured~AC11</fullName>
+                <default>false</default>
+                <label>Reconfigured~AC11</label>
+            </value>
+            <value>
+                <fullName>Referred to Specialist~AC12</fullName>
+                <default>false</default>
+                <label>Referred to Specialist~AC12</label>
+            </value>
+            <value>
+                <fullName>Reload Software~AC13</fullName>
+                <default>false</default>
+                <label>Reload Software~AC13</label>
+            </value>
+            <value>
+                <fullName>Repaired Item~AC14</fullName>
+                <default>false</default>
+                <label>Repaired Item~AC14</label>
+            </value>
+            <value>
+                <fullName>Replaced~AC15</fullName>
+                <default>false</default>
+                <label>Replaced~AC15</label>
+            </value>
+            <value>
+                <fullName>Reseat / Reconnected~AC16</fullName>
+                <default>false</default>
+                <label>Reseat / Reconnected~AC16</label>
+            </value>
+            <value>
+                <fullName>Reset Power~AC17</fullName>
+                <default>false</default>
+                <label>Reset Power~AC17</label>
+            </value>
+            <value>
+                <fullName>Resoldered~AC18</fullName>
+                <default>false</default>
+                <label>Resoldered~AC18</label>
+            </value>
+            <value>
+                <fullName>Routine Maintenance~AC19</fullName>
+                <default>false</default>
+                <label>Routine Maintenance~AC19</label>
+            </value>
+            <value>
+                <fullName>SDB Modification~AC20</fullName>
+                <default>false</default>
+                <label>SDB Modification~AC20</label>
+            </value>
+            <value>
+                <fullName>Tested~AC21</fullName>
+                <default>false</default>
+                <label>Tested~AC21</label>
+            </value>
+            <value>
+                <fullName>Tightened~AC22</fullName>
+                <default>false</default>
+                <label>Tightened~AC22</label>
+            </value>
+            <value>
+                <fullName>Trained / Instructed~AC23</fullName>
+                <default>false</default>
+                <label>Trained / Instructed~AC23</label>
+            </value>
+            <value>
+                <fullName>Updated to Latest Vers~AC24</fullName>
+                <default>false</default>
+                <label>Updated to Latest Vers~AC24</label>
+            </value>
+            <value>
+                <fullName>Upgraded~AC25</fullName>
+                <default>false</default>
+                <label>Upgraded~AC25</label>
+            </value>
+            <value>
+                <fullName>Verified~AC26</fullName>
+                <default>false</default>
+                <label>Verified~AC26</label>
+            </value>
+            <value>
+                <fullName>Scheduled Event~AC27</fullName>
+                <default>false</default>
+                <label>Scheduled Event~AC27</label>
+            </value>
+            <value>
+                <fullName>Reprogrammed~AC28</fullName>
+                <default>false</default>
+                <label>Reprogrammed~AC28</label>
+            </value>
+            <value>
+                <fullName>Return to Vendor~AC30</fullName>
+                <default>false</default>
+                <label>Return to Vendor~AC30</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

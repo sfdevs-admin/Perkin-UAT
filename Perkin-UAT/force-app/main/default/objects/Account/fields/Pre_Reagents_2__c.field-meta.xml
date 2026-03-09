@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pre_Reagents_2__c</fullName>
+    <description>11/10/15 - To be deleted</description>
+    <label>Reagents</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PAPP-A</fullName>
+                <default>false</default>
+                <label>PAPP-A</label>
+            </value>
+            <value>
+                <fullName>fHCGb</fullName>
+                <default>false</default>
+                <label>fHCGb</label>
+            </value>
+            <value>
+                <fullName>HCG Intact</fullName>
+                <default>false</default>
+                <label>HCG Intact</label>
+            </value>
+            <value>
+                <fullName>uE3</fullName>
+                <default>false</default>
+                <label>uE3</label>
+            </value>
+            <value>
+                <fullName>Inhibin</fullName>
+                <default>false</default>
+                <label>Inhibin</label>
+            </value>
+            <value>
+                <fullName>AFP</fullName>
+                <default>false</default>
+                <label>AFP</label>
+            </value>
+            <value>
+                <fullName>PLGF</fullName>
+                <default>false</default>
+                <label>PLGF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

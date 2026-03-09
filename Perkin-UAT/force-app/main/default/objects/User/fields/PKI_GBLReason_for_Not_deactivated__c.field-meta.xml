@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_GBLReason_for_Not_deactivated__c</fullName>
+    <description>Reason for why the user cannot be deactivated</description>
+    <inlineHelpText>Please select the reason the User can&#39;t be deactivated.</inlineHelpText>
+    <label>Reason for User Cannot be deactivated</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Automated Process</fullName>
+                <default>false</default>
+                <label>Automated Process</label>
+            </value>
+            <value>
+                <fullName>Connections to be removed</fullName>
+                <default>false</default>
+                <label>Connections to be removed</label>
+            </value>
+            <value>
+                <fullName>Extended leave of Absence</fullName>
+                <default>false</default>
+                <label>Extended leave of Absence</label>
+            </value>
+            <value>
+                <fullName>Integration User</fullName>
+                <default>false</default>
+                <label>Integration User</label>
+            </value>
+            <value>
+                <fullName>Needs Research</fullName>
+                <default>false</default>
+                <label>Needs Research</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Platform Account</fullName>
+                <default>false</default>
+                <label>Platform Account</label>
+            </value>
+            <value>
+                <fullName>System Administrator</fullName>
+                <default>false</default>
+                <label>System Administrator</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

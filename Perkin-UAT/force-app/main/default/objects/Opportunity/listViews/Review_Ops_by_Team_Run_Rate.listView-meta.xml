@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Ops_by_Team_Run_Rate</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>SAP_Quote__c</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>SAP_Estimated_Ship_Date__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>SAP_Inco_Terms__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Commit,Closed</value>
+    </filters>
+    <filters>
+        <field>Shipping_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>equals</operation>
+        <value>LAST_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>contains</operation>
+        <value>DX-AG-AM</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>equals</operation>
+        <value>Monthly RunRate</value>
+    </filters>
+    <label>Review Ops by Team - Run Rate</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

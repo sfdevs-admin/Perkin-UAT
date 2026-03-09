@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Elements_ELM</fullName>
+    <columns>OBJECT_ID</columns>
+    <columns>NAME</columns>
+    <columns>Application__c</columns>
+    <columns>INF_Application_Product_Line__c</columns>
+    <columns>INF_Business_Line__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Case__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Application__c</field>
+        <operation>contains</operation>
+        <value>Elements,SignalS</value>
+    </filters>
+    <label>OLD_Elements - ELM</label>
+    <language>en_US</language>
+</ListView>

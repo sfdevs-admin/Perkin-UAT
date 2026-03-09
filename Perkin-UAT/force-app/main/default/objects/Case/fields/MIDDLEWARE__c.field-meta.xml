@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MIDDLEWARE__c</fullName>
+    <description>Source Ticket :INC0329394</description>
+    <label>MIDDLEWARE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BOOMI</fullName>
+                <default>false</default>
+                <label>BOOMI</label>
+            </value>
+            <value>
+                <fullName>WEBMETHOD</fullName>
+                <default>false</default>
+                <label>WEBMETHOD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

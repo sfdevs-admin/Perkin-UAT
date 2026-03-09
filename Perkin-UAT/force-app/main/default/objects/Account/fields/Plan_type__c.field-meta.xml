@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_type__c</fullName>
+    <label>Plan type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>National</fullName>
+                <default>false</default>
+                <label>National</label>
+            </value>
+            <value>
+                <fullName>Managed Medicaid HMO</fullName>
+                <default>false</default>
+                <label>Managed Medicaid HMO</label>
+            </value>
+            <value>
+                <fullName>Regional Payer</fullName>
+                <default>false</default>
+                <label>Regional Payer</label>
+            </value>
+            <value>
+                <fullName>State Medicaid</fullName>
+                <default>false</default>
+                <label>State Medicaid</label>
+            </value>
+            <value>
+                <fullName>PPO Network</fullName>
+                <default>false</default>
+                <label>PPO Network</label>
+            </value>
+            <value>
+                <fullName>Employer Group Health Plan</fullName>
+                <default>false</default>
+                <label>Employer Group Health Plan</label>
+            </value>
+            <value>
+                <fullName>Medical Group/IPA</fullName>
+                <default>false</default>
+                <label>Medical Group/IPA</label>
+            </value>
+            <value>
+                <fullName>Government Payer</fullName>
+                <default>false</default>
+                <label>Government Payer</label>
+            </value>
+            <value>
+                <fullName>Third Party Administrator</fullName>
+                <default>false</default>
+                <label>Third Party Administrator</label>
+            </value>
+            <value>
+                <fullName>Blue Cross/Blue Shield</fullName>
+                <default>false</default>
+                <label>Blue Cross/Blue Shield</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

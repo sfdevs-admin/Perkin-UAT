@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Region__c</fullName>
+    <description>One level above local Sales Team and one level below Territory</description>
+    <label>Sales Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Americas</fullName>
+                <default>false</default>
+                <label>Americas</label>
+            </value>
+            <value>
+                <fullName>Australia</fullName>
+                <default>false</default>
+                <label>Australia</label>
+            </value>
+            <value>
+                <fullName>Benelux</fullName>
+                <default>false</default>
+                <label>Benelux</label>
+            </value>
+            <value>
+                <fullName>CA10 AS Canada</fullName>
+                <default>false</default>
+                <label>CA10 AS Canada</label>
+            </value>
+            <value>
+                <fullName>CA10 Molecular</fullName>
+                <default>false</default>
+                <label>CA10 Molecular</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>DEA Cluster</fullName>
+                <default>false</default>
+                <label>DEA Cluster</label>
+            </value>
+            <value>
+                <fullName>EBE2 Belgium</fullName>
+                <default>false</default>
+                <label>EBE2 Belgium</label>
+            </value>
+            <value>
+                <fullName>ECH2 / EES2 / EFR2 - Leader</fullName>
+                <default>false</default>
+                <label>ECH2 / EES2 / EFR2 - Leader</label>
+            </value>
+            <value>
+                <fullName>ECH2 Switzerland</fullName>
+                <default>false</default>
+                <label>ECH2 Switzerland</label>
+            </value>
+            <value>
+                <fullName>EES2 Spain</fullName>
+                <default>false</default>
+                <label>EES2 Spain</label>
+            </value>
+            <value>
+                <fullName>EFR2 France</fullName>
+                <default>false</default>
+                <label>EFR2 France</label>
+            </value>
+            <value>
+                <fullName>EIT2 Italy</fullName>
+                <default>false</default>
+                <label>EIT2 Italy</label>
+            </value>
+            <value>
+                <fullName>GAE Group</fullName>
+                <default>false</default>
+                <label>GAE Group</label>
+            </value>
+            <value>
+                <fullName>GDS Americas</fullName>
+                <default>false</default>
+                <label>GDS Americas</label>
+            </value>
+            <value>
+                <fullName>Hong Kong</fullName>
+                <default>false</default>
+                <label>Hong Kong</label>
+            </value>
+            <value>
+                <fullName>Indonesia</fullName>
+                <default>false</default>
+                <label>Indonesia</label>
+            </value>
+            <value>
+                <fullName>Islands Cluster</fullName>
+                <default>false</default>
+                <label>Islands Cluster</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Korea</fullName>
+                <default>false</default>
+                <label>Korea</label>
+            </value>
+            <value>
+                <fullName>LA North</fullName>
+                <default>false</default>
+                <label>LA North</label>
+            </value>
+            <value>
+                <fullName>LA South</fullName>
+                <default>false</default>
+                <label>LA South</label>
+            </value>
+            <value>
+                <fullName>Malaysia</fullName>
+                <default>false</default>
+                <label>Malaysia</label>
+            </value>
+            <value>
+                <fullName>Philippines</fullName>
+                <default>false</default>
+                <label>Philippines</label>
+            </value>
+            <value>
+                <fullName>SEMEA Cluster</fullName>
+                <default>false</default>
+                <label>SEMEA Cluster</label>
+            </value>
+            <value>
+                <fullName>Singapore</fullName>
+                <default>false</default>
+                <label>Singapore</label>
+            </value>
+            <value>
+                <fullName>Taiwan</fullName>
+                <default>false</default>
+                <label>Taiwan</label>
+            </value>
+            <value>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+                <label>Telemarketing</label>
+            </value>
+            <value>
+                <fullName>Thailand</fullName>
+                <default>false</default>
+                <label>Thailand</label>
+            </value>
+            <value>
+                <fullName>United Kingdom</fullName>
+                <default>false</default>
+                <label>United Kingdom</label>
+            </value>
+            <value>
+                <fullName>US10 AS West</fullName>
+                <default>false</default>
+                <label>US10 AS West</label>
+            </value>
+            <value>
+                <fullName>US10 Labworks</fullName>
+                <default>false</default>
+                <label>US10 Labworks</label>
+            </value>
+            <value>
+                <fullName>US10 MM East</fullName>
+                <default>false</default>
+                <label>US10 MM East</label>
+            </value>
+            <value>
+                <fullName>US10 MM West</fullName>
+                <default>false</default>
+                <label>US10 MM West</label>
+            </value>
+            <value>
+                <fullName>Vietnam</fullName>
+                <default>false</default>
+                <label>Vietnam</label>
+            </value>
+            <value>
+                <fullName>WEST Cluster</fullName>
+                <default>false</default>
+                <label>WEST Cluster</label>
+            </value>
+            <value>
+                <fullName>US10 AS NorthEast</fullName>
+                <default>false</default>
+                <label>US10 AS NorthEast</label>
+            </value>
+            <value>
+                <fullName>US10 AS SouthEast</fullName>
+                <default>false</default>
+                <label>US10 AS SouthEast</label>
+            </value>
+            <value>
+                <fullName>US10 AS MidWest</fullName>
+                <default>false</default>
+                <label>US10 AS MidWest</label>
+            </value>
+            <value>
+                <fullName>US10 AS TexasGulf</fullName>
+                <default>false</default>
+                <label>US10 AS TexasGulf</label>
+            </value>
+            <value>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+                <label>EMEA</label>
+            </value>
+            <value>
+                <fullName>JP/KR</fullName>
+                <default>false</default>
+                <label>JP/KR</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>APAC</fullName>
+                <default>false</default>
+                <label>APAC</label>
+            </value>
+            <value>
+                <fullName>Central America</fullName>
+                <default>false</default>
+                <label>Central America</label>
+            </value>
+            <value>
+                <fullName>DACH</fullName>
+                <default>false</default>
+                <label>DACH</label>
+            </value>
+            <value>
+                <fullName>DX EMEA Export</fullName>
+                <default>false</default>
+                <label>DX EMEA Export</label>
+            </value>
+            <value>
+                <fullName>DX EMEA Support</fullName>
+                <default>false</default>
+                <label>DX EMEA Support</label>
+            </value>
+            <value>
+                <fullName>France</fullName>
+                <default>false</default>
+                <label>France</label>
+            </value>
+            <value>
+                <fullName>Italy</fullName>
+                <default>false</default>
+                <label>Italy</label>
+            </value>
+            <value>
+                <fullName>Nordics</fullName>
+                <default>false</default>
+                <label>Nordics</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>UK &amp; Ireland</fullName>
+                <default>false</default>
+                <label>UK &amp; Ireland</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CHINA</controllingFieldValue>
+            <valueName>CA10 Molecular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHINA</controllingFieldValue>
+            <valueName>LA North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHINA</controllingFieldValue>
+            <valueName>LA South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHINA</controllingFieldValue>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <controllingFieldValue>JAPAN</controllingFieldValue>
+            <controllingFieldValue>KOREA, REPUBLIC OF</controllingFieldValue>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <controllingFieldValue>SOUTH AMERICA</controllingFieldValue>
+            <controllingFieldValue>SOUTH ASIA</controllingFieldValue>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHINA</controllingFieldValue>
+            <controllingFieldValue>JAPAN</controllingFieldValue>
+            <controllingFieldValue>KOREA, REPUBLIC OF</controllingFieldValue>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <controllingFieldValue>SOUTH ASIA</controllingFieldValue>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>APAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>Benelux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>EMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>DACH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>DX EMEA Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>DX EMEA Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>Italy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>Nordics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>Spain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>UK &amp; Ireland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAPAN</controllingFieldValue>
+            <valueName>Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAPAN</controllingFieldValue>
+            <valueName>Hong Kong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAPAN</controllingFieldValue>
+            <valueName>Singapore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAPAN</controllingFieldValue>
+            <valueName>JP/KR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOREA, REPUBLIC OF</controllingFieldValue>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <controllingFieldValue>SOUTH AMERICA</controllingFieldValue>
+            <valueName>Americas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOREA, REPUBLIC OF</controllingFieldValue>
+            <valueName>GAE Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOREA, REPUBLIC OF</controllingFieldValue>
+            <valueName>GDS Americas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOREA, REPUBLIC OF</controllingFieldValue>
+            <valueName>US10 Labworks</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

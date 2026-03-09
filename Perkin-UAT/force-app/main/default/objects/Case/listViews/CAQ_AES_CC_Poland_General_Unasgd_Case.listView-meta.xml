@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAQ_AES_CC_Poland_General_Unasgd_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: AES CC Poland General Unasgd</label>
+    <queue>ARQ_000458</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxMissingFields_CW__c</fullName>
+    <description>fields missing at the current stage</description>
+    <externalId>false</externalId>
+    <formula>IF( OR(
+        CONTAINS(TEXT(Type), &quot;Instrument&quot;)
+       ,CONTAINS(TEXT(Type), &quot;Demo&quot;)
+       ,CONTAINS(TEXT(Type), &quot;Software&quot;)
+      )
+    ,IF( TEXT(Demo_Samples_run__c) =&quot;&quot;, &quot;•Demo/Samples Run;&quot;,&quot;&quot;)
+     &amp; IF( AND( SAP_Order__c =&quot;&quot; 
+               ,NOT(INCLUDES( Owner.fxUserExtraAttributes__c , &quot;2000-SAP Not Required&quot;))
+              ),&quot;•SAP Order #;&quot; ,&quot;&quot;)
+     &amp; IF( AND( TEXT(Sales_Type__c) = &quot;Service Sales&quot;
+               ,Customer_PO__c =&quot;&quot;
+              ),&quot;•Customer PO;&quot;,&quot;&quot;)        			   
+    , &quot;&quot;
+  )
+/*Since all other fields are needed prior to Closed Won, there should not be any missing fields here.
+Also, Closed Reason Detail (Reason_Lost_Detail__c) is LongText and can&#39;t be part of a formula, so it is part of V.RULE OPP 071*/</formula>
+    <inlineHelpText>fields missing at the current stage</inlineHelpText>
+    <label>fxMissingFields_CW</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Function__c</fullName>
+    <description>Function from SAP</description>
+    <label>Function</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Basic Research</fullName>
+                <default>false</default>
+                <label>Basic Research</label>
+            </value>
+            <value>
+                <fullName>Chemical</fullName>
+                <default>false</default>
+                <label>Chemical</label>
+            </value>
+            <value>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+                <label>Dealer</label>
+            </value>
+            <value>
+                <fullName>Diagnostics</fullName>
+                <default>false</default>
+                <label>Diagnostics</label>
+            </value>
+            <value>
+                <fullName>EDP manager</fullName>
+                <default>false</default>
+                <label>EDP manager</label>
+            </value>
+            <value>
+                <fullName>Education/Teaching</fullName>
+                <default>false</default>
+                <label>Education/Teaching</label>
+            </value>
+            <value>
+                <fullName>Electronics/Semicndt</fullName>
+                <default>false</default>
+                <label>Electronics/Semicndt</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Executive Board</fullName>
+                <default>false</default>
+                <label>Executive Board</label>
+            </value>
+            <value>
+                <fullName>Fin.accountg manager</fullName>
+                <default>false</default>
+                <label>Fin.accountg manager</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Food/Environmental</fullName>
+                <default>false</default>
+                <label>Food/Environmental</label>
+            </value>
+            <value>
+                <fullName>Head of Personnel</fullName>
+                <default>false</default>
+                <label>Head of Personnel</label>
+            </value>
+            <value>
+                <fullName>Head of Purchasing</fullName>
+                <default>false</default>
+                <label>Head of Purchasing</label>
+            </value>
+            <value>
+                <fullName>Head of Sales</fullName>
+                <default>false</default>
+                <label>Head of Sales</label>
+            </value>
+            <value>
+                <fullName>Head of the Canteen</fullName>
+                <default>false</default>
+                <label>Head of the Canteen</label>
+            </value>
+            <value>
+                <fullName>Human Disease Resrch</fullName>
+                <default>false</default>
+                <label>Human Disease Resrch</label>
+            </value>
+            <value>
+                <fullName>Human Identity</fullName>
+                <default>false</default>
+                <label>Human Identity</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Janitor</fullName>
+                <default>false</default>
+                <label>Janitor</label>
+            </value>
+            <value>
+                <fullName>Marketing Manager</fullName>
+                <default>false</default>
+                <label>Marketing Manager</label>
+            </value>
+            <value>
+                <fullName>Mining and Geologica</fullName>
+                <default>false</default>
+                <label>Mining and Geologica</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Personal Assistant</fullName>
+                <default>false</default>
+                <label>Personal Assistant</label>
+            </value>
+            <value>
+                <fullName>Pharmaceutical</fullName>
+                <default>false</default>
+                <label>Pharmaceutical</label>
+            </value>
+            <value>
+                <fullName>Polymers &amp; Plastics</fullName>
+                <default>false</default>
+                <label>Polymers &amp; Plastics</label>
+            </value>
+            <value>
+                <fullName>Therapeutics</fullName>
+                <default>false</default>
+                <label>Therapeutics</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

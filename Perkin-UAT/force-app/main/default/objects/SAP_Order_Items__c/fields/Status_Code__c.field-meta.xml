@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Code__c</fullName>
+    <description>**IMPORTANT** This Field is part of a Boomi Integration. Do not Use this field as part of other updates/integrations. This is used for formula on PKi  Item Tracking</description>
+    <externalId>false</externalId>
+    <label>Status Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

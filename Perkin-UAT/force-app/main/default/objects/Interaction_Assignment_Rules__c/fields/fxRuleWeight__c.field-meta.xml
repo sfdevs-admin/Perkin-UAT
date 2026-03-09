@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxRuleWeight__c</fullName>
+    <description>This will check to see how many fields contain criteria so we can weight the rule biggest to smallest integert</description>
+    <externalId>false</externalId>
+    <formula>/* How many fields contain criteria? 1 - 6*/
+
+IF(Region__c=&quot;#ALL&quot;,0,1) + 
+IF(Country__c=&quot;#ALL&quot;,0,1) + 
+IF(State__c=&quot;#ALL&quot;,0,1) + 
+IF(PostalCode__c =&quot;#ALL&quot;,0,1) + 
+IF(INCLUDES(SolutionsAreaofInterest__c,&quot;#ALL&quot;),0,1) + 
+IF(INCLUDES(ProductLine__c,&quot;#ALL&quot;),0,1) + 
+IF(INCLUDES(ProductClass__c,&quot;#ALL&quot;),0,1)</formula>
+    <inlineHelpText>How many fields contain criteria</inlineHelpText>
+    <label>fxRuleWeight</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

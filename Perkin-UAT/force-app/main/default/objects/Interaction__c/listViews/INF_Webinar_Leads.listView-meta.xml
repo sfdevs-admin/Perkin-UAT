@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Webinar_Leads</fullName>
+    <columns>NAME</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Campaign__c</columns>
+    <columns>Country__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Lead_Source__c</field>
+        <operation>equals</operation>
+        <value>Webinar</value>
+    </filters>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>contains</operation>
+        <value>INF-SRP-2023-GLO-Webinar-3RD-DG-ZZ-BioITWebinar</value>
+    </filters>
+    <label>INF Webinar Leads</label>
+</ListView>

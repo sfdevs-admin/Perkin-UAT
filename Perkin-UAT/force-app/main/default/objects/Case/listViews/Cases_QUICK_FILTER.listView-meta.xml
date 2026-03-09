@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cases_QUICK_FILTER</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>INF_Account_Country__c</columns>
+    <columns>External_Email_Inbox__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BD_Record_Type_formula__c</field>
+        <operation>equals</operation>
+        <value>Dx Support</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>DX Support LATAM,DX Support EMEA,DX Support L3</value>
+    </filters>
+    <filters>
+        <field>External_Email_Inbox__c</field>
+        <operation>notContain</operation>
+        <value>dxsupportlatam@revvity.com,dxsupportemea@revvity.com,dxsupportl3@revvity.com</value>
+    </filters>
+    <filters>
+        <field>SpamType__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Cases (*QUICK FILTER*)</label>
+</ListView>

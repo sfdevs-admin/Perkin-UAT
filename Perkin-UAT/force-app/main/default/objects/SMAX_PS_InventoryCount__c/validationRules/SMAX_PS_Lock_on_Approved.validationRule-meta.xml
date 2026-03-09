@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Lock_on_Approved</fullName>
+    <active>false</active>
+    <errorConditionFormula>$Permission.BD_Bypass_Automation != TRUE
+&amp;&amp; ISPICKVAL(PRIORVALUE(SMAX_PS_Status__c ), &quot;Approved&quot; )</errorConditionFormula>
+    <errorMessage>Inventory Count is locked and can no longer be edited.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Block_Global_Domains</fullName>
+    <active>true</active>
+    <description>We can&#39;t allow accidental blocking of globally used domain s (i.e. Gmial.com)</description>
+    <errorConditionFormula>AND(
+  Block_Domain__c =true 
+, OR (
+    fxDomain__c=&#39;gmail.com&#39;
+   ,fxDomain__c=&#39;yahoo.com&#39;
+   ,fxDomain__c=&#39;aol.com&#39;
+   ,fxDomain__c=&#39;outlook.com&#39;
+     )
+  )</errorConditionFormula>
+    <errorDisplayField>Block_Domain__c</errorDisplayField>
+    <errorMessage>V.RULE_SPAM_BLOCKLIST_001: You can not block the domain of globally used domains (such as gmail.com or outlook.com)</errorMessage>
+</ValidationRule>

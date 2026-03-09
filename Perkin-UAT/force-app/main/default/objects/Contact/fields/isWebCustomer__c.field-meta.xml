@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isWebCustomer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Source: INC0387147
+As part of Ecom project. Used to identify if the Contact is created from Web request Populated by Integration</description>
+    <inlineHelpText>Used to identify if the Contact is created from Web request</inlineHelpText>
+    <label>isWebCustomer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

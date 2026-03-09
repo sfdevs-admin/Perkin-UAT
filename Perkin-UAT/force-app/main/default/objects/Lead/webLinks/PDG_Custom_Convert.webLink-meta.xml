@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDG_Custom_Convert</fullName>
+    <availability>online</availability>
+    <description>Button fires the visualforce page to cancel workflows</description>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>PDG Convert</masterLabel>
+    <openType>replace</openType>
+    <page>Cancel_Workflows</page>
+    <protected>false</protected>
+</WebLink>

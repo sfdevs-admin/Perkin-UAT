@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Cycle_Status__c</fullName>
+    <label>Sales Cycle Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1a Lead</fullName>
+                <default>false</default>
+                <label>1a Lead</label>
+            </value>
+            <value>
+                <fullName>1b Qualified Lead</fullName>
+                <default>false</default>
+                <label>1b Qualified Lead</label>
+            </value>
+            <value>
+                <fullName>1c Pre-approach Lead</fullName>
+                <default>false</default>
+                <label>1c Pre-approach Lead</label>
+            </value>
+            <value>
+                <fullName>1nq - Not Qualified</fullName>
+                <default>false</default>
+                <label>1nq - Not Qualified</label>
+            </value>
+            <value>
+                <fullName>1s Follow up later to set up with trial</fullName>
+                <default>false</default>
+                <label>1s Follow up later to set up with trial</label>
+            </value>
+            <value>
+                <fullName>1ta Trial signup - to be contacted now</fullName>
+                <default>false</default>
+                <label>1ta Trial signup - to be contacted now</label>
+            </value>
+            <value>
+                <fullName>1v Signed up for trial- not able to follow</fullName>
+                <default>false</default>
+                <label>1v Signed up for trial- not able to follow</label>
+            </value>
+            <value>
+                <fullName>1v trials signup not ready</fullName>
+                <default>false</default>
+                <label>1v trials signup not ready</label>
+            </value>
+            <value>
+                <fullName>1x Dormant</fullName>
+                <default>false</default>
+                <label>1x Dormant</label>
+            </value>
+            <value>
+                <fullName>1z Trial scheduled, not yet active</fullName>
+                <default>false</default>
+                <label>1z Trial scheduled, not yet active</label>
+            </value>
+            <value>
+                <fullName>2a Trial Account - Inactive</fullName>
+                <default>false</default>
+                <label>2a Trial Account - Inactive</label>
+            </value>
+            <value>
+                <fullName>2b Trial Account - Active</fullName>
+                <default>false</default>
+                <label>2b Trial Account - Active</label>
+            </value>
+            <value>
+                <fullName>2c Trial Account - Extended</fullName>
+                <default>false</default>
+                <label>2c Trial Account - Extended</label>
+            </value>
+            <value>
+                <fullName>2i iFinch Trial</fullName>
+                <default>false</default>
+                <label>2i iFinch Trial</label>
+            </value>
+            <value>
+                <fullName>3a Verbal</fullName>
+                <default>false</default>
+                <label>3a Verbal</label>
+            </value>
+            <value>
+                <fullName>3b Ordered</fullName>
+                <default>false</default>
+                <label>3b Ordered</label>
+            </value>
+            <value>
+                <fullName>3c Paid</fullName>
+                <default>false</default>
+                <label>3c Paid</label>
+            </value>
+            <value>
+                <fullName>8d Competitor</fullName>
+                <default>false</default>
+                <label>8d Competitor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

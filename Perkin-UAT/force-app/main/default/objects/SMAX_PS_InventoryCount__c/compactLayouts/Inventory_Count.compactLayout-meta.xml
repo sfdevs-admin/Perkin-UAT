@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inventory_Count</fullName>
+    <fields>Name</fields>
+    <fields>SMAX_PS_Status__c</fields>
+    <fields>SMAX_PS_Service_Engineer__c</fields>
+    <fields>SMAX_PS_PlannedDate__c</fields>
+    <fields>SMAX_PS_Count_Date__c</fields>
+    <label>Inventory Count</label>
+</CompactLayout>

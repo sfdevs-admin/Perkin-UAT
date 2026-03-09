@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reply_To_All_Recipients__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>TRUE=  reply to all emails in the incoming email; FALSE = Only reply to sender. (other E2C addresses are always removed as it causes duplicates)</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>TRUE=  reply to all emails in the incoming email; FALSE = Only reply to sender. (other E2C addresses are always removed as it causes duplicates)</inlineHelpText>
+    <label>Reply To All Recipients</label>
+    <type>Checkbox</type>
+</CustomField>

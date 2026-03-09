@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_and_Deployment_Status_Projects</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>Sub_type_ecommerce__c</columns>
+    <columns>Milestone_Status__c</columns>
+    <columns>INF_Case_Ref_Id__c</columns>
+    <columns>Case_Aging__c</columns>
+    <columns>INF_Account_Country__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.E_commerce</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>Issue,Project</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>Milestone_Status__c</field>
+        <operation>equals</operation>
+        <value>Deployment Phase,Post-Deployment Follow-Up</value>
+    </filters>
+    <label>E-COM Closed &amp; Deployment Status Project</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000801</group>
+    </sharedTo>
+</ListView>

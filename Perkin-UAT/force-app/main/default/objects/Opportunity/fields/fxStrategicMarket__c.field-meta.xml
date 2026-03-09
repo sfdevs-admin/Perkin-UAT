@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxStrategicMarket__c</fullName>
+    <description>used to link up to Data Cloud and mirrors data in Strategic Market Picklist</description>
+    <externalId>false</externalId>
+    <inlineHelpText>used to link up to Data Cloud and mirrors data in Strategic Market Picklist</inlineHelpText>
+    <label>fxStrategicMarket</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

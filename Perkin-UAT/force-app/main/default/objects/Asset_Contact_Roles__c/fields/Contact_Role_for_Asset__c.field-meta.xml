@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Role_for_Asset__c</fullName>
+    <label>Contact Role for Asset</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Asset owner</fullName>
+                <default>false</default>
+                <label>Asset owner</label>
+            </value>
+            <value>
+                <fullName>Core facility manager</fullName>
+                <default>false</default>
+                <label>Core facility manager</label>
+            </value>
+            <value>
+                <fullName>Power user</fullName>
+                <default>false</default>
+                <label>Power user</label>
+            </value>
+            <value>
+                <fullName>Standard user</fullName>
+                <default>false</default>
+                <label>Standard user</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

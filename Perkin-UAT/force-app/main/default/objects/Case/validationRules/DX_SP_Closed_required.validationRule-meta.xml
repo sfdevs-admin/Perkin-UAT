@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_SP_Closed_required</fullName>
+    <active>true</active>
+    <description>Fields required when DX SP is Closed</description>
+    <errorConditionFormula>IF(AND(RecordTypeId=&#39;0123A000001GhBc&#39; /* DX Support */
+,NOT(PKI_GLB_Duplicate_Case__c)
+,OR(ISPICKVAL(Status,&#39;Closed&#39;)
+,NOT(ISNULL(DX_Date_Closed__c )))
+,OR(ISPICKVAL(Product_Line__c,&#39;&#39;)
+,ISBLANK(DX_Resolution__c)
+,ISPICKVAL(DX_Field_Dispatched__c,&#39;&#39;)
+,ISPICKVAL(DX_Issue_Type__c,&#39;&#39;)
+,ISBLANK(DX_Resolution_Date__c)))
+,true,false)</errorConditionFormula>
+    <errorDisplayField>Product_Line__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_013:  Product Line, Resolution,Field Dispatched,Issue Type, Resolution Date fields are required</errorMessage>
+</ValidationRule>

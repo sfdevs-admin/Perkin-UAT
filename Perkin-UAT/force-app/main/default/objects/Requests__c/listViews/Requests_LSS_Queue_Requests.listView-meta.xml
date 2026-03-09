@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requests_LSS_Queue_Requests</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Requests - LSS Queue</label>
+    <queue>ARQ_000657</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Historical_Data</fullName>
+    <active>true</active>
+    <description>historical data to be locked</description>
+    <errorConditionFormula>Date__c &lt; today() &amp;&amp;
+NOT( $Permission.C_PERM_9000_SIOP_Edit_Historical_Data )</errorConditionFormula>
+    <errorDisplayField>Units__c</errorDisplayField>
+    <errorMessage>V.RULE_SIOP_DATA_001: Can not edit Prior Month Data after the cutoff of the 5th of each month</errorMessage>
+</ValidationRule>

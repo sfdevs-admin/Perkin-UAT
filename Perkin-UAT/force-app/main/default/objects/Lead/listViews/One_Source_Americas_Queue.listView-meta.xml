@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>One_Source_Americas_Queue</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Requested_Interests__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>One Source Americas Queue</label>
+    <language>en_US</language>
+    <queue>ARQ_000648</queue>
+</ListView>

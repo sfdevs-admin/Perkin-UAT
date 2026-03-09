@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_s_your_deadline__c</fullName>
+    <inlineHelpText>To be filled by Manager</inlineHelpText>
+    <label>What&#39;s your deadline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope__c</fullName>
+    <description>To display data from the contract scope field here in the cross function object realted list</description>
+    <externalId>false</externalId>
+    <formula>IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;ASLS_Reagents&quot;),&quot;ASLS_Reagents: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;ASLS_Instruments&quot;),&quot;ASLS_Instruments: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;ASLS_Consumables&quot;),&quot;ASLS_Consumables: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;LST_Reagents&quot;),&quot;LST_Reagents: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;LST_Instruments&quot;),&quot;LST_Instruments: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;LST_Consumables&quot;),&quot;LST_Consumables: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;GS_Reagents&quot;),&quot;GS_Reagents: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;GS_Instruments&quot;),&quot;GS_Instruments: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;GS_Consumables&quot;),&quot;GS_Consumables: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;SDx_Reagents&quot;),&quot;SDx_Reagents: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;SDx_Instruments&quot;),&quot;SDx_Instruments: &quot;,&quot;&quot;)&amp;
+IF(includes( Contract_Relationship_1__r.Scope__c ,&quot;SDx_Consumables&quot;),&quot;SDx_Consumables: &quot;,&quot;&quot;)</formula>
+    <label>Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

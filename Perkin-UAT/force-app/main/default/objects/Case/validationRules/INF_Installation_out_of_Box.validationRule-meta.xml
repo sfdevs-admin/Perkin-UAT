@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Installation_out_of_Box</fullName>
+    <active>true</active>
+    <description>ORIG: LST - Built for Support Case 039
+PRIOR: MM: 06/17/2019
+NEW: MG: 09/25/2022 standardized format -
+Labeled Error MSG (CASES&#39; to CASE&#39;)</description>
+    <errorConditionFormula>AND(NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+,ISPICKVAL(Status,&quot;Closed&quot;)
+,ISPICKVAL(Type, &quot;Field Service&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Installation&quot;)
+,OR(ISPICKVAL(Functional__c,&quot;&quot;)
+,ISPICKVAL(Completeness__c,&quot;&quot;)
+,ISPICKVAL( Packaging__c,&quot;&quot;)))</errorConditionFormula>
+    <errorDisplayField>Packaging__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_034: If Type is &quot;Field Service&quot; and Sub Type is &quot;Installation&quot; the Completeness, Functional, and Packaging is required.</errorMessage>
+</ValidationRule>

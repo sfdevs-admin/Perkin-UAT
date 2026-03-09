@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Priority_Flag__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Priority,
+&quot;Critical&quot;,IMAGE(&quot;/img/samples/color_red.gif&quot;,&quot;red&quot;, 15,40)+ &#39;Critical&#39;,
+
+&quot;High&quot;,IMAGE(&quot;/resource/1497606577000/Orange&quot;,&quot;Orange&quot;, 15,40)+ &#39;High&#39;,
+
+&quot;Medium&quot;,IMAGE(&quot;/img/samples/color_yellow.gif&quot;,&quot;yellow&quot;, 15,40)+ &#39;Medium&#39;,
+
+&quot;Low&quot;,IMAGE(&quot;/img/samples/color_green.gif&quot;,&quot;green&quot;, 15,40)+ &#39;Low&#39;,
+
+&quot;Priority Flag&quot;)</formula>
+    <label>Case Priority Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

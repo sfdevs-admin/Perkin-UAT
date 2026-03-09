@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Contract_Platform_Event_Logs</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_Platform_Event_Type__c</columns>
+    <columns>SMAX_PS_Replay_Id__c</columns>
+    <columns>SMAX_PS_Action__c</columns>
+    <columns>SMAX_PS_Related_Element_Id__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>SMAX_PS_Error_Message__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMAX_PS_Platform_Event_Type__c</field>
+        <operation>equals</operation>
+        <value>SMAX_PS_ServiceContract_Event__e</value>
+    </filters>
+    <label>Service Contract Platform Event Logs</label>
+</ListView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analytical_US13_Available_Inventory</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>Product_Line__c</columns>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Status__c</columns>
+    <columns>Current_Location__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Plant__c</field>
+        <operation>equals</operation>
+        <value>US13</value>
+    </filters>
+    <filters>
+        <field>Territory__c</field>
+        <operation>equals</operation>
+        <value>Americas</value>
+    </filters>
+    <filters>
+        <field>Sales_Team__c</field>
+        <operation>equals</operation>
+        <value>US10 West</value>
+    </filters>
+    <label>Analytical-US13-West</label>
+    <language>en_US</language>
+</ListView>

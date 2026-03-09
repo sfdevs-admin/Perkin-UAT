@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDM_All_Caribbean_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PKI_SAP_Name_2__c</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>AG,AI,AN,AS,AW,BB,BL,BM,BQ,BS,CU,CW,DM,DO,GD,GY,HN,HT,JM,KN,KY,LC,MF,MS,PM,PR,SR,SX,TC,TT,VC,VG,VI</value>
+    </filters>
+    <label>MDM - All Caribbean Accounts</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

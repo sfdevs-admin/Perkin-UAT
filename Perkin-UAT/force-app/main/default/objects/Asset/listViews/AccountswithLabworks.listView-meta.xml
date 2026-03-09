@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountswithLabworks</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>Equipment_Number__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>Support_ID__c</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>startsWith</operation>
+        <value>ALS</value>
+    </filters>
+    <label>ALS Assets</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000898</group>
+        <group>ARQ_000956</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASCE_Consumables_PL_Global</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>product_line__c</columns>
+    <columns>BUSINESS_UNIT_FORMULA__c</columns>
+    <columns>IGOR_Description__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Business_Unit__c</columns>
+    <columns>Sub_Business_Unit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>product_line__c</field>
+        <operation>contains</operation>
+        <value>AA,ICP,IR,GC,GCE,LC,LCM,MAS,TEA,UVS,MSA</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.DESCRIPTION</field>
+        <operation>contains</operation>
+        <value>run rate</value>
+    </filters>
+    <label>ASCE Consumables PL Global</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

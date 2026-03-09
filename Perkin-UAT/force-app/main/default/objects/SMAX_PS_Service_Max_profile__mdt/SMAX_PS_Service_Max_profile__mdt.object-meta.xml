@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This meta type is used to compare specific profile of user executing the transactions and exclude them from few validations. Ex: Allow CRC user to cancel estimate with Usage/Consumption lines If the record type is Service Estimate.</description>
+    <label>Service Max profile</label>
+    <pluralLabel>Service Max profiles</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxRecordTypeDevName__c</fullName>
+    <description>This gets the Developer Name of the Record Type to use for string matches in V.RULE, etc</description>
+    <externalId>false</externalId>
+    <formula>RecordType.DeveloperName</formula>
+    <inlineHelpText>This gets the Developer Name of the Record Type to use for string matches in V.RULE, etc</inlineHelpText>
+    <label>fxRecordTypeDevName</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Closure__c</fullName>
+    <description>requested by R Talbot -ITSFDC-1268</description>
+    <inlineHelpText>Please indicate why the case is being closed by selecting one of the values in this drop down list.</inlineHelpText>
+    <label>Reason for Closure</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inactivity: Solution Provided</fullName>
+                <default>false</default>
+                <label>Inactivity: Solution Provided</label>
+            </value>
+            <value>
+                <fullName>Inactivity: No Solution Provided</fullName>
+                <default>false</default>
+                <label>Inactivity: No Solution Provided</label>
+            </value>
+            <value>
+                <fullName>Customer Confirmed: Resolved</fullName>
+                <default>false</default>
+                <label>Customer Confirmed: Resolved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

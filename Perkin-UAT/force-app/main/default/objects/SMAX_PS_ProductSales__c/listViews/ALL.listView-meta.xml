@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALL</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_SalesOrg__c</columns>
+    <columns>SMAX_PS_Product__c</columns>
+    <columns>SMAX_PS_Part_Description__c</columns>
+    <columns>SMAX_PS_Part_Number__c</columns>
+    <columns>SMAX_PS_Product_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMAX_PS_SalesOrg__c</field>
+        <operation>equals</operation>
+        <value>EGB2</value>
+    </filters>
+    <label>ALL</label>
+    <language>en_US</language>
+</ListView>

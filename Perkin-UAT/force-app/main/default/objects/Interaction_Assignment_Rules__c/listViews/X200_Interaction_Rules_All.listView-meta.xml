@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X200_Interaction_Rules_All</fullName>
+    <columns>NAME</columns>
+    <columns>Region__c</columns>
+    <columns>Country__c</columns>
+    <columns>PostalCode__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>PKIQueue__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>fxQueueEmail__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>APAC</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>contains</operation>
+        <value>jp</value>
+    </filters>
+    <label>200. Interaction Rules - All</label>
+</ListView>

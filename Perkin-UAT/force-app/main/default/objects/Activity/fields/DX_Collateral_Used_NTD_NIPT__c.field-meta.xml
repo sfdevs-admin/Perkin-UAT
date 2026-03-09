@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Collateral_Used_NTD_NIPT__c</fullName>
+    <description>This field is accessible by Viacord Marketing users</description>
+    <label>DX Collateral Used - NTD &amp; NIPT</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACMG PRACTICE GUIDELINES</fullName>
+                <default>false</default>
+                <label>ACMG PRACTICE GUIDELINES</label>
+            </value>
+            <value>
+                <fullName>ACOG PRACTICE BULLETIN 77</fullName>
+                <default>false</default>
+                <label>ACOG PRACTICE BULLETIN 77</label>
+            </value>
+            <value>
+                <fullName>BORRELL 1ST TRIMESTER SCREENING</fullName>
+                <default>false</default>
+                <label>BORRELL 1ST TRIMESTER SCREENING</label>
+            </value>
+            <value>
+                <fullName>BUJOLD ASPIRIN META ANALY</fullName>
+                <default>false</default>
+                <label>BUJOLD ASPIRIN META ANALY</label>
+            </value>
+            <value>
+                <fullName>CHROM ABNORMAL DETECT</fullName>
+                <default>false</default>
+                <label>CHROM ABNORMAL DETECT</label>
+            </value>
+            <value>
+                <fullName>CLINIC BENEFIT 1ST TRIMESTER BIOCHEM SCN</fullName>
+                <default>false</default>
+                <label>CLINIC BENEFIT 1ST TRIMESTER BIOCHEM SCN</label>
+            </value>
+            <value>
+                <fullName>COPY OF NEW BLOOD CARD</fullName>
+                <default>false</default>
+                <label>COPY OF NEW BLOOD CARD</label>
+            </value>
+            <value>
+                <fullName>EVANS BIOCHEM SCREENING</fullName>
+                <default>false</default>
+                <label>EVANS BIOCHEM SCREENING</label>
+            </value>
+            <value>
+                <fullName>EVANS META-ANALYSIS</fullName>
+                <default>false</default>
+                <label>EVANS META-ANALYSIS</label>
+            </value>
+            <value>
+                <fullName>FASTER STUDY</fullName>
+                <default>false</default>
+                <label>FASTER STUDY</label>
+            </value>
+            <value>
+                <fullName>FIRST AND SECOND TRIMESTER SERUM</fullName>
+                <default>false</default>
+                <label>FIRST AND SECOND TRIMESTER SERUM</label>
+            </value>
+            <value>
+                <fullName>FIRST TRIMESTER SCREEN PATIENT BROCHURE</fullName>
+                <default>false</default>
+                <label>FIRST TRIMESTER SCREEN PATIENT BROCHURE</label>
+            </value>
+            <value>
+                <fullName>1st TRIMESTER SCRN PAT BROCHURE-SPANISH</fullName>
+                <default>false</default>
+                <label>1st TRIMESTER SCRN PAT BROCHURE-SPANISH</label>
+            </value>
+            <value>
+                <fullName>FUTCH 2013, INITIAL CLINICAL LAB EXP</fullName>
+                <default>false</default>
+                <label>FUTCH 2013, INITIAL CLINICAL LAB EXP</label>
+            </value>
+            <value>
+                <fullName>GIGUERE PE A SYSTEMATIC REVIEW</fullName>
+                <default>false</default>
+                <label>GIGUERE PE A SYSTEMATIC REVIEW</label>
+            </value>
+            <value>
+                <fullName>IRA PATIENT INSTRUCTION SHEET</fullName>
+                <default>false</default>
+                <label>IRA PATIENT INSTRUCTION SHEET</label>
+            </value>
+            <value>
+                <fullName>MELISSA STUDY 2012 - GREEN JOUR ARTICLE</fullName>
+                <default>false</default>
+                <label>MELISSA STUDY 2012 - GREEN JOUR ARTICLE</label>
+            </value>
+            <value>
+                <fullName>NIPT EVANS MONOGRAPH:</fullName>
+                <default>false</default>
+                <label>NIPT EVANS MONOGRAPH:</label>
+            </value>
+            <value>
+                <fullName>NONINVASIVE PRENATAL TEST - CLINIC ASSES</fullName>
+                <default>false</default>
+                <label>NONINVASIVE PRENATAL TEST - CLINIC ASSES</label>
+            </value>
+            <value>
+                <fullName>NT CERTIFICATION PROCESS INFO SHEET</fullName>
+                <default>false</default>
+                <label>NT CERTIFICATION PROCESS INFO SHEET</label>
+            </value>
+            <value>
+                <fullName>NT CERTIFICATION PROC WITH TRAINER INFO</fullName>
+                <default>false</default>
+                <label>NT CERTIFICATION PROC WITH TRAINER INFO</label>
+            </value>
+            <value>
+                <fullName>NTD - FTS - IRA INSTRUCTION SHT - SPANIS</fullName>
+                <default>false</default>
+                <label>NTD - FTS - IRA INSTRUCTION SHT - SPANIS</label>
+            </value>
+            <value>
+                <fullName>NTD BILLING AND INSURANCE FACTS</fullName>
+                <default>false</default>
+                <label>NTD BILLING AND INSURANCE FACTS</label>
+            </value>
+            <value>
+                <fullName>NTD COMPREHENSIVE PHYSICIAN LEAVE BEHIND</fullName>
+                <default>false</default>
+                <label>NTD COMPREHENSIVE PHYSICIAN LEAVE BEHIND</label>
+            </value>
+            <value>
+                <fullName>NTD PREECLAMPSIA SCREEN | T1 WHITE PAPER</fullName>
+                <default>false</default>
+                <label>NTD PREECLAMPSIA SCREEN | T1 WHITE PAPER</label>
+            </value>
+            <value>
+                <fullName>NTD REPORTS FLAGS PHYSICIAN BROCHURE</fullName>
+                <default>false</default>
+                <label>NTD REPORTS FLAGS PHYSICIAN BROCHURE</label>
+            </value>
+            <value>
+                <fullName>NUCHAL TRANSLUCENCY QLTY REVIEW PROG BRO</fullName>
+                <default>false</default>
+                <label>NUCHAL TRANSLUCENCY QLTY REVIEW PROG BRO</label>
+            </value>
+            <value>
+                <fullName>PE CUCKLE MONOGRAPH</fullName>
+                <default>false</default>
+                <label>PE CUCKLE MONOGRAPH</label>
+            </value>
+            <value>
+                <fullName>PE TECHNICAL BRIEF</fullName>
+                <default>false</default>
+                <label>PE TECHNICAL BRIEF</label>
+            </value>
+            <value>
+                <fullName>PERKINELMER BILLING INFORMATION SHEET</fullName>
+                <default>false</default>
+                <label>PERKINELMER BILLING INFORMATION SHEET</label>
+            </value>
+            <value>
+                <fullName>PERNI STUDY</fullName>
+                <default>false</default>
+                <label>PERNI STUDY</label>
+            </value>
+            <value>
+                <fullName>PREECLAMPSIA BIBLIOGRAPHY SHEET</fullName>
+                <default>false</default>
+                <label>PREECLAMPSIA BIBLIOGRAPHY SHEET</label>
+            </value>
+            <value>
+                <fullName>PREECLAMPSIA ENGLISH PATIENT BROCHURE</fullName>
+                <default>false</default>
+                <label>PREECLAMPSIA ENGLISH PATIENT BROCHURE</label>
+            </value>
+            <value>
+                <fullName>PREECLAMPSIA GETTING STARTED GUIDE</fullName>
+                <default>false</default>
+                <label>PREECLAMPSIA GETTING STARTED GUIDE</label>
+            </value>
+            <value>
+                <fullName>PREECLAMPSIA MAP AND UTAD INFO SHEET</fullName>
+                <default>false</default>
+                <label>PREECLAMPSIA MAP AND UTAD INFO SHEET</label>
+            </value>
+            <value>
+                <fullName>PREECLAMPSIA PATIENT SYMPTOMS TEAR PAD</fullName>
+                <default>false</default>
+                <label>PREECLAMPSIA PATIENT SYMPTOMS TEAR PAD</label>
+            </value>
+            <value>
+                <fullName>PREECLAMPSIA PHYSICIAN BROCHURE</fullName>
+                <default>false</default>
+                <label>PREECLAMPSIA PHYSICIAN BROCHURE</label>
+            </value>
+            <value>
+                <fullName>PREECLAMPSIA SPANISH PATIENT BROCHURE</fullName>
+                <default>false</default>
+                <label>PREECLAMPSIA SPANISH PATIENT BROCHURE</label>
+            </value>
+            <value>
+                <fullName>ROBERGE ASPIRIN META-ANALYSIS, 2013</fullName>
+                <default>false</default>
+                <label>ROBERGE ASPIRIN META-ANALYSIS, 2013</label>
+            </value>
+            <value>
+                <fullName>SALTZMAN IRA STUDY</fullName>
+                <default>false</default>
+                <label>SALTZMAN IRA STUDY</label>
+            </value>
+            <value>
+                <fullName>SEHNERT 2011 - CLINICAL CHEMISTRY ARTIC</fullName>
+                <default>false</default>
+                <label>SEHNERT 2011 - CLINICAL CHEMISTRY ARTIC</label>
+            </value>
+            <value>
+                <fullName>SEQUENTIAL SCREEN PATIENT BROCHURE</fullName>
+                <default>false</default>
+                <label>SEQUENTIAL SCREEN PATIENT BROCHURE</label>
+            </value>
+            <value>
+                <fullName>SEQUENTIAL SCREEN PATIENT BRO-SPANISH</fullName>
+                <default>false</default>
+                <label>SEQUENTIAL SCREEN PATIENT BRO-SPANISH</label>
+            </value>
+            <value>
+                <fullName>SMITH LESSONS FROM PREECLAMPSIA SCREEN</fullName>
+                <default>false</default>
+                <label>SMITH LESSONS FROM PREECLAMPSIA SCREEN</label>
+            </value>
+            <value>
+                <fullName>THE FETAL MEDICINE FOUNDATION USA BRO</fullName>
+                <default>false</default>
+                <label>THE FETAL MEDICINE FOUNDATION USA BRO</label>
+            </value>
+            <value>
+                <fullName>VERIFI CLINICAL FLOWCHART BROCHURE</fullName>
+                <default>false</default>
+                <label>VERIFI CLINICAL FLOWCHART BROCHURE</label>
+            </value>
+            <value>
+                <fullName>VERIFI FETAL FRACTION INFORMATION SHEET</fullName>
+                <default>false</default>
+                <label>VERIFI FETAL FRACTION INFORMATION SHEET</label>
+            </value>
+            <value>
+                <fullName>VERIFI MICRODELETION PHYSICIAN BROCHURE</fullName>
+                <default>false</default>
+                <label>VERIFI MICRODELETION PHYSICIAN BROCHURE</label>
+            </value>
+            <value>
+                <fullName>VERIFI MICRODELETION SELL SHEET</fullName>
+                <default>false</default>
+                <label>VERIFI MICRODELETION SELL SHEET</label>
+            </value>
+            <value>
+                <fullName>VERIFI PATIENT BROCHURE</fullName>
+                <default>false</default>
+                <label>VERIFI PATIENT BROCHURE</label>
+            </value>
+            <value>
+                <fullName>VERIFI PHYSICIAN BROCHURE</fullName>
+                <default>false</default>
+                <label>VERIFI PHYSICIAN BROCHURE</label>
+            </value>
+            <value>
+                <fullName>VERIFI TWINS INSERT</fullName>
+                <default>false</default>
+                <label>VERIFI TWINS INSERT</label>
+            </value>
+            <value>
+                <fullName>VERINATA 2012 - JRNL OF MAND CARE ARTICL</fullName>
+                <default>false</default>
+                <label>VERINATA 2012 - JRNL OF MAND CARE ARTICL</label>
+            </value>
+            <value>
+                <fullName>VERINATA WHITE PAPER - SEX CHROMOSOMES</fullName>
+                <default>false</default>
+                <label>VERINATA WHITE PAPER - SEX CHROMOSOMES</label>
+            </value>
+            <value>
+                <fullName>VERINATA WHITE PAPER - TWINS</fullName>
+                <default>false</default>
+                <label>VERINATA WHITE PAPER - TWINS</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

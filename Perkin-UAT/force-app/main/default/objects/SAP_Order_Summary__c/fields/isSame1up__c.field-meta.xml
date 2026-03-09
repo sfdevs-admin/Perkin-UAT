@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isSame1up__c</fullName>
+    <description>Looks at the Linked Opportunity owner&#39;s Direct manager and the current user</description>
+    <formula>BLANKVALUE(Opportunity__r.Owner.Direct_Manager__c,&quot;NO MANAGER&quot;)  = $User.Direct_Manager__c</formula>
+    <label>isSame1up</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution_Area_of_Interest__c</fullName>
+    <description>ORIG:ANNUITAS PDG Program
+
+NEW: SS This field is now used on Interaction, Interaction Assignment Rule, Lead, Contact, Oppty</description>
+    <label>Solution Area of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Air</fullName>
+                <default>false</default>
+                <label>Air</label>
+            </value>
+            <value>
+                <fullName>Applied Genomics</fullName>
+                <default>false</default>
+                <label>Applied Genomics</label>
+            </value>
+            <value>
+                <fullName>Biologics</fullName>
+                <default>false</default>
+                <label>Biologics</label>
+            </value>
+            <value>
+                <fullName>Cannabis</fullName>
+                <default>false</default>
+                <label>Cannabis</label>
+            </value>
+            <value>
+                <fullName>Cell and Gene Therapy</fullName>
+                <default>false</default>
+                <label>Cell and Gene Therapy</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Clinical Studies</fullName>
+                <default>false</default>
+                <label>Clinical Studies</label>
+            </value>
+            <value>
+                <fullName>Digital Lab</fullName>
+                <default>false</default>
+                <label>Digital Lab</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Forensics and Security</fullName>
+                <default>false</default>
+                <label>Forensics and Security</label>
+            </value>
+            <value>
+                <fullName>Geochemistry, Mining and Metals</fullName>
+                <default>false</default>
+                <label>Geochemistry, Mining and Metals</label>
+            </value>
+            <value>
+                <fullName>Life Science Research</fullName>
+                <default>false</default>
+                <label>Life Science Research</label>
+            </value>
+            <value>
+                <fullName>Material</fullName>
+                <default>false</default>
+                <label>Material</label>
+            </value>
+            <value>
+                <fullName>Maternal Fetal Health</fullName>
+                <default>false</default>
+                <label>Maternal Fetal Health</label>
+            </value>
+            <value>
+                <fullName>Newborn Screening</fullName>
+                <default>false</default>
+                <label>Newborn Screening</label>
+            </value>
+            <value>
+                <fullName>Pre-Clinical Drug Development</fullName>
+                <default>false</default>
+                <label>Pre-Clinical Drug Development</label>
+            </value>
+            <value>
+                <fullName>Pre-Clinical Drug Discovery</fullName>
+                <default>false</default>
+                <label>Pre-Clinical Drug Discovery</label>
+            </value>
+            <value>
+                <fullName>QA/QC Drug Manufacturing Process</fullName>
+                <default>false</default>
+                <label>QA/QC Drug Manufacturing Process</label>
+            </value>
+            <value>
+                <fullName>Soil/Solids</fullName>
+                <default>false</default>
+                <label>Soil/Solids</label>
+            </value>
+            <value>
+                <fullName>Strategic Services</fullName>
+                <default>false</default>
+                <label>Strategic Services</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

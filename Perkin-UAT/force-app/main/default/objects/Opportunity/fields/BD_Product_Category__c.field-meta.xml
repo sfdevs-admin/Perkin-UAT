@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Product_Category__c</fullName>
+    <label>Product Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GC Gas Chromatographer</fullName>
+                <default>false</default>
+                <label>GC Gas Chromatographer</label>
+            </value>
+            <value>
+                <fullName>LC Liquid Chromatographer</fullName>
+                <default>false</default>
+                <label>LC Liquid Chromatographer</label>
+            </value>
+            <value>
+                <fullName>LCM LC Mass Spec.</fullName>
+                <default>false</default>
+                <label>LCM LC Mass Spec.</label>
+            </value>
+            <value>
+                <fullName>MBA</fullName>
+                <default>false</default>
+                <label>MBA</label>
+            </value>
+            <value>
+                <fullName>IR Infrared</fullName>
+                <default>false</default>
+                <label>IR Infrared</label>
+            </value>
+            <value>
+                <fullName>TEA Thermal Elemental Analysis</fullName>
+                <default>false</default>
+                <label>TEA Thermal Elemental Analysis</label>
+            </value>
+            <value>
+                <fullName>UVS Ultra Violet visible Spectroscopy</fullName>
+                <default>false</default>
+                <label>UVS Ultra Violet visible Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>AA Atomic Analysis</fullName>
+                <default>false</default>
+                <label>AA Atomic Analysis</label>
+            </value>
+            <value>
+                <fullName>ICP Inductive Coupled Plasma Analysis</fullName>
+                <default>false</default>
+                <label>ICP Inductive Coupled Plasma Analysis</label>
+            </value>
+            <value>
+                <fullName>ICPMS Inductive Coupled with Mass Spectrometry  Analysis</fullName>
+                <default>false</default>
+                <label>ICPMS Inductive Coupled with Mass Spectrometry  Analysis</label>
+            </value>
+            <value>
+                <fullName>MAS Mass Spectrometry</fullName>
+                <default>false</default>
+                <label>MAS Mass Spectrometry</label>
+            </value>
+            <value>
+                <fullName>AM Aquamatic</fullName>
+                <default>false</default>
+                <label>AM Aquamatic</label>
+            </value>
+            <value>
+                <fullName>DAB DA Bench</fullName>
+                <default>false</default>
+                <label>DAB DA Bench</label>
+            </value>
+            <value>
+                <fullName>DAO DA Online</fullName>
+                <default>false</default>
+                <label>DAO DA Online</label>
+            </value>
+            <value>
+                <fullName>DL DoughLab</fullName>
+                <default>false</default>
+                <label>DL DoughLab</label>
+            </value>
+            <value>
+                <fullName>DLS Delta Lactoscope</fullName>
+                <default>false</default>
+                <label>DLS Delta Lactoscope</label>
+            </value>
+            <value>
+                <fullName>FN Falling Number</fullName>
+                <default>false</default>
+                <label>FN Falling Number</label>
+            </value>
+            <value>
+                <fullName>GM Glutomatic</fullName>
+                <default>false</default>
+                <label>GM Glutomatic</label>
+            </value>
+            <value>
+                <fullName>IMF Inframatic Flour</fullName>
+                <default>false</default>
+                <label>IMF Inframatic Flour</label>
+            </value>
+            <value>
+                <fullName>IMG Inframatic Grain</fullName>
+                <default>false</default>
+                <label>IMG Inframatic Grain</label>
+            </value>
+            <value>
+                <fullName>LM Lab Mills</fullName>
+                <default>false</default>
+                <label>LM Lab Mills</label>
+            </value>
+            <value>
+                <fullName>RVA Rapid Visco Analyzer</fullName>
+                <default>false</default>
+                <label>RVA Rapid Visco Analyzer</label>
+            </value>
+            <value>
+                <fullName>FTF FT Food</fullName>
+                <default>false</default>
+                <label>FTF FT Food</label>
+            </value>
+            <value>
+                <fullName>PC PaddyCheck</fullName>
+                <default>false</default>
+                <label>PC PaddyCheck</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

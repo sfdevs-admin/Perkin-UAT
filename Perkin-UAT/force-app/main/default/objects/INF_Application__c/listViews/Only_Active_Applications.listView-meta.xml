@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Active_Applications</fullName>
+    <columns>NAME</columns>
+    <columns>INF_KW__c</columns>
+    <columns>INF_Default__c</columns>
+    <columns>INF_Product_Group__c</columns>
+    <columns>INF_Product_Line__c</columns>
+    <columns>INF_BL__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>INF_Default__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Only Active Applications</label>
+    <language>en_US</language>
+</ListView>

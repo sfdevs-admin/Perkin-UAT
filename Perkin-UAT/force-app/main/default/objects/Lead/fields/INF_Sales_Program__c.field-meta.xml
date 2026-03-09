@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Sales_Program__c</fullName>
+    <label>INF Sales Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attivio</fullName>
+                <default>false</default>
+                <label>Attivio</label>
+            </value>
+            <value>
+                <fullName>Biostats</fullName>
+                <default>false</default>
+                <label>Biostats</label>
+            </value>
+            <value>
+                <fullName>Clinical Data Review</fullName>
+                <default>false</default>
+                <label>Clinical Data Review</label>
+            </value>
+            <value>
+                <fullName>Clinical Development or Sciences</fullName>
+                <default>false</default>
+                <label>Clinical Development or Sciences</label>
+            </value>
+            <value>
+                <fullName>Clinical Operations</fullName>
+                <default>false</default>
+                <label>Clinical Operations</label>
+            </value>
+            <value>
+                <fullName>Clinical Partnerships</fullName>
+                <default>false</default>
+                <label>Clinical Partnerships</label>
+            </value>
+            <value>
+                <fullName>Clinical Pharmacology</fullName>
+                <default>false</default>
+                <label>Clinical Pharmacology</label>
+            </value>
+            <value>
+                <fullName>Clinical Portal</fullName>
+                <default>false</default>
+                <label>Clinical Portal</label>
+            </value>
+            <value>
+                <fullName>Clinical Portfolio &amp; Resource Management</fullName>
+                <default>false</default>
+                <label>Clinical Portfolio &amp; Resource Management</label>
+            </value>
+            <value>
+                <fullName>Clinical Sourcing</fullName>
+                <default>false</default>
+                <label>Clinical Sourcing</label>
+            </value>
+            <value>
+                <fullName>Clinical Standards</fullName>
+                <default>false</default>
+                <label>Clinical Standards</label>
+            </value>
+            <value>
+                <fullName>Clinical Supply Operations</fullName>
+                <default>false</default>
+                <label>Clinical Supply Operations</label>
+            </value>
+            <value>
+                <fullName>ELN Cloud Care</fullName>
+                <default>false</default>
+                <label>ELN Cloud Care</label>
+            </value>
+            <value>
+                <fullName>HC Profiler</fullName>
+                <default>false</default>
+                <label>HC Profiler</label>
+            </value>
+            <value>
+                <fullName>OMICS</fullName>
+                <default>false</default>
+                <label>OMICS</label>
+            </value>
+            <value>
+                <fullName>Outcomes Research</fullName>
+                <default>false</default>
+                <label>Outcomes Research</label>
+            </value>
+            <value>
+                <fullName>Pharmacoviligance</fullName>
+                <default>false</default>
+                <label>Pharmacoviligance</label>
+            </value>
+            <value>
+                <fullName>Research Portal</fullName>
+                <default>false</default>
+                <label>Research Portal</label>
+            </value>
+            <value>
+                <fullName>Risk Based Monitoring</fullName>
+                <default>false</default>
+                <label>Risk Based Monitoring</label>
+            </value>
+            <value>
+                <fullName>SciStream</fullName>
+                <default>false</default>
+                <label>SciStream</label>
+            </value>
+            <value>
+                <fullName>Signals for Imaging</fullName>
+                <default>false</default>
+                <label>Signals for Imaging</label>
+            </value>
+            <value>
+                <fullName>Signals for Other Uses</fullName>
+                <default>false</default>
+                <label>Signals for Other Uses</label>
+            </value>
+            <value>
+                <fullName>Signals for Translational Medicine</fullName>
+                <default>false</default>
+                <label>Signals for Translational Medicine</label>
+            </value>
+            <value>
+                <fullName>Spotfire Challenge</fullName>
+                <default>false</default>
+                <label>Spotfire Challenge</label>
+            </value>
+            <value>
+                <fullName>Voicentric</fullName>
+                <default>false</default>
+                <label>Voicentric</label>
+            </value>
+            <value>
+                <fullName>Reseller-Additive</fullName>
+                <default>false</default>
+                <label>Reseller-Additive</label>
+            </value>
+            <value>
+                <fullName>Reseller Addlink</fullName>
+                <default>false</default>
+                <label>Reseller Addlink</label>
+            </value>
+            <value>
+                <fullName>Reseller-AlfaSoft</fullName>
+                <default>false</default>
+                <label>Reseller-AlfaSoft</label>
+            </value>
+            <value>
+                <fullName>Reseller Niltasoft</fullName>
+                <default>false</default>
+                <label>Reseller Niltasoft</label>
+            </value>
+            <value>
+                <fullName>Reseller-PESystems</fullName>
+                <default>false</default>
+                <label>Reseller-PESystems</label>
+            </value>
+            <value>
+                <fullName>Reseller-RITME</fullName>
+                <default>false</default>
+                <label>Reseller-RITME</label>
+            </value>
+            <value>
+                <fullName>Reseller-SCUBE</fullName>
+                <default>false</default>
+                <label>Reseller-SCUBE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

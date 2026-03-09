@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Changing_Record_Type</fullName>
+    <active>false</active>
+    <description>This will prevent users from changing the field Record Type name after created so that other security/visibility permissions are obeyed (OBJECT: Knowledge 4000: Level3 Articles Read/Edit)</description>
+    <errorConditionFormula>ISCHANGED( RecordType__c )</errorConditionFormula>
+    <errorMessage>V.RULE_KNOWLEDGE_001:  You can not change the Article Record Type after it has been created.</errorMessage>
+</ValidationRule>

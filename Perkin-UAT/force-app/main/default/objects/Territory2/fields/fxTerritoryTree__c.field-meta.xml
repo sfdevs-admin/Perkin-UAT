@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxTerritoryTree__c</fullName>
+    <description>this shows the Territory Hierarchy</description>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp;
+ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp;
+ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp;
+ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp;
+ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp;
+ParentTerritory2.ParentTerritory2.ParentTerritory2.ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp;
+ParentTerritory2.ParentTerritory2.ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp;
+ParentTerritory2.ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp;
+ParentTerritory2.Name &amp; &quot; &gt;&gt; &quot; &amp; Name 
+, &quot; &gt;&gt;  &gt;&gt; &quot;, &quot; &gt;&gt; &quot;), &quot; &gt;&gt;  &gt;&gt; &quot;, &quot; &gt;&gt; &quot;), &quot; &gt;&gt;  &gt;&gt; &quot;, &quot; &gt;&gt; &quot;)</formula>
+    <inlineHelpText>this shows the Territory Hierarchy</inlineHelpText>
+    <label>fxTerritoryTree</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

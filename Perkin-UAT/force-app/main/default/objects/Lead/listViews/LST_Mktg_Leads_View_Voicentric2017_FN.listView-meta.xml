@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Mktg_Leads_View_Voicentric2017_FN</fullName>
+    <booleanFilter>((1 AND 2 AND 3 AND 4 AND 5 AND 7) OR (1 AND 2 AND 3 AND 6 AND 7)) AND 8</booleanFilter>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.FIRST_NAME</columns>
+    <columns>LEAD.LAST_NAME</columns>
+    <columns>Job_Function__c</columns>
+    <columns>Next_Action_Date_INF__c</columns>
+    <columns>Global_Region__c</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Secondary_Qualification__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Requested_Interests__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Age_in_Days__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Standard_Default</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2016 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Job_Function__c</field>
+        <operation>notContain</operation>
+        <value>Student</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>EMEA,None,Other</value>
+    </filters>
+    <filters>
+        <field>LEAD.COUNTRY</field>
+        <operation>notEqual</operation>
+        <value>China,Japan</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>Americas</value>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>notEqual</operation>
+        <value>NGS,BTX,MFT,AWS,ARS,SPS</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Future-Nurturing</value>
+    </filters>
+    <label>LST Mktg Leads View Voicentric2017 FN</label>
+    <language>en_US</language>
+    <queue>ARQ_000616</queue>
+</ListView>

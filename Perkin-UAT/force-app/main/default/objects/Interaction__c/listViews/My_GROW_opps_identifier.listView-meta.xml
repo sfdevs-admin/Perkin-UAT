@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_GROW_opps_identifier</fullName>
+    <columns>GROW_Employee_Email__c</columns>
+    <columns>NAME</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>End_User_Name__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Status__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>InteractionDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>contains</operation>
+        <value>GROW</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>6/1/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>contains</operation>
+        <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Working</value>
+    </filters>
+    <label>Open GROW opps identifier (EMEA)</label>
+</ListView>

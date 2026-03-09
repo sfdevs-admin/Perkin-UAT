@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxNeedsTrackingInfo__c</fullName>
+    <description>This looks at several fields to evaluate if the item needs tracking info from SAP</description>
+    <formula>AND(
+   fxPercentageShipped__c &lt; 1
+
+   ,Status_Code__c &lt;&gt; &quot;C&quot;
+  
+   ,isCOVID__c  = TRUE  
+
+  
+/*  
+NOT(ISBLANK(  PKI_Order_Summary__r.Actual_CER_date__c  )),
+  
+  PKI_Order_Summary__r.fxOrderPath__c = &quot;Ready For Shipping&quot;,
+ 
+  PKI_Order_Summary__r.fxBlockedType__c = &quot;nn&quot;
+*/
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>fxNeedsTrackingInfo</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

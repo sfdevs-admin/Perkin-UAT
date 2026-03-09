@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_abandoned__c</fullName>
+    <label>Reason abandoned</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Created in error</fullName>
+                <default>false</default>
+                <label>Created in error</label>
+            </value>
+            <value>
+                <fullName>Duplicate opportunity</fullName>
+                <default>false</default>
+                <label>Duplicate opportunity</label>
+            </value>
+            <value>
+                <fullName>Budgetary Request                                                                                  Customer Unreachable after Multiple Attempts</fullName>
+                <default>false</default>
+                <label>Budgetary Request                                                                                  Customer Unreachable after Multiple Attempts</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

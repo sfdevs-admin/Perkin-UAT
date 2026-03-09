@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Type__c</fullName>
+    <label>Lead Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>External Tradeshow/Seminar</fullName>
+                <default>false</default>
+                <label>External Tradeshow/Seminar</label>
+            </value>
+            <value>
+                <fullName>PKI Event</fullName>
+                <default>false</default>
+                <label>PKI Event</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Trial</fullName>
+                <default>false</default>
+                <label>Trial</label>
+            </value>
+            <value>
+                <fullName>Contact Request</fullName>
+                <default>false</default>
+                <label>Contact Request</label>
+            </value>
+            <value>
+                <fullName>Request a Demo</fullName>
+                <default>false</default>
+                <label>Request a Demo</label>
+            </value>
+            <value>
+                <fullName>Request a Quote</fullName>
+                <default>false</default>
+                <label>Request a Quote</label>
+            </value>
+            <value>
+                <fullName>Request Information</fullName>
+                <default>false</default>
+                <label>Request Information</label>
+            </value>
+            <value>
+                <fullName>BAO</fullName>
+                <default>false</default>
+                <label>BAO</label>
+            </value>
+            <value>
+                <fullName>EOL Referral</fullName>
+                <default>false</default>
+                <label>EOL Referral</label>
+            </value>
+            <value>
+                <fullName>Competitor Referral</fullName>
+                <default>false</default>
+                <label>Competitor Referral</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

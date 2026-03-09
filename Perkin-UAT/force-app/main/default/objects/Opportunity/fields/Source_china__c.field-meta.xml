@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_china__c</fullName>
+    <label>Other Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+            <value>
+                <fullName>Marketing Activities</fullName>
+                <default>false</default>
+                <label>Marketing Activities</label>
+            </value>
+            <value>
+                <fullName>E-marketing (eblast…)</fullName>
+                <default>false</default>
+                <label>E-marketing (eblast…)</label>
+            </value>
+            <value>
+                <fullName>Tel-marketing</fullName>
+                <default>false</default>
+                <label>Tel-marketing</label>
+            </value>
+            <value>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+                <label>Dealer</label>
+            </value>
+            <value>
+                <fullName>By Sales</fullName>
+                <default>false</default>
+                <label>By Sales</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

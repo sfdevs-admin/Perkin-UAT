@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Extended_Warranty_Description__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;Extended Warranty for: &quot; &amp; BD_Covered_Part__r.Name &amp; &quot; [&quot; &amp; BD_Covered_Part__r.Partnum__c &amp; &quot;] until &quot; &amp; TEXT(BD_Covered_Until__c) &amp; &quot; using coverage from Contract Item: &quot; &amp;  BD_Warranty_Contract_Item__r.Name</formula>
+    <label>Extended Warranty Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

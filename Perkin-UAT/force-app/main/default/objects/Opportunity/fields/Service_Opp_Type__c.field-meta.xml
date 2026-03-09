@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Opp_Type__c</fullName>
+    <description>Used to define type of Service / OneSource Opp</description>
+    <label>Service Opp Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Managed Maintenance</fullName>
+                <default>false</default>
+                <label>Managed Maintenance</label>
+            </value>
+            <value>
+                <fullName>Triage</fullName>
+                <default>false</default>
+                <label>Triage</label>
+            </value>
+            <value>
+                <fullName>Multi-Vendor Validation</fullName>
+                <default>false</default>
+                <label>Multi-Vendor Validation</label>
+            </value>
+            <value>
+                <fullName>Multi-Vendor Contract</fullName>
+                <default>false</default>
+                <label>Multi-Vendor Contract</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>LabIT</fullName>
+                <default>false</default>
+                <label>LabIT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

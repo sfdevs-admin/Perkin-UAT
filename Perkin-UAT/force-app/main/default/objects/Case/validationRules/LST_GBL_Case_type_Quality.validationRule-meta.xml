@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_GBL_Case_type_Quality</fullName>
+    <active>true</active>
+    <description>ORIG: LST - Record Type Quality
+PRIOR: MM: 06/17/2019
+NEW: MG: 09/25/2022 standardized format -
+Labeled Error MSG (CASES&#39; to CASE&#39;)</description>
+    <errorConditionFormula>AND(RecordTypeId = &#39;012V0000000ClNM&#39;
+,OR(
+(ISPICKVAL(Type, &#39;Field Service&#39;))
+,(ISPICKVAL(Type, &#39;Depot Repair&#39;))
+,(ISPICKVAL(Type, &#39;Tech Support&#39;))
+,(ISPICKVAL(Type, &#39;Training Request&#39;)) 
+))</errorConditionFormula>
+    <errorDisplayField>Sub_Type__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_037: Please select the correct Quality Case Type and appropriate Sub-Type for this new case</errorMessage>
+</ValidationRule>

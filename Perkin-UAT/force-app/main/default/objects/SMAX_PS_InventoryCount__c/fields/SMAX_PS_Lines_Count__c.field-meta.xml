@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Lines_Count__c</fullName>
+    <description>Count of the Inventory Count Lines</description>
+    <label>Lines Count</label>
+    <summaryForeignKey>SMAX_PS_InventoryCountLine__c.SMAX_PS_InventoryCount__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

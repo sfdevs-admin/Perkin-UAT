@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Level_6__c</fullName>
+    <label>Territory Level 6</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Territory_Level_5__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EBNLX AS Chromatography Product Speciali</fullName>
+                <default>false</default>
+                <label>EBNLX AS Chromatography Product Speciali</label>
+            </value>
+            <value>
+                <fullName>EDE2&amp;CH&amp;AT AS Chromatography Specialist</fullName>
+                <default>false</default>
+                <label>EDE2&amp;CH&amp;AT AS Chromatography Specialist</label>
+            </value>
+            <value>
+                <fullName>EFR2 Chromatography Product Specialist</fullName>
+                <default>false</default>
+                <label>EFR2 Chromatography Product Specialist</label>
+            </value>
+            <value>
+                <fullName>EGB2 Chromatography Product Specialist</fullName>
+                <default>false</default>
+                <label>EGB2 Chromatography Product Specialist</label>
+            </value>
+            <value>
+                <fullName>EIT2 AS Chromatography Specialist</fullName>
+                <default>false</default>
+                <label>EIT2 AS Chromatography Specialist</label>
+            </value>
+            <value>
+                <fullName>ENO Nordics Chromatography Leader</fullName>
+                <default>false</default>
+                <label>ENO Nordics Chromatography Leader</label>
+            </value>
+            <value>
+                <fullName>EBNLX&amp;NOR Inorganic Product Specialist</fullName>
+                <default>false</default>
+                <label>EBNLX&amp;NOR Inorganic Product Specialist</label>
+            </value>
+            <value>
+                <fullName>EDE2&amp;CH&amp;AT AS Inorganic Specialist</fullName>
+                <default>false</default>
+                <label>EDE2&amp;CH&amp;AT AS Inorganic Specialist</label>
+            </value>
+            <value>
+                <fullName>EES2 Inorganic Product Specialist</fullName>
+                <default>false</default>
+                <label>EES2 Inorganic Product Specialist</label>
+            </value>
+            <value>
+                <fullName>EFR2 Inorganic Product Specialist</fullName>
+                <default>false</default>
+                <label>EFR2 Inorganic Product Specialist</label>
+            </value>
+            <value>
+                <fullName>EGB2 Inorganic Product Specialist</fullName>
+                <default>false</default>
+                <label>EGB2 Inorganic Product Specialist</label>
+            </value>
+            <value>
+                <fullName>EIT2 AS Inorganic Specialist</fullName>
+                <default>false</default>
+                <label>EIT2 AS Inorganic Specialist</label>
+            </value>
+            <value>
+                <fullName>EBNLX AS Molecular Spectroscopy Speciali</fullName>
+                <default>false</default>
+                <label>EBNLX AS Molecular Spectroscopy Speciali</label>
+            </value>
+            <value>
+                <fullName>EDE2&amp;CH&amp;AT AS Molecular Spectr. Speciali</fullName>
+                <default>false</default>
+                <label>EDE2&amp;CH&amp;AT AS Molecular Spectr. Speciali</label>
+            </value>
+            <value>
+                <fullName>EES2 Molecular Spectr Product Specialist</fullName>
+                <default>false</default>
+                <label>EES2 Molecular Spectr Product Specialist</label>
+            </value>
+            <value>
+                <fullName>EFR2 Molecular Spectr Product Specialist</fullName>
+                <default>false</default>
+                <label>EFR2 Molecular Spectr Product Specialist</label>
+            </value>
+            <value>
+                <fullName>EGB2 Molecular Spectroscopy</fullName>
+                <default>false</default>
+                <label>EGB2 Molecular Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>EIT2 AS Molecular Spectroscopy Specialis</fullName>
+                <default>false</default>
+                <label>EIT2 AS Molecular Spectroscopy Specialis</label>
+            </value>
+            <value>
+                <fullName>ENO Nordics Molecular Spectroscopy Leade</fullName>
+                <default>false</default>
+                <label>ENO Nordics Molecular Spectroscopy Leade</label>
+            </value>
+            <value>
+                <fullName>EDE2/CH/AT TEA Product Leader</fullName>
+                <default>false</default>
+                <label>EDE2/CH/AT TEA Product Leader</label>
+            </value>
+            <value>
+                <fullName>EU Export Product Specialists&amp;Support</fullName>
+                <default>false</default>
+                <label>EU Export Product Specialists&amp;Support</label>
+            </value>
+            <value>
+                <fullName>ESE2 Sales Support</fullName>
+                <default>false</default>
+                <label>ESE2 Sales Support</label>
+            </value>
+            <value>
+                <fullName>EH AM South America RGM</fullName>
+                <default>false</default>
+                <label>EH AM South America RGM</label>
+            </value>
+            <value>
+                <fullName>EH AM US East/Canada RGM</fullName>
+                <default>false</default>
+                <label>EH AM US East/Canada RGM</label>
+            </value>
+            <value>
+                <fullName>EH AM US South RGM</fullName>
+                <default>false</default>
+                <label>EH AM US South RGM</label>
+            </value>
+            <value>
+                <fullName>EH AM US West RGM</fullName>
+                <default>false</default>
+                <label>EH AM US West RGM</label>
+            </value>
+            <value>
+                <fullName>EH APAC China RGM</fullName>
+                <default>false</default>
+                <label>EH APAC China RGM</label>
+            </value>
+            <value>
+                <fullName>EH APAC Japan RGM</fullName>
+                <default>false</default>
+                <label>EH APAC Japan RGM</label>
+            </value>
+            <value>
+                <fullName>EH APAC Korea RGM</fullName>
+                <default>false</default>
+                <label>EH APAC Korea RGM</label>
+            </value>
+            <value>
+                <fullName>EH APAC South Pacific RGM</fullName>
+                <default>false</default>
+                <label>EH APAC South Pacific RGM</label>
+            </value>
+            <value>
+                <fullName>EH EU Consumables Channel Partners</fullName>
+                <default>false</default>
+                <label>EH EU Consumables Channel Partners</label>
+            </value>
+            <value>
+                <fullName>EH EU Emerging Territories Direct Countries</fullName>
+                <default>false</default>
+                <label>EH EU Emerging Territories Direct Countries</label>
+            </value>
+            <value>
+                <fullName>EH EU Emerging Territories Indirect Countries</fullName>
+                <default>false</default>
+                <label>EH EU Emerging Territories Indirect Countries</label>
+            </value>
+            <value>
+                <fullName>EH EU India General Manager</fullName>
+                <default>false</default>
+                <label>EH EU India General Manager</label>
+            </value>
+            <value>
+                <fullName>EH EU OneSource Sales Director</fullName>
+                <default>false</default>
+                <label>EH EU OneSource Sales Director</label>
+            </value>
+            <value>
+                <fullName>EH Western Europe Sales Manager</fullName>
+                <default>false</default>
+                <label>EH Western Europe Sales Manager</label>
+            </value>
+            <value>
+                <fullName>NA Onesource Sales Director</fullName>
+                <default>false</default>
+                <label>NA Onesource Sales Director</label>
+            </value>
+            <value>
+                <fullName>DNA Sequencing Sales Team</fullName>
+                <default>false</default>
+                <label>DNA Sequencing Sales Team</label>
+            </value>
+            <value>
+                <fullName>LABWORKS WEurope</fullName>
+                <default>false</default>
+                <label>LABWORKS WEurope</label>
+            </value>
+            <value>
+                <fullName>NA Labworks Member</fullName>
+                <default>false</default>
+                <label>NA Labworks Member</label>
+            </value>
+            <value>
+                <fullName>Americas OEM LST</fullName>
+                <default>false</default>
+                <label>Americas OEM LST</label>
+            </value>
+            <value>
+                <fullName>NA BIO Reagent Sales Director</fullName>
+                <default>false</default>
+                <label>NA BIO Reagent Sales Director</label>
+            </value>
+            <value>
+                <fullName>NA TBR Manager LST</fullName>
+                <default>false</default>
+                <label>NA TBR Manager LST</label>
+            </value>
+            <value>
+                <fullName>Radiometrics &amp; Inside Sales Channel Director LST</fullName>
+                <default>false</default>
+                <label>Radiometrics &amp; Inside Sales Channel Director LST</label>
+            </value>
+            <value>
+                <fullName>SA Sales Director AnthonyNocito LST</fullName>
+                <default>false</default>
+                <label>SA Sales Director AnthonyNocito LST</label>
+            </value>
+            <value>
+                <fullName>VP GM InVivo CI &amp; TSC LST</fullName>
+                <default>false</default>
+                <label>VP GM InVivo CI &amp; TSC LST</label>
+            </value>
+            <value>
+                <fullName>LST Greater China Sales Director</fullName>
+                <default>false</default>
+                <label>LST Greater China Sales Director</label>
+            </value>
+            <value>
+                <fullName>LST Japan Sales Director</fullName>
+                <default>false</default>
+                <label>LST Japan Sales Director</label>
+            </value>
+            <value>
+                <fullName>LST KOSEA Sales Director</fullName>
+                <default>false</default>
+                <label>LST KOSEA Sales Director</label>
+            </value>
+            <value>
+                <fullName>LST Oceania Sales Director</fullName>
+                <default>false</default>
+                <label>LST Oceania Sales Director</label>
+            </value>
+            <value>
+                <fullName>EMEAI Core Services Director LST</fullName>
+                <default>false</default>
+                <label>EMEAI Core Services Director LST</label>
+            </value>
+            <value>
+                <fullName>Emerging Territories Sales &amp; Service Director LST</fullName>
+                <default>false</default>
+                <label>Emerging Territories Sales &amp; Service Director LST</label>
+            </value>
+            <value>
+                <fullName>EU BNLX UK IE MgrCV LST</fullName>
+                <default>false</default>
+                <label>EU BNLX UK IE MgrCV LST</label>
+            </value>
+            <value>
+                <fullName>EU DACHPL &amp; Nordics Instrs &amp; Rgts Director LST</fullName>
+                <default>false</default>
+                <label>EU DACHPL &amp; Nordics Instrs &amp; Rgts Director LST</label>
+            </value>
+            <value>
+                <fullName>EU FR IT ES MgrABensaidLST</fullName>
+                <default>false</default>
+                <label>EU FR IT ES MgrABensaidLST</label>
+            </value>
+            <value>
+                <fullName>Western Europe INV/QPS Sales Manager LST</fullName>
+                <default>false</default>
+                <label>Western Europe INV/QPS Sales Manager LST</label>
+            </value>
+            <value>
+                <fullName>NA &amp; ROW GPZ Leader</fullName>
+                <default>false</default>
+                <label>NA &amp; ROW GPZ Leader</label>
+            </value>
+            <value>
+                <fullName>NA DNA Team Leader LST</fullName>
+                <default>false</default>
+                <label>NA DNA Team Leader LST</label>
+            </value>
+            <value>
+                <fullName>NewMarkets_NVS Leader LST</fullName>
+                <default>false</default>
+                <label>NewMarkets_NVS Leader LST</label>
+            </value>
+            <value>
+                <fullName>LST NA Caliper Sales Team</fullName>
+                <default>false</default>
+                <label>LST NA Caliper Sales Team</label>
+            </value>
+            <value>
+                <fullName>Automation &amp; Liquid Handling </fullName>
+                <default>false</default>
+                <label>Automation &amp; Liquid Handling </label>
+            </value>
+            <value>
+                <fullName>Automation &amp; Microfluid </fullName>
+                <default>false</default>
+                <label>Automation &amp; Microfluid </label>
+            </value>
+            <value>
+                <fullName>BIO Sales Leader EMEA &amp; India </fullName>
+                <default>false</default>
+                <label>BIO Sales Leader EMEA &amp; India </label>
+            </value>
+            <value>
+                <fullName>Cellular Imaging &amp; Analysis </fullName>
+                <default>false</default>
+                <label>Cellular Imaging &amp; Analysis </label>
+            </value>
+            <value>
+                <fullName>Detection &amp; Analysis </fullName>
+                <default>false</default>
+                <label>Detection &amp; Analysis </label>
+            </value>
+            <value>
+                <fullName>Discovery &amp; Research </fullName>
+                <default>false</default>
+                <label>Discovery &amp; Research </label>
+            </value>
+            <value>
+                <fullName>EBNLX BIO Sales Leader </fullName>
+                <default>false</default>
+                <label>EBNLX BIO Sales Leader </label>
+            </value>
+            <value>
+                <fullName>EGB2 BIO Sales Leader </fullName>
+                <default>false</default>
+                <label>EGB2 BIO Sales Leader </label>
+            </value>
+            <value>
+                <fullName>EU &amp; ROW InViVo Leader LST </fullName>
+                <default>false</default>
+                <label>EU &amp; ROW InViVo Leader LST </label>
+            </value>
+            <value>
+                <fullName>EU AT Inst &amp; Rgts Mgr LST </fullName>
+                <default>false</default>
+                <label>EU AT Inst &amp; Rgts Mgr LST </label>
+            </value>
+            <value>
+                <fullName>EU BIO CIA Product Line Leader </fullName>
+                <default>false</default>
+                <label>EU BIO CIA Product Line Leader </label>
+            </value>
+            <value>
+                <fullName>EU BIO Nordics Sales Leader </fullName>
+                <default>false</default>
+                <label>EU BIO Nordics Sales Leader </label>
+            </value>
+            <value>
+                <fullName>EU BNLX CI Team LST </fullName>
+                <default>false</default>
+                <label>EU BNLX CI Team LST </label>
+            </value>
+            <value>
+                <fullName>EU BNLX RRD Team LST </fullName>
+                <default>false</default>
+                <label>EU BNLX RRD Team LST </label>
+            </value>
+            <value>
+                <fullName>EU CI TSC Invivo Director JohnKleijne LST </fullName>
+                <default>false</default>
+                <label>EU CI TSC Invivo Director JohnKleijne LST </label>
+            </value>
+            <value>
+                <fullName>EU DACH &amp; PL Inst Team FS LST </fullName>
+                <default>false</default>
+                <label>EU DACH &amp; PL Inst Team FS LST </label>
+            </value>
+            <value>
+                <fullName>EU DACH &amp; PL Rgts Team LST </fullName>
+                <default>false</default>
+                <label>EU DACH &amp; PL Rgts Team LST </label>
+            </value>
+            <value>
+                <fullName>EU DACH RRD Team LST </fullName>
+                <default>false</default>
+                <label>EU DACH RRD Team LST </label>
+            </value>
+            <value>
+                <fullName>EU DE Inst &amp; Rgts Mgr LST </fullName>
+                <default>false</default>
+                <label>EU DE Inst &amp; Rgts Mgr LST </label>
+            </value>
+            <value>
+                <fullName>EU East &amp; West Leader LST </fullName>
+                <default>false</default>
+                <label>EU East &amp; West Leader LST </label>
+            </value>
+            <value>
+                <fullName>EU ES CI Team LST </fullName>
+                <default>false</default>
+                <label>EU ES CI Team LST </label>
+            </value>
+            <value>
+                <fullName>EU France RRD Team LST </fullName>
+                <default>false</default>
+                <label>EU France RRD Team LST </label>
+            </value>
+            <value>
+                <fullName>EU FR CI team LST </fullName>
+                <default>false</default>
+                <label>EU FR CI team LST </label>
+            </value>
+            <value>
+                <fullName>EU GB CI Team LST </fullName>
+                <default>false</default>
+                <label>EU GB CI Team LST </label>
+            </value>
+            <value>
+                <fullName>EU GB RRD Team LST </fullName>
+                <default>false</default>
+                <label>EU GB RRD Team LST </label>
+            </value>
+            <value>
+                <fullName>EU Italy RRD Team LST </fullName>
+                <default>false</default>
+                <label>EU Italy RRD Team LST </label>
+            </value>
+            <value>
+                <fullName>EU IT CI Team LST </fullName>
+                <default>false</default>
+                <label>EU IT CI Team LST </label>
+            </value>
+            <value>
+                <fullName>EU Nordics CI Team LST </fullName>
+                <default>false</default>
+                <label>EU Nordics CI Team LST </label>
+            </value>
+            <value>
+                <fullName>EU Nordics RRD Team LST </fullName>
+                <default>false</default>
+                <label>EU Nordics RRD Team LST </label>
+            </value>
+            <value>
+                <fullName>EU North AFT Leader </fullName>
+                <default>false</default>
+                <label>EU North AFT Leader </label>
+            </value>
+            <value>
+                <fullName>EU NORTH BIO Sales Leader </fullName>
+                <default>false</default>
+                <label>EU NORTH BIO Sales Leader </label>
+            </value>
+            <value>
+                <fullName>EU North DACH CI TSC Manager LST </fullName>
+                <default>false</default>
+                <label>EU North DACH CI TSC Manager LST </label>
+            </value>
+            <value>
+                <fullName>EU North NGS Leader </fullName>
+                <default>false</default>
+                <label>EU North NGS Leader </label>
+            </value>
+            <value>
+                <fullName>EU Place Holder Territory LST </fullName>
+                <default>false</default>
+                <label>EU Place Holder Territory LST </label>
+            </value>
+            <value>
+                <fullName>EU SOUTH BIO Sales Leader </fullName>
+                <default>false</default>
+                <label>EU SOUTH BIO Sales Leader </label>
+            </value>
+            <value>
+                <fullName>EU Spain RRD Team LST </fullName>
+                <default>false</default>
+                <label>EU Spain RRD Team LST </label>
+            </value>
+            <value>
+                <fullName>EU TSC Mgr LST </fullName>
+                <default>false</default>
+                <label>EU TSC Mgr LST </label>
+            </value>
+            <value>
+                <fullName>Hong Kong BIO Dealer </fullName>
+                <default>false</default>
+                <label>Hong Kong BIO Dealer </label>
+            </value>
+            <value>
+                <fullName>India Central Manager LST </fullName>
+                <default>false</default>
+                <label>India Central Manager LST </label>
+            </value>
+            <value>
+                <fullName>India East Manager LST </fullName>
+                <default>false</default>
+                <label>India East Manager LST </label>
+            </value>
+            <value>
+                <fullName>India North Manager LST </fullName>
+                <default>false</default>
+                <label>India North Manager LST </label>
+            </value>
+            <value>
+                <fullName>India South Manager LST </fullName>
+                <default>false</default>
+                <label>India South Manager LST </label>
+            </value>
+            <value>
+                <fullName>India West Manager LST </fullName>
+                <default>false</default>
+                <label>India West Manager LST </label>
+            </value>
+            <value>
+                <fullName>Israel Sales Manager LST </fullName>
+                <default>false</default>
+                <label>Israel Sales Manager LST </label>
+            </value>
+            <value>
+                <fullName>LST APAC place holder territory </fullName>
+                <default>false</default>
+                <label>LST APAC place holder territory </label>
+            </value>
+            <value>
+                <fullName>LST EU &amp; EMEA place holder territory </fullName>
+                <default>false</default>
+                <label>LST EU &amp; EMEA place holder territory </label>
+            </value>
+            <value>
+                <fullName>LST NA place holder territory </fullName>
+                <default>false</default>
+                <label>LST NA place holder territory </label>
+            </value>
+            <value>
+                <fullName>NA FAP CLR Leader LST </fullName>
+                <default>false</default>
+                <label>NA FAP CLR Leader LST </label>
+            </value>
+            <value>
+                <fullName>Philippines BIO Sales Team Leader </fullName>
+                <default>false</default>
+                <label>Philippines BIO Sales Team Leader </label>
+            </value>
+            <value>
+                <fullName>QTS North American Sales Leader </fullName>
+                <default>false</default>
+                <label>QTS North American Sales Leader </label>
+            </value>
+            <value>
+                <fullName>Taiwan Dealers </fullName>
+                <default>false</default>
+                <label>Taiwan Dealers </label>
+            </value>
+            <value>
+                <fullName>US SE BIO Instrument Team Leader </fullName>
+                <default>false</default>
+                <label>US SE BIO Instrument Team Leader </label>
+            </value>
+            <value>
+                <fullName>US West BIO Instrument Team Leader </fullName>
+                <default>false</default>
+                <label>US West BIO Instrument Team Leader </label>
+            </value>
+            <value>
+                <fullName>Vietnam BIO Sales Team Leader </fullName>
+                <default>false</default>
+                <label>Vietnam BIO Sales Team Leader </label>
+            </value>
+            <value>
+                <fullName>Western Europe Sales &amp; Service Director LST </fullName>
+                <default>false</default>
+                <label>Western Europe Sales &amp; Service Director LST </label>
+            </value>
+            <value>
+                <fullName>Chemagen Sales Team</fullName>
+                <default>false</default>
+                <label>Chemagen Sales Team</label>
+            </value>
+            <value>
+                <fullName>DX-EMEA-EXPORT-SALES LEADER</fullName>
+                <default>false</default>
+                <label>DX-EMEA-EXPORT-SALES LEADER</label>
+            </value>
+            <value>
+                <fullName>DX-EMEA-WESTERN EUROPE SALES-SALES LEADER</fullName>
+                <default>false</default>
+                <label>DX-EMEA-WESTERN EUROPE SALES-SALES LEADER</label>
+            </value>
+            <value>
+                <fullName>Dx Indonesia Sales Team</fullName>
+                <default>false</default>
+                <label>Dx Indonesia Sales Team</label>
+            </value>
+            <value>
+                <fullName>Dx Malaysia Sales Team</fullName>
+                <default>false</default>
+                <label>Dx Malaysia Sales Team</label>
+            </value>
+            <value>
+                <fullName>Dx Philippines Sales Team</fullName>
+                <default>false</default>
+                <label>Dx Philippines Sales Team</label>
+            </value>
+            <value>
+                <fullName>Dx Singapore Sales Team</fullName>
+                <default>false</default>
+                <label>Dx Singapore Sales Team</label>
+            </value>
+            <value>
+                <fullName>Dx Thailand Sales Team</fullName>
+                <default>false</default>
+                <label>Dx Thailand Sales Team</label>
+            </value>
+            <value>
+                <fullName>MFH Sales Team</fullName>
+                <default>false</default>
+                <label>MFH Sales Team</label>
+            </value>
+            <value>
+                <fullName>Americas GDS Team Members</fullName>
+                <default>false</default>
+                <label>Americas GDS Team Members</label>
+            </value>
+            <value>
+                <fullName>MDX Team</fullName>
+                <default>false</default>
+                <label>MDX Team</label>
+            </value>
+            <value>
+                <fullName>MidAtlantic-Southeast PKI Labs Sales Leader</fullName>
+                <default>false</default>
+                <label>MidAtlantic-Southeast PKI Labs Sales Leader</label>
+            </value>
+            <value>
+                <fullName>MidWest PKI Labs Sales Leader</fullName>
+                <default>false</default>
+                <label>MidWest PKI Labs Sales Leader</label>
+            </value>
+            <value>
+                <fullName>Northeast PKI Labs Sales Leader</fullName>
+                <default>false</default>
+                <label>Northeast PKI Labs Sales Leader</label>
+            </value>
+            <value>
+                <fullName>West PKI Labs Sales Leader</fullName>
+                <default>false</default>
+                <label>West PKI Labs Sales Leader</label>
+            </value>
+            <value>
+                <fullName>SGL Sales Team</fullName>
+                <default>false</default>
+                <label>SGL Sales Team</label>
+            </value>
+            <value>
+                <fullName>Americas OneSource Sales Team LSS</fullName>
+                <default>false</default>
+                <label>Americas OneSource Sales Team LSS</label>
+            </value>
+            <value>
+                <fullName>APAC OneSource Sales Team LSS</fullName>
+                <default>false</default>
+                <label>APAC OneSource Sales Team LSS</label>
+            </value>
+            <value>
+                <fullName>EMEA OneSource Sales Team LSS</fullName>
+                <default>false</default>
+                <label>EMEA OneSource Sales Team LSS</label>
+            </value>
+            <value>
+                <fullName>EU Informatics Team LST</fullName>
+                <default>false</default>
+                <label>EU Informatics Team LST</label>
+            </value>
+            <value>
+                <fullName>NA Cellular Imaging Software Sales Team LST</fullName>
+                <default>false</default>
+                <label>NA Cellular Imaging Software Sales Team LST</label>
+            </value>
+            <value>
+                <fullName>Greater China GDS Sales Leader</fullName>
+                <default>false</default>
+                <label>Greater China GDS Sales Leader</label>
+            </value>
+            <value>
+                <fullName>Greater China Service Leader</fullName>
+                <default>false</default>
+                <label>Greater China Service Leader</label>
+            </value>
+            <value>
+                <fullName>Japan Team</fullName>
+                <default>false</default>
+                <label>Japan Team</label>
+            </value>
+            <value>
+                <fullName>KOSEA GS</fullName>
+                <default>false</default>
+                <label>KOSEA GS</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Chemagen Sales Leader</controllingFieldValue>
+            <valueName>Chemagen Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DX-EMEA-SALES-SALES LEADER</controllingFieldValue>
+            <valueName>DX-EMEA-EXPORT-SALES LEADER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DX-EMEA-SALES-SALES LEADER</controllingFieldValue>
+            <valueName>DX-EMEA-WESTERN EUROPE SALES-SALES LEADER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dx KOSEA Sales Leader</controllingFieldValue>
+            <valueName>Dx Indonesia Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dx KOSEA Sales Leader</controllingFieldValue>
+            <valueName>Dx Malaysia Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dx KOSEA Sales Leader</controllingFieldValue>
+            <valueName>Dx Philippines Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dx KOSEA Sales Leader</controllingFieldValue>
+            <valueName>Dx Singapore Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dx KOSEA Sales Leader</controllingFieldValue>
+            <valueName>Dx Thailand Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFH Sales Leader</controllingFieldValue>
+            <valueName>MFH Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NA Systems and Neonatal Services Leader</controllingFieldValue>
+            <valueName>Americas GDS Team Members</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NA Systems and Neonatal Services Leader</controllingFieldValue>
+            <valueName>MDX Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI Labs Leader North America</controllingFieldValue>
+            <valueName>MidAtlantic-Southeast PKI Labs Sales Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI Labs Leader North America</controllingFieldValue>
+            <valueName>MidWest PKI Labs Sales Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI Labs Leader North America</controllingFieldValue>
+            <valueName>Northeast PKI Labs Sales Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI Labs Leader North America</controllingFieldValue>
+            <valueName>West PKI Labs Sales Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SGL Sales Team Leader</controllingFieldValue>
+            <valueName>SGL Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Americas OneSource Director Sales LSS</controllingFieldValue>
+            <valueName>Americas OneSource Sales Team LSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC OneSource Sales Director LSS</controllingFieldValue>
+            <valueName>APAC OneSource Sales Team LSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA OneSource Director Sales LSS</controllingFieldValue>
+            <valueName>EMEA OneSource Sales Team LSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU Informatics Manager LST</controllingFieldValue>
+            <valueName>EU Informatics Team LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NA Informatics Sales Leader LST</controllingFieldValue>
+            <valueName>NA Cellular Imaging Software Sales Team LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Greater China</controllingFieldValue>
+            <valueName>Greater China GDS Sales Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Greater China</controllingFieldValue>
+            <valueName>Greater China Service Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Japan Leader</controllingFieldValue>
+            <valueName>Japan Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENO Bnlx/Nordics Marketing Specialist</controllingFieldValue>
+            <valueName>ESE2 Sales Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>KOSEA GS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Chromatography Product leader</controllingFieldValue>
+            <valueName>EBNLX AS Chromatography Product Speciali</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Chromatography Product leader</controllingFieldValue>
+            <valueName>EDE2&amp;CH&amp;AT AS Chromatography Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Chromatography Product leader</controllingFieldValue>
+            <valueName>EFR2 Chromatography Product Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Chromatography Product leader</controllingFieldValue>
+            <valueName>EGB2 Chromatography Product Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Chromatography Product leader</controllingFieldValue>
+            <valueName>EIT2 AS Chromatography Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Chromatography Product leader</controllingFieldValue>
+            <valueName>ENO Nordics Chromatography Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Inorganic Product Leader</controllingFieldValue>
+            <valueName>EBNLX&amp;NOR Inorganic Product Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Inorganic Product Leader</controllingFieldValue>
+            <valueName>EDE2&amp;CH&amp;AT AS Inorganic Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Inorganic Product Leader</controllingFieldValue>
+            <valueName>EES2 Inorganic Product Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Inorganic Product Leader</controllingFieldValue>
+            <valueName>EFR2 Inorganic Product Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Inorganic Product Leader</controllingFieldValue>
+            <valueName>EGB2 Inorganic Product Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Inorganic Product Leader</controllingFieldValue>
+            <valueName>EIT2 AS Inorganic Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Molecular Spectroscopy Leader</controllingFieldValue>
+            <valueName>EBNLX AS Molecular Spectroscopy Speciali</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Molecular Spectroscopy Leader</controllingFieldValue>
+            <valueName>EDE2&amp;CH&amp;AT AS Molecular Spectr. Speciali</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Molecular Spectroscopy Leader</controllingFieldValue>
+            <valueName>EES2 Molecular Spectr Product Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Molecular Spectroscopy Leader</controllingFieldValue>
+            <valueName>EFR2 Molecular Spectr Product Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Molecular Spectroscopy Leader</controllingFieldValue>
+            <valueName>EGB2 Molecular Spectroscopy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Molecular Spectroscopy Leader</controllingFieldValue>
+            <valueName>EIT2 AS Molecular Spectroscopy Specialis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU AS Molecular Spectroscopy Leader</controllingFieldValue>
+            <valueName>ENO Nordics Molecular Spectroscopy Leade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU TEA Product Leader</controllingFieldValue>
+            <valueName>EDE2/CH/AT TEA Product Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU Export Support Leader</controllingFieldValue>
+            <valueName>EU Export Product Specialists&amp;Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH AM Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH AM South America RGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH AM Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH AM US East/Canada RGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH AM Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH AM US South RGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH AM Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH AM US West RGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH APAC Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH APAC China RGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH APAC Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH APAC Japan RGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH APAC Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH APAC Korea RGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH APAC Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH APAC South Pacific RGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH EU Consumables Channel Partners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH EU Emerging Territories Direct Countries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH EU Emerging Territories Indirect Countries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH EU India General Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH EU OneSource Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU Sales &amp; Service VP/GM</controllingFieldValue>
+            <valueName>EH Western Europe Sales Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH One Source</controllingFieldValue>
+            <valueName>NA Onesource Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DNA Sequencing Services</controllingFieldValue>
+            <valueName>DNA Sequencing Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LABWORKS NA/WEU Sales Manager</controllingFieldValue>
+            <valueName>LABWORKS WEurope</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LABWORKS NA/WEU Sales Manager</controllingFieldValue>
+            <valueName>NA Labworks Member</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM Americas MRoskey LST</controllingFieldValue>
+            <valueName>Americas OEM LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM Americas MRoskey LST</controllingFieldValue>
+            <valueName>NA BIO Reagent Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM Americas MRoskey LST</controllingFieldValue>
+            <valueName>NA TBR Manager LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM Americas MRoskey LST</controllingFieldValue>
+            <valueName>Radiometrics &amp; Inside Sales Channel Director LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM Americas MRoskey LST</controllingFieldValue>
+            <valueName>SA Sales Director AnthonyNocito LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM Americas MRoskey LST</controllingFieldValue>
+            <valueName>VP GM InVivo CI &amp; TSC LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM APAC LST</controllingFieldValue>
+            <valueName>LST Greater China Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM APAC LST</controllingFieldValue>
+            <valueName>LST Japan Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM APAC LST</controllingFieldValue>
+            <valueName>LST KOSEA Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM APAC LST</controllingFieldValue>
+            <valueName>LST Oceania Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM EU EMEA India LST</controllingFieldValue>
+            <valueName>EMEAI Core Services Director LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM EU EMEA India LST</controllingFieldValue>
+            <valueName>Emerging Territories Sales &amp; Service Director LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM EU EMEA India LST</controllingFieldValue>
+            <valueName>EU BNLX UK IE MgrCV LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM EU EMEA India LST</controllingFieldValue>
+            <valueName>EU DACHPL &amp; Nordics Instrs &amp; Rgts Director LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM EU EMEA India LST</controllingFieldValue>
+            <valueName>EU FR IT ES MgrABensaidLST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP GM EU EMEA India LST</controllingFieldValue>
+            <valueName>Western Europe INV/QPS Sales Manager LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP RADs and Services LST</controllingFieldValue>
+            <valueName>NA &amp; ROW GPZ Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP RADs and Services LST</controllingFieldValue>
+            <valueName>NA DNA Team Leader LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VP RADs and Services LST</controllingFieldValue>
+            <valueName>NewMarkets_NVS Leader LST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST NA Caliper Sales Leader</controllingFieldValue>
+            <valueName>LST NA Caliper Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Automation &amp; Liquid Handling </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Automation &amp; Microfluid </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>BIO Sales Leader EMEA &amp; India </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Cellular Imaging &amp; Analysis </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Detection &amp; Analysis </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Discovery &amp; Research </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EBNLX BIO Sales Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EGB2 BIO Sales Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU &amp; ROW InViVo Leader LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU AT Inst &amp; Rgts Mgr LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU BIO CIA Product Line Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU BIO Nordics Sales Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU BNLX CI Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU BNLX RRD Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU CI TSC Invivo Director JohnKleijne LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU DACH &amp; PL Inst Team FS LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU DACH &amp; PL Rgts Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU DACH RRD Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU DE Inst &amp; Rgts Mgr LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU East &amp; West Leader LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU ES CI Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU France RRD Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU FR CI team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU GB CI Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU GB RRD Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU Italy RRD Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU IT CI Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU Nordics CI Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU Nordics RRD Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU North AFT Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU NORTH BIO Sales Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU North DACH CI TSC Manager LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU North NGS Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU Place Holder Territory LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU SOUTH BIO Sales Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU Spain RRD Team LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>EU TSC Mgr LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Hong Kong BIO Dealer </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>India Central Manager LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>India East Manager LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>India North Manager LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>India South Manager LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>India West Manager LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Israel Sales Manager LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>LST APAC place holder territory </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>LST EU &amp; EMEA place holder territory </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>LST NA place holder territory </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>NA FAP CLR Leader LST </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Philippines BIO Sales Team Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>QTS North American Sales Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Taiwan Dealers </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>US SE BIO Instrument Team Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>US West BIO Instrument Team Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Vietnam BIO Sales Team Leader </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LST Old territories-to be phased out</controllingFieldValue>
+            <valueName>Western Europe Sales &amp; Service Director LST </valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Special_Stock_Indicator__c</fullName>
+    <description>Denotes a list of special stock indicators</description>
+    <inlineHelpText>Denotes a list of special stock indicators</inlineHelpText>
+    <label>Special Stock Indicator</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>E Orders on hand</fullName>
+                <default>false</default>
+                <label>E Orders on hand</label>
+            </value>
+            <value>
+                <fullName>K Consignment (vendor)</fullName>
+                <default>false</default>
+                <label>K Consignment (vendor)</label>
+            </value>
+            <value>
+                <fullName>M Ret.trans.pkg vendor</fullName>
+                <default>false</default>
+                <label>M Ret.trans.pkg vendor</label>
+            </value>
+            <value>
+                <fullName>O Parts prov. vendor</fullName>
+                <default>false</default>
+                <label>O Parts prov. vendor</label>
+            </value>
+            <value>
+                <fullName>P Pipeline material</fullName>
+                <default>false</default>
+                <label>P Pipeline material</label>
+            </value>
+            <value>
+                <fullName>Q Project stock</fullName>
+                <default>false</default>
+                <label>Q Project stock</label>
+            </value>
+            <value>
+                <fullName>V Ret. pkg w. customer</fullName>
+                <default>false</default>
+                <label>V Ret. pkg w. customer</label>
+            </value>
+            <value>
+                <fullName>W Consignment (cust.)</fullName>
+                <default>false</default>
+                <label>W Consignment (cust.)</label>
+            </value>
+            <value>
+                <fullName>Y Shipping unit (whse)</fullName>
+                <default>false</default>
+                <label>Y Shipping unit (whse)</label>
+            </value>
+            <value>
+                <fullName>&quot;E Orders on hand</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>&quot;E Orders on hand</label>
+            </value>
+            <value>
+                <fullName>Y Shipping unit (whse)&quot;</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Y Shipping unit (whse)&quot;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_LST_Products__c</fullName>
+    <description>REMOVE THIS FIELD AFTER LST FORECAST SETTINGS CHANGES MOVED</description>
+    <formula>OR (
+product_line__c = &quot;APS&quot;,product_line__c = &quot;AIG&quot;, product_line__c = &quot;ARS&quot;, product_line__c = &quot;EZR&quot;,product_line__c = &quot;AWS&quot;, product_line__c = &quot;CLH&quot;, product_line__c = &quot;CLR&quot;, product_line__c = &quot;DIS&quot;, product_line__c = &quot;DNA&quot;, product_line__c = &quot;FAP&quot;,product_line__c = &quot;HCA&quot;, product_line__c = &quot;HCS&quot;, product_line__c = &quot;HTS&quot;, product_line__c = &quot;IAS&quot;, product_line__c = &quot;INV&quot;, product_line__c = &quot;LVI&quot;, product_line__c = &quot;MFT&quot;, product_line__c = &quot;MLD&quot;, product_line__c = &quot;MOL&quot;, product_line__c = &quot;MOX&quot;, product_line__c = &quot;NMO&quot;, product_line__c = &quot;NVS&quot;, product_line__c = &quot;PBR&quot;, product_line__c = &quot;PGI&quot;, product_line__c = &quot;QTS&quot;, product_line__c = &quot;RRD&quot;, product_line__c = &quot;RRS&quot;, product_line__c = &quot;SPS&quot;, product_line__c = &quot;TIS&quot;, product_line__c = &quot;TSC&quot;, product_line__c = &quot;ANP&quot;, product_line__c = &quot;GPZ&quot;, product_line__c = &quot;TBR&quot;, product_line__c = &quot;HBE&quot;, product_line__c = &quot;HBP&quot;, product_line__c = &quot;HCE&quot;, product_line__c = &quot;HDX&quot;, product_line__c = &quot;HOS&quot;, product_line__c = &quot;HRR&quot;, product_line__c = &quot;HZN&quot;, product_line__c = &quot;CVD&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is LST Products?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

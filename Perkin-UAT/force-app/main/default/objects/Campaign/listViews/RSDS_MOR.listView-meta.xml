@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RSDS_MOR</fullName>
+    <columns>PARENT_NAME</columns>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <columns>CAMPAIGN.NUM_RESPONSES</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>CAMPAIGN.NUM_CONVERTED_LEADS</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>CAMPAIGN.NUM_WON_OPPORTUNITIES</columns>
+    <columns>AMOUNT_WON</columns>
+    <columns>Vendor_Name__c</columns>
+    <columns>Campaign_Leader__c</columns>
+    <columns>CAMPAIGN.NUM_SENT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Campaign_Leader__c</field>
+        <operation>contains</operation>
+        <value>Balu,Westrich</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>3/1/2013</value>
+    </filters>
+    <label>RSDS MOR</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Business_Unit__c</fullName>
+    <description>Denotes the business unit related to the account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Denotes the business unit related to the account</inlineHelpText>
+    <label>Business Unit</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

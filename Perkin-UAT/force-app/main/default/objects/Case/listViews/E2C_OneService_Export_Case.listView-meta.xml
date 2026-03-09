@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2C_OneService_Export_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>E2C: OneService.Export</label>
+    <queue>ARQ_000568</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

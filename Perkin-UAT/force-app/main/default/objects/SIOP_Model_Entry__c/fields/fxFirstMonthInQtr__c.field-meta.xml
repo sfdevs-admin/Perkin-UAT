@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxFirstMonthInQtr__c</fullName>
+    <description>this will give us the first month in the current quarter base don today</description>
+    <formula>DATE (YEAR(Today()), 
+
+CASE ( MONTH(Today())
+,1,1
+,2,1
+,3,1
+,4,4
+,5,4
+,6,4
+,7,7
+,8,7
+,9,7
+,10,10
+,11,10
+,12,10
+,1),
+1)</formula>
+    <inlineHelpText>this will give us the first month in the current quarter base don today</inlineHelpText>
+    <label>fxFirstMonthInQtr</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

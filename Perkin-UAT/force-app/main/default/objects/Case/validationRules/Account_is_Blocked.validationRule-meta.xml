@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_is_Blocked</fullName>
+    <active>true</active>
+    <description>V.RULE_CASE_047.Used to determine if the Account is blocked by legal department.</description>
+    <errorConditionFormula>Account.Account_Blocked_Date__c &lt; DATEVALUE(NOW())</errorConditionFormula>
+    <errorMessage>V.RULE_CASE_046: All transactions with this Account is blocked. No further activities should be pursued. Please contact Legal with any questions.</errorMessage>
+</ValidationRule>

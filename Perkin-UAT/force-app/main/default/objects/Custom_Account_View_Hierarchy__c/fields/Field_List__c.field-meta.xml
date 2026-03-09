@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_List__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The List of Fields that are to be displayed on the Custom View Hierarchy on Account</inlineHelpText>
+    <label>Field List</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

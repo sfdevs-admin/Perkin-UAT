@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summary_SVC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+OR(  
+
+ISPICKVAL(LST_Product_Interest_1__c, &quot;SVC - OneSource Service &amp; Support&quot;) , 
+ ISPICKVAL(LST_Product_Interest_2__c, &quot;SVC - OneSource Service &amp; Support&quot;) ,
+ ISPICKVAL(LST_Product_Interest_3__c, &quot;SVC - OneSource Service &amp; Support&quot;),
+ INCLUDES(Product_Interest__c, &quot;OneSource Service &amp; Support&quot;),
+ INCLUDES(Product_Line__c, &quot;SVC&quot;)), 
+
+
+&quot;TRUE&quot;, &quot;FALSE&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Summary-SVC</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

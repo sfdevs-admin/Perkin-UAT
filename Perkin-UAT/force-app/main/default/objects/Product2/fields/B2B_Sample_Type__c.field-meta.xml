@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Sample_Type__c</fullName>
+    <description>Used to select sample type for products. Perk-75</description>
+    <label>Sample Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gas</fullName>
+                <default>false</default>
+                <label>Gas</label>
+            </value>
+            <value>
+                <fullName>Liquid</fullName>
+                <default>false</default>
+                <label>Liquid</label>
+            </value>
+            <value>
+                <fullName>LPG</fullName>
+                <default>false</default>
+                <label>LPG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

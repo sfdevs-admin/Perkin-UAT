@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Template__c</fullName>
+    <label>Template</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ENotebook 2014 R6 + COE 12.6.2 OOTB [C1262E2014R6Tem]</fullName>
+                <default>false</default>
+                <label>ENotebook 2014 R6 + COE 12.6.2 OOTB [C1262E2014R6Tem]</label>
+            </value>
+            <value>
+                <fullName>ENotebook 2014 R5.1 + COE 12.6.2 (190) [EUC1261E2014Tem]</fullName>
+                <default>false</default>
+                <label>ENotebook 2014 R5.1 + COE 12.6.2 (190) [EUC1261E2014Tem]</label>
+            </value>
+            <value>
+                <fullName>European CBOE 12.5.1 + EN 12.1.X System (165) [EUCOE125D1]</fullName>
+                <default>false</default>
+                <label>European CBOE 12.5.1 + EN 12.1.X System (165) [EUCOE125D1]</label>
+            </value>
+            <value>
+                <fullName>CBOE 12.5.1 + ELN 12.1.X OOTB [CRCOE1251Tem]</fullName>
+                <default>false</default>
+                <label>CBOE 12.5.1 + ELN 12.1.X OOTB [CRCOE1251Tem]</label>
+            </value>
+            <value>
+                <fullName>Win 2012 + Ora 11g R2 clean [W2012ORA11Tem]</fullName>
+                <default>false</default>
+                <label>Win 2012 + Ora 11g R2 clean [W2012ORA11Tem]</label>
+            </value>
+            <value>
+                <fullName>Win 2008 + Ora 11g R2 clean [W2K8R2ORA]</fullName>
+                <default>false</default>
+                <label>Win 2008 + Ora 11g R2 clean [W2K8R2ORA]</label>
+            </value>
+            <value>
+                <fullName>Win 2012 clean [W2012Tem]</fullName>
+                <default>false</default>
+                <label>Win 2012 clean [W2012Tem]</label>
+            </value>
+            <value>
+                <fullName>Win 2008 clean [WIN2K8R2Tem]</fullName>
+                <default>false</default>
+                <label>Win 2008 clean [WIN2K8R2Tem]</label>
+            </value>
+            <value>
+                <fullName>Win 2008 + MSSQL 2008 clean [W2K8R2MSSQL]</fullName>
+                <default>false</default>
+                <label>Win 2008 + MSSQL 2008 clean [W2K8R2MSSQL]</label>
+            </value>
+            <value>
+                <fullName>Win 2008 + Ms SharePoint Foundation [AMESHRPNTD120]</fullName>
+                <default>false</default>
+                <label>Win 2008 + Ms SharePoint Foundation [AMESHRPNTD120]</label>
+            </value>
+            <value>
+                <fullName>Spotfire Server [Advise version and add-ons required]</fullName>
+                <default>false</default>
+                <label>Spotfire Server [Advise version and add-ons required]</label>
+            </value>
+            <value>
+                <fullName>New system [Please specify at the comment your needs]</fullName>
+                <default>false</default>
+                <label>New system [Please specify at the comment your needs]</label>
+            </value>
+            <value>
+                <fullName>AWS New System [Please specify at the comment your needs]</fullName>
+                <default>false</default>
+                <label>AWS New System [Please specify at the comment your needs]</label>
+            </value>
+            <value>
+                <fullName>System Configuration [Please specify at the comment your needs]</fullName>
+                <default>false</default>
+                <label>System Configuration [Please specify at the comment your needs]</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

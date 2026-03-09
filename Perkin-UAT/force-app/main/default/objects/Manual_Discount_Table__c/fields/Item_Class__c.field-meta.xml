@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Class__c</fullName>
+    <description>To store item class of a product.(Source:S-692523)</description>
+    <inlineHelpText>To store item class of a product.</inlineHelpText>
+    <label>Item Class</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_212_Product_Item_Class</valueSetName>
+    </valueSet>
+</CustomField>

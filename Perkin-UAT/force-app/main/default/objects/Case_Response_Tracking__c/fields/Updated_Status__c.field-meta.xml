@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Updated_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to store the new status value resulted as change of status in related Case</inlineHelpText>
+    <label>Updated Status</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

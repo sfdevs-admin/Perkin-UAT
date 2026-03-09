@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isMasterOpp__c</fullName>
+    <description>If there is no originating Opportunity, then this Opp is a master Opportunity</description>
+    <formula>CountofChildOpps__c &gt;=1</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If there is no originating Opportunity, then this Opp is a master Opportunity</inlineHelpText>
+    <label>isMasterOpp</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

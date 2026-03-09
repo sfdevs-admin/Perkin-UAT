@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Product_INF__c</fullName>
+    <label>Primary Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Attivio</fullName>
+                <default>false</default>
+                <label>Attivio</label>
+            </value>
+            <value>
+                <fullName>CAFÉ  - Medical Review</fullName>
+                <default>false</default>
+                <label>CAFÉ  - Medical Review</label>
+            </value>
+            <value>
+                <fullName>CAFÉ - RBM</fullName>
+                <default>false</default>
+                <label>CAFÉ - RBM</label>
+            </value>
+            <value>
+                <fullName>CAFÉ - RWE</fullName>
+                <default>false</default>
+                <label>CAFÉ - RWE</label>
+            </value>
+            <value>
+                <fullName>ChemDraw</fullName>
+                <default>false</default>
+                <label>ChemDraw</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Elements</fullName>
+                <default>false</default>
+                <label>Elements</label>
+            </value>
+            <value>
+                <fullName>E-Notebook Biology</fullName>
+                <default>false</default>
+                <label>E-Notebook Biology</label>
+            </value>
+            <value>
+                <fullName>E-Notebook Chemistry</fullName>
+                <default>false</default>
+                <label>E-Notebook Chemistry</label>
+            </value>
+            <value>
+                <fullName>E-Notebook Formulations</fullName>
+                <default>false</default>
+                <label>E-Notebook Formulations</label>
+            </value>
+            <value>
+                <fullName>iLab</fullName>
+                <default>false</default>
+                <label>iLab</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Inventory Ent</fullName>
+                <default>false</default>
+                <label>Inventory Ent</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery</fullName>
+                <default>false</default>
+                <label>Lead Discovery</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery Premium</fullName>
+                <default>false</default>
+                <label>Lead Discovery Premium</label>
+            </value>
+            <value>
+                <fullName>LimsLink</fullName>
+                <default>false</default>
+                <label>LimsLink</label>
+            </value>
+            <value>
+                <fullName>Registration</fullName>
+                <default>false</default>
+                <label>Registration</label>
+            </value>
+            <value>
+                <fullName>Signals Clinical</fullName>
+                <default>false</default>
+                <label>Signals Clinical</label>
+            </value>
+            <value>
+                <fullName>Signals Data Factory</fullName>
+                <default>false</default>
+                <label>Signals Data Factory</label>
+            </value>
+            <value>
+                <fullName>Signals Lead Discovery</fullName>
+                <default>false</default>
+                <label>Signals Lead Discovery</label>
+            </value>
+            <value>
+                <fullName>Signals Medical Review</fullName>
+                <default>false</default>
+                <label>Signals Medical Review</label>
+            </value>
+            <value>
+                <fullName>Signals Notebook</fullName>
+                <default>false</default>
+                <label>Signals Notebook</label>
+            </value>
+            <value>
+                <fullName>Signals Notebook - Biology</fullName>
+                <default>false</default>
+                <label>Signals Notebook - Biology</label>
+            </value>
+            <value>
+                <fullName>Signals Notebook - Chemistry</fullName>
+                <default>false</default>
+                <label>Signals Notebook - Chemistry</label>
+            </value>
+            <value>
+                <fullName>Signals Notebook for ChemDraw</fullName>
+                <default>false</default>
+                <label>Signals Notebook for ChemDraw</label>
+            </value>
+            <value>
+                <fullName>Signals Screening</fullName>
+                <default>false</default>
+                <label>Signals Screening</label>
+            </value>
+            <value>
+                <fullName>Signals Translational</fullName>
+                <default>false</default>
+                <label>Signals Translational</label>
+            </value>
+            <value>
+                <fullName>Spotfire Biology</fullName>
+                <default>false</default>
+                <label>Spotfire Biology</label>
+            </value>
+            <value>
+                <fullName>Spotfire Chemistry</fullName>
+                <default>false</default>
+                <label>Spotfire Chemistry</label>
+            </value>
+            <value>
+                <fullName>Spotfire Clinical</fullName>
+                <default>false</default>
+                <label>Spotfire Clinical</label>
+            </value>
+            <value>
+                <fullName>Spotfire High Content Profiler</fullName>
+                <default>false</default>
+                <label>Spotfire High Content Profiler</label>
+            </value>
+            <value>
+                <fullName>Spotfire Manufacturing</fullName>
+                <default>false</default>
+                <label>Spotfire Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Spotfire OmicsOffice</fullName>
+                <default>false</default>
+                <label>Spotfire OmicsOffice</label>
+            </value>
+            <value>
+                <fullName>Spotfire Platform</fullName>
+                <default>false</default>
+                <label>Spotfire Platform</label>
+            </value>
+            <value>
+                <fullName>Spotfire Scistream</fullName>
+                <default>false</default>
+                <label>Spotfire Scistream</label>
+            </value>
+            <value>
+                <fullName>Spotfire tranSMART</fullName>
+                <default>false</default>
+                <label>Spotfire tranSMART</label>
+            </value>
+            <value>
+                <fullName>StreamBase</fullName>
+                <default>false</default>
+                <label>StreamBase</label>
+            </value>
+            <value>
+                <fullName>Unspecified</fullName>
+                <default>false</default>
+                <label>Unspecified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

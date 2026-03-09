@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Is_Tender_Opportunity</name>
+        <label>Is Tender Opportunity?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Update_Quote</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Other</defaultConnectorLabel>
+        <rules>
+            <name>Tender</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.BD_Opportunity_Type_Not_Tender__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Tender</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pause_Flow</name>
+        <label>Pause Flow ?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Yes</defaultConnectorLabel>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Permission.BD_Bypass_Automation</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Tender_Opportunity</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>Created by PWC as part of SC-389. Init Expiration Date and Ultimate Expiration Date for new Quote records.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>expirationAddDays</name>
+        <dataType>Number</dataType>
+        <expression>IF(ISPICKVAL({!$Record.SalesType__c}, &quot;POS&quot;), 60,
+IF(ISPICKVAL({!$Record.SalesType__c}, &quot;Consumables&quot;), 30,
+IF(ISPICKVAL({!$Record.SalesType__c}, &quot;Service Contracts&quot;), 
+IF(ISPICKVAL({!$Record.SBQQ__Type__c}, &quot;Renewal&quot;), 120, 60),
+60
+)))</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>expirationDate</name>
+        <dataType>Date</dataType>
+        <expression>IF(ISPICKVAL({!$Record.SalesType__c}, &quot;POS&quot;), {!$Record.CreatedDate} + 60,
+IF(ISPICKVAL({!$Record.SalesType__c}, &quot;Consumables&quot;), {!$Record.CreatedDate} + 30,
+IF(ISPICKVAL({!$Record.SalesType__c}, &quot;Service Contract&quot;), 
+IF(ISPICKVAL({!$Record.SBQQ__Type__c}, &quot;Renewal&quot;), {!$Record.CreatedDate} + 120, {!$Record.CreatedDate} + 60),
+{!$Record.CreatedDate} + 60
+)))</expression>
+    </formulas>
+    <formulas>
+        <name>ultimateAddDays</name>
+        <dataType>Number</dataType>
+        <expression>{!expirationAddDays} + 30</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>ultimateDate</name>
+        <dataType>Date</dataType>
+        <expression>{!$Record.CreatedDate} + {!ultimateAddDays}</expression>
+    </formulas>
+    <interviewLabel>Quote TRG Init Expiration Date {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Quote TRG Init Expiration Date</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Quote</name>
+        <label>Update Quote</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>SBQQ__ExpirationDate__c</field>
+            <value>
+                <elementReference>expirationDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Ultimate_Expiration_Date__c</field>
+            <value>
+                <elementReference>ultimateDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Pause_Flow</targetReference>
+        </connector>
+        <object>SBQQ__Quote__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>1</triggerOrder>
+</Flow>

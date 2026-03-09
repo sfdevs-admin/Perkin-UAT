@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Case_SLA_Time__c</fullName>
+    <description>Used as merge field in email template &#39;Notify support team on critical/high cases&#39;</description>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(Priority, &#39;Critical&#39;) , &#39;1 hour&#39;, IF( ISPICKVAL(Priority, &#39;High&#39;) ,&#39;4 hours&#39;, &#39; &#39;))</formula>
+    <label>Case SLA Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

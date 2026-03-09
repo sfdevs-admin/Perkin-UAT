@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestVB</fullName>
+    <availability>online</availability>
+    <description>create new lead form with additional fields.. Vibha June 13th 2014</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>TestVB</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://na1.salesforce.com/00Q/e?name_salutation={!Contact.Salutation}&amp;name_lastlea2={!Contact.LastName}&amp;name_firstlea2={!Contact.FirstName} &amp;lea8={!Contact.Phone}&amp;lea3={!Account.Name}&amp;lea11={!Contact.Email}&amp;lea4={!Contact.Title}&amp;lea16street={!Contact.MailingStreet} &amp;lea16city={!Contact.MailingCity}&amp;lea16state={!Contact.MailingState}&amp;lea16country={!Contact.MailingCountry}&amp;lea16zip={!Contact.MailingPostalCode} &amp;lea9={!Contact.MobilePhone}&amp;lea10={!Contact.Fax}&amp;lea12={!Account.Website}&amp;{!Lead.BE__c}={!Contact.BU__c}</url>
+</WebLink>

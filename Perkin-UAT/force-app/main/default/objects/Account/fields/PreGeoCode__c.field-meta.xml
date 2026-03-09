@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreGeoCode__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(or(left(ShippingPostalCode,3)=&quot;&quot;,len(left(ShippingPostalCode,3))&lt;&gt;3) ,&quot;NA&quot;,left(ShippingPostalCode,3))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PreGeoCode</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

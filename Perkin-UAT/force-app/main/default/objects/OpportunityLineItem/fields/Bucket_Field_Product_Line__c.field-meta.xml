@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bucket_Field_Product_Line__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR( Product_Line__c =&#39;AVC&#39;,Product_Line__c =&#39;AVS&#39;,Product_Line__c =&#39;ELM&#39;,Product_Line__c =&#39;ISS&#39;,Product_Line__c =&#39;QAS&#39;,Product_Line__c =&#39;DSK&#39;,Product_Line__c =&#39;ENT&#39;,Product_Line__c =&#39;ATT&#39;),&#39;INF Product&#39;,
+IF(OR(Product_Line__c =&#39;AGT&#39;,Product_Line__c =&#39;OMV&#39;,Product_Line__c =&#39;OSAI&#39;,Product_Line__c =&#39;OSC&#39;,Product_Line__c =&#39;OSAM&#39;,Product_Line__c =&#39;OSRL&#39;,Product_Line__c =&#39;OSSS&#39;,Product_Line__c =&#39;SVC&#39;,Product_Line__c =&#39;TMO&#39;,Product_Line__c =&#39;WAT&#39;),&#39;OneSource Product&#39;,
+IF(OR ( 
+Product_Line__c = &quot;APS&quot;, Product_Line__c = &quot;ARS&quot;, Product_Line__c = &quot;AWS&quot;, Product_Line__c = &quot;CLH&quot;, Product_Line__c = &quot;CLR&quot;, Product_Line__c = &quot;DIS&quot;, Product_Line__c = &quot;FAP&quot;, Product_Line__c = &quot;HCS&quot;, Product_Line__c = &quot;HTS&quot;, Product_Line__c = &quot;IAS&quot;, Product_Line__c = &quot;INV&quot;, Product_Line__c = &quot;LVI&quot;, Product_Line__c = &quot;MFT&quot;, Product_Line__c = &quot;MLD&quot;, Product_Line__c = &quot;MOL&quot;, Product_Line__c = &quot;MOX&quot;, Product_Line__c = &quot;NMO&quot;, Product_Line__c = &quot;NVS&quot;, Product_Line__c = &quot;PBR&quot;, Product_Line__c = &quot;PGI&quot;, Product_Line__c = &quot;QTS&quot;, Product_Line__c = &quot;RRD&quot;, Product_Line__c = &quot;RRS&quot;, Product_Line__c = &quot;SPS&quot;, Product_Line__c = &quot;TBR&quot;, Product_Line__c = &quot;TIS&quot;, Product_Line__c = &quot;TSC&quot;, 
+Product_Line__c = &quot;EZR&quot; 
+),&#39;LST&#39;,Product_Line__c)))</formula>
+    <label>Bucket Field: Product Line</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

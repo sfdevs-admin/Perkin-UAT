@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Product__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to determine if it is a Warranty Product. (Source: S-692534)</description>
+    <inlineHelpText>Field to determine if it is a Warranty Product.</inlineHelpText>
+    <label>Warranty Product</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

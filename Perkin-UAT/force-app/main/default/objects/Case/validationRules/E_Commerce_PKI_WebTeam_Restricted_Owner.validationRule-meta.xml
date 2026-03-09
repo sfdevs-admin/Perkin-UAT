@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E_Commerce_PKI_WebTeam_Restricted_Owner</fullName>
+    <active>true</active>
+    <description>PKI Queue &#39;E-Commerce PKI WebTeam&#39; can&#39;t be set to be Case Owner.</description>
+    <errorConditionFormula>$Permission.BD_Bypass_Automation != TRUE 
+&amp;&amp; Owner:Queue.QueueName = &#39;E-Commerce PKI WebTeam&#39;</errorConditionFormula>
+    <errorMessage>V.RULE_CASE_055: You are not allowed to assign Cases to the queue &#39;E-Commerce PKI WebTeam&#39;.
+Please select appropriate queue based on Owned by Company &#39;E-Commerce PKI WebTeam (AES)&#39; or &#39;E-Commerce PKI WebTeam (LSDX)&#39;.</errorMessage>
+</ValidationRule>

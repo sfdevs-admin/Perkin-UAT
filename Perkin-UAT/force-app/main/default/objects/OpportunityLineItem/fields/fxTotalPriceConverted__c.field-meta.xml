@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxTotalPriceConverted__c</fullName>
+    <description>a formula to convert currency for display purposes</description>
+    <formula>1 / CURRENCYRATE(TEXT(CurrencyIsoCode)) *  TotalPrice</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>fxTotalPriceConverted</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

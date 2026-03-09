@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approvals</fullName>
+    <availability>online</availability>
+    <description>Launch the CPQ OnDemand Workflow Console from the Opportunity Details</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Approvals</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>https://od1.fpx.com/login/connect.do?destination=wfconsole&amp;SfdcServerURL={!API.Partner_Server_URL_280}&amp;SfdcSessionID={!API.Session_ID}&amp;retURL={!Opportunity.Link}&amp;retObjLabel=Opportunity</url>
+</WebLink>

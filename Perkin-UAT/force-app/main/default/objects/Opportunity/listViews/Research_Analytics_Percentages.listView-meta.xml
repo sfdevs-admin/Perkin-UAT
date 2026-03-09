@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Research_Analytics_Percentages</fullName>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>INF_Analytics_AVS__c</columns>
+    <columns>INF_Analytics_AVC__c</columns>
+    <columns>Related_Market_Analytics__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Informatics</value>
+    </filters>
+    <filters>
+        <field>Product_Line_Name__c</field>
+        <operation>equals</operation>
+        <value>AVC,AVS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>contains</operation>
+        <value>Stage 1 - Create/Plan,Stage 2 - Qualify,Stage 3 - Develop,Stage 4 - Prove,Stage 5 - Negotiation</value>
+    </filters>
+    <filters>
+        <field>INF_Analytics_AVS__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>test</value>
+    </filters>
+    <label>INF-Research Analytics % Missing</label>
+    <sharedTo>
+        <group>ARQ_000929</group>
+    </sharedTo>
+</ListView>

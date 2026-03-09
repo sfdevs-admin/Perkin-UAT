@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_TS_TIS_TSC_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>LST-TS-TIS/TSC</label>
+    <queue>ARQ_000643</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

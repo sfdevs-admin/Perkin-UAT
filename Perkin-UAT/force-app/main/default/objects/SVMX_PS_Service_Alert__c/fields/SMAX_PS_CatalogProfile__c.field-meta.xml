@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_CatalogProfile__c</fullName>
+    <description>Catalog Profile</description>
+    <externalId>false</externalId>
+    <formula>SVMX_PS_Installed_Product__r.SMAX_PS_CatalogProfile__c</formula>
+    <inlineHelpText>Catalog Profile</inlineHelpText>
+    <label>Catalog Profile</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

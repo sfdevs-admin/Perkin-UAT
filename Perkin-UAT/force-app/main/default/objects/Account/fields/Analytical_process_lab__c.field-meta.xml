@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analytical_process_lab__c</fullName>
+    <label>Analytical process software (lab)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PerkinElmer</fullName>
+                <default>false</default>
+                <label>PerkinElmer</label>
+            </value>
+            <value>
+                <fullName>StarLIMS</fullName>
+                <default>false</default>
+                <label>StarLIMS</label>
+            </value>
+            <value>
+                <fullName>Homebrew</fullName>
+                <default>false</default>
+                <label>Homebrew</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,3498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AbandonedCartNotification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AbandonedCartNotification</shortDescription>
+        <value>Abandoned_Cart_Notification</value>
+    </labels>
+    <labels>
+        <fullName>AddToCartSubscriptionMsg</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddToCartSubscriptionMsg</shortDescription>
+        <value>You cannot add items to the cart which is of subscription.</value>
+    </labels>
+    <labels>
+        <fullName>AddToExisting</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddToExisting</shortDescription>
+        <value>Add to Existing</value>
+    </labels>
+    <labels>
+        <fullName>AddToSubscription</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddToSubscription</shortDescription>
+        <value>Add To Subscription</value>
+    </labels>
+    <labels>
+        <fullName>Add_To_Cart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add To Cart</shortDescription>
+        <value>Add To Cart</value>
+    </labels>
+    <labels>
+        <fullName>Approver_DOA_Level_Matrix_List_View_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver DOA Level Matrix List View URL</shortDescription>
+        <value>https://perkinelmer.lightning.force.com/lightning/o/Approver_DOA_Level_Matrix__c/list?filterName=Recent</value>
+    </labels>
+    <labels>
+        <fullName>B2BSupportCaseAdminEmailAddress</fullName>
+        <categories>commerce,store,email,B2BsupportCase</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2BSupportCaseAdminEmailAddress</shortDescription>
+        <value>support.shop@perkinelmer.com</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Add_To_Cart_Failure_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Add To Cart Failure Message</shortDescription>
+        <value>An unexpected error occured while trying to process your request</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Allowed_Sales_Statuses</fullName>
+        <categories>B2B,Site,Product</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Allowed Sales Statuses</shortDescription>
+        <value>ZW,ZY</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Address_Cancel_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Address Cancel Button</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Address_Empty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Address Empty</shortDescription>
+        <value>Please complete all the required fields in Billing Address.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Address_Invalid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Address Invalid</shortDescription>
+        <value>The following field(s) have invalid value, please enter a valid address:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Address_Modal_Content</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Address Modal Content</shortDescription>
+        <value>Based on the entered address, the closest match found is:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Address_Modal_Heading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Address Modal Heading</shortDescription>
+        <value>Recommended Address</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Address_Not_Validated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Address Not Validated</shortDescription>
+        <value>Billing Address must be validated before proceeding.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Address_Update_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Address Update Button</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Address_Validate_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Address Validate Button</shortDescription>
+        <value>Validate</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_City</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing City</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Country</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Country</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_FirstName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing FirstName</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_LastName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing LastName</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_PostalCode</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing PostalCode</shortDescription>
+        <value>Zip</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_State</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing State</shortDescription>
+        <value>State</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Street</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Street</shortDescription>
+        <value>Street</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Billing_Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Billing Success</shortDescription>
+        <value>Billing details fetched successfully.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Cart_CVO_Error_Message</fullName>
+        <categories>cart</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Cart CVO Error Message</shortDescription>
+        <value>Deals Discount already applied. Promo codes will not apply</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Cart_Delivery_Groups_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Cart Delivery Groups Error Msg</shortDescription>
+        <value>No Cart Delivery Groups have been defined</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_EnterPOText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout EnterPOText</shortDescription>
+        <value>Enter Purchase Order</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_ErrorBillingAddressText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout ErrorBillingAddressText</shortDescription>
+        <value>Billing address missing, please contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_ErrorEmailText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout ErrorEmailText</shortDescription>
+        <value>User must have an Email to Checkout.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_ErrorGeneralText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout ErrorGeneralText</shortDescription>
+        <value>Something went wrong. Please, contact your System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_ErrorOrderCreationText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout ErrorOrderCreationText</shortDescription>
+        <value>Error occurred during order creation, please contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_ErrorPOText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout ErrorPOText</shortDescription>
+        <value>Please enter a valid purchase order number.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_ErrorPaymentProcessText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout ErrorPaymentProcessText</shortDescription>
+        <value>Error occurred during payment processing, please contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_FileUploadSizeText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout FileUploadSizeText</shortDescription>
+        <value>File size cannot exceed {0}. {1} is {2}.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_FileUploadSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout FileUploadSuccess</shortDescription>
+        <value>All Files uploaded successfully.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_Header_BackBtn</fullName>
+        <categories>B2B,Site,header,checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Checkout_Header_BackBtn</shortDescription>
+        <value>Cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_Header_BackToCart</fullName>
+        <categories>B2B,Site,Checkout,Header</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Checkout_Header_BackToCart</shortDescription>
+        <value>Return to Cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_Header_CartURL</fullName>
+        <categories>B2B,checkout,header</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Checkout_Header_CartURL</shortDescription>
+        <value>/cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_Modal_Header</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout Modal Header</shortDescription>
+        <value>Checkout</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_PayNow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout PayNow</shortDescription>
+        <value>Pay Now</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_Region_Required_Countries</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout Region Required Countries</shortDescription>
+        <value>US,CA,IT,MX</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_Return_To_Checkout</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout Return To Checkout</shortDescription>
+        <value>Return to Checkout</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_SameAsShipping</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout SameAsShipping</shortDescription>
+        <value>Same as shipping address</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_SubmitPO</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout SubmitPO</shortDescription>
+        <value>Submit Purchase Order</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_UploadFileHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout UploadFileHelpText</shortDescription>
+        <value>Upload a file</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_UploadFileLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout UploadFileLabel</shortDescription>
+        <value>Upload File</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_UploadFileRequiredText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout UploadFileRequiredText</shortDescription>
+        <value>Upload at least one file</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_UploadFileWarning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout UploadFileWarning</shortDescription>
+        <value>Upload at least one file.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_Without_File_Upload</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout Without File Upload</shortDescription>
+        <value>Proceed Without Uploading File</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Checkout_Without_PO_Upload</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Checkout Without PO Upload</shortDescription>
+        <value>To avoid delays in processing your order, please return to checkout and upload your purchase order.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Clear_Cart_Btn</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Clear Cart Btn</shortDescription>
+        <value>Clear Cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Commerce_Category_Id_Blank_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Commerce Category Id Blank Error</shortDescription>
+        <value>Category Id is missing</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Commerce_Category_No_Child_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Commerce Category No Child Error</shortDescription>
+        <value>No child categories found.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Commerce_Category_Object_Access_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Commerce Category Object Access Error</shortDescription>
+        <value>Insufficient permissions to access B2B_Commerce_Category__c object.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Contact_Admin</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Contact Admin</shortDescription>
+        <value>Please contact your admin.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Contact_Admin_No_Meta_Data</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Contact Admin No Meta Data</shortDescription>
+        <value>No metadata records are available. Please contact your admin.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Contact_US_Page</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Contact US Page</shortDescription>
+        <value>https://shop-uat.perkinelmer.com/contactus</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Country_Selector_Lang_Code</fullName>
+        <categories>apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Country Selector Lang Code</shortDescription>
+        <value>EN</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Country_Selector_Missing_Country_Code</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Country_Selector_Missing_Country_Code</shortDescription>
+        <value>Missing or invalid country parameter.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Currency_Update_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Currency Update Error Message</shortDescription>
+        <value>An error occurred while updating the currency. Please contact your admin.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Day_Suffix</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Day Suffix</shortDescription>
+        <value>Day</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Days_Suffix</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Days Suffix</shortDescription>
+        <value>Days</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Default_Shipping_Estimated_Days</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Default Shipping Estimated Days</shortDescription>
+        <value>14</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Delete_Btn</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Delete Btn</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Disclaimer_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Disclaimer Message</shortDescription>
+        <value>Please Note</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Disclaimer_Message2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Disclaimer Message2</shortDescription>
+        <value>Any cart items that were added prior to registration have been cleared due to locale change.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Enable_Stripe_Tax</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Enable Stripe Tax</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Error_Product_Spec</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Error_Product_Spec</shortDescription>
+        <value>An error occurred</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Estimated_Days</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Estimated Days</shortDescription>
+        <value>Estimated Shipping Date</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Featured_Categories_Not_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Featured_Categories_Not_Found</shortDescription>
+        <value>There are no Featured Categories in the store</value>
+    </labels>
+    <labels>
+        <fullName>B2B_GeneralErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B GeneralErrorMessage</shortDescription>
+        <value>Something went wrong</value>
+    </labels>
+    <labels>
+        <fullName>B2B_GotoSubscriptionList</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_GotoSubscriptionList</shortDescription>
+        <value>View my list of subscriptions</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Guest_User_Details_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Guest User Details URL</shortDescription>
+        <value>https://ipinfo.io/</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Home_TopSellerHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Home TopSellerHeader</shortDescription>
+        <value>Top</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Home_TopSellerProductsHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Home TopSellerProductsHeader</shortDescription>
+        <value>Sellers</value>
+    </labels>
+    <labels>
+        <fullName>B2B_IP_Address_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B IP Address URL</shortDescription>
+        <value>https://api.ipify.org</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Invalid_Country_Or_Local</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Invalid Country Or Local</shortDescription>
+        <value>Missing or invalid Country or Locale.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Invalid_Params</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Invalid_Params</shortDescription>
+        <value>Invalid or missing mapParams</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Item_Label</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Item Label</shortDescription>
+        <value>item</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Missing_OrderSummary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Missing OrderSummary</shortDescription>
+        <value>Missing OrderSummary Id</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_Back_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal Back Button</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_Body_Text_One</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal Body Text One</shortDescription>
+        <value>Changing your location may affect product availability and pricing.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_Body_Text_Two</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal Body Text Two</shortDescription>
+        <value>Carts are also cleared in this process. Would you like to continue?</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_Cancel_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal Cancel Button</shortDescription>
+        <value>No, Cancel</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_Continue_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal Continue Button</shortDescription>
+        <value>Yes, Continue</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_ErrorRequiredFieldsText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal ErrorRequiredFieldsText</shortDescription>
+        <value>Please fill all the required fields</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_First_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal First Header</shortDescription>
+        <value>Select Your Location</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_OkButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal OkButton</shortDescription>
+        <value>Ok</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_Proceed_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal Proceed Button</shortDescription>
+        <value>Proceed</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_Second_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal Second Header</shortDescription>
+        <value>Select Your Language &amp; Currency</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Modal_Third_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Modal Third Header</shortDescription>
+        <value>You&#39;re Changing Location</value>
+    </labels>
+    <labels>
+        <fullName>B2B_MyList_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B MyList Title</shortDescription>
+        <value>My Shopping Lists</value>
+    </labels>
+    <labels>
+        <fullName>B2B_No_Buyer_Group_Member_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B No Buyer Group Member Error</shortDescription>
+        <value>No Buyer Group Member found for the Account.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_No_Meta_Data_For_Country_Code</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B No Meta Data For Country Code</shortDescription>
+        <value>No Metadata record is available for your Country Code</value>
+    </labels>
+    <labels>
+        <fullName>B2B_No_OrderSummary_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B No OrderSummary Found</shortDescription>
+        <value>No OrderSummary record found for the given Id.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_No_Subscription_Items_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_No_Subscription_Items_Found</shortDescription>
+        <value>No items found for this subscription.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_No_featured_product_found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_No_featured_product_found</shortDescription>
+        <value>No featured product found</value>
+    </labels>
+    <labels>
+        <fullName>B2B_No_related_product_found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_No_related_product_found</shortDescription>
+        <value>No related product found</value>
+    </labels>
+    <labels>
+        <fullName>B2B_OrderSummary_Billing_Address</fullName>
+        <categories>Order Confirmation, Order Summary Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B OrderSummary Billing Address</shortDescription>
+        <value>Billing Address</value>
+    </labels>
+    <labels>
+        <fullName>B2B_OrderSummary_Billing_Info</fullName>
+        <categories>Order Confirmation, Order Summary Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B OrderSummary Billing Info</shortDescription>
+        <value>Billing Information</value>
+    </labels>
+    <labels>
+        <fullName>B2B_OrderSummary_Email_ID</fullName>
+        <categories>Order Confirmation, Order Summary Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B OrderSummary Email ID</shortDescription>
+        <value>Email ID</value>
+    </labels>
+    <labels>
+        <fullName>B2B_OrderSummary_Not_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_OrderSummary_Not_Found</shortDescription>
+        <value>Order Summary not found.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Add_To_Existing_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Add To Existing List</shortDescription>
+        <value>Add to Existing List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Add_To_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Add To List</shortDescription>
+        <value>Add To List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Add_To_Shopping_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Add To Shopping List</shortDescription>
+        <value>Add to Shopping List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Back</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Create_New_Shopping_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Create New Shopping List</shortDescription>
+        <value>Create New Shopping List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Go_To_My_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Go To My List</shortDescription>
+        <value>Go to My Lists</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_NoExistingList</fullName>
+        <categories>PDP,ShoppingList</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP NoExistingList</shortDescription>
+        <value>No shopping lists exist, please create a new one</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Note_Subscription</fullName>
+        <categories>PDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Note Subscription</shortDescription>
+        <value>Note: Only subscriptions with the selected billing frequency can be selected</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Part_Number</fullName>
+        <categories>PDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Part Number</shortDescription>
+        <value>Part Number</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_ProductResourcesAll</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP ProductResourcesAll</shortDescription>
+        <value>All</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Product_Added_Successfully</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Product Added Successfully</shortDescription>
+        <value>Product added successfully to</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Product_Exist_Message</fullName>
+        <categories>PDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Product Exist Message</shortDescription>
+        <value>Product already exists in this list.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Promotion_Api</fullName>
+        <categories>PDP, PLP, ShoppingList</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Promotion Api</shortDescription>
+        <value>/webruntime/api/services/data/v64.0/commerce/webstores/{0}/promotions/products?productIds={1}&amp;language={2}&amp;asGuest={3}&amp;htmlEncode=false</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Question_To_Add_Item</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Question To Add Item</shortDescription>
+        <value>Do you want to add this item to the list?</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_RelatedProductsTabHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP RelatedProductsTabHeader</shortDescription>
+        <value>Products</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_RelatedTabHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP RelatedTabHeader</shortDescription>
+        <value>Related</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Save_and_Continue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Save and Continue</shortDescription>
+        <value>Save &amp; Continue</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Saved</fullName>
+        <categories>PDP, PLP, ShoppingList</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Saved</shortDescription>
+        <value>Saved</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Select_Option</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Select Option</shortDescription>
+        <value>Do you want to create a new shopping list or add to an existing one?</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Select_Shopping_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Select Shopping List</shortDescription>
+        <value>Select an existing shopping list:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Select_Subscriptions</fullName>
+        <categories>PDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Select Subscriptions</shortDescription>
+        <value>Choose from an existing subscription below or create a new one</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Select_and_Continue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Select and Continue</shortDescription>
+        <value>Select &amp; Continue</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Shopping_List_Created</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Shopping List Created</shortDescription>
+        <value>Shopping List created!</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_Subscription_Discount</fullName>
+        <categories>PDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP Subscription Discount</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PDP_TabResourcesEvents</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PDP TabResourcesEvents</shortDescription>
+        <value>Resources, Events &amp; More</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Pathogen_Detection</fullName>
+        <categories>flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Pathogen Detection</shortDescription>
+        <value>Pathogen Detection</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Payment_Method_CA_Pre_Auth_Debit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Payment Method CA Pre-Auth Debit</shortDescription>
+        <value>Canadian Pre-Authorized Debit</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Payment_Method_EU_SEPA_Debit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Payment Method EU SEPA Debit</shortDescription>
+        <value>SEPA Direct Debit</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Payment_Method_US_Bank_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Payment Method US Bank Account</shortDescription>
+        <value>ACH Direct Debit - US</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PerkinElmer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PerkinElmer</shortDescription>
+        <value>PerkinElmer</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PerkinElmer_ContactUs_URL</fullName>
+        <categories>email template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_PerkinElmer_ContactUs_URL</shortDescription>
+        <value>https://shop-uat.perkinelmer.com/contactus</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PerkinElmer_Login_URL</fullName>
+        <categories>email template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_PerkinElmer_Login_URL</shortDescription>
+        <value>https://Shop-uat.PerkinElmer.com/PasswordReset</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PerkinElmer_Site_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_PerkinElmer_Site_URL</shortDescription>
+        <value>https://Shop-uat.PerkinElmer.com</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ProductId_Missing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_ProductId_Missing</shortDescription>
+        <value>Product Id is missing</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Product_Add_Sub</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Product_Add_Sub</shortDescription>
+        <value>Product added to:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Product_Overview</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Product Overview</shortDescription>
+        <value>Overview</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Product_Specifications</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Product Specifications</shortDescription>
+        <value>Specifications</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Promotion_Buyer_Group_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Promotion Buyer Group Error</shortDescription>
+        <value>An error occurred while fetching Promotion Buyer Group Info. Please contact your admin.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PublicList_Clone_Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PublicList Clone Success</shortDescription>
+        <value>Shopping List cloned successfully.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_PublicList_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B PublicList Title</shortDescription>
+        <value>Public Shopping List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_RequestMore_Instrument</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B RequestMore Instrument</shortDescription>
+        <value>Instrument</value>
+    </labels>
+    <labels>
+        <fullName>B2B_RequestMore_MajorAccessory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B RequestMore MajorAccessory</shortDescription>
+        <value>Major Accessory</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Saved_Tag</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Saved Tag</shortDescription>
+        <value>Saved</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Address</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Address</shortDescription>
+        <value>Shipping Address</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Charges</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Charges</shortDescription>
+        <value>Shipping Charges</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Info_Header</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Info Header</shortDescription>
+        <value>Shipping Information</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Method</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Method</shortDescription>
+        <value>Shipping Method</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Method_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Method Error Msg</shortDescription>
+        <value>No Shipping Methods have been defined for current Currency Code</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Method_Error_Updating_Shipping</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Method Error Updating Shipping</shortDescription>
+        <value>There was an error updating the shipping method. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Method_No_Delivery_Methods</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Method No Delivery Methods</shortDescription>
+        <value>There are no available delivery methods. Reach out to your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Product_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Product Error Msg</shortDescription>
+        <value>No Shipping Products have been defined</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shipping_Product_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shipping Product Name</shortDescription>
+        <value>Delivery Charge</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetail_Out_Of</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetail Out Of</shortDescription>
+        <value>out of</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Add_Selected_To_Cart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Add Selected To Cart</shortDescription>
+        <value>Add Selected to Cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Clone_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Clone List</shortDescription>
+        <value>Add to My List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Clone_Public_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Clone Public List</shortDescription>
+        <value>Clone Public Shopping List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Edit</fullName>
+        <categories>Shopping list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Empty_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Empty List</shortDescription>
+        <value>Your shopping list is empty.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Empty_List_Subheading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Empty List Subheading</shortDescription>
+        <value>Add products to start building your list.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Error_Add_To_Cart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Error Add To Cart</shortDescription>
+        <value>Error while adding product to cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Item</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Item</shortDescription>
+        <value>Item</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Items</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Items</shortDescription>
+        <value>Items</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_List_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails List Name</shortDescription>
+        <value>List Name</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_No_Changes</fullName>
+        <categories>Shopping list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails No Changes</shortDescription>
+        <value>No changes detected to save</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_No_Products_Selected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails No Products Selected</shortDescription>
+        <value>No products selected.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_No_Search_Result</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails No Search Result</shortDescription>
+        <value>No search result</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_No_Search_Subheading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails No Search Subheading</shortDescription>
+        <value>Try search with correct product name or part number</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Product_Remove_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Product Remove Message</shortDescription>
+        <value>Product removed from list.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Search_Bar_Placeholder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Search Bar Placeholder</shortDescription>
+        <value>Search by Name or Part Number</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Set_As_Default</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Set As Default</shortDescription>
+        <value>Set as Default List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Show_Less</fullName>
+        <categories>Shopping list Detail, Public list</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Show Less</shortDescription>
+        <value>Show Less</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Show_More</fullName>
+        <categories>Shopping list Detail, Public list</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Show More</shortDescription>
+        <value>Show More</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Title</shortDescription>
+        <value>My Shopping List Details</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingDetails_Update_Successfully</fullName>
+        <categories>Shopping list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingDetails Update Successfully</shortDescription>
+        <value>Shopping list updated successfully</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Add_All_Item_Cart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Add All Item Cart</shortDescription>
+        <value>Add All To Cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Add_To_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Add To List</shortDescription>
+        <value>Add To Cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Back_To_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Back To List</shortDescription>
+        <value>Back To List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Default</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Default</shortDescription>
+        <value>(Default)</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Delete_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Delete List</shortDescription>
+        <value>Delete List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Deleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Deleted</shortDescription>
+        <value>Deleted</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Edit_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Edit List</shortDescription>
+        <value>Edit List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Empty_List_Heading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Empty List Heading</shortDescription>
+        <value>No Shopping List Exist.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Empty_List_SubHeading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Empty List SubHeading</shortDescription>
+        <value>When you create a list, they&#39;ll appear here.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Error_Add_Item</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Error Add Item</shortDescription>
+        <value>An unpexpected error occured while adding item to cart.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_No_List_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList No List Found</shortDescription>
+        <value>No shopping list found.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Quantity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Quantity</shortDescription>
+        <value>Qty</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Remove_Item</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Remove Item</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_Shopping_List_Deleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList Shopping List Deleted</shortDescription>
+        <value>Shopping list deleted.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_View_Cart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList View Cart</shortDescription>
+        <value>View Cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_ShoppingList_View_Details</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B ShoppingList View Details</shortDescription>
+        <value>View Details</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shopping_List_Confirm_Delete_List_Text</fullName>
+        <categories>Shopping list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shopping List Confirm Delete List Text</shortDescription>
+        <value>Are you sure you want to delete the list?</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Shopping_List_Heading</fullName>
+        <categories>Shopping list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Shopping List Heading</shortDescription>
+        <value>Shopping List</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Show_More_Btn</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Show More Btn</shortDescription>
+        <value>Show More</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Site_Custom_Url_For_QR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Site Custom Url For QR</shortDescription>
+        <value>https://shop-uat.perkinelmer.com/mylists/mylistdetails?shoppingListId=</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Site_Public_Url_For_QR</fullName>
+        <categories>B2B,Site,PublicList,QR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Site Public Url For QR</shortDescription>
+        <value>https://shop-uat.perkinelmer.com/publicshoppinglist?shoppingListId=</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Site_Start_Url</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Site Start Url</shortDescription>
+        <value>/login?startURL=</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Site_URL_Default_Pathname</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Site URL Default Pathname</shortDescription>
+        <value>/</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Site_US_Locale</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Site US Locale</shortDescription>
+        <value>en-US</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Sku_Label</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sku Label</shortDescription>
+        <value>Part</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Sort_By_A_Z</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sort By A-Z</shortDescription>
+        <value>Name - A to Z</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Sort_By_Newest</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sort By Newest</shortDescription>
+        <value>Date Added - Newest First</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Sort_By_Oldest</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sort By Oldest</shortDescription>
+        <value>Date Added - Oldest First</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Sort_By_Z_A</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Sort By Z-A</shortDescription>
+        <value>Name - Z to A</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Stripe_Max_Num_of_Retries</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Stripe Max Num of Retries</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Stripe_Tax_Failed_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Stripe Tax Failed Message</shortDescription>
+        <value>An error has occurred while calculating tax. Please reach out to customer support.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subcription_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Subcription_Error_Msg</shortDescription>
+        <value>Error while fetching subscription items:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subscription_Cart_Msg</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Subscription Cart Msg</shortDescription>
+        <value>Subscription Cart Details:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subscription_Id_Missing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_Subscription_Id_Missing</shortDescription>
+        <value>Missing subscriptionId.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subscription_Order_Batch_Size</fullName>
+        <categories>B2B</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Subscription Order Batch Size</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_Activate</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails Activate</shortDescription>
+        <value>Activate</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_ActivateSubscription</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails ActivateSubscription</shortDescription>
+        <value>Activate subscription</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_CancelSub</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails CancelSub</shortDescription>
+        <value>Cancel Subscription</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_CartDeletedText</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails CartDeletedText</shortDescription>
+        <value>Cart deleted successfully! Click on Activate to activate the Subscription.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_ClearCartText</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails ClearCartText</shortDescription>
+        <value>Please clear your current cart by clicking &#39;Clear Cart&#39; before activating your subscription.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_EmptyList_Subheading</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails EmptyList Subheading</shortDescription>
+        <value>Add Products to Subscription List to appear here !</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_Empty_List</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails Empty List</shortDescription>
+        <value>Subscription List is Empty</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_ItemsAddedText</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails ItemsAddedText</shortDescription>
+        <value>Items added to cart Successfully!</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_Menu</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails Menu</shortDescription>
+        <value>Edit Details</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_PausCancel_Subscription</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails PausCancel Subscription</shortDescription>
+        <value>{0} subscription</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_PauseCancel_ConfirmText</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails PauseCancel ConfirmText</shortDescription>
+        <value>Are you sure you want to {0} the Subscription?</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_PauseSub</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails PauseSub</shortDescription>
+        <value>Pause Subscription</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_cancel</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_edit</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails edit</shortDescription>
+        <value>edit</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SubscriptionsDetails_pause</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SubscriptionsDetails pause</shortDescription>
+        <value>Pause</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subscriptions_Active_Subscription</fullName>
+        <categories>Subscription list Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Subscriptions Active Subscription</shortDescription>
+        <value>Active Subscription</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subscriptions_BillingDate</fullName>
+        <categories>Subscription list</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Subscriptions BillingDate</shortDescription>
+        <value>Next Order Date</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subscriptions_Empty_List_Heading</fullName>
+        <categories>Subscription list</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Subscriptions Empty List Heading</shortDescription>
+        <value>No subscription list exist.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subscriptions_Empty_List_Subheading</fullName>
+        <categories>Subscription list</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Subscriptions Empty List Subheading</shortDescription>
+        <value>Add products to start building list.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Subscriptions_Status</fullName>
+        <categories>Subscription Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Subscriptions Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Toast_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Toast Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Toast_Info</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Toast Info</shortDescription>
+        <value>Info</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Toast_Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Toast Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>B2B_UnitPrice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B UnitPrice</shortDescription>
+        <value>Unit Price</value>
+    </labels>
+    <labels>
+        <fullName>B2B_WebStore_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B WebStore Id</shortDescription>
+        <value>0ZEPs0000003fQ1OAI</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_BulkUploadBtnLabel</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Bulk Upload Button Label</shortDescription>
+        <value>Bulk Upload</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_CARTITEMLIMITMESSAGE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart CARTITEMLIMITMESSAGE</shortDescription>
+        <value>Currently {0} items can be added to your cart, please checkout current cart and try again.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_CartFullMaxItem</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart CartFullMaxItem</shortDescription>
+        <value>Your Cart is full, A maximum of 500 line items can be added to cart.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_CartIsFull</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart CartIsFull</shortDescription>
+        <value>Your Cart is full</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_ClickHereLabel</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Click Here Label</shortDescription>
+        <value>Click here</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_ClickHereMsg</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Click Here Message</shortDescription>
+        <value>to download error csv</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_ErrorCount</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Error Count</shortDescription>
+        <value>Total Error Records :</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_ErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart ErrorMessage</shortDescription>
+        <value>Unfortunately some line items could not be processed due to failures.  Please reupload only the corrected failed lines and not the complete file.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_ErrorOccuredAddToCart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart ErrorOccuredAddToCart</shortDescription>
+        <value>Some Error Occured while adding items to cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_GoToCartBtnLabel</fullName>
+        <categories>B2B,Site,CsvToCart</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_csvToCart_GoToCartBtnLabel</shortDescription>
+        <value>View Cart</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_Heading</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Heading</shortDescription>
+        <value>Bulk Upload</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_InvalidSkuError</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Invalid SKU Error</shortDescription>
+        <value>Invalid part number</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_LimitError</fullName>
+        <categories>B2B,Site,CsvToCart</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_csvToCart_LimitError</shortDescription>
+        <value>Uploaded file contains more rows than allowed.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_LimitErrorLabel</fullName>
+        <categories>B2B,Site,CsvToCart</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B_csvToCart_LimitErrorLabel</shortDescription>
+        <value>&lt;ul&gt;&lt;li&gt;Only .csv files are allowed.&lt;/li&gt;&lt;li&gt;Duplicate part numbers will be ignored while processing.&lt;/li&gt;&lt;li&gt;You can upload up to 50 part numbers in a file.&lt;/li&gt;</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_Max500</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Max500</shortDescription>
+        <value>Max 500 items can be added to your cart.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_PriceNotFoundError</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Price Not Found Error</shortDescription>
+        <value>Price not found.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_ProcessBtnLabel</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Process Button Label</shortDescription>
+        <value>Process Selected File</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_ProductNotFoundError</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Product Not Found Error</shortDescription>
+        <value>Product is not Entitled.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_Quantity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Quantity</shortDescription>
+        <value>Quantity</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_ResetBtnLabel</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Reset Button Label</shortDescription>
+        <value>Reset</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_SampleBulkUpload</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart SampleBulkUpload</shortDescription>
+        <value>Sample Bulk Upload</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_SampleFileErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart SampleFileErrorMessage</shortDescription>
+        <value>Message</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_SampleLabel</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Sample Label</shortDescription>
+        <value>Download Template</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_Step1</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Step 1</shortDescription>
+        <value>Step 1:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_Step2</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Step 2</shortDescription>
+        <value>Step 2:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_Step2Value</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Step 2 Value</shortDescription>
+        <value>Upload your bulk upload template file (.csv format).</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_SubHeading</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Sub Heading</shortDescription>
+        <value>Download and then enter product information into the bulk upload template.</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_SuccessCount</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Success Count</shortDescription>
+        <value>Total Success Records :</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_TotalCount</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart Total Count</shortDescription>
+        <value>Total Records :</value>
+    </labels>
+    <labels>
+        <fullName>B2B_csvToCart_UploadBtnLabel</fullName>
+        <categories>B2B,Site,Bulk Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B csvToCart UploadBtnLabel</shortDescription>
+        <value>Select File</value>
+    </labels>
+    <labels>
+        <fullName>B2b_Request_More_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2b Request More Information</shortDescription>
+        <value>Request a Quote</value>
+    </labels>
+    <labels>
+        <fullName>BD_No_AutoReply_Email_Values</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No AutoReply Email Address Values</shortDescription>
+        <value>donotreply,do not reply,noreply,acmpr,postmaster</value>
+    </labels>
+    <labels>
+        <fullName>BD_No_AutoReply_Subjects_Values</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No AutoReply Subjects Values</shortDescription>
+        <value>donotreply,do not reply,no reply,Encuesta de Satisfacción,Automatic Reply,ordersender,Johnson and</value>
+    </labels>
+    <labels>
+        <fullName>BD_Service_Now_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BD Service Now Email</shortDescription>
+        <value>perkinelmer@service-now.com</value>
+    </labels>
+    <labels>
+        <fullName>BillingAddressModalHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BillingAddressModalHeader</shortDescription>
+        <value>Billing</value>
+    </labels>
+    <labels>
+        <fullName>BillingAddressMsg</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BillingAddressMsg</shortDescription>
+        <value>You cannot change Billing Address from here. Please contact system admin at support.shop@perkinelmer.com</value>
+    </labels>
+    <labels>
+        <fullName>BillingFrequency</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BillingFrequency</shortDescription>
+        <value>Shipping Frequency</value>
+    </labels>
+    <labels>
+        <fullName>C_LBL_LineBreak</fullName>
+        <categories>Utility</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C.LBL_LineBreak</shortDescription>
+        <value>~
+~</value>
+    </labels>
+    <labels>
+        <fullName>C_LBL_Opp_Territory_LKUP_No_Matches</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C.LBL Opp Territory LKUP No Matches</shortDescription>
+        <value>&lt;p&gt;
+No territory match found between opportunity owner and assigned account.&lt;br/&gt;
+Ensure that:&lt;br/&gt;
+1. The correct account is assigned to the opportunity&lt;br/&gt;
+2. The account’s assigned territories are up to date (edit/save on account)&lt;br/&gt;
+3. The opportunity owner is assigned to a territory
+&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>CartNotificationBatchSize</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CartNotificationBatchSize</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>CartReminder</fullName>
+        <categories>B2BLex,NegativeValue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CartReminder</shortDescription>
+        <value>-2</value>
+    </labels>
+    <labels>
+        <fullName>CartUrl</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CartUrl</shortDescription>
+        <value>https://shop-uat.perkinelmer.com/login?startURL=/cart</value>
+    </labels>
+    <labels>
+        <fullName>CaseBaseURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseBaseURL</shortDescription>
+        <value>5003000000</value>
+    </labels>
+    <labels>
+        <fullName>CaseThrashid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseThrashid</shortDescription>
+        <value>00G30000004OgRF</value>
+    </labels>
+    <labels>
+        <fullName>Case_Record_Type_Id</fullName>
+        <categories>Cloud Operations</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Record Type Id</shortDescription>
+        <value>012Ps0000029HDSIA2</value>
+    </labels>
+    <labels>
+        <fullName>Case_Record_Type_Id2</fullName>
+        <categories>Sec Operations</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Record Type Id2</shortDescription>
+        <value>012Ps0000029HDeIAM</value>
+    </labels>
+    <labels>
+        <fullName>ChangeLabel</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ChangeLabel</shortDescription>
+        <value>Change</value>
+    </labels>
+    <labels>
+        <fullName>Collaboration_Campaign</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Collaboration Campaign</shortDescription>
+        <value>7013A000001yhoy</value>
+    </labels>
+    <labels>
+        <fullName>Commerce_Search_Facets_modalLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commerce_Search_Facets_modalLabel</shortDescription>
+        <value>Filter Search Results</value>
+    </labels>
+    <labels>
+        <fullName>Common_NumberInput_decrementAltText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Common_NumberInput_decrementAltText</shortDescription>
+        <value>Decrement quantity</value>
+    </labels>
+    <labels>
+        <fullName>Common_NumberInput_incrementAltText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Common_NumberInput_incrementAltText</shortDescription>
+        <value>Increase quantity</value>
+    </labels>
+    <labels>
+        <fullName>Common_NumberInput_inputAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Common_NumberInput_inputAriaLabel</shortDescription>
+        <value>Enter a value to change your quantity</value>
+    </labels>
+    <labels>
+        <fullName>CountryEmailInclude</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CountryEmailInclude</shortDescription>
+        <value>UK,GB,FR,IE,BE,IT,ES,LU,PL,DE,AT,NL,NO,SE,FI,DK,CH,IS,IL,ZA,TR,Italy</value>
+    </labels>
+    <labels>
+        <fullName>CreateSUbscription</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreateSUbscription</shortDescription>
+        <value>Create New Subscription</value>
+    </labels>
+    <labels>
+        <fullName>CreatedDateCeil</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreatedDateCeil</shortDescription>
+        <value>2014-02-01T00:00:00.000Z</value>
+    </labels>
+    <labels>
+        <fullName>DefaultRecordTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DefaultRecordTypeId</shortDescription>
+        <value>012000000000000AAA</value>
+    </labels>
+    <labels>
+        <fullName>EmailBodylimit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmailBodylimit</shortDescription>
+        <value>31900</value>
+    </labels>
+    <labels>
+        <fullName>EmailMessageStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmailMessageStatus</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>ExistingSubscriptionMsg</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExistingSubscriptionMsg</shortDescription>
+        <value>Existing Subscription</value>
+    </labels>
+    <labels>
+        <fullName>ExistingSubtnMsg</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExistingSubtnMsg</shortDescription>
+        <value>How do you want to proceed?</value>
+    </labels>
+    <labels>
+        <fullName>External_Email_Inbox_update</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>External Email Inbox update</shortDescription>
+        <value>Dx Software Services;Dx Software Services EMEA L2;	Dx Support;Informatics</value>
+    </labels>
+    <labels>
+        <fullName>FlurryappforServiceLeadPage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The label captures the key used in the flurry app for service lead page</shortDescription>
+        <value>T699N8JBHDZGRFG7YGPJ</value>
+    </labels>
+    <labels>
+        <fullName>ItemErrorMsg</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemErrorMsg</shortDescription>
+        <value>Something Went wrong while Adding Item to the Subscription</value>
+    </labels>
+    <labels>
+        <fullName>ItemSuccess</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemSuccess</shortDescription>
+        <value>Item added Successfully to the Subscription</value>
+    </labels>
+    <labels>
+        <fullName>LST_AM_Opp_won_Owner_Usernames</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LST_AM_Opp_won_Owner_Usernames</shortDescription>
+        <value>mark.griswold@perkinelmer.com,bill.ortiz@perkinelmer.com,robert.galagan@perkinelmer.com,carl.apgar@perkinelmer.com,jimmy.barbee@perkinelmer.com,edith.beaulieu@perkinelmer.com,paul.fletcher@perkinelmer.com,yvonna.jones@perkinelmer.com,thomas.nicholson@perkinelmer.com,patrick.mccreary@perkinelmer.com,leonard.maziarski@perkinelmer.com,simon.ng@perkinelmer.com,leslie.sun@perkinelmer.com,greg.warner@perkinelmer.com,stacey.stevens@perkinelmer.com,kevin.lewis@perkinelmer.com,matthew.reuter@perkinelmer.com,barbara.clark@perkinelmer.com,rachel.mendes@perkinelmer.com,leonard.maziarski@perkinelmer.com,christina.landry@perkinelmer.com,bill.ortiz@perkinelmer.com,stacey.stevens@perkinelmer.com,rosemarie.connolly@perkinelmer.com,adolfo.gonzalez@perkinelmer.com,david.semanske@perkinelmer.com</value>
+    </labels>
+    <labels>
+        <fullName>LST_AM_Opp_won_Owner_Usernames2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LST_AM_Opp_won_Owner_Usernames2</shortDescription>
+        <value>mark.griswold@perkinelmer.com,khalil.sheikh@perkinelmer.com,christine.bortnyk@perkinelmer.com,michelle.seng@perkinelmer.com,patrick.mccreary@perkinelmer.com,phil.rogers@perkinelmer.com,yvonna.jones@perkinelmer.com,heidi.davis@perkinelmer.com,edith.beaulieu@perkinelmer.com,tim.masters@perkinelmer.com,rick.troyer@perkinelmer.com,paul.fletcher@perkinelmer.com,carl.apgar@perkinelmer.com,ashish.chougule@perkinelmer.com,simon.ng@perkinelmer.com,thomas.nicholson@perkinelmer.com,grace.perez@perkinelmer.com,john.locklear@perkinelmer.com,allan.atkinson@perkinelmer.com,debra.preis@perkinelmer.com,catherine.sweeny@perkinelmer.com,matthew.reuter@perkinelmer.com,bruce.thompsonjr@perkinelmer.com,charles.ursajr@perkinelmer.com,marc.karloff@perkinelmer.com,paul.nuzzi@perkinelmer.com</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_April</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation April</shortDescription>
+        <value>Apr</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_August</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation August</shortDescription>
+        <value>Aug</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_December</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation December</shortDescription>
+        <value>Dec</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_February</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation February</shortDescription>
+        <value>Feb</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_January</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation January</shortDescription>
+        <value>Jan</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_July</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation July</shortDescription>
+        <value>Jul</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_June</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation June</shortDescription>
+        <value>Jun</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_March</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation March</shortDescription>
+        <value>Mar</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_May</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation May</shortDescription>
+        <value>May</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_November</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation November</shortDescription>
+        <value>Nov</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_October</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation October</shortDescription>
+        <value>Oct</value>
+    </labels>
+    <labels>
+        <fullName>Month_Abbreviation_September</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Month Abbreviation September</shortDescription>
+        <value>Sep</value>
+    </labels>
+    <labels>
+        <fullName>NewSubscription</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewSubscription</shortDescription>
+        <value>New Subscription</value>
+    </labels>
+    <labels>
+        <fullName>On_Document_Coverage_Dates</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>On_Document_Coverage_Dates</shortDescription>
+        <value>Contract Coverage Start on: {0}, End on: {1}</value>
+    </labels>
+    <labels>
+        <fullName>On_Document_IPI</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>On_Document_IPI</shortDescription>
+        <value>NCM: {0}, IPI Amount: {1} {2}, IPI Percentage: {3}%</value>
+    </labels>
+    <labels>
+        <fullName>On_Document_Material</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>On_Document_Material</shortDescription>
+        <value>Material Serial Number: {0}</value>
+    </labels>
+    <labels>
+        <fullName>Open_Lead_Notification_Start_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Open Lead Notification Start Date</shortDescription>
+        <value>2014-03-19T00:00:00.000Z</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Dealer_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Dealer Record Type</shortDescription>
+        <value>0124V000001lv8gQAA</value>
+    </labels>
+    <labels>
+        <fullName>OrgWideB2BSupportCase</fullName>
+        <categories>commerce,store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrgWideB2BSupportCase</shortDescription>
+        <value>support.shop@perkinelmer.com</value>
+    </labels>
+    <labels>
+        <fullName>OrgWideOrderConfirmation</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrgWideOrderConfirmation</shortDescription>
+        <value>shop@perkinelmer.com</value>
+    </labels>
+    <labels>
+        <fullName>PRODCaseBaseURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PRODCaseBaseURL</shortDescription>
+        <value>5003A00000</value>
+    </labels>
+    <labels>
+        <fullName>Pardot_User_Role</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pardot User Role</shortDescription>
+        <value>Global Sales and Service</value>
+    </labels>
+    <labels>
+        <fullName>PerkinElmer_Logo_Url</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PerkinElmer Logo Url</shortDescription>
+        <value>https://pki--ecomdev.sandbox.my.salesforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068bc000004dDHd&amp;operationContext=DELIVERY&amp;contentId=05Tbc000006pur8&amp;page=0&amp;d=/a/bc0000026ren/vmNEly1iYJJSE2K4Xl1ReNx65og.gA58b_oVvjhwNtc&amp;oid=00Dbc000002wPxl&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>ProductAlreadyExist</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProductAlreadyExist</shortDescription>
+        <value>This product is already present on the selected Subscription.</value>
+    </labels>
+    <labels>
+        <fullName>ProductNextBillingCycleNote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProductNextBillingCycleNote</shortDescription>
+        <value>Note : Following Product will be added to your order in the next billing cycle</value>
+    </labels>
+    <labels>
+        <fullName>Product_ModalAddToCart_actionContinueShopping</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_ModalAddToCart_actionContinueShopping</shortDescription>
+        <value>Continue Shopping</value>
+    </labels>
+    <labels>
+        <fullName>Product_ModalAddToCart_actionViewCart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_ModalAddToCart_actionViewCart</shortDescription>
+        <value>View Cart</value>
+    </labels>
+    <labels>
+        <fullName>Product_ModalAddToCart_messageSuccessfullyAddedToCart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_ModalAddToCart_messageSuccessfullyAddedToCart</shortDescription>
+        <value>Item was added to cart</value>
+    </labels>
+    <labels>
+        <fullName>Product_Pricing_strikethroughAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_Pricing_strikethroughAssistiveText</shortDescription>
+        <value>Crossed Out</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorAccessInsufficient</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorAccessInsufficient</shortDescription>
+        <value>You don’t have permission to complete this action.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorDefault</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorDefault</shortDescription>
+        <value>An unexpected error occurred. Try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorLimitExceeded</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorLimitExceeded</shortDescription>
+        <value>Your cart is full.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorLimitIncrement</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorLimitIncrement</shortDescription>
+        <value>Always purchase this product in set increments. Check product increments.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorLimitMaximum</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorLimitMaximum</shortDescription>
+        <value>This product has a maximum purchase limit. Check quantity limits.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_errorLimitMinimum</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_errorLimitMinimum</shortDescription>
+        <value>This product has a minimum purchase limit. Check quantity limits.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_modalCartActionContinue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_modalCartActionContinue</shortDescription>
+        <value>Continue Shopping</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_modalCartActionView</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_modalCartActionView</shortDescription>
+        <value>View Cart</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_modalCartTitleSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_modalCartTitleSuccess</shortDescription>
+        <value>Item was added to cart</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_toastWishlistError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_toastWishlistError</shortDescription>
+        <value>We couldn’t add this item to the list. Try again.</value>
+    </labels>
+    <labels>
+        <fullName>Product_PurchaseOptions_toastWishlistSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_PurchaseOptions_toastWishlistSuccess</shortDescription>
+        <value>Item was added to list.</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelectorPopover_quantityHelp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelectorPopover_quantityHelp</shortDescription>
+        <value>Quantity help</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_outOfStock</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_outOfStock</shortDescription>
+        <value>Out of stock</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_patternMismatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_patternMismatch</shortDescription>
+        <value>Enter a valid number.</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_rangeOverflow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_rangeOverflow</shortDescription>
+        <value>Enter a value between {min} and {max} in increments of {step}.</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_rangeUnderflow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_rangeUnderflow</shortDescription>
+        <value>Enter a value between {min} and {max} in increments of {step}.</value>
+    </labels>
+    <labels>
+        <fullName>Product_QuantitySelector_stepMismatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_QuantitySelector_stepMismatch</shortDescription>
+        <value>Enter a value between {min} and {max} in increments of {step}.</value>
+    </labels>
+    <labels>
+        <fullName>Product_Variant_Selector_productVariantSelectorPlaceholderText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_Variant_Selector_productVariantSelectorPlaceholderText</shortDescription>
+        <value>Select...</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_2_Yearly</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle 2 Yearly</shortDescription>
+        <value>2 Yearly</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Bi_Annual</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Bi Annual</shortDescription>
+        <value>Bi Annual</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Bi_Annual_First</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Bi Annual First of Month</shortDescription>
+        <value>Bi Annual First of Month</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Bi_Annual_Last</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Bi Annual Last of Month</shortDescription>
+        <value>Bi Annual Last of Month</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Bi_Monthly</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Bi-Monthly</shortDescription>
+        <value>Bi-Monthly</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Every_4_Months</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Every 4 months</shortDescription>
+        <value>Every 4 months</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Fully_Upfront</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Fully upfront</shortDescription>
+        <value>Fully upfront</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Monthly</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Monthly</shortDescription>
+        <value>Monthly</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Monthly_First</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Monthly on First of Month</shortDescription>
+        <value>Monthly on First of Month</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Monthly_Last</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Monthly on Last of Month</shortDescription>
+        <value>Monthly on Last of Month</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Quarterly</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Quarterly</shortDescription>
+        <value>Quarterly</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Quarterly_First</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Quarterly First of Month</shortDescription>
+        <value>Quarterly First of Month</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Quarterly_Last</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Quarterly Last of Month</shortDescription>
+        <value>Quarterly Last of Month</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Billing_Cycle_Yearly</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Billing Cycle Yearly</shortDescription>
+        <value>Yearly</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Freight_Terms_2_Day</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Freight Terms 2-Day</shortDescription>
+        <value>2-Day</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Freight_Terms_Overnight</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Freight Terms Overnight</shortDescription>
+        <value>Overnight</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Freight_Terms_Standard_Ground</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Freight Terms Standard Ground</shortDescription>
+        <value>Standard</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Payment_Terms_Net_30_After_Installation</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Payment Terms Net 30 after Installation</shortDescription>
+        <value>Net 30 after Installation</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Payment_Terms_Net_30_From_Invoice</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Payment Terms Net 30 from Invoice</shortDescription>
+        <value>Net 30 from Invoice</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Payment_Terms_Net_60_After_Installation</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Payment Terms Net 60 after Installation</shortDescription>
+        <value>Net 60 after Installation</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Payment_Terms_Net_60_From_Invoice</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Payment Terms Net 60 from Invoice</shortDescription>
+        <value>Net 60 from Invoice</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Payment_Terms_Prepayment_Required</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Payment Terms Prepayment Required</shortDescription>
+        <value>Prepayment Required</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Tax_Exempt_No</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Tax Exempt No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Tax_Exempt_Yes</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Tax Exempt Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Type_Draft</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Type Draft</shortDescription>
+        <value>Draft Quote</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Type_Final</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Type Final</shortDescription>
+        <value>Final Quote</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Type_Preliminary</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Type Preliminary</shortDescription>
+        <value>Preliminary Quote</value>
+    </labels>
+    <labels>
+        <fullName>ReminderDays</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReminderDays</shortDescription>
+        <value>7</value>
+    </labels>
+    <labels>
+        <fullName>RenewalEmailService</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RenewalEmailService</shortDescription>
+        <value>renewalemailservice@a6f6cn88kappzfwk2z1mf9pc.3-liqeau.na45.apex.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>Request_Information_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Information URL</shortDescription>
+        <value>https://contact.perkinelmer.com/request-quote?pn=</value>
+    </labels>
+    <labels>
+        <fullName>SMAX_PS_Discount_Percent_allowed_for_a_single_line</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount Percent allowed for a single line</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>SMAX_PS_WOLine_Discount_Amount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount amount allowed for a single line</shortDescription>
+        <value>200</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Rep_Lookup_Cert</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Rep Lookup Cert</shortDescription>
+        <value>SalesRepProd_Cert2018</value>
+    </labels>
+    <labels>
+        <fullName>SbsctnCreationSuccess</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SbsctnCreationSuccess</shortDescription>
+        <value>Subscription Created Successfully</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_backActionAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_backActionAssistiveText</shortDescription>
+        <value>Back to {categoryName}</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_cancelButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_cancelButton</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_categoryHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_categoryHeader</shortDescription>
+        <value>Category</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_clearButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_clearButton</shortDescription>
+        <value>Clear All</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_filtersHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_filtersHeader</shortDescription>
+        <value>Filters</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_showLess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_showLess</shortDescription>
+        <value>Show Less</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_showLessAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_backActionAssistiveText</shortDescription>
+        <value>Show Less {name}</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_showMore</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_showMore</shortDescription>
+        <value>Show More</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_showMoreAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_backActionAssistiveText</shortDescription>
+        <value>Show More {name}</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_toggleFilterCollapsedAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_toggleFilterCollapsedAssistiveText</shortDescription>
+        <value>Toggle filter, collapsed</value>
+    </labels>
+    <labels>
+        <fullName>Search_Facets_toggleFilterExpandedAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Facets_toggleFilterExpandedAssistiveText</shortDescription>
+        <value>Toggle filter, expanded</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_addToCartAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_addToCartAriaLabel</shortDescription>
+        <value>Add to cart: {productTitle}</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_subscriptionOptions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_subscriptionOptions</shortDescription>
+        <value>Subscription Options Available</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_unavailablePriceLabel</fullName>
+        <categories>PKI,B2B,Site,PLP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_unavailablePriceLabel</shortDescription>
+        <value>Request a Quote</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_variationAttribute</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_variationAttribute</shortDescription>
+        <value>{name}: {value}</value>
+    </labels>
+    <labels>
+        <fullName>Search_ProductCard_viewOptionsAriaLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_ProductCard_viewOptionsAriaLabel</shortDescription>
+        <value>View Options: {productTitle}</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_allCategoriesName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_allCategoriesName</shortDescription>
+        <value>All Categories</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_multipleCategoryHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_multipleCategoryHeader</shortDescription>
+        <value>{count} Items</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_multipleResultSearchHeaderShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_multipleResultSearchHeaderShort</shortDescription>
+        <value>{count} Results</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_next</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_oneCategoryHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_oneCategoryHeader</shortDescription>
+        <value>{count} Item</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_oneResultSearchHeaderShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_oneResultSearchHeaderShort</shortDescription>
+        <value>{count} Result</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_previous</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_resultsLimitHitText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_resultsLimitHitText</shortDescription>
+        <value>Results are limited to 5,000 after the first page. Use sort options or filters to adjust your results.</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results_searchResults</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Results_searchResults</shortDescription>
+        <value>Search Results</value>
+    </labels>
+    <labels>
+        <fullName>ServiceLeadURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ServiceLeadURL</shortDescription>
+        <value>http://info.perkinelmer.com/LP=1061</value>
+    </labels>
+    <labels>
+        <fullName>Shared_closeButtonAssistiveText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shared_closeButtonAssistiveText</shortDescription>
+        <value>Close dialog</value>
+    </labels>
+    <labels>
+        <fullName>Shared_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shared_error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>Shared_required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shared_required</shortDescription>
+        <value>Required</value>
+    </labels>
+    <labels>
+        <fullName>Shared_success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shared_success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>SubscriptionBatchSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SubscriptionBatchSize</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>SubscriptionError</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SubscriptionError</shortDescription>
+        <value>Something Went wrong while creating Subscription</value>
+    </labels>
+    <labels>
+        <fullName>SubscriptionTab1</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SubscriptionTab1</shortDescription>
+        <value>Subscribe &amp; Save</value>
+    </labels>
+    <labels>
+        <fullName>SubscriptionTab2</fullName>
+        <categories>B2BLex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SubscriptionTab2</shortDescription>
+        <value>Single Purchase</value>
+    </labels>
+    <labels>
+        <fullName>SupportAdminEmailAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportAdminEmailAddress</shortDescription>
+        <value>shop@perkinelmer.com</value>
+    </labels>
+    <labels>
+        <fullName>SupportPortalURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportPortalURL</shortDescription>
+        <value>supportportal@4-204er0g37v7fass1fctqjugnp.3-liqeau.na1.apex.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>TaxCountryErrorMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TaxCountryErrorMsg</shortDescription>
+        <value>Could not Find Country During Checkout</value>
+    </labels>
+    <labels>
+        <fullName>TestEmailAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TestEmailAddress</shortDescription>
+        <value>meenakshi.jain@stackintelligence.com</value>
+    </labels>
+    <labels>
+        <fullName>Trigger_validation_rule_for_users</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trigger_validation_rule_for_users</shortDescription>
+        <value>&#39;00530000004zmAR&#39;,&#39;00530000001CUSu&#39;,&#39;00530000006rBBC&#39;,&#39;0053A00000CsseA&#39;,&#39;0053A00000DUSUW&#39;,&#39;00530000000yPLT&#39;,&#39;0053A00000DU1vS&#39;,&#39;0053A00000Csr59&#39;,&#39;005300000041qRh&#39;,&#39;00530000008x7XV&#39;</value>
+    </labels>
+    <labels>
+        <fullName>ers_CancelButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearFilterAction</fullName>
+        <categories>actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Filter</shortDescription>
+        <value>Clear Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearSelectionButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Selection</shortDescription>
+        <value>Clear Selection</value>
+    </labels>
+    <labels>
+        <fullName>ers_ColumnHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column</shortDescription>
+        <value>Column</value>
+    </labels>
+    <labels>
+        <fullName>ers_EmptyTableMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty</shortDescription>
+        <value>This table currently has no data to display</value>
+    </labels>
+    <labels>
+        <fullName>ers_ErrorRequiredEntry</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required</shortDescription>
+        <value>This is a required entry.  At least 1 row must be selected.</value>
+    </labels>
+    <labels>
+        <fullName>ers_FilterHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_LabelHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label</shortDescription>
+        <value>Label</value>
+    </labels>
+    <labels>
+        <fullName>ers_SaveButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>ers_SetFilterAction</fullName>
+        <categories>actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Set Filter</shortDescription>
+        <value>Set Filter</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Key_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Key Label</shortDescription>
+        <value>Key</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&#39;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Value_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+</CustomLabels>

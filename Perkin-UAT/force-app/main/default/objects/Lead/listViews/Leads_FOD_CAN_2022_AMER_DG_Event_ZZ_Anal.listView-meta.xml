@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_FOD_CAN_2022_AMER_DG_Event_ZZ_Anal</fullName>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Source__c</columns>
+    <columns>Requested_Interests__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>GROW__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Last_Lead_Source_Detail__c</field>
+        <operation>contains</operation>
+        <value>Tradeshow|AnalyticalCannabisExpo|</value>
+    </filters>
+    <filters>
+        <field>LEAD.COUNTRY</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <label>Leads FOD-CAN-2022-AMER-DG-Event-ZZ-Anal</label>
+</ListView>

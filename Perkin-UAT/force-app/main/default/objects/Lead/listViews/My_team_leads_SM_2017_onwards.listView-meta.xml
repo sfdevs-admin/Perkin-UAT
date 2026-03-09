@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_team_leads_SM_2017_onwards</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>LEAD.STREET</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Secondary_Qualification__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Foster,Tyvoll,Hartwig,Wooldridge,Quade</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2017 12:00 AM</value>
+    </filters>
+    <label>My team leads SM 2017 onwards</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_Dx_EMEA_Region__c</fullName>
+    <label>Dx EMEA Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>France</fullName>
+                <default>false</default>
+                <label>France</label>
+            </value>
+            <value>
+                <fullName>Nordics</fullName>
+                <default>false</default>
+                <label>Nordics</label>
+            </value>
+            <value>
+                <fullName>DACH</fullName>
+                <default>false</default>
+                <label>DACH</label>
+            </value>
+            <value>
+                <fullName>BENELUX</fullName>
+                <default>false</default>
+                <label>BENELUX</label>
+            </value>
+            <value>
+                <fullName>Italy</fullName>
+                <default>false</default>
+                <label>Italy</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>UK/Ireland</fullName>
+                <default>false</default>
+                <label>UK/Ireland</label>
+            </value>
+            <value>
+                <fullName>South Africa</fullName>
+                <default>false</default>
+                <label>South Africa</label>
+            </value>
+            <value>
+                <fullName>Export</fullName>
+                <default>false</default>
+                <label>Export</label>
+            </value>
+            <value>
+                <fullName>Dx EMEA Other</fullName>
+                <default>false</default>
+                <label>Dx EMEA Other</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>Midwest</fullName>
+                <default>false</default>
+                <label>Midwest</label>
+            </value>
+            <value>
+                <fullName>MidAtlantic/SE</fullName>
+                <default>false</default>
+                <label>MidAtlantic/SE</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>North Africa</fullName>
+                <default>false</default>
+                <label>North Africa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

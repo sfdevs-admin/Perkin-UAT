@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isMyUser__c</fullName>
+    <description>This is a formula field to determine is the user listed is the running user so you can see &quot;My Queues&quot; in a view</description>
+    <formula>User__r.Id  =  $User.Id</formula>
+    <inlineHelpText>This is a formula field to determine is the user listed is the running user so you can see &quot;My Queues&quot; in a view</inlineHelpText>
+    <label>isMyUser</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

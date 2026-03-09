@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Age__c</fullName>
+    <description>The total number of day an Opportunity is/was Open.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ ISBLANK( Date_Opportunity_Closed__c ) ,
+ NOW()- CreatedDate ,
+ Date_Opportunity_Closed__c - DATEVALUE( CreatedDate )
+ )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total number of days Opportunity is/was Open.</inlineHelpText>
+    <label>Opportunity Age-MTM</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

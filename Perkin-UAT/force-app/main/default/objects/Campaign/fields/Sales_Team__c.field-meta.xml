@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Team__c</fullName>
+    <label>Sales Team</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Austria</fullName>
+                <default>false</default>
+                <label>Austria</label>
+            </value>
+            <value>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+                <label>Belgium</label>
+            </value>
+            <value>
+                <fullName>Ben/Nordics GDS</fullName>
+                <default>false</default>
+                <label>Ben/Nordics GDS</label>
+            </value>
+            <value>
+                <fullName>BZ - Team LA South</fullName>
+                <default>false</default>
+                <label>BZ - Team LA South</label>
+            </value>
+            <value>
+                <fullName>CA10 Analytical</fullName>
+                <default>false</default>
+                <label>CA10 Analytical</label>
+            </value>
+            <value>
+                <fullName>CA10 LS Instrument</fullName>
+                <default>false</default>
+                <label>CA10 LS Instrument</label>
+            </value>
+            <value>
+                <fullName>CA10 Reagents</fullName>
+                <default>false</default>
+                <label>CA10 Reagents</label>
+            </value>
+            <value>
+                <fullName>CA - Marcom</fullName>
+                <default>false</default>
+                <label>CA - Marcom</label>
+            </value>
+            <value>
+                <fullName>CA - Team West</fullName>
+                <default>false</default>
+                <label>CA - Team West</label>
+            </value>
+            <value>
+                <fullName>Central - EMEA - Islands</fullName>
+                <default>false</default>
+                <label>Central - EMEA - Islands</label>
+            </value>
+            <value>
+                <fullName>Denmark</fullName>
+                <default>false</default>
+                <label>Denmark</label>
+            </value>
+            <value>
+                <fullName>Export Africa, SEE &amp; ED</fullName>
+                <default>false</default>
+                <label>Export Africa, SEE &amp; ED</label>
+            </value>
+            <value>
+                <fullName>Export CEE</fullName>
+                <default>false</default>
+                <label>Export CEE</label>
+            </value>
+            <value>
+                <fullName>Export CIS</fullName>
+                <default>false</default>
+                <label>Export CIS</label>
+            </value>
+            <value>
+                <fullName>Export Gulf</fullName>
+                <default>false</default>
+                <label>Export Gulf</label>
+            </value>
+            <value>
+                <fullName>Finland</fullName>
+                <default>false</default>
+                <label>Finland</label>
+            </value>
+            <value>
+                <fullName>France &amp; Spain GDS</fullName>
+                <default>false</default>
+                <label>France &amp; Spain GDS</label>
+            </value>
+            <value>
+                <fullName>France North</fullName>
+                <default>false</default>
+                <label>France North</label>
+            </value>
+            <value>
+                <fullName>France South</fullName>
+                <default>false</default>
+                <label>France South</label>
+            </value>
+            <value>
+                <fullName>Germany GDS</fullName>
+                <default>false</default>
+                <label>Germany GDS</label>
+            </value>
+            <value>
+                <fullName>Germany North East</fullName>
+                <default>false</default>
+                <label>Germany North East</label>
+            </value>
+            <value>
+                <fullName>Germany South</fullName>
+                <default>false</default>
+                <label>Germany South</label>
+            </value>
+            <value>
+                <fullName>Germany West</fullName>
+                <default>false</default>
+                <label>Germany West</label>
+            </value>
+            <value>
+                <fullName>Italy Centre</fullName>
+                <default>false</default>
+                <label>Italy Centre</label>
+            </value>
+            <value>
+                <fullName>Italy GDS</fullName>
+                <default>false</default>
+                <label>Italy GDS</label>
+            </value>
+            <value>
+                <fullName>Italy North East</fullName>
+                <default>false</default>
+                <label>Italy North East</label>
+            </value>
+            <value>
+                <fullName>Italy North West</fullName>
+                <default>false</default>
+                <label>Italy North West</label>
+            </value>
+            <value>
+                <fullName>Italy South</fullName>
+                <default>false</default>
+                <label>Italy South</label>
+            </value>
+            <value>
+                <fullName>MX - Team LA North</fullName>
+                <default>false</default>
+                <label>MX - Team LA North</label>
+            </value>
+            <value>
+                <fullName>NA East – Chrome</fullName>
+                <default>false</default>
+                <label>NA East – Chrome</label>
+            </value>
+            <value>
+                <fullName>NA East – Inorganic</fullName>
+                <default>false</default>
+                <label>NA East – Inorganic</label>
+            </value>
+            <value>
+                <fullName>NA East – Mat Char</fullName>
+                <default>false</default>
+                <label>NA East – Mat Char</label>
+            </value>
+            <value>
+                <fullName>NA Midwest– Chrome</fullName>
+                <default>false</default>
+                <label>NA Midwest– Chrome</label>
+            </value>
+            <value>
+                <fullName>NA Midwest– Inorganic</fullName>
+                <default>false</default>
+                <label>NA Midwest– Inorganic</label>
+            </value>
+            <value>
+                <fullName>NA Midwest– Mat Char</fullName>
+                <default>false</default>
+                <label>NA Midwest– Mat Char</label>
+            </value>
+            <value>
+                <fullName>NA South– Chrome</fullName>
+                <default>false</default>
+                <label>NA South– Chrome</label>
+            </value>
+            <value>
+                <fullName>NA South– Inorganic</fullName>
+                <default>false</default>
+                <label>NA South– Inorganic</label>
+            </value>
+            <value>
+                <fullName>NA South– Mat Char</fullName>
+                <default>false</default>
+                <label>NA South– Mat Char</label>
+            </value>
+            <value>
+                <fullName>NA West – Chrome</fullName>
+                <default>false</default>
+                <label>NA West – Chrome</label>
+            </value>
+            <value>
+                <fullName>NA West – Inorganic</fullName>
+                <default>false</default>
+                <label>NA West – Inorganic</label>
+            </value>
+            <value>
+                <fullName>NA West – Mat Char</fullName>
+                <default>false</default>
+                <label>NA West – Mat Char</label>
+            </value>
+            <value>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+                <label>Netherlands</label>
+            </value>
+            <value>
+                <fullName>Northern - EMEA - Islands</fullName>
+                <default>false</default>
+                <label>Northern - EMEA - Islands</label>
+            </value>
+            <value>
+                <fullName>Norway</fullName>
+                <default>false</default>
+                <label>Norway</label>
+            </value>
+            <value>
+                <fullName>Southern - EMEA - Islands</fullName>
+                <default>false</default>
+                <label>Southern - EMEA - Islands</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+                <label>Sweden</label>
+            </value>
+            <value>
+                <fullName>Switzerland</fullName>
+                <default>false</default>
+                <label>Switzerland</label>
+            </value>
+            <value>
+                <fullName>UK GDS</fullName>
+                <default>false</default>
+                <label>UK GDS</label>
+            </value>
+            <value>
+                <fullName>US - Marcom</fullName>
+                <default>false</default>
+                <label>US - Marcom</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>US-SOUTH</controllingFieldValue>
+            <valueName>NA South– Chrome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-SOUTH</controllingFieldValue>
+            <valueName>NA South– Inorganic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-SOUTH</controllingFieldValue>
+            <valueName>NA South– Mat Char</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-MIDWEST</controllingFieldValue>
+            <valueName>NA Midwest– Chrome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-MIDWEST</controllingFieldValue>
+            <valueName>NA Midwest– Inorganic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-MIDWEST</controllingFieldValue>
+            <valueName>NA Midwest– Mat Char</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Americas</controllingFieldValue>
+            <valueName>US - Marcom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-EAST</controllingFieldValue>
+            <valueName>NA East – Chrome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-EAST</controllingFieldValue>
+            <valueName>NA East – Inorganic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-EAST</controllingFieldValue>
+            <valueName>NA East – Mat Char</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-WEST</controllingFieldValue>
+            <valueName>NA West – Chrome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-WEST</controllingFieldValue>
+            <valueName>NA West – Inorganic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US-WEST</controllingFieldValue>
+            <valueName>NA West – Mat Char</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LA North</controllingFieldValue>
+            <valueName>MX - Team LA North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LA South</controllingFieldValue>
+            <valueName>BZ - Team LA South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>CA - Marcom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>CA - Team West</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

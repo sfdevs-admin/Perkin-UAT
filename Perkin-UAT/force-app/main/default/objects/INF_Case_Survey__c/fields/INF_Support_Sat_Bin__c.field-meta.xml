@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Support_Sat_Bin__c</fullName>
+    <label>Support Satisfaction Bin</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Difficult</fullName>
+                <default>false</default>
+                <label>Difficult</label>
+            </value>
+            <value>
+                <fullName>Easy</fullName>
+                <default>false</default>
+                <label>Easy</label>
+            </value>
+            <value>
+                <fullName>Excellent Product</fullName>
+                <default>false</default>
+                <label>Excellent Product</label>
+            </value>
+            <value>
+                <fullName>Excellent Service</fullName>
+                <default>false</default>
+                <label>Excellent Service</label>
+            </value>
+            <value>
+                <fullName>Fast Resolution</fullName>
+                <default>false</default>
+                <label>Fast Resolution</label>
+            </value>
+            <value>
+                <fullName>Frequency of Updates</fullName>
+                <default>false</default>
+                <label>Frequency of Updates</label>
+            </value>
+            <value>
+                <fullName>Neither</fullName>
+                <default>false</default>
+                <label>Neither</label>
+            </value>
+            <value>
+                <fullName>No Solution</fullName>
+                <default>false</default>
+                <label>No Solution</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Phone Issues</fullName>
+                <default>false</default>
+                <label>Phone Issues</label>
+            </value>
+            <value>
+                <fullName>Problem Solved</fullName>
+                <default>false</default>
+                <label>Problem Solved</label>
+            </value>
+            <value>
+                <fullName>Rep Communication Skills</fullName>
+                <default>false</default>
+                <label>Rep Communication Skills</label>
+            </value>
+            <value>
+                <fullName>Rep Understanding of the Problem</fullName>
+                <default>false</default>
+                <label>Rep Understanding of the Problem</label>
+            </value>
+            <value>
+                <fullName>SDK</fullName>
+                <default>false</default>
+                <label>SDK</label>
+            </value>
+            <value>
+                <fullName>Software Activation</fullName>
+                <default>false</default>
+                <label>Software Activation</label>
+            </value>
+            <value>
+                <fullName>Software Defect</fullName>
+                <default>false</default>
+                <label>Software Defect</label>
+            </value>
+            <value>
+                <fullName>Took too long</fullName>
+                <default>false</default>
+                <label>Took too long</label>
+            </value>
+            <value>
+                <fullName>Unsupported Environment</fullName>
+                <default>false</default>
+                <label>Unsupported Environment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

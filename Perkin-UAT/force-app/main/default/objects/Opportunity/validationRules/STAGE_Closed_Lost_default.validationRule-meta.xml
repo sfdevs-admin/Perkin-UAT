@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>STAGE_Closed_Lost_default</fullName>
+    <active>false</active>
+    <description>Stage validation rule</description>
+    <errorConditionFormula>AND(
+     NOT($Permission.C_PERM_8020_Bypass_Opp_V_RULE)  
+   , DateValue(CreatedDate) &gt;= $Setup.CSET_9900__c.OppCutoverDate__c      
+   , Contains(fxRecordTypeName__c,&#39;Sales&#39;) /*Default and Dealer, not INF*/
+   , TEXT(StageName)=&#39;Closed Lost&#39;
+   , OR(
+      TEXT(Closed_Reason__c) = &quot;&quot;
+    , LEN(Reason_Lost_Detail__c ) &lt; 1
+    , fxMissingFields_CL__c &lt;&gt; &quot;&quot;
+       )
+ 
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_072: Please ensure the Application Segment, Application Market, Application fields, plus Closed Reason &amp; &quot;Closed Reason Detail&quot; are complete in order to mark as Closed Lost</errorMessage>
+</ValidationRule>

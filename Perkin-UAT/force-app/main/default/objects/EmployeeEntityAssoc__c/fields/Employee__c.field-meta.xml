@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee__c</fullName>
+    <label>Employee</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Employee__c.RecordType.Name</field>
+            <operation>notEqual</operation>
+            <value>Non Officer</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Employee__c</referenceTo>
+    <relationshipLabel>PKI Entities</relationshipLabel>
+    <relationshipName>EmployeeEnttityAssocs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_000189_Interaction_Assignment_Rules</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: APAC Taiwan - Life Science</label>
+    <queue>ARQ_000130</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

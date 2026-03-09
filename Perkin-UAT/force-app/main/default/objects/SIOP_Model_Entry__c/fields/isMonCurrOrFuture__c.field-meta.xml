@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isMonCurrOrFuture__c</fullName>
+    <formula>(IF( (MONTH(TODAY())  =  MONTH(DATEVALUE(CreatedDate)))  , true, false)) || 
+
+(IF( (MONTH(TODAY())  &lt;  MONTH(DATEVALUE(CreatedDate)))  , true, false))</formula>
+    <label>isMonCurrOrFuture</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

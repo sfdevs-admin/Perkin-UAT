@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orders_AES</fullName>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>Sales_Org__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>AES,TBD</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>3/1/2023 12:00 AM</value>
+    </filters>
+    <label>Orders: AES</label>
+    <sharedTo>
+        <group>ARQ_000998</group>
+    </sharedTo>
+</ListView>

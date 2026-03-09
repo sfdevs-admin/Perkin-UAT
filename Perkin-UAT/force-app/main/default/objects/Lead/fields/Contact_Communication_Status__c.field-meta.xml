@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Communication_Status__c</fullName>
+    <description>Email Opt-In/Subscribed status</description>
+    <label>Email Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>true</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Subscribed</fullName>
+                <default>false</default>
+                <label>Subscribed</label>
+            </value>
+            <value>
+                <fullName>Unmailable</fullName>
+                <default>false</default>
+                <label>Unmailable</label>
+            </value>
+            <value>
+                <fullName>Unsubscribed</fullName>
+                <default>false</default>
+                <label>Unsubscribed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

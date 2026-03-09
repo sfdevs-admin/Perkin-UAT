@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Name__c</fullName>
+    <label>Product Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Array CGH Postnatal Medical Policy</fullName>
+                <default>false</default>
+                <label>Array CGH Postnatal Medical Policy</label>
+            </value>
+            <value>
+                <fullName>Array CGH Prenatal</fullName>
+                <default>false</default>
+                <label>Array CGH Prenatal</label>
+            </value>
+            <value>
+                <fullName>NIPT / cell free DNA using maternal serum</fullName>
+                <default>false</default>
+                <label>NIPT / cell free DNA using maternal serum</label>
+            </value>
+            <value>
+                <fullName>FTS / NT</fullName>
+                <default>false</default>
+                <label>FTS / NT</label>
+            </value>
+            <value>
+                <fullName>Cystic fibrosis</fullName>
+                <default>false</default>
+                <label>Cystic fibrosis</label>
+            </value>
+            <value>
+                <fullName>Preeclampsia</fullName>
+                <default>false</default>
+                <label>Preeclampsia</label>
+            </value>
+            <value>
+                <fullName>Carrier Screening</fullName>
+                <default>false</default>
+                <label>Carrier Screening</label>
+            </value>
+            <value>
+                <fullName>Next Generation Sequencing Genetic Testing</fullName>
+                <default>false</default>
+                <label>Next Generation Sequencing Genetic Testing</label>
+            </value>
+            <value>
+                <fullName>NEW TEST</fullName>
+                <default>false</default>
+                <label>NEW TEST</label>
+            </value>
+            <value>
+                <fullName>ViaCord</fullName>
+                <default>false</default>
+                <label>ViaCord</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

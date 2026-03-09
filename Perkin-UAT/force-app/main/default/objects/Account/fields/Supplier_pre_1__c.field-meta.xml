@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_pre_1__c</fullName>
+    <label>NIPT Supplier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sequenom(Lifecodexx)</fullName>
+                <default>false</default>
+                <label>Sequenom(Lifecodexx)</label>
+            </value>
+            <value>
+                <fullName>Verinata</fullName>
+                <default>false</default>
+                <label>Verinata</label>
+            </value>
+            <value>
+                <fullName>Natera</fullName>
+                <default>false</default>
+                <label>Natera</label>
+            </value>
+            <value>
+                <fullName>BGI and Ariosa</fullName>
+                <default>false</default>
+                <label>BGI and Ariosa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

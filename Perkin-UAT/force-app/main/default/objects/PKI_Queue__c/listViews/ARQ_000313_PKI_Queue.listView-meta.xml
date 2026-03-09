@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_000313_PKI_Queue</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: EMEA-GB-SSS-JaspreetSahota</label>
+    <queue>ARQ_000233</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

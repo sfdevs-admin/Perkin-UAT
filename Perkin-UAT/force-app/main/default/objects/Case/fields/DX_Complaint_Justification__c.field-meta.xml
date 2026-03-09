@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Complaint_Justification__c</fullName>
+    <inlineHelpText>(no patient result consequences)</inlineHelpText>
+    <label>Internal Complaint Justification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Human error of PKI representative</fullName>
+                <default>false</default>
+                <label>Human error of PKI representative</label>
+            </value>
+            <value>
+                <fullName>Software product related complaint</fullName>
+                <default>false</default>
+                <label>Software product related complaint</label>
+            </value>
+            <value>
+                <fullName>Software configuration related complaint</fullName>
+                <default>false</default>
+                <label>Software configuration related complaint</label>
+            </value>
+            <value>
+                <fullName>Unexpected customer use of product</fullName>
+                <default>false</default>
+                <label>Unexpected customer use of product</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

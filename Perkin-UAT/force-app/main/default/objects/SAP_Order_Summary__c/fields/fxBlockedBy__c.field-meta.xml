@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxBlockedBy__c</fullName>
+    <description>This will create image to let user know of one or more blocks. 
+Source ticket: https://perkinelmer.atlassian.net/browse/OV-511
+(How to: https://perkinelmer--PKIQAFULL2.cs19.my.salesforce.com/sfc/p/290000000wzu/a/290000008hLa/dvXe4UX3Vh.37NxJvVOWfdZ_v73llqMgeGgkQEl28cE)</description>
+    <externalId>false</externalId>
+    <formula>/*
+First upload a Public Asset Image:
+(How to: https://perkinelmer--PKIQAFULL2.cs19.my.salesforce.com/sfc/p/290000000wzu/a/290000008hLa/dvXe4UX3Vh.37NxJvVOWfdZ_v73llqMgeGgkQEl28cE)
+
+To get the VERSION ID (different than the image ID) in new orgs, or when updating an image,
+1.open the image and then right click on the image,
+2.choose &quot;Copy Image Link&quot;,
+3.paste the link in a notepad and copy the Id between &quot;versionId=&quot; amd &quot;&amp;operationContext=&quot;
+(i.e.: versionId=068290000015Epe&amp;operationContext=...)
+
+Here is our last know Version IDs, we use them below
+FULL2:
+,&quot;yn&quot;, &quot;068290000015EpL&quot;
+,&quot;yy&quot;, &quot;068290000015EpU&quot;
+,&quot;ny&quot;, &quot;068290000015EpP&quot;
+,&quot;nn&quot;, &quot;068290000015Epe&quot;
+/*Else should be same as nn 
+, &quot;068290000015Epe&quot;
+
+FULL:
+,&quot;yn&quot;, &quot;068190000010zc6&quot;
+,&quot;yy&quot;, &quot;068190000010zcB&quot;
+,&quot;ny&quot;, &quot;068190000010zc1&quot;
+,&quot;nn&quot;, &quot;068190000010zbw&quot;
+/*Else should be same as nn 
+, &quot;068190000010zbw&quot;
+
+PROD: 
+,&quot;yn&quot;, &quot;0683A0000095GgQ&quot;
+,&quot;yy&quot;, &quot;0683A0000095GgV&quot;
+,&quot;ny&quot;, &quot;0683A0000095GgG&quot;
+,&quot;nn&quot;, &quot;0683A0000095Gfm&quot;
+/*Else should be same as nn 
+, &quot;0683A0000095Gfm&quot;
+
+*/
+
+
+IMAGE (&quot;/sfc/servlet.shepherd/version/download/&quot; &amp;
+
+CASE(
+/* We make credit/delivery read as nn, ny, yn, yy so then we can apply the correct image */
+IF(Credit_Status_Name__c =&quot;Approved&quot; || ISBLANK(Credit_Status_Name__c),&quot;n&quot;,&quot;y&quot;)
+&amp; IF(ISBLANK(Delivery_Block__c) &amp;&amp; fxBlockedItems__c =0 ,&quot;n&quot;,&quot;y&quot;)
+,&quot;yn&quot;, &quot;068Ps00000VtW1WIAV&quot;
+,&quot;yy&quot;, &quot;068Ps00000VtW1XIAV&quot;
+,&quot;ny&quot;, &quot;068Ps00000VtW1VIAV&quot;
+,&quot;nn&quot;, &quot;068Ps00000VtW1UIAV&quot;
+/*Else should be same as nn */
+, &quot;068Ps00000VtW1UIAV&quot;
+
+),&quot;&quot;)</formula>
+    <label>Blocked By</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

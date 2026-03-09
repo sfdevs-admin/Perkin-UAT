@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_Region__c</fullName>
+    <description>Automatic formua to divide leads into PKI Global Regions - APAC, EMEA, Americas</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Country), &quot;None&quot;,
+
+IF(CONTAINS(&quot;US:CA:PR:VI:PM:AR:BZ:BO:BR:CL:CO:CR:CW:EC:SV:FK:GT:GY:HN:MX:NI:PA:PY:PE:SR:UY:VE:AI:AG:AW:BS:BB:BM:KY:CU:DM:DO:GL:GD:GP:HT:JM:MQ:MS:KN:LC:VC:TC:TT:AN:VG:&quot;, Country), &quot;Americas&quot;,
+
+IF(CONTAINS(&quot;AT:BE:CH:DE:DK:ES:FI:FR:GB:IE:IT:LU:NL:NO:PL:SE:AF:BH:BD:BT:BV:IO:KM:IN:IR:KW:MV:NP:OM:PK:QA:SA:LK:AE:YE:DZ:AD:AO:BJ:BW:BF:BI:CM:CV:CF:TD:CG:DJ:EG:GQ:ER:ET:FX:GF:GA:GM:GH:GI:GN:GW:IQ:CI:JO:KE:LB:LS:LR:LY:NU:MG:MW:KZ:LK:MV:SC:ML:MN:MR:MU:YT:MC:MA:MZ:NA:NE:NG:PT:RW:SM:ST:SN:SC:SL:SO:ZA:ES:SH:SD:SZ:TZ:TG:TN:UG:EH:ZM:ZW:CD:VA:AL:AM:AZ:BY:BA:BV:BG:HR:CY:CZ:EE:FO:MK:GE:GR:GL:HU:IS:IL:KZ:KG:LV:LI:LT:MT:MD:ME:RS:RO:RU:SK:SI:SY:TJ:TR:TM:UA:UZ:PS:SS&quot;, Country), &quot;EMEA&quot;,
+
+IF(CONTAINS(&quot;JP:AS:AQ:AU:BN:KH:CN:CX:CC:CK:TP:FJ:PF:TF:GU:HM:HK:ID:KI:LA:MO:MY:MH:FM:MM:NR:NC:NZ:NU:NF:KP:MP:PW:PG:PH:PN:WS:SG:SB:KR:TW:TH:TK:TO:TM:TV:UM:VU:VN:WF&quot;, Country), &quot;APAC&quot;, &quot;Other&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Global Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

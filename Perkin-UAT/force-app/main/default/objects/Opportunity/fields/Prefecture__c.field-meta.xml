@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prefecture__c</fullName>
+    <label>Prefecture</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01 - 北海道 - Hokkaido - A - Hokkaido</fullName>
+                <default>false</default>
+                <label>01 - 北海道 - Hokkaido - A - Hokkaido</label>
+            </value>
+            <value>
+                <fullName>02 - 青森県 - Aomori - B - Touhoku</fullName>
+                <default>false</default>
+                <label>02 - 青森県 - Aomori - B - Touhoku</label>
+            </value>
+            <value>
+                <fullName>03 - 岩手県 - Iwate - B - Touhoku</fullName>
+                <default>false</default>
+                <label>03 - 岩手県 - Iwate - B - Touhoku</label>
+            </value>
+            <value>
+                <fullName>04 - 宮城県 - Miyagi - B - Touhoku</fullName>
+                <default>false</default>
+                <label>04 - 宮城県 - Miyagi - B - Touhoku</label>
+            </value>
+            <value>
+                <fullName>05 - 秋田県 - Akita - B - Touhoku</fullName>
+                <default>false</default>
+                <label>05 - 秋田県 - Akita - B - Touhoku</label>
+            </value>
+            <value>
+                <fullName>06 - 山形県 - Yamagata - B - Touhoku</fullName>
+                <default>false</default>
+                <label>06 - 山形県 - Yamagata - B - Touhoku</label>
+            </value>
+            <value>
+                <fullName>07 - 福島県 - Fukushima - B - Touhoku</fullName>
+                <default>false</default>
+                <label>07 - 福島県 - Fukushima - B - Touhoku</label>
+            </value>
+            <value>
+                <fullName>08 - 茨城県 - Ibaragi - C - Kanto</fullName>
+                <default>false</default>
+                <label>08 - 茨城県 - Ibaragi - C - Kanto</label>
+            </value>
+            <value>
+                <fullName>09 - 栃木県 - Tochigi - C - Kanto</fullName>
+                <default>false</default>
+                <label>09 - 栃木県 - Tochigi - C - Kanto</label>
+            </value>
+            <value>
+                <fullName>10 - 群馬県 - Gunma - C - Kanto</fullName>
+                <default>false</default>
+                <label>10 - 群馬県 - Gunma - C - Kanto</label>
+            </value>
+            <value>
+                <fullName>11 - 埼玉県 - Saitama - C - Kanto</fullName>
+                <default>false</default>
+                <label>11 - 埼玉県 - Saitama - C - Kanto</label>
+            </value>
+            <value>
+                <fullName>12 - 千葉県 - Chiba - C - Kanto</fullName>
+                <default>false</default>
+                <label>12 - 千葉県 - Chiba - C - Kanto</label>
+            </value>
+            <value>
+                <fullName>13 - 東京都 - Tokyo - C - Kanto</fullName>
+                <default>false</default>
+                <label>13 - 東京都 - Tokyo - C - Kanto</label>
+            </value>
+            <value>
+                <fullName>14 - 神奈川県 - Kanagawa - C - Kanto</fullName>
+                <default>false</default>
+                <label>14 - 神奈川県 - Kanagawa - C - Kanto</label>
+            </value>
+            <value>
+                <fullName>15 - 新潟県 - Niigata - D - Chubu</fullName>
+                <default>false</default>
+                <label>15 - 新潟県 - Niigata - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>16 - 富山県 - Toyama - D - Chubu</fullName>
+                <default>false</default>
+                <label>16 - 富山県 - Toyama - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>17 - 石川県 - Ishikawa - D - Chubu</fullName>
+                <default>false</default>
+                <label>17 - 石川県 - Ishikawa - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>18 - 福井県 - Fukui - D - Chubu</fullName>
+                <default>false</default>
+                <label>18 - 福井県 - Fukui - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>19 - 山梨県 - Yamanashi - D - Chubu</fullName>
+                <default>false</default>
+                <label>19 - 山梨県 - Yamanashi - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>20 - 長野県 - Nagano - D - Chubu</fullName>
+                <default>false</default>
+                <label>20 - 長野県 - Nagano - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>21 - 岐阜県 - Gifu - D - Chubu</fullName>
+                <default>false</default>
+                <label>21 - 岐阜県 - Gifu - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>22 - 静岡県 - Shizuoka - D - Chubu</fullName>
+                <default>false</default>
+                <label>22 - 静岡県 - Shizuoka - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>23 - 愛知県 - Aichi - D - Chubu</fullName>
+                <default>false</default>
+                <label>23 - 愛知県 - Aichi - D - Chubu</label>
+            </value>
+            <value>
+                <fullName>24 - 三重県 - Mie - E - Kinki</fullName>
+                <default>false</default>
+                <label>24 - 三重県 - Mie - E - Kinki</label>
+            </value>
+            <value>
+                <fullName>25 - 滋賀県 - Shiga - E - Kinki</fullName>
+                <default>false</default>
+                <label>25 - 滋賀県 - Shiga - E - Kinki</label>
+            </value>
+            <value>
+                <fullName>26 - 京都府 - Kyoto - E - Kinki</fullName>
+                <default>false</default>
+                <label>26 - 京都府 - Kyoto - E - Kinki</label>
+            </value>
+            <value>
+                <fullName>27 - 大阪府 - Osaka - E - Kinki</fullName>
+                <default>false</default>
+                <label>27 - 大阪府 - Osaka - E - Kinki</label>
+            </value>
+            <value>
+                <fullName>28 - 兵庫県 - Hyogo - E - Kinki</fullName>
+                <default>false</default>
+                <label>28 - 兵庫県 - Hyogo - E - Kinki</label>
+            </value>
+            <value>
+                <fullName>29 - 奈良県 - Nara - E - Kinki</fullName>
+                <default>false</default>
+                <label>29 - 奈良県 - Nara - E - Kinki</label>
+            </value>
+            <value>
+                <fullName>30 - 和歌山県 - Wakayama - E - Kinki</fullName>
+                <default>false</default>
+                <label>30 - 和歌山県 - Wakayama - E - Kinki</label>
+            </value>
+            <value>
+                <fullName>31 - 鳥取県 - Tottori - F - Chugoku</fullName>
+                <default>false</default>
+                <label>31 - 鳥取県 - Tottori - F - Chugoku</label>
+            </value>
+            <value>
+                <fullName>32 - 島根県 - Shimane - F - Chugoku</fullName>
+                <default>false</default>
+                <label>32 - 島根県 - Shimane - F - Chugoku</label>
+            </value>
+            <value>
+                <fullName>33 - 岡山県 - Okayama - F - Chugoku</fullName>
+                <default>false</default>
+                <label>33 - 岡山県 - Okayama - F - Chugoku</label>
+            </value>
+            <value>
+                <fullName>34 - 広島県 - Hiroshima - F - Chugoku</fullName>
+                <default>false</default>
+                <label>34 - 広島県 - Hiroshima - F - Chugoku</label>
+            </value>
+            <value>
+                <fullName>35 - 山口県 - Yamaguchi - F - Chugoku</fullName>
+                <default>false</default>
+                <label>35 - 山口県 - Yamaguchi - F - Chugoku</label>
+            </value>
+            <value>
+                <fullName>36 - 徳島県 - Tokushima - G - Shikoku</fullName>
+                <default>false</default>
+                <label>36 - 徳島県 - Tokushima - G - Shikoku</label>
+            </value>
+            <value>
+                <fullName>37 - 香川県 - Kagawa - G - Shikoku</fullName>
+                <default>false</default>
+                <label>37 - 香川県 - Kagawa - G - Shikoku</label>
+            </value>
+            <value>
+                <fullName>38 - 愛媛県 - Ehime - G - Shikoku</fullName>
+                <default>false</default>
+                <label>38 - 愛媛県 - Ehime - G - Shikoku</label>
+            </value>
+            <value>
+                <fullName>39 - 高知県 - Kochi - G - Shikoku</fullName>
+                <default>false</default>
+                <label>39 - 高知県 - Kochi - G - Shikoku</label>
+            </value>
+            <value>
+                <fullName>40 - 福岡県 - Fukuoka - H - Kyusyu/Okinawa</fullName>
+                <default>false</default>
+                <label>40 - 福岡県 - Fukuoka - H - Kyusyu/Okinawa</label>
+            </value>
+            <value>
+                <fullName>41 - 佐賀県 - Saga - H - Kyusyu/Okinawa</fullName>
+                <default>false</default>
+                <label>41 - 佐賀県 - Saga - H - Kyusyu/Okinawa</label>
+            </value>
+            <value>
+                <fullName>42 - 長崎県 - Nagasaki - H - Kyusyu/Okinawa</fullName>
+                <default>false</default>
+                <label>42 - 長崎県 - Nagasaki - H - Kyusyu/Okinawa</label>
+            </value>
+            <value>
+                <fullName>43 - 熊本県 - Kumamoto - H - Kyusyu/Okinawa</fullName>
+                <default>false</default>
+                <label>43 - 熊本県 - Kumamoto - H - Kyusyu/Okinawa</label>
+            </value>
+            <value>
+                <fullName>44 - 大分県 - Oita - H - Kyusyu/Okinawa</fullName>
+                <default>false</default>
+                <label>44 - 大分県 - Oita - H - Kyusyu/Okinawa</label>
+            </value>
+            <value>
+                <fullName>45 - 宮崎県 - Miyazaki - H - Kyusyu/Okinawa</fullName>
+                <default>false</default>
+                <label>45 - 宮崎県 - Miyazaki - H - Kyusyu/Okinawa</label>
+            </value>
+            <value>
+                <fullName>46 - 鹿児島県 - Kagoshima - H - Kyusyu/Okinawa</fullName>
+                <default>false</default>
+                <label>46 - 鹿児島県 - Kagoshima - H - Kyusyu/Okinawa</label>
+            </value>
+            <value>
+                <fullName>47 - 沖縄県 - Okinawa - H - Kyusyu/Okinawa</fullName>
+                <default>false</default>
+                <label>47 - 沖縄県 - Okinawa - H - Kyusyu/Okinawa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

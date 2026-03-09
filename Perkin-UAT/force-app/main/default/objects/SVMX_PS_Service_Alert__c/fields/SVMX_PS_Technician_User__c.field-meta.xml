@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Technician_User__c</fullName>
+    <description>This is used for the &quot;My Quality Approved or Rejected&quot; list view.  By design, it is not on the Replacement page layout.</description>
+    <externalId>false</externalId>
+    <formula>IF (SVMX_PS_Technician__r.SVMXC__Salesforce_User__c=$User.Id,&quot;true&quot;,&quot;false&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Technician User</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

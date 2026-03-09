@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Effective_Date__c</fullName>
+    <description>Formula pulls Reselling period Effective date from Account</description>
+    <formula>Reseller_Account__r.Reseller_Effective_Date__c</formula>
+    <inlineHelpText>The Accounts Effective Date for reselling</inlineHelpText>
+    <label>Effective Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

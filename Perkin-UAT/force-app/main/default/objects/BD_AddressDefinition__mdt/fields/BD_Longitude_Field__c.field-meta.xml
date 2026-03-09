@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Longitude_Field__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Longitude Field</label>
+    <metadataRelationshipControllingField>BD_AddressDefinition__mdt.BD_Address_SObject__c</metadataRelationshipControllingField>
+    <referenceTo>FieldDefinition</referenceTo>
+    <relationshipLabel>Address_Definitions7</relationshipLabel>
+    <relationshipName>Address_Definitions7</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

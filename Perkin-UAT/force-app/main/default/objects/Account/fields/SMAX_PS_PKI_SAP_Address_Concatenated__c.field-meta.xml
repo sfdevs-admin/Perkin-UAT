@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_PKI_SAP_Address_Concatenated__c</fullName>
+    <description>Denotes the concatenation of the PKI SAP City, PKI SAP Region, PKI SAP Postal Code, PKI SAP Country Code</description>
+    <externalId>false</externalId>
+    <formula>PKI_SAP_City__c + &quot; &quot; + PKI_SAP_Region__c + &quot; &quot; + PKI_SAP_Postal_Code__c + &quot; &quot; + PKI_SAP_Country_Code__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Denotes the concatenation of the PKI SAP City, PKI SAP Region, PKI SAP Postal Code, PKI SAP Country Code</inlineHelpText>
+    <label>PKI SAP Address Concatenated</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

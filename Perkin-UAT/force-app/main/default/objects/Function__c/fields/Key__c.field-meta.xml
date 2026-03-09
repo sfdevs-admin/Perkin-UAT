@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Concatenates &quot;PKI_SAP_Sold_To_Account_Number__c&quot; with &quot;PKI_SAP_Partner_Site__c&quot; with &quot;PKI_SAP_Partner_Type__c&quot;</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Concatenates &quot;PKI_SAP_Sold_To_Account_Number__c&quot; with &quot;PKI_SAP_Partner_Site__c&quot; with &quot;PKI_SAP_Partner_Type__c&quot;</inlineHelpText>
+    <label>Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

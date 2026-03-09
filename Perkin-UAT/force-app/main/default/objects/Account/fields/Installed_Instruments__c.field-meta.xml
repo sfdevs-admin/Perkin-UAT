@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installed_Instruments__c</fullName>
+    <label>Installed Instruments</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SOLiD NG Sequencer</fullName>
+                <default>false</default>
+                <label>SOLiD NG Sequencer</label>
+            </value>
+            <value>
+                <fullName>Illumina GA NG Sequencer</fullName>
+                <default>false</default>
+                <label>Illumina GA NG Sequencer</label>
+            </value>
+            <value>
+                <fullName>Illumina HiSeq</fullName>
+                <default>false</default>
+                <label>Illumina HiSeq</label>
+            </value>
+            <value>
+                <fullName>Roche 454 NG Sequencer</fullName>
+                <default>false</default>
+                <label>Roche 454 NG Sequencer</label>
+            </value>
+            <value>
+                <fullName>Pacific Biosciences (PacBio)</fullName>
+                <default>false</default>
+                <label>Pacific Biosciences (PacBio)</label>
+            </value>
+            <value>
+                <fullName>Helicos NG Sequencer</fullName>
+                <default>false</default>
+                <label>Helicos NG Sequencer</label>
+            </value>
+            <value>
+                <fullName>Polonator</fullName>
+                <default>false</default>
+                <label>Polonator</label>
+            </value>
+            <value>
+                <fullName>Sequenom</fullName>
+                <default>false</default>
+                <label>Sequenom</label>
+            </value>
+            <value>
+                <fullName>AB3730</fullName>
+                <default>false</default>
+                <label>AB3730</label>
+            </value>
+            <value>
+                <fullName>AB3730XL</fullName>
+                <default>false</default>
+                <label>AB3730XL</label>
+            </value>
+            <value>
+                <fullName>AB3130</fullName>
+                <default>false</default>
+                <label>AB3130</label>
+            </value>
+            <value>
+                <fullName>AB3130XL</fullName>
+                <default>false</default>
+                <label>AB3130XL</label>
+            </value>
+            <value>
+                <fullName>AB3100</fullName>
+                <default>false</default>
+                <label>AB3100</label>
+            </value>
+            <value>
+                <fullName>AB3700</fullName>
+                <default>false</default>
+                <label>AB3700</label>
+            </value>
+            <value>
+                <fullName>AB377</fullName>
+                <default>false</default>
+                <label>AB377</label>
+            </value>
+            <value>
+                <fullName>Affymetrix</fullName>
+                <default>false</default>
+                <label>Affymetrix</label>
+            </value>
+            <value>
+                <fullName>Illumnia Bead Station</fullName>
+                <default>false</default>
+                <label>Illumnia Bead Station</label>
+            </value>
+            <value>
+                <fullName>Agilent</fullName>
+                <default>false</default>
+                <label>Agilent</label>
+            </value>
+            <value>
+                <fullName>CodeLink</fullName>
+                <default>false</default>
+                <label>CodeLink</label>
+            </value>
+            <value>
+                <fullName>BeckmanCEQ8000</fullName>
+                <default>false</default>
+                <label>BeckmanCEQ8000</label>
+            </value>
+            <value>
+                <fullName>MegaBACE1000</fullName>
+                <default>false</default>
+                <label>MegaBACE1000</label>
+            </value>
+            <value>
+                <fullName>Luminex xMAP</fullName>
+                <default>false</default>
+                <label>Luminex xMAP</label>
+            </value>
+            <value>
+                <fullName>Li-Cor</fullName>
+                <default>false</default>
+                <label>Li-Cor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

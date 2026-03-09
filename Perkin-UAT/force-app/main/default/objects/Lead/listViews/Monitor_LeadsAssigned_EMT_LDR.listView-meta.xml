@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monitor_LeadsAssigned_EMT_LDR</fullName>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>Product_Line__c</columns>
+    <columns>BE__c</columns>
+    <columns>GROW__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Secondary_Qualification__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>vedant</value>
+    </filters>
+    <filters>
+        <field>LEAD.COUNTRY</field>
+        <operation>equals</operation>
+        <value>AT,BE,CH,DE,DK,ES,FI,FR,GB,IE,IS,IT,LI,LU,NL,NO,PL,PT,SE</value>
+    </filters>
+    <label>*Monitor-LeadsAssigned-EMT LDR</label>
+</ListView>

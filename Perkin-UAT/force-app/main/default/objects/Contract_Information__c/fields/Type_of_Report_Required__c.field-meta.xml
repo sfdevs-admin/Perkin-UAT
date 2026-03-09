@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Report_Required__c</fullName>
+    <label>Type of Report Required</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Volume</fullName>
+                <default>false</default>
+                <label>Volume</label>
+            </value>
+            <value>
+                <fullName>Results</fullName>
+                <default>false</default>
+                <label>Results</label>
+            </value>
+            <value>
+                <fullName>Customer Svc Performance</fullName>
+                <default>false</default>
+                <label>Customer Svc Performance</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

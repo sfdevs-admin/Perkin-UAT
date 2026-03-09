@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isSame2Down__c</fullName>
+    <description>For each Order+Opp, if the direct manager&#39;s(1up) direct manager (2up) is the same as the logged in user, then this person is 2up and should see all those recordsas &quot;My Team for 2 up)</description>
+    <formula>BLANKVALUE(Opportunity__r.Owner.Direct_Manager__r.Direct_Manager__c,&quot;NO MANAGER&quot;) = $User.Id</formula>
+    <label>isSame2Down</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

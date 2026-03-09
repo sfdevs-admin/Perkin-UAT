@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GS_Segment__c</fullName>
+    <label>Diagnostics – Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Virology</fullName>
+                <default>false</default>
+                <label>Virology</label>
+            </value>
+            <value>
+                <fullName>Neonatal screening</fullName>
+                <default>false</default>
+                <label>Neonatal screening</label>
+            </value>
+            <value>
+                <fullName>1T screening</fullName>
+                <default>false</default>
+                <label>1T screening</label>
+            </value>
+            <value>
+                <fullName>2T screening</fullName>
+                <default>false</default>
+                <label>2T screening</label>
+            </value>
+            <value>
+                <fullName>Pre-eclampsia</fullName>
+                <default>false</default>
+                <label>Pre-eclampsia</label>
+            </value>
+            <value>
+                <fullName>NIPT</fullName>
+                <default>false</default>
+                <label>NIPT</label>
+            </value>
+            <value>
+                <fullName>Clinical diagnostics</fullName>
+                <default>false</default>
+                <label>Clinical diagnostics</label>
+            </value>
+            <value>
+                <fullName>Clinical MSMS</fullName>
+                <default>false</default>
+                <label>Clinical MSMS</label>
+            </value>
+            <value>
+                <fullName>BoBs</fullName>
+                <default>false</default>
+                <label>BoBs</label>
+            </value>
+            <value>
+                <fullName>BoBs PGS</fullName>
+                <default>false</default>
+                <label>BoBs PGS</label>
+            </value>
+            <value>
+                <fullName>BoBs POC</fullName>
+                <default>false</default>
+                <label>BoBs POC</label>
+            </value>
+            <value>
+                <fullName>BoBs postnatal diagnosis</fullName>
+                <default>false</default>
+                <label>BoBs postnatal diagnosis</label>
+            </value>
+            <value>
+                <fullName>BoBs prenatal diagnosis</fullName>
+                <default>false</default>
+                <label>BoBs prenatal diagnosis</label>
+            </value>
+            <value>
+                <fullName>BoBs stem cell screening</fullName>
+                <default>false</default>
+                <label>BoBs stem cell screening</label>
+            </value>
+            <value>
+                <fullName>CGX arrays</fullName>
+                <default>false</default>
+                <label>CGX arrays</label>
+            </value>
+            <value>
+                <fullName>CGX oncogenetics</fullName>
+                <default>false</default>
+                <label>CGX oncogenetics</label>
+            </value>
+            <value>
+                <fullName>CGX postnatal diagnosis</fullName>
+                <default>false</default>
+                <label>CGX postnatal diagnosis</label>
+            </value>
+            <value>
+                <fullName>CGX prenatal diagnosis</fullName>
+                <default>false</default>
+                <label>CGX prenatal diagnosis</label>
+            </value>
+            <value>
+                <fullName>Cytogenetics</fullName>
+                <default>false</default>
+                <label>Cytogenetics</label>
+            </value>
+            <value>
+                <fullName>FragilEase carrier screening</fullName>
+                <default>false</default>
+                <label>FragilEase carrier screening</label>
+            </value>
+            <value>
+                <fullName>FragilEase newborn screening</fullName>
+                <default>false</default>
+                <label>FragilEase newborn screening</label>
+            </value>
+            <value>
+                <fullName>FragilEase postnatal diagnosis</fullName>
+                <default>false</default>
+                <label>FragilEase postnatal diagnosis</label>
+            </value>
+            <value>
+                <fullName>FragilEase prenatal diagnosis</fullName>
+                <default>false</default>
+                <label>FragilEase prenatal diagnosis</label>
+            </value>
+            <value>
+                <fullName>Fragile X</fullName>
+                <default>false</default>
+                <label>Fragile X</label>
+            </value>
+            <value>
+                <fullName>NAP biobank</fullName>
+                <default>false</default>
+                <label>NAP biobank</label>
+            </value>
+            <value>
+                <fullName>NAP blood screening</fullName>
+                <default>false</default>
+                <label>NAP blood screening</label>
+            </value>
+            <value>
+                <fullName>NAP HLA</fullName>
+                <default>false</default>
+                <label>NAP HLA</label>
+            </value>
+            <value>
+                <fullName>NAP human genetics</fullName>
+                <default>false</default>
+                <label>NAP human genetics</label>
+            </value>
+            <value>
+                <fullName>NAP plants</fullName>
+                <default>false</default>
+                <label>NAP plants</label>
+            </value>
+            <value>
+                <fullName>NAP veterinary</fullName>
+                <default>false</default>
+                <label>NAP veterinary</label>
+            </value>
+            <value>
+                <fullName>NAP virology/pathogens</fullName>
+                <default>false</default>
+                <label>NAP virology/pathogens</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Prenatal Software</fullName>
+                <default>false</default>
+                <label>Prenatal Software</label>
+            </value>
+            <value>
+                <fullName>Maternal Health – Risk assessment</fullName>
+                <default>false</default>
+                <label>Maternal Health – Risk assessment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQS_Water__c</fullName>
+    <description>ANNUITAS PDG Program</description>
+    <label>LQS - Water</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Qualified Lead - Warm</fullName>
+                <default>false</default>
+                <label>Qualified Lead - Warm</label>
+            </value>
+            <value>
+                <fullName>Qualified Lead - Hot</fullName>
+                <default>false</default>
+                <label>Qualified Lead - Hot</label>
+            </value>
+            <value>
+                <fullName>Turnback</fullName>
+                <default>false</default>
+                <label>Turnback</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Zero Stage</fullName>
+                <default>false</default>
+                <label>Zero Stage</label>
+            </value>
+            <value>
+                <fullName>Create/Plan</fullName>
+                <default>false</default>
+                <label>Create/Plan</label>
+            </value>
+            <value>
+                <fullName>Qualify</fullName>
+                <default>false</default>
+                <label>Qualify</label>
+            </value>
+            <value>
+                <fullName>Develop</fullName>
+                <default>false</default>
+                <label>Develop</label>
+            </value>
+            <value>
+                <fullName>Prove</fullName>
+                <default>false</default>
+                <label>Prove</label>
+            </value>
+            <value>
+                <fullName>Negotiation</fullName>
+                <default>false</default>
+                <label>Negotiation</label>
+            </value>
+            <value>
+                <fullName>Closed Won</fullName>
+                <default>false</default>
+                <label>Closed Won</label>
+            </value>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <label>Closed Lost</label>
+            </value>
+            <value>
+                <fullName>Abandoned</fullName>
+                <default>false</default>
+                <label>Abandoned</label>
+            </value>
+            <value>
+                <fullName>Engaged</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Engaged</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Qualified Engaged</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Qualified Engaged</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

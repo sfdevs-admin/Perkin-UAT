@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxAINotes__c</fullName>
+    <description>Used to record any notes from the AI engine</description>
+    <inlineHelpText>Used to record any notes from the AI engine</inlineHelpText>
+    <label>fxAINotes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

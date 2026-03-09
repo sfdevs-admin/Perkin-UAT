@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_SLA__c</fullName>
+    <description>ANNUITAS PDG Program</description>
+    <label>Conversion SLA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Warm SLA In-policy</fullName>
+                <default>false</default>
+                <label>Warm SLA In-policy</label>
+            </value>
+            <value>
+                <fullName>Warm SLA Out-of-policy</fullName>
+                <default>false</default>
+                <label>Warm SLA Out-of-policy</label>
+            </value>
+            <value>
+                <fullName>Hot SLA In-policy</fullName>
+                <default>false</default>
+                <label>Hot SLA In-policy</label>
+            </value>
+            <value>
+                <fullName>Hot SLA Out-of-policy</fullName>
+                <default>false</default>
+                <label>Hot SLA Out-of-policy</label>
+            </value>
+            <value>
+                <fullName>Warm SLA In-policy Completed</fullName>
+                <default>false</default>
+                <label>Warm SLA In-policy Completed</label>
+            </value>
+            <value>
+                <fullName>Hot SLA In-policy Completed</fullName>
+                <default>false</default>
+                <label>Hot SLA In-policy Completed</label>
+            </value>
+            <value>
+                <fullName>Warm SLA Out-of-policy Completed</fullName>
+                <default>false</default>
+                <label>Warm SLA Out-of-policy Completed</label>
+            </value>
+            <value>
+                <fullName>Hot SLA Out-of-policy Completed</fullName>
+                <default>false</default>
+                <label>Hot SLA Out-of-policy Completed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

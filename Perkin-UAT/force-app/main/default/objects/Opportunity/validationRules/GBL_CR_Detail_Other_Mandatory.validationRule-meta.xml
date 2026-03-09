@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_CR_Detail_Other_Mandatory</fullName>
+    <active>true</active>
+    <description>Validation rule to mandate user to enter Closed Reason Details in case of other</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c
+,NOT($Permission.C_PERM_8020_Bypass_Opp_V_RULE)
+,$Profile.Name &lt;&gt; &#39;DAS After Market Inside Sales User&#39;, 
+NOT(CONTAINS($Profile.Name , &#39;System Administrator&#39;)), 
+NOT(CONTAINS($User.Username, &#39;scrumteam-boston&#39;)),
+NOT(CONTAINS($User.Username, &#39;nicolle.mantia&#39;)),
+NOT(CONTAINS($User.Username, &#39;catherine.holland&#39;)),
+
+RecordType.Name &lt;&gt; &#39;Informatics&#39;, 
+
+AND (ISBLANK(Reason_Lost_Detail__c),
+ISPICKVAL( Closed_Reason__c ,&#39;Other&#39;)))</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_047: Please fill &quot;Closed Reason Detail&quot; field.</errorMessage>
+</ValidationRule>

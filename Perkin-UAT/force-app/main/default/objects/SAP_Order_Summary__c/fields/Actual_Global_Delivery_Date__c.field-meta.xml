@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Global_Delivery_Date__c</fullName>
+    <inlineHelpText>Based on delivery information an actual date when PKI order was ready at manufacturing site or at crossdoc DC for multi site order</inlineHelpText>
+    <label>Actual Mfg. Commit Date(GD)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Product__c</fullName>
+    <label>Service Product</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ATT Attivio</fullName>
+                <default>false</default>
+                <label>ATT Attivio</label>
+            </value>
+            <value>
+                <fullName>AVC Analytics - Clinical</fullName>
+                <default>false</default>
+                <label>AVC Analytics - Clinical</label>
+            </value>
+            <value>
+                <fullName>AVS Analytics - R&amp;D</fullName>
+                <default>false</default>
+                <label>AVS Analytics - R&amp;D</label>
+            </value>
+            <value>
+                <fullName>DSK Desktop</fullName>
+                <default>false</default>
+                <label>DSK Desktop</label>
+            </value>
+            <value>
+                <fullName>ELM Elements</fullName>
+                <default>false</default>
+                <label>ELM Elements</label>
+            </value>
+            <value>
+                <fullName>ENT Enterprise R&amp;D</fullName>
+                <default>false</default>
+                <label>ENT Enterprise R&amp;D</label>
+            </value>
+            <value>
+                <fullName>ISS Imaging</fullName>
+                <default>false</default>
+                <label>ISS Imaging</label>
+            </value>
+            <value>
+                <fullName>QAS QA/QC</fullName>
+                <default>false</default>
+                <label>QAS QA/QC</label>
+            </value>
+            <value>
+                <fullName>SIG Signals</fullName>
+                <default>false</default>
+                <label>SIG Signals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

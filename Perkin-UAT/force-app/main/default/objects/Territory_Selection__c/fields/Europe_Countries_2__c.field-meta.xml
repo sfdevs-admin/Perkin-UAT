@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Europe_Countries_2__c</fullName>
+    <description>Europe Countries 2 is created to workaround the limitation of choosing more than 100 items from  a picklist</description>
+    <inlineHelpText>Choose Europe Countries that starts with M - Z</inlineHelpText>
+    <label>Europe Countries 2 (M – Z)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MADAGASCAR</fullName>
+                <default>false</default>
+                <label>MADAGASCAR</label>
+            </value>
+            <value>
+                <fullName>MALAWI</fullName>
+                <default>false</default>
+                <label>MALAWI</label>
+            </value>
+            <value>
+                <fullName>MALI</fullName>
+                <default>false</default>
+                <label>MALI</label>
+            </value>
+            <value>
+                <fullName>MALTA</fullName>
+                <default>false</default>
+                <label>MALTA</label>
+            </value>
+            <value>
+                <fullName>MARTINIQUE</fullName>
+                <default>false</default>
+                <label>MARTINIQUE</label>
+            </value>
+            <value>
+                <fullName>MAURITANIA</fullName>
+                <default>false</default>
+                <label>MAURITANIA</label>
+            </value>
+            <value>
+                <fullName>MAURITIUS</fullName>
+                <default>false</default>
+                <label>MAURITIUS</label>
+            </value>
+            <value>
+                <fullName>MAYOTTE</fullName>
+                <default>false</default>
+                <label>MAYOTTE</label>
+            </value>
+            <value>
+                <fullName>MOLDOVA, REPUBLIC OF</fullName>
+                <default>false</default>
+                <label>MOLDOVA, REPUBLIC OF</label>
+            </value>
+            <value>
+                <fullName>MONACO</fullName>
+                <default>false</default>
+                <label>MONACO</label>
+            </value>
+            <value>
+                <fullName>MOROCCO</fullName>
+                <default>false</default>
+                <label>MOROCCO</label>
+            </value>
+            <value>
+                <fullName>MOZAMBIQUE</fullName>
+                <default>false</default>
+                <label>MOZAMBIQUE</label>
+            </value>
+            <value>
+                <fullName>NAMIBIA</fullName>
+                <default>false</default>
+                <label>NAMIBIA</label>
+            </value>
+            <value>
+                <fullName>NETHERLANDS</fullName>
+                <default>false</default>
+                <label>NETHERLANDS</label>
+            </value>
+            <value>
+                <fullName>NEW CALEDONIA</fullName>
+                <default>false</default>
+                <label>NEW CALEDONIA</label>
+            </value>
+            <value>
+                <fullName>NIGER</fullName>
+                <default>false</default>
+                <label>NIGER</label>
+            </value>
+            <value>
+                <fullName>NIGERIA</fullName>
+                <default>false</default>
+                <label>NIGERIA</label>
+            </value>
+            <value>
+                <fullName>NORWAY</fullName>
+                <default>false</default>
+                <label>NORWAY</label>
+            </value>
+            <value>
+                <fullName>OMAN</fullName>
+                <default>false</default>
+                <label>OMAN</label>
+            </value>
+            <value>
+                <fullName>PAKISTAN</fullName>
+                <default>false</default>
+                <label>PAKISTAN</label>
+            </value>
+            <value>
+                <fullName>POLAND</fullName>
+                <default>false</default>
+                <label>POLAND</label>
+            </value>
+            <value>
+                <fullName>PORTUGAL</fullName>
+                <default>false</default>
+                <label>PORTUGAL</label>
+            </value>
+            <value>
+                <fullName>QATAR</fullName>
+                <default>false</default>
+                <label>QATAR</label>
+            </value>
+            <value>
+                <fullName>REPUBLIC OF MONTENEGRO</fullName>
+                <default>false</default>
+                <label>REPUBLIC OF MONTENEGRO</label>
+            </value>
+            <value>
+                <fullName>REPUBLIC OF SERBIA</fullName>
+                <default>false</default>
+                <label>REPUBLIC OF SERBIA</label>
+            </value>
+            <value>
+                <fullName>REUNION</fullName>
+                <default>false</default>
+                <label>REUNION</label>
+            </value>
+            <value>
+                <fullName>ROMANIA</fullName>
+                <default>false</default>
+                <label>ROMANIA</label>
+            </value>
+            <value>
+                <fullName>RUSSIAN FEDERATION</fullName>
+                <default>false</default>
+                <label>RUSSIAN FEDERATION</label>
+            </value>
+            <value>
+                <fullName>RWANDA</fullName>
+                <default>false</default>
+                <label>RWANDA</label>
+            </value>
+            <value>
+                <fullName>SAN MARINO</fullName>
+                <default>false</default>
+                <label>SAN MARINO</label>
+            </value>
+            <value>
+                <fullName>SAO TOME AND PRINCIPE</fullName>
+                <default>false</default>
+                <label>SAO TOME AND PRINCIPE</label>
+            </value>
+            <value>
+                <fullName>SAUDI ARABIA</fullName>
+                <default>false</default>
+                <label>SAUDI ARABIA</label>
+            </value>
+            <value>
+                <fullName>SENEGAL</fullName>
+                <default>false</default>
+                <label>SENEGAL</label>
+            </value>
+            <value>
+                <fullName>SERBIA MONTENEGRO</fullName>
+                <default>false</default>
+                <label>SERBIA MONTENEGRO</label>
+            </value>
+            <value>
+                <fullName>SEYCHELLES</fullName>
+                <default>false</default>
+                <label>SEYCHELLES</label>
+            </value>
+            <value>
+                <fullName>SIERRA LEONE</fullName>
+                <default>false</default>
+                <label>SIERRA LEONE</label>
+            </value>
+            <value>
+                <fullName>SLOVAKIA</fullName>
+                <default>false</default>
+                <label>SLOVAKIA</label>
+            </value>
+            <value>
+                <fullName>SLOVAKIA - was SLOVAK REP.</fullName>
+                <default>false</default>
+                <label>SLOVAKIA - was SLOVAK REP.</label>
+            </value>
+            <value>
+                <fullName>SLOVENIA</fullName>
+                <default>false</default>
+                <label>SLOVENIA</label>
+            </value>
+            <value>
+                <fullName>SOMALIA</fullName>
+                <default>false</default>
+                <label>SOMALIA</label>
+            </value>
+            <value>
+                <fullName>SOUTH AFRICA</fullName>
+                <default>false</default>
+                <label>SOUTH AFRICA</label>
+            </value>
+            <value>
+                <fullName>SOUTH EAST EUROPE (Export)</fullName>
+                <default>false</default>
+                <label>SOUTH EAST EUROPE (Export)</label>
+            </value>
+            <value>
+                <fullName>SPAIN</fullName>
+                <default>false</default>
+                <label>SPAIN</label>
+            </value>
+            <value>
+                <fullName>ST HELENA (U.K.)</fullName>
+                <default>false</default>
+                <label>ST HELENA (U.K.)</label>
+            </value>
+            <value>
+                <fullName>SUDAN</fullName>
+                <default>false</default>
+                <label>SUDAN</label>
+            </value>
+            <value>
+                <fullName>SVALBARD &amp; JAN MAYEN IS(NOR</fullName>
+                <default>false</default>
+                <label>SVALBARD &amp; JAN MAYEN IS(NOR</label>
+            </value>
+            <value>
+                <fullName>SWAZILAND</fullName>
+                <default>false</default>
+                <label>SWAZILAND</label>
+            </value>
+            <value>
+                <fullName>SWEDEN</fullName>
+                <default>false</default>
+                <label>SWEDEN</label>
+            </value>
+            <value>
+                <fullName>SWEDEN(OLD CODE,SEE &quot;SE&quot;)</fullName>
+                <default>false</default>
+                <label>SWEDEN(OLD CODE,SEE &quot;SE&quot;)</label>
+            </value>
+            <value>
+                <fullName>SWITZERLAND</fullName>
+                <default>false</default>
+                <label>SWITZERLAND</label>
+            </value>
+            <value>
+                <fullName>SYRIAN ARAB REPUBLIC</fullName>
+                <default>false</default>
+                <label>SYRIAN ARAB REPUBLIC</label>
+            </value>
+            <value>
+                <fullName>TAJIKISTAN</fullName>
+                <default>false</default>
+                <label>TAJIKISTAN</label>
+            </value>
+            <value>
+                <fullName>TANZANIA</fullName>
+                <default>false</default>
+                <label>TANZANIA</label>
+            </value>
+            <value>
+                <fullName>TOGO</fullName>
+                <default>false</default>
+                <label>TOGO</label>
+            </value>
+            <value>
+                <fullName>TUNISIA</fullName>
+                <default>false</default>
+                <label>TUNISIA</label>
+            </value>
+            <value>
+                <fullName>TURKEY</fullName>
+                <default>false</default>
+                <label>TURKEY</label>
+            </value>
+            <value>
+                <fullName>TURKMENISTAN</fullName>
+                <default>false</default>
+                <label>TURKMENISTAN</label>
+            </value>
+            <value>
+                <fullName>UGANDA</fullName>
+                <default>false</default>
+                <label>UGANDA</label>
+            </value>
+            <value>
+                <fullName>UKRAINE</fullName>
+                <default>false</default>
+                <label>UKRAINE</label>
+            </value>
+            <value>
+                <fullName>UNITED ARAB EMIRATES</fullName>
+                <default>false</default>
+                <label>UNITED ARAB EMIRATES</label>
+            </value>
+            <value>
+                <fullName>UNITED KINGDOM</fullName>
+                <default>false</default>
+                <label>UNITED KINGDOM</label>
+            </value>
+            <value>
+                <fullName>USSR</fullName>
+                <default>false</default>
+                <label>USSR</label>
+            </value>
+            <value>
+                <fullName>UZBEKISTAN</fullName>
+                <default>false</default>
+                <label>UZBEKISTAN</label>
+            </value>
+            <value>
+                <fullName>VATICAN CITY (HOLY SEE)</fullName>
+                <default>false</default>
+                <label>VATICAN CITY (HOLY SEE)</label>
+            </value>
+            <value>
+                <fullName>WEST BANK</fullName>
+                <default>false</default>
+                <label>WEST BANK</label>
+            </value>
+            <value>
+                <fullName>WESTERN SAHARA</fullName>
+                <default>false</default>
+                <label>WESTERN SAHARA</label>
+            </value>
+            <value>
+                <fullName>YEMEN</fullName>
+                <default>false</default>
+                <label>YEMEN</label>
+            </value>
+            <value>
+                <fullName>YUGOSLAVIA</fullName>
+                <default>false</default>
+                <label>YUGOSLAVIA</label>
+            </value>
+            <value>
+                <fullName>ZAIRE</fullName>
+                <default>false</default>
+                <label>ZAIRE</label>
+            </value>
+            <value>
+                <fullName>ZAMBIA</fullName>
+                <default>false</default>
+                <label>ZAMBIA</label>
+            </value>
+            <value>
+                <fullName>ZIMBABWE</fullName>
+                <default>false</default>
+                <label>ZIMBABWE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

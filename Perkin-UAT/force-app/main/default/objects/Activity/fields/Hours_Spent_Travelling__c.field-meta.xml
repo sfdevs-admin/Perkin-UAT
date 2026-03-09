@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hours_Spent_Travelling__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the number of hours that it takes you on top of the activity time to get to and from the activity.</inlineHelpText>
+    <label>Hours Spent Traveling</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

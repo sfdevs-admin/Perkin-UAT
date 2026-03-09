@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Americas_Countries__c</fullName>
+    <label>Americas Countries</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ANGUILLA</fullName>
+                <default>false</default>
+                <label>ANGUILLA</label>
+            </value>
+            <value>
+                <fullName>ANTARCTICA</fullName>
+                <default>false</default>
+                <label>ANTARCTICA</label>
+            </value>
+            <value>
+                <fullName>ANTIGUA &amp; BARBUDA</fullName>
+                <default>false</default>
+                <label>ANTIGUA &amp; BARBUDA</label>
+            </value>
+            <value>
+                <fullName>ARGENTINA</fullName>
+                <default>false</default>
+                <label>ARGENTINA</label>
+            </value>
+            <value>
+                <fullName>ARUBA</fullName>
+                <default>false</default>
+                <label>ARUBA</label>
+            </value>
+            <value>
+                <fullName>BAHAMAS</fullName>
+                <default>false</default>
+                <label>BAHAMAS</label>
+            </value>
+            <value>
+                <fullName>BARBADOS</fullName>
+                <default>false</default>
+                <label>BARBADOS</label>
+            </value>
+            <value>
+                <fullName>BELIZE</fullName>
+                <default>false</default>
+                <label>BELIZE</label>
+            </value>
+            <value>
+                <fullName>BERMUDA</fullName>
+                <default>false</default>
+                <label>BERMUDA</label>
+            </value>
+            <value>
+                <fullName>BOLIVIA</fullName>
+                <default>false</default>
+                <label>BOLIVIA</label>
+            </value>
+            <value>
+                <fullName>BRAZIL</fullName>
+                <default>false</default>
+                <label>BRAZIL</label>
+            </value>
+            <value>
+                <fullName>BRITISH VIRGIN ISLANDS</fullName>
+                <default>false</default>
+                <label>BRITISH VIRGIN ISLANDS</label>
+            </value>
+            <value>
+                <fullName>CANADA</fullName>
+                <default>false</default>
+                <label>CANADA</label>
+            </value>
+            <value>
+                <fullName>CAYMAN ISLANDS</fullName>
+                <default>false</default>
+                <label>CAYMAN ISLANDS</label>
+            </value>
+            <value>
+                <fullName>CHILE</fullName>
+                <default>false</default>
+                <label>CHILE</label>
+            </value>
+            <value>
+                <fullName>COLOMBIA</fullName>
+                <default>false</default>
+                <label>COLOMBIA</label>
+            </value>
+            <value>
+                <fullName>COSTA RICA</fullName>
+                <default>false</default>
+                <label>COSTA RICA</label>
+            </value>
+            <value>
+                <fullName>CUBA</fullName>
+                <default>false</default>
+                <label>CUBA</label>
+            </value>
+            <value>
+                <fullName>DOMINICA</fullName>
+                <default>false</default>
+                <label>DOMINICA</label>
+            </value>
+            <value>
+                <fullName>DOMINICAN REPUBLIC</fullName>
+                <default>false</default>
+                <label>DOMINICAN REPUBLIC</label>
+            </value>
+            <value>
+                <fullName>ECUADOR</fullName>
+                <default>false</default>
+                <label>ECUADOR</label>
+            </value>
+            <value>
+                <fullName>EL SALVADOR</fullName>
+                <default>false</default>
+                <label>EL SALVADOR</label>
+            </value>
+            <value>
+                <fullName>FALKLAND ISLANDS</fullName>
+                <default>false</default>
+                <label>FALKLAND ISLANDS</label>
+            </value>
+            <value>
+                <fullName>GRENADA</fullName>
+                <default>false</default>
+                <label>GRENADA</label>
+            </value>
+            <value>
+                <fullName>GUATEMALA</fullName>
+                <default>false</default>
+                <label>GUATEMALA</label>
+            </value>
+            <value>
+                <fullName>GUYANA</fullName>
+                <default>false</default>
+                <label>GUYANA</label>
+            </value>
+            <value>
+                <fullName>HAITI</fullName>
+                <default>false</default>
+                <label>HAITI</label>
+            </value>
+            <value>
+                <fullName>HONDURAS</fullName>
+                <default>false</default>
+                <label>HONDURAS</label>
+            </value>
+            <value>
+                <fullName>JAMAICA</fullName>
+                <default>false</default>
+                <label>JAMAICA</label>
+            </value>
+            <value>
+                <fullName>MEXICO</fullName>
+                <default>false</default>
+                <label>MEXICO</label>
+            </value>
+            <value>
+                <fullName>MONTSERAT</fullName>
+                <default>false</default>
+                <label>MONTSERAT</label>
+            </value>
+            <value>
+                <fullName>NETHERLANDS ANTILLES</fullName>
+                <default>false</default>
+                <label>NETHERLANDS ANTILLES</label>
+            </value>
+            <value>
+                <fullName>NICARAGUA</fullName>
+                <default>false</default>
+                <label>NICARAGUA</label>
+            </value>
+            <value>
+                <fullName>NORTH AMERICA       (ABD)</fullName>
+                <default>false</default>
+                <label>NORTH AMERICA       (ABD)</label>
+            </value>
+            <value>
+                <fullName>NORTH AMERICA ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>NORTH AMERICA ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>PANAMA</fullName>
+                <default>false</default>
+                <label>PANAMA</label>
+            </value>
+            <value>
+                <fullName>PARAGUAY</fullName>
+                <default>false</default>
+                <label>PARAGUAY</label>
+            </value>
+            <value>
+                <fullName>PERU</fullName>
+                <default>false</default>
+                <label>PERU</label>
+            </value>
+            <value>
+                <fullName>PHOTOVAC ONLY</fullName>
+                <default>false</default>
+                <label>PHOTOVAC ONLY</label>
+            </value>
+            <value>
+                <fullName>PUERTO RICO</fullName>
+                <default>false</default>
+                <label>PUERTO RICO</label>
+            </value>
+            <value>
+                <fullName>SAINT LUCIA</fullName>
+                <default>false</default>
+                <label>SAINT LUCIA</label>
+            </value>
+            <value>
+                <fullName>SO.GEORGIA AND SO.SANDWICH IS.</fullName>
+                <default>false</default>
+                <label>SO.GEORGIA AND SO.SANDWICH IS.</label>
+            </value>
+            <value>
+                <fullName>SOUTH AMERICA   (ABD)</fullName>
+                <default>false</default>
+                <label>SOUTH AMERICA   (ABD)</label>
+            </value>
+            <value>
+                <fullName>SOUTH AMERICA AJDUSTMENT</fullName>
+                <default>false</default>
+                <label>SOUTH AMERICA AJDUSTMENT</label>
+            </value>
+            <value>
+                <fullName>ST. KITTS AND NEVIS</fullName>
+                <default>false</default>
+                <label>ST. KITTS AND NEVIS</label>
+            </value>
+            <value>
+                <fullName>ST. VINCENT</fullName>
+                <default>false</default>
+                <label>ST. VINCENT</label>
+            </value>
+            <value>
+                <fullName>ST PIERRE &amp; MIQUELON(FRN)</fullName>
+                <default>false</default>
+                <label>ST PIERRE &amp; MIQUELON(FRN)</label>
+            </value>
+            <value>
+                <fullName>SURINAME</fullName>
+                <default>false</default>
+                <label>SURINAME</label>
+            </value>
+            <value>
+                <fullName>TRINIDAD &amp; TOBAGO</fullName>
+                <default>false</default>
+                <label>TRINIDAD &amp; TOBAGO</label>
+            </value>
+            <value>
+                <fullName>TURKS AND CAICOS ISLANDS</fullName>
+                <default>false</default>
+                <label>TURKS AND CAICOS ISLANDS</label>
+            </value>
+            <value>
+                <fullName>U.S. VIRGIN ISLANDS</fullName>
+                <default>false</default>
+                <label>U.S. VIRGIN ISLANDS</label>
+            </value>
+            <value>
+                <fullName>UNITED STATES</fullName>
+                <default>false</default>
+                <label>UNITED STATES</label>
+            </value>
+            <value>
+                <fullName>URUGUAY</fullName>
+                <default>false</default>
+                <label>URUGUAY</label>
+            </value>
+            <value>
+                <fullName>VENEZUELA</fullName>
+                <default>false</default>
+                <label>VENEZUELA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

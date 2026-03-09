@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Indirect_CRC__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is this the Distribution List that should receive notification from countries that are indirectly supported?
+NOTE: You can only have one Indirect CRC per Region/SubRegion</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Indirect CRC</label>
+    <type>Checkbox</type>
+</CustomField>

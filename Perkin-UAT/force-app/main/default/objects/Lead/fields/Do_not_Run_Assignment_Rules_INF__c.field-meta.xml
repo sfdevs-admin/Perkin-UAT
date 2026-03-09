@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_Run_Assignment_Rules_INF__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is used to ensure that assignment rules should not run for the leads which are check true</description>
+    <label>Do not Run Assignment Rules</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_type_ecommerce__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <label>Sub type</label>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ariba</fullName>
+                <default>false</default>
+                <label>Ariba</label>
+            </value>
+            <value>
+                <fullName>Automated invoices</fullName>
+                <default>false</default>
+                <label>Automated invoices</label>
+            </value>
+            <value>
+                <fullName>Automated orders</fullName>
+                <default>false</default>
+                <label>Automated orders</label>
+            </value>
+            <value>
+                <fullName>Basware</fullName>
+                <default>false</default>
+                <label>Basware</label>
+            </value>
+            <value>
+                <fullName>Chorus</fullName>
+                <default>false</default>
+                <label>Chorus</label>
+            </value>
+            <value>
+                <fullName>Coupa</fullName>
+                <default>false</default>
+                <label>Coupa</label>
+            </value>
+            <value>
+                <fullName>E-Catalog</fullName>
+                <default>false</default>
+                <label>E-Catalog</label>
+            </value>
+            <value>
+                <fullName>InfoCert</fullName>
+                <default>false</default>
+                <label>InfoCert</label>
+            </value>
+            <value>
+                <fullName>Level 2 Punchout</fullName>
+                <default>false</default>
+                <label>Level 2 Punchout</label>
+            </value>
+            <value>
+                <fullName>Live Availability</fullName>
+                <default>false</default>
+                <label>Live Availability</label>
+            </value>
+            <value>
+                <fullName>Live Price</fullName>
+                <default>false</default>
+                <label>Live Price</label>
+            </value>
+            <value>
+                <fullName>Price Impact Report</fullName>
+                <default>false</default>
+                <label>Price Impact Report</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Product Information</fullName>
+                <default>false</default>
+                <label>Product Information</label>
+            </value>
+            <value>
+                <fullName>Punchout</fullName>
+                <default>false</default>
+                <label>Punchout</label>
+            </value>
+            <value>
+                <fullName>Seres</fullName>
+                <default>false</default>
+                <label>Seres</label>
+            </value>
+            <value>
+                <fullName>Tungsten</fullName>
+                <default>false</default>
+                <label>Tungsten</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>true</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>ZeroComa</fullName>
+                <default>false</default>
+                <label>ZeroComa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

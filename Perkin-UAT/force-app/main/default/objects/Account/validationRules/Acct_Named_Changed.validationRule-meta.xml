@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acct_Named_Changed</fullName>
+    <active>true</active>
+    <description>Data Governance limits Users from Changing SFDC Account Names
+Requires an Acct Mod Req.</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(Name) 
+   ,PKI_SAP_Account_Group__c &lt;&gt; &#39;OMIT&#39;
+   ,NOT(ISBLANK(TEXT($User.PKICountry__c)))
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_ACCOUNT_005: You Must Submit an Account Modification Request to Change SFDC Account Names.</errorMessage>
+</ValidationRule>

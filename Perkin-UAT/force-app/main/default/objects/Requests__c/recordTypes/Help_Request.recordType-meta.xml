@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Help_Request</fullName>
+    <active>true</active>
+    <description>Use this record type to request for assistance</description>
+    <label>Help</label>
+    <picklistValues>
+        <picklist>Affected_PKI_Application__c</picklist>
+        <values>
+            <fullName>Lightning Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Visibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QuoteStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Cloud</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Salesforce CPQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ServiceMax</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Affected_Region_s__c</picklist>
+        <values>
+            <fullName>AMERICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority_Level__c</picklist>
+        <values>
+            <fullName>1 - Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Nice to Have</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Med</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Status__c</picklist>
+        <values>
+            <fullName>Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backlog</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Release</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reopened</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Testing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Support_Level__c</picklist>
+        <values>
+            <fullName>Level - 1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Level - 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

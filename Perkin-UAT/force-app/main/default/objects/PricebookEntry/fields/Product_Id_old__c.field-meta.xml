@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Id_old__c</fullName>
+    <description>Field to maintain the related Product SF ID that was removed as part of the Product de duplication process
+Exp Date: 31/12/2015</description>
+    <externalId>false</externalId>
+    <label>Product Id - old</label>
+    <length>20</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

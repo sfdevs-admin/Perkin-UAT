@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxBlockedType__c</fullName>
+    <description>/*Returns yy,yn,ny,nn
+yy: Credit Block and Delivery Block
+yn: Credit Block only
+ny: Delivery Block Only
+nn: No Blocks
+*/</description>
+    <externalId>false</externalId>
+    <formula>/*Returns yy,yn,ny,nn
+yy: Credit Block and Delivery Block
+yn: Credit Block only
+ny: Delivery Block Only
+nn: No Blocks
+*/
+
+/*If Credit status is Approved or blank, then it is Not Blocked by credit*/
+IF(Credit_Status_Name__c =&quot;Approved&quot; || ISBLANK(Credit_Status_Name__c),&quot;n&quot;,&quot;y&quot;)
+
+&amp; 
+/*If delivery block on Summary is blank AND total blocked items is zero, then Not blocked by Delivery */
+IF(ISBLANK(Delivery_Block__c) &amp;&amp; fxBlockedItems__c =0 ,&quot;n&quot;,&quot;y&quot;)</formula>
+    <inlineHelpText>yy: Credit Block and Delivery Block
+yn: Credit Block only
+ny: Delivery Block Only
+nn: No Blocks</inlineHelpText>
+    <label>fxBlockedType</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

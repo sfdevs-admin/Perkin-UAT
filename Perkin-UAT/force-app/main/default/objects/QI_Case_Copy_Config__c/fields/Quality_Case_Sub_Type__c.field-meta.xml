@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_Case_Sub_Type__c</fullName>
+    <label>Quality Case Sub Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Quality_Case_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TBD</fullName>
+                <default>false</default>
+                <label>TBD</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Onsite Service/Support</controllingFieldValue>
+            <controllingFieldValue>Packaging/Shipping</controllingFieldValue>
+            <controllingFieldValue>Software/Firmware</controllingFieldValue>
+            <controllingFieldValue>Product Safety</controllingFieldValue>
+            <controllingFieldValue>Product User Documentation</controllingFieldValue>
+            <controllingFieldValue>Training/Workmanship</controllingFieldValue>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <controllingFieldValue>PC/Controller</controllingFieldValue>
+            <controllingFieldValue>Plumbing – Pumps/Tubing</controllingFieldValue>
+            <controllingFieldValue>Robot</controllingFieldValue>
+            <controllingFieldValue>Wiring/Cabling</controllingFieldValue>
+            <controllingFieldValue>Misc. Hardware</controllingFieldValue>
+            <controllingFieldValue>PCB</controllingFieldValue>
+            <controllingFieldValue>Product Specs</controllingFieldValue>
+            <controllingFieldValue>Missing/Wrong Component</controllingFieldValue>
+            <controllingFieldValue>Duplicate</controllingFieldValue>
+            <controllingFieldValue>Caliper Operating Process</controllingFieldValue>
+            <controllingFieldValue>Mfg Procedures</controllingFieldValue>
+            <controllingFieldValue>Bill of Material</controllingFieldValue>
+            <controllingFieldValue>Camera</controllingFieldValue>
+            <controllingFieldValue>Chip Quality</controllingFieldValue>
+            <controllingFieldValue>Mfg Test</controllingFieldValue>
+            <controllingFieldValue>Mfg Tooling</controllingFieldValue>
+            <controllingFieldValue>Mis/Other</controllingFieldValue>
+            <controllingFieldValue>Optics</controllingFieldValue>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Product Enhancements</controllingFieldValue>
+            <controllingFieldValue>Vendor/Supplier Issue</controllingFieldValue>
+            <valueName>TBD</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

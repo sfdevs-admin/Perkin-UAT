@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Restrict_Perten_Rep_Edit_Closed</fullName>
+    <active>true</active>
+    <description>Perten Sales reps will not be able to set their Opportunities to Closed Won Stage, only designated team will.</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c, AND( 
+ISPICKVAL(PRIORVALUE(StageName),&quot;Closed Won&quot;), 
+OR($UserRole.Name = &quot;Perten US Account Manager&quot;, 
+$UserRole.Name = &quot;Perten US Regional Manager&quot;,$UserRole.Name = &quot;Perten CA Account Manager&quot;,$Profile.Name = &quot;Informatics Sales&quot;)))</errorConditionFormula>
+    <errorDisplayField>Likely_to_Purchase__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_019: You are not authorized to make changes to Closed Won Opportunities. Please refer to your manager or finance/order team for help.</errorMessage>
+</ValidationRule>

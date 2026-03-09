@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Version__c</fullName>
+    <label>Version</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reagents__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>2018</fullName>
+                <default>false</default>
+                <label>2018</label>
+            </value>
+            <value>
+                <fullName>Agent List Updater v1.1.1</fullName>
+                <default>false</default>
+                <label>Agent List Updater v1.1.1</label>
+            </value>
+            <value>
+                <fullName>Agent List Updater v1.2</fullName>
+                <default>false</default>
+                <label>Agent List Updater v1.2</label>
+            </value>
+            <value>
+                <fullName>Agent List Updater v1.2.1</fullName>
+                <default>false</default>
+                <label>Agent List Updater v1.2.1</label>
+            </value>
+            <value>
+                <fullName>Agent List Updater v2.0</fullName>
+                <default>false</default>
+                <label>Agent List Updater v2.0</label>
+            </value>
+            <value>
+                <fullName>v1.0.0.2</fullName>
+                <default>false</default>
+                <label>v1.0.0.2</label>
+            </value>
+            <value>
+                <fullName>v1.1.0.1</fullName>
+                <default>false</default>
+                <label>v1.1.0.1</label>
+            </value>
+            <value>
+                <fullName>v1.1.1.3</fullName>
+                <default>false</default>
+                <label>v1.1.1.3</label>
+            </value>
+            <value>
+                <fullName>v1.2.0.35</fullName>
+                <default>false</default>
+                <label>v1.2.0.35</label>
+            </value>
+            <value>
+                <fullName>v1.2.1.19</fullName>
+                <default>false</default>
+                <label>v1.2.1.19</label>
+            </value>
+            <value>
+                <fullName>v2.0.0.19</fullName>
+                <default>false</default>
+                <label>v2.0.0.19</label>
+            </value>
+            <value>
+                <fullName>v3.0</fullName>
+                <default>false</default>
+                <label>v3.0</label>
+            </value>
+            <value>
+                <fullName>v3.1</fullName>
+                <default>false</default>
+                <label>v3.1</label>
+            </value>
+            <value>
+                <fullName>v3.2</fullName>
+                <default>false</default>
+                <label>v3.2</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Admin Utility</controllingFieldValue>
+            <controllingFieldValue>Installer</controllingFieldValue>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>v1.0.0.2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Utility</controllingFieldValue>
+            <controllingFieldValue>Installer</controllingFieldValue>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>v1.1.0.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Utility</controllingFieldValue>
+            <controllingFieldValue>Installer</controllingFieldValue>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>v1.1.1.3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Utility</controllingFieldValue>
+            <controllingFieldValue>Installer</controllingFieldValue>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>v1.2.0.35</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Utility</controllingFieldValue>
+            <controllingFieldValue>Installer</controllingFieldValue>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>v1.2.1.19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Utility</controllingFieldValue>
+            <controllingFieldValue>Installer</controllingFieldValue>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>v2.0.0.19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent List Updater</controllingFieldValue>
+            <valueName>Agent List Updater v1.1.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent List Updater</controllingFieldValue>
+            <valueName>Agent List Updater v1.2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent List Updater</controllingFieldValue>
+            <valueName>Agent List Updater v1.2.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent List Updater</controllingFieldValue>
+            <valueName>Agent List Updater v2.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>v3.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>v3.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>v3.2</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

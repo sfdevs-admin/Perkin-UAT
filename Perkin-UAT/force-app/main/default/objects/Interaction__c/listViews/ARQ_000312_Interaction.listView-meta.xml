@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_000312_Interaction</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: EMEAI-UK,IE-APP-LDR-Leo McGuinness</label>
+    <queue>ARQ_000232</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

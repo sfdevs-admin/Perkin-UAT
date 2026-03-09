@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Natural_Person__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>for flagging via feed from EBX (MDM integration field) to indicate that the account is a person and not an entity, (currently used in Brazil) CMD-2062</description>
+    <inlineHelpText>indicate that the account is a person and not an entity, (currently used in Brazil)</inlineHelpText>
+    <label>Natural Person</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_editing_Historical_Month2</fullName>
+    <active>true</active>
+    <description>Do not let user edit historical months</description>
+    <errorConditionFormula>ISCHANGED(Month_2__c) &amp;&amp; 
+
+ADDMONTHS(fxFirstMonthInQtr__c ,1) &lt; (TODAY()-5)
+
+&amp;&amp; NOW() &gt; fxFlowEditTime__c</errorConditionFormula>
+    <errorDisplayField>Month_2__c</errorDisplayField>
+    <errorMessage>V.RULE_SIOP_ENTRY_002: You can not edit historical months past the cut off dates. Cancel and enter again.</errorMessage>
+</ValidationRule>

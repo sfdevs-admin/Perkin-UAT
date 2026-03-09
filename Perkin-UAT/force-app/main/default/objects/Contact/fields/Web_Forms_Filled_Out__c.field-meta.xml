@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web_Forms_Filled_Out__c</fullName>
+    <label>Web Forms Filled Out</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>FinchTV Download</fullName>
+                <default>false</default>
+                <label>FinchTV Download</label>
+            </value>
+            <value>
+                <fullName>iFinch Purchase Request from Geospiza</fullName>
+                <default>false</default>
+                <label>iFinch Purchase Request from Geospiza</label>
+            </value>
+            <value>
+                <fullName>iFinch Purchase Request from VizX</fullName>
+                <default>false</default>
+                <label>iFinch Purchase Request from VizX</label>
+            </value>
+            <value>
+                <fullName>iFinch Trial Request from FinchTV AR</fullName>
+                <default>false</default>
+                <label>iFinch Trial Request from FinchTV AR</label>
+            </value>
+            <value>
+                <fullName>iFinch Trial Request from Geospiza</fullName>
+                <default>false</default>
+                <label>iFinch Trial Request from Geospiza</label>
+            </value>
+            <value>
+                <fullName>iFinch Trial Request from VizX</fullName>
+                <default>false</default>
+                <label>iFinch Trial Request from VizX</label>
+            </value>
+            <value>
+                <fullName>Lead-to-Win</fullName>
+                <default>false</default>
+                <label>Lead-to-Win</label>
+            </value>
+            <value>
+                <fullName>Request More Information</fullName>
+                <default>false</default>
+                <label>Request More Information</label>
+            </value>
+            <value>
+                <fullName>Webinar Attended</fullName>
+                <default>false</default>
+                <label>Webinar Attended</label>
+            </value>
+            <value>
+                <fullName>Webinar Not Attended</fullName>
+                <default>false</default>
+                <label>Webinar Not Attended</label>
+            </value>
+            <value>
+                <fullName>White Paper -- Core Lab</fullName>
+                <default>false</default>
+                <label>White Paper -- Core Lab</label>
+            </value>
+            <value>
+                <fullName>White Paper -- Molecular Diagnostics</fullName>
+                <default>false</default>
+                <label>White Paper -- Molecular Diagnostics</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

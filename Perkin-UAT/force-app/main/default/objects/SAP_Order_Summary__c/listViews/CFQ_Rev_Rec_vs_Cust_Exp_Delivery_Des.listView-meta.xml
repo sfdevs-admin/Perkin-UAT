@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CFQ_Rev_Rec_vs_Cust_Exp_Delivery_Des</fullName>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Order_Path__c</columns>
+    <columns>Actual_CER_date__c</columns>
+    <columns>Inco_Terms_Description__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Order_Path__c</field>
+        <operation>equals</operation>
+        <value>Processing Hold,Order Clear,Mfg Date Committed,Ready for Shipping,Order Shipped</value>
+    </filters>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Sold_To_Address_Country__c</field>
+        <operation>equals</operation>
+        <value>CA,US</value>
+    </filters>
+    <filters>
+        <field>Order_Net_Value__c</field>
+        <operation>greaterThan</operation>
+        <value>15000</value>
+    </filters>
+    <filters>
+        <field>Source_Type__c</field>
+        <operation>equals</operation>
+        <value>ZGNA</value>
+    </filters>
+    <filters>
+        <field>fxRevRecDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>Inco_Terms_Description__c</field>
+        <operation>contains</operation>
+        <value>destination,delivery</value>
+    </filters>
+    <filters>
+        <field>Actual_CER_date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Sales_Rep_First_Name__c</field>
+        <operation>notContain</operation>
+        <value>Vetter,Kamath,Mercer,Dischiavi,Meindl,Moeller,VanDeusen,Hart,Buencamino,Corinn Rich</value>
+    </filters>
+    <filters>
+        <field>Opportunity__c</field>
+        <operation>notContain</operation>
+        <value>Backout,Back-out,Back out</value>
+    </filters>
+    <label>CFQ - Rev Rec vs Cust Exp Delivery  Des</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

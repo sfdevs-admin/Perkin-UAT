@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding__c</fullName>
+    <label>Funding</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Budgeted</fullName>
+                <default>true</default>
+                <label>Budgeted</label>
+            </value>
+            <value>
+                <fullName>Funded</fullName>
+                <default>false</default>
+                <label>Funded</label>
+            </value>
+            <value>
+                <fullName>CFI Application</fullName>
+                <default>false</default>
+                <label>CFI Application</label>
+            </value>
+            <value>
+                <fullName>CFI Awarded</fullName>
+                <default>false</default>
+                <label>CFI Awarded</label>
+            </value>
+            <value>
+                <fullName>CFI All Monies Received</fullName>
+                <default>false</default>
+                <label>CFI All Monies Received</label>
+            </value>
+            <value>
+                <fullName>Grant Application</fullName>
+                <default>false</default>
+                <label>Grant Application</label>
+            </value>
+            <value>
+                <fullName>Grant Awarded</fullName>
+                <default>false</default>
+                <label>Grant Awarded</label>
+            </value>
+            <value>
+                <fullName>NSERC Application</fullName>
+                <default>false</default>
+                <label>NSERC Application</label>
+            </value>
+            <value>
+                <fullName>NSERC Awarded</fullName>
+                <default>false</default>
+                <label>NSERC Awarded</label>
+            </value>
+            <value>
+                <fullName>Undetermined</fullName>
+                <default>false</default>
+                <label>Undetermined</label>
+            </value>
+            <value>
+                <fullName>Leasing</fullName>
+                <default>false</default>
+                <label>Leasing</label>
+            </value>
+            <value>
+                <fullName>Apply for Funding</fullName>
+                <default>false</default>
+                <label>Apply for Funding</label>
+            </value>
+            <value>
+                <fullName>Wells Fargo</fullName>
+                <default>false</default>
+                <label>Wells Fargo</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Applied</fullName>
+                <default>false</default>
+                <label>Applied</label>
+            </value>
+            <value>
+                <fullName>Quick Close</fullName>
+                <default>false</default>
+                <label>Quick Close</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

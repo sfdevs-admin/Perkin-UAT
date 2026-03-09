@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpamType__c</fullName>
+    <description>This will be either Blank, Spam Sender Email, or Spam Sender Domain</description>
+    <label>Spam Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sender Email</fullName>
+                <default>false</default>
+                <label>Sender Email</label>
+            </value>
+            <value>
+                <fullName>Subject</fullName>
+                <default>false</default>
+                <label>Subject</label>
+            </value>
+            <value>
+                <fullName>Subject and Email</fullName>
+                <default>false</default>
+                <label>Subject and Email</label>
+            </value>
+            <value>
+                <fullName>Remove Sender Email</fullName>
+                <default>false</default>
+                <label>Remove Sender Email</label>
+            </value>
+            <value>
+                <fullName>Remove Subject</fullName>
+                <default>false</default>
+                <label>Remove Subject</label>
+            </value>
+            <value>
+                <fullName>Remove Subject &amp; Email</fullName>
+                <default>false</default>
+                <label>Remove Subject &amp; Email</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

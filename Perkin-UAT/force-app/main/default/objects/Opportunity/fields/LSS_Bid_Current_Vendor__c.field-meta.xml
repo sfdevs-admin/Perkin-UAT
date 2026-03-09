@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSS_Bid_Current_Vendor__c</fullName>
+    <label>Current Vendor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Incumbent</fullName>
+                <default>false</default>
+                <label>Incumbent</label>
+            </value>
+            <value>
+                <fullName>New Program</fullName>
+                <default>false</default>
+                <label>New Program</label>
+            </value>
+            <value>
+                <fullName>Agilent</fullName>
+                <default>false</default>
+                <label>Agilent</label>
+            </value>
+            <value>
+                <fullName>Shimadzu</fullName>
+                <default>false</default>
+                <label>Shimadzu</label>
+            </value>
+            <value>
+                <fullName>Thermo</fullName>
+                <default>false</default>
+                <label>Thermo</label>
+            </value>
+            <value>
+                <fullName>VWR</fullName>
+                <default>false</default>
+                <label>VWR</label>
+            </value>
+            <value>
+                <fullName>Waters</fullName>
+                <default>false</default>
+                <label>Waters</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PKI</fullName>
+                <default>false</default>
+                <label>PKI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

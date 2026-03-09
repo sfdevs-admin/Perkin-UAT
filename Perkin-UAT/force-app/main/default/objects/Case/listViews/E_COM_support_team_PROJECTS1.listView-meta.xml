@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E_COM_support_team_PROJECTS1</fullName>
+    <columns>CASES.TYPE</columns>
+    <columns>INF_Case_Ref_Id__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>INF_Account_Country__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Sub_type_ecommerce__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Annual_Orders__c</columns>
+    <columns>Annual_Revenue__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Case_Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.E_commerce</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>Project</value>
+    </filters>
+    <label>E-COM support team PROJECTS MINE!!!</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000801</group>
+    </sharedTo>
+</ListView>

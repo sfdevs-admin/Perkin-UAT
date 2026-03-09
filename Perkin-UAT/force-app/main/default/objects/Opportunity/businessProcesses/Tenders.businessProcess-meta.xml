@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tenders</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Abandoned</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Participation Request Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Participation Request Guidance %26 Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Participation Request Initiation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Participation Request Pending Approval</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Participation Request Rejected</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 1 - Create%2FPlan</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 2 - Qualify</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 3 - Develop</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 4 - Prove</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 5 - Negotiation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 6 - Implement %28Closed%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Zero Stage</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

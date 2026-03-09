@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_All_New_Opportunities</fullName>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Date_Entered_SAP__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>SAP_Estimated_Delivery_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>LSS_Bid_Competitor__c</columns>
+    <columns>Competitor_Model__c</columns>
+    <columns>Competitor_Price__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>AES</value>
+    </filters>
+    <label>Copy of All New Opportunities</label>
+    <sharedTo>
+        <group>ARQ_000998</group>
+    </sharedTo>
+</ListView>

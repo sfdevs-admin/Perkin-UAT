@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_Working_Interactions1</fullName>
+    <columns>Country__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Email__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>State__c</columns>
+    <columns>PostalCode__c</columns>
+    <columns>SolutionAreaofInterest__c</columns>
+    <columns>ProductLine__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Working</value>
+    </filters>
+    <label>My Open &amp; Working Interactions</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Deactivate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>SFDC User account that cannot be deactivated can be marked as True. These SFDC User Accounts would be ignored during non-usage deactivation process</description>
+    <inlineHelpText>Please select if there is a reason this user can&#39;t be deactivated, and then proceed to Select &quot;reason for User Cannot be Deactivated.</inlineHelpText>
+    <label>Do Not Deactivate</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

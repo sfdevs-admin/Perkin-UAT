@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_Akron_Unassigned_Cases_Expanded1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Action__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>External_Email_Inbox__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notEqual</operation>
+        <value>TRASH CASES</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Merged,Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.PRIORITY</field>
+        <operation>notEqual</operation>
+        <value>Change Request</value>
+    </filters>
+    <label>SS Akron Unassigned Cases - Expanded</label>
+    <language>en_US</language>
+    <queue>ARQ_000550</queue>
+    <sharedTo>
+        <group>ARQ_000792</group>
+    </sharedTo>
+</ListView>

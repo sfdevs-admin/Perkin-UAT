@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Project_Owner__c</fullName>
+    <description>Requested by Paul Weber. We can try using global picklists to make the values dynamic.</description>
+    <inlineHelpText>A name of someone who will own the project when we turn it over from Edgar to whomever.</inlineHelpText>
+    <label>Initial Project Owner</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Anil</fullName>
+                <default>false</default>
+                <label>Anil</label>
+            </value>
+            <value>
+                <fullName>Doug</fullName>
+                <default>false</default>
+                <label>Doug</label>
+            </value>
+            <value>
+                <fullName>Enko</fullName>
+                <default>false</default>
+                <label>Enko</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

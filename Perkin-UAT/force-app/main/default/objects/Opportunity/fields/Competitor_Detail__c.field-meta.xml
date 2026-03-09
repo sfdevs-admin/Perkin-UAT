@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_Detail__c</fullName>
+    <description>Created by PwC as part of SC-540</description>
+    <label>Competitor Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Competitor_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Avantor</fullName>
+                <default>false</default>
+                <label>Avantor</label>
+            </value>
+            <value>
+                <fullName>Fisher Scientific</fullName>
+                <default>false</default>
+                <label>Fisher Scientific</label>
+            </value>
+            <value>
+                <fullName>Authorized Distributor / Reseller</fullName>
+                <default>false</default>
+                <label>Authorized Distributor / Reseller</label>
+            </value>
+            <value>
+                <fullName>PKI Agent / Reseller</fullName>
+                <default>false</default>
+                <label>PKI Agent / Reseller</label>
+            </value>
+            <value>
+                <fullName>Agilent</fullName>
+                <default>false</default>
+                <label>Agilent</label>
+            </value>
+            <value>
+                <fullName>Bruker</fullName>
+                <default>false</default>
+                <label>Bruker</label>
+            </value>
+            <value>
+                <fullName>Shimadzu</fullName>
+                <default>false</default>
+                <label>Shimadzu</label>
+            </value>
+            <value>
+                <fullName>Thermo</fullName>
+                <default>false</default>
+                <label>Thermo</label>
+            </value>
+            <value>
+                <fullName>Waters</fullName>
+                <default>false</default>
+                <label>Waters</label>
+            </value>
+            <value>
+                <fullName>Mettler</fullName>
+                <default>false</default>
+                <label>Mettler</label>
+            </value>
+            <value>
+                <fullName>Glass Expansion</fullName>
+                <default>false</default>
+                <label>Glass Expansion</label>
+            </value>
+            <value>
+                <fullName>Meinhard / Elemental Scientific</fullName>
+                <default>false</default>
+                <label>Meinhard / Elemental Scientific</label>
+            </value>
+            <value>
+                <fullName>Spectron</fullName>
+                <default>false</default>
+                <label>Spectron</label>
+            </value>
+            <value>
+                <fullName>Precision Glass</fullName>
+                <default>false</default>
+                <label>Precision Glass</label>
+            </value>
+            <value>
+                <fullName>Restek</fullName>
+                <default>false</default>
+                <label>Restek</label>
+            </value>
+            <value>
+                <fullName>Details will be filled in field “Closed Reason Detail”</fullName>
+                <default>false</default>
+                <label>Details will be filled in field “Closed Reason Detail”</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PKI Reseller / Distributor</controllingFieldValue>
+            <valueName>Avantor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI Reseller / Distributor</controllingFieldValue>
+            <valueName>Fisher Scientific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI Reseller / Distributor</controllingFieldValue>
+            <valueName>Authorized Distributor / Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PKI Reseller / Distributor</controllingFieldValue>
+            <valueName>PKI Agent / Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Main Competitor</controllingFieldValue>
+            <valueName>Agilent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Main Competitor</controllingFieldValue>
+            <valueName>Bruker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Main Competitor</controllingFieldValue>
+            <valueName>Shimadzu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Main Competitor</controllingFieldValue>
+            <valueName>Thermo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Main Competitor</controllingFieldValue>
+            <valueName>Waters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Main Competitor</controllingFieldValue>
+            <valueName>Mettler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party Consumables</controllingFieldValue>
+            <valueName>Glass Expansion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party Consumables</controllingFieldValue>
+            <valueName>Meinhard / Elemental Scientific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party Consumables</controllingFieldValue>
+            <valueName>Spectron</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party Consumables</controllingFieldValue>
+            <valueName>Precision Glass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3rd Party Consumables</controllingFieldValue>
+            <valueName>Restek</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Details will be filled in field “Closed Reason Detail”</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

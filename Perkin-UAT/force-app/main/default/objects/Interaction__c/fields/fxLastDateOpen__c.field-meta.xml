@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxLastDateOpen__c</fullName>
+    <description>This field shows when interaction was last opened using L.Flow 2502. Source :INC0372936</description>
+    <inlineHelpText>This field shows when interaction was last opened.</inlineHelpText>
+    <label>fxLastDateOpen</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

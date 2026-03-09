@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Partner__c</fullName>
+    <description>This pick list helps to associate opportunities to influencing partners.</description>
+    <label>Channel Partner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accenture</fullName>
+                <default>false</default>
+                <label>Accenture</label>
+            </value>
+            <value>
+                <fullName>Deloitte</fullName>
+                <default>false</default>
+                <label>Deloitte</label>
+            </value>
+            <value>
+                <fullName>TCS (Tata)</fullName>
+                <default>false</default>
+                <label>TCS (Tata)</label>
+            </value>
+            <value>
+                <fullName>Cognizant</fullName>
+                <default>false</default>
+                <label>Cognizant</label>
+            </value>
+            <value>
+                <fullName>Intertek</fullName>
+                <default>false</default>
+                <label>Intertek</label>
+            </value>
+            <value>
+                <fullName>Neta</fullName>
+                <default>false</default>
+                <label>Neta</label>
+            </value>
+            <value>
+                <fullName>SGS</fullName>
+                <default>false</default>
+                <label>SGS</label>
+            </value>
+            <value>
+                <fullName>Charles River</fullName>
+                <default>false</default>
+                <label>Charles River</label>
+            </value>
+            <value>
+                <fullName>VWR</fullName>
+                <default>false</default>
+                <label>VWR</label>
+            </value>
+            <value>
+                <fullName>Eurofins</fullName>
+                <default>false</default>
+                <label>Eurofins</label>
+            </value>
+            <value>
+                <fullName>Bureau Veritas</fullName>
+                <default>false</default>
+                <label>Bureau Veritas</label>
+            </value>
+            <value>
+                <fullName>PPD</fullName>
+                <default>false</default>
+                <label>PPD</label>
+            </value>
+            <value>
+                <fullName>Liquidity Services</fullName>
+                <default>false</default>
+                <label>Liquidity Services</label>
+            </value>
+            <value>
+                <fullName>JLL</fullName>
+                <default>false</default>
+                <label>JLL</label>
+            </value>
+            <value>
+                <fullName>CBRE</fullName>
+                <default>false</default>
+                <label>CBRE</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Destination_Country__c</fullName>
+    <label>Destination Country</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CN</fullName>
+                <default>false</default>
+                <label>CN</label>
+            </value>
+            <value>
+                <fullName>HK</fullName>
+                <default>false</default>
+                <label>HK</label>
+            </value>
+            <value>
+                <fullName>TW</fullName>
+                <default>false</default>
+                <label>TW</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

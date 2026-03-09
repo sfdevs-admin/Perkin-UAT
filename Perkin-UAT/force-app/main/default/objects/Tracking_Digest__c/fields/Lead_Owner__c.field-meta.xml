@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Owner__c</fullName>
+    <description>The Owner Full Name of the Lead
+(INC0300507)As per the Vibha Bhatia&#39;s request, we have changed the &quot;Lead Owner&quot; field label to &quot;Lead:Sales Rep&quot;</description>
+    <externalId>false</externalId>
+    <label>Lead:Sales Rep</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

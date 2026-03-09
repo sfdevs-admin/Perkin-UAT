@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Taxonomy_fields_required</fullName>
+    <active>true</active>
+    <description>label change to prefix INF_ 2022.01.12</description>
+    <errorConditionFormula>AND(
+$Permission.BD_Bypass_Automation != TRUE,
+CONTAINS(RecordType.Name,&#39;Informatics&#39;),OR(AND(ISNEW(),NOT(CONTAINS(TEXT(Type),&#39;Renewal&#39;))),ISCHANGED(StageName)),
+
+OR(
+CONTAINS(TEXT(StageName),&#39;Stage 2&#39;),
+CONTAINS(TEXT(StageName),&#39;Stage 3&#39;),
+CONTAINS(TEXT(StageName),&#39;Stage 4&#39;),
+CONTAINS(TEXT(StageName),&#39;Stage 5&#39;),
+CONTAINS(TEXT(StageName),&#39;Stage 6&#39;),
+CONTAINS(TEXT(StageName),&#39;Closed Won&#39;)
+),
+OR(
+ISPICKVAL(Application_Segment__c,&#39;&#39;),
+ISPICKVAL(Application_Market__c,&#39;&#39;),
+ISPICKVAL(Application__c,&#39;&#39;)
+)
+)</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_061: Please enter Application, Application Market, Application Segment for Stage - 2 and higher opportunities</errorMessage>
+</ValidationRule>

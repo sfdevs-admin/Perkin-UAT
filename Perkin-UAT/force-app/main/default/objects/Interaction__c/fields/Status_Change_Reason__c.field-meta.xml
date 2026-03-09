@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Change_Reason__c</fullName>
+    <label>Status Change Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>No Budget/Funding</fullName>
+                <default>false</default>
+                <label>No Budget/Funding</label>
+            </value>
+            <value>
+                <fullName>No Purchase Role</fullName>
+                <default>false</default>
+                <label>No Purchase Role</label>
+            </value>
+            <value>
+                <fullName>Wrong Time</fullName>
+                <default>false</default>
+                <label>Wrong Time</label>
+            </value>
+            <value>
+                <fullName>No Relevant Need</fullName>
+                <default>false</default>
+                <label>No Relevant Need</label>
+            </value>
+            <value>
+                <fullName>No Interest</fullName>
+                <default>false</default>
+                <label>No Interest</label>
+            </value>
+            <value>
+                <fullName>Bad Contact Details</fullName>
+                <default>false</default>
+                <label>Bad Contact Details</label>
+            </value>
+            <value>
+                <fullName>PKI Internal</fullName>
+                <default>false</default>
+                <label>PKI Internal</label>
+            </value>
+            <value>
+                <fullName>Duplicate opportunity</fullName>
+                <default>false</default>
+                <label>Duplicate opportunity</label>
+            </value>
+            <value>
+                <fullName>Technical Support</fullName>
+                <default>false</default>
+                <label>Technical Support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

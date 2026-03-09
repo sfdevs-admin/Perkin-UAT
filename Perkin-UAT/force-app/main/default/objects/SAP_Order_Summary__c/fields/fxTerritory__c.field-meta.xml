@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxTerritory__c</fullName>
+    <description>this will pull in the territory name from the Opportunity</description>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Territory2.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Territory Name From Opportunity</inlineHelpText>
+    <label>Territory</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

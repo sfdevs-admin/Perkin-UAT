@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Pause_All_Flows__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checking this box pauses all record-triggered flows until unchecked</description>
+    <label>Pause All Flows</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA_Inside_Sales_Lead_QualQue_EMEADASv1</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>GROW__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>BE__c</columns>
+    <columns>Product_Number__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.EMAIL</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Standard_Default</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>OSAI,OSAM,OSC,OSG,OSIS,OSIT,OSR,OSRL,OSSS</value>
+    </filters>
+    <label>NA Inside Sales OneSource EMEAv1</label>
+    <queue>ARQ_000645</queue>
+</ListView>

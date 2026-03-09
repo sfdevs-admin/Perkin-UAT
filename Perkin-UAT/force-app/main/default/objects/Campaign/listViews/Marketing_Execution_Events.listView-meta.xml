@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Execution_Events</fullName>
+    <booleanFilter>1 AND 2 AND (3 AND 4)</booleanFilter>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>CAMPAIGN.NUM_RESPONSES</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>AMOUNT_WON</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <columns>CAMPAIGN.NUM_CONVERTED_LEADS</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2012</value>
+    </filters>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>Americas</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>EPKI,WKSP,WS,TS,AD</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>ASLS,ENV</value>
+    </filters>
+    <label>eh-industrial-glo-q116-labx</label>
+    <language>en_US</language>
+</ListView>

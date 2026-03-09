@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SOJ_Key__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Combination of the Customer Number or Hierarchy Number, Sales Org, and Partner Type</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Combination of the Customer Number or Hierarchy Number, Sales Org, and Partner Type</inlineHelpText>
+    <label>SOJ Key</label>
+    <length>60</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

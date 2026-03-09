@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email2Case_Block_senders</fullName>
+    <active>false</active>
+    <description>This is replaced by marking a case as SPAM+Sender ad it will auto add them to the SPAM BLOCKLIST object as a new record entry.  
+BD 2024.03.05 deactivated</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+OR(
+SuppliedEmail=&#39;accounts.payable@hbfuller.com&#39;,
+SuppliedEmail=&#39;hrsharedservices@perkinelmer.com&#39;,
+SuppliedEmail=&#39;ulsservice@thermofisher.com&#39;,
+SuppliedEmail=&#39;postmaster@hscpoly.com&#39;,
+SuppliedEmail=&#39;invoice@nykode.com&#39;,
+SuppliedEmail=&#39;ppchelpdeskuk@exxonmobil.com&#39;,
+SuppliedEmail=&#39;postmaster@sanofi-aventis.com&#39;,
+SuppliedEmail=&#39;conferencia@academicosenlinea.com&#39;,
+SuppliedEmail=&#39;leads@proyecto-gerencial.com&#39;,
+SuppliedEmail=&#39;informacion@marketingmx50.com&#39;,
+SuppliedEmail=&#39;info@formacionmx.com&#39;,
+SuppliedEmail=&#39;contacto@technologymex.com&#39;,
+SuppliedEmail=&#39;contacto@rhalmomento.com&#39;,
+SuppliedEmail=&#39;seguimiento@talento-personalrrhh.com&#39;,
+SuppliedEmail=&#39;clientes@reconocimientointernacional.com&#39;,
+SuppliedEmail=&#39;promociones@capacitaciondemexico.com&#39;,
+SuppliedEmail=&#39;talento@personal-potencial.com&#39;,
+SuppliedEmail=&#39;info@serviciosmex.com&#39;,
+SuppliedEmail=&#39;mariapaula@minder-th.com.br&#39;,
+SuppliedEmail=&#39;seguimiento@talento-personalrrhh.com&#39;,
+SuppliedEmail=&#39;buy.uk@exxonmobil.com&#39;,
+SuppliedEmail=&#39;proc.portal.eame@exxonmobile.com&#39;
+))</errorConditionFormula>
+    <errorMessage>V.RULE_CASE_042: You cannot create a case if this address is causing recurring Cases.</errorMessage>
+</ValidationRule>

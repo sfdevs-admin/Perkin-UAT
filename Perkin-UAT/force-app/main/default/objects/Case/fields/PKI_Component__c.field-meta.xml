@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Component__c</fullName>
+    <label>PKI Component</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reagents__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0ther</fullName>
+                <default>false</default>
+                <label>0ther</label>
+            </value>
+            <value>
+                <fullName>Admin Utility</fullName>
+                <default>false</default>
+                <label>Admin Utility</label>
+            </value>
+            <value>
+                <fullName>Agent List Updater</fullName>
+                <default>false</default>
+                <label>Agent List Updater</label>
+            </value>
+            <value>
+                <fullName>Agent Management</fullName>
+                <default>false</default>
+                <label>Agent Management</label>
+            </value>
+            <value>
+                <fullName>Analysis</fullName>
+                <default>false</default>
+                <label>Analysis</label>
+            </value>
+            <value>
+                <fullName>Camera</fullName>
+                <default>false</default>
+                <label>Camera</label>
+            </value>
+            <value>
+                <fullName>Chamber</fullName>
+                <default>false</default>
+                <label>Chamber</label>
+            </value>
+            <value>
+                <fullName>Computed Datasets</fullName>
+                <default>false</default>
+                <label>Computed Datasets</label>
+            </value>
+            <value>
+                <fullName>Connectors</fullName>
+                <default>false</default>
+                <label>Connectors</label>
+            </value>
+            <value>
+                <fullName>Database</fullName>
+                <default>false</default>
+                <label>Database</label>
+            </value>
+            <value>
+                <fullName>Diagnostics</fullName>
+                <default>false</default>
+                <label>Diagnostics</label>
+            </value>
+            <value>
+                <fullName>DICOM</fullName>
+                <default>false</default>
+                <label>DICOM</label>
+            </value>
+            <value>
+                <fullName>Experiment</fullName>
+                <default>false</default>
+                <label>Experiment</label>
+            </value>
+            <value>
+                <fullName>Filter Wheel</fullName>
+                <default>false</default>
+                <label>Filter Wheel</label>
+            </value>
+            <value>
+                <fullName>Hardware Other</fullName>
+                <default>false</default>
+                <label>Hardware Other</label>
+            </value>
+            <value>
+                <fullName>Host PC</fullName>
+                <default>false</default>
+                <label>Host PC</label>
+            </value>
+            <value>
+                <fullName>I/O Board</fullName>
+                <default>false</default>
+                <label>I/O Board</label>
+            </value>
+            <value>
+                <fullName>Image Export</fullName>
+                <default>false</default>
+                <label>Image Export</label>
+            </value>
+            <value>
+                <fullName>Installer</fullName>
+                <default>false</default>
+                <label>Installer</label>
+            </value>
+            <value>
+                <fullName>Lasers</fullName>
+                <default>false</default>
+                <label>Lasers</label>
+            </value>
+            <value>
+                <fullName>LED&#39;s</fullName>
+                <default>false</default>
+                <label>LED&#39;s</label>
+            </value>
+            <value>
+                <fullName>Mouse Cassette</fullName>
+                <default>false</default>
+                <label>Mouse Cassette</label>
+            </value>
+            <value>
+                <fullName>Movie Maker</fullName>
+                <default>false</default>
+                <label>Movie Maker</label>
+            </value>
+            <value>
+                <fullName>Pump</fullName>
+                <default>false</default>
+                <label>Pump</label>
+            </value>
+            <value>
+                <fullName>Recon Queue Manager</fullName>
+                <default>false</default>
+                <label>Recon Queue Manager</label>
+            </value>
+            <value>
+                <fullName>Recon Queue Service</fullName>
+                <default>false</default>
+                <label>Recon Queue Service</label>
+            </value>
+            <value>
+                <fullName>Scan</fullName>
+                <default>false</default>
+                <label>Scan</label>
+            </value>
+            <value>
+                <fullName>Scan Export</fullName>
+                <default>false</default>
+                <label>Scan Export</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Study Import/Export</fullName>
+                <default>false</default>
+                <label>Study Import/Export</label>
+            </value>
+            <value>
+                <fullName>Ultrasound sensor</fullName>
+                <default>false</default>
+                <label>Ultrasound sensor</label>
+            </value>
+            <value>
+                <fullName>XY Stages</fullName>
+                <default>false</default>
+                <label>XY Stages</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Admin Utility</controllingFieldValue>
+            <valueName>Admin Utility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent List Updater</controllingFieldValue>
+            <valueName>Agent List Updater</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Installer</controllingFieldValue>
+            <valueName>Installer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>0ther</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Agent Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Computed Datasets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Database</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>DICOM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Experiment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Image Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Movie Maker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Recon Queue Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Recon Queue Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Scan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Scan Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TrueQuant 3D Software</controllingFieldValue>
+            <valueName>Study Import/Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>Camera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>Connectors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>Filter Wheel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>Hardware Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>Host PC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>I/O Board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>Lasers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>LED&#39;s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>Mouse Cassette</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>Ultrasound sensor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 2500-LX</controllingFieldValue>
+            <controllingFieldValue>FMT 1500</controllingFieldValue>
+            <controllingFieldValue>FMT 2500</controllingFieldValue>
+            <valueName>XY Stages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>Chamber</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>Pump</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMT 1.0</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

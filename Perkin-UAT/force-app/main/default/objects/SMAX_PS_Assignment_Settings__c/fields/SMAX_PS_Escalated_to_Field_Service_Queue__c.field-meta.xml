@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Escalated_to_Field_Service_Queue__c</fullName>
+    <description>When a Remote Work Order is converted to a Field Service Work Order change the Owner of the WO to this Queue</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When a Remote Work Order is converted to a Field Service Work Order change the Owner of the WO to this Queue</inlineHelpText>
+    <label>Escalated to Field Service Queue</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

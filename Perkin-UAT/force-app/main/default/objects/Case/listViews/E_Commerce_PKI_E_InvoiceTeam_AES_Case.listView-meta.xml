@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E_Commerce_PKI_E_InvoiceTeam_AES_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>E-Commerce PKI E-InvoiceTeam (AES)</label>
+    <queue>E_Commerce_PKI_E_InvoiceTeam_AES</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

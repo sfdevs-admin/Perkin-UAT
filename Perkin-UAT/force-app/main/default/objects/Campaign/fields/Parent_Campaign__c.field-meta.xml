@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Campaign__c</fullName>
+    <description>OLD-Picklist version of lookup standard field.  DO NOT ADD NEW VALUES.
+ This links multiple campaign components to one master umbrella campaign</description>
+    <inlineHelpText>OLD - Please Create Campaign and link to it via Lookup in Field at top of page.</inlineHelpText>
+    <label>OLD-Parent Campaign</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PerkinElmer LAS Website</fullName>
+                <default>false</default>
+                <label>PerkinElmer LAS Website</label>
+            </value>
+            <value>
+                <fullName>AlphaScreen Phosphosensor Launch</fullName>
+                <default>false</default>
+                <label>AlphaScreen Phosphosensor Launch</label>
+            </value>
+            <value>
+                <fullName>ASLS-ADV-Q3-11-IRPharma-EU</fullName>
+                <default>false</default>
+                <label>ASLS-ADV-Q3-11-IRPharma-EU</label>
+            </value>
+            <value>
+                <fullName>ASLS-E3RD/EPKI-Q4-11-Compliance and IRPharma-GLO</fullName>
+                <default>false</default>
+                <label>ASLS-E3RD/EPKI-Q4-11-Compliance and IRPharma-GLO</label>
+            </value>
+            <value>
+                <fullName>ASLS-EPKI-Q2-12-AMS-SPP-GLO</fullName>
+                <default>false</default>
+                <label>ASLS-EPKI-Q2-12-AMS-SPP-GLO</label>
+            </value>
+            <value>
+                <fullName>ASLS-EPKI-Q3-11-Gateway-Projects-GLO</fullName>
+                <default>false</default>
+                <label>ASLS-EPKI-Q3-11-Gateway-Projects-GLO</label>
+            </value>
+            <value>
+                <fullName>ASLS-EPKI-Q4-11-EnviroCampaign-EU</fullName>
+                <default>false</default>
+                <label>ASLS-EPKI-Q4-11-EnviroCampaign-EU</label>
+            </value>
+            <value>
+                <fullName>ASLS-GEN-Q1-Q2-Q3-Q4-Frontier-EU</fullName>
+                <default>false</default>
+                <label>ASLS-GEN-Q1-Q2-Q3-Q4-Frontier-EU</label>
+            </value>
+            <value>
+                <fullName>ASLS-GEN-Q1-Q2-Q3-Q4-SpectrumTwo-EU</fullName>
+                <default>false</default>
+                <label>ASLS-GEN-Q1-Q2-Q3-Q4-SpectrumTwo-EU</label>
+            </value>
+            <value>
+                <fullName>ASLS-GEN-Q4-11-Food-EU</fullName>
+                <default>false</default>
+                <label>ASLS-GEN-Q4-11-Food-EU</label>
+            </value>
+            <value>
+                <fullName>ASLS-MO-Q2-11-FlexarSQ-MASTER-EU</fullName>
+                <default>false</default>
+                <label>ASLS-MO-Q2-11-FlexarSQ-MASTER-EU</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q1-12-MSTOUR-UK</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q1-12-MSTOUR-UK</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q2-11-IRLaunch-ES</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q2-11-IRLaunch-ES</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q2-11-IRLaunch-IT</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q2-11-IRLaunch-IT</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q2-11-IR-seminar-tour--FR</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q2-11-IR-seminar-tour--FR</label>
+            </value>
+            <value>
+                <fullName>ASLS-WKSP-Q3-Q4-12-WestInorganic-NA</fullName>
+                <default>false</default>
+                <label>ASLS-WKSP-Q3-Q4-12-WestInorganic-NA</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q3-11-AnorganicaNORTH-DACH</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q3-11-AnorganicaNORTH-DACH</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q3-Q4-11-Inorganic-Launch-Tour-FR</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q3-Q4-11-Inorganic-Launch-Tour-FR</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q4-11-AnorganicaSOUTH-DACH</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q4-11-AnorganicaSOUTH-DACH</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q4-11-InorganicLaunchTour-MASTER-BE</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q4-11-InorganicLaunchTour-MASTER-BE</label>
+            </value>
+            <value>
+                <fullName>ASLS-SEM-Q4-11-InorganicLaunchTour-MASTER-NL</fullName>
+                <default>false</default>
+                <label>ASLS-SEM-Q4-11-InorganicLaunchTour-MASTER-NL</label>
+            </value>
+            <value>
+                <fullName>ASLS-TS-Q2-11-HPLC-Budapest</fullName>
+                <default>false</default>
+                <label>ASLS-TS-Q2-11-HPLC-Budapest</label>
+            </value>
+            <value>
+                <fullName>ASLS-WC-12-LabX-Webinars-NA</fullName>
+                <default>false</default>
+                <label>ASLS-WC-12-LabX-Webinars-NA</label>
+            </value>
+            <value>
+                <fullName>ASLS-WKSP-10-RegionalEvents-NA</fullName>
+                <default>false</default>
+                <label>ASLS-WKSP-10-RegionalEvents-NA</label>
+            </value>
+            <value>
+                <fullName>ASLS-WKSP-2012 IN Tour-NA</fullName>
+                <default>false</default>
+                <label>ASLS-WKSP-2012 IN Tour-NA</label>
+            </value>
+            <value>
+                <fullName>ASLS-WKSP-Q3-11-WestFallWksps-US</fullName>
+                <default>false</default>
+                <label>ASLS-WKSP-Q3-11-WestFallWksps-US</label>
+            </value>
+            <value>
+                <fullName>BIO_LR_Vendor_Groups</fullName>
+                <default>false</default>
+                <label>BIO_LR_Vendor_Groups</label>
+            </value>
+            <value>
+                <fullName>BIO_Q111_BioCompare</fullName>
+                <default>false</default>
+                <label>BIO_Q111_BioCompare</label>
+            </value>
+            <value>
+                <fullName>BIO_TM_VoiceCentric_GLO</fullName>
+                <default>false</default>
+                <label>BIO_TM_VoiceCentric_GLO</label>
+            </value>
+            <value>
+                <fullName>BIO_TS_Q111_SBS_POSTERS_US</fullName>
+                <default>false</default>
+                <label>BIO_TS_Q111_SBS_POSTERS_US</label>
+            </value>
+            <value>
+                <fullName>BIO_WS_Q111_ADS_MLD_LabelFree_GLO</fullName>
+                <default>false</default>
+                <label>BIO_WS_Q111_ADS_MLD_LabelFree_GLO</label>
+            </value>
+            <value>
+                <fullName>BIO-Biotherapuetics-Q3-11-GLO</fullName>
+                <default>false</default>
+                <label>BIO-Biotherapuetics-Q3-11-GLO</label>
+            </value>
+            <value>
+                <fullName>BIO-EPKI-FAPSurvey-GLO</fullName>
+                <default>false</default>
+                <label>BIO-EPKI-FAPSurvey-GLO</label>
+            </value>
+            <value>
+                <fullName>BIO-GEN-Q4-10-AcademicALH-EU</fullName>
+                <default>false</default>
+                <label>BIO-GEN-Q4-10-AcademicALH-EU</label>
+            </value>
+            <value>
+                <fullName>BIO-GEN-Q4-10-AcademicALH-US</fullName>
+                <default>false</default>
+                <label>BIO-GEN-Q4-10-AcademicALH-US</label>
+            </value>
+            <value>
+                <fullName>BIO-LR-Q4-10-ReferFriend-GLO</fullName>
+                <default>false</default>
+                <label>BIO-LR-Q4-10-ReferFriend-GLO</label>
+            </value>
+            <value>
+                <fullName>Bio-MolecularGroove-11</fullName>
+                <default>false</default>
+                <label>Bio-MolecularGroove-11</label>
+            </value>
+            <value>
+                <fullName>BIO-Q211-Science-Cellular-Webinar</fullName>
+                <default>false</default>
+                <label>BIO-Q211-Science-Cellular-Webinar</label>
+            </value>
+            <value>
+                <fullName>Biotech Vendor Shows for Bio-discovery</fullName>
+                <default>false</default>
+                <label>Biotech Vendor Shows for Bio-discovery</label>
+            </value>
+            <value>
+                <fullName>BIO-TM-H2-11-MMD Celebrate Save-GLO</fullName>
+                <default>false</default>
+                <label>BIO-TM-H2-11-MMD Celebrate Save-GLO</label>
+            </value>
+            <value>
+                <fullName>BIO-TS-Q1-11-HCA 2011-US</fullName>
+                <default>false</default>
+                <label>BIO-TS-Q1-11-HCA 2011-US</label>
+            </value>
+            <value>
+                <fullName>BIO-TS-Q2-11-EMIM-NL</fullName>
+                <default>false</default>
+                <label>BIO-TS-Q2-11-EMIM-NL</label>
+            </value>
+            <value>
+                <fullName>BIO-TS-Q3-11-MIPTEC-CH</fullName>
+                <default>false</default>
+                <label>BIO-TS-Q3-11-MIPTEC-CH</label>
+            </value>
+            <value>
+                <fullName>BIO-TS-Q4-10-ASCB2010-US</fullName>
+                <default>false</default>
+                <label>BIO-TS-Q4-10-ASCB2010-US</label>
+            </value>
+            <value>
+                <fullName>BIO-TS-Q4-10-ASCB-Booth-US</fullName>
+                <default>false</default>
+                <label>BIO-TS-Q4-10-ASCB-Booth-US</label>
+            </value>
+            <value>
+                <fullName>BIO-TS-Q4-10-ASCB-Workshop-US</fullName>
+                <default>false</default>
+                <label>BIO-TS-Q4-10-ASCB-Workshop-US</label>
+            </value>
+            <value>
+                <fullName>BIO-TS-Q4-10-SFN-Booth-US</fullName>
+                <default>false</default>
+                <label>BIO-TS-Q4-10-SFN-Booth-US</label>
+            </value>
+            <value>
+                <fullName>BIO-TS-Q4-SFN-2010-10</fullName>
+                <default>false</default>
+                <label>BIO-TS-Q4-SFN-2010-10</label>
+            </value>
+            <value>
+                <fullName>BIO-UG-Q3-10-LSC User Groups-EU</fullName>
+                <default>false</default>
+                <label>BIO-UG-Q3-10-LSC User Groups-EU</label>
+            </value>
+            <value>
+                <fullName>BIO-WCA-2010-2011-RADDetection</fullName>
+                <default>false</default>
+                <label>BIO-WCA-2010-2011-RADDetection</label>
+            </value>
+            <value>
+                <fullName>BIO-WKSP-Q4-10-SFN-OpenHouse-US</fullName>
+                <default>false</default>
+                <label>BIO-WKSP-Q4-10-SFN-OpenHouse-US</label>
+            </value>
+            <value>
+                <fullName>EB-BIO_Q3_Q4-All Biointelli_Campaigns-GLO</fullName>
+                <default>false</default>
+                <label>EB-BIO_Q3_Q4-All Biointelli_Campaigns-GLO</label>
+            </value>
+            <value>
+                <fullName>EB-BIO-Q2_Q4_Stimulus Marketing Campaigns - US</fullName>
+                <default>false</default>
+                <label>EB-BIO-Q2_Q4_Stimulus Marketing Campaigns - US</label>
+            </value>
+            <value>
+                <fullName>EB Q1 10 NexION300 EU</fullName>
+                <default>false</default>
+                <label>EB Q1 10 NexION300 EU</label>
+            </value>
+            <value>
+                <fullName>EB-Q4-07-AS-L25eCommerce-US</fullName>
+                <default>false</default>
+                <label>EB-Q4-07-AS-L25eCommerce-US</label>
+            </value>
+            <value>
+                <fullName>EB-Q4-08-ePromo Campaign-FR</fullName>
+                <default>false</default>
+                <label>EB-Q4-08-ePromo Campaign-FR</label>
+            </value>
+            <value>
+                <fullName>EB Q4 08 Varian Kangaroo attack EU</fullName>
+                <default>false</default>
+                <label>EB Q4 08 Varian Kangaroo attack EU</label>
+            </value>
+            <value>
+                <fullName>Flexar HPLC</fullName>
+                <default>false</default>
+                <label>Flexar HPLC</label>
+            </value>
+            <value>
+                <fullName>Forensics Web Casts 2005</fullName>
+                <default>false</default>
+                <label>Forensics Web Casts 2005</label>
+            </value>
+            <value>
+                <fullName>GC Know How Now Newsletter</fullName>
+                <default>false</default>
+                <label>GC Know How Now Newsletter</label>
+            </value>
+            <value>
+                <fullName>GC Trade-In 2005-2006</fullName>
+                <default>false</default>
+                <label>GC Trade-In 2005-2006</label>
+            </value>
+            <value>
+                <fullName>GEN-Q3-Q4-10-NexIONEnviro-EU</fullName>
+                <default>false</default>
+                <label>GEN-Q3-Q4-10-NexIONEnviro-EU</label>
+            </value>
+            <value>
+                <fullName>GIGA_Series_2011</fullName>
+                <default>false</default>
+                <label>GIGA_Series_2011</label>
+            </value>
+            <value>
+                <fullName>Gulf Analytical Summit (GAS) &#39;06</fullName>
+                <default>false</default>
+                <label>Gulf Analytical Summit (GAS) &#39;06</label>
+            </value>
+            <value>
+                <fullName>Gulf Coast Conference (GCC) &#39;06</fullName>
+                <default>false</default>
+                <label>Gulf Coast Conference (GCC) &#39;06</label>
+            </value>
+            <value>
+                <fullName>Gulf Coast Conference 2010</fullName>
+                <default>false</default>
+                <label>Gulf Coast Conference 2010</label>
+            </value>
+            <value>
+                <fullName>HPLC 2010</fullName>
+                <default>false</default>
+                <label>HPLC 2010</label>
+            </value>
+            <value>
+                <fullName>Jade DSC Industry Trade-In Promotion</fullName>
+                <default>false</default>
+                <label>Jade DSC Industry Trade-In Promotion</label>
+            </value>
+            <value>
+                <fullName>LabAutomation 06</fullName>
+                <default>false</default>
+                <label>LabAutomation 06</label>
+            </value>
+            <value>
+                <fullName>LABWORKS 06 Webcasts</fullName>
+                <default>false</default>
+                <label>LABWORKS 06 Webcasts</label>
+            </value>
+            <value>
+                <fullName>LSA Multichannel Trade-in Camapign</fullName>
+                <default>false</default>
+                <label>LSA Multichannel Trade-in Camapign</label>
+            </value>
+            <value>
+                <fullName>LST-MO-Q3-12-TSANEWCUST-US</fullName>
+                <default>false</default>
+                <label>LST-MO-Q3-12-TSANEWCUST-US</label>
+            </value>
+            <value>
+                <fullName>LST-WKSP-2012-RGHSWC-GLO</fullName>
+                <default>false</default>
+                <label>LST-WKSP-2012-RGHSWC-GLO</label>
+            </value>
+            <value>
+                <fullName>MM FM LRIG 2007</fullName>
+                <default>false</default>
+                <label>MM FM LRIG 2007</label>
+            </value>
+            <value>
+                <fullName>MM FM MW Academic Technology seminars</fullName>
+                <default>false</default>
+                <label>MM FM MW Academic Technology seminars</label>
+            </value>
+            <value>
+                <fullName>MM FM MW UltraVIEW Workshops</fullName>
+                <default>false</default>
+                <label>MM FM MW UltraVIEW Workshops</label>
+            </value>
+            <value>
+                <fullName>MM FM NE Academic Technology Seminars</fullName>
+                <default>false</default>
+                <label>MM FM NE Academic Technology Seminars</label>
+            </value>
+            <value>
+                <fullName>MM FM NE Pharma/Biotech Workshops</fullName>
+                <default>false</default>
+                <label>MM FM NE Pharma/Biotech Workshops</label>
+            </value>
+            <value>
+                <fullName>MM FM NE UltraVIEW Workshops</fullName>
+                <default>false</default>
+                <label>MM FM NE UltraVIEW Workshops</label>
+            </value>
+            <value>
+                <fullName>MM FM NIH Tent Shows 2007</fullName>
+                <default>false</default>
+                <label>MM FM NIH Tent Shows 2007</label>
+            </value>
+            <value>
+                <fullName>MM FM SE Academic Technology Seminars</fullName>
+                <default>false</default>
+                <label>MM FM SE Academic Technology Seminars</label>
+            </value>
+            <value>
+                <fullName>MM FM SE UltraVIEW Workshops</fullName>
+                <default>false</default>
+                <label>MM FM SE UltraVIEW Workshops</label>
+            </value>
+            <value>
+                <fullName>MM FM West Academic Technology Seminars</fullName>
+                <default>false</default>
+                <label>MM FM West Academic Technology Seminars</label>
+            </value>
+            <value>
+                <fullName>MM FM West Pharma/BioTech Workshops</fullName>
+                <default>false</default>
+                <label>MM FM West Pharma/BioTech Workshops</label>
+            </value>
+            <value>
+                <fullName>MM FM West UltraVIEW Workshops</fullName>
+                <default>false</default>
+                <label>MM FM West UltraVIEW Workshops</label>
+            </value>
+            <value>
+                <fullName>NEN Rad Advantage</fullName>
+                <default>false</default>
+                <label>NEN Rad Advantage</label>
+            </value>
+            <value>
+                <fullName>NPI-Q2-08 Flexar LC-GLOBAL</fullName>
+                <default>false</default>
+                <label>NPI-Q2-08 Flexar LC-GLOBAL</label>
+            </value>
+            <value>
+                <fullName>NPI-Q3-08-275 HRes LC-GLOBAL</fullName>
+                <default>false</default>
+                <label>NPI-Q3-08-275 HRes LC-GLOBAL</label>
+            </value>
+            <value>
+                <fullName>NPI-Q3-09 Flexar LC-GLOBAL</fullName>
+                <default>false</default>
+                <label>NPI-Q3-09 Flexar LC-GLOBAL</label>
+            </value>
+            <value>
+                <fullName>PDA HPLC Quality Campaign</fullName>
+                <default>false</default>
+                <label>PDA HPLC Quality Campaign</label>
+            </value>
+            <value>
+                <fullName>Pittcon &#39;06</fullName>
+                <default>false</default>
+                <label>Pittcon &#39;06</label>
+            </value>
+            <value>
+                <fullName>PittCon 08</fullName>
+                <default>false</default>
+                <label>PittCon 08</label>
+            </value>
+            <value>
+                <fullName>PROMO-2009-BIO-Project CATalyst-US</fullName>
+                <default>false</default>
+                <label>PROMO-2009-BIO-Project CATalyst-US</label>
+            </value>
+            <value>
+                <fullName>PROMO Q2 07 3 page advertisment for Bio Com DE</fullName>
+                <default>false</default>
+                <label>PROMO Q2 07 3 page advertisment for Bio Com DE</label>
+            </value>
+            <value>
+                <fullName>PROMO-Q2-10-DealoftheDay-NA</fullName>
+                <default>false</default>
+                <label>PROMO-Q2-10-DealoftheDay-NA</label>
+            </value>
+            <value>
+                <fullName>PROMO-Q2-10-DocktoStock-NA</fullName>
+                <default>false</default>
+                <label>PROMO-Q2-10-DocktoStock-NA</label>
+            </value>
+            <value>
+                <fullName>PROMO-Q2-10-TradeIn-NA</fullName>
+                <default>false</default>
+                <label>PROMO-Q2-10-TradeIn-NA</label>
+            </value>
+            <value>
+                <fullName>PROMO-Q2-10-UniversityPartnership-NA</fullName>
+                <default>false</default>
+                <label>PROMO-Q2-10-UniversityPartnership-NA</label>
+            </value>
+            <value>
+                <fullName>PROMO-Q2-FireandIce-NA</fullName>
+                <default>false</default>
+                <label>PROMO-Q2-FireandIce-NA</label>
+            </value>
+            <value>
+                <fullName>PROMO-Q3-10-Simply_Fast_GCMS-NA</fullName>
+                <default>false</default>
+                <label>PROMO-Q3-10-Simply_Fast_GCMS-NA</label>
+            </value>
+            <value>
+                <fullName>Radiothearupetics Multichannel Campaign</fullName>
+                <default>false</default>
+                <label>Radiothearupetics Multichannel Campaign</label>
+            </value>
+            <value>
+                <fullName>RS-Q2-10-F1Day-UK</fullName>
+                <default>false</default>
+                <label>RS-Q2-10-F1Day-UK</label>
+            </value>
+            <value>
+                <fullName>RS-Q4-10-MASS-Spectrometry-IT</fullName>
+                <default>false</default>
+                <label>RS-Q4-10-MASS-Spectrometry-IT</label>
+            </value>
+            <value>
+                <fullName>SBS &#39;06</fullName>
+                <default>false</default>
+                <label>SBS &#39;06</label>
+            </value>
+            <value>
+                <fullName>ScreenTech &#39;06</fullName>
+                <default>false</default>
+                <label>ScreenTech &#39;06</label>
+            </value>
+            <value>
+                <fullName>Service Leads</fullName>
+                <default>false</default>
+                <label>Service Leads</label>
+            </value>
+            <value>
+                <fullName>SM_Q1_08_SE Seminars_USA</fullName>
+                <default>false</default>
+                <label>SM_Q1_08_SE Seminars_USA</label>
+            </value>
+            <value>
+                <fullName>SVC-Q3-Q4-10-OneSource-internal-GTM-Project-EU</fullName>
+                <default>false</default>
+                <label>SVC-Q3-Q4-10-OneSource-internal-GTM-Project-EU</label>
+            </value>
+            <value>
+                <fullName>TS- IBC Drug Discovery Conference - August 6 – 9, 2007 in Boston, MA.</fullName>
+                <default>false</default>
+                <label>TS- IBC Drug Discovery Conference - August 6 – 9, 2007 in Boston, MA.</label>
+            </value>
+            <value>
+                <fullName>TS - Q1 - 07- LabAutomation - USA</fullName>
+                <default>false</default>
+                <label>TS - Q1 - 07- LabAutomation - USA</label>
+            </value>
+            <value>
+                <fullName>TS - Q1 -07 - SMFM -USA</fullName>
+                <default>false</default>
+                <label>TS - Q1 -07 - SMFM -USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q1-08-LabAuto 2008-USA</fullName>
+                <default>false</default>
+                <label>TS-Q1-08-LabAuto 2008-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q1-09-LabAuto 2009-USA</fullName>
+                <default>false</default>
+                <label>TS-Q1-09-LabAuto 2009-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q1-09-Society of Toxicology- USA</fullName>
+                <default>false</default>
+                <label>TS-Q1-09-Society of Toxicology- USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q1-10-Analytica 2010 DE</fullName>
+                <default>false</default>
+                <label>TS-Q1-10-Analytica 2010 DE</label>
+            </value>
+            <value>
+                <fullName>TS - Q1 - 10 - PITTCON - NA</fullName>
+                <default>false</default>
+                <label>TS - Q1 - 10 - PITTCON - NA</label>
+            </value>
+            <value>
+                <fullName>TS - Q1 - 10 - Winter Plasma - NA</fullName>
+                <default>false</default>
+                <label>TS - Q1 - 10 - Winter Plasma - NA</label>
+            </value>
+            <value>
+                <fullName>TS - Q2 - 07 - FASEB - USA</fullName>
+                <default>false</default>
+                <label>TS - Q2 - 07 - FASEB - USA</label>
+            </value>
+            <value>
+                <fullName>TS - Q2 - 07 - SBS - Canada</fullName>
+                <default>false</default>
+                <label>TS - Q2 - 07 - SBS - Canada</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-08-SBS 2008-USA</fullName>
+                <default>false</default>
+                <label>TS-Q2-08-SBS 2008-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-09-AACR American Association for Cancer Research-USA</fullName>
+                <default>false</default>
+                <label>TS-Q2-09-AACR American Association for Cancer Research-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-09-Experimental Biology FASEB 2009-USA</fullName>
+                <default>false</default>
+                <label>TS-Q2-09-Experimental Biology FASEB 2009-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-09-IIS National Meeting - USA</fullName>
+                <default>false</default>
+                <label>TS-Q2-09-IIS National Meeting - USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-09-SBS-France</fullName>
+                <default>false</default>
+                <label>TS-Q2-09-SBS-France</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-09-SNM-Canada</fullName>
+                <default>false</default>
+                <label>TS-Q2-09-SNM-Canada</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-10-AACR -GLO</fullName>
+                <default>false</default>
+                <label>TS-Q2-10-AACR -GLO</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-10-Experimental Biology FASEB 2010-USA</fullName>
+                <default>false</default>
+                <label>TS-Q2-10-Experimental Biology FASEB 2010-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-10-MICROSCIENCE 2010-UK</fullName>
+                <default>false</default>
+                <label>TS-Q2-10-MICROSCIENCE 2010-UK</label>
+            </value>
+            <value>
+                <fullName>TS-Q2-10-SBS 2010-US</fullName>
+                <default>false</default>
+                <label>TS-Q2-10-SBS 2010-US</label>
+            </value>
+            <value>
+                <fullName>TS-Q3-08 HPS Health Physics Annual Meeting-USA</fullName>
+                <default>false</default>
+                <label>TS-Q3-08 HPS Health Physics Annual Meeting-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q3-10-American Association for Clinical Chemistry (AACC)-US</fullName>
+                <default>false</default>
+                <label>TS-Q3-10-American Association for Clinical Chemistry (AACC)-US</label>
+            </value>
+            <value>
+                <fullName>TS-Q3-10-HET-Instrument-MASTER-NL</fullName>
+                <default>false</default>
+                <label>TS-Q3-10-HET-Instrument-MASTER-NL</label>
+            </value>
+            <value>
+                <fullName>TS-Q3-10-IFT_2010-NA</fullName>
+                <default>false</default>
+                <label>TS-Q3-10-IFT_2010-NA</label>
+            </value>
+            <value>
+                <fullName>TS-Q3-10-NATAS-US</fullName>
+                <default>false</default>
+                <label>TS-Q3-10-NATAS-US</label>
+            </value>
+            <value>
+                <fullName>TS-Q3-10-NEMC-US</fullName>
+                <default>false</default>
+                <label>TS-Q3-10-NEMC-US</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-07 ASCB Conference – USA</fullName>
+                <default>false</default>
+                <label>TS-Q4-07 ASCB Conference – USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-07-Bioassay –USA</fullName>
+                <default>false</default>
+                <label>TS-Q4-07-Bioassay –USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-07-HUPO-KOREA</fullName>
+                <default>false</default>
+                <label>TS-Q4-07-HUPO-KOREA</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-08-ASCB-US</fullName>
+                <default>false</default>
+                <label>TS-Q4-08-ASCB-US</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-08-NEAFS Conference-USA</fullName>
+                <default>false</default>
+                <label>TS-Q4-08-NEAFS Conference-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-08-SBS Symposium Valley Forge-USA</fullName>
+                <default>false</default>
+                <label>TS-Q4-08-SBS Symposium Valley Forge-USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-08-SFN-GLO</fullName>
+                <default>false</default>
+                <label>TS-Q4-08-SFN-GLO</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-09- ASCB Conference - USA</fullName>
+                <default>false</default>
+                <label>TS-Q4-09- ASCB Conference - USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-09-Bioassay:RRMC- USA</fullName>
+                <default>false</default>
+                <label>TS-Q4-09-Bioassay:RRMC- USA</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-09-EANM Meeting</fullName>
+                <default>false</default>
+                <label>TS-Q4-09-EANM Meeting</label>
+            </value>
+            <value>
+                <fullName>TS-Q4-09-Soc for NeuroScience-Chicago USA</fullName>
+                <default>false</default>
+                <label>TS-Q4-09-Soc for NeuroScience-Chicago USA</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix HS Webcasts 2006</fullName>
+                <default>false</default>
+                <label>TurboMatrix HS Webcasts 2006</label>
+            </value>
+            <value>
+                <fullName>UV Seminar Campaign 2005</fullName>
+                <default>false</default>
+                <label>UV Seminar Campaign 2005</label>
+            </value>
+            <value>
+                <fullName>WC_08_LABWORKSWebcasts</fullName>
+                <default>false</default>
+                <label>WC_08_LABWORKSWebcasts</label>
+            </value>
+            <value>
+                <fullName>WC Q2 07 EnVision EU</fullName>
+                <default>false</default>
+                <label>WC Q2 07 EnVision EU</label>
+            </value>
+            <value>
+                <fullName>WC-Q2-08-ALH Webcasts-EU</fullName>
+                <default>false</default>
+                <label>WC-Q2-08-ALH Webcasts-EU</label>
+            </value>
+            <value>
+                <fullName>WC-Q2-Q4-08-ALH Webinar Wednesday Campaign-US</fullName>
+                <default>false</default>
+                <label>WC-Q2-Q4-08-ALH Webinar Wednesday Campaign-US</label>
+            </value>
+            <value>
+                <fullName>WKSP-2010-Inorganic-US</fullName>
+                <default>false</default>
+                <label>WKSP-2010-Inorganic-US</label>
+            </value>
+            <value>
+                <fullName>WKSP Q1 09 FTB GLO</fullName>
+                <default>false</default>
+                <label>WKSP Q1 09 FTB GLO</label>
+            </value>
+            <value>
+                <fullName>WKSP Q1-2-3-4 2010 NexION EU</fullName>
+                <default>false</default>
+                <label>WKSP Q1-2-3-4 2010 NexION EU</label>
+            </value>
+            <value>
+                <fullName>WKSP-Q2-08-Longwood Product Shows-USA</fullName>
+                <default>false</default>
+                <label>WKSP-Q2-08-Longwood Product Shows-USA</label>
+            </value>
+            <value>
+                <fullName>WKSP Q3 10 Anorganica NexION NORTH DE</fullName>
+                <default>false</default>
+                <label>WKSP Q3 10 Anorganica NexION NORTH DE</label>
+            </value>
+            <value>
+                <fullName>WKSP Q3 10 CHROMTOUR DE</fullName>
+                <default>false</default>
+                <label>WKSP Q3 10 CHROMTOUR DE</label>
+            </value>
+            <value>
+                <fullName>WKSP-Q3-10-Inorganic Seminars Florida-US</fullName>
+                <default>false</default>
+                <label>WKSP-Q3-10-Inorganic Seminars Florida-US</label>
+            </value>
+            <value>
+                <fullName>WKSP Q4 10 Anorganica NexION SOUTH DACH</fullName>
+                <default>false</default>
+                <label>WKSP Q4 10 Anorganica NexION SOUTH DACH</label>
+            </value>
+            <value>
+                <fullName>WS-Q1-Q4-09 - ALH Webinar Series-GLO</fullName>
+                <default>false</default>
+                <label>WS-Q1-Q4-09 - ALH Webinar Series-GLO</label>
+            </value>
+            <value>
+                <fullName>WS-Q2-10-Inorganic Seminar Northeast-US</fullName>
+                <default>false</default>
+                <label>WS-Q2-10-Inorganic Seminar Northeast-US</label>
+            </value>
+            <value>
+                <fullName>WS-Q3-10-Volocity Demo-All-Downloads-GLO</fullName>
+                <default>false</default>
+                <label>WS-Q3-10-Volocity Demo-All-Downloads-GLO</label>
+            </value>
+            <value>
+                <fullName>WS-Volocity Free Software Download-GLO</fullName>
+                <default>false</default>
+                <label>WS-Volocity Free Software Download-GLO</label>
+            </value>
+            <value>
+                <fullName>2006-2007 Consumables &amp; Minor Accessories Catalog</fullName>
+                <default>false</default>
+                <label>2006-2007 Consumables &amp; Minor Accessories Catalog</label>
+            </value>
+            <value>
+                <fullName>2007 LIMS Webcasts</fullName>
+                <default>false</default>
+                <label>2007 LIMS Webcasts</label>
+            </value>
+            <value>
+                <fullName>2008 NA Inorganic Workshop Series</fullName>
+                <default>false</default>
+                <label>2008 NA Inorganic Workshop Series</label>
+            </value>
+            <value>
+                <fullName>2009 Bio-discovery Product of the Month Campaigns</fullName>
+                <default>false</default>
+                <label>2009 Bio-discovery Product of the Month Campaigns</label>
+            </value>
+            <value>
+                <fullName>2010_2011_Beckman_Exits</fullName>
+                <default>false</default>
+                <label>2010_2011_Beckman_Exits</label>
+            </value>
+            <value>
+                <fullName>2010 Bio-discovery Product of the Month Campaigns</fullName>
+                <default>false</default>
+                <label>2010 Bio-discovery Product of the Month Campaigns</label>
+            </value>
+            <value>
+                <fullName>2H06 AS Online Seminars</fullName>
+                <default>false</default>
+                <label>2H06 AS Online Seminars</label>
+            </value>
+            <value>
+                <fullName>ABRF &#39;06</fullName>
+                <default>false</default>
+                <label>ABRF &#39;06</label>
+            </value>
+            <value>
+                <fullName>AFSS 2005</fullName>
+                <default>false</default>
+                <label>AFSS 2005</label>
+            </value>
+            <value>
+                <fullName>ASMS &#39;06</fullName>
+                <default>false</default>
+                <label>ASMS &#39;06</label>
+            </value>
+            <value>
+                <fullName>ASMS 2010</fullName>
+                <default>false</default>
+                <label>ASMS 2010</label>
+            </value>
+            <value>
+                <fullName>Lites Promotion</fullName>
+                <default>false</default>
+                <label>Lites Promotion</label>
+            </value>
+            <value>
+                <fullName>Biocompare.com</fullName>
+                <default>false</default>
+                <label>Biocompare.com</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - Biodiesel</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - Biodiesel</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - Chemical Imaging</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - Chemical Imaging</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - City Tour</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - City Tour</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - Detection Systems</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - Detection Systems</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - Environmental</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - Environmental</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - Inorganic</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - Inorganic</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - Thermal Targeted Apps</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - Thermal Targeted Apps</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - Used/Lube Oil</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - Used/Lube Oil</label>
+            </value>
+            <value>
+                <fullName>CA10 - AS2007 - Victor/Envision</fullName>
+                <default>false</default>
+                <label>CA10 - AS2007 - Victor/Envision</label>
+            </value>
+            <value>
+                <fullName>CA10 - MM2007 - Cellular Imaging</fullName>
+                <default>false</default>
+                <label>CA10 - MM2007 - Cellular Imaging</label>
+            </value>
+            <value>
+                <fullName>CA10 - MM2007 - CS Autoplex</fullName>
+                <default>false</default>
+                <label>CA10 - MM2007 - CS Autoplex</label>
+            </value>
+            <value>
+                <fullName>CA10 - MM2007 - JANUS ALH Platform</fullName>
+                <default>false</default>
+                <label>CA10 - MM2007 - JANUS ALH Platform</label>
+            </value>
+            <value>
+                <fullName>CA10 - MM2007 - Reagents</fullName>
+                <default>false</default>
+                <label>CA10 - MM2007 - Reagents</label>
+            </value>
+            <value>
+                <fullName>CA10 - MM2007 - Syngene and Cyclone</fullName>
+                <default>false</default>
+                <label>CA10 - MM2007 - Syngene and Cyclone</label>
+            </value>
+            <value>
+                <fullName>CA - BioBar Promotions H106</fullName>
+                <default>false</default>
+                <label>CA - BioBar Promotions H106</label>
+            </value>
+            <value>
+                <fullName>CA - JANUS Launch Tour</fullName>
+                <default>false</default>
+                <label>CA - JANUS Launch Tour</label>
+            </value>
+            <value>
+                <fullName>CA - Syngene Promotion H106</fullName>
+                <default>false</default>
+                <label>CA - Syngene Promotion H106</label>
+            </value>
+            <value>
+                <fullName>CA - Victor Promotion H106</fullName>
+                <default>false</default>
+                <label>CA - Victor Promotion H106</label>
+            </value>
+            <value>
+                <fullName>EAS &#39;06</fullName>
+                <default>false</default>
+                <label>EAS &#39;06</label>
+            </value>
+            <value>
+                <fullName>EB-2010-RAD Monthly NPI Campaigns-GLO</fullName>
+                <default>false</default>
+                <label>EB-2010-RAD Monthly NPI Campaigns-GLO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

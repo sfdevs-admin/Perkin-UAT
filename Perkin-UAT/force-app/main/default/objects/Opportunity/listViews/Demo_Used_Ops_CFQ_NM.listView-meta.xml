@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Used_Ops_CFQ_NM</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND (8 OR 9)</booleanFilter>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>SAP_Quote__c</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Model_Sold__c</columns>
+    <columns>SAP_Order_Status__c</columns>
+    <columns>OTR_Notes__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>SAP_Estimated_Ship_Date__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Pipeline,Best Case,Commit,Closed</value>
+    </filters>
+    <filters>
+        <field>Shipping_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Monthly RunRate</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notContain</operation>
+        <value>Test</value>
+    </filters>
+    <filters>
+        <field>Model_Sold__c</field>
+        <operation>equals</operation>
+        <value>Demo,Used</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>Demo</value>
+    </filters>
+    <label>Demo &amp; Used Ops CFQ - NM</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

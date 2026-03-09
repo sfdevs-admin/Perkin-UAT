@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_PF_users_to_Close_Won_Opps</fullName>
+    <active>true</active>
+    <description>Restrict Project-Farma Users to Close Won Opportunities. Only Specific users should be able to close the opportunity as Won</description>
+    <errorConditionFormula>AND(
+
+fxRecordTypeDevName__c = &quot;Project_Farma&quot; ,
+$User.ProfileName__c = &quot;PROFILE: PKI Project Farma&quot;,
+ISPICKVAL(StageName, &quot;Closed Won&quot;),
+NOT( $Permission.Can_Close_as_Closed_Won_Project_Farma )
+)</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_Project_Farma: You are not authorized to set this Opportunity to Closed Won Stage. Please refer to your manager in order for help.</errorMessage>
+</ValidationRule>

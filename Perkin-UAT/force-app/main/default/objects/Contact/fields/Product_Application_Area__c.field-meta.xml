@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Application_Area__c</fullName>
+    <label>Product Application Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADME / TOX</fullName>
+                <default>false</default>
+                <label>ADME / TOX</label>
+            </value>
+            <value>
+                <fullName>AEROSPACE / DEFENSE / BIOTHREAT</fullName>
+                <default>false</default>
+                <label>AEROSPACE / DEFENSE / BIOTHREAT</label>
+            </value>
+            <value>
+                <fullName>AGRICULTURE / LIVESTOCK</fullName>
+                <default>false</default>
+                <label>AGRICULTURE / LIVESTOCK</label>
+            </value>
+            <value>
+                <fullName>AIR</fullName>
+                <default>false</default>
+                <label>AIR</label>
+            </value>
+            <value>
+                <fullName>BEAUTY &amp; PERSONAL CARE</fullName>
+                <default>false</default>
+                <label>BEAUTY &amp; PERSONAL CARE</label>
+            </value>
+            <value>
+                <fullName>BEVERAGE / BOTTLING</fullName>
+                <default>false</default>
+                <label>BEVERAGE / BOTTLING</label>
+            </value>
+            <value>
+                <fullName>BIOCHEMISTRY</fullName>
+                <default>false</default>
+                <label>BIOCHEMISTRY</label>
+            </value>
+            <value>
+                <fullName>BIOLOGICAL MANUFACTURING &amp; QC</fullName>
+                <default>false</default>
+                <label>BIOLOGICAL MANUFACTURING &amp; QC</label>
+            </value>
+            <value>
+                <fullName>BIOLOGY / BIOTECHNOLOGY</fullName>
+                <default>false</default>
+                <label>BIOLOGY / BIOTECHNOLOGY</label>
+            </value>
+            <value>
+                <fullName>CELL / CELLULAR BIOLOGY</fullName>
+                <default>false</default>
+                <label>CELL / CELLULAR BIOLOGY</label>
+            </value>
+            <value>
+                <fullName>CHILD HEALTH</fullName>
+                <default>false</default>
+                <label>CHILD HEALTH</label>
+            </value>
+            <value>
+                <fullName>CHILDREN&#39;S PRODUCT</fullName>
+                <default>false</default>
+                <label>CHILDREN&#39;S PRODUCT</label>
+            </value>
+            <value>
+                <fullName>CLINICAL DIAGNOSTICS</fullName>
+                <default>false</default>
+                <label>CLINICAL DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>CORD BLOOD</fullName>
+                <default>false</default>
+                <label>CORD BLOOD</label>
+            </value>
+            <value>
+                <fullName>CYTOGENETICS</fullName>
+                <default>false</default>
+                <label>CYTOGENETICS</label>
+            </value>
+            <value>
+                <fullName>DEVELOPMENTAL/REGENERATIVE BIOLOGY</fullName>
+                <default>false</default>
+                <label>DEVELOPMENTAL/REGENERATIVE BIOLOGY</label>
+            </value>
+            <value>
+                <fullName>DMPK / METABOLISM</fullName>
+                <default>false</default>
+                <label>DMPK / METABOLISM</label>
+            </value>
+            <value>
+                <fullName>DRUG DISCOVERY / R&amp;D</fullName>
+                <default>false</default>
+                <label>DRUG DISCOVERY / R&amp;D</label>
+            </value>
+            <value>
+                <fullName>ENERGY CONSERVATION</fullName>
+                <default>false</default>
+                <label>ENERGY CONSERVATION</label>
+            </value>
+            <value>
+                <fullName>FINE CHEMICALS</fullName>
+                <default>false</default>
+                <label>FINE CHEMICALS</label>
+            </value>
+            <value>
+                <fullName>FOOD</fullName>
+                <default>false</default>
+                <label>FOOD</label>
+            </value>
+            <value>
+                <fullName>FORENSICS / POLICE</fullName>
+                <default>false</default>
+                <label>FORENSICS / POLICE</label>
+            </value>
+            <value>
+                <fullName>GENETICS / GENOMICS</fullName>
+                <default>false</default>
+                <label>GENETICS / GENOMICS</label>
+            </value>
+            <value>
+                <fullName>GEOCHEMICAL / MINING</fullName>
+                <default>false</default>
+                <label>GEOCHEMICAL / MINING</label>
+            </value>
+            <value>
+                <fullName>HALAL</fullName>
+                <default>false</default>
+                <label>HALAL</label>
+            </value>
+            <value>
+                <fullName>HIGH THROUGHPUT SCREENING</fullName>
+                <default>false</default>
+                <label>HIGH THROUGHPUT SCREENING</label>
+            </value>
+            <value>
+                <fullName>IMMUNOLOGY</fullName>
+                <default>false</default>
+                <label>IMMUNOLOGY</label>
+            </value>
+            <value>
+                <fullName>MICROBIOLOGY</fullName>
+                <default>false</default>
+                <label>MICROBIOLOGY</label>
+            </value>
+            <value>
+                <fullName>MOLECULAR BIOLOGY</fullName>
+                <default>false</default>
+                <label>MOLECULAR BIOLOGY</label>
+            </value>
+            <value>
+                <fullName>NANO MATERIALS</fullName>
+                <default>false</default>
+                <label>NANO MATERIALS</label>
+            </value>
+            <value>
+                <fullName>NEONATAL SCREENING</fullName>
+                <default>false</default>
+                <label>NEONATAL SCREENING</label>
+            </value>
+            <value>
+                <fullName>NEUROSCIENCE</fullName>
+                <default>false</default>
+                <label>NEUROSCIENCE</label>
+            </value>
+            <value>
+                <fullName>NUTRACEUTICALS</fullName>
+                <default>false</default>
+                <label>NUTRACEUTICALS</label>
+            </value>
+            <value>
+                <fullName>OIL / LUBRICATING NEW &amp; USED</fullName>
+                <default>false</default>
+                <label>OIL / LUBRICATING NEW &amp; USED</label>
+            </value>
+            <value>
+                <fullName>ONCOLOGY</fullName>
+                <default>false</default>
+                <label>ONCOLOGY</label>
+            </value>
+            <value>
+                <fullName>OPTICAL / GLASS</fullName>
+                <default>false</default>
+                <label>OPTICAL / GLASS</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>PACKAGING</fullName>
+                <default>false</default>
+                <label>PACKAGING</label>
+            </value>
+            <value>
+                <fullName>PATHOLOGY</fullName>
+                <default>false</default>
+                <label>PATHOLOGY</label>
+            </value>
+            <value>
+                <fullName>POLYMER, PAINT, NON-OPTICAL COATING</fullName>
+                <default>false</default>
+                <label>POLYMER, PAINT, NON-OPTICAL COATING</label>
+            </value>
+            <value>
+                <fullName>POWER / UTILITIES</fullName>
+                <default>false</default>
+                <label>POWER / UTILITIES</label>
+            </value>
+            <value>
+                <fullName>PRE-CLINICAL</fullName>
+                <default>false</default>
+                <label>PRE-CLINICAL</label>
+            </value>
+            <value>
+                <fullName>PRENATAL SCREENING</fullName>
+                <default>false</default>
+                <label>PRENATAL SCREENING</label>
+            </value>
+            <value>
+                <fullName>RECYCLING / WASTE MANAGEMENT</fullName>
+                <default>false</default>
+                <label>RECYCLING / WASTE MANAGEMENT</label>
+            </value>
+            <value>
+                <fullName>REFINING / REFINERIES</fullName>
+                <default>false</default>
+                <label>REFINING / REFINERIES</label>
+            </value>
+            <value>
+                <fullName>RENEWABLE ENERGY</fullName>
+                <default>false</default>
+                <label>RENEWABLE ENERGY</label>
+            </value>
+            <value>
+                <fullName>SECONDARY SCREENING</fullName>
+                <default>false</default>
+                <label>SECONDARY SCREENING</label>
+            </value>
+            <value>
+                <fullName>SEMICONDUCTOR</fullName>
+                <default>false</default>
+                <label>SEMICONDUCTOR</label>
+            </value>
+            <value>
+                <fullName>SOIL / HAZARDOUS WASTE</fullName>
+                <default>false</default>
+                <label>SOIL / HAZARDOUS WASTE</label>
+            </value>
+            <value>
+                <fullName>TARGET IDENTIFICATION / VALIDATION</fullName>
+                <default>false</default>
+                <label>TARGET IDENTIFICATION / VALIDATION</label>
+            </value>
+            <value>
+                <fullName>TELECOM</fullName>
+                <default>false</default>
+                <label>TELECOM</label>
+            </value>
+            <value>
+                <fullName>TOBACCO</fullName>
+                <default>false</default>
+                <label>TOBACCO</label>
+            </value>
+            <value>
+                <fullName>TOXICOLOGY</fullName>
+                <default>false</default>
+                <label>TOXICOLOGY</label>
+            </value>
+            <value>
+                <fullName>TRADITIONAL CHINESE MEDICINE</fullName>
+                <default>false</default>
+                <label>TRADITIONAL CHINESE MEDICINE</label>
+            </value>
+            <value>
+                <fullName>VIROLOGY</fullName>
+                <default>false</default>
+                <label>VIROLOGY</label>
+            </value>
+            <value>
+                <fullName>WATER</fullName>
+                <default>false</default>
+                <label>WATER</label>
+            </value>
+            <value>
+                <fullName>Beverage, Beer &amp; Wine</fullName>
+                <default>false</default>
+                <label>Beverage, Beer &amp; Wine</label>
+            </value>
+            <value>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+                <label>Dairy</label>
+            </value>
+            <value>
+                <fullName>Edible oils</fullName>
+                <default>false</default>
+                <label>Edible oils</label>
+            </value>
+            <value>
+                <fullName>Forestry</fullName>
+                <default>false</default>
+                <label>Forestry</label>
+            </value>
+            <value>
+                <fullName>Grain</fullName>
+                <default>false</default>
+                <label>Grain</label>
+            </value>
+            <value>
+                <fullName>Plant breeding</fullName>
+                <default>false</default>
+                <label>Plant breeding</label>
+            </value>
+            <value>
+                <fullName>Meat</fullName>
+                <default>false</default>
+                <label>Meat</label>
+            </value>
+            <value>
+                <fullName>Processed foods</fullName>
+                <default>false</default>
+                <label>Processed foods</label>
+            </value>
+            <value>
+                <fullName>Safety/Quality</fullName>
+                <default>false</default>
+                <label>Safety/Quality</label>
+            </value>
+            <value>
+                <fullName>Wheat flour</fullName>
+                <default>false</default>
+                <label>Wheat flour</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

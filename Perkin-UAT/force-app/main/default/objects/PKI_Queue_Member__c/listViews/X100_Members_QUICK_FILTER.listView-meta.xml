@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X100_Members_QUICK_FILTER</fullName>
+    <columns>NAME</columns>
+    <columns>PKI_Queue_Name__c</columns>
+    <columns>fxType__c</columns>
+    <columns>User__c</columns>
+    <columns>RemoveMember__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>User__c</field>
+        <operation>contains</operation>
+        <value>Soledad Riquelme</value>
+    </filters>
+    <label>100.  Members - (*QUICK FILTER*)</label>
+</ListView>

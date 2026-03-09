@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_Food_R_D_and_Testing__c</fullName>
+    <label>Food R&amp;D and Testing</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Adulteration/Provenance</fullName>
+                <default>false</default>
+                <label>Adulteration/Provenance</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Nutritional Analysis</fullName>
+                <default>false</default>
+                <label>Nutritional Analysis</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Product Development/Research</fullName>
+                <default>false</default>
+                <label>Product Development/Research</label>
+            </value>
+            <value>
+                <fullName>Regulatory Testing</fullName>
+                <default>false</default>
+                <label>Regulatory Testing</label>
+            </value>
+            <value>
+                <fullName>Safety/Quality</fullName>
+                <default>false</default>
+                <label>Safety/Quality</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

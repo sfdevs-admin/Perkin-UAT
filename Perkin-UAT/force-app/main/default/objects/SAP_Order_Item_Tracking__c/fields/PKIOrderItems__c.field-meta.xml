@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKIOrderItems__c</fullName>
+    <description>The Order Item this delivery info relates to</description>
+    <label>PKI Order Items</label>
+    <referenceTo>SAP_Order_Items__c</referenceTo>
+    <relationshipLabel>PKI Order Item Tracking</relationshipLabel>
+    <relationshipName>PKI_Order_Item_Tracking</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

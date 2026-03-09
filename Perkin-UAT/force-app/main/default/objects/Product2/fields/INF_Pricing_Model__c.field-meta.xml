@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Pricing_Model__c</fullName>
+    <label>Pricing Model</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Named User</fullName>
+                <default>false</default>
+                <label>Named User</label>
+            </value>
+            <value>
+                <fullName>Site</fullName>
+                <default>false</default>
+                <label>Site</label>
+            </value>
+            <value>
+                <fullName>Instance</fullName>
+                <default>false</default>
+                <label>Instance</label>
+            </value>
+            <value>
+                <fullName>Bundle</fullName>
+                <default>false</default>
+                <label>Bundle</label>
+            </value>
+            <value>
+                <fullName>Basic</fullName>
+                <default>false</default>
+                <label>Basic</label>
+            </value>
+            <value>
+                <fullName>Module</fullName>
+                <default>false</default>
+                <label>Module</label>
+            </value>
+            <value>
+                <fullName>Personal Subscription</fullName>
+                <default>false</default>
+                <label>Personal Subscription</label>
+            </value>
+            <value>
+                <fullName>Renewals Only</fullName>
+                <default>false</default>
+                <label>Renewals Only</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <default>false</default>
+                <label>Private</label>
+            </value>
+            <value>
+                <fullName>Special</fullName>
+                <default>false</default>
+                <label>Special</label>
+            </value>
+            <value>
+                <fullName>Study</fullName>
+                <default>false</default>
+                <label>Study</label>
+            </value>
+            <value>
+                <fullName>TIBCO Included</fullName>
+                <default>false</default>
+                <label>TIBCO Included</label>
+            </value>
+            <value>
+                <fullName>TIBCO Not Included</fullName>
+                <default>false</default>
+                <label>TIBCO Not Included</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Concurrent</fullName>
+                <default>false</default>
+                <label>Concurrent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

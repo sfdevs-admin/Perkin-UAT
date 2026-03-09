@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADMIN_QC_Accounts</fullName>
+    <columns>fxTagValues__c</columns>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>isNew__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>fxHourUpdated__c</columns>
+    <columns>Count_of_Items__c</columns>
+    <columns>Count_of_unblocked_items__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>Sales_Rep__c</columns>
+    <columns>Count_of_rejected_items__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Count_of_Items__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>12/31/2022 12:00 AM</value>
+    </filters>
+    <label>(ADMIN) QC Counts</label>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_User_Employee_ID__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>A valid employee ID is required for salesforce.com account creation</inlineHelpText>
+    <label>New User Employee ID</label>
+    <length>20</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

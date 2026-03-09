@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Type_of_case_required</fullName>
+    <active>true</active>
+    <description>Applies to the &quot;DX Software Services&quot; Case record type (except SPAM cases)</description>
+    <errorConditionFormula>AND( 
+   NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+   ,Spam__c =False
+   ,OR(RecordType.Name = &#39;Dx Software Services&#39;
+      ,RecordTypeId = &#39;0123A000001GjKo&#39;
+      )
+   ,OR(TEXT(TypeOfCase__c)= &quot;None&quot;
+       ,TEXT(TypeOfCase__c)=&quot;&quot;
+      )
+    )</errorConditionFormula>
+    <errorDisplayField>TypeOfCase__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_016: The value for the Type of Case field cannot be None. Please change the value of this field.</errorMessage>
+</ValidationRule>

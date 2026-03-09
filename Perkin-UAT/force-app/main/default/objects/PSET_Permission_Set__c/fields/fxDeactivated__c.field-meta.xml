@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxDeactivated__c</fullName>
+    <description>This will indicate that the PSET is no longer active base don the deactivation date. TRUE=Deactivated; FALSE=PSET is Active</description>
+    <formula>NOT(ISBLANK(DeactivationDate__c))</formula>
+    <inlineHelpText>This will indicate that the PSET is no longer active base don the deactivation date. TRUE=Deactivated; FALSE=PSET is Active</inlineHelpText>
+    <label>fxDeactivated</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

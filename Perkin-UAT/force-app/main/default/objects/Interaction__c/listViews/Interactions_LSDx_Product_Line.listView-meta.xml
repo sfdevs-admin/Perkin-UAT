@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interactions_LSDx_Product_Line</fullName>
+    <columns>NAME</columns>
+    <columns>ProductLine__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>Campaign__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Status__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>Accelerator__c</columns>
+    <columns>Run_Rules__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>equals</operation>
+        <value>LSDX</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>8/1/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Accelerator__c</field>
+        <operation>contains</operation>
+        <value>TRUE,FALSE</value>
+    </filters>
+    <filters>
+        <field>Run_Rules__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Interactions LSDx Product Line</label>
+</ListView>

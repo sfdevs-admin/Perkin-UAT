@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interactions_ALL_To_be_assigned</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>Country__c</columns>
+    <columns>State__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>ProductLine__c</columns>
+    <columns>AssignmentRule__c</columns>
+    <columns>Contact__c</columns>
+    <columns>SolutionAreaofInterest__c</columns>
+    <columns>Lead__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.ALIAS</field>
+        <operation>startsWith</operation>
+        <value>ARQ</value>
+    </filters>
+    <filters>
+        <field>Qualification_Status__c</field>
+        <operation>contains</operation>
+        <value>Pre</value>
+    </filters>
+    <label>Interactions - ALL (To be assigned)</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

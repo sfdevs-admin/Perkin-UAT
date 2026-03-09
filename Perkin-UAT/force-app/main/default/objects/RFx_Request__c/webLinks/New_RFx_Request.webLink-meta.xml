@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_RFx_Request</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New RFx Request</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>https://na138.salesforce.com/a2f/e?help=1&amp;CF00N3A00000CDLLj={!Opportunity.Name}&amp;CF00N3A00000CDLLj_lkid={!Opportunity.Id}&amp;00N3A00000CDLLV={!Opportunity.Account}&amp;00N3A00000CDLLU={!Account.ShippingAddress}&amp;00N3A00000CDLLX={!Contact.Name}&amp;00N3A00000CDLLY={!Contact.Phone}&amp;00N3A00000CDLLZ={!Contact.Title}&amp;00N3A00000CDLLW={!Contact.Email}&amp;00N3A00000CDLLr={!Opportunity.RFx_Type__c}&amp;00N3A00000CDLLg={!IF( NOT(ISBLANK( Account.GA_Global_Account_Program__c )),&quot;Yes&quot;,&quot;No&quot;)}
+&amp;CF00N3A00000CDLLw={!$User.FirstName} {!$User.LastName}</url>
+</WebLink>

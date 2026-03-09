@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitive_Edge__c</fullName>
+    <label>Competitive Edge</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sole Source</fullName>
+                <default>false</default>
+                <label>Sole Source</label>
+            </value>
+            <value>
+                <fullName>Good rapport, preferred or favoured vendor</fullName>
+                <default>false</default>
+                <label>Good rapport, preferred or favoured vendor</label>
+            </value>
+            <value>
+                <fullName>Competitors still being seriously considered</fullName>
+                <default>false</default>
+                <label>Competitors still being seriously considered</label>
+            </value>
+            <value>
+                <fullName>Sale possible only with difficulty</fullName>
+                <default>false</default>
+                <label>Sale possible only with difficulty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxInitialEmail__c</fullName>
+    <formula>Parent.SuppliedEmail =  FromAddress &amp;&amp;
+ DateTimeCASEOpened__c &lt;= Parent.CreatedDate</formula>
+    <label>fxInitialEmail</label>
+    <type>Checkbox</type>
+</CustomField>

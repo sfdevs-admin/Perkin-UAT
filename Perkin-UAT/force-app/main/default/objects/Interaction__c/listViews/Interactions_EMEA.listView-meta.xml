@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interactions_EMEA</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>Country__c</columns>
+    <columns>State__c</columns>
+    <columns>PostalCode__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>AssignmentRule__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Campaign__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.LAST_NAME</field>
+        <operation>contains</operation>
+        <value>Maheshwari</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>613798,613799,613800,613808,613809,613857,613861,613868,613878,613903</value>
+    </filters>
+    <label>Interactions - (EMEA)</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

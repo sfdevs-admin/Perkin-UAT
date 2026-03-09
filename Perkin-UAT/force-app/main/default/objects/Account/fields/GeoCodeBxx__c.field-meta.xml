@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoCodeBxx__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ShippingCountry &lt;&gt; &quot;US&quot;,&quot;NA&quot;,
+IF(CONTAINS(&quot;730, 731, 735, 736, 737, 738, 739, 746, 760, 761, 762, 763, 764, 765, 768, 769, 787, 790, 791, 792, 793, 794, 795, 796, 797, 798&quot;, left(ShippingPostalCode,3)), &quot;B01&quot;,
+IF(CONTAINS(&quot;734, 740, 741, 743, 744, 745, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 766, 767&quot;, left(ShippingPostalCode,3)), &quot;B02&quot;,
+IF(CONTAINS(&quot;700, 701, 703, 704, 707, 708&quot;, left(ShippingPostalCode,3)), &quot;B06&quot;,
+IF(CONTAINS(&quot;705, 706, 713, 714&quot;, left(ShippingPostalCode,3)), &quot;B07&quot;,
+IF(CONTAINS(&quot;759, 773, 776, 777, 778&quot;, left(ShippingPostalCode,3)), &quot;B08&quot;,
+IF(CONTAINS(&quot;770, 772, 774, 775, 779, 783, 784, 789&quot;, left(ShippingPostalCode,3)), &quot;B09&quot;,
+IF(CONTAINS(&quot;780, 781, 782, 785, 786, 788&quot;, left(ShippingPostalCode,3)), &quot;B11&quot;,
+IF(CONTAINS(&quot;716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729&quot;, left(ShippingPostalCode,3)), &quot;B12&quot;,
+IF(CONTAINS(&quot;710, 711, 712&quot;, left(ShippingPostalCode,3)), &quot;B13&quot;,
+&quot;NA&quot;))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>GeoCodeBxx</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

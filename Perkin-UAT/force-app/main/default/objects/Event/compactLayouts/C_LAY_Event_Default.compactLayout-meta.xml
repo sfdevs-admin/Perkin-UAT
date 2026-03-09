@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_Event_Default</fullName>
+    <fields>Subject</fields>
+    <fields>StartDateTime</fields>
+    <fields>EndDateTime</fields>
+    <fields>Location</fields>
+    <fields>OwnerId</fields>
+    <fields>Event_Category__c</fields>
+    <fields>CategoryType__c</fields>
+    <label>C.LAY Event Default</label>
+</CompactLayout>

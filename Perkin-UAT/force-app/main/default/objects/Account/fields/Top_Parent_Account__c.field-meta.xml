@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Parent_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is used in SalesForce Reports to group Accounts that have the same Account at the highest parent level.</description>
+    <inlineHelpText>This field cannot be modified and its value is based on the value of the Parent Account field.</inlineHelpText>
+    <label>Top Parent Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Accounts within Hierarchy</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

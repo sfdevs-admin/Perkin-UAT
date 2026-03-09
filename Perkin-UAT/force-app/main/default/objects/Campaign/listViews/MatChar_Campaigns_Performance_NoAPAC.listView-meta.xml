@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MatChar_Campaigns_Performance_NoAPAC</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>Vendor_Name__c</columns>
+    <columns>Territory__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Channel__c</columns>
+    <columns>Total_Interactions__c</columns>
+    <columns>Total_QL_Hot_Interaction__c</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>CAMPAIGN.NUM_WON_OPPORTUNITIES</columns>
+    <columns>AMOUNT_WON</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2024</value>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>includes</operation>
+        <value>TEA,UVS,IR</value>
+    </filters>
+    <filters>
+        <field>Territory__c</field>
+        <operation>notContain</operation>
+        <value>APAC</value>
+    </filters>
+    <label>MatChar Campaigns Performance - NoAPAC</label>
+</ListView>

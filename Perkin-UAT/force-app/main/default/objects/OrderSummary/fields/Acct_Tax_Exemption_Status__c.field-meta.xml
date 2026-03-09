@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acct_Tax_Exemption_Status__c</fullName>
+    <formula>Account.B2B_Is_Currently_Tax_Exempt__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Acct Tax Exemption Status</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Calculation__c</fullName>
+    <inlineHelpText>Examples:
+-10%
+-$5,000 – this MUST be accompanied by a value for each country, in local currency, where the promotion applies.
+-10% for the first 4, -15% for 5-9, -20% for 10 and above.</inlineHelpText>
+    <label>Discount Calculation</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

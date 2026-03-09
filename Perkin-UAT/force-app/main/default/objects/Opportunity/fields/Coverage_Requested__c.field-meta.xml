@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coverage_Requested__c</fullName>
+    <label>Coverage Requested</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>30X</fullName>
+                <default>false</default>
+                <label>30X</label>
+            </value>
+            <value>
+                <fullName>50X</fullName>
+                <default>false</default>
+                <label>50X</label>
+            </value>
+            <value>
+                <fullName>Other coverage</fullName>
+                <default>false</default>
+                <label>Other coverage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

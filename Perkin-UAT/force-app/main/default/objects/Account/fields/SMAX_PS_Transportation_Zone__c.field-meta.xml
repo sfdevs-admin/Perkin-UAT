@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Transportation_Zone__c</fullName>
+    <description>Required by SAP for a Parts Order.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Required by SAP for a Parts Order.</inlineHelpText>
+    <label>Transportation Zone</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

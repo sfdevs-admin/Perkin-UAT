@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Issue_Type__c</fullName>
+    <label>DX Issue Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assisted Engineer</fullName>
+                <default>false</default>
+                <label>Assisted Engineer</label>
+            </value>
+            <value>
+                <fullName>Assisted Engineer Administrative</fullName>
+                <default>false</default>
+                <label>Assisted Engineer Administrative</label>
+            </value>
+            <value>
+                <fullName>Assisted Engineer Technical</fullName>
+                <default>false</default>
+                <label>Assisted Engineer Technical</label>
+            </value>
+            <value>
+                <fullName>Customer: Additional Training Needed or Requested</fullName>
+                <default>false</default>
+                <label>Customer: Additional Training Needed or Requested</label>
+            </value>
+            <value>
+                <fullName>Customer: Expectation/Feedback/Observation</fullName>
+                <default>false</default>
+                <label>Customer: Expectation/Feedback/Observation</label>
+            </value>
+            <value>
+                <fullName>Customer: General inquiry</fullName>
+                <default>false</default>
+                <label>Customer: General inquiry</label>
+            </value>
+            <value>
+                <fullName>Customer: User Error</fullName>
+                <default>false</default>
+                <label>Customer: User Error</label>
+            </value>
+            <value>
+                <fullName>Instrument Setup/Optimization</fullName>
+                <default>false</default>
+                <label>Instrument Setup/Optimization</label>
+            </value>
+            <value>
+                <fullName>IQ/OQ</fullName>
+                <default>false</default>
+                <label>IQ/OQ</label>
+            </value>
+            <value>
+                <fullName>Logistic Issue</fullName>
+                <default>false</default>
+                <label>Logistic Issue</label>
+            </value>
+            <value>
+                <fullName>Lost Plates</fullName>
+                <default>false</default>
+                <label>Lost Plates</label>
+            </value>
+            <value>
+                <fullName>Missing Reagents or Consumables</fullName>
+                <default>false</default>
+                <label>Missing Reagents or Consumables</label>
+            </value>
+            <value>
+                <fullName>Onsite Troubleshooting</fullName>
+                <default>false</default>
+                <label>Onsite Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Part Number Assistance</fullName>
+                <default>false</default>
+                <label>Part Number Assistance</label>
+            </value>
+            <value>
+                <fullName>Performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>Price Inquiry Customer</fullName>
+                <default>false</default>
+                <label>Price Inquiry Customer</label>
+            </value>
+            <value>
+                <fullName>Price Inquiry Sales</fullName>
+                <default>false</default>
+                <label>Price Inquiry Sales</label>
+            </value>
+            <value>
+                <fullName>Price Inquiry Service</fullName>
+                <default>false</default>
+                <label>Price Inquiry Service</label>
+            </value>
+            <value>
+                <fullName>Product Defect</fullName>
+                <default>false</default>
+                <label>Product Defect</label>
+            </value>
+            <value>
+                <fullName>Quality Issue</fullName>
+                <default>false</default>
+                <label>Quality Issue</label>
+            </value>
+            <value>
+                <fullName>Reallocate to other Business</fullName>
+                <default>false</default>
+                <label>Reallocate to other Business</label>
+            </value>
+            <value>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+                <label>Sales Support</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Software Problem Escalation</fullName>
+                <default>false</default>
+                <label>Software Problem Escalation</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

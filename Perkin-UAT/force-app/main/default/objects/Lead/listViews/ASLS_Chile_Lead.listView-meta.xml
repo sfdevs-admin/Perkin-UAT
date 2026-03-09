@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASLS_Chile_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ASLS Chile</label>
+    <queue>ARQ_000399</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

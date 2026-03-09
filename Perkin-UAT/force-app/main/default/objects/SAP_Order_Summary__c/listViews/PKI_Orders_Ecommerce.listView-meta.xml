@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Orders_Ecommerce</fullName>
+    <columns>NAME</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Quote_Number__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Current_Global_Delivery_Date__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Count_of_Items__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source_Type__c</field>
+        <operation>contains</operation>
+        <value>ZWEB</value>
+    </filters>
+    <label>PKI Orders (Ecommerce)</label>
+</ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Phase__c</fullName>
+    <description>Used to select phase value for products. Perk-75</description>
+    <label>Phase</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C18</fullName>
+                <default>false</default>
+                <label>C18</label>
+            </value>
+            <value>
+                <fullName>C8</fullName>
+                <default>false</default>
+                <label>C8</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

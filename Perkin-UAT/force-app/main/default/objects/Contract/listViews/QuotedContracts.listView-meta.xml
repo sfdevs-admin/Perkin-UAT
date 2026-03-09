@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QuotedContracts</fullName>
+    <columns>CONTRACT.NAME</columns>
+    <columns>CONTRACT.CONTRACT_NUMBER</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>CONTRACT.START_DATE</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <columns>SAP_Quote_No__c</columns>
+    <columns>Quote_Total__c</columns>
+    <columns>Contract_Type__c</columns>
+    <columns>Asset__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTRACT.STATUS</field>
+        <operation>equals</operation>
+        <value>Draft,In Approval Process</value>
+    </filters>
+    <filters>
+        <field>CONTRACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contract.LABWORKSSMA</value>
+    </filters>
+    <filters>
+        <field>CONTRACT.START_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <label>Quoted Contracts This Fiscal Quarter</label>
+    <language>en_US</language>
+</ListView>

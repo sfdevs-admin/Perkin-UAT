@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDF_Resource_Type__c</fullName>
+    <label>PDF Resource Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Technical Resources</fullName>
+                <default>false</default>
+                <label>Technical Resources</label>
+            </value>
+            <value>
+                <fullName>Business Insights</fullName>
+                <default>false</default>
+                <label>Business Insights</label>
+            </value>
+            <value>
+                <fullName>Customer Story</fullName>
+                <default>false</default>
+                <label>Customer Story</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

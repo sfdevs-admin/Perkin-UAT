@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_CR_Due_Date__c</fullName>
+    <description>Used to record when the customer is expecting to receive the change.(Jira ITSFDC-4753)</description>
+    <inlineHelpText>Date when the customer is expecting to receive the change</inlineHelpText>
+    <label>CR Due Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

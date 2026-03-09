@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <description>To store the Category of Website form  (Source: INC0406105)</description>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Biodiscovery Reagents and Assays (Alpha, HTRF, LANCE, Lites, DELFIA)</fullName>
+                <default>false</default>
+                <label>Biodiscovery Reagents and Assays (Alpha, HTRF, LANCE, Lites, DELFIA)</label>
+            </value>
+            <value>
+                <fullName>Bioprocess QC (ssDNA, FFA, HostDetectTM)</fullName>
+                <default>false</default>
+                <label>Bioprocess QC (ssDNA, FFA, HostDetectTM)</label>
+            </value>
+            <value>
+                <fullName>Cell Counting and Image Cytometry (Nexcelom)</fullName>
+                <default>false</default>
+                <label>Cell Counting and Image Cytometry (Nexcelom)</label>
+            </value>
+            <value>
+                <fullName>Cell Lines and Membranes</fullName>
+                <default>false</default>
+                <label>Cell Lines and Membranes</label>
+            </value>
+            <value>
+                <fullName>Cellular Imaging and Analysis - Reagents</fullName>
+                <default>false</default>
+                <label>Cellular Imaging and Analysis - Reagents</label>
+            </value>
+            <value>
+                <fullName>Genetic Screening</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Genetic Screening</label>
+            </value>
+            <value>
+                <fullName>High Content Screening Systems</fullName>
+                <default>false</default>
+                <label>High Content Screening Systems</label>
+            </value>
+            <value>
+                <fullName>In Vivo Imaging - Instruments</fullName>
+                <default>false</default>
+                <label>In Vivo Imaging - Instruments</label>
+            </value>
+            <value>
+                <fullName>In Vivo Imaging - Reagents</fullName>
+                <default>false</default>
+                <label>In Vivo Imaging - Reagents</label>
+            </value>
+            <value>
+                <fullName>LabChip (Microfluidics)</fullName>
+                <default>false</default>
+                <label>LabChip (Microfluidics)</label>
+            </value>
+            <value>
+                <fullName>Microplates – Consumables</fullName>
+                <default>false</default>
+                <label>Microplates – Consumables</label>
+            </value>
+            <value>
+                <fullName>Molecular Diagnostics (COVID-19, CMV, C. auris)</fullName>
+                <default>false</default>
+                <label>Molecular Diagnostics (COVID-19, CMV, C. auris)</label>
+            </value>
+            <value>
+                <fullName>Next Gen Sequencing</fullName>
+                <default>false</default>
+                <label>Next Gen Sequencing</label>
+            </value>
+            <value>
+                <fullName>Nucleic Acid Purification</fullName>
+                <default>false</default>
+                <label>Nucleic Acid Purification</label>
+            </value>
+            <value>
+                <fullName>Omni Homogenizers and Accessories</fullName>
+                <default>false</default>
+                <label>Omni Homogenizers and Accessories</label>
+            </value>
+            <value>
+                <fullName>Omni Sonicators</fullName>
+                <default>false</default>
+                <label>Omni Sonicators</label>
+            </value>
+            <value>
+                <fullName>Oxford Immunotec</fullName>
+                <default>false</default>
+                <label>Oxford Immunotec</label>
+            </value>
+            <value>
+                <fullName>Radiochemicals, Scintillation Cocktails and Consumables</fullName>
+                <default>false</default>
+                <label>Radiochemicals, Scintillation Cocktails and Consumables</label>
+            </value>
+            <value>
+                <fullName>Radiochemicals - Reagents and Consumables</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Radiochemicals - Reagents and Consumables</label>
+            </value>
+            <value>
+                <fullName>Reproductive Health</fullName>
+                <default>false</default>
+                <label>Reproductive Health</label>
+            </value>
+            <value>
+                <fullName>Research Reagents</fullName>
+                <default>false</default>
+                <label>Research Reagents</label>
+            </value>
+            <value>
+                <fullName>Revvity Centrifuges</fullName>
+                <default>false</default>
+                <label>Revvity Centrifuges</label>
+            </value>
+            <value>
+                <fullName>Scintillation Counting – Reagents</fullName>
+                <default>false</default>
+                <label>Scintillation Counting – Reagents</label>
+            </value>
+            <value>
+                <fullName>Single Cell Genomics</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Single Cell Genomics</label>
+            </value>
+            <value>
+                <fullName>Vanadis</fullName>
+                <default>false</default>
+                <label>Vanadis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_End_Market__c</fullName>
+    <label>Account End-Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Account_Sector__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pharmaceuticals</fullName>
+                <default>false</default>
+                <label>Pharmaceuticals</label>
+            </value>
+            <value>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+                <label>Biotechnology</label>
+            </value>
+            <value>
+                <fullName>CROs &amp; CMOs</fullName>
+                <default>false</default>
+                <label>CROs &amp; CMOs</label>
+            </value>
+            <value>
+                <fullName>Academia</fullName>
+                <default>false</default>
+                <label>Academia</label>
+            </value>
+            <value>
+                <fullName>Government Research</fullName>
+                <default>false</default>
+                <label>Government Research</label>
+            </value>
+            <value>
+                <fullName>Government Testing</fullName>
+                <default>false</default>
+                <label>Government Testing</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>Defense/Military</fullName>
+                <default>false</default>
+                <label>Defense/Military</label>
+            </value>
+            <value>
+                <fullName>Ag/Food &amp; Beverage</fullName>
+                <default>false</default>
+                <label>Ag/Food &amp; Beverage</label>
+            </value>
+            <value>
+                <fullName>General &amp; Environmental Testing Labs</fullName>
+                <default>false</default>
+                <label>General &amp; Environmental Testing Labs</label>
+            </value>
+            <value>
+                <fullName>Hospital &amp; Clinical Labs</fullName>
+                <default>false</default>
+                <label>Hospital &amp; Clinical Labs</label>
+            </value>
+            <value>
+                <fullName>Forensics</fullName>
+                <default>false</default>
+                <label>Forensics</label>
+            </value>
+            <value>
+                <fullName>Medical Devices</fullName>
+                <default>false</default>
+                <label>Medical Devices</label>
+            </value>
+            <value>
+                <fullName>Direct-To-Consumer Testing</fullName>
+                <default>false</default>
+                <label>Direct-To-Consumer Testing</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Oil &amp; Gas</fullName>
+                <default>false</default>
+                <label>Oil &amp; Gas</label>
+            </value>
+            <value>
+                <fullName>Batteries</fullName>
+                <default>false</default>
+                <label>Batteries</label>
+            </value>
+            <value>
+                <fullName>Polymers &amp; Recycling</fullName>
+                <default>false</default>
+                <label>Polymers &amp; Recycling</label>
+            </value>
+            <value>
+                <fullName>Personal Care</fullName>
+                <default>false</default>
+                <label>Personal Care</label>
+            </value>
+            <value>
+                <fullName>Paints &amp; Coatings</fullName>
+                <default>false</default>
+                <label>Paints &amp; Coatings</label>
+            </value>
+            <value>
+                <fullName>Cement &amp; Construction</fullName>
+                <default>false</default>
+                <label>Cement &amp; Construction</label>
+            </value>
+            <value>
+                <fullName>Metals &amp; Mining</fullName>
+                <default>false</default>
+                <label>Metals &amp; Mining</label>
+            </value>
+            <value>
+                <fullName>Aerospace &amp; Automotive</fullName>
+                <default>false</default>
+                <label>Aerospace &amp; Automotive</label>
+            </value>
+            <value>
+                <fullName>Semiconductors &amp; Nanotechnology</fullName>
+                <default>false</default>
+                <label>Semiconductors &amp; Nanotechnology</label>
+            </value>
+            <value>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+                <label>Electronics</label>
+            </value>
+            <value>
+                <fullName>Textiles</fullName>
+                <default>false</default>
+                <label>Textiles</label>
+            </value>
+            <value>
+                <fullName>Pulp &amp; Paper</fullName>
+                <default>false</default>
+                <label>Pulp &amp; Paper</label>
+            </value>
+            <value>
+                <fullName>Printing &amp; Graphics</fullName>
+                <default>false</default>
+                <label>Printing &amp; Graphics</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Pharma/Bio</controllingFieldValue>
+            <valueName>Pharmaceuticals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pharma/Bio</controllingFieldValue>
+            <valueName>Biotechnology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pharma/Bio</controllingFieldValue>
+            <valueName>CROs &amp; CMOs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Academia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Government Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Government Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>Defense/Military</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Ag/Food &amp; Beverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>General &amp; Environmental Testing Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Hospital &amp; Clinical Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Forensics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Medical Devices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Direct-To-Consumer Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Chemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Oil &amp; Gas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Batteries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Polymers &amp; Recycling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Personal Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Paints &amp; Coatings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Cement &amp; Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Metals &amp; Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Aerospace &amp; Automotive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Semiconductors &amp; Nanotechnology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Electronics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Textiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Pulp &amp; Paper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Printing &amp; Graphics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

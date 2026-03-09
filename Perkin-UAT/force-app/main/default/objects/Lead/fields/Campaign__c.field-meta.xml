@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Custom field for adding a lead to a Campaign Member object via a P.FLOW</description>
+    <inlineHelpText>Select a campaign and this lead will be added to that campaign</inlineHelpText>
+    <label>Campaign Name</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Leads (Campaign Name)</relationshipLabel>
+    <relationshipName>Leads1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

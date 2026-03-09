@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prenatal_Laboratory_Being_Used__c</fullName>
+    <label>Prenatal Laboratory Being Used</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NTD</fullName>
+                <default>false</default>
+                <label>NTD</label>
+            </value>
+            <value>
+                <fullName>Genzyme</fullName>
+                <default>false</default>
+                <label>Genzyme</label>
+            </value>
+            <value>
+                <fullName>GeneCare</fullName>
+                <default>false</default>
+                <label>GeneCare</label>
+            </value>
+            <value>
+                <fullName>Quest</fullName>
+                <default>false</default>
+                <label>Quest</label>
+            </value>
+            <value>
+                <fullName>LabCorp</fullName>
+                <default>false</default>
+                <label>LabCorp</label>
+            </value>
+            <value>
+                <fullName>University Lab</fullName>
+                <default>false</default>
+                <label>University Lab</label>
+            </value>
+            <value>
+                <fullName>Research Lab</fullName>
+                <default>false</default>
+                <label>Research Lab</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

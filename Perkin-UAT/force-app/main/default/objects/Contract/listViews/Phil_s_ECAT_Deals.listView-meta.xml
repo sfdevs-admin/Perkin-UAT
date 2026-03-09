@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phil_s_ECAT_Deals</fullName>
+    <columns>SAP_Deal_Number_del__c</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>CONTRACT.NAME</columns>
+    <columns>CONTRACT.CONTRACT_NUMBER</columns>
+    <columns>Annual_Revenue__c</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <columns>SAP_Deal_Status__c</columns>
+    <columns>Line_Items_After_Update__c</columns>
+    <columns>Pac_Code_Items_After_Update__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>eProcurement_e_catalog_lead_time_days__c</columns>
+    <columns>eProcurement_Start_Date_Contracts__c</columns>
+    <columns>eProcurement_Catalog_Type_Contracts__c</columns>
+    <columns>B2B_url_link__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>eProcurement_Catalog_Type_Contracts__c</field>
+        <operation>equals</operation>
+        <value>Hosted</value>
+    </filters>
+    <filters>
+        <field>CONTRACT.STATUS</field>
+        <operation>equals</operation>
+        <value>Activated</value>
+    </filters>
+    <label>Phil&#39;s ECAT Deals-DO NOT DELETE</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

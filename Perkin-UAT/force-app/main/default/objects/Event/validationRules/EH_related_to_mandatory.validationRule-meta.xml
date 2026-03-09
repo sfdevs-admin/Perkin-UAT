@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_related_to_mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &#39;Environmental_Event&#39;
+   ,OR(
+       ISBLANK(WhoId)
+       ,ISBLANK(WhatId)
+      )
+   )</errorConditionFormula>
+    <errorDisplayField>Activity_Viacord__c</errorDisplayField>
+    <errorMessage>V.RULE_EVENT_001: Please make sure both &#39;Name&#39; and &#39;Related To&#39; is filled</errorMessage>
+</ValidationRule>

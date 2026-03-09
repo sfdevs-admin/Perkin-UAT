@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Path_Date_Ready_for_Shipping__c</fullName>
+    <description>Calculated in SQL, as the 1st date at which this value appeared.</description>
+    <inlineHelpText>Calculated in SQL, as the 1st date at which this value appeared.</inlineHelpText>
+    <label>Path Date Ready for Shipping</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

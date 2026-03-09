@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program__c</fullName>
+    <label>Program</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Business_Segment__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3DCIA - Cell Imaging &amp; Analysis</fullName>
+                <default>false</default>
+                <label>3DCIA - Cell Imaging &amp; Analysis</label>
+            </value>
+            <value>
+                <fullName>AAV - Adeno associated virus</fullName>
+                <default>false</default>
+                <label>AAV - Adeno associated virus</label>
+            </value>
+            <value>
+                <fullName>AI - Autoimmunity</fullName>
+                <default>false</default>
+                <label>AI - Autoimmunity</label>
+            </value>
+            <value>
+                <fullName>Applied</fullName>
+                <default>false</default>
+                <label>Applied</label>
+            </value>
+            <value>
+                <fullName>ATM - Automation</fullName>
+                <default>false</default>
+                <label>ATM - Automation</label>
+            </value>
+            <value>
+                <fullName>ATMFLEX - Automation | Flexdrop</fullName>
+                <default>false</default>
+                <label>ATMFLEX - Automation | Flexdrop</label>
+            </value>
+            <value>
+                <fullName>BB - Biobanking</fullName>
+                <default>false</default>
+                <label>BB - Biobanking</label>
+            </value>
+            <value>
+                <fullName>BEV - Beverage</fullName>
+                <default>false</default>
+                <label>BEV - Beverage</label>
+            </value>
+            <value>
+                <fullName>BEV – Beverage</fullName>
+                <default>false</default>
+                <label>BEV – Beverage</label>
+            </value>
+            <value>
+                <fullName>BIOBioELN</fullName>
+                <default>false</default>
+                <label>BIOBioELN</label>
+            </value>
+            <value>
+                <fullName>BIO - Biologics</fullName>
+                <default>false</default>
+                <label>BIO - Biologics</label>
+            </value>
+            <value>
+                <fullName>BIO – Biologics</fullName>
+                <default>false</default>
+                <label>BIO – Biologics</label>
+            </value>
+            <value>
+                <fullName>BIOINF - Biology</fullName>
+                <default>false</default>
+                <label>BIOINF - Biology</label>
+            </value>
+            <value>
+                <fullName>BIOLDP</fullName>
+                <default>false</default>
+                <label>BIOLDP</label>
+            </value>
+            <value>
+                <fullName>BIOSImA</fullName>
+                <default>false</default>
+                <label>BIOSImA</label>
+            </value>
+            <value>
+                <fullName>BIOSINV</fullName>
+                <default>false</default>
+                <label>BIOSINV</label>
+            </value>
+            <value>
+                <fullName>BIOSNB</fullName>
+                <default>false</default>
+                <label>BIOSNB</label>
+            </value>
+            <value>
+                <fullName>BIOSRP</fullName>
+                <default>false</default>
+                <label>BIOSRP</label>
+            </value>
+            <value>
+                <fullName>BIOSRS</fullName>
+                <default>false</default>
+                <label>BIOSRS</label>
+            </value>
+            <value>
+                <fullName>BIOSVV</fullName>
+                <default>false</default>
+                <label>BIOSVV</label>
+            </value>
+            <value>
+                <fullName>BM - Biological Models</fullName>
+                <default>false</default>
+                <label>BM - Biological Models</label>
+            </value>
+            <value>
+                <fullName>BR - Basic Research</fullName>
+                <default>false</default>
+                <label>BR - Basic Research</label>
+            </value>
+            <value>
+                <fullName>BR-Basic Research</fullName>
+                <default>false</default>
+                <label>BR-Basic Research</label>
+            </value>
+            <value>
+                <fullName>BTX - Biotherapeutics</fullName>
+                <default>false</default>
+                <label>BTX - Biotherapeutics</label>
+            </value>
+            <value>
+                <fullName>CCIC - Cell Counting and Image Cytometry</fullName>
+                <default>false</default>
+                <label>CCIC - Cell Counting and Image Cytometry</label>
+            </value>
+            <value>
+                <fullName>CD - ChemDraw</fullName>
+                <default>false</default>
+                <label>CD - ChemDraw</label>
+            </value>
+            <value>
+                <fullName>CFF - Cell Free Fluids</fullName>
+                <default>false</default>
+                <label>CFF - Cell Free Fluids</label>
+            </value>
+            <value>
+                <fullName>CFF – Cell Free Fluids</fullName>
+                <default>false</default>
+                <label>CFF – Cell Free Fluids</label>
+            </value>
+            <value>
+                <fullName>CGT - Cell &amp; Gene Therapy</fullName>
+                <default>false</default>
+                <label>CGT - Cell &amp; Gene Therapy</label>
+            </value>
+            <value>
+                <fullName>CGT-Cell &amp; Gene Therapy</fullName>
+                <default>false</default>
+                <label>CGT-Cell &amp; Gene Therapy</label>
+            </value>
+            <value>
+                <fullName>ChemDraw</fullName>
+                <default>false</default>
+                <label>ChemDraw</label>
+            </value>
+            <value>
+                <fullName>CLIN - Clinical</fullName>
+                <default>false</default>
+                <label>CLIN - Clinical</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>CLINSpotfire</fullName>
+                <default>false</default>
+                <label>CLINSpotfire</label>
+            </value>
+            <value>
+                <fullName>CLR - Caliper Reagents</fullName>
+                <default>false</default>
+                <label>CLR - Caliper Reagents</label>
+            </value>
+            <value>
+                <fullName>COMP = Competitor</fullName>
+                <default>false</default>
+                <label>COMP = Competitor</label>
+            </value>
+            <value>
+                <fullName>CON - Consumables</fullName>
+                <default>false</default>
+                <label>CON - Consumables</label>
+            </value>
+            <value>
+                <fullName>CONGC - Consumables Gas Chromatography</fullName>
+                <default>false</default>
+                <label>CONGC - Consumables Gas Chromatography</label>
+            </value>
+            <value>
+                <fullName>CONLC - Consumables Liquid Chromatography</fullName>
+                <default>false</default>
+                <label>CONLC - Consumables Liquid Chromatography</label>
+            </value>
+            <value>
+                <fullName>CORE - Core</fullName>
+                <default>false</default>
+                <label>CORE - Core</label>
+            </value>
+            <value>
+                <fullName>COV - Coronavirus</fullName>
+                <default>false</default>
+                <label>COV - Coronavirus</label>
+            </value>
+            <value>
+                <fullName>CRISPR</fullName>
+                <default>false</default>
+                <label>CRISPR</label>
+            </value>
+            <value>
+                <fullName>CRO - Clinical Research Organization</fullName>
+                <default>false</default>
+                <label>CRO - Clinical Research Organization</label>
+            </value>
+            <value>
+                <fullName>CR - Oncology</fullName>
+                <default>false</default>
+                <label>CR - Oncology</label>
+            </value>
+            <value>
+                <fullName>CR-Cancer Research</fullName>
+                <default>false</default>
+                <label>CR – Oncology</label>
+            </value>
+            <value>
+                <fullName>DAR - Dairy</fullName>
+                <default>false</default>
+                <label>DAR - Dairy</label>
+            </value>
+            <value>
+                <fullName>DCCD</fullName>
+                <default>false</default>
+                <label>DCCD</label>
+            </value>
+            <value>
+                <fullName>DC - Discovery Chemistry</fullName>
+                <default>false</default>
+                <label>DC - Discovery Chemistry</label>
+            </value>
+            <value>
+                <fullName>DCLDP</fullName>
+                <default>false</default>
+                <label>DCLDP</label>
+            </value>
+            <value>
+                <fullName>DCSINV</fullName>
+                <default>false</default>
+                <label>DCSINV</label>
+            </value>
+            <value>
+                <fullName>DCSNB</fullName>
+                <default>false</default>
+                <label>DCSNB</label>
+            </value>
+            <value>
+                <fullName>DCSRP</fullName>
+                <default>false</default>
+                <label>DCSRP</label>
+            </value>
+            <value>
+                <fullName>DCSRS</fullName>
+                <default>false</default>
+                <label>DCSRS</label>
+            </value>
+            <value>
+                <fullName>DDR - Drug Discovery Reagents</fullName>
+                <default>false</default>
+                <label>DDR - Drug Discovery Reagents</label>
+            </value>
+            <value>
+                <fullName>DDR – Drug Discovery Reagents</fullName>
+                <default>false</default>
+                <label>DDR – Drug Discovery Reagents</label>
+            </value>
+            <value>
+                <fullName>DDS - Drug Discovery</fullName>
+                <default>false</default>
+                <label>DDS - Drug Discovery</label>
+            </value>
+            <value>
+                <fullName>DDS-Drug Discovery</fullName>
+                <default>false</default>
+                <label>DDS-Drug Discovery</label>
+            </value>
+            <value>
+                <fullName>DDV - Drug Development</fullName>
+                <default>false</default>
+                <label>DDV - Drug Development</label>
+            </value>
+            <value>
+                <fullName>DDV- Drug Development</fullName>
+                <default>false</default>
+                <label>DDV- Drug Development</label>
+            </value>
+            <value>
+                <fullName>ENB - E-Notebook</fullName>
+                <default>false</default>
+                <label>ENB - E-Notebook</label>
+            </value>
+            <value>
+                <fullName>ENotebook</fullName>
+                <default>false</default>
+                <label>ENotebook</label>
+            </value>
+            <value>
+                <fullName>ENT - Enterprise</fullName>
+                <default>false</default>
+                <label>ENT - Enterprise</label>
+            </value>
+            <value>
+                <fullName>ENT – Enterprise</fullName>
+                <default>false</default>
+                <label>ENT – Enterprise</label>
+            </value>
+            <value>
+                <fullName>ENVAir - Environmental | Air</fullName>
+                <default>false</default>
+                <label>ENVAir - Environmental | Air</label>
+            </value>
+            <value>
+                <fullName>ENVAir – Environmental | Air</fullName>
+                <default>false</default>
+                <label>ENVAir – Environmental | Air</label>
+            </value>
+            <value>
+                <fullName>ENV - Environmental</fullName>
+                <default>false</default>
+                <label>ENV - Environmental</label>
+            </value>
+            <value>
+                <fullName>ENVSoil - Environmental | Soil</fullName>
+                <default>false</default>
+                <label>ENVSoil - Environmental | Soil</label>
+            </value>
+            <value>
+                <fullName>ENVSoil – Environmental | Soil</fullName>
+                <default>false</default>
+                <label>ENVSoil – Environmental | Soil</label>
+            </value>
+            <value>
+                <fullName>ENVWtr - Environmental | Water</fullName>
+                <default>false</default>
+                <label>ENVWtr - Environmental | Water</label>
+            </value>
+            <value>
+                <fullName>ENVWtr – Environmental | Water</fullName>
+                <default>false</default>
+                <label>ENVWtr – Environmental | Water</label>
+            </value>
+            <value>
+                <fullName>FAP - Agents Fluorescent Imaging</fullName>
+                <default>false</default>
+                <label>FAP - Agents Fluorescent Imaging</label>
+            </value>
+            <value>
+                <fullName>FGS - Functional Genomic Screening</fullName>
+                <default>false</default>
+                <label>FGS - Functional Genomic Screening</label>
+            </value>
+            <value>
+                <fullName>FS - Food Safety</fullName>
+                <default>false</default>
+                <label>FS - Food Safety</label>
+            </value>
+            <value>
+                <fullName>FTB - For The Better</fullName>
+                <default>false</default>
+                <label>FTB - For The Better</label>
+            </value>
+            <value>
+                <fullName>GAM - Gov. &amp; Academic</fullName>
+                <default>false</default>
+                <label>GAM - Gov. &amp; Academic</label>
+            </value>
+            <value>
+                <fullName>GAM - Gov &amp; Academic</fullName>
+                <default>false</default>
+                <label>GAM - Gov &amp; Academic</label>
+            </value>
+            <value>
+                <fullName>GEND - Gene Delivery (Sirion)</fullName>
+                <default>false</default>
+                <label>GEND - Gene Delivery (Sirion)</label>
+            </value>
+            <value>
+                <fullName>GEN - Genomics</fullName>
+                <default>false</default>
+                <label>GEN - Genomics</label>
+            </value>
+            <value>
+                <fullName>GNRL - General</fullName>
+                <default>false</default>
+                <label>GNRL - General</label>
+            </value>
+            <value>
+                <fullName>GRN - Grain</fullName>
+                <default>false</default>
+                <label>GRN - Grain</label>
+            </value>
+            <value>
+                <fullName>HCA - High Content Analysis</fullName>
+                <default>false</default>
+                <label>HCA - High Content Analysis</label>
+            </value>
+            <value>
+                <fullName>HCS - High Content Screening</fullName>
+                <default>false</default>
+                <label>HCS - High Content Screening</label>
+            </value>
+            <value>
+                <fullName>HCS – High Content Screening</fullName>
+                <default>false</default>
+                <label>HCS – High Content Screening</label>
+            </value>
+            <value>
+                <fullName>ICCD</fullName>
+                <default>false</default>
+                <label>ICCD</label>
+            </value>
+            <value>
+                <fullName>IC - Industrial Chemistry</fullName>
+                <default>false</default>
+                <label>IC - Industrial Chemistry</label>
+            </value>
+            <value>
+                <fullName>ICLDP</fullName>
+                <default>false</default>
+                <label>ICLDP</label>
+            </value>
+            <value>
+                <fullName>ICSINV</fullName>
+                <default>false</default>
+                <label>ICSINV</label>
+            </value>
+            <value>
+                <fullName>ICSNB</fullName>
+                <default>false</default>
+                <label>ICSNB</label>
+            </value>
+            <value>
+                <fullName>ICSRP</fullName>
+                <default>false</default>
+                <label>ICSRP</label>
+            </value>
+            <value>
+                <fullName>ICSRS</fullName>
+                <default>false</default>
+                <label>ICSRS</label>
+            </value>
+            <value>
+                <fullName>IFD - Infectious Disease</fullName>
+                <default>false</default>
+                <label>IFD - Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>IFD – Infectious Disease</fullName>
+                <default>false</default>
+                <label>IFD – Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>INDAgro - Agrochemicals</fullName>
+                <default>false</default>
+                <label>INDAgro - Agrochemicals</label>
+            </value>
+            <value>
+                <fullName>INDAgro – Agrochemicals</fullName>
+                <default>false</default>
+                <label>INDAgro – Agrochemicals</label>
+            </value>
+            <value>
+                <fullName>INDBat - Industrial | Batteries</fullName>
+                <default>false</default>
+                <label>INDBat - Industrial | Batteries</label>
+            </value>
+            <value>
+                <fullName>INDBat – Industrial | Batteries</fullName>
+                <default>false</default>
+                <label>INDBat – Industrial | Batteries</label>
+            </value>
+            <value>
+                <fullName>INDChem - Industrial | Chemicals</fullName>
+                <default>false</default>
+                <label>INDChem - Industrial | Chemicals</label>
+            </value>
+            <value>
+                <fullName>INDChem – Industrial |Chemicals</fullName>
+                <default>false</default>
+                <label>INDChem – Industrial |Chemicals</label>
+            </value>
+            <value>
+                <fullName>INDEngyren - Industrial | Energyrenewables</fullName>
+                <default>false</default>
+                <label>INDEngyren - Industrial | Energyrenewables</label>
+            </value>
+            <value>
+                <fullName>INDEngyren – Industrial | Energyrenewables</fullName>
+                <default>false</default>
+                <label>INDEngyren – Industrial | Energyrenewables</label>
+            </value>
+            <value>
+                <fullName>INDGeomin - Industrial | Geology Mining</fullName>
+                <default>false</default>
+                <label>INDGeomin - Industrial | Geology Mining</label>
+            </value>
+            <value>
+                <fullName>INDGeomin – Industrial | Geology Mining</fullName>
+                <default>false</default>
+                <label>INDGeomin – Industrial | Geology Mining</label>
+            </value>
+            <value>
+                <fullName>INDGlsopt = Industrial | Glass Optics</fullName>
+                <default>false</default>
+                <label>INDGlsopt = Industrial | Glass Optics</label>
+            </value>
+            <value>
+                <fullName>INDGlsopt – Industrial | Glass Optics</fullName>
+                <default>false</default>
+                <label>INDGlsopt – Industrial | Glass Optics</label>
+            </value>
+            <value>
+                <fullName>IND - Industrial</fullName>
+                <default>false</default>
+                <label>IND - Industrial</label>
+            </value>
+            <value>
+                <fullName>INDLubcool - Industrial | Lubricants Coolants</fullName>
+                <default>false</default>
+                <label>INDLubcool - Industrial | Lubricants Coolants</label>
+            </value>
+            <value>
+                <fullName>INDLubcool – Industrial | Lubricants Coolants</fullName>
+                <default>false</default>
+                <label>INDLubcool – Industrial | Lubricants Coolants</label>
+            </value>
+            <value>
+                <fullName>INDMat - Industrial | Materials</fullName>
+                <default>false</default>
+                <label>INDMat - Industrial | Materials</label>
+            </value>
+            <value>
+                <fullName>INDMat – Industrial | Materials</fullName>
+                <default>false</default>
+                <label>INDMat – Industrial | Materials</label>
+            </value>
+            <value>
+                <fullName>INDPolyRec - Industrial | Polymers Recycling</fullName>
+                <default>false</default>
+                <label>INDPolyRec - Industrial | Polymers Recycling</label>
+            </value>
+            <value>
+                <fullName>INDPolyRec – Industrial | Polymers Recycling</fullName>
+                <default>false</default>
+                <label>INDPolyRec – Industrial | Polymers Recycling</label>
+            </value>
+            <value>
+                <fullName>INDSemielec - Industrial | Semi Electronics</fullName>
+                <default>false</default>
+                <label>INDSemielec - Industrial | Semi Electronics</label>
+            </value>
+            <value>
+                <fullName>INDSemielec – Industrial | Semi Electronics</fullName>
+                <default>false</default>
+                <label>INDSemielec – Industrial | Semi Electronics</label>
+            </value>
+            <value>
+                <fullName>InstrSvs - Instrument Services</fullName>
+                <default>false</default>
+                <label>InstrSvs - Instrument Services</label>
+            </value>
+            <value>
+                <fullName>InstrSvs – Instrument Services</fullName>
+                <default>false</default>
+                <label>InstrSvs – Instrument Services</label>
+            </value>
+            <value>
+                <fullName>INV - In vivo imaging</fullName>
+                <default>false</default>
+                <label>INV - In vivo imaging</label>
+            </value>
+            <value>
+                <fullName>INV – In vivo imaging</fullName>
+                <default>false</default>
+                <label>INV – In vivo imaging</label>
+            </value>
+            <value>
+                <fullName>IO - Immuno-Oncology</fullName>
+                <default>false</default>
+                <label>IO - Immuno-Oncology</label>
+            </value>
+            <value>
+                <fullName>IO-Immuno-Oncology</fullName>
+                <default>false</default>
+                <label>IO-Immuno-Oncology</label>
+            </value>
+            <value>
+                <fullName>LDP - Lead Discovery Premium</fullName>
+                <default>false</default>
+                <label>LDP - Lead Discovery Premium</label>
+            </value>
+            <value>
+                <fullName>LeadDiscovery</fullName>
+                <default>false</default>
+                <label>LeadDiscoveryPremium</label>
+            </value>
+            <value>
+                <fullName>MFH - Maternal Fetal Health</fullName>
+                <default>false</default>
+                <label>MFH - Maternal Fetal Health</label>
+            </value>
+            <value>
+                <fullName>MFH – Maternal Fetal Health</fullName>
+                <default>false</default>
+                <label>MFH – Maternal Fetal Health</label>
+            </value>
+            <value>
+                <fullName>MFT - Microfluidic</fullName>
+                <default>false</default>
+                <label>MFT - Microfluidic</label>
+            </value>
+            <value>
+                <fullName>MMD - Multi-mode Detection</fullName>
+                <default>false</default>
+                <label>MMD - Multi-mode Detection</label>
+            </value>
+            <value>
+                <fullName>MMD – Multi–mode Detection</fullName>
+                <default>false</default>
+                <label>MMD – Multi–mode Detection</label>
+            </value>
+            <value>
+                <fullName>MOL - Western Blotting &amp; Nucleotides</fullName>
+                <default>false</default>
+                <label>MOL - Western Blotting &amp; Nucleotides</label>
+            </value>
+            <value>
+                <fullName>MOL – Western Blotting &amp; Nucleotides</fullName>
+                <default>false</default>
+                <label>MOL – Western Blotting &amp; Nucleotides</label>
+            </value>
+            <value>
+                <fullName>MTB - Metabolics</fullName>
+                <default>false</default>
+                <label>MTB - Metabolics</label>
+            </value>
+            <value>
+                <fullName>MTS - Meat &amp; Seafood</fullName>
+                <default>false</default>
+                <label>MTS - Meat &amp; Seafood</label>
+            </value>
+            <value>
+                <fullName>MTS - Meet &amp; Seafood</fullName>
+                <default>false</default>
+                <label>MTS - Meet &amp; Seafood</label>
+            </value>
+            <value>
+                <fullName>NBSQ - Sequencing for newborn screening</fullName>
+                <default>false</default>
+                <label>NBSQ - Sequencing for newborn screening</label>
+            </value>
+            <value>
+                <fullName>NEO - Newborn Screening</fullName>
+                <default>false</default>
+                <label>NEO - Newborn Screening</label>
+            </value>
+            <value>
+                <fullName>NEO – Newborn Screening</fullName>
+                <default>false</default>
+                <label>NEO – Newborn Screening</label>
+            </value>
+            <value>
+                <fullName>NGS - Next Gen. Sequencing</fullName>
+                <default>false</default>
+                <label>NGS - Next Gen. Sequencing</label>
+            </value>
+            <value>
+                <fullName>NPI - New Product Intro</fullName>
+                <default>false</default>
+                <label>NPI - New Product Intro</label>
+            </value>
+            <value>
+                <fullName>NPT - Vanadis</fullName>
+                <default>false</default>
+                <label>NPT - Vanadis</label>
+            </value>
+            <value>
+                <fullName>NPT – Vanadis</fullName>
+                <default>false</default>
+                <label>NPT – Vanadis</label>
+            </value>
+            <value>
+                <fullName>NS - Neuroscience</fullName>
+                <default>false</default>
+                <label>NS - Neuroscience</label>
+            </value>
+            <value>
+                <fullName>NS-Neuroscience</fullName>
+                <default>false</default>
+                <label>NS-Neuroscience</label>
+            </value>
+            <value>
+                <fullName>NXM - Nexcelom</fullName>
+                <default>false</default>
+                <label>NXM - Nexcelom</label>
+            </value>
+            <value>
+                <fullName>OCS - OneSource Compliance</fullName>
+                <default>false</default>
+                <label>OCS - OneSource Compliance</label>
+            </value>
+            <value>
+                <fullName>OCS – OneSource Compliance</fullName>
+                <default>false</default>
+                <label>OCS – OneSource Compliance</label>
+            </value>
+            <value>
+                <fullName>OSAI - Asset genius, Dashboards, RFID, Insights</fullName>
+                <default>false</default>
+                <label>OSAI - Asset genius, Dashboards, RFID, Insights</label>
+            </value>
+            <value>
+                <fullName>OSAM - Asset Management</fullName>
+                <default>false</default>
+                <label>OSAM - Asset Management</label>
+            </value>
+            <value>
+                <fullName>OSC - OneSource Compliance &amp; Qualification</fullName>
+                <default>false</default>
+                <label>OSC - OneSource Compliance &amp; Qualification</label>
+            </value>
+            <value>
+                <fullName>OSG - OneSource General</fullName>
+                <default>false</default>
+                <label>OSG - OneSource General</label>
+            </value>
+            <value>
+                <fullName>OSIS - Information Services</fullName>
+                <default>false</default>
+                <label>OSIS - Information Services</label>
+            </value>
+            <value>
+                <fullName>OSRL - Relocation</fullName>
+                <default>false</default>
+                <label>OSRL - Relocation</label>
+            </value>
+            <value>
+                <fullName>OSSS - OneSource Scientific Services</fullName>
+                <default>false</default>
+                <label>OSSS - OneSource Scientific Services</label>
+            </value>
+            <value>
+                <fullName>PBF - Plant Based Food</fullName>
+                <default>false</default>
+                <label>PBF - Plant Based Food</label>
+            </value>
+            <value>
+                <fullName>PBRD = Portfolio Brand</fullName>
+                <default>false</default>
+                <label>PBRD = Portfolio Brand</label>
+            </value>
+            <value>
+                <fullName>PCS - PreClinical Services</fullName>
+                <default>false</default>
+                <label>PCS - PreClinical Services</label>
+            </value>
+            <value>
+                <fullName>PGT - Pre-implementation genetic testing</fullName>
+                <default>false</default>
+                <label>PGT - Pre-implementation genetic testing</label>
+            </value>
+            <value>
+                <fullName>Pharma</fullName>
+                <default>false</default>
+                <label>PHAR - Pharma</label>
+            </value>
+            <value>
+                <fullName>PM - Precision Medicine</fullName>
+                <default>false</default>
+                <label>PM - Precision Medicine</label>
+            </value>
+            <value>
+                <fullName>POC - Point of Care</fullName>
+                <default>false</default>
+                <label>POC - Point of Care</label>
+            </value>
+            <value>
+                <fullName>POC – Point of Care</fullName>
+                <default>false</default>
+                <label>POC – Point of Care</label>
+            </value>
+            <value>
+                <fullName>PRE - Pre-eclampsia</fullName>
+                <default>false</default>
+                <label>PRE - Pre-eclampsia</label>
+            </value>
+            <value>
+                <fullName>ProfSvs - Professional Services</fullName>
+                <default>false</default>
+                <label>ProfSvs - Professional Services</label>
+            </value>
+            <value>
+                <fullName>PRO - Processed Foods</fullName>
+                <default>false</default>
+                <label>PRO - Processed Foods</label>
+            </value>
+            <value>
+                <fullName>QAQC - Manufacturing QA/QC</fullName>
+                <default>false</default>
+                <label>QAQC - Manufacturing QA/QC</label>
+            </value>
+            <value>
+                <fullName>QAQC-Manufacturing QA/QC</fullName>
+                <default>false</default>
+                <label>QAQC-Manufacturing QA/QC</label>
+            </value>
+            <value>
+                <fullName>RADS - Radiochemicals &amp; Radiometric Detection</fullName>
+                <default>false</default>
+                <label>RADS - Radiochemicals &amp; Radiometric Detection</label>
+            </value>
+            <value>
+                <fullName>RADS – Radiochemicals &amp; Radiometric detection</fullName>
+                <default>false</default>
+                <label>RADS – Radiochemicals &amp; Radiometric detection</label>
+            </value>
+            <value>
+                <fullName>ResearchSuite</fullName>
+                <default>false</default>
+                <label>ResearchSuite</label>
+            </value>
+            <value>
+                <fullName>REVIR - Revvity Investor Relations</fullName>
+                <default>false</default>
+                <label>REVIR - Revvity Investor Relations</label>
+            </value>
+            <value>
+                <fullName>REV - Revvity</fullName>
+                <default>false</default>
+                <label>REV - Revvity</label>
+            </value>
+            <value>
+                <fullName>RGS - Reagents</fullName>
+                <default>false</default>
+                <label>RGS - Reagents</label>
+            </value>
+            <value>
+                <fullName>RGS – Reagents</fullName>
+                <default>false</default>
+                <label>RGS – Reagents</label>
+            </value>
+            <value>
+                <fullName>RGT = Reagents</fullName>
+                <default>false</default>
+                <label>RGT = Reagents</label>
+            </value>
+            <value>
+                <fullName>SCT - Scitara</fullName>
+                <default>false</default>
+                <label>SCT - Scitara</label>
+            </value>
+            <value>
+                <fullName>SignalsImageArtist</fullName>
+                <default>false</default>
+                <label>SignalsImageArtist</label>
+            </value>
+            <value>
+                <fullName>SignalsInventa</fullName>
+                <default>false</default>
+                <label>SignalsInventa</label>
+            </value>
+            <value>
+                <fullName>SignalsNotebook</fullName>
+                <default>false</default>
+                <label>SignalsNotebook</label>
+            </value>
+            <value>
+                <fullName>SignalsVitroVivo</fullName>
+                <default>false</default>
+                <label>SignalsVitroVivo</label>
+            </value>
+            <value>
+                <fullName>SImA - Signals Image Artist</fullName>
+                <default>false</default>
+                <label>SImA - Signals Image Artist</label>
+            </value>
+            <value>
+                <fullName>SINC - Single cell</fullName>
+                <default>false</default>
+                <label>SINC - Single cell</label>
+            </value>
+            <value>
+                <fullName>SINV - Signals Inventa</fullName>
+                <default>false</default>
+                <label>SINV - Signals Inventa</label>
+            </value>
+            <value>
+                <fullName>SNB - Signals Notebook</fullName>
+                <default>false</default>
+                <label>SNB - Signals Notebook</label>
+            </value>
+            <value>
+                <fullName>SPD - Specialty diagnostics</fullName>
+                <default>false</default>
+                <label>SPD - Specialty diagnostics</label>
+            </value>
+            <value>
+                <fullName>SPD – Specialty diagnostics</fullName>
+                <default>false</default>
+                <label>SPD – Specialty diagnostics</label>
+            </value>
+            <value>
+                <fullName>Spotfire</fullName>
+                <default>false</default>
+                <label>Spotfire</label>
+            </value>
+            <value>
+                <fullName>SRP - Signals Research Platform</fullName>
+                <default>false</default>
+                <label>SRP - Signals Research Platform</label>
+            </value>
+            <value>
+                <fullName>SRS - Signals Research Suite</fullName>
+                <default>false</default>
+                <label>SRS - Signals Research Suite</label>
+            </value>
+            <value>
+                <fullName>SUS - Sustainability</fullName>
+                <default>false</default>
+                <label>SUS - Sustainability</label>
+            </value>
+            <value>
+                <fullName>TECAA - Technology | AA</fullName>
+                <default>false</default>
+                <label>TECAA - Technology | AA</label>
+            </value>
+            <value>
+                <fullName>TECAA – Technology | AA</fullName>
+                <default>false</default>
+                <label>TECAA – Technology | AA</label>
+            </value>
+            <value>
+                <fullName>TECGC - Technology | GC</fullName>
+                <default>false</default>
+                <label>TECGC - Technology | GC</label>
+            </value>
+            <value>
+                <fullName>TECGC – Technology | GC</fullName>
+                <default>false</default>
+                <label>TECGC – Technology | GC</label>
+            </value>
+            <value>
+                <fullName>TECHCHROM – Chromatography</fullName>
+                <default>false</default>
+                <label>TECHCHROM – Chromatography</label>
+            </value>
+            <value>
+                <fullName>TECHCHROM - Technology | Chromatography</fullName>
+                <default>false</default>
+                <label>TECHCHROM - Technology | Chromatography</label>
+            </value>
+            <value>
+                <fullName>TECHINO - Inorganic</fullName>
+                <default>false</default>
+                <label>TECHINO - Inorganic</label>
+            </value>
+            <value>
+                <fullName>TECHINO – Inorganic</fullName>
+                <default>false</default>
+                <label>TECHINO – Inorganic</label>
+            </value>
+            <value>
+                <fullName>TechSvs - Technology Services</fullName>
+                <default>false</default>
+                <label>TechSvs - Technology Services</label>
+            </value>
+            <value>
+                <fullName>TechSvs – Technology Services</fullName>
+                <default>false</default>
+                <label>TechSvs – Technology Services</label>
+            </value>
+            <value>
+                <fullName>TECICP - Technology | ICP (ICPOES)</fullName>
+                <default>false</default>
+                <label>TECICP - Technology | ICP (ICPOES)</label>
+            </value>
+            <value>
+                <fullName>TECICP – Technology | ICP (ICPOES)</fullName>
+                <default>false</default>
+                <label>TECICP – Technology | ICP (ICPOES)</label>
+            </value>
+            <value>
+                <fullName>TECIR - Technology | IR</fullName>
+                <default>false</default>
+                <label>TECIR - Technology | IR</label>
+            </value>
+            <value>
+                <fullName>TECIR – Technology | IR</fullName>
+                <default>false</default>
+                <label>TECIR – Technology | IR</label>
+            </value>
+            <value>
+                <fullName>TECLCM - Technology | LCM</fullName>
+                <default>false</default>
+                <label>TECLCM - Technology | LCM</label>
+            </value>
+            <value>
+                <fullName>TECLCM – Technology | LCM</fullName>
+                <default>false</default>
+                <label>TECLCM – Technology | LCM</label>
+            </value>
+            <value>
+                <fullName>TECLC - Technology | LC</fullName>
+                <default>false</default>
+                <label>TECLC - Technology | LC</label>
+            </value>
+            <value>
+                <fullName>TECLC – Technology | LC</fullName>
+                <default>false</default>
+                <label>TECLC – Technology | LC</label>
+            </value>
+            <value>
+                <fullName>TECMAS - Technology | MAS (ICPMS)</fullName>
+                <default>false</default>
+                <label>TECMAS - Technology | MAS (ICPMS)</label>
+            </value>
+            <value>
+                <fullName>TECMAS – Technology | MAS (ICPMS)</fullName>
+                <default>false</default>
+                <label>TECMAS – Technology | MAS (ICPMS)</label>
+            </value>
+            <value>
+                <fullName>TECTEA - Technology | TEA</fullName>
+                <default>false</default>
+                <label>TECTEA - Technology | TEA</label>
+            </value>
+            <value>
+                <fullName>TECTEA – Technology | TEA</fullName>
+                <default>false</default>
+                <label>TECTEA – Technology | TEA</label>
+            </value>
+            <value>
+                <fullName>TEC - Technology</fullName>
+                <default>false</default>
+                <label>TEC - Technology</label>
+            </value>
+            <value>
+                <fullName>TECUVS - Technology | UVS</fullName>
+                <default>false</default>
+                <label>TECUVS - Technology | UVS</label>
+            </value>
+            <value>
+                <fullName>TECUVS – Technology | UVS</fullName>
+                <default>false</default>
+                <label>TECUVS – Technology | UVS</label>
+            </value>
+            <value>
+                <fullName>TRN - Training</fullName>
+                <default>false</default>
+                <label>TRN - Training</label>
+            </value>
+            <value>
+                <fullName>WKF3DC - Workflow 3D Cell Culture</fullName>
+                <default>false</default>
+                <label>WKF3DC - Workflow 3D Cell Culture</label>
+            </value>
+            <value>
+                <fullName>WKF3DC – Workflow 3D Cell Culture</fullName>
+                <default>false</default>
+                <label>WKF3DC – Workflow 3D Cell Culture</label>
+            </value>
+            <value>
+                <fullName>WKFAD - Workflow Assay Development</fullName>
+                <default>false</default>
+                <label>WKFAD - Workflow Assay Development</label>
+            </value>
+            <value>
+                <fullName>WKFAD – Workflow Assay Development</fullName>
+                <default>false</default>
+                <label>WKFAD – Workflow Assay Development</label>
+            </value>
+            <value>
+                <fullName>WKFCLE - Workflow Cell Line Engineering</fullName>
+                <default>false</default>
+                <label>WKFCLE - Workflow Cell Line Engineering</label>
+            </value>
+            <value>
+                <fullName>WKFCLE – Workflow Cell Line Engineering</fullName>
+                <default>false</default>
+                <label>WKFCLE – Workflow Cell Line Engineering</label>
+            </value>
+            <value>
+                <fullName>WKFCRP - Workflow CRISPR</fullName>
+                <default>false</default>
+                <label>WKFCRP - Workflow CRISPR</label>
+            </value>
+            <value>
+                <fullName>WKFCRP – Workflow CRISPR</fullName>
+                <default>false</default>
+                <label>WKFCRP – Workflow CRISPR</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Reproductive Health</controllingFieldValue>
+            <valueName>MFH – Maternal Fetal Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reproductive Health</controllingFieldValue>
+            <valueName>NEO - Newborn Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reproductive Health</controllingFieldValue>
+            <valueName>NPT - Vanadis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reproductive Health</controllingFieldValue>
+            <valueName>POC - Point of Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reproductive Health</controllingFieldValue>
+            <valueName>PRE - Pre-eclampsia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>ATM - Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>CON - Consumables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>GAM - Gov. &amp; Academic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>GNRL - General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>NPI - New Product Intro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>Pharma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>SUS - Sustainability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>TEC - Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AES (Multi-Segment)</controllingFieldValue>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>TRN - Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <valueName>CCIC - Cell Counting and Image Cytometry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <valueName>CRO - Clinical Research Organization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <valueName>GEND - Gene Delivery (Sirion)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RVO - Revvity Omics</controllingFieldValue>
+            <valueName>NBSQ - Sequencing for newborn screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>AAV - Adeno associated virus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>ATMFLEX - Automation | Flexdrop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>BB - Biobanking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>CFF – Cell Free Fluids</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>CRISPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>GEN - Genomics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>MFT - Microfluidic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>NGS - Next Gen. Sequencing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>PGT - Pre-implementation genetic testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>RGS – Reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>SINC - Single cell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>SPD – Specialty diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>CONGC - Consumables Gas Chromatography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>CONLC - Consumables Liquid Chromatography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>ENVAir – Environmental | Air</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>ENV - Environmental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>ENVSoil – Environmental | Soil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>ENVWtr – Environmental | Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDAgro – Agrochemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDBat – Industrial | Batteries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDChem – Industrial |Chemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDEngyren – Industrial | Energyrenewables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDGeomin – Industrial | Geology Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDGlsopt – Industrial | Glass Optics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>IND - Industrial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDLubcool – Industrial | Lubricants Coolants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDMat – Industrial | Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDPolyRec – Industrial | Polymers Recycling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>INDSemielec – Industrial | Semi Electronics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECAA – Technology | AA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECGC – Technology | GC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECHCHROM – Chromatography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECHINO – Inorganic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECICP – Technology | ICP (ICPOES)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECIR – Technology | IR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECLCM – Technology | LCM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECLC – Technology | LC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECMAS – Technology | MAS (ICPMS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECTEA – Technology | TEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>TECUVS – Technology | UVS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand</controllingFieldValue>
+            <valueName>REVIR - Revvity Investor Relations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand</controllingFieldValue>
+            <valueName>REV - Revvity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>BEV – Beverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>DAR - Dairy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>FS - Food Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>GRN - Grain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>MTS - Meat &amp; Seafood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>PBF - Plant Based Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>PRO - Processed Foods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOBioELN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOINF - Biology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOLDP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOSImA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOSINV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOSNB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOSRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOSRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>BIOSVV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>CD - ChemDraw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>CLIN - Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>CLINSpotfire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>DCCD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>DC - Discovery Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>DCLDP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>DCSINV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>DCSNB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>DCSRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>DCSRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>ENB - E-Notebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>ICCD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>IC - Industrial Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>ICLDP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>ICSINV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>ICSNB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>ICSRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>ICSRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>LDP - Lead Discovery Premium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>SCT - Scitara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>SImA - Signals Image Artist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>SINV - Signals Inventa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>SNB - Signals Notebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>Spotfire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>SRP - Signals Research Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>SRS - Signals Research Suite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>3DCIA - Cell Imaging &amp; Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>AI - Autoimmunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>BIO - Biologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>BM - Biological Models</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>BR - Basic Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>BTX - Biotherapeutics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>CGT - Cell &amp; Gene Therapy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>CLR - Caliper Reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>COMP = Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>CR-Cancer Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>DDR – Drug Discovery Reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>DDS - Drug Discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>DDV - Drug Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>FAP - Agents Fluorescent Imaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>FGS - Functional Genomic Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>HCA - High Content Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>HCS - High Content Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>IFD - Infectious Disease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>INV - In vivo imaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>IO - Immuno-Oncology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>MMD - Multi-mode Detection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>MOL - Western Blotting &amp; Nucleotides</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>MTB - Metabolics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>NS - Neuroscience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>NXM - Nexcelom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>PBRD = Portfolio Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>PCS - PreClinical Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>PM - Precision Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>QAQC - Manufacturing QA/QC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>RADS – Radiochemicals &amp; Radiometric detection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <controllingFieldValue>LSDx (multi-segment)</controllingFieldValue>
+            <valueName>RGT = Reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>WKFAD – Workflow Assay Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>WKFCLE - Workflow Cell Line Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>CORE - Core</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>ENT - Enterprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>InstrSvs – Instrument Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>ProfSvs - Professional Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>TechSvs - Technology Services</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

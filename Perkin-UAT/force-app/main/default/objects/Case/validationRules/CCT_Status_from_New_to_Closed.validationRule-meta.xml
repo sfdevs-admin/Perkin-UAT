@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCT_Status_from_New_to_Closed</fullName>
+    <active>true</active>
+    <description>PRIOR: MM
+NEW:   MG  2202.09.22   cleaned up formatting + Error Msg</description>
+    <errorConditionFormula>AND( 
+  $Permission.BD_Bypass_Automation != TRUE,
+  ISPICKVAL( PRIORVALUE( Status ),&quot;New&quot;), 
+  ISPICKVAL( Status, &quot;Complaint PKI Closed&quot;) 
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>V.RULE_CASE_003: You cannot change the status directly from New to Complaint PKI Closed</errorMessage>
+</ValidationRule>

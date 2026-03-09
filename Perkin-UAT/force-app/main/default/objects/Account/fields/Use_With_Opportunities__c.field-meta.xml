@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_With_Opportunities__c</fullName>
+    <businessOwnerGroup>ARQ_001007</businessOwnerGroup>
+    <businessStatus>Active</businessStatus>
+    <description>Created on Behalf of Incident Number-INC0054070 to identify correct account getting associated to an opportunity.</description>
+    <externalId>false</externalId>
+    <formula>/*
+First upload a Public Asset Image:
+App Launcher &gt; Files &gt; go to Libraries&gt; Asset Library &gt; Click Upload Asset File &gt; Make available for all internal and public image.
+To get the VERSION ID (different than the image ID) in new orgs, or when updating an image,
+1.open the image and then right click on the image,
+2.choose &quot;Copy Image Link&quot;,
+3.paste the link in a notepad and copy the Id between &quot;versionId=&quot; amd &quot;&amp;operationContext=&quot;
+(i.e.: versionId=068290000015Epe&amp;operationContext=...)
+IF TRUE show Green else show RED.
+*/
+IMAGE (&quot;/sfc/servlet.shepherd/version/download/&quot; &amp;
+IF(RecordType.DeveloperName=&quot;ProspectAccount&quot;||fxSetMergeFlag__c =True,&quot;0684V00000J01wT&quot;,&quot;0684V00000J01wU&quot;)
+,&quot;&quot;,25,25)</formula>
+    <inlineHelpText>To identify the correct account getting associated to an opportunity.</inlineHelpText>
+    <label>Use With Opportunities</label>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

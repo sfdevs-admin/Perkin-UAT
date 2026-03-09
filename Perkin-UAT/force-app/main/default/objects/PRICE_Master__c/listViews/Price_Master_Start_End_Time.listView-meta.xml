@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Master_Start_End_Time</fullName>
+    <columns>NAME</columns>
+    <columns>Product_Number__c</columns>
+    <columns>Amount__c</columns>
+    <columns>External_Id__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>fxAutoID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>External_Id__c</field>
+        <operation>startsWith</operation>
+        <value>BOOMI,SFDC</value>
+    </filters>
+    <label>Price Master (Start-End Time)</label>
+</ListView>

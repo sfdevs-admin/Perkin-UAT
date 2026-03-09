@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_INF__c</fullName>
+    <description>Days of effort is the number of days that the service consultant estimate for the project.  This should reflect what we sell (number of days sold).  The amount is in dollars.  So if we sold 100 days at $1700/day, the days of effort would be 100 and the amount would be 170,000 (in dollars)..Changed to Days to Hour (Source:INC0356364)</description>
+    <externalId>false</externalId>
+    <label>Hours of Effort</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

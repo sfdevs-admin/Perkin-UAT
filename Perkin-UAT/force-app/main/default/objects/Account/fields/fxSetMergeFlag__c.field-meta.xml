@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxSetMergeFlag__c</fullName>
+    <description>used to determine if the merge flag should be set to true. ( From JIra ITSFDC-3499)</description>
+    <formula>OR(
+   RecordType.Name = &#39;Prospect&#39;
+   ,
+   AND(
+      RecordType.Name = &#39;Customer&#39;
+    , CONTAINS(&quot;0001,ZBR1,OMIT,SFDC&quot;, PKI_SAP_Account_Group__c)  
+    , CONTAINS(&quot;Approved,SFDC,SAP,Requested&quot;, MDM_Status__c)
+    , NOT(CONTAINS(Name,&#39;*IDLE*&#39;))
+    , PKI_SAP_Marked_for_Deletion__c = FALSE
+      )
+  )
+/*Contains formula in reverse order allows taking the known list and see if pick list is part of it*/</formula>
+    <inlineHelpText>used to determine if the merge flag should be set to true. ( From JIra ITSFDC-3499)</inlineHelpText>
+    <label>fxSetMergeFlag</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

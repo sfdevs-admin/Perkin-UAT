@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Owner_Change_TBD_Transfer</fullName>
+    <active>true</active>
+    <description>We can only allow users to change owners to the same OBC tag. GCE team can adjust to other company if needed. TBD/Blank need to be done by GCE</description>
+    <errorConditionFormula>AND( NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+    ,ISCHANGED(OwnerId)
+    ,NOT(CONTAINS(&#39;AES,LSDX&#39;, TEXT(Owned_by_Company__c) )) /*TBD or blank*/
+    ,CONTAINS(&#39;AES,LSDX&#39;, TEXT(Owner:User.Owned_by_Company__c)) /*Exclude integration users*/   
+    ,PRIORVALUE(fxOwnerOBC__c)  !=  fxOwnerOBC__c
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_INTERACTION_009: When transferring TBD, the new owner should match the same company tag as your.  As needed, please pick a different user, or ask GCE to perform special owner transfers</errorMessage>
+</ValidationRule>

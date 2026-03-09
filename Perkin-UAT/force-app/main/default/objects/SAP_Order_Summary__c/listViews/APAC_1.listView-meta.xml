@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>APAC_1</fullName>
+    <columns>NAME</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Sold_To_Address_Country__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Opp_Owner__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Order_Net_Currency__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Current_Global_Delivery_Date__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sold_To_Address_Country__c</field>
+        <operation>equals</operation>
+        <value>CN,HK,MO,MN,TW,JP,KR,AU,FJ,PF,NC,NZ,PG,SB,CX,CC,CK,TP,TF,GU,HM,KI,KP,MH,FM,NR,NU,NF,MP,PW,PN,WS,TL,TK,TO,TV,UM,VU,WF,BN,KH,ID,MY,MM,PH,SG,TH,VN</value>
+    </filters>
+    <label>APAC</label>
+    <sharedTo />
+</ListView>

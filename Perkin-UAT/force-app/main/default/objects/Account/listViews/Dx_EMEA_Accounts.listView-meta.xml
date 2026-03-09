@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_EMEA_Accounts</fullName>
+    <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_ZIP</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>PKI_SAP_Customer_Number__c</columns>
+    <columns>PKI_SAP_Country_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Dx_Dx_Americas_Region__c</field>
+        <operation>contains</operation>
+        <value>Brazil,Argentina,Bolivia,Chile,Colombia,Costa Rica/Honduras,Ecuador</value>
+    </filters>
+    <filters>
+        <field>Dx_Dx_Americas_Region__c</field>
+        <operation>contains</operation>
+        <value>El Salvador,Guatemala,Panama,Paraguay,Peru,Uruguay</value>
+    </filters>
+    <filters>
+        <field>PKI_SAP_Customer_Number__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Dx Latin America Accounts</label>
+    <sharedTo>
+        <group>ARQ_000786</group>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

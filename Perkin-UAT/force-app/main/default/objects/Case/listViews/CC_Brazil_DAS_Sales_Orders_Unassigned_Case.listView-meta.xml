@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Brazil_DAS_Sales_Orders_Unassigned_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: LSDX CC Brazil Sales Orders Unasgd</label>
+    <queue>ARQ_000490</queue>
+    <sharedTo>
+        <group>ARQ_001030</group>
+        <roleAndSubordinatesInternal>LSDX_ServiceMax_User</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

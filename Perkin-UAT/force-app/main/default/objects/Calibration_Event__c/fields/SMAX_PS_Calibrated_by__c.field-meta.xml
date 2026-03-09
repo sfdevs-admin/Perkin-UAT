@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Calibrated_by__c</fullName>
+    <label>Calibrated by</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ACR Technical Services, Inc.</fullName>
+                <default>false</default>
+                <label>ACR Technical Services, Inc.</label>
+            </value>
+            <value>
+                <fullName>Aerometrologie</fullName>
+                <default>false</default>
+                <label>Aerometrologie</label>
+            </value>
+            <value>
+                <fullName>Agilent</fullName>
+                <default>false</default>
+                <label>Agilent</label>
+            </value>
+            <value>
+                <fullName>ALCAMI</fullName>
+                <default>false</default>
+                <label>ALCAMI</label>
+            </value>
+            <value>
+                <fullName>Alicat Scientific</fullName>
+                <default>false</default>
+                <label>Alicat Scientific</label>
+            </value>
+            <value>
+                <fullName>Alpha Controls &amp; Instrumentation Inc</fullName>
+                <default>false</default>
+                <label>Alpha Controls &amp; Instrumentation Inc</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>ANATECS</fullName>
+                <default>false</default>
+                <label>ANATECS</label>
+            </value>
+            <value>
+                <fullName>Anton Paar</fullName>
+                <default>false</default>
+                <label>Anton Paar</label>
+            </value>
+            <value>
+                <fullName>Arizona Instrument, LLC</fullName>
+                <default>false</default>
+                <label>Arizona Instrument, LLC</label>
+            </value>
+            <value>
+                <fullName>ASERTI METROLOGY</fullName>
+                <default>false</default>
+                <label>ASERTI METROLOGY</label>
+            </value>
+            <value>
+                <fullName>ATS Analytics</fullName>
+                <default>false</default>
+                <label>ATS Analytics</label>
+            </value>
+            <value>
+                <fullName>Avantor Services</fullName>
+                <default>false</default>
+                <label>Avantor Services</label>
+            </value>
+            <value>
+                <fullName>Babbco</fullName>
+                <default>false</default>
+                <label>Babbco</label>
+            </value>
+            <value>
+                <fullName>BioTek</fullName>
+                <default>false</default>
+                <label>BioTek</label>
+            </value>
+            <value>
+                <fullName>California Integration Coordinators, Inc.</fullName>
+                <default>false</default>
+                <label>California Integration Coordinators, Inc.</label>
+            </value>
+            <value>
+                <fullName>CENAM – Centro Nacional de Metrología</fullName>
+                <default>false</default>
+                <label>CENAM – Centro Nacional de Metrología</label>
+            </value>
+            <value>
+                <fullName>CESMEC (Bureau Veritas)</fullName>
+                <default>false</default>
+                <label>CESMEC (Bureau Veritas)</label>
+            </value>
+            <value>
+                <fullName>Chromatographic Specialties Inc.</fullName>
+                <default>false</default>
+                <label>Chromatographic Specialties Inc.</label>
+            </value>
+            <value>
+                <fullName>Contemp</fullName>
+                <default>false</default>
+                <label>Contemp</label>
+            </value>
+            <value>
+                <fullName>Control Company</fullName>
+                <default>false</default>
+                <label>Control Company</label>
+            </value>
+            <value>
+                <fullName>CTM - CENTRO TECNOLOGICO DE METROLOGIA</fullName>
+                <default>false</default>
+                <label>CTM - CENTRO TECNOLOGICO DE METROLOGIA</label>
+            </value>
+            <value>
+                <fullName>Davis Calibration</fullName>
+                <default>false</default>
+                <label>Davis Calibration</label>
+            </value>
+            <value>
+                <fullName>Dick Munns Company</fullName>
+                <default>false</default>
+                <label>Dick Munns Company</label>
+            </value>
+            <value>
+                <fullName>Distek</fullName>
+                <default>false</default>
+                <label>Distek</label>
+            </value>
+            <value>
+                <fullName>DTS</fullName>
+                <default>false</default>
+                <label>DTS</label>
+            </value>
+            <value>
+                <fullName>Elastocon AB</fullName>
+                <default>false</default>
+                <label>Elastocon AB</label>
+            </value>
+            <value>
+                <fullName>Element Metech</fullName>
+                <default>false</default>
+                <label>Element Metech</label>
+            </value>
+            <value>
+                <fullName>Ellutia</fullName>
+                <default>false</default>
+                <label>Ellutia</label>
+            </value>
+            <value>
+                <fullName>Equipements Scientifiques S.A.</fullName>
+                <default>false</default>
+                <label>Equipements Scientifiques S.A.</label>
+            </value>
+            <value>
+                <fullName>Essco Calibration Lab</fullName>
+                <default>false</default>
+                <label>Essco Calibration Lab</label>
+            </value>
+            <value>
+                <fullName>Etalon Air</fullName>
+                <default>false</default>
+                <label>Etalon Air</label>
+            </value>
+            <value>
+                <fullName>ETS-Lindgren</fullName>
+                <default>false</default>
+                <label>ETS-Lindgren</label>
+            </value>
+            <value>
+                <fullName>Extech Instruments</fullName>
+                <default>false</default>
+                <label>Extech Instruments</label>
+            </value>
+            <value>
+                <fullName>Fairbanks Scales</fullName>
+                <default>false</default>
+                <label>Fairbanks Scales</label>
+            </value>
+            <value>
+                <fullName>FLIR</fullName>
+                <default>false</default>
+                <label>FLIR</label>
+            </value>
+            <value>
+                <fullName>Fluke</fullName>
+                <default>false</default>
+                <label>Fluke</label>
+            </value>
+            <value>
+                <fullName>Fox Valley Metrology</fullName>
+                <default>false</default>
+                <label>Fox Valley Metrology</label>
+            </value>
+            <value>
+                <fullName>GIMIM S.A. DE C.V. - Grupo de Instrumentación y Medición Industrial de México S.A. de C.V.</fullName>
+                <default>false</default>
+                <label>GIMIM S.A. DE C.V. - Grupo de Instrumentación y Medición Industrial de México S.A. de C.V.</label>
+            </value>
+            <value>
+                <fullName>GJC Instruments Ltd.</fullName>
+                <default>false</default>
+                <label>GJC Instruments Ltd.</label>
+            </value>
+            <value>
+                <fullName>HACH</fullName>
+                <default>false</default>
+                <label>HACH</label>
+            </value>
+            <value>
+                <fullName>Hellma Analytics</fullName>
+                <default>false</default>
+                <label>Hellma Analytics</label>
+            </value>
+            <value>
+                <fullName>HITEK</fullName>
+                <default>false</default>
+                <label>HITEK</label>
+            </value>
+            <value>
+                <fullName>IKM</fullName>
+                <default>false</default>
+                <label>IKM</label>
+            </value>
+            <value>
+                <fullName>INNOCAL</fullName>
+                <default>false</default>
+                <label>INNOCAL</label>
+            </value>
+            <value>
+                <fullName>International Process Solutions</fullName>
+                <default>false</default>
+                <label>International Process Solutions</label>
+            </value>
+            <value>
+                <fullName>Intertek Polychemlab</fullName>
+                <default>false</default>
+                <label>Intertek Polychemlab</label>
+            </value>
+            <value>
+                <fullName>INyMET</fullName>
+                <default>false</default>
+                <label>INyMET</label>
+            </value>
+            <value>
+                <fullName>Jormita</fullName>
+                <default>false</default>
+                <label>Jormita</label>
+            </value>
+            <value>
+                <fullName>KIMO</fullName>
+                <default>false</default>
+                <label>KIMO</label>
+            </value>
+            <value>
+                <fullName>Kiwa Dare</fullName>
+                <default>false</default>
+                <label>Kiwa Dare</label>
+            </value>
+            <value>
+                <fullName>LabMetrix</fullName>
+                <default>false</default>
+                <label>LabMetrix</label>
+            </value>
+            <value>
+                <fullName>Labsphere</fullName>
+                <default>false</default>
+                <label>Labsphere</label>
+            </value>
+            <value>
+                <fullName>Lab Unlimited</fullName>
+                <default>false</default>
+                <label>Lab Unlimited</label>
+            </value>
+            <value>
+                <fullName>LeFroid Pecomark</fullName>
+                <default>false</default>
+                <label>LeFroid Pecomark</label>
+            </value>
+            <value>
+                <fullName>Link Instruments, Inc</fullName>
+                <default>false</default>
+                <label>Link Instruments, Inc</label>
+            </value>
+            <value>
+                <fullName>Llantrisant</fullName>
+                <default>false</default>
+                <label>Llantrisant</label>
+            </value>
+            <value>
+                <fullName>LTC Metrologie</fullName>
+                <default>false</default>
+                <label>LTC Metrologie</label>
+            </value>
+            <value>
+                <fullName>Ludlum Measurements, Inc.</fullName>
+                <default>false</default>
+                <label>Ludlum Measurements, Inc.</label>
+            </value>
+            <value>
+                <fullName>LUTRON ELECTRONIC ENT.</fullName>
+                <default>false</default>
+                <label>LUTRON ELECTRONIC ENT.</label>
+            </value>
+            <value>
+                <fullName>MAC</fullName>
+                <default>false</default>
+                <label>MAC</label>
+            </value>
+            <value>
+                <fullName>Meriam Process Technologies</fullName>
+                <default>false</default>
+                <label>Meriam Process Technologies</label>
+            </value>
+            <value>
+                <fullName>METAS S.A. DE C.V. - Metrólogos Asociados</fullName>
+                <default>false</default>
+                <label>METAS S.A. DE C.V. - Metrólogos Asociados</label>
+            </value>
+            <value>
+                <fullName>Mettler Toledo</fullName>
+                <default>false</default>
+                <label>Mettler Toledo</label>
+            </value>
+            <value>
+                <fullName>MICRO PRECISION CAL INC</fullName>
+                <default>false</default>
+                <label>MICRO PRECISION CAL INC</label>
+            </value>
+            <value>
+                <fullName>Millipore Corp.</fullName>
+                <default>false</default>
+                <label>Millipore Corp.</label>
+            </value>
+            <value>
+                <fullName>Molecular Devices</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Molecular Devices</label>
+            </value>
+            <value>
+                <fullName>MONARCH</fullName>
+                <default>false</default>
+                <label>MONARCH</label>
+            </value>
+            <value>
+                <fullName>National Standards of Puerto Rico</fullName>
+                <default>false</default>
+                <label>National Standards of Puerto Rico</label>
+            </value>
+            <value>
+                <fullName>NIST</fullName>
+                <default>false</default>
+                <label>NIST</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>PerkinElmer</fullName>
+                <default>false</default>
+                <label>PerkinElmer</label>
+            </value>
+            <value>
+                <fullName>Pico Technology</fullName>
+                <default>false</default>
+                <label>Pico Technology</label>
+            </value>
+            <value>
+                <fullName>PMT</fullName>
+                <default>false</default>
+                <label>PMT</label>
+            </value>
+            <value>
+                <fullName>Precision Measurements</fullName>
+                <default>false</default>
+                <label>Precision Measurements</label>
+            </value>
+            <value>
+                <fullName>Prolap</fullName>
+                <default>false</default>
+                <label>Prolap</label>
+            </value>
+            <value>
+                <fullName>QED Environmental Systems Inc.</fullName>
+                <default>false</default>
+                <label>QED Environmental Systems Inc.</label>
+            </value>
+            <value>
+                <fullName>RAE</fullName>
+                <default>false</default>
+                <label>RAE</label>
+            </value>
+            <value>
+                <fullName>Restek</fullName>
+                <default>false</default>
+                <label>Restek</label>
+            </value>
+            <value>
+                <fullName>Revvity</fullName>
+                <default>false</default>
+                <label>Revvity</label>
+            </value>
+            <value>
+                <fullName>Rice Lake</fullName>
+                <default>false</default>
+                <label>Rice Lake</label>
+            </value>
+            <value>
+                <fullName>Rise Research Institutes of Sweden</fullName>
+                <default>false</default>
+                <label>Rise Research Institutes of Sweden</label>
+            </value>
+            <value>
+                <fullName>RS Calibration</fullName>
+                <default>false</default>
+                <label>RS Calibration</label>
+            </value>
+            <value>
+                <fullName>RS COMPONENTS SAS</fullName>
+                <default>false</default>
+                <label>RS COMPONENTS SAS</label>
+            </value>
+            <value>
+                <fullName>Rudolph - OEM</fullName>
+                <default>false</default>
+                <label>Rudolph - OEM</label>
+            </value>
+            <value>
+                <fullName>Sauermann</fullName>
+                <default>false</default>
+                <label>Sauermann</label>
+            </value>
+            <value>
+                <fullName>SMI</fullName>
+                <default>false</default>
+                <label>SMI</label>
+            </value>
+            <value>
+                <fullName>SOFIMAE</fullName>
+                <default>false</default>
+                <label>SOFIMAE</label>
+            </value>
+            <value>
+                <fullName>SOPAC SAS</fullName>
+                <default>false</default>
+                <label>SOPAC SAS</label>
+            </value>
+            <value>
+                <fullName>Starna</fullName>
+                <default>false</default>
+                <label>Starna</label>
+            </value>
+            <value>
+                <fullName>Tektronix</fullName>
+                <default>false</default>
+                <label>Tektronix</label>
+            </value>
+            <value>
+                <fullName>TESTO</fullName>
+                <default>false</default>
+                <label>TESTO</label>
+            </value>
+            <value>
+                <fullName>Transcat</fullName>
+                <default>false</default>
+                <label>Transcat</label>
+            </value>
+            <value>
+                <fullName>Trescal</fullName>
+                <default>false</default>
+                <label>Trescal</label>
+            </value>
+            <value>
+                <fullName>Troemner</fullName>
+                <default>false</default>
+                <label>Troemner</label>
+            </value>
+            <value>
+                <fullName>V:KIT</fullName>
+                <default>false</default>
+                <label>V:KIT</label>
+            </value>
+            <value>
+                <fullName>Vaisala</fullName>
+                <default>false</default>
+                <label>Vaisala</label>
+            </value>
+            <value>
+                <fullName>Viditec</fullName>
+                <default>false</default>
+                <label>Viditec</label>
+            </value>
+            <value>
+                <fullName>VKIT</fullName>
+                <default>false</default>
+                <label>VKIT</label>
+            </value>
+            <value>
+                <fullName>Wabtec</fullName>
+                <default>false</default>
+                <label>Wabtec</label>
+            </value>
+            <value>
+                <fullName>Wallac</fullName>
+                <default>false</default>
+                <label>Wallac</label>
+            </value>
+            <value>
+                <fullName>Zwiebel</fullName>
+                <default>false</default>
+                <label>Zwiebel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

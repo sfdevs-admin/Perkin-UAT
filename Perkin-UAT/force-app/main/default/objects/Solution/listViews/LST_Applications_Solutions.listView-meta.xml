@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Applications_Solutions</fullName>
+    <columns>SOLUTION.ISSUE</columns>
+    <columns>SOLUTION.SOLUTION_NUMBER</columns>
+    <columns>SOLUTION.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>SOLUTION.TIMES_USED</columns>
+    <columns>SOLUTION.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SOLUTION.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Solution.LST_Application_Solution</value>
+    </filters>
+    <label>LST Applications Solutions</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000975</group>
+    </sharedTo>
+</ListView>

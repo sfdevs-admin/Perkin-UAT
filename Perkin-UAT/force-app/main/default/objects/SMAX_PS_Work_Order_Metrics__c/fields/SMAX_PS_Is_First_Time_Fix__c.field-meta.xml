@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Is_First_Time_Fix__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Are the First Labor Date and Last Labor Date the same?</inlineHelpText>
+    <label>Is First Time Fix?</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

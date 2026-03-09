@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Work_Order_Problem_Summary__c</fullName>
+    <description>for scheduled technician email</description>
+    <externalId>false</externalId>
+    <inlineHelpText>for scheduled technician email</inlineHelpText>
+    <label>Work Order Problem Summary</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_RDIER_Mandatory</fullName>
+    <active>true</active>
+    <description>A validation rule that checks (at case closing) that if either of the Risk of Death or Injury fields and  Erroneous Results Reported is ‘Yes’ then the value of the ‘Type of Case’ needs to be ‘Complaint - SAP’</description>
+    <errorConditionFormula>AND(NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+,ISPICKVAL(Status,&#39;Closed&#39;)
+,OR(ISPICKVAL(DX_Risk_of_Death_or_Injury__c,&#39;&#39;)
+,ISPICKVAL(DX_Erroneous_Results_Reported__c ,&#39;&#39;))
+,OR(RecordType.DeveloperName =&#39;Dx_Software_Services&#39;
+,RecordTypeId = &#39;0123A000001GjKo&#39;)) /* Dx Software Services EMEA L2 */</errorConditionFormula>
+    <errorDisplayField>DX_Risk_of_Death_or_Injury__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_009: Risk of Death or Injury and  Erroneous Results shouldn&#39;t be empty.</errorMessage>
+</ValidationRule>

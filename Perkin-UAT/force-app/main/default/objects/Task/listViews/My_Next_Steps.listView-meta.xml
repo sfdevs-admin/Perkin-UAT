@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Next_Steps</fullName>
+    <columns>DUE_DATE</columns>
+    <columns>SUBJECT</columns>
+    <columns>STATUS</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>PRIORITY</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Not Started,In Progress,Waiting on someone else,Deferred,Call Planning</value>
+    </filters>
+    <filters>
+        <field>SubType__c</field>
+        <operation>equals</operation>
+        <value>Next Step</value>
+    </filters>
+    <label>My Next Steps</label>
+</ListView>

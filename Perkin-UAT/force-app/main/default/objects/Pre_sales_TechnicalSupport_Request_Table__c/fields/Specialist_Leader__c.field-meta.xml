@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialist_Leader__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>Specialist has an existing SFDC account</inlineHelpText>
+    <label>Specialist Leader</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Pre_sales_TechnicalSupport_Request_Tabl2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

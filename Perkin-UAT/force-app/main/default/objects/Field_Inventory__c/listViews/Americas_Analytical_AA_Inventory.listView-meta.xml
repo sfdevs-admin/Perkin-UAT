@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Americas_Analytical_AA_Inventory</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Current_Location__c</columns>
+    <columns>IGOR__c</columns>
+    <columns>Type__c</columns>
+    <columns>Storage_Location__c</columns>
+    <columns>Material_Description__c</columns>
+    <columns>Serial_Number__c</columns>
+    <columns>Status__c</columns>
+    <columns>System_List_Price__c</columns>
+    <columns>xDiscounted_Price__c</columns>
+    <columns>Date_Received__c</columns>
+    <columns>Date_Returned__c</columns>
+    <columns>Date_Sold__c</columns>
+    <columns>Date_Transfered__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Marketing_Business_Unit__c</field>
+        <operation>contains</operation>
+        <value>ANALYTICAL SCIENCES</value>
+    </filters>
+    <filters>
+        <field>Plant__c</field>
+        <operation>equals</operation>
+        <value>CA13,US13</value>
+    </filters>
+    <filters>
+        <field>Date_Sold__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>AA</value>
+    </filters>
+    <label>Americas-Analytical-AA Inventory - Test</label>
+    <language>en_US</language>
+</ListView>

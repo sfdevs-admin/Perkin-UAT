@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Films_Kodak__c</fullName>
+    <label>Films - Kodak</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PKI</fullName>
+                <default>false</default>
+                <label>PKI</label>
+            </value>
+            <value>
+                <fullName>Denville</fullName>
+                <default>false</default>
+                <label>Denville</label>
+            </value>
+            <value>
+                <fullName>Fisher</fullName>
+                <default>false</default>
+                <label>Fisher</label>
+            </value>
+            <value>
+                <fullName>Genesee Sci</fullName>
+                <default>false</default>
+                <label>Genesee Sci</label>
+            </value>
+            <value>
+                <fullName>Mandel</fullName>
+                <default>false</default>
+                <label>Mandel</label>
+            </value>
+            <value>
+                <fullName>Pierce</fullName>
+                <default>false</default>
+                <label>Pierce</label>
+            </value>
+            <value>
+                <fullName>Sigma</fullName>
+                <default>false</default>
+                <label>Sigma</label>
+            </value>
+            <value>
+                <fullName>VWR</fullName>
+                <default>false</default>
+                <label>VWR</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

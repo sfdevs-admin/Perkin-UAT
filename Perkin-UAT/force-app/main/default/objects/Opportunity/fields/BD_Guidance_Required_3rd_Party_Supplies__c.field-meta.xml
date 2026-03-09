@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Guidance_Required_3rd_Party_Supplies__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Guidance Required: 3rd Party Supplies</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

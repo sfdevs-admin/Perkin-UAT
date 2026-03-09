@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_Resolution1__c</fullName>
+    <label>Q-Resolution 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Process Failure</fullName>
+                <default>true</default>
+                <label>Process Failure</label>
+            </value>
+            <value>
+                <fullName>Product Failure</fullName>
+                <default>false</default>
+                <label>Product Failure</label>
+            </value>
+            <value>
+                <fullName>Duplicate issue</fullName>
+                <default>false</default>
+                <label>Duplicate issue</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Process Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware</controllingFieldValue>
+            <valueName>Product Failure</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

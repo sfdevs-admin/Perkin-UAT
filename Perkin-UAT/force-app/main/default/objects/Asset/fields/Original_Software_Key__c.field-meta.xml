@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Software_Key__c</fullName>
+    <description>CRi data, software ships with one key, can be updated by FSE at install</description>
+    <externalId>false</externalId>
+    <label>Original Software Key</label>
+    <length>30</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

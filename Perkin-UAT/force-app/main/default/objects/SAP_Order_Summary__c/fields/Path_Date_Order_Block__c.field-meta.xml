@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Path_Date_Order_Block__c</fullName>
+    <description>The date the Order first received a block (excluding blocked items)</description>
+    <inlineHelpText>The date the Order first received a block (excluding blocked items)</inlineHelpText>
+    <label>Path Date Order Block</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

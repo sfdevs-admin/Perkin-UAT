@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDG_Status_Chemicals</fullName>
+    <active>false</active>
+    <description>Ensures that the correct Status - Chemicals is used at the appropriate Lead Qualification Stages.</description>
+    <errorConditionFormula>AND 
+( 
+$User.Id!=&quot;0053A00000DPNX3&quot;, 
+OR 
+( 
+ISCHANGED(Status_Chemicals__c) 
+&amp;&amp; 
+ISPICKVAL(Status_Chemicals__c, &quot;Open&quot;), 
+NOT 
+( 
+OR 
+( 
+ISPICKVAL(LQS_Chemicals__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL(LQS_Chemicals__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL(LQS_Chemicals__c, &quot;Turnback&quot;), 
+ISPICKVAL(LQS_Chemicals__c, &quot;&quot;) 
+) 
+) 
+&amp;&amp; 
+ISCHANGED(Status_Chemicals__c) 
+&amp;&amp; 
+CONTAINS(TEXT(Status_Chemicals__c), &quot;Turnback&quot;), 
+NOT 
+( 
+OR 
+( 
+ISPICKVAL(LQS_Chemicals__c, &quot;Qualified Lead - Warm&quot;), 
+ISPICKVAL(LQS_Chemicals__c, &quot;Qualified Lead - Hot&quot;), 
+ISPICKVAL(LQS_Chemicals__c, &quot;Rejected&quot;), 
+ISPICKVAL(LQS_Chemicals__c, &quot;&quot;) 
+) 
+) 
+&amp;&amp; 
+ISCHANGED(Status_Chemicals__c) 
+&amp;&amp; 
+CONTAINS(TEXT(Status_Chemicals__c), &quot;Reject&quot;) 
+) 
+)</errorConditionFormula>
+    <errorDisplayField>Status_Chemicals__c</errorDisplayField>
+    <errorMessage>V.RULE_CONTACTS_003: The Status - Chemicals field cannot be updated to this value at the current LQS - Chemicals.</errorMessage>
+</ValidationRule>

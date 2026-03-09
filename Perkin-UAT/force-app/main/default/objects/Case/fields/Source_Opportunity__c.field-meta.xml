@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Opportunity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>LST - Source Opportunity</description>
+    <inlineHelpText>This field is populated if a Case was created due to an Opportunity. For example, an installation case from and asset sale or a preventative maintenance visit for a Services Contract</inlineHelpText>
+    <label>Source Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Cases (Source Opportunity)</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

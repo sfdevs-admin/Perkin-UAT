@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_DifferencePosted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Denotes the difference between count posted for an Inventory Count Line</description>
+    <inlineHelpText>Denotes the difference between count posted for an Inventory Count Line</inlineHelpText>
+    <label>Difference Posted</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

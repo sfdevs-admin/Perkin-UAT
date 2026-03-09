@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxDomainEmail__c</fullName>
+    <description>Pulls the email domain in this emial address</description>
+    <externalId>false</externalId>
+    <formula>RIGHT( Email , LEN(Email) -  FIND(&quot;@&quot;, Email))</formula>
+    <label>fxDomainEmail</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

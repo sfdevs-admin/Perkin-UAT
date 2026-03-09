@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadHistory</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Lead History</masterLabel>
+    <openType>newWindow</openType>
+    <position>topLeft</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/lightning/r/Report/00O4V00000A4XwPUAV/view?reportFilters=%5B%7B%22column%22%3A%22CONVERTED_OPPORTUNITY_ID%22%2C%22value%22%3A%22{!Opportunity.Id}%22%2C%22operator%22%3A%22equals%22%2C%22isContextFilter%22%3Atrue%7D%5D</url>
+</WebLink>

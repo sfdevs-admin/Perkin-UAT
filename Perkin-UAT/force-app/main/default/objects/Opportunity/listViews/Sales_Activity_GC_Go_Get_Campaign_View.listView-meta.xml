@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Activity_GC_Go_Get_Campaign_View</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Global_Region__c</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Omitted,Pipeline,Best Case,Commit,Closed</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>Sales_Activity_Agilent,Sales_Activity_Clarus,Sales_Activity_GC,Agilent</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>Americas,APAC,EMEA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR,NEXT_FISCAL_YEAR</value>
+    </filters>
+    <label>Sales_Activity_GC &amp; Clarus GoGet View</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

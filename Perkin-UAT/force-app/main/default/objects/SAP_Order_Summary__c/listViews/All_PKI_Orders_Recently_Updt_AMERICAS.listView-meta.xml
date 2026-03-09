@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_PKI_Orders_Recently_Updt_AMERICAS</fullName>
+    <columns>NAME</columns>
+    <columns>Sold_To_Customer_Name__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Current_Global_Delivery_Date__c</columns>
+    <columns>Inco_Terms_Description__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Opp_Owner__c</columns>
+    <columns>Customer_Accept_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ship_To_Address_Country__c</field>
+        <operation>equals</operation>
+        <value>AS,AI,AQ,AG,AR,AW,BS,BB,BZ,BM,BO,BQ,BR,VG,KY,CL,CO,CR,CU,CW,DM,DO,EC,SV,FK,GD,GT,GY,HT,HN,JM,MX,MS,AN,NI,PA,PY,PE,PR,BL,KN,LC,MF,PM,VC,SX,GS,SR,TT,TC,VI,UY,VE,CA,US</value>
+    </filters>
+    <filters>
+        <field>Order_Net_Value__c</field>
+        <operation>greaterThan</operation>
+        <value>20000</value>
+    </filters>
+    <filters>
+        <field>Actual_Order_Date__c</field>
+        <operation>lessThan</operation>
+        <value>4/1/2021</value>
+    </filters>
+    <filters>
+        <field>Ship_To_Customer_Name__c</field>
+        <operation>notContain</operation>
+        <value>Perkinelmer,Perkin Elmer,Perkin-Elmer</value>
+    </filters>
+    <label>AMERICAS</label>
+</ListView>

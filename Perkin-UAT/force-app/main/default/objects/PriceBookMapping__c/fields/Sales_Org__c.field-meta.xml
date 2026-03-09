@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Org__c</fullName>
+    <description>This field will store the value of SalesOrg. (Source: INC0359991)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will store the value of SalesOrg. (Source: INC0359991)</inlineHelpText>
+    <label>Sales Org</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

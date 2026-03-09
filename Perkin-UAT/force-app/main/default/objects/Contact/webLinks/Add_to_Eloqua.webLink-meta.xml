@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_to_Eloqua</fullName>
+    <availability>online</availability>
+    <description>Adds this contact record to the Eloqua system, including fields : Email Address, Contact ID, First Name, Last Name, Salesperson and Company.</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Add to Eloqua</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://secure.eloqua.com/cvp.aspx?LP=PERK&amp;elqExtUserName=SFDC.Integration&amp;elqExtPwdHash=D50AD25CD93E0D3E5905B02C5B88AB366B367758856D916818891086ED0DF39D&amp;URL=agent/contact/ContactSave.aspx?new=true%26ContactID=0%26EmailAddress={!Contact.Email}%26FirstName={!Contact.FirstName}%26LastName={!Contact.LastName}%26SFDCContactID={!Contact.Id}%26Salesperson={!User.Id}%26Company={!Account.Name}</url>
+</WebLink>

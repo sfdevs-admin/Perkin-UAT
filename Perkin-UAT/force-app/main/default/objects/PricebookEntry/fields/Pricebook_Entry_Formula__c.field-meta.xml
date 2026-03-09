@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricebook_Entry_Formula__c</fullName>
+    <description>Field to generate the unique external ID for Pricebook</description>
+    <externalId>false</externalId>
+    <formula>IF(
+   ISBLANK(Product2.Partnum__c)
+    ,&quot;&quot;
+    ,TRIM(Product2.Partnum__c)  + &#39;-&#39; + SUBSTITUTE(Pricebook2.Name,&quot; &quot;,&quot;&quot;) + &#39;-&#39; + TEXT( CurrencyIsoCode )
+   )</formula>
+    <label>Pricebook Entry Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

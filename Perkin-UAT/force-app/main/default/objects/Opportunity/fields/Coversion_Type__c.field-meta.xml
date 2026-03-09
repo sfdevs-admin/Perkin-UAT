@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coversion_Type__c</fullName>
+    <label>Coversion Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>W-C</fullName>
+                <default>false</default>
+                <label>W-C</label>
+            </value>
+            <value>
+                <fullName>B-C</fullName>
+                <default>false</default>
+                <label>B-C</label>
+            </value>
+            <value>
+                <fullName>Renew</fullName>
+                <default>false</default>
+                <label>Renew</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

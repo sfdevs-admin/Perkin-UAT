@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Within_90_Days_of_Install__c</fullName>
+    <description>Case created within the 90 days of asset installation</description>
+    <externalId>false</externalId>
+    <formula>IF(DATEVALUE (CreatedDate) &lt;= (Asset.InstallDate+90),1,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Case created within the 90 days of asset installation</inlineHelpText>
+    <label>Within 90 Days of Install</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

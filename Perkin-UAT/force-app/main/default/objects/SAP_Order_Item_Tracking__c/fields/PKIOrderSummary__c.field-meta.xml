@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKIOrderSummary__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>PKI Order Summary</label>
+    <referenceTo>SAP_Order_Summary__c</referenceTo>
+    <relationshipLabel>PKI Order Item Tracking</relationshipLabel>
+    <relationshipName>PKI_Order_Item_Tracking</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

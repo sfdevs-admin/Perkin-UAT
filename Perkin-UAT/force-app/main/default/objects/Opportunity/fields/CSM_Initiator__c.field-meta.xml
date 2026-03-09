@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSM_Initiator__c</fullName>
+    <label>CSM Initiator</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stephen Chow</fullName>
+                <default>false</default>
+                <label>Stephen Chow</label>
+            </value>
+            <value>
+                <fullName>Brian Deneau</fullName>
+                <default>false</default>
+                <label>Brian Deneau</label>
+            </value>
+            <value>
+                <fullName>Petro Bosch</fullName>
+                <default>false</default>
+                <label>Petro Bosch</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

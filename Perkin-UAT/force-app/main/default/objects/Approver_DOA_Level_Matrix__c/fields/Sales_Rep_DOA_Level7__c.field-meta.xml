@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Rep_DOA_Level7__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used in AA.(Source:S-692496)</description>
+    <inlineHelpText>Used in AA.(Source:S-692496)</inlineHelpText>
+    <label>Sales Rep DOA Level7</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Approvers_DOA_Level_Matrix6</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

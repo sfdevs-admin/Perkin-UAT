@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tissue_Type_LST__c</fullName>
+    <label>Tissue Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>LST_Themes__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brain</fullName>
+                <default>false</default>
+                <label>Brain</label>
+            </value>
+            <value>
+                <fullName>Breast</fullName>
+                <default>false</default>
+                <label>Breast</label>
+            </value>
+            <value>
+                <fullName>Colorectal</fullName>
+                <default>false</default>
+                <label>Colorectal</label>
+            </value>
+            <value>
+                <fullName>Head&amp;Neck</fullName>
+                <default>false</default>
+                <label>Head&amp;Neck</label>
+            </value>
+            <value>
+                <fullName>Kidney</fullName>
+                <default>false</default>
+                <label>Kidney</label>
+            </value>
+            <value>
+                <fullName>Lung</fullName>
+                <default>false</default>
+                <label>Lung</label>
+            </value>
+            <value>
+                <fullName>Prostrate</fullName>
+                <default>false</default>
+                <label>Prostrate</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Brain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Breast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Colorectal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Head&amp;Neck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Kidney</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Lung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Prostrate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

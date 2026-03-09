@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RSOs_in_MA_ME_VT_NH_NY_CT_RI_NJ1</fullName>
+    <booleanFilter>1 AND 2 and 3 and 4</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.EMAIL_OPT_OUT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.TITLE</field>
+        <operation>equals</operation>
+        <value>Radiation Safety Officer,RSO,Radiation,Health Physicist</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>MA,ME,VT,NH,NY,CT,RI</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notContain</operation>
+        <value>astra,boehringer,bristol,epizyme,genzyme,merck,novartis,pfizer,purdue,roche</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notContain</operation>
+        <value>schering,sunovion,sepracor,wyeth</value>
+    </filters>
+    <label>RSOs in MA,ME,VT,NH,NY,CT,RI</label>
+    <language>en_US</language>
+</ListView>

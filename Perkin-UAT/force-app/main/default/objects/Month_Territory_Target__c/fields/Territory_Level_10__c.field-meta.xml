@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Level_10__c</fullName>
+    <label>Territory Level 10</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Territory_Level_9__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Philippines EH Team Members</fullName>
+                <default>false</default>
+                <label>Philippines EH Team Members</label>
+            </value>
+            <value>
+                <fullName>EH EU India Petro Sub Region 1 Leader</fullName>
+                <default>false</default>
+                <label>EH EU India Petro Sub Region 1 Leader</label>
+            </value>
+            <value>
+                <fullName>EH EU India South Central Sub Region 1 Leader</fullName>
+                <default>false</default>
+                <label>EH EU India South Central Sub Region 1 Leader</label>
+            </value>
+            <value>
+                <fullName>EH EU India West Sub Region 1 Leader</fullName>
+                <default>false</default>
+                <label>EH EU India West Sub Region 1 Leader</label>
+            </value>
+            <value>
+                <fullName>Asturias &amp; Leon</fullName>
+                <default>false</default>
+                <label>Asturias &amp; Leon</label>
+            </value>
+            <value>
+                <fullName>Galicia &amp; Alejandro</fullName>
+                <default>false</default>
+                <label>Galicia &amp; Alejandro</label>
+            </value>
+            <value>
+                <fullName>EH EGB2 Sales Team North</fullName>
+                <default>false</default>
+                <label>EH EGB2 Sales Team North</label>
+            </value>
+            <value>
+                <fullName>EH EGB2 Sales Team South</fullName>
+                <default>false</default>
+                <label>EH EGB2 Sales Team South</label>
+            </value>
+            <value>
+                <fullName>EIT EH Lombardy Team Chrom</fullName>
+                <default>false</default>
+                <label>EIT EH Lombardy Team Chrom</label>
+            </value>
+            <value>
+                <fullName>EIT EH Lombardy Team INORG</fullName>
+                <default>false</default>
+                <label>EIT EH Lombardy Team INORG</label>
+            </value>
+            <value>
+                <fullName>EIT EH Lombardy Team MatChar</fullName>
+                <default>false</default>
+                <label>EIT EH Lombardy Team MatChar</label>
+            </value>
+            <value>
+                <fullName>EIT EH North East Team Chrom</fullName>
+                <default>false</default>
+                <label>EIT EH North East Team Chrom</label>
+            </value>
+            <value>
+                <fullName>EIT EH North East Team Inorg</fullName>
+                <default>false</default>
+                <label>EIT EH North East Team Inorg</label>
+            </value>
+            <value>
+                <fullName>EIT EH North East Team MatChar</fullName>
+                <default>false</default>
+                <label>EIT EH North East Team MatChar</label>
+            </value>
+            <value>
+                <fullName>EIT EH North West Team Chrom</fullName>
+                <default>false</default>
+                <label>EIT EH North West Team Chrom</label>
+            </value>
+            <value>
+                <fullName>EIT EH North West Team Inorg</fullName>
+                <default>false</default>
+                <label>EIT EH North West Team Inorg</label>
+            </value>
+            <value>
+                <fullName>EIT EH North West Team MatChar</fullName>
+                <default>false</default>
+                <label>EIT EH North West Team MatChar</label>
+            </value>
+            <value>
+                <fullName>EIT EH South Team Chrom</fullName>
+                <default>false</default>
+                <label>EIT EH South Team Chrom</label>
+            </value>
+            <value>
+                <fullName>EIT EH South Team INORG</fullName>
+                <default>false</default>
+                <label>EIT EH South Team INORG</label>
+            </value>
+            <value>
+                <fullName>EIT EH South Team MatChar</fullName>
+                <default>false</default>
+                <label>EIT EH South Team MatChar</label>
+            </value>
+            <value>
+                <fullName>EAT2 BIO Reagents Sales Team</fullName>
+                <default>false</default>
+                <label>EAT2 BIO Reagents Sales Team</label>
+            </value>
+            <value>
+                <fullName>ECH2 BIO Reagents Sales Team</fullName>
+                <default>false</default>
+                <label>ECH2 BIO Reagents Sales Team</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>EH EU India Petro Sales Team</controllingFieldValue>
+            <valueName>EH EU India Petro Sub Region 1 Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU India South &amp; Central Sales Team</controllingFieldValue>
+            <valueName>EH EU India South Central Sub Region 1 Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EU India West Sales Team</controllingFieldValue>
+            <valueName>EH EU India West Sub Region 1 Leader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asturias &amp; Leon Leader</controllingFieldValue>
+            <valueName>Asturias &amp; Leon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Galicia &amp; Alejandro Leader</controllingFieldValue>
+            <valueName>Galicia &amp; Alejandro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EGB2 Sales Leader North</controllingFieldValue>
+            <valueName>EH EGB2 Sales Team North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EH EGB2 South Sales Team Leader</controllingFieldValue>
+            <valueName>EH EGB2 Sales Team South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH Lombardy Team</controllingFieldValue>
+            <valueName>EIT EH Lombardy Team Chrom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH Lombardy Team</controllingFieldValue>
+            <valueName>EIT EH Lombardy Team INORG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH Lombardy Team</controllingFieldValue>
+            <valueName>EIT EH Lombardy Team MatChar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Philippines EH Sales Team Manager</controllingFieldValue>
+            <valueName>Philippines EH Team Members</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH North East Team</controllingFieldValue>
+            <valueName>EIT EH North East Team Chrom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH North East Team</controllingFieldValue>
+            <valueName>EIT EH North East Team Inorg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH North East Team</controllingFieldValue>
+            <valueName>EIT EH North East Team MatChar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH North West Team</controllingFieldValue>
+            <valueName>EIT EH North West Team Chrom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH North West Team</controllingFieldValue>
+            <valueName>EIT EH North West Team Inorg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH North West Team</controllingFieldValue>
+            <valueName>EIT EH North West Team MatChar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH South Team</controllingFieldValue>
+            <valueName>EIT EH South Team Chrom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH South Team</controllingFieldValue>
+            <valueName>EIT EH South Team INORG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIT EH South Team</controllingFieldValue>
+            <valueName>EIT EH South Team MatChar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EAT2 BIO Reagents Sales Leader</controllingFieldValue>
+            <valueName>EAT2 BIO Reagents Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECH2 BIO Reagents Sales Leader</controllingFieldValue>
+            <valueName>ECH2 BIO Reagents Sales Team</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tim_H_View</fullName>
+    <columns>NAME</columns>
+    <columns>Assigned_To__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Comment__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Status__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>Accelerator__c</columns>
+    <columns>Interaction_Icon__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>PKI_Queue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Working,Closed</value>
+    </filters>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>contains</operation>
+        <value>LSDX,MFT,AWS,CLH,SPS,NAP,NEX,ARS,HMG,RHS,MCG,APS,MDX</value>
+    </filters>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>contains</operation>
+        <value>America</value>
+    </filters>
+    <filters>
+        <field>Qualification_Status__c</field>
+        <operation>contains</operation>
+        <value>Pre-QL</value>
+    </filters>
+    <label>Tim H View</label>
+</ListView>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BU_Alignment__c</fullName>
+    <description>Represents business group</description>
+    <label>Business Unit</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advanced Diagnostics</fullName>
+                <default>false</default>
+                <label>Advanced Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Applied Genomics (AG)</fullName>
+                <default>false</default>
+                <label>Applied Genomics (AG)</label>
+            </value>
+            <value>
+                <fullName>Automation &amp; Detection Systems (ADS)</fullName>
+                <default>false</default>
+                <label>Automation &amp; Detection Systems (ADS)</label>
+            </value>
+            <value>
+                <fullName>Biotherapeutics</fullName>
+                <default>false</default>
+                <label>Biotherapeutics</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Chromatography (contains GC, LC)</fullName>
+                <default>false</default>
+                <label>Chromatography (contains GC, LC)</label>
+            </value>
+            <value>
+                <fullName>Clinical Diagnostics</fullName>
+                <default>false</default>
+                <label>Clinical Diagnostics</label>
+            </value>
+            <value>
+                <fullName>DNA</fullName>
+                <default>false</default>
+                <label>DNA</label>
+            </value>
+            <value>
+                <fullName>Drug Discovery</fullName>
+                <default>false</default>
+                <label>Drug Discovery</label>
+            </value>
+            <value>
+                <fullName>EcoAnalytix</fullName>
+                <default>false</default>
+                <label>EcoAnalytix</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Imaging &amp; Analysis Systems (IAS)</fullName>
+                <default>false</default>
+                <label>Imaging &amp; Analysis Systems (IAS)</label>
+            </value>
+            <value>
+                <fullName>Immuno Diagostics (ID)</fullName>
+                <default>false</default>
+                <label>Immuno Diagostics (ID)</label>
+            </value>
+            <value>
+                <fullName>Independent Clinical Lab (ICL)</fullName>
+                <default>false</default>
+                <label>Independent Clinical Lab (ICL)</label>
+            </value>
+            <value>
+                <fullName>Informatics (INF)</fullName>
+                <default>false</default>
+                <label>Informatics (INF)</label>
+            </value>
+            <value>
+                <fullName>Inorganic (contains AA, ICP, MAS)</fullName>
+                <default>false</default>
+                <label>Inorganic (contains AA, ICP, MAS)</label>
+            </value>
+            <value>
+                <fullName>In Vivo Imaging (INV, QTS)</fullName>
+                <default>false</default>
+                <label>In Vivo Imaging (INV, QTS)</label>
+            </value>
+            <value>
+                <fullName>In Vivo Reagents (FAP, CLR)</fullName>
+                <default>false</default>
+                <label>In Vivo Reagents (FAP, CLR)</label>
+            </value>
+            <value>
+                <fullName>Life Science Research</fullName>
+                <default>false</default>
+                <label>Life Science Research</label>
+            </value>
+            <value>
+                <fullName>Material Charac. (IR, UVS, RAM, TEA)</fullName>
+                <default>false</default>
+                <label>Material Charac. (IR, UVS, RAM, TEA)</label>
+            </value>
+            <value>
+                <fullName>Maternal Fetal Health</fullName>
+                <default>false</default>
+                <label>Maternal Fetal Health</label>
+            </value>
+            <value>
+                <fullName>Microscopy/Tissue Imaging (TSC/TIS)</fullName>
+                <default>false</default>
+                <label>Microscopy/Tissue Imaging (TSC/TIS)</label>
+            </value>
+            <value>
+                <fullName>MI - Medical Imaging</fullName>
+                <default>false</default>
+                <label>MI - Medical Imaging</label>
+            </value>
+            <value>
+                <fullName>MLD/MMD - Multimode Detection</fullName>
+                <default>false</default>
+                <label>MLD/MMD - Multimode Detection</label>
+            </value>
+            <value>
+                <fullName>Molecular Diagnostics</fullName>
+                <default>false</default>
+                <label>Molecular Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Neonatal</fullName>
+                <default>false</default>
+                <label>Neonatal</label>
+            </value>
+            <value>
+                <fullName>NGS - Next Gen Sequencing</fullName>
+                <default>false</default>
+                <label>NGS - Next Gen Sequencing</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Preclinical</fullName>
+                <default>false</default>
+                <label>Preclinical</label>
+            </value>
+            <value>
+                <fullName>Prenatal</fullName>
+                <default>false</default>
+                <label>Prenatal</label>
+            </value>
+            <value>
+                <fullName>Protein Biology Reagents</fullName>
+                <default>false</default>
+                <label>Protein Biology Reagents</label>
+            </value>
+            <value>
+                <fullName>Proteomics Solutions</fullName>
+                <default>false</default>
+                <label>Proteomics Solutions</label>
+            </value>
+            <value>
+                <fullName>Quantitative Pathology</fullName>
+                <default>false</default>
+                <label>Quantitative Pathology</label>
+            </value>
+            <value>
+                <fullName>Reagent</fullName>
+                <default>false</default>
+                <label>Reagent</label>
+            </value>
+            <value>
+                <fullName>Reproductive Health(RH)</fullName>
+                <default>false</default>
+                <label>Reproductive Health(RH)</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Thermal/Elemental</fullName>
+                <default>false</default>
+                <label>Thermal/Elemental</label>
+            </value>
+            <value>
+                <fullName>Virology</fullName>
+                <default>false</default>
+                <label>Virology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

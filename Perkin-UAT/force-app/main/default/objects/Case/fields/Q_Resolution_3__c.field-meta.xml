@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q_Resolution_3__c</fullName>
+    <label>Q-Resolution 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Q_Resolution_2__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administrative/Hardware</fullName>
+                <default>false</default>
+                <label>Administrative/Hardware</label>
+            </value>
+            <value>
+                <fullName>Administrative/Marketing/Sales</fullName>
+                <default>false</default>
+                <label>Administrative/Marketing/Sales</label>
+            </value>
+            <value>
+                <fullName>Administrative/Shipping</fullName>
+                <default>false</default>
+                <label>Administrative/Shipping</label>
+            </value>
+            <value>
+                <fullName>Administrative/Software</fullName>
+                <default>false</default>
+                <label>Administrative/Software</label>
+            </value>
+            <value>
+                <fullName>Capacity</fullName>
+                <default>false</default>
+                <label>Capacity</label>
+            </value>
+            <value>
+                <fullName>Coder</fullName>
+                <default>false</default>
+                <label>Coder</label>
+            </value>
+            <value>
+                <fullName>Communication Breakdown</fullName>
+                <default>false</default>
+                <label>Communication Breakdown</label>
+            </value>
+            <value>
+                <fullName>Component Failure</fullName>
+                <default>false</default>
+                <label>Component Failure</label>
+            </value>
+            <value>
+                <fullName>Damage</fullName>
+                <default>false</default>
+                <label>Damage</label>
+            </value>
+            <value>
+                <fullName>Design Fault</fullName>
+                <default>false</default>
+                <label>Design Fault</label>
+            </value>
+            <value>
+                <fullName>Difficult to Follow</fullName>
+                <default>false</default>
+                <label>Difficult to Follow</label>
+            </value>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>Environmental Issue</fullName>
+                <default>false</default>
+                <label>Environmental Issue</label>
+            </value>
+            <value>
+                <fullName>Functional Problem</fullName>
+                <default>false</default>
+                <label>Functional Problem</label>
+            </value>
+            <value>
+                <fullName>Incoming Inspection</fullName>
+                <default>false</default>
+                <label>Incoming Inspection</label>
+            </value>
+            <value>
+                <fullName>Late Delivery</fullName>
+                <default>false</default>
+                <label>Late Delivery</label>
+            </value>
+            <value>
+                <fullName>Lost in Shipment</fullName>
+                <default>false</default>
+                <label>Lost in Shipment</label>
+            </value>
+            <value>
+                <fullName>Mfg Assembly</fullName>
+                <default>false</default>
+                <label>Mfg Assembly</label>
+            </value>
+            <value>
+                <fullName>Missed Opportunity</fullName>
+                <default>false</default>
+                <label>Missed Opportunity</label>
+            </value>
+            <value>
+                <fullName>Missing/Wrong Parts</fullName>
+                <default>false</default>
+                <label>Missing/Wrong Parts</label>
+            </value>
+            <value>
+                <fullName>Needs to Reflect New Practice</fullName>
+                <default>false</default>
+                <label>Needs to Reflect New Practice</label>
+            </value>
+            <value>
+                <fullName>Not Clearly Written</fullName>
+                <default>false</default>
+                <label>Not Clearly Written</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Parts Availability</fullName>
+                <default>false</default>
+                <label>Parts Availability</label>
+            </value>
+            <value>
+                <fullName>Process Needs Improvement</fullName>
+                <default>false</default>
+                <label>Process Needs Improvement</label>
+            </value>
+            <value>
+                <fullName>Product Enhancements</fullName>
+                <default>false</default>
+                <label>Product Enhancements</label>
+            </value>
+            <value>
+                <fullName>Product Safety</fullName>
+                <default>false</default>
+                <label>Product Safety</label>
+            </value>
+            <value>
+                <fullName>Product Specification</fullName>
+                <default>false</default>
+                <label>Product Specification</label>
+            </value>
+            <value>
+                <fullName>Quality of Service</fullName>
+                <default>false</default>
+                <label>Quality of Service</label>
+            </value>
+            <value>
+                <fullName>Regulatory Issue</fullName>
+                <default>false</default>
+                <label>Regulatory Issue</label>
+            </value>
+            <value>
+                <fullName>Rev Control</fullName>
+                <default>false</default>
+                <label>Rev Control</label>
+            </value>
+            <value>
+                <fullName>Spec Issue</fullName>
+                <default>false</default>
+                <label>Spec Issue</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>Timeliness of Service</fullName>
+                <default>false</default>
+                <label>Timeliness of Service</label>
+            </value>
+            <value>
+                <fullName>X-Training</fullName>
+                <default>false</default>
+                <label>X-Training</label>
+            </value>
+            <value>
+                <fullName>TS_Fix</fullName>
+                <default>false</default>
+                <label>TS_Fix</label>
+            </value>
+            <value>
+                <fullName>Tubing</fullName>
+                <default>false</default>
+                <label>Tubing</label>
+            </value>
+            <value>
+                <fullName>Workmanship</fullName>
+                <default>false</default>
+                <label>Workmanship</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Mfg Procedures</controllingFieldValue>
+            <valueName>Capacity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mfg Procedures</controllingFieldValue>
+            <valueName>Process Needs Improvement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mfg Procedures</controllingFieldValue>
+            <controllingFieldValue>Marketing/Sales</controllingFieldValue>
+            <valueName>X-Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mfg Procedures</controllingFieldValue>
+            <valueName>Workmanship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Existing Process Needs Improvement</controllingFieldValue>
+            <valueName>Difficult to Follow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Existing Process Needs Improvement</controllingFieldValue>
+            <valueName>Needs to Reflect New Practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Existing Process Needs Improvement</controllingFieldValue>
+            <valueName>Not Clearly Written</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software Issue</controllingFieldValue>
+            <valueName>Administrative/Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software Issue</controllingFieldValue>
+            <valueName>Coder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software Issue</controllingFieldValue>
+            <valueName>Rev Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software Issue</controllingFieldValue>
+            <valueName>Spec Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software Issue</controllingFieldValue>
+            <valueName>Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Support Issue</controllingFieldValue>
+            <valueName>Quality of Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Support Issue</controllingFieldValue>
+            <valueName>Timeliness of Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Problem</controllingFieldValue>
+            <valueName>Administrative/Shipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Problem</controllingFieldValue>
+            <valueName>Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Problem</controllingFieldValue>
+            <valueName>Late Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Problem</controllingFieldValue>
+            <valueName>Lost in Shipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Problem</controllingFieldValue>
+            <valueName>Missing/Wrong Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Problem</controllingFieldValue>
+            <valueName>Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Sales</controllingFieldValue>
+            <valueName>Administrative/Marketing/Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Sales</controllingFieldValue>
+            <valueName>Communication Breakdown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Sales</controllingFieldValue>
+            <valueName>Missed Opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Sales</controllingFieldValue>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Product Enhancements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Sales</controllingFieldValue>
+            <valueName>Product Specification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Sales</controllingFieldValue>
+            <valueName>TS_Fix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Administrative/Hardware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Component Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Design Fault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Documentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Environmental Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Functional Problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Incoming Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Mfg Assembly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Parts Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Product Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Regulatory Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc Hardware</controllingFieldValue>
+            <valueName>Tubing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

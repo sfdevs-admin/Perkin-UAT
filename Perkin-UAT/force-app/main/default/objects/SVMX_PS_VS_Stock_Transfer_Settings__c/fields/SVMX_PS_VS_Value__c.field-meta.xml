@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_VS_Value__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to store the value(true/false)</description>
+    <inlineHelpText>Field to store the value(true/false)</inlineHelpText>
+    <label>Value</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

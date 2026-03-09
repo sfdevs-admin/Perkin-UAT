@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Start_and_End_date_mandatory</fullName>
+    <active>false</active>
+    <description>if Product name contains licenseStart Date and End Date is mandatory</description>
+    <errorConditionFormula>AND(
+	OR(
+		ISBLANK(Start_Date_INF__c),
+		ISBLANK( End_Date_INF__c)
+	),
+	OR(
+		CONTAINS(PricebookEntry.Product2.Name,&#39;Subscription&#39;),CONTAINS(PricebookEntry.Product2.Name,&#39;Maintenance&#39;),CONTAINS(PricebookEntry.Product2.Name,&#39;Term&#39;)
+	),
+	Product2.Business_Unit__c == &#39;INF&#39; 
+)</errorConditionFormula>
+    <errorDisplayField>Covered_Asset__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_PRODUCT_002: Enter Start and End Date for subscription, maintenance and term products.</errorMessage>
+</ValidationRule>

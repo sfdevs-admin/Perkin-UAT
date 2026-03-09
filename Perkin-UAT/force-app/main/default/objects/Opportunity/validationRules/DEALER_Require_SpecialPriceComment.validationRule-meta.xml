@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DEALER_Require_SpecialPriceComment</fullName>
+    <active>true</active>
+    <description>Special Price Comments Is Mandatory if special price is needed</description>
+    <errorConditionFormula>AND(
+CONTAINS(fxRecordTypeName__c, &#39;Dealer&#39;)
+/*, CONTAINS($User.License_type__c, &#39;Partner&#39;)*/
+, CONTAINS($Profile.Name,&#39;Dealer&#39;)
+, TEXT(Special_Price_Question__c)= &#39;Yes&#39;
+, ISBLANK(Special_Price_Comments__c)
+)</errorConditionFormula>
+    <errorDisplayField>Special_Price_Comments__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_053: Please enter special price comments</errorMessage>
+</ValidationRule>

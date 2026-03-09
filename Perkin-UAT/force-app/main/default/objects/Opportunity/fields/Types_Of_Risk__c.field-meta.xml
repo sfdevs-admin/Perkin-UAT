@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Types_Of_Risk__c</fullName>
+    <inlineHelpText>&quot;Click here if there is service risk (e.g., customer dissatisfied) or any other type of risk. You can select more than one options&quot;. - - - 
+No specific risk 
+Service Risk – existing customer 
+Commercial/Contractual Risk (e.g., credit hold, compliance) 
+Operational/Fulfillment risk (e.g., manufacturing and shipping constraints) 
+Technical/Product risk (e.g., Software)</inlineHelpText>
+    <label>Types Of Risk</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No specific risk</fullName>
+                <default>false</default>
+                <label>No specific risk</label>
+            </value>
+            <value>
+                <fullName>Service Risk – existing customer</fullName>
+                <default>false</default>
+                <label>Service Risk – existing customer</label>
+            </value>
+            <value>
+                <fullName>Commercial or contractual Risk</fullName>
+                <default>false</default>
+                <label>Commercial or contractual Risk</label>
+            </value>
+            <value>
+                <fullName>Operational/ Fulfillment Risk</fullName>
+                <default>false</default>
+                <label>Operational/ Fulfillment Risk</label>
+            </value>
+            <value>
+                <fullName>Technical/ Product risk (e.g., Software)</fullName>
+                <default>false</default>
+                <label>Technical/ Product risk (e.g., Software)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAP_PLType_Code__c</fullName>
+    <description>This field is created to provide the information about SAP PLType Code by GTA team.</description>
+    <externalId>false</externalId>
+    <label>SAP PLType Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

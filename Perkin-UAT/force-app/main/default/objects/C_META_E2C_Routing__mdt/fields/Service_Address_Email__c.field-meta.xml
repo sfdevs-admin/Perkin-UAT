@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Address_Email__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>This must match any verified Email-To-Case email address</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>This must match any verified Email-To-Case email address</inlineHelpText>
+    <label>Service Address Email</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Watham_Tech_Center</fullName>
+    <columns>NAME</columns>
+    <columns>User__c</columns>
+    <columns>Date_Received__c</columns>
+    <columns>Serial_Number__c</columns>
+    <columns>IGOR__c</columns>
+    <columns>Current_Location__c</columns>
+    <columns>Material__c</columns>
+    <columns>Date_Sent__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Watham Tech Center Assets 1</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>inactive__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>turn off this replace rule</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>turn off this replace rule</inlineHelpText>
+    <label>inactive</label>
+    <type>Checkbox</type>
+</CustomField>

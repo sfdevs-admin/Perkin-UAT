@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Of_Customer__c</fullName>
+    <inlineHelpText>Ex-Loyal:
+Existing customer; competition has no real chance
+Ex-Competitive (Replacement):
+Replacing an existing PKI instrument through a competitive process.
+Ex-Competitive (Expansion):
+Adding a new product line in existing customer, with competition.
+New–Competitive Displacement:
+PKI displaces competitor instruments
+New–New Entrant (Greenfield):
+New facility-PKI is the 1st in the door
+New–Dormant Customer:
+Customer stopped using PKI (&gt;2years) and switched to competitors. Reactivating customer.</inlineHelpText>
+    <label>Type Of Customer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Existing – Loyal</fullName>
+                <default>false</default>
+                <label>Existing – Loyal</label>
+            </value>
+            <value>
+                <fullName>Existing – Competitive (Replacement)</fullName>
+                <default>false</default>
+                <label>Existing – Competitive (Replacement)</label>
+            </value>
+            <value>
+                <fullName>Existing – Competitive (Expansion)</fullName>
+                <default>false</default>
+                <label>Existing – Competitive (Expansion)</label>
+            </value>
+            <value>
+                <fullName>New – Competitive Displacement</fullName>
+                <default>false</default>
+                <label>New – Competitive Displacement</label>
+            </value>
+            <value>
+                <fullName>New – New Entrant (Greenfield)</fullName>
+                <default>false</default>
+                <label>New – New Entrant (Greenfield)</label>
+            </value>
+            <value>
+                <fullName>New – Dormant Customer</fullName>
+                <default>false</default>
+                <label>New – Dormant Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

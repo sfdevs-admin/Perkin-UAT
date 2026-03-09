@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxConvertMethod__c</fullName>
+    <description>This is used to determine how the lead was converted, native convert, Flow Custom Convert, or API. Filled in by the S.FLOW_2410: Lead Convert Default if custom.</description>
+    <inlineHelpText>This is used to determine how the lead was converted, native convert, Flow Custom Convert, or API. Filled in by the S.FLOW_2410: Lead Convert Default if custom.</inlineHelpText>
+    <label>fxConvertMethod</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>Native</fullName>
+                <default>false</default>
+                <label>Native</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

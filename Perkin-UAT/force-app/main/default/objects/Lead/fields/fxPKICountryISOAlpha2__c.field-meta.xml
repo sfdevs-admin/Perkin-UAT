@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxPKICountryISOAlpha2__c</fullName>
+    <businessOwnerGroup>ARQ_001007</businessOwnerGroup>
+    <description>formula to get the territory info from PKI Country (ATEAM-1654)</description>
+    <externalId>false</externalId>
+    <formula>PKICountry__r.Country_ISO_Alpha_2__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>fx PKI Country ISO Alpha-2</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

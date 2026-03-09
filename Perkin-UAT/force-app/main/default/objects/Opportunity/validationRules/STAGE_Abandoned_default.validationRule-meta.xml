@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>STAGE_Abandoned_default</fullName>
+    <active>true</active>
+    <description>Stage validation rule</description>
+    <errorConditionFormula>AND(
+NOT($Permission.C_PERM_8020_Bypass_Opp_V_RULE)
+, DateValue(CreatedDate) &gt;= $Setup.CSET_9900__c.OppCutoverDate__c
+, fxRecordTypeName__c = &quot;PKI SPI Sales Process&quot;
+, TEXT(StageName)=&#39;Abandoned&#39;
+, OR(
+AND( PRIORVALUE(StageNumber__c) &gt;=3
+, PRIORVALUE(StageNumber__c) &lt;=5
+)
+)
+)</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_073: To abandon at stage 1 or 2, ensure the &quot;Closed Reason Detail&quot; is filled in. From stage 3 and after, you can only move to &quot;Closed Lost&quot; and will need to supply the &quot;Closed Reason Detail&quot;.</errorMessage>
+</ValidationRule>

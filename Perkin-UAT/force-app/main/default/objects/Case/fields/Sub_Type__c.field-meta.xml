@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Type__c</fullName>
+    <description>changed field name from Type of Case to Sub TYpe for LST service &amp; support</description>
+    <label>Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Adapter Support</fullName>
+                <default>false</default>
+                <label>Adapter Support</label>
+            </value>
+            <value>
+                <fullName>Advanced</fullName>
+                <default>false</default>
+                <label>Advanced</label>
+            </value>
+            <value>
+                <fullName>AFT Advanced</fullName>
+                <default>false</default>
+                <label>AFT Advanced</label>
+            </value>
+            <value>
+                <fullName>AFT Applications</fullName>
+                <default>false</default>
+                <label>AFT Applications</label>
+            </value>
+            <value>
+                <fullName>AFT Basic</fullName>
+                <default>false</default>
+                <label>AFT Basic</label>
+            </value>
+            <value>
+                <fullName>AFT Basic &amp; Advanced</fullName>
+                <default>false</default>
+                <label>AFT Basic &amp; Advanced</label>
+            </value>
+            <value>
+                <fullName>AFT User</fullName>
+                <default>false</default>
+                <label>AFT User</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Assist</fullName>
+                <default>false</default>
+                <label>Assist</label>
+            </value>
+            <value>
+                <fullName>Automated Invoices</fullName>
+                <default>false</default>
+                <label>Automated Invoices</label>
+            </value>
+            <value>
+                <fullName>Automated Orders</fullName>
+                <default>false</default>
+                <label>Automated Orders</label>
+            </value>
+            <value>
+                <fullName>Basic</fullName>
+                <default>false</default>
+                <label>Basic</label>
+            </value>
+            <value>
+                <fullName>Billable Quotation</fullName>
+                <default>false</default>
+                <label>Billable Quotation</label>
+            </value>
+            <value>
+                <fullName>Both Basic &amp; Advanced</fullName>
+                <default>false</default>
+                <label>Both Basic &amp; Advanced</label>
+            </value>
+            <value>
+                <fullName>Caliper Site Training</fullName>
+                <default>false</default>
+                <label>Caliper Site Training</label>
+            </value>
+            <value>
+                <fullName>Chip/Reagents Quality</fullName>
+                <default>false</default>
+                <label>Chip/Reagents Quality</label>
+            </value>
+            <value>
+                <fullName>Chips &amp; Reagent</fullName>
+                <default>false</default>
+                <label>Chips &amp; Reagent</label>
+            </value>
+            <value>
+                <fullName>Close / Complete Call</fullName>
+                <default>false</default>
+                <label>Close / Complete Call</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>Computer</fullName>
+                <default>false</default>
+                <label>Computer</label>
+            </value>
+            <value>
+                <fullName>Consumable</fullName>
+                <default>false</default>
+                <label>Consumable</label>
+            </value>
+            <value>
+                <fullName>Consumables/Spares/Accy</fullName>
+                <default>false</default>
+                <label>Consumables/Spares/Accy</label>
+            </value>
+            <value>
+                <fullName>Courtesy Call</fullName>
+                <default>false</default>
+                <label>Courtesy Call</label>
+            </value>
+            <value>
+                <fullName>Create Work Order</fullName>
+                <default>false</default>
+                <label>Create Work Order</label>
+            </value>
+            <value>
+                <fullName>Customer Master</fullName>
+                <default>false</default>
+                <label>Customer Master</label>
+            </value>
+            <value>
+                <fullName>Customer Training</fullName>
+                <default>false</default>
+                <label>Customer Training</label>
+            </value>
+            <value>
+                <fullName>Custom Order</fullName>
+                <default>false</default>
+                <label>Custom Order</label>
+            </value>
+            <value>
+                <fullName>Deals</fullName>
+                <default>false</default>
+                <label>Deals</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Demo Support</fullName>
+                <default>false</default>
+                <label>Demo Support</label>
+            </value>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>e-catalog</fullName>
+                <default>false</default>
+                <label>e-catalog</label>
+            </value>
+            <value>
+                <fullName>Estimate Conversion</fullName>
+                <default>false</default>
+                <label>Estimate Conversion</label>
+            </value>
+            <value>
+                <fullName>EZ K + PP</fullName>
+                <default>false</default>
+                <label>EZ K + PP</label>
+            </value>
+            <value>
+                <fullName>EZ Kinetic</fullName>
+                <default>false</default>
+                <label>EZ Kinetic</label>
+            </value>
+            <value>
+                <fullName>EZ ProfilerPro</fullName>
+                <default>false</default>
+                <label>EZ ProfilerPro</label>
+            </value>
+            <value>
+                <fullName>FAT / SAT</fullName>
+                <default>false</default>
+                <label>FAT / SAT</label>
+            </value>
+            <value>
+                <fullName>Field Application Support</fullName>
+                <default>false</default>
+                <label>Field Application Support</label>
+            </value>
+            <value>
+                <fullName>GX</fullName>
+                <default>false</default>
+                <label>GX</label>
+            </value>
+            <value>
+                <fullName>GX + 21CFR</fullName>
+                <default>false</default>
+                <label>GX + 21CFR</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Installation Batch</fullName>
+                <default>false</default>
+                <label>Installation Batch</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
+            </value>
+            <value>
+                <fullName>Internal Order</fullName>
+                <default>false</default>
+                <label>Internal Order</label>
+            </value>
+            <value>
+                <fullName>Internal Support</fullName>
+                <default>false</default>
+                <label>Internal Support</label>
+            </value>
+            <value>
+                <fullName>Invoice Dispute</fullName>
+                <default>false</default>
+                <label>Invoice Dispute</label>
+            </value>
+            <value>
+                <fullName>Large Pack</fullName>
+                <default>false</default>
+                <label>Large Pack</label>
+            </value>
+            <value>
+                <fullName>Level 2 PunchOut</fullName>
+                <default>false</default>
+                <label>Level 2 PunchOut</label>
+            </value>
+            <value>
+                <fullName>Live Availability</fullName>
+                <default>false</default>
+                <label>Live Availability</label>
+            </value>
+            <value>
+                <fullName>Live Price</fullName>
+                <default>false</default>
+                <label>Live Price</label>
+            </value>
+            <value>
+                <fullName>Manufacturing Procedures</fullName>
+                <default>false</default>
+                <label>Manufacturing Procedures</label>
+            </value>
+            <value>
+                <fullName>Manufacturing Test</fullName>
+                <default>false</default>
+                <label>Manufacturing Test</label>
+            </value>
+            <value>
+                <fullName>Misdirect</fullName>
+                <default>false</default>
+                <label>Misdirect</label>
+            </value>
+            <value>
+                <fullName>Misdirected</fullName>
+                <default>false</default>
+                <label>Misdirected</label>
+            </value>
+            <value>
+                <fullName>Move / Re-Install</fullName>
+                <default>false</default>
+                <label>Move / Re-Install</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Out of Box</fullName>
+                <default>false</default>
+                <label>Out of Box</label>
+            </value>
+            <value>
+                <fullName>Packaging/Shipping</fullName>
+                <default>false</default>
+                <label>Packaging/Shipping</label>
+            </value>
+            <value>
+                <fullName>Part</fullName>
+                <default>false</default>
+                <label>Part</label>
+            </value>
+            <value>
+                <fullName>Part number request</fullName>
+                <default>false</default>
+                <label>Part number request</label>
+            </value>
+            <value>
+                <fullName>Phone Support</fullName>
+                <default>false</default>
+                <label>Phone Support</label>
+            </value>
+            <value>
+                <fullName>PIV / INSTALL / PM</fullName>
+                <default>false</default>
+                <label>PIV / INSTALL / PM</label>
+            </value>
+            <value>
+                <fullName>PO for Service Contract</fullName>
+                <default>false</default>
+                <label>PO for Service Contract</label>
+            </value>
+            <value>
+                <fullName>Preventative Maintenance</fullName>
+                <default>false</default>
+                <label>Preventative Maintenance</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Product Information</fullName>
+                <default>false</default>
+                <label>Product Information</label>
+            </value>
+            <value>
+                <fullName>Product Safety</fullName>
+                <default>false</default>
+                <label>Product Safety</label>
+            </value>
+            <value>
+                <fullName>Product Training</fullName>
+                <default>false</default>
+                <label>Product Training</label>
+            </value>
+            <value>
+                <fullName>PunchOut</fullName>
+                <default>false</default>
+                <label>PunchOut</label>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+                <label>Question</label>
+            </value>
+            <value>
+                <fullName>Redate</fullName>
+                <default>false</default>
+                <label>Redate</label>
+            </value>
+            <value>
+                <fullName>Remote Workorder</fullName>
+                <default>false</default>
+                <label>Remote Workorder</label>
+            </value>
+            <value>
+                <fullName>Request Service Quote</fullName>
+                <default>false</default>
+                <label>Request Service Quote</label>
+            </value>
+            <value>
+                <fullName>REV REC</fullName>
+                <default>false</default>
+                <label>REV REC</label>
+            </value>
+            <value>
+                <fullName>Service Alert</fullName>
+                <default>false</default>
+                <label>Service Alert</label>
+            </value>
+            <value>
+                <fullName>Service Call</fullName>
+                <default>false</default>
+                <label>Service Call</label>
+            </value>
+            <value>
+                <fullName>Service Call Request</fullName>
+                <default>false</default>
+                <label>Service Call Request</label>
+            </value>
+            <value>
+                <fullName>Service Contract Miscellaneous</fullName>
+                <default>false</default>
+                <label>Service Contract Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Service Contract Quote Inquiry</fullName>
+                <default>false</default>
+                <label>Service Contract Quote Inquiry</label>
+            </value>
+            <value>
+                <fullName>Service Dispatch</fullName>
+                <default>false</default>
+                <label>Service Dispatch</label>
+            </value>
+            <value>
+                <fullName>Service Visit Quote</fullName>
+                <default>false</default>
+                <label>Service Visit Quote</label>
+            </value>
+            <value>
+                <fullName>Shipping Reports</fullName>
+                <default>false</default>
+                <label>Shipping Reports</label>
+            </value>
+            <value>
+                <fullName>Small Pack</fullName>
+                <default>false</default>
+                <label>Small Pack</label>
+            </value>
+            <value>
+                <fullName>SN# Known-TBD</fullName>
+                <default>false</default>
+                <label>SN# Known-TBD</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Software/Firmware</fullName>
+                <default>false</default>
+                <label>Software/Firmware</label>
+            </value>
+            <value>
+                <fullName>SP - Cross Selling</fullName>
+                <default>false</default>
+                <label>SP - Cross Selling</label>
+            </value>
+            <value>
+                <fullName>SP - FOC Order</fullName>
+                <default>false</default>
+                <label>SP - FOC Order</label>
+            </value>
+            <value>
+                <fullName>SP - RAD</fullName>
+                <default>false</default>
+                <label>SP - RAD</label>
+            </value>
+            <value>
+                <fullName>SP - Return/Replace</fullName>
+                <default>false</default>
+                <label>SP - Return/Replace</label>
+            </value>
+            <value>
+                <fullName>SP - RH</fullName>
+                <default>false</default>
+                <label>SP - RH</label>
+            </value>
+            <value>
+                <fullName>SP - Standing Order</fullName>
+                <default>false</default>
+                <label>SP - Standing Order</label>
+            </value>
+            <value>
+                <fullName>Technical Question</fullName>
+                <default>false</default>
+                <label>Technical Question</label>
+            </value>
+            <value>
+                <fullName>Time Off</fullName>
+                <default>false</default>
+                <label>Time Off</label>
+            </value>
+            <value>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+                <label>Tradeshow</label>
+            </value>
+            <value>
+                <fullName>Training/Workmanship</fullName>
+                <default>false</default>
+                <label>Training/Workmanship</label>
+            </value>
+            <value>
+                <fullName>Transfer</fullName>
+                <default>false</default>
+                <label>Transfer</label>
+            </value>
+            <value>
+                <fullName>Update/Upgrade</fullName>
+                <default>false</default>
+                <label>Update/Upgrade</label>
+            </value>
+            <value>
+                <fullName>Update Equipment Record</fullName>
+                <default>false</default>
+                <label>Update Equipment Record</label>
+            </value>
+            <value>
+                <fullName>User Documentation</fullName>
+                <default>false</default>
+                <label>User Documentation</label>
+            </value>
+            <value>
+                <fullName>Validation</fullName>
+                <default>false</default>
+                <label>Validation</label>
+            </value>
+            <value>
+                <fullName>Vendor/Supplier Issues</fullName>
+                <default>false</default>
+                <label>Vendor/Supplier Issues</label>
+            </value>
+            <value>
+                <fullName>Web Order</fullName>
+                <default>false</default>
+                <label>Web Order</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <valueName>Adapter Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <valueName>Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <valueName>Chips &amp; Reagent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Courtesy Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Depot Repair</controllingFieldValue>
+            <valueName>Hardware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Work Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <valueName>Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <valueName>Part number request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <valueName>Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>SN# Known-TBD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Support</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>Advanced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>AFT Advanced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>AFT Applications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>AFT Basic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>AFT Basic &amp; Advanced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>AFT User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>Basic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>EZ K + PP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>EZ Kinetic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>EZ ProfilerPro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>GX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Request</controllingFieldValue>
+            <valueName>GX + 21CFR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Customer Master</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Quote Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>Custom Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Deals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <valueName>Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>Internal Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Quote Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>Large Pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Service Contract Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>PO for Service Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Work Order Inquiry</controllingFieldValue>
+            <valueName>Remote Workorder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Service Contract Inquiry</controllingFieldValue>
+            <valueName>REV REC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Service Alert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Work Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>Service Call Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Service Contract Inquiry</controllingFieldValue>
+            <valueName>Service Contract Miscellaneous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Service Contract Inquiry</controllingFieldValue>
+            <valueName>Service Contract Quote Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Work Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>Service Dispatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Work Order Inquiry</controllingFieldValue>
+            <valueName>Service Visit Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>Shipping Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Quote Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>Small Pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Quote Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>SP - Cross Selling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>SP - FOC Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Quote Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>SP - RAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Quote Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>SP - RH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Quote Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>SP - Standing Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>Web Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Work Order Inquiry</controllingFieldValue>
+            <valueName>Installation Batch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Placement</controllingFieldValue>
+            <controllingFieldValue>Sales Order Inquiry</controllingFieldValue>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <controllingFieldValue>Invoice Inquiry</controllingFieldValue>
+            <valueName>SP - Return/Replace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Close / Complete Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Create Work Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Estimate Conversion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Invoice Dispute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Misdirected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>PIV / INSTALL / PM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Redate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Request Service Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Inquiry</controllingFieldValue>
+            <valueName>Update Equipment Record</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Chip/Reagents Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Manufacturing Procedures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Manufacturing Test</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Packaging/Shipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Part</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Product Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Software/Firmware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Training/Workmanship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>User Documentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Quality Failure</controllingFieldValue>
+            <valueName>Vendor/Supplier Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Depot Repair</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Update/Upgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>Automated Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>Automated Orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>e-catalog</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>Level 2 PunchOut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>Live Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>Live Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>Product Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>PunchOut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>e-procurement</controllingFieldValue>
+            <valueName>Website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Assist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Billable Quotation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Customer Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Demo Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>FAT / SAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Field Application Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Internal Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Move / Re-Install</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Preventative Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Product Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Service Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Time Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>Validation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSETS_Persona</fullName>
+    <columns>Label__c</columns>
+    <columns>NAME</columns>
+    <columns>Description__c</columns>
+    <columns>IsCustom__c</columns>
+    <columns>IsOwnedByProfile__c</columns>
+    <columns>CreatedDate_FromStandard__c</columns>
+    <columns>CreatedById_FromStandard__c</columns>
+    <columns>LastModifiedById_FromStandard__c</columns>
+    <columns>LastModifiedDate_FromStandard__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Label__c</field>
+        <operation>startsWith</operation>
+        <value>PERSONA:</value>
+    </filters>
+    <label>PSETS (Persona)</label>
+</ListView>

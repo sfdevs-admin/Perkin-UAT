@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Status_Required</fullName>
+    <active>true</active>
+    <description>When stage is closed, require a closed status</description>
+    <errorConditionFormula>$Permission.BD_Bypass_Automation != TRUE &amp;&amp; TEXT(Status__c ) = &quot;Closed&quot; &amp;&amp; ISBLANK(TEXT(ClosedStatus__c))</errorConditionFormula>
+    <errorDisplayField>ClosedStatus__c</errorDisplayField>
+    <errorMessage>V.RULE_INTERACTION_001: Pick a Closed Status since the Interaction is Closed.</errorMessage>
+</ValidationRule>

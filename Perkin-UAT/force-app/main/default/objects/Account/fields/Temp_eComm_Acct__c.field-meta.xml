@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Temp_eComm_Acct__c</fullName>
+    <formula>AND(CreatedBy.FirstName = &quot;PerkinElmer&quot;,
+				CreatedBy.LastName = &quot;Site Guest User&quot;,
+				TEXT(CreatedBy.UserType)  = &quot;Guest&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Temp eComm Acct</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

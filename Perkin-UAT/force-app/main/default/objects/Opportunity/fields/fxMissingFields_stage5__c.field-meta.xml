@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxMissingFields_stage5__c</fullName>
+    <description>fields missing at the current stage</description>
+    <externalId>false</externalId>
+    <formula>IF (Count_of_Products__c &gt;0,&quot;&quot;,&#39;•Add Product;&#39;) 
+&amp; 
+IF(
+ AND(
+       IsClosed = False
+     , fxStageNumber__c &lt;=5
+     
+     , OR (
+          CloseDate &lt; Today()-31
+        , CloseDate &gt; Today()+3650 /*Ten years out as a buffer*/
+       )
+     )
+    ,&#39;•Verify Close Date;&#39;
+    ,&quot;&quot;
+  )
+&amp;
+IF(
+ OR(
+      Revenue_Rec_Date__c &lt; CloseDate
+    , Revenue_Rec_Date__c &gt; CloseDate+365
+      )
+    ,&#39;•Verify Rev Rec Date;&#39;
+    ,&quot;&quot;
+   )
+&amp;
+ IF(AND( TEXT(Sales_Type__c) = &#39;Service Sales&#39;
+        ,fxRecordTypeDevName__c = &#39;PKI_Americas_SPI&#39;
+       )
+   ,IF(SOW_Complete_Checkbox__c=true,&quot;&quot;,&#39;•SOW Complete;&#39;)
+    &amp; IF(Pricing_approved_internally_Checkbox__c=true,&quot;&quot;,&#39;•Pricing Approval;&#39;)
+   ,&quot;&quot;
+  )</formula>
+    <inlineHelpText>fields missing at the current stage</inlineHelpText>
+    <label>fxMissingFields_stage5</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

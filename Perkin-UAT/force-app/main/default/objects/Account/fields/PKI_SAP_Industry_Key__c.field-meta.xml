@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_SAP_Industry_Key__c</fullName>
+    <description>KNA1.BRSCH (&quot;Industry Key&quot;)</description>
+    <label>PKI SAP Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Academic/Research</fullName>
+                <default>false</default>
+                <label>Academic/Research</label>
+            </value>
+            <value>
+                <fullName>Advanced Materials</fullName>
+                <default>false</default>
+                <label>Advanced Materials</label>
+            </value>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Aerospace</fullName>
+                <default>false</default>
+                <label>Aerospace</label>
+            </value>
+            <value>
+                <fullName>Agr and Food</fullName>
+                <default>false</default>
+                <label>Agr and Food</label>
+            </value>
+            <value>
+                <fullName>Auto and Machinery</fullName>
+                <default>false</default>
+                <label>Auto and Machinery</label>
+            </value>
+            <value>
+                <fullName>Auto Leasing</fullName>
+                <default>false</default>
+                <label>Auto Leasing</label>
+            </value>
+            <value>
+                <fullName>Biochemicals</fullName>
+                <default>false</default>
+                <label>Biochemicals</label>
+            </value>
+            <value>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+                <label>Biotechnology</label>
+            </value>
+            <value>
+                <fullName>BR Others Tax Cust</fullName>
+                <default>false</default>
+                <label>BR Others Tax Cust</label>
+            </value>
+            <value>
+                <fullName>BR Others TaxFree Cs</fullName>
+                <default>false</default>
+                <label>BR Others TaxFree Cs</label>
+            </value>
+            <value>
+                <fullName>BR Public Tax Cust</fullName>
+                <default>false</default>
+                <label>BR Public Tax Cust</label>
+            </value>
+            <value>
+                <fullName>BR Public TaxFree Cs</fullName>
+                <default>false</default>
+                <label>BR Public TaxFree Cs</label>
+            </value>
+            <value>
+                <fullName>Ceramics to Metal</fullName>
+                <default>false</default>
+                <label>Ceramics to Metal</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Columns</fullName>
+                <default>false</default>
+                <label>Columns</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <label>Consulting</label>
+            </value>
+            <value>
+                <fullName>Consum Blocked</fullName>
+                <default>false</default>
+                <label>Consum Blocked</label>
+            </value>
+            <value>
+                <fullName>CRO/CMO</fullName>
+                <default>false</default>
+                <label>CRO/CMO</label>
+            </value>
+            <value>
+                <fullName>Dealers&amp;Distributors</fullName>
+                <default>false</default>
+                <label>Dealers&amp;Distributors</label>
+            </value>
+            <value>
+                <fullName>Defense</fullName>
+                <default>false</default>
+                <label>Defense</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+                <label>Electronic</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Fragrance</fullName>
+                <default>false</default>
+                <label>Food &amp; Fragrance</label>
+            </value>
+            <value>
+                <fullName>Forensics</fullName>
+                <default>false</default>
+                <label>Forensics</label>
+            </value>
+            <value>
+                <fullName>Freight</fullName>
+                <default>false</default>
+                <label>Freight</label>
+            </value>
+            <value>
+                <fullName>Gasses/fuels</fullName>
+                <default>false</default>
+                <label>Gasses/fuels</label>
+            </value>
+            <value>
+                <fullName>General Others</fullName>
+                <default>false</default>
+                <label>General Others</label>
+            </value>
+            <value>
+                <fullName>Glass to Metal Seal</fullName>
+                <default>false</default>
+                <label>Glass to Metal Seal</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Health Services</fullName>
+                <default>false</default>
+                <label>Health Services</label>
+            </value>
+            <value>
+                <fullName>Hosp. And Clinics</fullName>
+                <default>false</default>
+                <label>Hosp. And Clinics</label>
+            </value>
+            <value>
+                <fullName>Ind. Testing</fullName>
+                <default>false</default>
+                <label>Ind. Testing</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Industrial Chemicals</fullName>
+                <default>false</default>
+                <label>Industrial Chemicals</label>
+            </value>
+            <value>
+                <fullName>Lab Supplies</fullName>
+                <default>false</default>
+                <label>Lab Supplies</label>
+            </value>
+            <value>
+                <fullName>Lubricating/Used Oil</fullName>
+                <default>false</default>
+                <label>Lubricating/Used Oil</label>
+            </value>
+            <value>
+                <fullName>Mechanical HLA</fullName>
+                <default>false</default>
+                <label>Mechanical HLA</label>
+            </value>
+            <value>
+                <fullName>Metals and Mining</fullName>
+                <default>false</default>
+                <label>Metals and Mining</label>
+            </value>
+            <value>
+                <fullName>Motors, Fans, Blower</fullName>
+                <default>false</default>
+                <label>Motors, Fans, Blower</label>
+            </value>
+            <value>
+                <fullName>OEM Instruments</fullName>
+                <default>false</default>
+                <label>OEM Instruments</label>
+            </value>
+            <value>
+                <fullName>OEM Reagents</fullName>
+                <default>false</default>
+                <label>OEM Reagents</label>
+            </value>
+            <value>
+                <fullName>Office Supplies</fullName>
+                <default>false</default>
+                <label>Office Supplies</label>
+            </value>
+            <value>
+                <fullName>Optics</fullName>
+                <default>false</default>
+                <label>Optics</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Electrical</fullName>
+                <default>false</default>
+                <label>Other Electrical</label>
+            </value>
+            <value>
+                <fullName>Other Glass</fullName>
+                <default>false</default>
+                <label>Other Glass</label>
+            </value>
+            <value>
+                <fullName>Other Metals</fullName>
+                <default>false</default>
+                <label>Other Metals</label>
+            </value>
+            <value>
+                <fullName>Other Non-production</fullName>
+                <default>false</default>
+                <label>Other Non-production</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Packaging Supplies</fullName>
+                <default>false</default>
+                <label>Packaging Supplies</label>
+            </value>
+            <value>
+                <fullName>Passive components</fullName>
+                <default>false</default>
+                <label>Passive components</label>
+            </value>
+            <value>
+                <fullName>PCB</fullName>
+                <default>false</default>
+                <label>PCB</label>
+            </value>
+            <value>
+                <fullName>PCBA</fullName>
+                <default>false</default>
+                <label>PCBA</label>
+            </value>
+            <value>
+                <fullName>Petro Chemical</fullName>
+                <default>false</default>
+                <label>Petro Chemical</label>
+            </value>
+            <value>
+                <fullName>Pharma &amp; Biopharma</fullName>
+                <default>false</default>
+                <label>Pharma &amp; Biopharma</label>
+            </value>
+            <value>
+                <fullName>Plastic Packaging</fullName>
+                <default>false</default>
+                <label>Plastic Packaging</label>
+            </value>
+            <value>
+                <fullName>Plastics</fullName>
+                <default>false</default>
+                <label>Plastics</label>
+            </value>
+            <value>
+                <fullName>Polymer</fullName>
+                <default>false</default>
+                <label>Polymer</label>
+            </value>
+            <value>
+                <fullName>Power Supplies</fullName>
+                <default>false</default>
+                <label>Power Supplies</label>
+            </value>
+            <value>
+                <fullName>Printed Materials</fullName>
+                <default>false</default>
+                <label>Printed Materials</label>
+            </value>
+            <value>
+                <fullName>Pulp and Paper</fullName>
+                <default>false</default>
+                <label>Pulp and Paper</label>
+            </value>
+            <value>
+                <fullName>Rubber tubing</fullName>
+                <default>false</default>
+                <label>Rubber tubing</label>
+            </value>
+            <value>
+                <fullName>Semicond/Electronics</fullName>
+                <default>false</default>
+                <label>Semicond/Electronics</label>
+            </value>
+            <value>
+                <fullName>Semiconductors</fullName>
+                <default>false</default>
+                <label>Semiconductors</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal</fullName>
+                <default>false</default>
+                <label>Sheet Metal</label>
+            </value>
+            <value>
+                <fullName>Standards/Chemicals</fullName>
+                <default>false</default>
+                <label>Standards/Chemicals</label>
+            </value>
+            <value>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+                <label>Telecommunications</label>
+            </value>
+            <value>
+                <fullName>Textiles</fullName>
+                <default>false</default>
+                <label>Textiles</label>
+            </value>
+            <value>
+                <fullName>To be assigned</fullName>
+                <default>false</default>
+                <label>To be assigned</label>
+            </value>
+            <value>
+                <fullName>Tools/Fixtures</fullName>
+                <default>false</default>
+                <label>Tools/Fixtures</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

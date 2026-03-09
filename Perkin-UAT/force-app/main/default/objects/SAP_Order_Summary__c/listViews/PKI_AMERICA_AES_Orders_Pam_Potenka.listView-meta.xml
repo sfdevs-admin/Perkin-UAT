@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_AMERICA_AES_Orders_Pam_Potenka</fullName>
+    <columns>Ship_To_Customer_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>Delivery_Block__c</columns>
+    <columns>Source_Type__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>Ship_To_Address_Country__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>Sales_Rep__c</columns>
+    <columns>Order_Total_Price__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Actual_Order_Date__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_MONTHS:12</value>
+    </filters>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Delivery_Block__c</field>
+        <operation>contains</operation>
+        <value>ZE,SE</value>
+    </filters>
+    <label>PKI AMERICA AES Orders - Pam Potanka</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

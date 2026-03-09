@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_of_Reagents__c</fullName>
+    <label>User of Reagents</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Reagents-Bioware</fullName>
+                <default>false</default>
+                <label>Reagents-Bioware</label>
+            </value>
+            <value>
+                <fullName>Reagents-DNA</fullName>
+                <default>false</default>
+                <label>Reagents-DNA</label>
+            </value>
+            <value>
+                <fullName>Reagents-LPTA</fullName>
+                <default>false</default>
+                <label>Reagents-LPTA</label>
+            </value>
+            <value>
+                <fullName>Reagents-Luciferin</fullName>
+                <default>false</default>
+                <label>Reagents-Luciferin</label>
+            </value>
+            <value>
+                <fullName>Reagents-Profiler Pro</fullName>
+                <default>false</default>
+                <label>Reagents-Profiler Pro</label>
+            </value>
+            <value>
+                <fullName>Reagents-Protein</fullName>
+                <default>false</default>
+                <label>Reagents-Protein</label>
+            </value>
+            <value>
+                <fullName>Reagents-RNA</fullName>
+                <default>false</default>
+                <label>Reagents-RNA</label>
+            </value>
+            <value>
+                <fullName>Reagents-XenoFluor</fullName>
+                <default>false</default>
+                <label>Reagents-XenoFluor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

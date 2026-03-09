@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_VS_Setting_Value__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to represent boolean value (true/false)</description>
+    <inlineHelpText>Field to represent boolean value (true/false)</inlineHelpText>
+    <label>Setting Value</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

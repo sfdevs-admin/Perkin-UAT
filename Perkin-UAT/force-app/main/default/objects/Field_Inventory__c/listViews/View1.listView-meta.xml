@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>View1</fullName>
+    <columns>NAME</columns>
+    <columns>Comment__c</columns>
+    <columns>Current_Location__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Cost_Center__c</field>
+        <operation>equals</operation>
+        <value>JAPAN E</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>USED</value>
+    </filters>
+    <label>フィルター</label>
+    <language>ja</language>
+</ListView>

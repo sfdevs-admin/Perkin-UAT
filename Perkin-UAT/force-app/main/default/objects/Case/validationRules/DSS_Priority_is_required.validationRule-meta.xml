@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DSS_Priority_is_required</fullName>
+    <active>true</active>
+    <description>V.RULE CASE 051: Priority is required for &quot;Dx software Services&quot; record type.
+ As per Ticket: INC0331796
+Deactivating Workflow rule:(DX Remove Priority For Email Originated Cases) and making Priority Mandatory for &quot;Dx Software Services&quot; Record type</description>
+    <errorConditionFormula>AND( NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+    ,fxRecordTypeDevName__c =&#39;Dx_Software_Services&#39;
+    ,TEXT(Priority) =&#39;&#39;
+)</errorConditionFormula>
+    <errorDisplayField>Priority</errorDisplayField>
+    <errorMessage>V.RULE_CASE_052: Priority is required</errorMessage>
+</ValidationRule>

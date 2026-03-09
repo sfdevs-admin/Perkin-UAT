@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>do_not_use</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Bounced_Email__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>FULL_NAME</field>
+        <operation>contains</operation>
+        <value>do not use</value>
+    </filters>
+    <label>do not use</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000713</group>
+        <group>ARQ_001040</group>
+    </sharedTo>
+</ListView>

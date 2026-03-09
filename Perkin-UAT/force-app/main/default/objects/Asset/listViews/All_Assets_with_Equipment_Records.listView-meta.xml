@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Assets_with_Equipment_Records</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>Equipment_Number__c</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>Warranty_Expiry_Date__c</columns>
+    <columns>MaintPlant__c</columns>
+    <columns>ASSET.QUANTITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Equipment_Number__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>equals</operation>
+        <value>04-AA,05-ICP,06-MAS,07-TEA,08-GC,09-LC,10-IR,11-UVS</value>
+    </filters>
+    <filters>
+        <field>MaintPlant__c</field>
+        <operation>contains</operation>
+        <value>3</value>
+    </filters>
+    <label>All Assets with Equipment Records</label>
+    <language>en_US</language>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

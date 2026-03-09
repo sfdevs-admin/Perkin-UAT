@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxIsDealer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>this will be set using L.FLOW 2102 to set theValue when IsPartner is true so it can be used in S.RULE_Account</description>
+    <inlineHelpText>this will be set using L.FLOW 2102 to set theValue when IsPartner is true so it can be used in S.RULE_Account</inlineHelpText>
+    <label>fxIsDealer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

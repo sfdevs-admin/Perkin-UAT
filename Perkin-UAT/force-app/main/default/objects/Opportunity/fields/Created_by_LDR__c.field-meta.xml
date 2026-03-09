@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_by_LDR__c</fullName>
+    <description>SFDC had too many object reference to add a Created by fxUserExtraAttributes field, so this field looks for fxUserExtraAttributesof the person that created the Opportunity. If this Opportunity was created by a user that has the fxUserExtraAttributes, included &quot;1000-LDR&quot; then the box will be checked.</description>
+    <formula>IF(
+INCLUDES(CreatedBy.fxUserExtraAttributes__c, &#39;1000-LDR&#39;), True, False
+)</formula>
+    <inlineHelpText>If this Opportunity was created by a user that has the fxUserExtraAttributes contain &quot;1000-LDR&quot;, then the box will be checked.</inlineHelpText>
+    <label>Created by LDR</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

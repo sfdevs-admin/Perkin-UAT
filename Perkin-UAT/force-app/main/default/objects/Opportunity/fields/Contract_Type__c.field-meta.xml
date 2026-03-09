@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Type__c</fullName>
+    <label>Contract Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 year PM Contract</fullName>
+                <default>false</default>
+                <label>1 year PM Contract</label>
+            </value>
+            <value>
+                <fullName>1 year IPV Contract</fullName>
+                <default>false</default>
+                <label>1 year IPV Contract</label>
+            </value>
+            <value>
+                <fullName>1 year IQOQ Contract</fullName>
+                <default>false</default>
+                <label>1 year IQOQ Contract</label>
+            </value>
+            <value>
+                <fullName>1 year Basic Service Contract</fullName>
+                <default>false</default>
+                <label>1 year Basic Service Contract</label>
+            </value>
+            <value>
+                <fullName>1 year Comprehensive Service Contract</fullName>
+                <default>false</default>
+                <label>1 year Comprehensive Service Contract</label>
+            </value>
+            <value>
+                <fullName>Mulit-year PM Contract</fullName>
+                <default>false</default>
+                <label>Mulit-year PM Contract</label>
+            </value>
+            <value>
+                <fullName>Mulit-year IPV Contract</fullName>
+                <default>false</default>
+                <label>Mulit-year IPV Contract</label>
+            </value>
+            <value>
+                <fullName>Mulit-year Basic Service Contract</fullName>
+                <default>false</default>
+                <label>Mulit-year Basic Service Contract</label>
+            </value>
+            <value>
+                <fullName>Mulit-year Comprehensive Service Contract</fullName>
+                <default>false</default>
+                <label>Mulit-year Comprehensive Service Contract</label>
+            </value>
+            <value>
+                <fullName>Mulit-year Complex Service Contract</fullName>
+                <default>false</default>
+                <label>Mulit-year Complex Service Contract</label>
+            </value>
+            <value>
+                <fullName>Mulit-year IQOQ Contract</fullName>
+                <default>false</default>
+                <label>Mulit-year IQOQ Contract</label>
+            </value>
+            <value>
+                <fullName>Renew Service Contract</fullName>
+                <default>false</default>
+                <label>Renew Service Contract</label>
+            </value>
+            <value>
+                <fullName>LabMetrix</fullName>
+                <default>false</default>
+                <label>LabMetrix</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>Validation</fullName>
+                <default>false</default>
+                <label>Validation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

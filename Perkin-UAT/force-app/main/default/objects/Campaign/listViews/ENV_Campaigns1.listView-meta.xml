@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ENV_Campaigns1</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.ACTIVE</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>Lead_Conversion_Rate__c</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>TOT_AMOUNT_WON</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>Americas,Canada,US-EAST,US-WEST,LA North,LA South,US-SOUTH,US-MIDWEST</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>notContain</operation>
+        <value>,LST,INF,DX,SDX</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2018</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+        <operation>contains</operation>
+        <value>,Account Specific Event,Advertising,Banner Ads,Cost Per Click (CPC),Direct Mail</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>EH-,ENV</value>
+    </filters>
+    <label>ENV Campaigns-Americas</label>
+    <language>en_US</language>
+</ListView>

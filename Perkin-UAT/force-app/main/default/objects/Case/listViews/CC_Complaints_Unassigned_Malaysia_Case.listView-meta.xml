@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Complaints_Unassigned_Malaysia_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Invoice_Number__c</columns>
+    <columns>SAP_Reference_Transaction_Creator__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Case_Aging__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: AES CC Malaysia Complaints Unasgd</label>
+    <queue>ARQ_000450</queue>
+    <sharedTo>
+        <group>ARQ_001030</group>
+        <roleAndSubordinatesInternal>AES_ServiceMax_User</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

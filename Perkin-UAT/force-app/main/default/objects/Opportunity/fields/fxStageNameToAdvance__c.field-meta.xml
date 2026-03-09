@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxStageNameToAdvance__c</fullName>
+    <description>Used to determine the Stage Name to advance to</description>
+    <externalId>false</externalId>
+    <formula>/*This evaluates all missing fields a to determine stage to be at*/	  
+/*IF( CONTAINS(fxMissingFieldsstageAll__c,&quot;1&quot;), &quot;Stage 1 - Create/Plan&quot;, 
+  IF( CONTAINS(fxMissingFieldsstageAll__c,&quot;2&quot;), &quot;Stage 2 - Qualify&quot;, 
+    IF( CONTAINS(fxMissingFieldsstageAll__c,&quot;3&quot;), &quot;Stage 3 - Develop&quot;,  
+      IF( CONTAINS(fxMissingFieldsstageAll__c,&quot;4&quot;), &quot;Stage 4 - Prove&quot;,  
+        IF( CONTAINS(fxMissingFieldsstageAll__c,&quot;5&quot;), &quot;Stage 5 - Negotiation&quot;,
+          IF( CONTAINS(fxMissingFieldsstageAll__c,&quot;CW:&quot;), &quot;Closed Won&quot;,
+            IF( CONTAINS(fxMissingFieldsstageAll__c,&quot;CL:&quot;), &quot;Closed Lost&quot;,
+              IF( CONTAINS(fxMissingFieldsstageAll__c,&quot;Aban&quot;), &quot;Abandonded&quot;
+    , TEXT(StageName) ))))))))
+*/
+
+CASE(  fxStageNumberToAdvance__c 
+    , 1, &quot;Stage 1 - Create/Plan&quot;
+    , 2, &quot;Stage 2 - Qualify&quot;
+    , 3, &quot;Stage 3 - Develop&quot;
+    , 4, &quot;Stage 4 - Prove&quot;
+    , 5, &quot;Stage 5 - Negotiation&quot;
+    , 6, &quot;Stage 6 - Implement&quot;
+    , 7, &quot;Closed Won&quot;
+    , 8, &quot;Closed Lost&quot;
+    , 9, &quot;Abandonded&quot;
+, Text(StageName)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used to determine the Stage Name to advance to</inlineHelpText>
+    <label>fxStageNameToAdvance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

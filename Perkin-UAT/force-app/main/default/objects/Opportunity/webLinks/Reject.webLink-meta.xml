@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reject</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Reject</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/18.0/connection.js&quot;)}
+
+var StageValue= &quot;{!Opportunity.StageName}&quot;;
+var profile = &quot;{!$Profile.Name}&quot;;
+
+if ((profile==&#39;Informatics Operations&#39; ||profile==&#39;System Administrator&#39;) &amp;&amp; (StageValue == &#39;Stage 6 - Implement (Closed)&#39; || StageValue == &#39;Closed Won&#39;))
+{
+var url = &quot;https://perkinelmer.my.salesforce.com/apex/RejectPage?oppId={!Opportunity.Id}&amp;oopOwner={!Opportunity.OwnerEmail}&amp;OwnerName={!Opportunity.OwnerFullName}&quot;;
+window.open(url,&#39;Reject&#39;,&#39;centerscreen,dependent=NO,dialog=YES,modal=YES,status=0,toolbar=0,width=500,height=210,scrollbars=1,resizable=1,left=180,top=260,screenX=180,screenY=260&#39;);
+}
+else
+{
+alert(&quot;Invalid Operation&quot;);
+}</url>
+</WebLink>

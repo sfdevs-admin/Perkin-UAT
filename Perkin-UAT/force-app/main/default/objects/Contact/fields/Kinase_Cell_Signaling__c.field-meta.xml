@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kinase_Cell_Signaling__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used in Application Focus Section</description>
+    <label>Kinase/Cell Signaling</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

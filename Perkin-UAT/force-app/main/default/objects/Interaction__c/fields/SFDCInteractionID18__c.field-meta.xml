@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFDCInteractionID18__c</fullName>
+    <description>the 18 character ID used in SUB.FLOW 8400</description>
+    <externalId>false</externalId>
+    <formula>CASESAFEID(Id)</formula>
+    <inlineHelpText>the 18 character ID used in SUB.FLOW 8400</inlineHelpText>
+    <label>SFDC Interaction ID (18)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

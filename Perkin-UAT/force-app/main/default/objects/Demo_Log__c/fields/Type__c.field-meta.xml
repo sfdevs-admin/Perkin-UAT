@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Instrument Demonstration</fullName>
+                <default>true</default>
+                <label>Instrument Demonstration</label>
+            </value>
+            <value>
+                <fullName>Training-PKI</fullName>
+                <default>false</default>
+                <label>Training-PKI</label>
+            </value>
+            <value>
+                <fullName>Training-Customer</fullName>
+                <default>false</default>
+                <label>Training-Customer</label>
+            </value>
+            <value>
+                <fullName>Reagent Evaluation</fullName>
+                <default>false</default>
+                <label>Reagent Evaluation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

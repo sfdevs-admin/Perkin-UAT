@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Satisfaction_Rating__c</fullName>
+    <label>Satisfaction Rating</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>UNKNOWN</fullName>
+                <default>true</default>
+                <label>UNKNOWN</label>
+            </value>
+            <value>
+                <fullName>NEUTRAL</fullName>
+                <default>false</default>
+                <label>NEUTRAL</label>
+            </value>
+            <value>
+                <fullName>POSITIVE</fullName>
+                <default>false</default>
+                <label>POSITIVE</label>
+            </value>
+            <value>
+                <fullName>NEGATIVE</fullName>
+                <default>false</default>
+                <label>NEGATIVE</label>
+            </value>
+            <value>
+                <fullName>REFERENCE</fullName>
+                <default>false</default>
+                <label>REFERENCE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

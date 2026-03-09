@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Norway_Marketing_Interactions</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Contact__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>Country__c</columns>
+    <columns>SolutionAreaofInterest__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>PostalCode__c</columns>
+    <columns>Eloqua_Campaign_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>NO</value>
+    </filters>
+    <label>Norway Marketing Interactions</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

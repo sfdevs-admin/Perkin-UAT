@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Line_Number__c</columns>
+    <columns>BU__c</columns>
+    <columns>Global_Region__c</columns>
+    <columns>Country__c</columns>
+    <columns>State_Province__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Product_Name__c</columns>
+    <columns>Assigned_To__c</columns>
+    <columns>Title__c</columns>
+    <columns>Topic__c</columns>
+    <columns>Description__c</columns>
+    <columns>Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

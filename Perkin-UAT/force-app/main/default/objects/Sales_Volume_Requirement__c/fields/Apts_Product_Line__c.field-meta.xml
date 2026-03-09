@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apts_Product_Line__c</fullName>
+    <label>Product Line</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ATOMIC ABSORPTION SPECTROSCOPY (AA)</fullName>
+                <default>false</default>
+                <label>ATOMIC ABSORPTION SPECTROSCOPY (AA)</label>
+            </value>
+            <value>
+                <fullName>APPLICATION SYSTEMS (APS)</fullName>
+                <default>false</default>
+                <label>APPLICATION SYSTEMS (APS)</label>
+            </value>
+            <value>
+                <fullName>ANALYTICAL PROTEOMICS (ANP)</fullName>
+                <default>false</default>
+                <label>ANALYTICAL PROTEOMICS (ANP)</label>
+            </value>
+            <value>
+                <fullName>AUTO ROBOTIC SYSTEMS (ARS)</fullName>
+                <default>false</default>
+                <label>AUTO ROBOTIC SYSTEMS (ARS)</label>
+            </value>
+            <value>
+                <fullName>aSi-GE (ASG)</fullName>
+                <default>false</default>
+                <label>aSi-GE (ASG)</label>
+            </value>
+            <value>
+                <fullName>aSi-PKI (ASP)</fullName>
+                <default>false</default>
+                <label>aSi-PKI (ASP)</label>
+            </value>
+            <value>
+                <fullName>AUTOMATED WORKSTATIONS (AWS)</fullName>
+                <default>false</default>
+                <label>AUTOMATED WORKSTATIONS (AWS)</label>
+            </value>
+            <value>
+                <fullName>CALIPER LIQUID HANDLING (CLH)</fullName>
+                <default>false</default>
+                <label>CALIPER LIQUID HANDLING (CLH)</label>
+            </value>
+            <value>
+                <fullName>CALIPER REAGENTS (CLR)</fullName>
+                <default>false</default>
+                <label>CALIPER REAGENTS (CLR)</label>
+            </value>
+            <value>
+                <fullName>CUSTOM MANUFACTURING (CMG)</fullName>
+                <default>false</default>
+                <label>CUSTOM MANUFACTURING (CMG)</label>
+            </value>
+            <value>
+                <fullName>DEXELA - CMOS (CMS)</fullName>
+                <default>false</default>
+                <label>DEXELA - CMOS (CMS)</label>
+            </value>
+            <value>
+                <fullName>CELLULAR SCRN &amp; ADME (CSA)</fullName>
+                <default>false</default>
+                <label>CELLULAR SCRN &amp; ADME (CSA)</label>
+            </value>
+            <value>
+                <fullName>DIAGNOSTICS (DIA)</fullName>
+                <default>false</default>
+                <label>DIAGNOSTICS (DIA)</label>
+            </value>
+            <value>
+                <fullName>DISTRIB PROD/OTHERLS (DIS)</fullName>
+                <default>false</default>
+                <label>DISTRIB PROD/OTHERLS (DIS)</label>
+            </value>
+            <value>
+                <fullName>DNA MEASUREMENTS (DNA)</fullName>
+                <default>false</default>
+                <label>DNA MEASUREMENTS (DNA)</label>
+            </value>
+            <value>
+                <fullName>ENTERPRISE SW SOLUTION (ESS)</fullName>
+                <default>false</default>
+                <label>ENTERPRISE SW SOLUTION (ESS)</label>
+            </value>
+            <value>
+                <fullName>FLOUR AGENTS PORTFOLIO (FAP)</fullName>
+                <default>false</default>
+                <label>FLOUR AGENTS PORTFOLIO (FAP)</label>
+            </value>
+            <value>
+                <fullName>FUNCTIONAL GENOM &amp; PROTEOM (FGP)</fullName>
+                <default>false</default>
+                <label>FUNCTIONAL GENOM &amp; PROTEOM (FGP)</label>
+            </value>
+            <value>
+                <fullName>GAS CROMATOGRAPHY (GC)</fullName>
+                <default>false</default>
+                <label>GAS CROMATOGRAPHY (GC)</label>
+            </value>
+            <value>
+                <fullName>HIGH CONTENT SCREENING (HCS)</fullName>
+                <default>false</default>
+                <label>HIGH CONTENT SCREENING (HCS)</label>
+            </value>
+            <value>
+                <fullName>SCREENING REAGENTS (HTS)</fullName>
+                <default>false</default>
+                <label>SCREENING REAGENTS (HTS)</label>
+            </value>
+            <value>
+                <fullName>IMAGING &amp; ANALYSIS SOLN (IAS)</fullName>
+                <default>false</default>
+                <label>IMAGING &amp; ANALYSIS SOLN (IAS)</label>
+            </value>
+            <value>
+                <fullName>INDUCTIVELY COUPLED (ICP)</fullName>
+                <default>false</default>
+                <label>INDUCTIVELY COUPLED (ICP)</label>
+            </value>
+            <value>
+                <fullName>IN VIVO IMAGING (INV)</fullName>
+                <default>false</default>
+                <label>IN VIVO IMAGING (INV)</label>
+            </value>
+            <value>
+                <fullName>IR SPECTROSCOPY (IR)</fullName>
+                <default>false</default>
+                <label>IR SPECTROSCOPY (IR)</label>
+            </value>
+            <value>
+                <fullName>LIQUID CHROMATOGRAPH (LC)</fullName>
+                <default>false</default>
+                <label>LIQUID CHROMATOGRAPH (LC)</label>
+            </value>
+            <value>
+                <fullName>LC MASS SPEC (LCM)</fullName>
+                <default>false</default>
+                <label>LC MASS SPEC (LCM)</label>
+            </value>
+            <value>
+                <fullName>INDUCTIVELY COUPLED (MAS)</fullName>
+                <default>false</default>
+                <label>INDUCTIVELY COUPLED (MAS)</label>
+            </value>
+            <value>
+                <fullName>MOLECULAR DIAGNOSTIC (MDX)</fullName>
+                <default>false</default>
+                <label>MOLECULAR DIAGNOSTIC (MDX)</label>
+            </value>
+            <value>
+                <fullName>MICROFLUIDICS TECH (MFT)</fullName>
+                <default>false</default>
+                <label>MICROFLUIDICS TECH (MFT)</label>
+            </value>
+            <value>
+                <fullName>MULTI-LABEL DETECTION (MLD)</fullName>
+                <default>false</default>
+                <label>MULTI-LABEL DETECTION (MLD)</label>
+            </value>
+            <value>
+                <fullName>RESEARCH REAGENTS (MOL)</fullName>
+                <default>false</default>
+                <label>RESEARCH REAGENTS (MOL)</label>
+            </value>
+            <value>
+                <fullName>MICROFLUIDICS LABCHIP (MOX)</fullName>
+                <default>false</default>
+                <label>MICROFLUIDICS LABCHIP (MOX)</label>
+            </value>
+            <value>
+                <fullName>NUCLEIC ACID PREP (NAP)</fullName>
+                <default>false</default>
+                <label>NUCLEIC ACID PREP (NAP)</label>
+            </value>
+            <value>
+                <fullName>NEONATAL (NEO)</fullName>
+                <default>false</default>
+                <label>NEONATAL (NEO)</label>
+            </value>
+            <value>
+                <fullName>NEONATAL LABS (NLB)</fullName>
+                <default>false</default>
+                <label>NEONATAL LABS (NLB)</label>
+            </value>
+            <value>
+                <fullName>NEW MARKETS OTHER (NMO)</fullName>
+                <default>false</default>
+                <label>NEW MARKETS OTHER (NMO)</label>
+            </value>
+            <value>
+                <fullName>PROTEIN BIOLOGY REAG (PBR)</fullName>
+                <default>false</default>
+                <label>PROTEIN BIOLOGY REAG (PBR)</label>
+            </value>
+            <value>
+                <fullName>PROTEOM &amp; GENOM INST (PGI)</fullName>
+                <default>false</default>
+                <label>PROTEOM &amp; GENOM INST (PGI)</label>
+            </value>
+            <value>
+                <fullName>PRENATAL (PRE)</fullName>
+                <default>false</default>
+                <label>PRENATAL (PRE)</label>
+            </value>
+            <value>
+                <fullName>QUANT TOMOGRAPHY SYS (QTS)</fullName>
+                <default>false</default>
+                <label>QUANT TOMOGRAPHY SYS (QTS)</label>
+            </value>
+            <value>
+                <fullName>RAMAN SPECTROSCOPY (RAM)</fullName>
+                <default>false</default>
+                <label>RAMAN SPECTROSCOPY (RAM)</label>
+            </value>
+            <value>
+                <fullName>LIFE SCIENCE BUSINESS (RES)</fullName>
+                <default>false</default>
+                <label>LIFE SCIENCE BUSINESS (RES)</label>
+            </value>
+            <value>
+                <fullName>RADIOMETRIC DETECTION (RRD)</fullName>
+                <default>false</default>
+                <label>RADIOMETRIC DETECTION (RRD)</label>
+            </value>
+            <value>
+                <fullName>RESEARCH REAGENTS (RRS)</fullName>
+                <default>false</default>
+                <label>RESEARCH REAGENTS (RRS)</label>
+            </value>
+            <value>
+                <fullName>SAMPLE PREP &amp; HTS SYST (SPS)</fullName>
+                <default>false</default>
+                <label>SAMPLE PREP &amp; HTS SYST (SPS)</label>
+            </value>
+            <value>
+                <fullName>THERMAL AND ELEMENTAL ANALYSIS (TEA)</fullName>
+                <default>false</default>
+                <label>THERMAL AND ELEMENTAL ANALYSIS (TEA)</label>
+            </value>
+            <value>
+                <fullName>TISSUE (TIS)</fullName>
+                <default>false</default>
+                <label>TISSUE (TIS)</label>
+            </value>
+            <value>
+                <fullName>TISSUE (CORE) (TSC)</fullName>
+                <default>false</default>
+                <label>TISSUE (CORE) (TSC)</label>
+            </value>
+            <value>
+                <fullName>ULTRAVIOLET/VISIBLE SPECTROSCOPY(UV/VIS)</fullName>
+                <default>false</default>
+                <label>ULTRAVIOLET/VISIBLE SPECTROSCOPY(UV/VIS)</label>
+            </value>
+            <value>
+                <fullName>VIROLOGY-Edx (VIR)</fullName>
+                <default>false</default>
+                <label>VIROLOGY-Edx (VIR)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Case_Ref_Id__c</fullName>
+    <externalId>false</externalId>
+    <formula>&#39;[ref:_&#39;
+&amp;LEFT( $Organization.Id , 5)
+&amp;RIGHT( $Organization.Id , 5)
+&amp;&#39;._&#39;
+&amp;LEFT( Id,5 )
+&amp;RIGHT(Id,5)
+&amp;&#39;:ref]&#39;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Ref Id</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

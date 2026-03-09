@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>STAGE_Closed_Won_default</fullName>
+    <active>true</active>
+    <description>Stage validation rule</description>
+    <errorConditionFormula>AND( 
+     NOT($Permission.C_PERM_8020_Bypass_Opp_V_RULE) 
+   , DateValue(CreatedDate) &gt;= $Setup.CSET_9900__c.OppCutoverDate__c       
+   , Contains(fxRecordTypeName__c,&#39;Sales&#39;) /*Default and Dealer, not INF*/
+   , TEXT(StageName)=&#39;Closed Won&#39;
+   , OR(  LEN( Reason_Lost_Detail__c) &lt; 1
+        , NOT(ISBLANK(fxMissingFields_CW__c))
+       )
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_071: Please fill the Closed Reason Detail and the fields mentioned in Fields to Complete section</errorMessage>
+</ValidationRule>

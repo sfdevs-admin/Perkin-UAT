@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_CRF_Status__c</fullName>
+    <label>CRF Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Customer Signoff</fullName>
+                <default>false</default>
+                <label>Customer Signoff</label>
+            </value>
+            <value>
+                <fullName>Execution Phase InProgress</fullName>
+                <default>false</default>
+                <label>Execution Phase InProgress</label>
+            </value>
+            <value>
+                <fullName>Done/Posted to SharePoint</fullName>
+                <default>false</default>
+                <label>Done/Posted to SharePoint</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

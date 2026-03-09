@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>valdiade_cutoff_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(CutoffDate__c)</errorConditionFormula>
+    <errorDisplayField>CutoffDate__c</errorDisplayField>
+    <errorMessage>Cutoff Date can not be Blank</errorMessage>
+</ValidationRule>

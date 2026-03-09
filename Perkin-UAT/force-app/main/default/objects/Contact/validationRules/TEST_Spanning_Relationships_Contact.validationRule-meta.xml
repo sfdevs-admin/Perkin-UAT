@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TEST_Spanning_Relationships_Contact</fullName>
+    <active>false</active>
+    <description>This is used to test how many spanning relationships exist. Add several fields to the V.RULE, and check syntax, and you will get the warning. Copy to the correct Matrix for analysis: https://docs.google.com/spreadsheets/d/1Dd1MLi1yzOk0qc-v2BPfG1lwaHVHk8</description>
+    <errorConditionFormula>OR ( Account.Account__c = 123,
+Asset__r.Alerts__c =&#39;abc&#39;,
+Channel_Provider_DNA_Technologies__r.Name =&#39;ABC&#39;,
+Contact_Details_Verified_By__r.Alias =&#39;abc&#39;,
+Global_Account__r.GA_Manager_Phone__c =&#39;abc&#39;,
+LastModifiedBy.Alias =&#39;abc&#39;,
+ReportsTo.Allbound_ID__c =&#39;123&#39;,
+Account.RecordType.NamespacePrefix =&#39;abc&#39;,
+Asset__r.Additional_User__r.Allbound_ID__c =&#39;abc&#39;,
+Channel_Provider_DNA_Technologies__r.Owner.Alias =&#39;abc&#39;,
+Channel_Provider_DNA_Technologies__r.RecordType.NamespacePrefix = &#39;abc&#39;,
+Contact_Details_Verified_By__r.Direct_Manager__r.fxFullName__c =&#39;abc&#39;,
+LastModifiedBy.Contact.Account.RecordType.ModuleNamespace =&#39;abc&#39;,
+ReportsTo.Account.Owner.Home_Zip_Postal__c =&#39;abc&#39;
+
+
+
+)</errorConditionFormula>
+    <errorMessage>V Rule Test</errorMessage>
+</ValidationRule>

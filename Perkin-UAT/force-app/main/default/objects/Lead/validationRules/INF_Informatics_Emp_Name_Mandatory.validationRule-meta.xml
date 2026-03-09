@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Informatics_Emp_Name_Mandatory</fullName>
+    <active>true</active>
+    <description>This rule is to ensure Employee Name is entered if Lead source is Employee Referral</description>
+    <errorConditionFormula>AND(
+    RecordType.Name = &#39;Informatics&#39;
+    ,ISPICKVAL(LeadSource,&#39;Employee Referral&#39;)
+    ,ISBLANK(Employee_Name_INF__c)
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_011: Kindly Enter Employee Name to save</errorMessage>
+</ValidationRule>

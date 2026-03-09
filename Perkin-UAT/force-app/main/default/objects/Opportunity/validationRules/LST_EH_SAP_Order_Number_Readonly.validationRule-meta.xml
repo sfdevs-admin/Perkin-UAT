@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_EH_SAP_Order_Number_Readonly</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(SAP_Order__c),ISBLANK(SAP_Order__c), 
+$Profile.Name &lt;&gt; &#39;OneSource Americas Sales&#39;, 
+$Profile.Name &lt;&gt; &#39;OneSource APAC Sales&#39;, 
+$Profile.Name &lt;&gt; &#39;OneSource EMEA Sales&#39;, 
+NOT(ISPICKVAL(Owner.Business__c,&#39;Food Business&#39;)), 
+ISPICKVAL(PRIORVALUE(StageName), &quot;Closed Won&quot;),OR($Profile.Name = &#39;LST Americas Sales&#39;, 
+$Profile.Name = &#39;LST EMEA Sales&#39;, 
+$Profile.Name = &#39;EH Americas Sales&#39;, 
+$Profile.Name = &#39;EH EMEA Sales&#39;, 
+$Profile.Name = &#39;DAS APAC Sales&#39;, 
+$Profile.Name = &#39;SVMX PS - Customer Care&#39;, 
+NOT(CONTAINS($Label.Trigger_validation_rule_for_users, $User.Id))))</errorConditionFormula>
+    <errorDisplayField>SAP_Order__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_032: SAP Order# cannot be modified once an opportunity is &#39;Closed Won&#39;</errorMessage>
+</ValidationRule>

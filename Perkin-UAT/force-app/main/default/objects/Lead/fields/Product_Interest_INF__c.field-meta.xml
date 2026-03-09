@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Interest_INF__c</fullName>
+    <label>INF Product Line</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ensemble for Formulations</fullName>
+                <default>false</default>
+                <label>Ensemble for Formulations</label>
+            </value>
+            <value>
+                <fullName>Ensemble for Biology</fullName>
+                <default>false</default>
+                <label>Ensemble for Biology</label>
+            </value>
+            <value>
+                <fullName>Ensemble for Chemistry</fullName>
+                <default>false</default>
+                <label>Ensemble for Chemistry</label>
+            </value>
+            <value>
+                <fullName>Ensemble for QA/QC</fullName>
+                <default>false</default>
+                <label>Ensemble for QA/QC</label>
+            </value>
+            <value>
+                <fullName>Analysis-Visualisation</fullName>
+                <default>false</default>
+                <label>Analysis-Visualisation</label>
+            </value>
+            <value>
+                <fullName>Elements</fullName>
+                <default>false</default>
+                <label>Elements</label>
+            </value>
+            <value>
+                <fullName>Signals</fullName>
+                <default>false</default>
+                <label>Signals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

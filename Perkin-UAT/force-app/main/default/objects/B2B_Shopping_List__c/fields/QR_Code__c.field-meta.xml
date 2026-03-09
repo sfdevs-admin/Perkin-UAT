@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QR_Code__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  B2B_Public__c,
+  IMAGE(
+    &quot;https://barcode.orcascan.com/?type=qr&amp;data=&quot; &amp;
+    $Label.B2B_Site_Public_Url_For_QR &amp;
+    Id &amp;
+    &quot;&amp;text=&quot; &amp; B2B_Name__c,
+    B2B_Name__c, 200, 160
+  ),
+  IMAGE(
+    &quot;https://barcode.orcascan.com/?type=qr&amp;data=&quot; &amp;
+    $Label.B2B_Site_Custom_Url_For_QR &amp;
+    Id &amp;
+    &quot;&amp;text=&quot; &amp; B2B_Name__c,
+    B2B_Name__c, 200, 160
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>QR Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

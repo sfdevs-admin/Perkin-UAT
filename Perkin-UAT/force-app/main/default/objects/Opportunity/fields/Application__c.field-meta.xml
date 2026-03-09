@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application__c</fullName>
+    <description>Identify Customer Industry Application. Standardized Names (no double spaces, no space after slash, spaces before and after &#39;&amp;&#39;, use &#39;&amp;&#39; vs &#39;and&#39;, space after commas, lists do not have comma before last item and use &#39;&amp;&#39; before last item)</description>
+    <label>Application</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Application_Market__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agricultural Genetics</fullName>
+                <default>false</default>
+                <label>Agricultural Genetics</label>
+            </value>
+            <value>
+                <fullName>Agriculture Research</fullName>
+                <default>false</default>
+                <label>Agriculture Research</label>
+            </value>
+            <value>
+                <fullName>Agrigenomics</fullName>
+                <default>false</default>
+                <label>Agrigenomics</label>
+            </value>
+            <value>
+                <fullName>Air Testing</fullName>
+                <default>false</default>
+                <label>Air Testing</label>
+            </value>
+            <value>
+                <fullName>Allergy DX</fullName>
+                <default>false</default>
+                <label>Allergy DX</label>
+            </value>
+            <value>
+                <fullName>Ancestry</fullName>
+                <default>false</default>
+                <label>Ancestry</label>
+            </value>
+            <value>
+                <fullName>Animal Diagnostics</fullName>
+                <default>false</default>
+                <label>Animal Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Antibiotics</fullName>
+                <default>false</default>
+                <label>Antibiotics</label>
+            </value>
+            <value>
+                <fullName>API/Compound Analysis</fullName>
+                <default>false</default>
+                <label>API/Compound Analysis</label>
+            </value>
+            <value>
+                <fullName>Authenticity &amp; Adulteration</fullName>
+                <default>false</default>
+                <label>Authenticity &amp; Adulteration</label>
+            </value>
+            <value>
+                <fullName>Autoimmun DX</fullName>
+                <default>false</default>
+                <label>Autoimmun DX</label>
+            </value>
+            <value>
+                <fullName>Automated Systems</fullName>
+                <default>false</default>
+                <label>Automated Systems</label>
+            </value>
+            <value>
+                <fullName>Basic Research</fullName>
+                <default>false</default>
+                <label>Basic Research</label>
+            </value>
+            <value>
+                <fullName>Batteries, Power &amp; Utilities</fullName>
+                <default>false</default>
+                <label>Batteries, Power &amp; Utilities</label>
+            </value>
+            <value>
+                <fullName>Beverages</fullName>
+                <default>false</default>
+                <label>Beverages</label>
+            </value>
+            <value>
+                <fullName>Biological Pathogens &amp; Toxins</fullName>
+                <default>false</default>
+                <label>Biological Pathogens &amp; Toxins</label>
+            </value>
+            <value>
+                <fullName>Biologics Development ADME/Tox</fullName>
+                <default>false</default>
+                <label>Biologics Development ADME/Tox</label>
+            </value>
+            <value>
+                <fullName>Biologics Development Cell line development</fullName>
+                <default>false</default>
+                <label>Biologics Development Cell line development</label>
+            </value>
+            <value>
+                <fullName>Biologics Development GLP Pre-clinical studies</fullName>
+                <default>false</default>
+                <label>Biologics Development GLP Pre-clinical studies</label>
+            </value>
+            <value>
+                <fullName>Biologics Development GLP Safety/Tox</fullName>
+                <default>false</default>
+                <label>Biologics Development GLP Safety/Tox</label>
+            </value>
+            <value>
+                <fullName>Biologics Lot Release</fullName>
+                <default>false</default>
+                <label>Biologics Lot Release</label>
+            </value>
+            <value>
+                <fullName>Biomarker Development</fullName>
+                <default>false</default>
+                <label>Biomarker Development</label>
+            </value>
+            <value>
+                <fullName>Biophysical characterization</fullName>
+                <default>false</default>
+                <label>Biophysical characterization</label>
+            </value>
+            <value>
+                <fullName>BioTherapeutic Manufacturing</fullName>
+                <default>false</default>
+                <label>BioTherapeutic Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Blood Screening</fullName>
+                <default>false</default>
+                <label>Blood Screening</label>
+            </value>
+            <value>
+                <fullName>Bone Metabolism</fullName>
+                <default>false</default>
+                <label>Bone Metabolism</label>
+            </value>
+            <value>
+                <fullName>Cannabis/Hemp</fullName>
+                <default>false</default>
+                <label>Cannabis/Hemp</label>
+            </value>
+            <value>
+                <fullName>Cell Culture</fullName>
+                <default>false</default>
+                <label>Cell Culture</label>
+            </value>
+            <value>
+                <fullName>Chemical Food Safety</fullName>
+                <default>false</default>
+                <label>Chemical Food Safety</label>
+            </value>
+            <value>
+                <fullName>Chemicals &amp; Mining</fullName>
+                <default>false</default>
+                <label>Chemicals &amp; Mining</label>
+            </value>
+            <value>
+                <fullName>Clinical &amp; Translational</fullName>
+                <default>false</default>
+                <label>Clinical &amp; Translational</label>
+            </value>
+            <value>
+                <fullName>Clinical Chemistry</fullName>
+                <default>false</default>
+                <label>Clinical Chemistry</label>
+            </value>
+            <value>
+                <fullName>Clinical Genomics</fullName>
+                <default>false</default>
+                <label>Clinical Genomics</label>
+            </value>
+            <value>
+                <fullName>Collection center</fullName>
+                <default>false</default>
+                <label>Collection center</label>
+            </value>
+            <value>
+                <fullName>Commodity Chemicals</fullName>
+                <default>false</default>
+                <label>Commodity Chemicals</label>
+            </value>
+            <value>
+                <fullName>Commodity pricing/Trading</fullName>
+                <default>false</default>
+                <label>Commodity pricing/Trading</label>
+            </value>
+            <value>
+                <fullName>Compositional Analysis</fullName>
+                <default>false</default>
+                <label>Compositional Analysis</label>
+            </value>
+            <value>
+                <fullName>Consumer Products</fullName>
+                <default>false</default>
+                <label>Consumer Products</label>
+            </value>
+            <value>
+                <fullName>Cultivation/Growing</fullName>
+                <default>false</default>
+                <label>Cultivation/Growing</label>
+            </value>
+            <value>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+                <label>Dairy</label>
+            </value>
+            <value>
+                <fullName>Defense &amp; Security</fullName>
+                <default>false</default>
+                <label>Defense &amp; Security</label>
+            </value>
+            <value>
+                <fullName>Dissolution</fullName>
+                <default>false</default>
+                <label>Dissolution</label>
+            </value>
+            <value>
+                <fullName>Drinking Water</fullName>
+                <default>false</default>
+                <label>Drinking Water</label>
+            </value>
+            <value>
+                <fullName>Drug Development &amp; Manufacturing</fullName>
+                <default>false</default>
+                <label>Drug Development &amp; Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Drug Development ADME/Tox</fullName>
+                <default>false</default>
+                <label>Drug Development ADME/Tox</label>
+            </value>
+            <value>
+                <fullName>Drug Development GLP Pre-clinical studies</fullName>
+                <default>false</default>
+                <label>Drug Development GLP Pre-clinical studies</label>
+            </value>
+            <value>
+                <fullName>Drug Development GLP Safety/Tox</fullName>
+                <default>false</default>
+                <label>Drug Development GLP Safety/Tox</label>
+            </value>
+            <value>
+                <fullName>Drug Discovery Human Pharmaceutical Research</fullName>
+                <default>false</default>
+                <label>Drug Discovery</label>
+            </value>
+            <value>
+                <fullName>Edible Oils</fullName>
+                <default>false</default>
+                <label>Edible Oils</label>
+            </value>
+            <value>
+                <fullName>Elemental Analysis</fullName>
+                <default>false</default>
+                <label>Elemental Analysis</label>
+            </value>
+            <value>
+                <fullName>Elemental Impurities/Trace Metals Analysis</fullName>
+                <default>false</default>
+                <label>Elemental Impurities/Trace Metals Analysis</label>
+            </value>
+            <value>
+                <fullName>End product inspection</fullName>
+                <default>false</default>
+                <label>End product inspection</label>
+            </value>
+            <value>
+                <fullName>Energy &amp; Petrochem</fullName>
+                <default>false</default>
+                <label>Energy &amp; Petrochem</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Extractable &amp; Leachable</fullName>
+                <default>false</default>
+                <label>Extractable &amp; Leachable</label>
+            </value>
+            <value>
+                <fullName>Fine &amp; Agricultural Chemicals</fullName>
+                <default>false</default>
+                <label>Fine &amp; Agricultural Chemicals</label>
+            </value>
+            <value>
+                <fullName>Flavor &amp; Fragrance</fullName>
+                <default>false</default>
+                <label>Flavor &amp; Fragrance</label>
+            </value>
+            <value>
+                <fullName>Flavor Analysis</fullName>
+                <default>false</default>
+                <label>Flavor Analysis</label>
+            </value>
+            <value>
+                <fullName>Food, Flavor &amp; Fragrance</fullName>
+                <default>false</default>
+                <label>Food, Flavor &amp; Fragrance</label>
+            </value>
+            <value>
+                <fullName>Food Packaging</fullName>
+                <default>false</default>
+                <label>Food Packaging</label>
+            </value>
+            <value>
+                <fullName>Forensics</fullName>
+                <default>false</default>
+                <label>Forensics</label>
+            </value>
+            <value>
+                <fullName>Foundational Research</fullName>
+                <default>false</default>
+                <label>Foundational Research</label>
+            </value>
+            <value>
+                <fullName>Fruits &amp; Vegetables</fullName>
+                <default>false</default>
+                <label>Fruits &amp; Vegetables</label>
+            </value>
+            <value>
+                <fullName>Functional Analysis</fullName>
+                <default>false</default>
+                <label>Functional Analysis</label>
+            </value>
+            <value>
+                <fullName>General Academic Teaching Lab - not for research</fullName>
+                <default>false</default>
+                <label>General Academic Teaching Lab - not for research</label>
+            </value>
+            <value>
+                <fullName>General Research</fullName>
+                <default>false</default>
+                <label>General Research</label>
+            </value>
+            <value>
+                <fullName>Geochemistry</fullName>
+                <default>false</default>
+                <label>Geochemistry</label>
+            </value>
+            <value>
+                <fullName>Glass, Ceramics &amp; Optics</fullName>
+                <default>false</default>
+                <label>Glass, Ceramics &amp; Optics</label>
+            </value>
+            <value>
+                <fullName>Human &amp; Animal Health Research</fullName>
+                <default>false</default>
+                <label>Human &amp; Animal Health Research</label>
+            </value>
+            <value>
+                <fullName>Human Diagnostics</fullName>
+                <default>false</default>
+                <label>Human Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Human Health Genetics</fullName>
+                <default>false</default>
+                <label>Human Health Genetics</label>
+            </value>
+            <value>
+                <fullName>Immunology</fullName>
+                <default>false</default>
+                <label>Immunology</label>
+            </value>
+            <value>
+                <fullName>Incoming raw material inspection</fullName>
+                <default>false</default>
+                <label>Incoming raw material inspection</label>
+            </value>
+            <value>
+                <fullName>Indoor Air</fullName>
+                <default>false</default>
+                <label>Indoor Air</label>
+            </value>
+            <value>
+                <fullName>Infectious Serology</fullName>
+                <default>false</default>
+                <label>Infectious Serology</label>
+            </value>
+            <value>
+                <fullName>Inflammatory Bowel Disease</fullName>
+                <default>false</default>
+                <label>Inflammatory Bowel Disease</label>
+            </value>
+            <value>
+                <fullName>InVivo Studies</fullName>
+                <default>false</default>
+                <label>InVivo Studies</label>
+            </value>
+            <value>
+                <fullName>Kidney Function</fullName>
+                <default>false</default>
+                <label>Kidney Function</label>
+            </value>
+            <value>
+                <fullName>Lead Identification</fullName>
+                <default>false</default>
+                <label>Lead Identification</label>
+            </value>
+            <value>
+                <fullName>Lead Identification Antigen discovery</fullName>
+                <default>false</default>
+                <label>Lead Identification Antigen discovery</label>
+            </value>
+            <value>
+                <fullName>Lead Identification Assay Development</fullName>
+                <default>false</default>
+                <label>Lead Identification Assay Development</label>
+            </value>
+            <value>
+                <fullName>Lead Identification Library Screening</fullName>
+                <default>false</default>
+                <label>Lead Identification Library Screening</label>
+            </value>
+            <value>
+                <fullName>Lead Optimization</fullName>
+                <default>false</default>
+                <label>Lead Optimization</label>
+            </value>
+            <value>
+                <fullName>Lead Optimization in vitro functional &amp; safety testing</fullName>
+                <default>false</default>
+                <label>Lead Optimization in vitro functional &amp; safety testing</label>
+            </value>
+            <value>
+                <fullName>Lead Optimization Medicinal Chemistry</fullName>
+                <default>false</default>
+                <label>Lead Optimization Medicinal Chemistry</label>
+            </value>
+            <value>
+                <fullName>Lead Optimization Protein Engineering</fullName>
+                <default>false</default>
+                <label>Lead Optimization Protein Engineering</label>
+            </value>
+            <value>
+                <fullName>Lifestyle</fullName>
+                <default>false</default>
+                <label>Lifestyle</label>
+            </value>
+            <value>
+                <fullName>Lubricating Oils</fullName>
+                <default>false</default>
+                <label>Lubricating Oils</label>
+            </value>
+            <value>
+                <fullName>Manufacturing process optimization</fullName>
+                <default>false</default>
+                <label>Manufacturing process optimization</label>
+            </value>
+            <value>
+                <fullName>Materials</fullName>
+                <default>false</default>
+                <label>Materials</label>
+            </value>
+            <value>
+                <fullName>Meat, Poultry &amp; Seafood</fullName>
+                <default>false</default>
+                <label>Meat, Poultry &amp; Seafood</label>
+            </value>
+            <value>
+                <fullName>Metagenomics</fullName>
+                <default>false</default>
+                <label>Metagenomics</label>
+            </value>
+            <value>
+                <fullName>Metals</fullName>
+                <default>false</default>
+                <label>Metals</label>
+            </value>
+            <value>
+                <fullName>Microbiological Food Safety</fullName>
+                <default>false</default>
+                <label>Microbiological Food Safety</label>
+            </value>
+            <value>
+                <fullName>Microbiome Research</fullName>
+                <default>false</default>
+                <label>Microbiome Research</label>
+            </value>
+            <value>
+                <fullName>Milling, Grains &amp; Animal Feed</fullName>
+                <default>false</default>
+                <label>Milling, Grains &amp; Animal Feed</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Molecular DX</fullName>
+                <default>false</default>
+                <label>Molecular DX</label>
+            </value>
+            <value>
+                <fullName>Mycotoxins</fullName>
+                <default>false</default>
+                <label>Mycotoxins</label>
+            </value>
+            <value>
+                <fullName>Natural Gas</fullName>
+                <default>false</default>
+                <label>Natural Gas</label>
+            </value>
+            <value>
+                <fullName>Neonatal</fullName>
+                <default>false</default>
+                <label>Neonatal</label>
+            </value>
+            <value>
+                <fullName>Neurodegenerative Diseases</fullName>
+                <default>false</default>
+                <label>Neurodegenerative Diseases</label>
+            </value>
+            <value>
+                <fullName>Nuclear</fullName>
+                <default>false</default>
+                <label>Nuclear</label>
+            </value>
+            <value>
+                <fullName>Nutraceuticals</fullName>
+                <default>false</default>
+                <label>Nutraceuticals</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Applications</fullName>
+                <default>false</default>
+                <label>Other Applications</label>
+            </value>
+            <value>
+                <fullName>Other Contaminants</fullName>
+                <default>false</default>
+                <label>Other Contaminants</label>
+            </value>
+            <value>
+                <fullName>Other Food</fullName>
+                <default>false</default>
+                <label>Other Food</label>
+            </value>
+            <value>
+                <fullName>Other InVitro Studies</fullName>
+                <default>false</default>
+                <label>Other InVitro Studies</label>
+            </value>
+            <value>
+                <fullName>Other Natural Toxins</fullName>
+                <default>false</default>
+                <label>Other Natural Toxins</label>
+            </value>
+            <value>
+                <fullName>Outdoor Air</fullName>
+                <default>false</default>
+                <label>Outdoor Air</label>
+            </value>
+            <value>
+                <fullName>Paints, Pigments &amp; Dyes</fullName>
+                <default>false</default>
+                <label>Paints, Pigments &amp; Dyes</label>
+            </value>
+            <value>
+                <fullName>Pathogens</fullName>
+                <default>false</default>
+                <label>Pathogens</label>
+            </value>
+            <value>
+                <fullName>Pesticides</fullName>
+                <default>false</default>
+                <label>Pesticides</label>
+            </value>
+            <value>
+                <fullName>Pesticides &amp; Organic Contamination</fullName>
+                <default>false</default>
+                <label>Pesticides &amp; Organic Contamination</label>
+            </value>
+            <value>
+                <fullName>Polymers, Plastics, Composites &amp; Adhesives</fullName>
+                <default>false</default>
+                <label>Polymers, Plastics, Composites &amp; Adhesives</label>
+            </value>
+            <value>
+                <fullName>Polymers, Plastics &amp; Composites</fullName>
+                <default>false</default>
+                <label>Polymers, Plastics &amp; Composites</label>
+            </value>
+            <value>
+                <fullName>Power &amp; Utilities</fullName>
+                <default>false</default>
+                <label>Power &amp; Utilities</label>
+            </value>
+            <value>
+                <fullName>Precision Medicine</fullName>
+                <default>false</default>
+                <label>Precision Medicine</label>
+            </value>
+            <value>
+                <fullName>Prenatal</fullName>
+                <default>false</default>
+                <label>Prenatal</label>
+            </value>
+            <value>
+                <fullName>Preoperative screening</fullName>
+                <default>false</default>
+                <label>Preoperative screening</label>
+            </value>
+            <value>
+                <fullName>Pre-Operative Screening</fullName>
+                <default>false</default>
+                <label>Pre-Operative Screening</label>
+            </value>
+            <value>
+                <fullName>Processed Human &amp; Pet Food</fullName>
+                <default>false</default>
+                <label>Processed Human &amp; Pet Food</label>
+            </value>
+            <value>
+                <fullName>Product transfer &amp; Delivery</fullName>
+                <default>false</default>
+                <label>Product transfer &amp; Delivery</label>
+            </value>
+            <value>
+                <fullName>Raw material processing/transformation/extraction</fullName>
+                <default>false</default>
+                <label>Raw material processing/transformation/extraction</label>
+            </value>
+            <value>
+                <fullName>Refining &amp; PetroChem</fullName>
+                <default>false</default>
+                <label>Refining &amp; PetroChem</label>
+            </value>
+            <value>
+                <fullName>Renewable Energy</fullName>
+                <default>false</default>
+                <label>Renewable Energy</label>
+            </value>
+            <value>
+                <fullName>Renewables</fullName>
+                <default>false</default>
+                <label>Renewables</label>
+            </value>
+            <value>
+                <fullName>Research Genomics</fullName>
+                <default>false</default>
+                <label>Research Genomics</label>
+            </value>
+            <value>
+                <fullName>Residual Solvents</fullName>
+                <default>false</default>
+                <label>Residual Solvents</label>
+            </value>
+            <value>
+                <fullName>Rheology</fullName>
+                <default>false</default>
+                <label>Rheology</label>
+            </value>
+            <value>
+                <fullName>Semiconductor</fullName>
+                <default>false</default>
+                <label>Semiconductor</label>
+            </value>
+            <value>
+                <fullName>Soil</fullName>
+                <default>false</default>
+                <label>Soil</label>
+            </value>
+            <value>
+                <fullName>Soil Testing</fullName>
+                <default>false</default>
+                <label>Soil Testing</label>
+            </value>
+            <value>
+                <fullName>Specialty Chemicals</fullName>
+                <default>false</default>
+                <label>Specialty Chemicals</label>
+            </value>
+            <value>
+                <fullName>Spectroscopy</fullName>
+                <default>false</default>
+                <label>Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Stability testing</fullName>
+                <default>false</default>
+                <label>Stability testing</label>
+            </value>
+            <value>
+                <fullName>Steroid Testing</fullName>
+                <default>false</default>
+                <label>Steroid Testing</label>
+            </value>
+            <value>
+                <fullName>Stress DX</fullName>
+                <default>false</default>
+                <label>Stress DX</label>
+            </value>
+            <value>
+                <fullName>Surface &amp; Ground Water</fullName>
+                <default>false</default>
+                <label>Surface &amp; Ground Water</label>
+            </value>
+            <value>
+                <fullName>Target Characterization/Validation</fullName>
+                <default>false</default>
+                <label>Target Characterization/Validation</label>
+            </value>
+            <value>
+                <fullName>Target Identification</fullName>
+                <default>false</default>
+                <label>Target Identification</label>
+            </value>
+            <value>
+                <fullName>Teaching Labs</fullName>
+                <default>false</default>
+                <label>Teaching Labs</label>
+            </value>
+            <value>
+                <fullName>Therapeutic Drug Monitoring</fullName>
+                <default>false</default>
+                <label>Therapeutic Drug Monitoring</label>
+            </value>
+            <value>
+                <fullName>Thermal Analysis</fullName>
+                <default>false</default>
+                <label>Thermal Analysis</label>
+            </value>
+            <value>
+                <fullName>Tissues &amp; Biological Media</fullName>
+                <default>false</default>
+                <label>Tissues &amp; Biological Media</label>
+            </value>
+            <value>
+                <fullName>Toxicology &amp; Evidence</fullName>
+                <default>false</default>
+                <label>Toxicology &amp; Evidence</label>
+            </value>
+            <value>
+                <fullName>Trace Metal Contamination</fullName>
+                <default>false</default>
+                <label>Trace Metal Contamination</label>
+            </value>
+            <value>
+                <fullName>Veterinary Drugs</fullName>
+                <default>false</default>
+                <label>Veterinary Drugs</label>
+            </value>
+            <value>
+                <fullName>Viral/Bacterial Research</fullName>
+                <default>false</default>
+                <label>Viral/Bacterial Research</label>
+            </value>
+            <value>
+                <fullName>Virology</fullName>
+                <default>false</default>
+                <label>Virology</label>
+            </value>
+            <value>
+                <fullName>Vitamin D Testing</fullName>
+                <default>false</default>
+                <label>Vitamin D Testing</label>
+            </value>
+            <value>
+                <fullName>Waste &amp; Process Water</fullName>
+                <default>false</default>
+                <label>Waste &amp; Process Water</label>
+            </value>
+            <value>
+                <fullName>Core Academic Research</fullName>
+                <default>false</default>
+                <label>Core Academic Research</label>
+            </value>
+            <value>
+                <fullName>Marine Water</fullName>
+                <default>false</default>
+                <label>Marine Water</label>
+            </value>
+            <value>
+                <fullName>PFAS &amp; Microplastics</fullName>
+                <default>false</default>
+                <label>PFAS &amp; Microplastics</label>
+            </value>
+            <value>
+                <fullName>Refining and Petrochemical</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Refining and Petrochemical</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>Agrigenomics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>Collection center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>Commodity pricing/Trading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>Cultivation/Growing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>End product inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>General Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>Incoming raw material inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>Manufacturing process optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>Product transfer &amp; Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flavor &amp; Fragrance</controllingFieldValue>
+            <controllingFieldValue>Fruits &amp; Vegetables</controllingFieldValue>
+            <controllingFieldValue>Meat, Poultry &amp; Seafood</controllingFieldValue>
+            <controllingFieldValue>Milling, Grains &amp; Animal Feed</controllingFieldValue>
+            <controllingFieldValue>Nutraceuticals</controllingFieldValue>
+            <controllingFieldValue>Dairy</controllingFieldValue>
+            <controllingFieldValue>Other Food</controllingFieldValue>
+            <controllingFieldValue>Processed Human &amp; Pet Food</controllingFieldValue>
+            <controllingFieldValue>Edible Oils</controllingFieldValue>
+            <controllingFieldValue>Alcoholic &amp; Non-Alcoholic Beverages</controllingFieldValue>
+            <controllingFieldValue>Cannabis/Hemp</controllingFieldValue>
+            <valueName>Raw material processing/transformation/extraction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soil/Solids</controllingFieldValue>
+            <controllingFieldValue>Forensics &amp; Security</controllingFieldValue>
+            <controllingFieldValue>Water</controllingFieldValue>
+            <controllingFieldValue>Material</controllingFieldValue>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <controllingFieldValue>Mining &amp; Metals</controllingFieldValue>
+            <controllingFieldValue>Drug Discovery</controllingFieldValue>
+            <controllingFieldValue>Drug QA/QC Manufacturing</controllingFieldValue>
+            <controllingFieldValue>Quality</controllingFieldValue>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <controllingFieldValue>Air</controllingFieldValue>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soil/Solids</controllingFieldValue>
+            <valueName>Soil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soil/Solids</controllingFieldValue>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>Tissues &amp; Biological Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forensics &amp; Security</controllingFieldValue>
+            <controllingFieldValue>Government &amp; Academia</controllingFieldValue>
+            <valueName>Defense &amp; Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forensics &amp; Security</controllingFieldValue>
+            <controllingFieldValue>Government &amp; Academia</controllingFieldValue>
+            <valueName>Forensics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forensics &amp; Security</controllingFieldValue>
+            <controllingFieldValue>Government &amp; Academia</controllingFieldValue>
+            <valueName>Toxicology &amp; Evidence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teaching Labs</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Teaching Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water</controllingFieldValue>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>Drinking Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water</controllingFieldValue>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>Surface &amp; Ground Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water</controllingFieldValue>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>Waste &amp; Process Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Pharma/Biotec</controllingFieldValue>
+            <valueName>Basic Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Chemicals &amp; Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Pharma/Biotec</controllingFieldValue>
+            <valueName>Clinical &amp; Translational</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Pharma/Biotec</controllingFieldValue>
+            <valueName>Drug Development &amp; Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Pharma/Biotec</controllingFieldValue>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Drug Discovery Human Pharmaceutical Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Energy &amp; Petrochem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Environmental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Food, Flavor &amp; Fragrance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government/Academic</controllingFieldValue>
+            <controllingFieldValue>Government &amp; Academia</controllingFieldValue>
+            <valueName>Core Academic Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government &amp; Academia</controllingFieldValue>
+            <valueName>General Academic Teaching Lab - not for research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government &amp; Academia</controllingFieldValue>
+            <valueName>Other Applications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Allergy DX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Autoimmun DX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Blood Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Bone Metabolism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Cell Culture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Clinical Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Immunology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Infectious Serology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Inflammatory Bowel Disease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Kidney Function</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Molecular DX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Neurodegenerative Diseases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Pre-Operative Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunodiagnostics</controllingFieldValue>
+            <valueName>Stress DX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Material</controllingFieldValue>
+            <controllingFieldValue>Materials</controllingFieldValue>
+            <valueName>Consumer Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Material</controllingFieldValue>
+            <controllingFieldValue>Materials</controllingFieldValue>
+            <valueName>Glass, Ceramics &amp; Optics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Material</controllingFieldValue>
+            <controllingFieldValue>Materials</controllingFieldValue>
+            <valueName>Paints, Pigments &amp; Dyes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Material</controllingFieldValue>
+            <controllingFieldValue>Materials</controllingFieldValue>
+            <valueName>Polymers, Plastics, Composites &amp; Adhesives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Material</controllingFieldValue>
+            <controllingFieldValue>Materials</controllingFieldValue>
+            <valueName>Polymers, Plastics &amp; Composites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Material</controllingFieldValue>
+            <controllingFieldValue>Chemicals &amp; Mining</controllingFieldValue>
+            <valueName>Semiconductor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Materials</controllingFieldValue>
+            <controllingFieldValue>Mining &amp; Metals</controllingFieldValue>
+            <valueName>Metals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <controllingFieldValue>Chemicals &amp; Mining</controllingFieldValue>
+            <valueName>Commodity Chemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <controllingFieldValue>Chemicals &amp; Mining</controllingFieldValue>
+            <valueName>Fine &amp; Agricultural Chemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Petrochem</controllingFieldValue>
+            <valueName>Lubricating Oils</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemicals</controllingFieldValue>
+            <controllingFieldValue>Chemicals &amp; Mining</controllingFieldValue>
+            <valueName>Specialty Chemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemicals &amp; Mining</controllingFieldValue>
+            <controllingFieldValue>Mining &amp; Metals</controllingFieldValue>
+            <valueName>Geochemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemicals &amp; Mining</controllingFieldValue>
+            <controllingFieldValue>Mining &amp; Metals</controllingFieldValue>
+            <valueName>Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Diagnostics</controllingFieldValue>
+            <valueName>Steroid Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Diagnostics</controllingFieldValue>
+            <valueName>Therapeutic Drug Monitoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Diagnostics</controllingFieldValue>
+            <valueName>Virology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Diagnostics</controllingFieldValue>
+            <valueName>Vitamin D Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Antibiotics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Chemical Food Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Elemental Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Microbiological Food Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Mycotoxins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Other Contaminants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Other Natural Toxins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Pathogens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Pesticides</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Rheology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Spectroscopy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Lab</controllingFieldValue>
+            <valueName>Thermal Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug Discovery</controllingFieldValue>
+            <valueName>InVivo Studies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug Discovery</controllingFieldValue>
+            <valueName>Lead Identification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug Discovery</controllingFieldValue>
+            <valueName>Lead Optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug Discovery</controllingFieldValue>
+            <valueName>Other InVitro Studies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug Discovery</controllingFieldValue>
+            <controllingFieldValue>Basic Research</controllingFieldValue>
+            <valueName>Target Characterization/Validation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug Discovery</controllingFieldValue>
+            <controllingFieldValue>Basic Research</controllingFieldValue>
+            <valueName>Target Identification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug QA/QC Manufacturing</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Manufacturing QA/QC</controllingFieldValue>
+            <valueName>API/Compound Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug QA/QC Manufacturing</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Manufacturing QA/QC</controllingFieldValue>
+            <valueName>Dissolution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug QA/QC Manufacturing</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Manufacturing QA/QC</controllingFieldValue>
+            <valueName>Elemental Impurities/Trace Metals Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug QA/QC Manufacturing</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Manufacturing QA/QC</controllingFieldValue>
+            <valueName>Extractable &amp; Leachable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drug QA/QC Manufacturing</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Manufacturing QA/QC</controllingFieldValue>
+            <valueName>Residual Solvents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality</controllingFieldValue>
+            <valueName>Compositional Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality</controllingFieldValue>
+            <valueName>Flavor Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality</controllingFieldValue>
+            <valueName>Functional Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Petrochem</controllingFieldValue>
+            <valueName>Natural Gas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Petrochem</controllingFieldValue>
+            <valueName>Nuclear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Power &amp; Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Petrochem</controllingFieldValue>
+            <valueName>Refining &amp; PetroChem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Renewable Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Beverages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Cannabis/Hemp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Dairy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Edible Oils</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Flavor &amp; Fragrance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Fruits &amp; Vegetables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Meat, Poultry &amp; Seafood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Milling, Grains &amp; Animal Feed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Nutraceuticals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Other Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Academia &amp; Academic Research</controllingFieldValue>
+            <valueName>Processed Human &amp; Pet Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air</controllingFieldValue>
+            <valueName>Indoor Air</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air</controllingFieldValue>
+            <valueName>Outdoor Air</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Agricultural Genetics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Agriculture Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Ancestry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Animal Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Automated Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>BioTherapeutic Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Clinical Genomics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Human &amp; Animal Health Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Human Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Human Health Genetics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Lifestyle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Metagenomics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Microbiome Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Precision Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Research Genomics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied Genomics</controllingFieldValue>
+            <valueName>Viral/Bacterial Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Research</controllingFieldValue>
+            <valueName>Biomarker Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Research</controllingFieldValue>
+            <valueName>Foundational Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <valueName>Biologics Development ADME/Tox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <valueName>Biologics Development Cell line development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <valueName>Biologics Development GLP Pre-clinical studies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <valueName>Biologics Development GLP Safety/Tox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Drug Development</controllingFieldValue>
+            <valueName>Drug Development ADME/Tox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Drug Development</controllingFieldValue>
+            <valueName>Drug Development GLP Pre-clinical studies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Drug Development</controllingFieldValue>
+            <valueName>Drug Development GLP Safety/Tox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <valueName>Lead Identification Antigen discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Drug Development</controllingFieldValue>
+            <valueName>Lead Identification Assay Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Drug Development</controllingFieldValue>
+            <valueName>Lead Identification Library Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <controllingFieldValue>Small Molecule Drug Development</controllingFieldValue>
+            <valueName>Lead Optimization in vitro functional &amp; safety testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics/Vaccines Drug Development</controllingFieldValue>
+            <valueName>Lead Optimization Protein Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics Manufacturing QA/QC</controllingFieldValue>
+            <valueName>Biologics Lot Release</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics Manufacturing QA/QC</controllingFieldValue>
+            <valueName>Biophysical characterization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biologics Manufacturing QA/QC</controllingFieldValue>
+            <valueName>Stability testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reproductive Health</controllingFieldValue>
+            <valueName>Neonatal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reproductive Health</controllingFieldValue>
+            <valueName>Prenatal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>Authenticity &amp; Adulteration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>Biological Pathogens &amp; Toxins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>Food Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>Pesticides &amp; Organic Contamination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>Trace Metal Contamination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>Veterinary Drugs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy &amp; Petrochem</controllingFieldValue>
+            <valueName>Batteries, Power &amp; Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy &amp; Petrochem</controllingFieldValue>
+            <valueName>Renewables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Small Molecule Drug Development</controllingFieldValue>
+            <valueName>Lead Optimization Medicinal Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>Air Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>Soil Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>Marine Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>PFAS &amp; Microplastics</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

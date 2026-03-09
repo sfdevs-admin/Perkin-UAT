@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Is_Customer_Specific_Promotion__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this is checked, the account&#39;s buyer group that&#39;s assigned to this promotion will be restricted from changing their locale in the store.</description>
+    <label>Is Customer Specific Promotion</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Order_Required</fullName>
+    <active>false</active>
+    <description>A Service Alert cannot be moved into a Status of Waiting on Parts/Materials if the Work Order Number field is blank.</description>
+    <errorConditionFormula>AND(ISPICKVAL(SVMX_PS_Status__c, &quot;Waiting on Parts/Materials&quot;),
+ISBLANK(SVMX_PS_Work_Order__c))</errorConditionFormula>
+    <errorMessage>When the Status is Waiting on Parts/Materials, a Work Order must be selected.</errorMessage>
+</ValidationRule>

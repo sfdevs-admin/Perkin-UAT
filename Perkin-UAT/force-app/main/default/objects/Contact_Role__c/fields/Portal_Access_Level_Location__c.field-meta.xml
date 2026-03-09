@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portal_Access_Level_Location__c</fullName>
+    <description>Portal Access Level - Location</description>
+    <label>Portal Access Level - Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Role__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Read Only</fullName>
+                <default>false</default>
+                <label>Read Only</label>
+            </value>
+            <value>
+                <fullName>Read/Write</fullName>
+                <default>false</default>
+                <label>Read/Write</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>External Customer Portal User</controllingFieldValue>
+            <valueName>Read Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External Customer Portal User</controllingFieldValue>
+            <valueName>Read/Write</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

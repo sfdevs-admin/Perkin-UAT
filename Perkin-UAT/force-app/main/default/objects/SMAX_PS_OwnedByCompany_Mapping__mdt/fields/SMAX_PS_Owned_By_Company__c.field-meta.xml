@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Owned_By_Company__c</fullName>
+    <description>The Company/ Business Entity that owns the Salesforce record</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Owned By Company</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AES</fullName>
+                <default>true</default>
+                <label>AES</label>
+            </value>
+            <value>
+                <fullName>LSDX</fullName>
+                <default>false</default>
+                <label>LSDX</label>
+            </value>
+            <value>
+                <fullName>TBD</fullName>
+                <default>false</default>
+                <label>TBD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

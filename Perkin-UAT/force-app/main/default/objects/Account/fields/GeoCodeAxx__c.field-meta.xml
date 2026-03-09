@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoCodeAxx__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ShippingCountry &lt;&gt; &quot;US&quot;,&quot;NA&quot;,
+IF(CONTAINS(&quot;120, 121, 122, 123, 128, 129&quot;, left(ShippingPostalCode,3)), &quot;A01&quot;,
+IF(CONTAINS(&quot;105, 106, 107, 108, 109, 124, 125, 126, 127, 137, 138, 139&quot;, left(ShippingPostalCode,3)), &quot;A02&quot;,
+IF(CONTAINS(&quot;060, 061, 062, 063, 064, 065, 066, 067, 068, 069&quot;, left(ShippingPostalCode,3)), &quot;A03&quot;,
+IF(CONTAINS(&quot;130, 131, 132, 133, 134, 135, 136, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149&quot;, left(ShippingPostalCode,3)), &quot;A04&quot;,
+IF(CONTAINS(&quot;017, 018, 019, 020, 021, 022&quot;, left(ShippingPostalCode,3)), &quot;A05&quot;,
+IF(CONTAINS(&quot;010, 011, 012, 013, 014, 015, 016, 023, 024, 025, 026, 027, 028, 029&quot;, left(ShippingPostalCode,3)), &quot;A06&quot;,
+&quot;NA&quot;)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>GeoCodeAxx</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

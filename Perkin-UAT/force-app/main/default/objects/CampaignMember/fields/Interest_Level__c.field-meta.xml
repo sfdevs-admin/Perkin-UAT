@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interest_Level__c</fullName>
+    <description>Telemarketing Interest Value-VoiceCentric</description>
+    <label>Interest Level</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Interest</fullName>
+                <default>false</default>
+                <label>No Interest</label>
+            </value>
+            <value>
+                <fullName>Educational (Referral)</fullName>
+                <default>false</default>
+                <label>Educational (Referral)</label>
+            </value>
+            <value>
+                <fullName>Long Term Interest</fullName>
+                <default>false</default>
+                <label>Long Term Interest</label>
+            </value>
+            <value>
+                <fullName>Active Interest (Research)</fullName>
+                <default>false</default>
+                <label>Active Interest (Research)</label>
+            </value>
+            <value>
+                <fullName>Committed to Buy</fullName>
+                <default>false</default>
+                <label>Committed to Buy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

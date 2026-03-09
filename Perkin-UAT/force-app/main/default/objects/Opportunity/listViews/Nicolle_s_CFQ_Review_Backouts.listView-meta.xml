@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nicolle_s_CFQ_Review_Backouts</fullName>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>Date_Entered_SAP__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>SAP_Inco_Terms__c</columns>
+    <columns>SAP_Estimated_Ship_Date__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Next_Step__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Stage 1 - Create/Plan,Stage 2 - Qualify,Stage 3 - Develop,Stage 4 - Prove,Stage 5 - Negotiation,Stage 6 - Implement (Closed),Closed Won</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>greaterThan</operation>
+        <value>USD 0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>Backout,back-out,back out</value>
+    </filters>
+    <label>Nicolle&#39;s CFQ Review - Backouts</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

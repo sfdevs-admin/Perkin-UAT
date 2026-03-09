@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Impact__c</fullName>
+    <description>What functionality are you unable to perform?
+How many users are impacted?
+Is there currently a workaround in place?
+Is there a pending deployment / go live?</description>
+    <inlineHelpText>How many people will benefit or will be impacted by this change?</inlineHelpText>
+    <label>Business Impact</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

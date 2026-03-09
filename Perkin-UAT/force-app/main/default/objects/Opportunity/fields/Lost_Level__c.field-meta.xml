@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Level__c</fullName>
+    <label>Lost Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(L1) Lost at Qualification</fullName>
+                <default>false</default>
+                <label>(L1) Lost at Qualification</label>
+            </value>
+            <value>
+                <fullName>(L2) Lost at Needs Analysis</fullName>
+                <default>false</default>
+                <label>(L2) Lost at Needs Analysis</label>
+            </value>
+            <value>
+                <fullName>(L3) Lost at Solution Differentiation</fullName>
+                <default>false</default>
+                <label>(L3) Lost at Solution Differentiation</label>
+            </value>
+            <value>
+                <fullName>(L4) Lost at Preferred</fullName>
+                <default>false</default>
+                <label>(L4) Lost at Preferred</label>
+            </value>
+            <value>
+                <fullName>(L5) Lost at Negotiating/Forecast</fullName>
+                <default>false</default>
+                <label>(L5) Lost at Negotiating/Forecast</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Closed_Date_Reporting__c</fullName>
+    <description>Displays the Legacy Closed Date if populated, otherwise displays the Closed Date.</description>
+    <formula>IF(
+  ISBLANK(Legacy_Closed_Date__c),
+  ClosedDate,
+  Legacy_Closed_Date__c
+)</formula>
+    <inlineHelpText>Displays the Legacy Closed Date if populated, otherwise displays the Closed Date.</inlineHelpText>
+    <label>Closed Date (Reporting)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

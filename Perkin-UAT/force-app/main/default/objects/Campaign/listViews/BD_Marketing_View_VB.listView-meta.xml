@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Marketing_View_VB</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>Functional_Owner__c</columns>
+    <columns>Campaign_Leader__c</columns>
+    <columns>CAMPAIGN.CREATED_DATE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.ACTIVE</columns>
+    <columns>Territory__c</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>BioCompare,SelectSci</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Aborted</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+        <operation>equals</operation>
+        <value>Advertising</value>
+    </filters>
+    <label>LST Marketing View VB</label>
+    <language>en_US</language>
+</ListView>

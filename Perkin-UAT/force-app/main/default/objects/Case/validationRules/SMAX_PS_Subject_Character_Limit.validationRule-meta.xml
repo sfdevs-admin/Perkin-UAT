@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Subject_Character_Limit</fullName>
+    <active>true</active>
+    <description>Do not allow the user to enter a Subject greater than TEXT(40) for a Case of Record Type &quot;Tech Support/Service&quot;.</description>
+    <errorConditionFormula>$Permission.BD_Bypass_Automation != TRUE &amp;&amp; 
+LEN(Subject) &gt; 40 &amp;&amp; 
+RecordType.Name = &#39;Tech Support/Service&#39; &amp;&amp; 
+ISBLANK(SuppliedEmail)</errorConditionFormula>
+    <errorDisplayField>Subject</errorDisplayField>
+    <errorMessage>V.RULE_CASE_041: Please shorten your entry in the Subject field. Tech Support/Service Cases cannot have a Subject greater than 40 characters.</errorMessage>
+</ValidationRule>

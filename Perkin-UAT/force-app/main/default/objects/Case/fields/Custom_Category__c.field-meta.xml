@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Category__c</fullName>
+    <description>Used for Informatics Managed Services</description>
+    <label>Custom Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enhancement</fullName>
+                <default>false</default>
+                <label>Enhancement</label>
+            </value>
+            <value>
+                <fullName>Defect</fullName>
+                <default>false</default>
+                <label>Defect</label>
+            </value>
+            <value>
+                <fullName>Platform/Infrastructure/System Down</fullName>
+                <default>false</default>
+                <label>Platform/Infrastructure/System Down</label>
+            </value>
+            <value>
+                <fullName>Access or Permission</fullName>
+                <default>false</default>
+                <label>Access or Permission</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

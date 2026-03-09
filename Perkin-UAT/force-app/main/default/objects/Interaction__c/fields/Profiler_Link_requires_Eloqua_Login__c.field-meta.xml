@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profiler_Link_requires_Eloqua_Login__c</fullName>
+    <description>for  INC0381394    1 of 4 new fields, this one for redirecting to Eloqua Login, hence field name indicating that.
+2023.10.05  MG: removed default value, as Eloqua now passing expectd value into field.</description>
+    <inlineHelpText>This field will redirect/require Eloqua Login</inlineHelpText>
+    <label>Profiler Link (requires Eloqua Login)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

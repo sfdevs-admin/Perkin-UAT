@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDG_Data_Identifier_Has_Opportunity__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>PDG Data Identifier - Has Opportunity</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

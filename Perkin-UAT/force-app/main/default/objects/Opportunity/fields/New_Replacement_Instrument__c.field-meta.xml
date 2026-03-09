@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Replacement_Instrument__c</fullName>
+    <label>New/Replacement Instrument</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Competitor Replacement</fullName>
+                <default>false</default>
+                <label>Competitor Replacement</label>
+            </value>
+            <value>
+                <fullName>New To The Technology</fullName>
+                <default>false</default>
+                <label>New To The Technology</label>
+            </value>
+            <value>
+                <fullName>PKI Replacement</fullName>
+                <default>false</default>
+                <label>PKI Replacement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

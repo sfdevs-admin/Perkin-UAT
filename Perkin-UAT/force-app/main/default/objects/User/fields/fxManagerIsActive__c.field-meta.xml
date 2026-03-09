@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxManagerIsActive__c</fullName>
+    <description>This check that the direct manager is both Active and Not Forzen</description>
+    <formula>Direct_Manager__r.IsActive =TRUE &amp;&amp; Direct_Manager__r.PKI_GBL_User_Frozen__c =FALSE</formula>
+    <inlineHelpText>This check that the direct manager is both Active and Not Forzen</inlineHelpText>
+    <label>fxManagerIsActive</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

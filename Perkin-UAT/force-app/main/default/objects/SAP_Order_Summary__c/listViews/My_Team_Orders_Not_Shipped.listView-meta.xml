@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Team_Orders_Not_Shipped</fullName>
+    <booleanFilter>(1 OR 2 OR 3) AND 4 AND 5 AND 6 AND 7</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Current_Global_Delivery_Date__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Customer_Accept_Date__c</columns>
+    <columns>Penalty_Start_Date__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Last_Modified_Date__c</columns>
+    <columns>Opp_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>iRep__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>isSame1down__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>isSame2Down__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Order_Path__c</field>
+        <operation>notEqual</operation>
+        <value>Order Shipped</value>
+    </filters>
+    <filters>
+        <field>fxOrder_Is_Rejected__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Order_Net_Value__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Team Orders (Not Shipped)</label>
+</ListView>

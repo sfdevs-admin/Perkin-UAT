@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GX_GXII_software_updates_needed_SIMI1</fullName>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>CONTRACT.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTRACT.STARTDATE</columns>
+    <columns>CONTRACT.ENDDATE</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contract_Stage__c</field>
+        <operation>contains</operation>
+        <value>8,won</value>
+    </filters>
+    <filters>
+        <field>CONTRACT.STATUS</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CONTRACT.NAME</field>
+        <operation>contains</operation>
+        <value>GX</value>
+    </filters>
+    <label>GX/GXII - software updates needed - SIMI</label>
+    <language>en_US</language>
+</ListView>

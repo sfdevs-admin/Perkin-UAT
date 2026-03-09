@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MembersCount__c</fullName>
+    <description>Count of Members</description>
+    <inlineHelpText>Count of Active Members</inlineHelpText>
+    <label># Members</label>
+    <summaryFilterItems>
+        <field>PKI_Queue_Member__c.RemoveMember__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>PKI_Queue_Member__c.PKI_Queue_Name__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

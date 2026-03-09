@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interaction_Rules_KOSJ</fullName>
+    <columns>NAME</columns>
+    <columns>Region__c</columns>
+    <columns>Country__c</columns>
+    <columns>State__c</columns>
+    <columns>PostalCode__c</columns>
+    <columns>SolutionsAreaofInterest__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>ProductClass__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>RunOrder__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>fxSortOrder__c</columns>
+    <columns>fxRuleWeight__c</columns>
+    <columns>fxQueueEmail__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>KOSJ</value>
+    </filters>
+    <label>Interaction Rules - KOSJ</label>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DAS_Strength_Of_Sales__c</fullName>
+    <formula>IF( NOT(ISPICKVAL(COMPELLING_REASON_TO_ACT_CRTA__c,&quot;&quot;)) || NOT(ISPICKVAL( VALUE__c,&quot;&quot;)) || NOT(ISPICKVAL(COLLABORATE__c,&quot;&quot;)) || NOT(ISPICKVAL(VISION__c ,&quot;&quot;)) || NOT(ISPICKVAL(PAIN__c ,&quot;&quot;)) || NOT(ISPICKVAL(POWER__c ,&quot;&quot;)), true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Strength Of Sales</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

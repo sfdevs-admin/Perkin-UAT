@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1_2_Business_Review</fullName>
+    <columns>NAME</columns>
+    <columns>SVMX_PS_Severity__c</columns>
+    <columns>SVMX_PS_Status__c</columns>
+    <columns>SVMX_PS_Script_Number__c</columns>
+    <columns>SVMX_PS_Step_Number__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>SVMX_PS_Summary__c</columns>
+    <columns>SVMX_PS_Detail__c</columns>
+    <columns>SVMX_PS_Actor__c</columns>
+    <columns>SVMX_PS_Priority__c</columns>
+    <columns>SVMX_PS_Ready_for_Retest__c</columns>
+    <columns>SVMX_PS_Device__c</columns>
+    <columns>SVMX_PS_Type__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SVMX_PS_Severity__c</field>
+        <operation>equals</operation>
+        <value>Critical,Major</value>
+    </filters>
+    <filters>
+        <field>SVMX_PS_Status__c</field>
+        <operation>equals</operation>
+        <value>Business Review</value>
+    </filters>
+    <label>1,2 Business Review</label>
+    <language>en_US</language>
+</ListView>

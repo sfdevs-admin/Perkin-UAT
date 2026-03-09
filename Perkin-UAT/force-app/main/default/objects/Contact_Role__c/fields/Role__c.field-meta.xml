@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <label>Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>External Customer Portal User</fullName>
+                <default>false</default>
+                <label>External Customer Portal User</label>
+            </value>
+            <value>
+                <fullName>FCO Contact</fullName>
+                <default>false</default>
+                <label>FCO Contact</label>
+            </value>
+            <value>
+                <fullName>CEO/ Hospital Administrator</fullName>
+                <default>false</default>
+                <label>CEO/ Hospital Administrator</label>
+            </value>
+            <value>
+                <fullName>Certified Tumor Registrar (CTR)</fullName>
+                <default>false</default>
+                <label>Certified Tumor Registrar (CTR)</label>
+            </value>
+            <value>
+                <fullName>CIO</fullName>
+                <default>false</default>
+                <label>CIO</label>
+            </value>
+            <value>
+                <fullName>Clinical Chemist</fullName>
+                <default>false</default>
+                <label>Clinical Chemist</label>
+            </value>
+            <value>
+                <fullName>Clinical nurse specialist (MO)</fullName>
+                <default>false</default>
+                <label>Clinical nurse specialist (MO)</label>
+            </value>
+            <value>
+                <fullName>Clinician</fullName>
+                <default>false</default>
+                <label>Clinician</label>
+            </value>
+            <value>
+                <fullName>Cytopathologist</fullName>
+                <default>false</default>
+                <label>Cytopathologist</label>
+            </value>
+            <value>
+                <fullName>Dosimetrist</fullName>
+                <default>false</default>
+                <label>Dosimetrist</label>
+            </value>
+            <value>
+                <fullName>Government Ministries</fullName>
+                <default>false</default>
+                <label>Government Ministries</label>
+            </value>
+            <value>
+                <fullName>Health Authorities</fullName>
+                <default>false</default>
+                <label>Health Authorities</label>
+            </value>
+            <value>
+                <fullName>Histotechnologist</fullName>
+                <default>false</default>
+                <label>Histotechnologist</label>
+            </value>
+            <value>
+                <fullName>Information Systems Specialist</fullName>
+                <default>false</default>
+                <label>Information Systems Specialist</label>
+            </value>
+            <value>
+                <fullName>Information Technology Specialist</fullName>
+                <default>false</default>
+                <label>Information Technology Specialist</label>
+            </value>
+            <value>
+                <fullName>Medical Physicist</fullName>
+                <default>false</default>
+                <label>Medical Physicist</label>
+            </value>
+            <value>
+                <fullName>Medical Social Worker</fullName>
+                <default>false</default>
+                <label>Medical Social Worker</label>
+            </value>
+            <value>
+                <fullName>Nurse Practitioners (MO)</fullName>
+                <default>false</default>
+                <label>Nurse Practitioners (MO)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pathologist</fullName>
+                <default>false</default>
+                <label>Pathologist</label>
+            </value>
+            <value>
+                <fullName>Pathologist Assistant</fullName>
+                <default>false</default>
+                <label>Pathologist Assistant</label>
+            </value>
+            <value>
+                <fullName>Patient navigator (MO)</fullName>
+                <default>false</default>
+                <label>Patient navigator (MO)</label>
+            </value>
+            <value>
+                <fullName>Physical Therapist</fullName>
+                <default>false</default>
+                <label>Physical Therapist</label>
+            </value>
+            <value>
+                <fullName>Physician Assistants (MO)</fullName>
+                <default>false</default>
+                <label>Physician Assistants (MO)</label>
+            </value>
+            <value>
+                <fullName>Professor</fullName>
+                <default>false</default>
+                <label>Professor</label>
+            </value>
+            <value>
+                <fullName>Psychiatrist</fullName>
+                <default>false</default>
+                <label>Psychiatrist</label>
+            </value>
+            <value>
+                <fullName>Psychologist</fullName>
+                <default>false</default>
+                <label>Psychologist</label>
+            </value>
+            <value>
+                <fullName>Purchasing</fullName>
+                <default>false</default>
+                <label>Purchasing</label>
+            </value>
+            <value>
+                <fullName>Referring Physician</fullName>
+                <default>false</default>
+                <label>Referring Physician</label>
+            </value>
+            <value>
+                <fullName>Researchers</fullName>
+                <default>false</default>
+                <label>Researchers</label>
+            </value>
+            <value>
+                <fullName>Social Worker</fullName>
+                <default>false</default>
+                <label>Social Worker</label>
+            </value>
+            <value>
+                <fullName>Systems Analyst</fullName>
+                <default>false</default>
+                <label>Systems Analyst</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

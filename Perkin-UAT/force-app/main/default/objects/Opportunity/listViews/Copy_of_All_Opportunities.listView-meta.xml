@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_All_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Country__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Application_Segment__c</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>Application_Segment__c</field>
+        <operation>equals</operation>
+        <value>Applied</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>contains</operation>
+        <value>GB</value>
+    </filters>
+    <label>Copy of All Opportunities</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

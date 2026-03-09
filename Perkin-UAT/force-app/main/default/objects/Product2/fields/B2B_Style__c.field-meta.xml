@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Style__c</fullName>
+    <description>Used to select the style for products. Perk-75</description>
+    <label>Style</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Crimp Top</fullName>
+                <default>false</default>
+                <label>Crimp Top</label>
+            </value>
+            <value>
+                <fullName>Flat Bottom</fullName>
+                <default>false</default>
+                <label>Flat Bottom</label>
+            </value>
+            <value>
+                <fullName>Screw Top</fullName>
+                <default>false</default>
+                <label>Screw Top</label>
+            </value>
+            <value>
+                <fullName>Snap Top</fullName>
+                <default>false</default>
+                <label>Snap Top</label>
+            </value>
+            <value>
+                <fullName>Spring Bottom</fullName>
+                <default>false</default>
+                <label>Spring Bottom</label>
+            </value>
+            <value>
+                <fullName>Standard</fullName>
+                <default>false</default>
+                <label>Standard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

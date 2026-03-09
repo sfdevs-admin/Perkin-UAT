@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_opp_must_be_atleast_stage7</fullName>
+    <active>true</active>
+    <description>LST - Opportunity_must_be_at_least_stage_7</description>
+    <errorConditionFormula>ISPICKVAL(Type ,&quot;Field Service&quot;)
+&amp;&amp; 
+IsClosed = True
+&amp;&amp; 
+OR(ISPICKVAL(Source_Opportunity__r.StageName,&quot;7 Work Complete&quot;))</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>V.RULE_CASE_027: The associated Opportunity must be at Stage 7 or higher in order to Close this case</errorMessage>
+</ValidationRule>

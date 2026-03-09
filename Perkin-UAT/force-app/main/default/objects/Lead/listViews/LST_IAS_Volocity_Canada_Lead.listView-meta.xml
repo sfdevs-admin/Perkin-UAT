@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_IAS_Volocity_Canada_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>INF IAS Volocity Canada</label>
+    <queue>ARQ_000584</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

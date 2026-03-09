@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Rep_Name__c</fullName>
+    <label>Sales Rep</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Ai Bin</fullName>
+                <default>false</default>
+                <label>Ai Bin</label>
+            </value>
+            <value>
+                <fullName>Bio-Gene</fullName>
+                <default>false</default>
+                <label>Bio-Gene</label>
+            </value>
+            <value>
+                <fullName>Blossom</fullName>
+                <default>false</default>
+                <label>Blossom</label>
+            </value>
+            <value>
+                <fullName>Cao Jian</fullName>
+                <default>false</default>
+                <label>Cao Jian</label>
+            </value>
+            <value>
+                <fullName>Chan Josef</fullName>
+                <default>false</default>
+                <label>Chan Josef</label>
+            </value>
+            <value>
+                <fullName>Chen Peng</fullName>
+                <default>false</default>
+                <label>Chen Peng</label>
+            </value>
+            <value>
+                <fullName>Chen Ye</fullName>
+                <default>false</default>
+                <label>Chen Ye</label>
+            </value>
+            <value>
+                <fullName>Cheung Man</fullName>
+                <default>false</default>
+                <label>Cheung Man</label>
+            </value>
+            <value>
+                <fullName>Dong Wen-Bin</fullName>
+                <default>false</default>
+                <label>Dong Wen-Bin</label>
+            </value>
+            <value>
+                <fullName>Gao Fei</fullName>
+                <default>false</default>
+                <label>Gao Fei</label>
+            </value>
+            <value>
+                <fullName>Gao Liang</fullName>
+                <default>false</default>
+                <label>Gao Liang</label>
+            </value>
+            <value>
+                <fullName>Guan Hao-Yu</fullName>
+                <default>false</default>
+                <label>Guan Hao-Yu</label>
+            </value>
+            <value>
+                <fullName>Guan Wei-Wei</fullName>
+                <default>false</default>
+                <label>Guan Wei-Wei</label>
+            </value>
+            <value>
+                <fullName>Guo Yi-Chun</fullName>
+                <default>false</default>
+                <label>Guo Yi-Chun</label>
+            </value>
+            <value>
+                <fullName>J&amp;H</fullName>
+                <default>false</default>
+                <label>J&amp;H</label>
+            </value>
+            <value>
+                <fullName>Jiang Jin</fullName>
+                <default>false</default>
+                <label>Jiang Jin</label>
+            </value>
+            <value>
+                <fullName>Jiang Samanda</fullName>
+                <default>false</default>
+                <label>Jiang Samanda</label>
+            </value>
+            <value>
+                <fullName>Jing Run</fullName>
+                <default>false</default>
+                <label>Jing Run</label>
+            </value>
+            <value>
+                <fullName>Jin Lu</fullName>
+                <default>false</default>
+                <label>Jin Lu</label>
+            </value>
+            <value>
+                <fullName>Lee Michelle</fullName>
+                <default>false</default>
+                <label>Lee Michelle</label>
+            </value>
+            <value>
+                <fullName>Li Dong</fullName>
+                <default>false</default>
+                <label>Li Dong</label>
+            </value>
+            <value>
+                <fullName>Li Jean</fullName>
+                <default>false</default>
+                <label>Li Jean</label>
+            </value>
+            <value>
+                <fullName>Lin Sen</fullName>
+                <default>false</default>
+                <label>Lin Sen</label>
+            </value>
+            <value>
+                <fullName>Liu Fang</fullName>
+                <default>false</default>
+                <label>Liu Fang</label>
+            </value>
+            <value>
+                <fullName>Liu Ji-Tao</fullName>
+                <default>false</default>
+                <label>Liu Ji-Tao</label>
+            </value>
+            <value>
+                <fullName>Li Xin</fullName>
+                <default>false</default>
+                <label>Li Xin</label>
+            </value>
+            <value>
+                <fullName>Li Yong</fullName>
+                <default>false</default>
+                <label>Li Yong</label>
+            </value>
+            <value>
+                <fullName>Ma Wen-Ming</fullName>
+                <default>false</default>
+                <label>Ma Wen-Ming</label>
+            </value>
+            <value>
+                <fullName>Mu De-huan</fullName>
+                <default>false</default>
+                <label>Mu De-huan</label>
+            </value>
+            <value>
+                <fullName>P General-1</fullName>
+                <default>false</default>
+                <label>P General-1</label>
+            </value>
+            <value>
+                <fullName>P General-2</fullName>
+                <default>false</default>
+                <label>P General-2</label>
+            </value>
+            <value>
+                <fullName>Shen Li</fullName>
+                <default>false</default>
+                <label>Shen Li</label>
+            </value>
+            <value>
+                <fullName>Shi Jian-Sheng</fullName>
+                <default>false</default>
+                <label>Shi Jian-Sheng</label>
+            </value>
+            <value>
+                <fullName>Shi Lei</fullName>
+                <default>false</default>
+                <label>Shi Lei</label>
+            </value>
+            <value>
+                <fullName>Su Ichi</fullName>
+                <default>false</default>
+                <label>Su Ichi</label>
+            </value>
+            <value>
+                <fullName>Sun Yan-Ju</fullName>
+                <default>false</default>
+                <label>Sun Yan-Ju</label>
+            </value>
+            <value>
+                <fullName>Tang Hong-Hou</fullName>
+                <default>false</default>
+                <label>Tang Hong-Hou</label>
+            </value>
+            <value>
+                <fullName>Tian Xiao-Qiang</fullName>
+                <default>false</default>
+                <label>Tian Xiao-Qiang</label>
+            </value>
+            <value>
+                <fullName>Wang Garry</fullName>
+                <default>false</default>
+                <label>Wang Garry</label>
+            </value>
+            <value>
+                <fullName>Wang Jian</fullName>
+                <default>false</default>
+                <label>Wang Jian</label>
+            </value>
+            <value>
+                <fullName>Wu Xue-Cheng</fullName>
+                <default>false</default>
+                <label>Wu Xue-Cheng</label>
+            </value>
+            <value>
+                <fullName>Xiao Qi-Gang</fullName>
+                <default>false</default>
+                <label>Xiao Qi-Gang</label>
+            </value>
+            <value>
+                <fullName>Xie Jian-Feng</fullName>
+                <default>false</default>
+                <label>Xie Jian-Feng</label>
+            </value>
+            <value>
+                <fullName>Xu Michelle</fullName>
+                <default>false</default>
+                <label>Xu Michelle</label>
+            </value>
+            <value>
+                <fullName>Xu Quan-Hui</fullName>
+                <default>false</default>
+                <label>Xu Quan-Hui</label>
+            </value>
+            <value>
+                <fullName>Xu Shou-Cong</fullName>
+                <default>false</default>
+                <label>Xu Shou-Cong</label>
+            </value>
+            <value>
+                <fullName>Yin Ella</fullName>
+                <default>false</default>
+                <label>Yin Ella</label>
+            </value>
+            <value>
+                <fullName>Yin Yi-Ning</fullName>
+                <default>false</default>
+                <label>Yin Yi-Ning</label>
+            </value>
+            <value>
+                <fullName>Yong Eric</fullName>
+                <default>false</default>
+                <label>Yong Eric</label>
+            </value>
+            <value>
+                <fullName>Yuan Han-Hua</fullName>
+                <default>false</default>
+                <label>Yuan Han-Hua</label>
+            </value>
+            <value>
+                <fullName>Yuan Mei-Dong</fullName>
+                <default>false</default>
+                <label>Yuan Mei-Dong</label>
+            </value>
+            <value>
+                <fullName>Yu Jian-Er</fullName>
+                <default>false</default>
+                <label>Yu Jian-Er</label>
+            </value>
+            <value>
+                <fullName>Yu Ronnie</fullName>
+                <default>false</default>
+                <label>Yu Ronnie</label>
+            </value>
+            <value>
+                <fullName>Yu Shi-Yong</fullName>
+                <default>false</default>
+                <label>Yu Shi-Yong</label>
+            </value>
+            <value>
+                <fullName>Zhang Fu-Qi</fullName>
+                <default>false</default>
+                <label>Zhang Fu-Qi</label>
+            </value>
+            <value>
+                <fullName>Zhang Ji-Yong</fullName>
+                <default>false</default>
+                <label>Zhang Ji-Yong</label>
+            </value>
+            <value>
+                <fullName>Zhao Wen-Chuan</fullName>
+                <default>false</default>
+                <label>Zhao Wen-Chuan</label>
+            </value>
+            <value>
+                <fullName>Zheng Feng</fullName>
+                <default>false</default>
+                <label>Zheng Feng</label>
+            </value>
+            <value>
+                <fullName>Zhong Hua</fullName>
+                <default>false</default>
+                <label>Zhong Hua</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

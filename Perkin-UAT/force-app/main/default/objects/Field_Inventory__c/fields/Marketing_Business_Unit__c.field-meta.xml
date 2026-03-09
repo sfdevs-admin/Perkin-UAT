@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Business_Unit__c</fullName>
+    <label>Marketing Business Unit</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ANALYTICAL SCIENCES</fullName>
+                <default>false</default>
+                <label>ANALYTICAL SCIENCES</label>
+            </value>
+            <value>
+                <fullName>SPECIALTY DIAGNOSTICS</fullName>
+                <default>false</default>
+                <label>SPECIALTY DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>LIFE SCIENCE TECHNOLOGIES</fullName>
+                <default>false</default>
+                <label>LIFE SCIENCE TECHNOLOGIES</label>
+            </value>
+            <value>
+                <fullName>GENERAL</fullName>
+                <default>false</default>
+                <label>GENERAL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

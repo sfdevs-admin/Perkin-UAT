@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services__c</fullName>
+    <label>Services</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Configuration - Onsite</fullName>
+                <default>false</default>
+                <label>Configuration - Onsite</label>
+            </value>
+            <value>
+                <fullName>Configuration - Remote</fullName>
+                <default>false</default>
+                <label>Configuration - Remote</label>
+            </value>
+            <value>
+                <fullName>Installation - Onsite</fullName>
+                <default>false</default>
+                <label>Installation - Onsite</label>
+            </value>
+            <value>
+                <fullName>Installation - Remote</fullName>
+                <default>false</default>
+                <label>Installation - Remote</label>
+            </value>
+            <value>
+                <fullName>Migration</fullName>
+                <default>false</default>
+                <label>Migration</label>
+            </value>
+            <value>
+                <fullName>Scoping</fullName>
+                <default>false</default>
+                <label>Scoping</label>
+            </value>
+            <value>
+                <fullName>Training - Onsite</fullName>
+                <default>false</default>
+                <label>Training - Onsite</label>
+            </value>
+            <value>
+                <fullName>Training - Remote</fullName>
+                <default>false</default>
+                <label>Training - Remote</label>
+            </value>
+            <value>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

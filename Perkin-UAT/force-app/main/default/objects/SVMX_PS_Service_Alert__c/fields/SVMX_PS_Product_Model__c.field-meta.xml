@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Product_Model__c</fullName>
+    <externalId>false</externalId>
+    <formula>SVMX_PS_Installed_Product__r.SVMXC__Product__r.ProductCode</formula>
+    <label>Product Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

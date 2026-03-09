@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_Technician_Equipment__c</columns>
+    <columns>SMAX_PS_DestinationName1__c</columns>
+    <columns>SMAX_PS_IsDropShip__c</columns>
+    <columns>SMAX_PS_Destination_City__c</columns>
+    <columns>SMAX_PS_Global_To_Country__c</columns>
+    <columns>SMAX_PS_Global_To_State__c</columns>
+    <columns>SMAX_PS_ToStreet1__c</columns>
+    <columns>SMAX_PS_Destination_Zip__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

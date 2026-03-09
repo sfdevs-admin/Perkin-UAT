@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Ref_ID_New__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;[ref:!&quot; &amp; LEFT($Organization.Id,6) &amp; SUBSTITUTE(RIGHT($Organization.Id,10), &quot;0&quot;, &quot;&quot; )&amp; &quot;.!&quot; &amp; LEFT(Id,6) &amp; SUBSTITUTE(Left(RIGHT(Id,10), 5), &quot;0&quot;, &quot;&quot;) &amp; RIGHT(Id,5) &amp; &quot;:ref]&quot;
+
+/* &quot;[ref:_&quot; &amp; LEFT($Organization.Id,5) &amp; RIGHT($Organization.Id,4) &amp; &quot;._&quot; &amp; LEFT(Id,5) &amp; SUBSTITUTE(Left(RIGHT(Id,10), 5), &quot;0&quot;, &quot;&quot;) &amp; RIGHT(Id,5) &amp; &quot;:ref]&quot; */</formula>
+    <label>Case Ref ID PKI</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

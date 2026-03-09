@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxOBCUser_Matches__c</fullName>
+    <description>Test if User OBC = Group OBC</description>
+    <formula>IF( NOT(ISBLANK(User__c))
+    ,TEXT(User__r.Owned_by_Company__c)
+    ,TEXT(Member_Group__r.Owned_By_Company__c)
+    )  = TEXT(PKI_Queue_Name__r.Owned_By_Company__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Test if User OBC = Group OBC</inlineHelpText>
+    <label>fxOBCUser_Matches</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

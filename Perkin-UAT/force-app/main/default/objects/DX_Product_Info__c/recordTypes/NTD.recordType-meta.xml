@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NTD</fullName>
+    <active>true</active>
+    <label>NTD</label>
+    <picklistValues>
+        <picklist>Contract_Reimbursement_Method__c</picklist>
+        <values>
+            <fullName>Code specific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X%25 discount off Fee Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X%25 discount off billable charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X%25 of Fee Schedule</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Microarray_PA_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NIPT_PA_Required_y_n__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_the_Fee_Schedule__c</picklist>
+        <values>
+            <fullName>CMS National Fee Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Specific%2FProprietary Fee Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Medicaid Fee Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Medicare Fee Schedule</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

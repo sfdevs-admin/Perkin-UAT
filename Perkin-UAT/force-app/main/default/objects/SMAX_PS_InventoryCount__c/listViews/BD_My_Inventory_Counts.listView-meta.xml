@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_My_Inventory_Counts</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_Status__c</columns>
+    <columns>SMAX_PS_DocumentDate__c</columns>
+    <columns>SMAX_PS_PlannedDate__c</columns>
+    <columns>SMAX_PS_Count_Date__c</columns>
+    <columns>SMAX_PS_Lines_Count__c</columns>
+    <columns>SMAX_PS_Counted_Qty_Total__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Inventory Counts</label>
+</ListView>

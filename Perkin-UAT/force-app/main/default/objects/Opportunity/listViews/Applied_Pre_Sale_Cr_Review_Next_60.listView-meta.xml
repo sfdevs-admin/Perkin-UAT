@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applied_Pre_Sale_Cr_Review_Next_60</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>SAP_Quote__c</columns>
+    <columns>Pre_Sale_Credit_Review__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>Shipping_State__c</columns>
+    <columns>Shipping_Country__c</columns>
+    <columns>Application_Segment__c</columns>
+    <columns>Agricultural_Sector__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Commit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>greaterThan</operation>
+        <value>USD 50000</value>
+    </filters>
+    <filters>
+        <field>Shipping_Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Monthly RunRate</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>NEXT_N_DAYS:120</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>reagent,runrate,run rate</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>contains</operation>
+        <value>Applied</value>
+    </filters>
+    <label>Applied Pre-Sale Cr Review - Next 120</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

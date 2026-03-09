@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Completed__c</fullName>
+    <description>This is the date which the admin team completed the work. Mapped to JIRA DUE DATE field</description>
+    <inlineHelpText>This is the date when the request was resolved or deployed into production</inlineHelpText>
+    <label>Date Completed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

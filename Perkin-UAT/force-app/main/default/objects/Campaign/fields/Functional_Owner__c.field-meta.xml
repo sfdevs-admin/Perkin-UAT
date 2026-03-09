@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Functional_Owner__c</fullName>
+    <description>Required field - dependent to Business Element field</description>
+    <inlineHelpText>Please select the department responsible for this campaign.</inlineHelpText>
+    <label>Functional Owner</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Marcom</fullName>
+                <default>false</default>
+                <label>Marcom</label>
+            </value>
+            <value>
+                <fullName>Customer Care</fullName>
+                <default>false</default>
+                <label>Customer Care</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Inside Sales</fullName>
+                <default>false</default>
+                <label>Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Technical Support</fullName>
+                <default>false</default>
+                <label>Technical Support</label>
+            </value>
+            <value>
+                <fullName>Regional Marketing</fullName>
+                <default>false</default>
+                <label>Regional Marketing</label>
+            </value>
+            <value>
+                <fullName>Digital Marketing</fullName>
+                <default>false</default>
+                <label>Digital Marketing</label>
+            </value>
+            <value>
+                <fullName>Segment Marketing</fullName>
+                <default>false</default>
+                <label>Segment Marketing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

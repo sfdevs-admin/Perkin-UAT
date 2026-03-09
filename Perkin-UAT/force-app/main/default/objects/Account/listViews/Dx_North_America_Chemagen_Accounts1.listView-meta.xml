@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_North_America_Chemagen_Accounts1</fullName>
+    <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_ZIP</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Dx_Dx_APAC_Region__c</columns>
+    <columns>PKI_SAP_Customer_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Dx_Dx_APAC_Region__c</field>
+        <operation>equals</operation>
+        <value>Vietnam,Thailand,Singapore,Philippines,Other,Malaysia,Korea,Japan</value>
+    </filters>
+    <filters>
+        <field>Dx_Dx_APAC_Region__c</field>
+        <operation>equals</operation>
+        <value>Indonesia,Australia/New Zealand</value>
+    </filters>
+    <filters>
+        <field>PKI_SAP_Customer_Number__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Dx APAC KOSEA+J Accounts</label>
+    <sharedTo>
+        <group>ARQ_000776</group>
+        <group>ARQ_000785</group>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

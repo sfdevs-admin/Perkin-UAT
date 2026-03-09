@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisEn_Contact_Type__c</fullName>
+    <label>VisEn Contact Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospect Probes</fullName>
+                <default>false</default>
+                <label>Prospect Probes</label>
+            </value>
+            <value>
+                <fullName>Prospect FMT 2500</fullName>
+                <default>false</default>
+                <label>Prospect FMT 2500</label>
+            </value>
+            <value>
+                <fullName>Prospect FMT 2500 and Agents</fullName>
+                <default>false</default>
+                <label>Prospect FMT 2500 and Agents</label>
+            </value>
+            <value>
+                <fullName>Purchasing Agent</fullName>
+                <default>false</default>
+                <label>Purchasing Agent</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Competitive Distributor</fullName>
+                <default>false</default>
+                <label>Competitive Distributor</label>
+            </value>
+            <value>
+                <fullName>Corporate Partner</fullName>
+                <default>false</default>
+                <label>Corporate Partner</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Possible Partner</fullName>
+                <default>false</default>
+                <label>Possible Partner</label>
+            </value>
+            <value>
+                <fullName>VisEn Distributor</fullName>
+                <default>false</default>
+                <label>VisEn Distributor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

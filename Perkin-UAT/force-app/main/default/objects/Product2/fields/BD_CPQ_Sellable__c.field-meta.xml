@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_CPQ_Sellable__c</fullName>
+    <description>SC-23: Only product records with the following values in the BD_DChain_Spec_Status__c field can be shown in the CPQ quote line editor: Z3, ZA, ZQ, ZS, ZW, ZY</description>
+    <formula>BD_DChain_Spec_Status__c = &#39;Z3&#39;
+|| BD_DChain_Spec_Status__c = &#39;ZA&#39;
+|| BD_DChain_Spec_Status__c = &#39;ZQ&#39;
+|| BD_DChain_Spec_Status__c = &#39;ZS&#39;
+|| BD_DChain_Spec_Status__c = &#39;ZW&#39;
+|| BD_DChain_Spec_Status__c = &#39;ZY&#39;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CPQ Sellable</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

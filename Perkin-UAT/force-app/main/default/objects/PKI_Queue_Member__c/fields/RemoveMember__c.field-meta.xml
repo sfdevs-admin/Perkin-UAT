@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RemoveMember__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If true, this member should be removed from this queue, and mirrored to the native group member</description>
+    <inlineHelpText>Check the box to mark the user to be removed from this queue. (A process will run automated soon after and remove this person)</inlineHelpText>
+    <label>Remove Member</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

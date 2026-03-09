@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>SAP Owned by Company split values leveraged by the mapping &quot;engine&quot; to assist in properly assigning Owned by Company value to Salesforce records.</description>
+    <label>Owned By Company Mapping</label>
+    <pluralLabel>Owned By Company Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

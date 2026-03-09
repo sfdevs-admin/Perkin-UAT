@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QC_PKI_Orders_OBC</fullName>
+    <columns>NAME</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>fxTagValues__c</columns>
+    <columns>idocId__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Quote_Number__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Count_of_Items__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:7</value>
+    </filters>
+    <label>QC-PKI Orders (OBC)</label>
+</ListView>

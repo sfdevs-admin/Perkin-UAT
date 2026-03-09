@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R08MailListCheck</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>AA_List__c</columns>
+    <columns>ICP_List__c</columns>
+    <columns>ICPMS_List__c</columns>
+    <columns>GC_List__c</columns>
+    <columns>LC_List__c</columns>
+    <columns>IR_List__c</columns>
+    <columns>UVS_List__c</columns>
+    <columns>TEA_List__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>startsWith</operation>
+        <value>329,330,331,332,333,334,335,336,338,339</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>startsWith</operation>
+        <value>340,341,342,349</value>
+    </filters>
+    <label>R08 Mail List Check</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_001073</group>
+    </sharedTo>
+</ListView>

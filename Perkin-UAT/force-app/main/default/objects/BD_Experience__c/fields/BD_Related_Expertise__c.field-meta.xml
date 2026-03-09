@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Related_Expertise__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Related Expertise</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>SVMXC__Service_Group_Skills__c.SVMXC__Group_Member__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.BD_Technician__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>SVMXC__Service_Group_Skills__c</referenceTo>
+    <relationshipLabel>Experience</relationshipLabel>
+    <relationshipName>Experience</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summary_RRS__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+OR(  
+
+ISPICKVAL(LST_Product_Interest_1__c, &quot;RRS- REAGENTS NON-RAD&quot;) , 
+ ISPICKVAL(LST_Product_Interest_2__c, &quot;RRS- REAGENTS NON-RAD&quot;) ,
+ ISPICKVAL(LST_Product_Interest_3__c, &quot;RRS- REAGENTS NON-RAD&quot;),
+ INCLUDES(Product_Interest__c, &quot;Research Reagents - RRS&quot;),
+ INCLUDES(Product_Line__c, &quot;RRS&quot;)), 
+
+
+&quot;TRUE&quot;, &quot;FALSE&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Summary-RRS-Non RAD</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

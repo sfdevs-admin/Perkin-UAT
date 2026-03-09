@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Is_Rejected_By_MDM</fullName>
+    <active>true</active>
+    <description>Used when Account is Rejected by MDM</description>
+    <errorConditionFormula>AND(
+  $Permission.BD_Bypass_Automation != TRUE
+  ,NOT(ISBLANK( AccountId ))
+  ,Account.MDM_Status__c =&#39;Rejected&#39;
+)</errorConditionFormula>
+    <errorMessage>V.RULE_CASE_047: This account is rejected by MDM. Do Not add any related item to this Account.</errorMessage>
+</ValidationRule>

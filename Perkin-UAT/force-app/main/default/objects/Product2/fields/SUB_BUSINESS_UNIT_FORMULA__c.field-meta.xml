@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SUB_BUSINESS_UNIT_FORMULA__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( product_line__c), &quot;&quot;, 
+IF(CONTAINS(&quot;PUF:UV&quot;, product_line__c), &quot;MOLECULAR SPECTROSCOPY&quot;,
+IF(CONTAINS(&quot;GC:GCM:LC:MMS:MBA:LCA&quot;,product_line__c),&quot;CHROMATOGRAPHY&quot;, 
+IF(CONTAINS(&quot;UVS:TEA:IR:ICP:MAS:AA&quot;,product_line__c),&quot;SPECTROSCOPY&quot;,
+IF(CONTAINS(&quot;PER:DCS:DLS:DSS:PIV:DEL:IMG:AM:DAB:DAO:DL:EXT:FN:GM:IMF:LM:RVA:SKC:TXV:FTF:BIO:CDI:LCM:SSS:MZG:PCK&quot;, product_line__c), &quot;FOOD&quot;,
+IF(CONTAINS(&quot;TA&quot;, product_line__c), &quot;THERMAL/ELEMENTAL&quot;, 
+ 
+IF(CONTAINS(&quot;MDX:NAP:ARS:AWS:APS:CLH:MOX:NEX:MFT:SPS:AGO:RHS:SDX:HMG:MAO:NMO&quot;, product_line__c), &quot;APPLIED GENOMICS&quot;, 
+IF(CONTAINS(&quot;NEO:CCM:PRE:DIA:CHS:MSD:VIR:NPT&quot;, product_line__c), &quot;REPRODUCTIVE HEALTH&quot;, 
+IF(CONTAINS(&quot;MPS:TIP:TKS:ANP:FGP:ARI:ARP:CSA:GIP:PGI:PRD:SCN:SPT:TOF:RRC:PCL:MCB:NUC&quot;, product_line__c), &quot;BIO-D DISCO OPS&quot;, 
+IF(CONTAINS(&quot;GEN&quot;, product_line__c), &quot;CORD BLOOD BANKING&quot;, 
+IF(CONTAINS(&quot;EIM&quot;, product_line__c), &quot;EUROIMMUN&quot;, 
+IF(CONTAINS(&quot;ILB:ICL &quot;, product_line__c), &quot;GENETIC TESTING SERVICES&quot;, 
+IF(CONTAINS(&quot;GSG&quot;, product_line__c), &quot;GOOD START GENETICS&quot;, 
+IF(CONTAINS(&quot;IDO:LVI:MLD:PBR:HCS:IAS:LSB:INV:EZR:QTS&quot;, product_line__c), &quot;IMAGING &amp; DETECTION&quot;, 
+IF(CONTAINS(&quot;CHE:ESS:LIM:ELM:GPZ:ENT:QAS:AVS:AVC:ISS:DSK:SIG:IFO:ATT:SPL:SRV&quot;, product_line__c), &quot;INFORMATICS&quot;, 
+IF(CONTAINS(&quot;ASY&quot;, product_line__c), &quot;LIGHTING&quot;, 
+IF(CONTAINS(&quot;SER&quot;, product_line__c), &quot;LS SERVICE&quot;, 
+IF(CONTAINS(&quot;SCI:DEX:CMS:ASG:ASP:MIO&quot;, product_line__c), &quot;MEDICAL IMAGING&quot;, 
+IF(CONTAINS(&quot;ABI:AGT:OMV:TMO:OSO:WAT:OSAM:OSC:OSSS:OSIS:OSRL:OSAI&quot;, product_line__c), &quot;MULTI-VENDOR&quot;, 
+IF(CONTAINS(&quot;NTD&quot;, product_line__c), &quot;NTD LABS&quot;, 
+IF(CONTAINS(&quot;ONC&quot;, product_line__c), &quot;ONCOLOGY&quot;, 
+IF(CONTAINS(&quot;CSC:GSO:RES:BAR:DIAC:DLF:SDO:CRT:CRD:NLB:DNA:EDO:AIG:ECO:FAB:LOP:OTH:PHM:LAA:ABG:AGP:BLC:CDS:CE:CHM:DNH:DNP:DNV:DU:HID:ASO:MGA:MIG:MMB:NIR:OCC:PBC:PBG:PCS:PHV:PSN:SDS:TRX:UPA:LHO:WEB:AGN:BIZ:BMC:CPC:DNE:DNS:ESI:SVC:-DU:BLS:DDV:BIM:CRS:MMO:DIS:LSO:ASE:ADS:CMG:DIO:MLB:AGP:FLR:MCO:RAM:UVP:CHD:CHO&quot;, product_line__c), &quot;OTHER&quot;, 
+IF(CONTAINS(&quot;TIS:NVS:TSC:QPS:TBR&quot;, product_line__c), &quot;QUANTITATIVE PATHOLOGY&quot;, 
+IF(CONTAINS(&quot;RSO:MOL:RRS:CLR:RRD:HTS:CKP:FAP:HCA&quot;, product_line__c), &quot;RADS &amp; SERVICE&quot;, 
+IF(CONTAINS(&quot;EMV:SVO:SVA:MET&quot;, product_line__c), &quot;SERVICE&quot;, 
+IF(CONTAINS(&quot;SGL&quot;, product_line__c), &quot;SIGNATURE GENOMICS LAB&quot;, 
+IF(CONTAINS(&quot;TLP&quot;, product_line__c), &quot;TULIP DIAGNOSTICS&quot;, 
+IF(CONTAINS(&quot;HTSC:ZZZ:HHO:EHO:BEA&quot;, product_line__c), &quot;UNCODED&quot;, 
+IF(CONTAINS(&quot;VNT&quot;, product_line__c), &quot;VERINATA HEALTH&quot;, 
+IF(CONTAINS(&quot;CSB:CVD&quot;, product_line__c), &quot;CISBIO BIOASSAYS&quot;,
+IF(CONTAINS(&quot;HBE:HBP:HCE:HDX:HOS:HRR:HZN&quot;, product_line__c), &quot;HORIZON DISCOVERY&quot;,
+&quot;PRODUCT LINE IN QUESTION&quot;)))))))))))))))))))))))))))))))</formula>
+    <label>SUB BUSINESS UNIT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

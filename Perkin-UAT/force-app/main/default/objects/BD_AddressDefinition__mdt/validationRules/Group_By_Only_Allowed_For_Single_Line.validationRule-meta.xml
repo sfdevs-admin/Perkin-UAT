@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_By_Only_Allowed_For_Single_Line</fullName>
+    <active>true</active>
+    <errorConditionFormula>BD_Group_By_for_Geolocation__c = TRUE &amp;&amp; 
+(  
+  ISBLANK(BD_Formatted_Address_Field__c) 
+  || BD_Calculate_Formatted_Address__c = FALSE
+  || NOT(ISPICKVAL(BD_Formatted_Address_Type__c, &quot;Single Line&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>BD_Group_By_for_Geolocation__c</errorDisplayField>
+    <errorMessage>Can only Group By for GeoLocation when formatted address is enabled and &quot;Single Line&quot;</errorMessage>
+</ValidationRule>

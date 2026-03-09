@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Notes_for_Others_Option</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Permission.BD_Bypass_Automation != TRUE,
+INCLUDES(Request_For__c, &#39;Other&#39;),
+ISBLANK(Description__c)
+)</errorConditionFormula>
+    <errorMessage>Please fill the Notes, since you&#39;ve selected &#39;Others&#39; option in the Request For field</errorMessage>
+</ValidationRule>

@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Platform__c</fullName>
+    <label>Platform</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Line__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agilent BioAnalyser</fullName>
+                <default>false</default>
+                <label>Agilent BioAnalyser</label>
+            </value>
+            <value>
+                <fullName>AlphaLisa</fullName>
+                <default>false</default>
+                <label>AlphaLisa</label>
+            </value>
+            <value>
+                <fullName>Alpha SureFire</fullName>
+                <default>false</default>
+                <label>Alpha SureFire</label>
+            </value>
+            <value>
+                <fullName>AutoDELFIA</fullName>
+                <default>false</default>
+                <label>AutoDELFIA</label>
+            </value>
+            <value>
+                <fullName>Celigo</fullName>
+                <default>false</default>
+                <label>Celigo</label>
+            </value>
+            <value>
+                <fullName>Cellaca</fullName>
+                <default>false</default>
+                <label>Cellaca</label>
+            </value>
+            <value>
+                <fullName>Cellaca PLX</fullName>
+                <default>false</default>
+                <label>Cellaca PLX</label>
+            </value>
+            <value>
+                <fullName>Cellometer Auto2000</fullName>
+                <default>false</default>
+                <label>Cellometer Auto2000</label>
+            </value>
+            <value>
+                <fullName>Cellometer AutoT4</fullName>
+                <default>false</default>
+                <label>Cellometer AutoT4</label>
+            </value>
+            <value>
+                <fullName>Cellometer K2</fullName>
+                <default>false</default>
+                <label>Cellometer K2</label>
+            </value>
+            <value>
+                <fullName>Chemagic 360</fullName>
+                <default>false</default>
+                <label>Chemagic 360</label>
+            </value>
+            <value>
+                <fullName>Chemagic MSMI</fullName>
+                <default>false</default>
+                <label>Chemagic MSMI</label>
+            </value>
+            <value>
+                <fullName>Chemagic Prepito</fullName>
+                <default>false</default>
+                <label>Chemagic Prepito</label>
+            </value>
+            <value>
+                <fullName>Chemagic Prime</fullName>
+                <default>false</default>
+                <label>Chemagic Prime</label>
+            </value>
+            <value>
+                <fullName>Consumables</fullName>
+                <default>false</default>
+                <label>Consumables</label>
+            </value>
+            <value>
+                <fullName>Covid-19</fullName>
+                <default>false</default>
+                <label>Covid-19</label>
+            </value>
+            <value>
+                <fullName>DBS Puncher</fullName>
+                <default>false</default>
+                <label>DBS Puncher</label>
+            </value>
+            <value>
+                <fullName>Delfia</fullName>
+                <default>false</default>
+                <label>Delfia</label>
+            </value>
+            <value>
+                <fullName>DELFIA Trio</fullName>
+                <default>false</default>
+                <label>DELFIA Trio</label>
+            </value>
+            <value>
+                <fullName>DELFIA Xpress</fullName>
+                <default>false</default>
+                <label>DELFIA Xpress</label>
+            </value>
+            <value>
+                <fullName>ELISA Alliance HIV</fullName>
+                <default>false</default>
+                <label>ELISA Alliance HIV</label>
+            </value>
+            <value>
+                <fullName>Eonis</fullName>
+                <default>false</default>
+                <label>Eonis</label>
+            </value>
+            <value>
+                <fullName>Eonis Q</fullName>
+                <default>false</default>
+                <label>Eonis Q</label>
+            </value>
+            <value>
+                <fullName>EP3</fullName>
+                <default>false</default>
+                <label>EP3</label>
+            </value>
+            <value>
+                <fullName>EUROBlot Master</fullName>
+                <default>false</default>
+                <label>EUROBlot Master</label>
+            </value>
+            <value>
+                <fullName>EUROBLot One</fullName>
+                <default>false</default>
+                <label>EUROBLot One</label>
+            </value>
+            <value>
+                <fullName>EUROIMMUN Analyzer</fullName>
+                <default>false</default>
+                <label>EUROIMMUN Analyzer</label>
+            </value>
+            <value>
+                <fullName>EUROIMMUN Microarray Scanner</fullName>
+                <default>false</default>
+                <label>EUROIMMUN Microarray Scanner</label>
+            </value>
+            <value>
+                <fullName>EUROLab Workstation ELISA</fullName>
+                <default>false</default>
+                <label>EUROLab Workstation ELISA</label>
+            </value>
+            <value>
+                <fullName>EUROLab Workstation IFA</fullName>
+                <default>false</default>
+                <label>EUROLab Workstation IFA</label>
+            </value>
+            <value>
+                <fullName>EuroPattern</fullName>
+                <default>false</default>
+                <label>EuroPattern</label>
+            </value>
+            <value>
+                <fullName>EUROStar Microscope</fullName>
+                <default>false</default>
+                <label>EUROStar Microscope</label>
+            </value>
+            <value>
+                <fullName>Fluorescent &amp; Hapten Nucleotides</fullName>
+                <default>false</default>
+                <label>Fluorescent &amp; Hapten Nucleotides</label>
+            </value>
+            <value>
+                <fullName>Fontus</fullName>
+                <default>false</default>
+                <label>Fontus</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>GPCR cell lines</fullName>
+                <default>false</default>
+                <label>GPCR cell lines</label>
+            </value>
+            <value>
+                <fullName>GPCR Membranes</fullName>
+                <default>false</default>
+                <label>GPCR Membranes</label>
+            </value>
+            <value>
+                <fullName>GPCRs (TagLite)</fullName>
+                <default>false</default>
+                <label>GPCRs (TagLite)</label>
+            </value>
+            <value>
+                <fullName>GrowDex</fullName>
+                <default>false</default>
+                <label>GrowDex</label>
+            </value>
+            <value>
+                <fullName>GSP</fullName>
+                <default>false</default>
+                <label>GSP</label>
+            </value>
+            <value>
+                <fullName>HTRF</fullName>
+                <default>false</default>
+                <label>HTRF</label>
+            </value>
+            <value>
+                <fullName>IVISbrite Bioluminescent Bacterial Strains</fullName>
+                <default>false</default>
+                <label>IVISbrite Bioluminescent Bacterial Strains</label>
+            </value>
+            <value>
+                <fullName>IVISbrite Bioluminescent Substrates and Lentiviral Particles</fullName>
+                <default>false</default>
+                <label>IVISbrite Bioluminescent Substrates and Lentiviral Particles</label>
+            </value>
+            <value>
+                <fullName>IVISbrite Bioluminescent Tumor Cell Lines</fullName>
+                <default>false</default>
+                <label>IVISbrite Bioluminescent Tumor Cell Lines</label>
+            </value>
+            <value>
+                <fullName>IVISense Fluorescent Reagents</fullName>
+                <default>false</default>
+                <label>IVISense Fluorescent Reagents</label>
+            </value>
+            <value>
+                <fullName>JAG</fullName>
+                <default>false</default>
+                <label>JAG</label>
+            </value>
+            <value>
+                <fullName>Janus</fullName>
+                <default>false</default>
+                <label>Janus</label>
+            </value>
+            <value>
+                <fullName>JOE</fullName>
+                <default>false</default>
+                <label>JOE</label>
+            </value>
+            <value>
+                <fullName>LabChip DropletQuant</fullName>
+                <default>false</default>
+                <label>LabChip DropletQuant</label>
+            </value>
+            <value>
+                <fullName>LabChip DropSense</fullName>
+                <default>false</default>
+                <label>LabChip DropSense</label>
+            </value>
+            <value>
+                <fullName>LabChip GX (BlueBox)</fullName>
+                <default>false</default>
+                <label>LabChip GX (BlueBox)</label>
+            </value>
+            <value>
+                <fullName>LabChip GXII (BlueBox)</fullName>
+                <default>false</default>
+                <label>LabChip GXII (BlueBox)</label>
+            </value>
+            <value>
+                <fullName>LabChip GXII Touch</fullName>
+                <default>false</default>
+                <label>LabChip GXII Touch</label>
+            </value>
+            <value>
+                <fullName>LabChip GX Touch</fullName>
+                <default>false</default>
+                <label>LabChip GX Touch</label>
+            </value>
+            <value>
+                <fullName>LabChip MultiDX</fullName>
+                <default>false</default>
+                <label>LabChip MultiDX</label>
+            </value>
+            <value>
+                <fullName>LANCE</fullName>
+                <default>false</default>
+                <label>LANCE</label>
+            </value>
+            <value>
+                <fullName>Luminescence</fullName>
+                <default>false</default>
+                <label>Luminescence</label>
+            </value>
+            <value>
+                <fullName>Luminex</fullName>
+                <default>false</default>
+                <label>Luminex</label>
+            </value>
+            <value>
+                <fullName>Manual EUROIMMUN Kit</fullName>
+                <default>false</default>
+                <label>Manual EUROIMMUN Kit</label>
+            </value>
+            <value>
+                <fullName>Mergite! 10</fullName>
+                <default>false</default>
+                <label>Mergite! 10</label>
+            </value>
+            <value>
+                <fullName>Microplates</fullName>
+                <default>false</default>
+                <label>Microplates</label>
+            </value>
+            <value>
+                <fullName>MiniTRAK</fullName>
+                <default>false</default>
+                <label>MiniTRAK</label>
+            </value>
+            <value>
+                <fullName>MPI</fullName>
+                <default>false</default>
+                <label>MPI</label>
+            </value>
+            <value>
+                <fullName>MPII</fullName>
+                <default>false</default>
+                <label>MPII</label>
+            </value>
+            <value>
+                <fullName>MSMS</fullName>
+                <default>false</default>
+                <label>MSMS</label>
+            </value>
+            <value>
+                <fullName>MultiPuncher</fullName>
+                <default>false</default>
+                <label>MultiPuncher</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Panthera Puncher</fullName>
+                <default>false</default>
+                <label>Panthera Puncher</label>
+            </value>
+            <value>
+                <fullName>PhenoVue</fullName>
+                <default>false</default>
+                <label>PhenoVue</label>
+            </value>
+            <value>
+                <fullName>Phosphorylation cellular assays</fullName>
+                <default>false</default>
+                <label>Phosphorylation cellular assays</label>
+            </value>
+            <value>
+                <fullName>Plate::handler:</fullName>
+                <default>false</default>
+                <label>Plate::handler:</label>
+            </value>
+            <value>
+                <fullName>Plate Dispenser</fullName>
+                <default>false</default>
+                <label>Plate Dispenser</label>
+            </value>
+            <value>
+                <fullName>Plate Shaker</fullName>
+                <default>false</default>
+                <label>Plate Shaker</label>
+            </value>
+            <value>
+                <fullName>Platewash</fullName>
+                <default>false</default>
+                <label>Platewash</label>
+            </value>
+            <value>
+                <fullName>Platewasher</fullName>
+                <default>false</default>
+                <label>Platewasher</label>
+            </value>
+            <value>
+                <fullName>QSight</fullName>
+                <default>false</default>
+                <label>QSight</label>
+            </value>
+            <value>
+                <fullName>QSight 210 MD</fullName>
+                <default>false</default>
+                <label>QSight 210 MD</label>
+            </value>
+            <value>
+                <fullName>QSight 220</fullName>
+                <default>false</default>
+                <label>QSight 220</label>
+            </value>
+            <value>
+                <fullName>QSight 225 MD</fullName>
+                <default>false</default>
+                <label>QSight 225 MD</label>
+            </value>
+            <value>
+                <fullName>Radiochemicals</fullName>
+                <default>false</default>
+                <label>Radiochemicals</label>
+            </value>
+            <value>
+                <fullName>RESOLVE</fullName>
+                <default>false</default>
+                <label>RESOLVE</label>
+            </value>
+            <value>
+                <fullName>Rod Head</fullName>
+                <default>false</default>
+                <label>Rod Head</label>
+            </value>
+            <value>
+                <fullName>ScanRi</fullName>
+                <default>false</default>
+                <label>ScanRi</label>
+            </value>
+            <value>
+                <fullName>Sciclone</fullName>
+                <default>false</default>
+                <label>Sciclone</label>
+            </value>
+            <value>
+                <fullName>Sciex 4500 MD</fullName>
+                <default>false</default>
+                <label>Sciex 4500 MD</label>
+            </value>
+            <value>
+                <fullName>Scintillation Reagents</fullName>
+                <default>false</default>
+                <label>Scintillation Reagents</label>
+            </value>
+            <value>
+                <fullName>SPA</fullName>
+                <default>false</default>
+                <label>SPA</label>
+            </value>
+            <value>
+                <fullName>Sprinter XL IFA</fullName>
+                <default>false</default>
+                <label>Sprinter XL IFA</label>
+            </value>
+            <value>
+                <fullName>Sprinter XL IFA/ELISA</fullName>
+                <default>false</default>
+                <label>Sprinter XL IFA/ELISA</label>
+            </value>
+            <value>
+                <fullName>TriNest</fullName>
+                <default>false</default>
+                <label>TriNest</label>
+            </value>
+            <value>
+                <fullName>Twister</fullName>
+                <default>false</default>
+                <label>Twister</label>
+            </value>
+            <value>
+                <fullName>Vanadis</fullName>
+                <default>false</default>
+                <label>Vanadis</label>
+            </value>
+            <value>
+                <fullName>VesselVue</fullName>
+                <default>false</default>
+                <label>VesselVue</label>
+            </value>
+            <value>
+                <fullName>VICTOR</fullName>
+                <default>false</default>
+                <label>VICTOR</label>
+            </value>
+            <value>
+                <fullName>VICTOR EnLite</fullName>
+                <default>false</default>
+                <label>VICTOR EnLite</label>
+            </value>
+            <value>
+                <fullName>Washer-Diskremove</fullName>
+                <default>false</default>
+                <label>Washer-Diskremove</label>
+            </value>
+            <value>
+                <fullName>Zephyr</fullName>
+                <default>false</default>
+                <label>Zephyr</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>Consumables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>GPCR Membranes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <controllingFieldValue>HCA</controllingFieldValue>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>Microplates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <controllingFieldValue>CLR</controllingFieldValue>
+            <controllingFieldValue>CSB</controllingFieldValue>
+            <controllingFieldValue>VIR</controllingFieldValue>
+            <controllingFieldValue>FAP</controllingFieldValue>
+            <controllingFieldValue>HCA</controllingFieldValue>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <controllingFieldValue>MDX</controllingFieldValue>
+            <controllingFieldValue>MOL</controllingFieldValue>
+            <controllingFieldValue>NXM</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>Radiochemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>Scintillation Reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS</controllingFieldValue>
+            <valueName>SPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SDX</controllingFieldValue>
+            <valueName>Covid-19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR</controllingFieldValue>
+            <valueName>IVISbrite Bioluminescent Bacterial Strains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR</controllingFieldValue>
+            <valueName>IVISbrite Bioluminescent Substrates and Lentiviral Particles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR</controllingFieldValue>
+            <valueName>IVISbrite Bioluminescent Tumor Cell Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSB</controllingFieldValue>
+            <valueName>GPCRs (TagLite)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSB</controllingFieldValue>
+            <valueName>HTRF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSB</controllingFieldValue>
+            <valueName>Phosphorylation cellular assays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIR</controllingFieldValue>
+            <valueName>ELISA Alliance HIV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIA</controllingFieldValue>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>AutoDELFIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIA</controllingFieldValue>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>MSMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIA</controllingFieldValue>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>Plate Dispenser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIA</controllingFieldValue>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>Plate Shaker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIA</controllingFieldValue>
+            <valueName>Platewasher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIA</controllingFieldValue>
+            <controllingFieldValue>MDX</controllingFieldValue>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>TriNest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIA</controllingFieldValue>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>VICTOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>EUROBlot Master</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>EUROBLot One</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>EUROIMMUN Analyzer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>EUROIMMUN Microarray Scanner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>EUROLab Workstation ELISA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>EUROLab Workstation IFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>EuroPattern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>EUROStar Microscope</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>Manual EUROIMMUN Kit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>Mergite! 10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>Sprinter XL IFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EIM</controllingFieldValue>
+            <valueName>Sprinter XL IFA/ELISA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAP</controllingFieldValue>
+            <valueName>IVISense Fluorescent Reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAP</controllingFieldValue>
+            <valueName>VesselVue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HCA</controllingFieldValue>
+            <valueName>GrowDex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HCA</controllingFieldValue>
+            <valueName>PhenoVue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARS</controllingFieldValue>
+            <valueName>Plate::handler:</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>EP3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>Fontus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>JAG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>Janus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>MiniTRAK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>MPI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS</controllingFieldValue>
+            <valueName>MPII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Sciclone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Twister</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Zephyr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>AlphaLisa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>Alpha SureFire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>Delfia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>GPCR cell lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>LANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS</controllingFieldValue>
+            <valueName>Luminescence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MDX</controllingFieldValue>
+            <valueName>Agilent BioAnalyser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MDX</controllingFieldValue>
+            <valueName>LabChip MultiDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MDX</controllingFieldValue>
+            <valueName>Luminex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MDX</controllingFieldValue>
+            <valueName>ScanRi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip DropletQuant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip DropSense</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip GX (BlueBox)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip GXII (BlueBox)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip GXII Touch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip GX Touch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOL</controllingFieldValue>
+            <valueName>Fluorescent &amp; Hapten Nucleotides</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSD</controllingFieldValue>
+            <valueName>QSight 220</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAP</controllingFieldValue>
+            <valueName>Chemagic 360</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAP</controllingFieldValue>
+            <valueName>Chemagic MSMI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAP</controllingFieldValue>
+            <valueName>Chemagic Prepito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAP</controllingFieldValue>
+            <valueName>Chemagic Prime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAP</controllingFieldValue>
+            <valueName>Rod Head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>DBS Puncher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>DELFIA Trio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>Eonis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>Eonis Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>GSP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>MultiPuncher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>Panthera Puncher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>QSight 210 MD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>QSight 225 MD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>RESOLVE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>Sciex 4500 MD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>VICTOR EnLite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEO</controllingFieldValue>
+            <valueName>Washer-Diskremove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NEX</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NXM</controllingFieldValue>
+            <valueName>Celigo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NXM</controllingFieldValue>
+            <valueName>Cellaca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NXM</controllingFieldValue>
+            <valueName>Cellaca PLX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NXM</controllingFieldValue>
+            <valueName>Cellometer Auto2000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NXM</controllingFieldValue>
+            <valueName>Cellometer AutoT4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NXM</controllingFieldValue>
+            <valueName>Cellometer K2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other/General</controllingFieldValue>
+            <valueName>JOE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>DELFIA Xpress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>Platewash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRE</controllingFieldValue>
+            <valueName>Vanadis</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

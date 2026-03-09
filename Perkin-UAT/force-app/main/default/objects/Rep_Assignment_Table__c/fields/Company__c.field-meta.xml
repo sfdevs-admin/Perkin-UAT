@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company__c</fullName>
+    <label>Company</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Univ</fullName>
+                <default>false</default>
+                <label>Univ</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>College</fullName>
+                <default>false</default>
+                <label>College</label>
+            </value>
+            <value>
+                <fullName>Institut</fullName>
+                <default>false</default>
+                <label>Institut</label>
+            </value>
+            <value>
+                <fullName>Educat</fullName>
+                <default>false</default>
+                <label>Educat</label>
+            </value>
+            <value>
+                <fullName>Acade Teva Syngenta</fullName>
+                <default>false</default>
+                <label>Acade Teva Syngenta</label>
+            </value>
+            <value>
+                <fullName>AstraZeneca</fullName>
+                <default>false</default>
+                <label>AstraZeneca</label>
+            </value>
+            <value>
+                <fullName>Medimmune</fullName>
+                <default>false</default>
+                <label>Medimmune</label>
+            </value>
+            <value>
+                <fullName>Quintiles</fullName>
+                <default>false</default>
+                <label>Quintiles</label>
+            </value>
+            <value>
+                <fullName>SEPA</fullName>
+                <default>false</default>
+                <label>SEPA</label>
+            </value>
+            <value>
+                <fullName>Scottish Environmental Protection Agency</fullName>
+                <default>false</default>
+                <label>Scottish Environmental Protection Agency</label>
+            </value>
+            <value>
+                <fullName>Astellas Sanofi</fullName>
+                <default>false</default>
+                <label>Astellas Sanofi</label>
+            </value>
+            <value>
+                <fullName>Servier</fullName>
+                <default>false</default>
+                <label>Servier</label>
+            </value>
+            <value>
+                <fullName>Pierre Fabre</fullName>
+                <default>false</default>
+                <label>Pierre Fabre</label>
+            </value>
+            <value>
+                <fullName>Michelin Sanofi</fullName>
+                <default>false</default>
+                <label>Michelin Sanofi</label>
+            </value>
+            <value>
+                <fullName>NOVARTIS</fullName>
+                <default>false</default>
+                <label>NOVARTIS</label>
+            </value>
+            <value>
+                <fullName>SANDOZ</fullName>
+                <default>false</default>
+                <label>SANDOZ</label>
+            </value>
+            <value>
+                <fullName>BOEHRINGER</fullName>
+                <default>false</default>
+                <label>BOEHRINGER</label>
+            </value>
+            <value>
+                <fullName>INGELHEIM</fullName>
+                <default>false</default>
+                <label>INGELHEIM</label>
+            </value>
+            <value>
+                <fullName>BOEHRINGER-INGELHEIM</fullName>
+                <default>false</default>
+                <label>BOEHRINGER-INGELHEIM</label>
+            </value>
+            <value>
+                <fullName>ABBVIE</fullName>
+                <default>false</default>
+                <label>ABBVIE</label>
+            </value>
+            <value>
+                <fullName>Baxalta</fullName>
+                <default>false</default>
+                <label>Baxalta</label>
+            </value>
+            <value>
+                <fullName>Shire</fullName>
+                <default>false</default>
+                <label>Shire</label>
+            </value>
+            <value>
+                <fullName>BASF</fullName>
+                <default>false</default>
+                <label>BASF</label>
+            </value>
+            <value>
+                <fullName>Evonik</fullName>
+                <default>false</default>
+                <label>Evonik</label>
+            </value>
+            <value>
+                <fullName>Wacker</fullName>
+                <default>false</default>
+                <label>Wacker</label>
+            </value>
+            <value>
+                <fullName>Covestro</fullName>
+                <default>false</default>
+                <label>Covestro</label>
+            </value>
+            <value>
+                <fullName>Fresenius</fullName>
+                <default>false</default>
+                <label>Fresenius</label>
+            </value>
+            <value>
+                <fullName>Grünenthal GmbH</fullName>
+                <default>false</default>
+                <label>Grünenthal GmbH</label>
+            </value>
+            <value>
+                <fullName>Vifor</fullName>
+                <default>false</default>
+                <label>Vifor</label>
+            </value>
+            <value>
+                <fullName>Takeda PFIZER</fullName>
+                <default>false</default>
+                <label>Takeda PFIZER</label>
+            </value>
+            <value>
+                <fullName>Unilever</fullName>
+                <default>false</default>
+                <label>Unilever</label>
+            </value>
+            <value>
+                <fullName>Medtronic</fullName>
+                <default>false</default>
+                <label>Medtronic</label>
+            </value>
+            <value>
+                <fullName>Bristol Myers Squibb</fullName>
+                <default>false</default>
+                <label>Bristol Myers Squibb</label>
+            </value>
+            <value>
+                <fullName>BMS</fullName>
+                <default>false</default>
+                <label>BMS</label>
+            </value>
+            <value>
+                <fullName>Kerry</fullName>
+                <default>false</default>
+                <label>Kerry</label>
+            </value>
+            <value>
+                <fullName>Alkermes</fullName>
+                <default>false</default>
+                <label>Alkermes</label>
+            </value>
+            <value>
+                <fullName>Perrigo</fullName>
+                <default>false</default>
+                <label>Perrigo</label>
+            </value>
+            <value>
+                <fullName>Mallinckrodt</fullName>
+                <default>false</default>
+                <label>Mallinckrodt</label>
+            </value>
+            <value>
+                <fullName>Mundipharm</fullName>
+                <default>false</default>
+                <label>Mundipharm</label>
+            </value>
+            <value>
+                <fullName>Endo</fullName>
+                <default>false</default>
+                <label>Endo</label>
+            </value>
+            <value>
+                <fullName>Jazz</fullName>
+                <default>false</default>
+                <label>Jazz</label>
+            </value>
+            <value>
+                <fullName>Tate &amp; Lyle</fullName>
+                <default>false</default>
+                <label>Tate &amp; Lyle</label>
+            </value>
+            <value>
+                <fullName>BP</fullName>
+                <default>false</default>
+                <label>BP</label>
+            </value>
+            <value>
+                <fullName>British Petroleum</fullName>
+                <default>false</default>
+                <label>British Petroleum</label>
+            </value>
+            <value>
+                <fullName>British American Tobacco</fullName>
+                <default>false</default>
+                <label>British American Tobacco</label>
+            </value>
+            <value>
+                <fullName>BG</fullName>
+                <default>false</default>
+                <label>BG</label>
+            </value>
+            <value>
+                <fullName>British Gas</fullName>
+                <default>false</default>
+                <label>British Gas</label>
+            </value>
+            <value>
+                <fullName>BAT</fullName>
+                <default>false</default>
+                <label>BAT</label>
+            </value>
+            <value>
+                <fullName>ICON</fullName>
+                <default>false</default>
+                <label>ICON</label>
+            </value>
+            <value>
+                <fullName>Infineum</fullName>
+                <default>false</default>
+                <label>Infineum</label>
+            </value>
+            <value>
+                <fullName>Smith &amp; Nephew</fullName>
+                <default>false</default>
+                <label>Smith &amp; Nephew</label>
+            </value>
+            <value>
+                <fullName>FujiFilm</fullName>
+                <default>false</default>
+                <label>FujiFilm</label>
+            </value>
+            <value>
+                <fullName>Almac</fullName>
+                <default>false</default>
+                <label>Almac</label>
+            </value>
+            <value>
+                <fullName>Charles River Labs Nestle</fullName>
+                <default>false</default>
+                <label>Charles River Labs Nestle</label>
+            </value>
+            <value>
+                <fullName>Merck (MSD)</fullName>
+                <default>false</default>
+                <label>Merck (MSD)</label>
+            </value>
+            <value>
+                <fullName>Givaudan</fullName>
+                <default>false</default>
+                <label>Givaudan</label>
+            </value>
+            <value>
+                <fullName>Menarini</fullName>
+                <default>false</default>
+                <label>Menarini</label>
+            </value>
+            <value>
+                <fullName>Chiesi</fullName>
+                <default>false</default>
+                <label>Chiesi</label>
+            </value>
+            <value>
+                <fullName>Angelini</fullName>
+                <default>false</default>
+                <label>Angelini</label>
+            </value>
+            <value>
+                <fullName>Grifols</fullName>
+                <default>false</default>
+                <label>Grifols</label>
+            </value>
+            <value>
+                <fullName>KRKA</fullName>
+                <default>false</default>
+                <label>KRKA</label>
+            </value>
+            <value>
+                <fullName>Almirall</fullName>
+                <default>false</default>
+                <label>Almirall</label>
+            </value>
+            <value>
+                <fullName>Sorin</fullName>
+                <default>false</default>
+                <label>Sorin</label>
+            </value>
+            <value>
+                <fullName>Esteve</fullName>
+                <default>false</default>
+                <label>Esteve</label>
+            </value>
+            <value>
+                <fullName>Ferrer</fullName>
+                <default>false</default>
+                <label>Ferrer</label>
+            </value>
+            <value>
+                <fullName>Rottapharm</fullName>
+                <default>false</default>
+                <label>Rottapharm</label>
+            </value>
+            <value>
+                <fullName>Pharmamar</fullName>
+                <default>false</default>
+                <label>Pharmamar</label>
+            </value>
+            <value>
+                <fullName>Eli Lilly</fullName>
+                <default>false</default>
+                <label>Eli Lilly</label>
+            </value>
+            <value>
+                <fullName>Galderma</fullName>
+                <default>false</default>
+                <label>Galderma</label>
+            </value>
+            <value>
+                <fullName>Barilla</fullName>
+                <default>false</default>
+                <label>Barilla</label>
+            </value>
+            <value>
+                <fullName>Lonza</fullName>
+                <default>false</default>
+                <label>Lonza</label>
+            </value>
+            <value>
+                <fullName>Clariant</fullName>
+                <default>false</default>
+                <label>Clariant</label>
+            </value>
+            <value>
+                <fullName>Actelion</fullName>
+                <default>false</default>
+                <label>Actelion</label>
+            </value>
+            <value>
+                <fullName>Sika</fullName>
+                <default>false</default>
+                <label>Sika</label>
+            </value>
+            <value>
+                <fullName>Galencia L&#39;Oreal</fullName>
+                <default>false</default>
+                <label>Galencia L&#39;Oreal</label>
+            </value>
+            <value>
+                <fullName>BioMerieux</fullName>
+                <default>false</default>
+                <label>BioMerieux</label>
+            </value>
+            <value>
+                <fullName>Danone</fullName>
+                <default>false</default>
+                <label>Danone</label>
+            </value>
+            <value>
+                <fullName>Firmenich</fullName>
+                <default>false</default>
+                <label>Firmenich</label>
+            </value>
+            <value>
+                <fullName>Solvay</fullName>
+                <default>false</default>
+                <label>Solvay</label>
+            </value>
+            <value>
+                <fullName>Limagrain</fullName>
+                <default>false</default>
+                <label>Limagrain</label>
+            </value>
+            <value>
+                <fullName>Glenmark</fullName>
+                <default>false</default>
+                <label>Glenmark</label>
+            </value>
+            <value>
+                <fullName>Total</fullName>
+                <default>false</default>
+                <label>Total</label>
+            </value>
+            <value>
+                <fullName>MANE</fullName>
+                <default>false</default>
+                <label>MANE</label>
+            </value>
+            <value>
+                <fullName>AirLiquide</fullName>
+                <default>false</default>
+                <label>AirLiquide</label>
+            </value>
+            <value>
+                <fullName>Bacardi</fullName>
+                <default>false</default>
+                <label>Bacardi</label>
+            </value>
+            <value>
+                <fullName>EuroFins J&amp;J</fullName>
+                <default>false</default>
+                <label>EuroFins J&amp;J</label>
+            </value>
+            <value>
+                <fullName>Merck KgaA</fullName>
+                <default>false</default>
+                <label>Merck KgaA</label>
+            </value>
+            <value>
+                <fullName>Novo Nordisk</fullName>
+                <default>false</default>
+                <label>Novo Nordisk</label>
+            </value>
+            <value>
+                <fullName>J&amp;J</fullName>
+                <default>false</default>
+                <label>J&amp;J</label>
+            </value>
+            <value>
+                <fullName>Johnson &amp; Johnson</fullName>
+                <default>false</default>
+                <label>Johnson &amp; Johnson</label>
+            </value>
+            <value>
+                <fullName>Janssen</fullName>
+                <default>false</default>
+                <label>Janssen</label>
+            </value>
+            <value>
+                <fullName>DSM</fullName>
+                <default>false</default>
+                <label>DSM</label>
+            </value>
+            <value>
+                <fullName>Lundbeck</fullName>
+                <default>false</default>
+                <label>Lundbeck</label>
+            </value>
+            <value>
+                <fullName>Genmab</fullName>
+                <default>false</default>
+                <label>Genmab</label>
+            </value>
+            <value>
+                <fullName>Coloplast</fullName>
+                <default>false</default>
+                <label>Coloplast</label>
+            </value>
+            <value>
+                <fullName>Leo Pharma</fullName>
+                <default>false</default>
+                <label>Leo Pharma</label>
+            </value>
+            <value>
+                <fullName>Ferring</fullName>
+                <default>false</default>
+                <label>Ferring</label>
+            </value>
+            <value>
+                <fullName>Johnson &amp; Johnson Glaxo</fullName>
+                <default>false</default>
+                <label>Johnson &amp; Johnson Glaxo</label>
+            </value>
+            <value>
+                <fullName>GSK Bayer</fullName>
+                <default>false</default>
+                <label>GSK Bayer</label>
+            </value>
+            <value>
+                <fullName>Shire Sanofi ROCHE</fullName>
+                <default>false</default>
+                <label>Shire Sanofi ROCHE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

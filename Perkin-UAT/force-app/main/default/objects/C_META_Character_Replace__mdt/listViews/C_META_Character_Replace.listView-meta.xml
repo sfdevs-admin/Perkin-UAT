@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_META_Character_Replace</fullName>
+    <columns>FindWhat__c</columns>
+    <columns>ReplaceWith__c</columns>
+    <columns>inactive__c</columns>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <filterScope>Everything</filterScope>
+    <label>C.META: Character Replace</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAQ_AES_Service_Contracts_N_A_PKI_Queue</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: AES Service Contracts N.A.</label>
+    <queue>ARQ_001347</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

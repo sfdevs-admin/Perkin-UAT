@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIOP_Data_Region_Ask_Jan</fullName>
+    <columns>NAME</columns>
+    <columns>SIOP_Model_Master__c</columns>
+    <columns>Regional_Forecast_Owner__c</columns>
+    <columns>Region__c</columns>
+    <columns>Type__c</columns>
+    <columns>Units__c</columns>
+    <columns>Date__c</columns>
+    <columns>Fiscal_Qtr__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxMonth__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Region Ask-Orders</value>
+    </filters>
+    <label>SIOP Data-Region Ask-Orders (Jan)</label>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_001616_Interaction</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: LATAM/BR - South: AG</label>
+    <queue>ARQ_001305</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_This_Case</fullName>
+    <availability>online</availability>
+    <description>Used by the Dx Software Services support process. Launches a VF page to ask User to confirm Type of Case and then closes the Case</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Close This Case</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/39.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/support/console/39.0/integration.js&quot;)}
+
+if (sforce.console.isInConsole()) {
+var inConsole = 1;
+} else {
+var inConsole = 0;
+}
+
+if(&quot;{!JSENCODE(Case.Case_Description__c)}&quot; == &quot;&quot; || &quot;{!Case.DX_Functional_Area__c}&quot; == &quot;&quot; || &quot;{!JSENCODE(Case.DX_Resolution__c)}&quot; ==&quot;&quot;){
+alert(&quot;The Case Description, Functional Area, and Resolution fields must all be filled out and saved before the Case can be closed.&quot;);
+}
+else if(&quot;{!Case.Status}&quot; == &quot;Closed&quot;){
+alert(&quot;This case is already closed.&quot;);
+}
+else{
+window.top.location.href = &#39;/apex/PromptUserForConfirmation?id={!Case.Id}&amp;inC=&#39;+ inConsole;
+}</url>
+</WebLink>

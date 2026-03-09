@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Categories__c</fullName>
+    <label>Service Categories</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset Utilization (Asset Genius)</fullName>
+                <default>false</default>
+                <label>Asset Utilization (Asset Genius)</label>
+            </value>
+            <value>
+                <fullName>Expediting (escorting)</fullName>
+                <default>false</default>
+                <label>Expediting (escorting)</label>
+            </value>
+            <value>
+                <fullName>On hand CSE</fullName>
+                <default>false</default>
+                <label>On hand CSE</label>
+            </value>
+            <value>
+                <fullName>On site CSE</fullName>
+                <default>false</default>
+                <label>On site CSE</label>
+            </value>
+            <value>
+                <fullName>On hand administrator</fullName>
+                <default>false</default>
+                <label>On hand administrator</label>
+            </value>
+            <value>
+                <fullName>On site administrator</fullName>
+                <default>false</default>
+                <label>On site administrator</label>
+            </value>
+            <value>
+                <fullName>Qualification of instrument</fullName>
+                <default>false</default>
+                <label>Qualification of instrument</label>
+            </value>
+            <value>
+                <fullName>Computer Systems Validation</fullName>
+                <default>false</default>
+                <label>Computer Systems Validation</label>
+            </value>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <label>Consulting</label>
+            </value>
+            <value>
+                <fullName>Instrument Qualification</fullName>
+                <default>false</default>
+                <label>Instrument Qualification</label>
+            </value>
+            <value>
+                <fullName>Regulatory Affairs</fullName>
+                <default>false</default>
+                <label>Regulatory Affairs</label>
+            </value>
+            <value>
+                <fullName>Lab Computing</fullName>
+                <default>false</default>
+                <label>Lab Computing</label>
+            </value>
+            <value>
+                <fullName>Scientific Application Services</fullName>
+                <default>false</default>
+                <label>Scientific Application Services</label>
+            </value>
+            <value>
+                <fullName>Scientific Data Services</fullName>
+                <default>false</default>
+                <label>Scientific Data Services</label>
+            </value>
+            <value>
+                <fullName>Instrument Check™</fullName>
+                <default>false</default>
+                <label>Instrument Check™</label>
+            </value>
+            <value>
+                <fullName>Instrument Concierge™</fullName>
+                <default>false</default>
+                <label>Instrument Concierge™</label>
+            </value>
+            <value>
+                <fullName>Lab Support</fullName>
+                <default>false</default>
+                <label>Lab Support</label>
+            </value>
+            <value>
+                <fullName>Scientific Support</fullName>
+                <default>false</default>
+                <label>Scientific Support</label>
+            </value>
+            <value>
+                <fullName>Laboratory Efficiency Consulting</fullName>
+                <default>false</default>
+                <label>Laboratory Efficiency Consulting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

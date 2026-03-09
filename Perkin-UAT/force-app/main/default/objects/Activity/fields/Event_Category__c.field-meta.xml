@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Category__c</fullName>
+    <label>Event Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Presales</fullName>
+                <default>false</default>
+                <label>Presales</label>
+            </value>
+            <value>
+                <fullName>Postsales</fullName>
+                <default>false</default>
+                <label>Postsales</label>
+            </value>
+            <value>
+                <fullName>Admin &amp; General</fullName>
+                <default>false</default>
+                <label>Admin &amp; General</label>
+            </value>
+            <value>
+                <fullName>#1 ViaCord Believer</fullName>
+                <default>false</default>
+                <label>#1 ViaCord Believer</label>
+            </value>
+            <value>
+                <fullName>#2 Promotes all CB Banks</fullName>
+                <default>false</default>
+                <label>#2 Promotes all CB Banks</label>
+            </value>
+            <value>
+                <fullName>#3 Pro Private/Uses Competitor</fullName>
+                <default>false</default>
+                <label>#3 Pro Private/Uses Competitor</label>
+            </value>
+            <value>
+                <fullName>#4 Dabbler/Doesn&#39;t Educate Patient</fullName>
+                <default>false</default>
+                <label>#4 Dabbler/Doesn&#39;t Educate Patient</label>
+            </value>
+            <value>
+                <fullName>#5 Pro-Public Banking</fullName>
+                <default>false</default>
+                <label>#5 Pro-Public Banking</label>
+            </value>
+            <value>
+                <fullName>#6 Uneducated/Non-Believer</fullName>
+                <default>false</default>
+                <label>#6 Uneducated/Non-Believer</label>
+            </value>
+            <value>
+                <fullName>FSA</fullName>
+                <default>false</default>
+                <label>FSA</label>
+            </value>
+            <value>
+                <fullName>ViaCord</fullName>
+                <default>false</default>
+                <label>ViaCord</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

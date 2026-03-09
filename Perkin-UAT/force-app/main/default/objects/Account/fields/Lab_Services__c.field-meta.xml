@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_Services__c</fullName>
+    <description>(select all that apply)</description>
+    <inlineHelpText>(select all that apply)</inlineHelpText>
+    <label>Lab Services Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prenatal</fullName>
+                <default>false</default>
+                <label>Prenatal</label>
+            </value>
+            <value>
+                <fullName>Postnatal</fullName>
+                <default>false</default>
+                <label>Postnatal</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <label>Oncology</label>
+            </value>
+            <value>
+                <fullName>Hospital/Hospital Lab</fullName>
+                <default>false</default>
+                <label>Hospital/Hospital Lab</label>
+            </value>
+            <value>
+                <fullName>Children&#39;s Hospital</fullName>
+                <default>false</default>
+                <label>Children&#39;s Hospital</label>
+            </value>
+            <value>
+                <fullName>Commercial Lab</fullName>
+                <default>false</default>
+                <label>Commercial Lab</label>
+            </value>
+            <value>
+                <fullName>Academic Institution</fullName>
+                <default>false</default>
+                <label>Academic Institution</label>
+            </value>
+            <value>
+                <fullName>Cancer Center</fullName>
+                <default>false</default>
+                <label>Cancer Center</label>
+            </value>
+            <value>
+                <fullName>Tech only</fullName>
+                <default>false</default>
+                <label>Tech only</label>
+            </value>
+            <value>
+                <fullName>Physician Practice - OB</fullName>
+                <default>false</default>
+                <label>Physician Practice - OB</label>
+            </value>
+            <value>
+                <fullName>Physician Practice - MFM</fullName>
+                <default>false</default>
+                <label>Physician Practice - MFM</label>
+            </value>
+            <value>
+                <fullName>SonoCenter</fullName>
+                <default>false</default>
+                <label>SonoCenter</label>
+            </value>
+            <value>
+                <fullName>Referring linked to SonoCenter</fullName>
+                <default>false</default>
+                <label>Referring linked to SonoCenter</label>
+            </value>
+            <value>
+                <fullName>Single location - no associated account</fullName>
+                <default>false</default>
+                <label>Single location - no associated account</label>
+            </value>
+            <value>
+                <fullName>Sequential Account</fullName>
+                <default>false</default>
+                <label>Sequential Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approvers_QUICK_FILTER</fullName>
+    <columns>NAME</columns>
+    <columns>Sales_Rep__c</columns>
+    <columns>Sales_Rep_DOA_Level2__c</columns>
+    <columns>Sales_Rep_DOA_Level3__c</columns>
+    <columns>Sales_Rep_DOA_Level4__c</columns>
+    <columns>Sales_Rep_DOA_Level5__c</columns>
+    <columns>Sales_Rep_DOA_Level6__c</columns>
+    <columns>Sales_Rep_DOA_Level7__c</columns>
+    <columns>Sales_Rep_DOA_Level8__c</columns>
+    <columns>Sales_Rep_DOA_Level9__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sales_Rep__c</field>
+        <operation>contains</operation>
+        <value>joshi</value>
+    </filters>
+    <label>Approvers: (*QUICK FILTER*)</label>
+</ListView>

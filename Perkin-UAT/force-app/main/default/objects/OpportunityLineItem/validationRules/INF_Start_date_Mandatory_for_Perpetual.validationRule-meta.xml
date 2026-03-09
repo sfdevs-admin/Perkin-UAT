@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Start_date_Mandatory_for_Perpetual</fullName>
+    <active>false</active>
+    <description>Start date is mandatory for perpetual licenses</description>
+    <errorConditionFormula>AND(
+ISBLANK(Start_Date_INF__c),
+CONTAINS(PricebookEntry.Product2.Name,&#39;Perpetual&#39;),
+Product2.Business_Unit__c == &#39;INF&#39; 
+)</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_PRODUCT_003: Enter Start Date for perpetual products</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Hot_Dispensation_OOP__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Gets checked if CONVERSION OOP record</description>
+    <label>Is Hot Dispensation OOP</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

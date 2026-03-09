@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeactivationDate__c</fullName>
+    <description>This is a Deactivation date set through the S.FLOW 6100. It can be future dated too for automation</description>
+    <inlineHelpText>This is a Deactivation date set through the S.FLOW 6100. It can be future dated too for automation</inlineHelpText>
+    <label>Deactivation Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

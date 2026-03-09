@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCheckCurrency__c</fullName>
+    <description>This will confirm if the currency for te entry is the same as the External Id</description>
+    <formula>TEXT( CurrencyIsoCode ) =  RIGHT( Pricebook_entry_ID__c ,3)</formula>
+    <inlineHelpText>This will confirm if the currency for te entry is the same as the External Id</inlineHelpText>
+    <label>fxCheckCurrency</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Number__c</fullName>
+    <description>An ID for opportunities, would help individuals to communicate by referring to the ID when talking to each other.</description>
+    <displayFormat>{0}</displayFormat>
+    <externalId>true</externalId>
+    <label>Opportunity ID</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>

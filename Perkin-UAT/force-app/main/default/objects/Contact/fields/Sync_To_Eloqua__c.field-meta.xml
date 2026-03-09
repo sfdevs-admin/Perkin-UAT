@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_To_Eloqua__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>to use for Eloqua sync   after we remove Account &quot;Merged Flag&quot; consideration in Eloqua  syncing to Contacts</description>
+    <label>Sync To Eloqua</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

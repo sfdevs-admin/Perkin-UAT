@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Cases_Closed_Software_Services_Turku</fullName>
+    <columns>Action__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>DX_EMEA_Reaction_Time__c</columns>
+    <columns>Dx_EMEA_Resolution_Time__c</columns>
+    <columns>Strategic_Key_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Dx_Software_Services</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>External_Email_Inbox__c</field>
+        <operation>equals</operation>
+        <value>specimengatesupportfi@revvity.com,specimen.gate.support.fi@perkinelmer.com,specimengatesupportfi@perkinelmer.com</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>Dx Software Services - Akron,TRASH CASES</value>
+    </filters>
+    <filters>
+        <field>CASES.PRIORITY</field>
+        <operation>equals</operation>
+        <value>Urgent Case,Moderate Case,Minor Case</value>
+    </filters>
+    <label>6 Software Services Turku CLOSED Cases</label>
+    <sharedTo>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

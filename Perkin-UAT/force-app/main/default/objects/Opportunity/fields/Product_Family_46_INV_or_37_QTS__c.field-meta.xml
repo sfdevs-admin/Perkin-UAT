@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family_46_INV_or_37_QTS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>True when any of the Opportunity Product Family belongs to  46-INV or 37-QTS ?</description>
+    <inlineHelpText>If Opportunity Product Family belongs to  46-INV or 37-QTS ?</inlineHelpText>
+    <label>Product Family 46-INV or 37-QTS ?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

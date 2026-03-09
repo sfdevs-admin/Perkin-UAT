@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service Contracts Sales Process</fullName>
+    <description>Created by PwC as part of SC-404, SC-493 - Sales Process for the Services Contracts</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 1 - Create</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 2 - Validate</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 3 - Negotiate</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 4 - PO Pending</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

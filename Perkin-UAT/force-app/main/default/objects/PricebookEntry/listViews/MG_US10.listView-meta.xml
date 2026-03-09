@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MG_US10</fullName>
+    <columns>PRODUCT.NAME</columns>
+    <columns>PRODUCT.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT.DEFAULT_PRICE</columns>
+    <columns>PRODUCT.ACTIVE</columns>
+    <columns>Product2.PricebookEntryID__c</columns>
+    <columns>Product2.In_SAP__c</columns>
+    <columns>PB_ENTRY.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Pricebook_Entry_Formula__c</columns>
+    <columns>Pricebook_entry_ID_old__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>MG  US10</label>
+    <language>en_US</language>
+</ListView>

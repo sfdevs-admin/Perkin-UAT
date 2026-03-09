@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_META_E2C_ROUTING_Senders_LSDX</fullName>
+    <columns>MasterLabel</columns>
+    <columns>OwnerQueueLabel__c</columns>
+    <columns>Service_Address_Email__c</columns>
+    <columns>From_Address__c</columns>
+    <columns>Additional_Emails__c</columns>
+    <columns>Reply_to_Sender__c</columns>
+    <columns>Type__c</columns>
+    <columns>Sub_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MasterLabel</field>
+        <operation>contains</operation>
+        <value>LSDX</value>
+    </filters>
+    <label>C.META_E2C_ROUTING: Senders (LSDX)</label>
+    <language>en_US</language>
+</ListView>

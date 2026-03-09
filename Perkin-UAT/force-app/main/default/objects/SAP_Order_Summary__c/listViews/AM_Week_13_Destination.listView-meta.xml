@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Week_13_Destination</fullName>
+    <columns>NAME</columns>
+    <columns>Opp_Owner__c</columns>
+    <columns>Sold_To_Customer_Name__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>Inco_Terms_Description__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Actual_CER_date__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Sold_To_Address_Country__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ship_To_Customer_Name__c</field>
+        <operation>notContain</operation>
+        <value>Perkinelmer,Perkin Elmer,Perkin-Elmer</value>
+    </filters>
+    <filters>
+        <field>Opportunity__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Order_Net_Value__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>50000</value>
+    </filters>
+    <filters>
+        <field>Order_Path__c</field>
+        <operation>notEqual</operation>
+        <value>Order Shipped</value>
+    </filters>
+    <filters>
+        <field>Current_CER_date__c</field>
+        <operation>equals</operation>
+        <value>THIS_QUARTER</value>
+    </filters>
+    <filters>
+        <field>Sold_To_Address_Country__c</field>
+        <operation>equals</operation>
+        <value>AG,AI,AN,AQ,AR,AS,AW,BB,BL,BM,BO,BQ BR,BS,MZ,CA,CL,CO,CR,CU,DM,DO,EC,FK,GD,GS,GT,GY,HN,HT,JM,KN,KY,LC,MF,MS,MX,PA,PE,PM,PR,PY,SR,SV,SX,TC,TT,US,UY,VC,VE,VG,VI</value>
+    </filters>
+    <filters>
+        <field>Inco_Terms_Description__c</field>
+        <operation>contains</operation>
+        <value>DDP</value>
+    </filters>
+    <label>AM Week 13 Destination</label>
+</ListView>

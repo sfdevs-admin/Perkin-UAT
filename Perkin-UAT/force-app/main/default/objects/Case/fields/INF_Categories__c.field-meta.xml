@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Categories__c</fullName>
+    <inlineHelpText>Chose categories before clicking on Close Case Or Send Survey or Get Update button</inlineHelpText>
+    <label>Categories</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Activation</fullName>
+                <default>false</default>
+                <label>Activation</label>
+            </value>
+            <value>
+                <fullName>Activation-Bulk Activation</fullName>
+                <default>false</default>
+                <label>Activation-Bulk Activation</label>
+            </value>
+            <value>
+                <fullName>Activation-Code Request</fullName>
+                <default>false</default>
+                <label>Activation-Code Request</label>
+            </value>
+            <value>
+                <fullName>Activation-Expired</fullName>
+                <default>false</default>
+                <label>Activation-Expired</label>
+            </value>
+            <value>
+                <fullName>Activation-Firewall issues</fullName>
+                <default>false</default>
+                <label>Activation-Firewall issues</label>
+            </value>
+            <value>
+                <fullName>Activation-Flexera Issue</fullName>
+                <default>false</default>
+                <label>Activation-Flexera Issue</label>
+            </value>
+            <value>
+                <fullName>Activation-Host ID mismatch</fullName>
+                <default>false</default>
+                <label>Activation-Host ID mismatch</label>
+            </value>
+            <value>
+                <fullName>Activation - Individual using Site Sub #</fullName>
+                <default>false</default>
+                <label>Activation - Individual using Site Sub #</label>
+            </value>
+            <value>
+                <fullName>Activation-Limit reached</fullName>
+                <default>false</default>
+                <label>Activation-Limit reached</label>
+            </value>
+            <value>
+                <fullName>Activation-Override request</fullName>
+                <default>false</default>
+                <label>Activation-Override request</label>
+            </value>
+            <value>
+                <fullName>Activation - Phone/Email Request</fullName>
+                <default>false</default>
+                <label>Activation - Phone/Email Request</label>
+            </value>
+            <value>
+                <fullName>Activation – Serial number being used by another user</fullName>
+                <default>false</default>
+                <label>Activation – Serial number being used by another user</label>
+            </value>
+            <value>
+                <fullName>Activation – Serial number is associated with a different version</fullName>
+                <default>false</default>
+                <label>Activation – Serial number is associated with a different version</label>
+            </value>
+            <value>
+                <fullName>Activation – Serial number not found in adminium</fullName>
+                <default>false</default>
+                <label>Activation – Serial number not found in adminium</label>
+            </value>
+            <value>
+                <fullName>Add Domain</fullName>
+                <default>false</default>
+                <label>Add Domain</label>
+            </value>
+            <value>
+                <fullName>Authentication-LDAP/AD</fullName>
+                <default>false</default>
+                <label>Authentication-LDAP/AD</label>
+            </value>
+            <value>
+                <fullName>Authentication-Other</fullName>
+                <default>false</default>
+                <label>Authentication-Other</label>
+            </value>
+            <value>
+                <fullName>Authentication-SAML</fullName>
+                <default>false</default>
+                <label>Authentication-SAML</label>
+            </value>
+            <value>
+                <fullName>Authentication-SSO</fullName>
+                <default>false</default>
+                <label>Authentication-SSO</label>
+            </value>
+            <value>
+                <fullName>Bug</fullName>
+                <default>false</default>
+                <label>Bug</label>
+            </value>
+            <value>
+                <fullName>Change Tech Admin</fullName>
+                <default>false</default>
+                <label>Change Tech Admin</label>
+            </value>
+            <value>
+                <fullName>Citrix</fullName>
+                <default>false</default>
+                <label>Citrix</label>
+            </value>
+            <value>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+                <label>Configuration</label>
+            </value>
+            <value>
+                <fullName>Database Issue</fullName>
+                <default>false</default>
+                <label>Database Issue</label>
+            </value>
+            <value>
+                <fullName>Device ID Issue</fullName>
+                <default>false</default>
+                <label>Device ID Issue</label>
+            </value>
+            <value>
+                <fullName>Documented Info</fullName>
+                <default>false</default>
+                <label>Documented Info</label>
+            </value>
+            <value>
+                <fullName>Download Problem</fullName>
+                <default>false</default>
+                <label>Download Problem</label>
+            </value>
+            <value>
+                <fullName>End-Of-Life</fullName>
+                <default>false</default>
+                <label>End-Of-Life</label>
+            </value>
+            <value>
+                <fullName>FAQ</fullName>
+                <default>false</default>
+                <label>FAQ</label>
+            </value>
+            <value>
+                <fullName>Fixed Later Version</fullName>
+                <default>false</default>
+                <label>Fixed Later Version</label>
+            </value>
+            <value>
+                <fullName>Fullfilment</fullName>
+                <default>false</default>
+                <label>Fullfilment</label>
+            </value>
+            <value>
+                <fullName>GDPR</fullName>
+                <default>false</default>
+                <label>GDPR</label>
+            </value>
+            <value>
+                <fullName>How Do I</fullName>
+                <default>false</default>
+                <label>How Do I</label>
+            </value>
+            <value>
+                <fullName>Incident</fullName>
+                <default>false</default>
+                <label>Incident</label>
+            </value>
+            <value>
+                <fullName>Infrastructure</fullName>
+                <default>false</default>
+                <label>Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Internal Request</fullName>
+                <default>false</default>
+                <label>Internal Request</label>
+            </value>
+            <value>
+                <fullName>Invoice request</fullName>
+                <default>false</default>
+                <label>Invoice request</label>
+            </value>
+            <value>
+                <fullName>Login Problem</fullName>
+                <default>false</default>
+                <label>Login Problem</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Network Issue</fullName>
+                <default>false</default>
+                <label>Network Issue</label>
+            </value>
+            <value>
+                <fullName>Non-Support</fullName>
+                <default>false</default>
+                <label>Non-Support</label>
+            </value>
+            <value>
+                <fullName>Order Cancellation</fullName>
+                <default>false</default>
+                <label>Order Cancellation</label>
+            </value>
+            <value>
+                <fullName>Order details Request</fullName>
+                <default>false</default>
+                <label>Order details Request</label>
+            </value>
+            <value>
+                <fullName>Performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>Removal request</fullName>
+                <default>false</default>
+                <label>Removal request</label>
+            </value>
+            <value>
+                <fullName>Sales Lead</fullName>
+                <default>false</default>
+                <label>Sales Lead</label>
+            </value>
+            <value>
+                <fullName>SDK</fullName>
+                <default>false</default>
+                <label>SDK</label>
+            </value>
+            <value>
+                <fullName>Service request</fullName>
+                <default>false</default>
+                <label>Service request</label>
+            </value>
+            <value>
+                <fullName>System Outage</fullName>
+                <default>false</default>
+                <label>System Outage</label>
+            </value>
+            <value>
+                <fullName>Trade Compliance</fullName>
+                <default>false</default>
+                <label>Trade Compliance</label>
+            </value>
+            <value>
+                <fullName>Trial Extension</fullName>
+                <default>false</default>
+                <label>Trial Extension</label>
+            </value>
+            <value>
+                <fullName>UltraVIEW Service Call</fullName>
+                <default>false</default>
+                <label>UltraVIEW Service Call</label>
+            </value>
+            <value>
+                <fullName>User Management</fullName>
+                <default>false</default>
+                <label>User Management</label>
+            </value>
+            <value>
+                <fullName>Username/Password</fullName>
+                <default>false</default>
+                <label>Username/Password</label>
+            </value>
+            <value>
+                <fullName>Virtual Machine</fullName>
+                <default>false</default>
+                <label>Virtual Machine</label>
+            </value>
+            <value>
+                <fullName>Website Issues</fullName>
+                <default>false</default>
+                <label>Website Issues</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

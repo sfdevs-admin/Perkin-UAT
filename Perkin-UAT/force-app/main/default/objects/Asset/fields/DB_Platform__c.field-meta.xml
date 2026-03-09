@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DB_Platform__c</fullName>
+    <inlineHelpText>Select the users Database</inlineHelpText>
+    <label>DB Platform</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ACCESS DB</fullName>
+                <default>false</default>
+                <label>ACCESS DB</label>
+            </value>
+            <value>
+                <fullName>NATIVE DB</fullName>
+                <default>false</default>
+                <label>NATIVE DB</label>
+            </value>
+            <value>
+                <fullName>ORACLE 7</fullName>
+                <default>false</default>
+                <label>ORACLE 7</label>
+            </value>
+            <value>
+                <fullName>ORACLE 8</fullName>
+                <default>false</default>
+                <label>ORACLE 8</label>
+            </value>
+            <value>
+                <fullName>SQL SERVER</fullName>
+                <default>false</default>
+                <label>SQL SERVER</label>
+            </value>
+            <value>
+                <fullName>SQL SERVER 2005</fullName>
+                <default>false</default>
+                <label>SQL SERVER 2005</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

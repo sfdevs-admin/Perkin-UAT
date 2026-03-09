@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DEALER_Require_MarketingComments</fullName>
+    <active>true</active>
+    <description>PKI Marketing Comments Is Mandatory if Opportunity comes from PKI marketing</description>
+    <errorConditionFormula>AND(
+CONTAINS(fxRecordTypeName__c, &#39;Dealer&#39;)
+,CONTAINS($Profile.Name,&#39;Dealer&#39;)
+/*, CONTAINS($User.License_type__c,&#39;Partner&#39;) */
+, TEXT(Does_opportunity_come_from_PKI_Marketing__c)=&#39;Yes&#39;
+, ISBLANK(PKI_Marketing_Comments__c )
+)</errorConditionFormula>
+    <errorDisplayField>PKI_Marketing_Comments__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_050: PKI Marketing comments are mandatory</errorMessage>
+</ValidationRule>

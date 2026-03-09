@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CALP_Specialty__c</fullName>
+    <label>CALP Specialty</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NextGen Sequencing</fullName>
+                <default>false</default>
+                <label>NextGen Sequencing</label>
+            </value>
+            <value>
+                <fullName>Antibody Production</fullName>
+                <default>false</default>
+                <label>Antibody Production</label>
+            </value>
+            <value>
+                <fullName>Assay Development</fullName>
+                <default>false</default>
+                <label>Assay Development</label>
+            </value>
+            <value>
+                <fullName>Automation Engineer</fullName>
+                <default>false</default>
+                <label>Automation Engineer</label>
+            </value>
+            <value>
+                <fullName>Bioinformatics</fullName>
+                <default>false</default>
+                <label>Bioinformatics</label>
+            </value>
+            <value>
+                <fullName>Cell Biology</fullName>
+                <default>false</default>
+                <label>Cell Biology</label>
+            </value>
+            <value>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+                <label>Chemistry</label>
+            </value>
+            <value>
+                <fullName>Compound Management</fullName>
+                <default>false</default>
+                <label>Compound Management</label>
+            </value>
+            <value>
+                <fullName>DNA/RNA-Electrophoresis</fullName>
+                <default>false</default>
+                <label>DNA/RNA-Electrophoresis</label>
+            </value>
+            <value>
+                <fullName>DNA/RNA-Gene Expression</fullName>
+                <default>false</default>
+                <label>DNA/RNA-Gene Expression</label>
+            </value>
+            <value>
+                <fullName>DNA/RNA-Genotyping</fullName>
+                <default>false</default>
+                <label>DNA/RNA-Genotyping</label>
+            </value>
+            <value>
+                <fullName>DNA/RNA-Isolation</fullName>
+                <default>false</default>
+                <label>DNA/RNA-Isolation</label>
+            </value>
+            <value>
+                <fullName>DNA/RNA-Microarray</fullName>
+                <default>false</default>
+                <label>DNA/RNA-Microarray</label>
+            </value>
+            <value>
+                <fullName>DNA/RNA-Sequencing / PCR</fullName>
+                <default>false</default>
+                <label>DNA/RNA-Sequencing / PCR</label>
+            </value>
+            <value>
+                <fullName>Extractions/Sample Prep</fullName>
+                <default>false</default>
+                <label>Extractions/Sample Prep</label>
+            </value>
+            <value>
+                <fullName>GPCR</fullName>
+                <default>false</default>
+                <label>GPCR</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Protein-Electrophoresis</fullName>
+                <default>false</default>
+                <label>Protein-Electrophoresis</label>
+            </value>
+            <value>
+                <fullName>Protein-Enzymology/Kinetics</fullName>
+                <default>false</default>
+                <label>Protein-Enzymology/Kinetics</label>
+            </value>
+            <value>
+                <fullName>Protein-Microarray</fullName>
+                <default>false</default>
+                <label>Protein-Microarray</label>
+            </value>
+            <value>
+                <fullName>Protein Expression/Production</fullName>
+                <default>false</default>
+                <label>Protein Expression/Production</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>PDQ Method Development</fullName>
+                <default>false</default>
+                <label>PDQ Method Development</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Informatics_EMEAI_PreQL</fullName>
+    <booleanFilter>1 AND 3 AND (2 OR 4)</booleanFilter>
+    <columns>InteractionDate__c</columns>
+    <columns>NAME</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>fxFirstName__c</columns>
+    <columns>fxLastName__c</columns>
+    <columns>Email__c</columns>
+    <columns>Country__c</columns>
+    <columns>Lead_Source__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>SecondaryQualification__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>ProductName__c</columns>
+    <columns>Content_Title__c</columns>
+    <columns>Comment__c</columns>
+    <columns>RequestedInterests__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>contains</operation>
+        <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>equals</operation>
+        <value>ATT,AVC,AVS,DSK,ENT,IFO,ISS,QAS,SIG</value>
+    </filters>
+    <filters>
+        <field>Qualification_Status__c</field>
+        <operation>equals</operation>
+        <value>Pre-QL</value>
+    </filters>
+    <filters>
+        <field>Content_Title__c</field>
+        <operation>contains</operation>
+        <value>chemdraw,signals</value>
+    </filters>
+    <label>Informatics EMEAI - PreQL - To Review</label>
+    <language>en_US</language>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

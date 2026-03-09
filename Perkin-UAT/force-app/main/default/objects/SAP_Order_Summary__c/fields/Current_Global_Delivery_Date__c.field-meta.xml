@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Global_Delivery_Date__c</fullName>
+    <description>The Global Delivery Date</description>
+    <inlineHelpText>Estimated date when manufacturing will be ready with Customer order. In case of multi manufacturing site order the date is when customer order will be at the DC or crossdoc.</inlineHelpText>
+    <label>Mfg. Commit Date(GD)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_Account_Programs_GAM_Inactive</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>GA_Objectives__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>GA_Global_Account_Manager__c</columns>
+    <columns>GA_FY_Orders_Target__c</columns>
+    <columns>GA_FY_Orders_Achieved__c</columns>
+    <columns>GA_FY_To_Plan__c</columns>
+    <columns>GA_Current_Pipeline__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Global_Account__c.Global_Account</value>
+    </filters>
+    <filters>
+        <field>GA_Global_Account_Manager__c</field>
+        <operation>contains</operation>
+        <value>(Inactive),Macri,Verlinden,Wilchek</value>
+    </filters>
+    <label>Global Accounts GAM Inactive/or Revvity</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

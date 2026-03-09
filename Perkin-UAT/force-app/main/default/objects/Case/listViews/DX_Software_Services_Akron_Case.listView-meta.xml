@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Software_Services_Akron_Case</fullName>
+    <booleanFilter>(1 AND 2 AND 4) OR 3</booleanFilter>
+    <columns>Action__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notEqual</operation>
+        <value>TRASH CASES</value>
+    </filters>
+    <filters>
+        <field>Action__c</field>
+        <operation>equals</operation>
+        <value>Re-Open</value>
+    </filters>
+    <filters>
+        <field>External_Email_Inbox__c</field>
+        <operation>equals</operation>
+        <value>Specimen.Gate.Support@perkinelmer.com,Specimen.Gate.Support@revvity.com</value>
+    </filters>
+    <label>Software Services Akron Unassigned Cases</label>
+    <queue>ARQ_000550</queue>
+    <sharedTo>
+        <group>ARQ_000792</group>
+    </sharedTo>
+</ListView>

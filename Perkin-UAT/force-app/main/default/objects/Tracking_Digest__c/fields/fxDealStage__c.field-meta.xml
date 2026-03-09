@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxDealStage__c</fullName>
+    <description>This is for determine a general grouping of the Opp/Lead using Opp stage first, then lead stage if blank</description>
+    <externalId>false</externalId>
+    <formula>IF( Opp_Stage__c  = null, &quot;Lead: &quot;,&quot;Opp: &quot;) &amp; BLANKVALUE(  Opp_Stage__c ,  Lead_Stage__c )</formula>
+    <inlineHelpText>This is for determine a general grouping of the Opp/Lead using Opp stage first, then lead stage if blank</inlineHelpText>
+    <label>Deal Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

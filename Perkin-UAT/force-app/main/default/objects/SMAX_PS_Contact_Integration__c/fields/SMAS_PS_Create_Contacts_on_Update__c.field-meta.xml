@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAS_PS_Create_Contacts_on_Update__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether or not Contacts should be created into SAP when they are updated, if they haven&#39;t been previously created.</description>
+    <inlineHelpText>Indicates whether or not Contacts should be created into SAP when they are updated, if they haven&#39;t been previously created.</inlineHelpText>
+    <label>Create Contacts on Update</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCCServiceAddress__c</fullName>
+    <formula>NOT(IsBlank(CcAddress)) &amp;&amp; 
+CONTAINS(&quot;autoconfirmation.cl;chromatographytechsup;ecommerceca;irtechsupport;lasservice;rdtechsupport;techtierone;cloud.alerts.service1;cloud.alerts.service4;cloud.alerts.service2;customercaresa;orders.lscanada;cccotacaodas;customercareca;customercarela;chile.servicesupport;india.servicesupport;autoconfirmation.ca;autoconfirmation.in;autoconfirmation.mx;autoconfirmation.ukie;autoconfirmation.us;cc.ukie;usinstrumentorders;lassheltoncredits;las.sales;dxsupportlatam;ustechsupport@euroimmun.us;software.support.france;software.support.uk;dxsupportamericas;dxsupportemea;dxsupportl3;einvoicing;ecommerce.support.cases;gs.technical.support;gs.customersupport;informatics.customer_service;informatics.support;informatics.managedservices;mexicoinstrumentorders;gctechsupport;cloud.alerts.service3;specimen.gate.support;specimengatesupportfi;chemagen.support&quot;,
+
+SUBSTITUTE( CcAddress, &quot;@perkinelmer.com&quot;, &quot;&quot;))</formula>
+    <label>fxCCServiceAddress</label>
+    <type>Checkbox</type>
+</CustomField>

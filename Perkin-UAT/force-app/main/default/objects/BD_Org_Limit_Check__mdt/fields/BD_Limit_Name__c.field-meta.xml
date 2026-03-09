@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Limit_Name__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>The api name of the Limit to check. The list of API Names can be found here: https://developer.salesforce.com/docs/atlas.en-us.256.0.api_rest.meta/api_rest/resources_limits.htm</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The api name of the Limit to check. The list of API Names can be found here: https://developer.salesforce.com/docs/atlas.en-us.256.0.api_rest.meta/api_rest/resources_limits.htm</inlineHelpText>
+    <label>Limit Name</label>
+    <length>255</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

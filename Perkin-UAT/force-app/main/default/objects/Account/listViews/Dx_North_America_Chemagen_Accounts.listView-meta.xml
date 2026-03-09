@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_North_America_Chemagen_Accounts</fullName>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_ZIP</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Dx_Dx_APAC_Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Dx_Dx_APAC_Region__c</field>
+        <operation>equals</operation>
+        <value>Greater China – China,Greater China – Taiwan,Greater China – Hong Kong</value>
+    </filters>
+    <label>Dx APAC Greater China Accounts</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000776</group>
+        <group>ARQ_000783</group>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonDelete__c</fullName>
+    <description>ReasonDelete holds Jira ticket and why the field was deleted</description>
+    <inlineHelpText>Please enter the Jira ticket and why the field was deleted</inlineHelpText>
+    <label>ReasonDelete</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

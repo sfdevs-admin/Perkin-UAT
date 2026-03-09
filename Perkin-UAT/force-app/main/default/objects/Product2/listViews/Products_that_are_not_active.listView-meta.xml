@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_that_are_not_active</fullName>
+    <columns>obsolete__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>product_line__c</columns>
+    <columns>Top200__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Products that are not active</label>
+    <language>en_US</language>
+</ListView>

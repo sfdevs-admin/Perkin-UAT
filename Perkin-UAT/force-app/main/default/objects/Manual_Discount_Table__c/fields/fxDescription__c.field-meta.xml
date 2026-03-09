@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxDescription__c</fullName>
+    <description>Stores the description based on Item class of Product.(Source:S-692523)</description>
+    <externalId>false</externalId>
+    <formula>CASE(Item_Class__c,
+&quot;1&quot;, &#39;Instrument&#39;,
+&quot;2&quot;, &#39;Major Accessories&#39;,
+&quot;3&quot;, &#39;Consumables&#39;,
+&quot;4&quot;, &#39;Minor Accessories&#39;,
+&quot;5&quot;, &#39;Service&#39;,
+&quot;6&quot;, &#39;PN/Printer&#39;,
+&quot;7&quot;, &#39;Used&#39;,
+&quot;8&quot;, &#39;Rental&#39;,
+&quot;9&quot;, &#39;Other/ Intangible&#39;,
+&quot;A&quot;, &#39;Software&#39;,
+&quot;B&quot;, &#39;Reagent&#39;,
+&quot;C&quot;, &#39;Lab Services&#39;,
+&quot;D&quot;, &#39;License&#39;,
+&quot;E&quot;, &#39;Svc Billable Labor&#39;,
+&quot;F&quot;, &#39;Service Contract&#39;,
+&quot;G&quot;, &#39;Service Installation&#39;,
+&quot;H&quot;, &#39;Support, Consulating &amp; Training&#39;,
+&quot;I&quot;, &#39;Subscription&#39;,
+&quot;L&quot;, &#39;Prof. Services&#39;,
+&quot;Q&quot;, &#39;Validation&#39;,
+&quot;R&quot;, &#39;Raw Material&#39;,
+&quot;T&quot;, &#39;Freight&#39;,
+&quot;X&quot;, &#39;PKI Manufactured&#39;,
+&quot;Y&quot;, &#39;Subscription&#39;,
+&quot;Z&quot;, &#39;Distributor&#39;,
+&#39;&#39;)</formula>
+    <inlineHelpText>Stores the description based on Item class of Product.</inlineHelpText>
+    <label>Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

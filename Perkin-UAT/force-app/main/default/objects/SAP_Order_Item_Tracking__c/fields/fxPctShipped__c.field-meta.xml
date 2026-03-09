@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxPctShipped__c</fullName>
+    <description>Look at linked item to determine quantity ordered so we can use quantity shipped to get a percentage shipped</description>
+    <formula>IF( PKIOrderItems__r.Quantity_Confirmed__c &gt;0, 
+       Quantity_Shipped__c  / PKIOrderItems__r.Quantity_Confirmed__c, 
+       IF( PKIOrderItems__r.Quantity_Ordered__c &gt;0,  Quantity_Shipped__c  / PKIOrderItems__r.Quantity_Ordered__c, 0  ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Pct Shipped</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Completion_Code__c</fullName>
+    <description>Completion Codes</description>
+    <label>Completion Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>JC01 - Job Completed</fullName>
+                <default>false</default>
+                <label>JC01 - Job Completed</label>
+            </value>
+            <value>
+                <fullName>JC02 - Additional Parts Required</fullName>
+                <default>false</default>
+                <label>JC02 - Additional Parts Required</label>
+            </value>
+            <value>
+                <fullName>JC03 - Confidence Testing</fullName>
+                <default>false</default>
+                <label>JC03 - Confidence Testing</label>
+            </value>
+            <value>
+                <fullName>JC04 - Customer Action Required</fullName>
+                <default>false</default>
+                <label>JC04 - Customer Action Required</label>
+            </value>
+            <value>
+                <fullName>JC05 - Defective Spare Parts</fullName>
+                <default>false</default>
+                <label>JC05 - Defective Spare Parts</label>
+            </value>
+            <value>
+                <fullName>JC06 - Further Troubleshooting Required</fullName>
+                <default>false</default>
+                <label>JC06 - Further Troubleshooting Required</label>
+            </value>
+            <value>
+                <fullName>JC07 - Insufficient Technical Information</fullName>
+                <default>false</default>
+                <label>JC07 - Insufficient Technical Information</label>
+            </value>
+            <value>
+                <fullName>JC08 - Insufficient Time to Complete</fullName>
+                <default>false</default>
+                <label>JC08 - Insufficient Time to Complete</label>
+            </value>
+            <value>
+                <fullName>JC09 - Insufficient Training</fullName>
+                <default>false</default>
+                <label>JC09 - Insufficient Training</label>
+            </value>
+            <value>
+                <fullName>JC10 - Intermittent Problem</fullName>
+                <default>false</default>
+                <label>JC10 - Intermittent Problem</label>
+            </value>
+            <value>
+                <fullName>JC12 - Parts Availability Delay</fullName>
+                <default>false</default>
+                <label>JC12 - Parts Availability Delay</label>
+            </value>
+            <value>
+                <fullName>JC13 - Tools &amp; Jigs</fullName>
+                <default>false</default>
+                <label>JC13 - Tools &amp; Jigs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

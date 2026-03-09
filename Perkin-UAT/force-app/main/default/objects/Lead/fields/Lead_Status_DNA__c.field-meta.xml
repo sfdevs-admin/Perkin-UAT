@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Status_DNA__c</fullName>
+    <description>used by DNA Tech</description>
+    <label>Lead Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fallout - Bad contact info</fullName>
+                <default>false</default>
+                <label>Fallout - Bad contact info</label>
+            </value>
+            <value>
+                <fullName>Fallout - Competitor</fullName>
+                <default>false</default>
+                <label>Fallout - Competitor</label>
+            </value>
+            <value>
+                <fullName>Fallout - Current Customer</fullName>
+                <default>false</default>
+                <label>Fallout - Current Customer</label>
+            </value>
+            <value>
+                <fullName>Fallout - Educ./Sandra Porter Prospect</fullName>
+                <default>false</default>
+                <label>Fallout - Educ./Sandra Porter Prospect</label>
+            </value>
+            <value>
+                <fullName>Fallout - Employee Testing</fullName>
+                <default>false</default>
+                <label>Fallout - Employee Testing</label>
+            </value>
+            <value>
+                <fullName>Fallout - No budget</fullName>
+                <default>false</default>
+                <label>Fallout - No budget</label>
+            </value>
+            <value>
+                <fullName>Fallout - No interest</fullName>
+                <default>false</default>
+                <label>Fallout - No interest</label>
+            </value>
+            <value>
+                <fullName>Fallout - No reply</fullName>
+                <default>false</default>
+                <label>Fallout - No reply</label>
+            </value>
+            <value>
+                <fullName>Fallout - Not a qualified buyer</fullName>
+                <default>false</default>
+                <label>Fallout - Not a qualified buyer</label>
+            </value>
+            <value>
+                <fullName>Fallout - Partnership Interest</fullName>
+                <default>false</default>
+                <label>Fallout - Partnership Interest</label>
+            </value>
+            <value>
+                <fullName>Fallout - Press/Investor Person</fullName>
+                <default>false</default>
+                <label>Fallout - Press/Investor Person</label>
+            </value>
+            <value>
+                <fullName>Fallout - Trial Unused</fullName>
+                <default>false</default>
+                <label>Fallout - Trial Unused</label>
+            </value>
+            <value>
+                <fullName>Future Interest</fullName>
+                <default>false</default>
+                <label>Future Interest</label>
+            </value>
+            <value>
+                <fullName>Stage 0a - FinchTV Download</fullName>
+                <default>false</default>
+                <label>Stage 0a - FinchTV Download</label>
+            </value>
+            <value>
+                <fullName>Stage 0 - Identified</fullName>
+                <default>false</default>
+                <label>Stage 0 - Identified</label>
+            </value>
+            <value>
+                <fullName>Stage 0w - Keep Warm</fullName>
+                <default>false</default>
+                <label>Stage 0w - Keep Warm</label>
+            </value>
+            <value>
+                <fullName>Stage 1a - Already working</fullName>
+                <default>false</default>
+                <label>Stage 1a - Already working</label>
+            </value>
+            <value>
+                <fullName>Stage 1 - Contacted</fullName>
+                <default>false</default>
+                <label>Stage 1 - Contacted</label>
+            </value>
+            <value>
+                <fullName>Stage 2a - Trial Account - Inactive</fullName>
+                <default>false</default>
+                <label>Stage 2a - Trial Account - Inactive</label>
+            </value>
+            <value>
+                <fullName>Stage 2b - Trial Account - Active</fullName>
+                <default>false</default>
+                <label>Stage 2b - Trial Account - Active</label>
+            </value>
+            <value>
+                <fullName>Stage 2c - Trial Account - Extended</fullName>
+                <default>false</default>
+                <label>Stage 2c - Trial Account - Extended</label>
+            </value>
+            <value>
+                <fullName>Stage 2d - Trial scheduled, not active</fullName>
+                <default>false</default>
+                <label>Stage 2d - Trial scheduled, not active</label>
+            </value>
+            <value>
+                <fullName>Stage 2 - Qualified/Needs Assessment</fullName>
+                <default>false</default>
+                <label>Stage 2 - Qualified/Needs Assessment</label>
+            </value>
+            <value>
+                <fullName>Stage 3i - iFinch Trial Account</fullName>
+                <default>false</default>
+                <label>Stage 3i - iFinch Trial Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

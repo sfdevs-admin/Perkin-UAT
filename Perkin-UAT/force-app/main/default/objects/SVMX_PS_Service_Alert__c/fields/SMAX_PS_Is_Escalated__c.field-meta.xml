@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Is_Escalated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>ITSVMX-1507 Used to escalate requests to Technical Support queue</description>
+    <label>Is Escalated</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

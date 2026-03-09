@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>APP_IND_2025_GLO_Webinar_3RD_DG_ZZ_Spect</fullName>
+    <columns>Interaction_Icon__c</columns>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Status__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Email__c</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>State__c</columns>
+    <columns>Country__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>ProductName__c</columns>
+    <columns>Demo_Requested__c</columns>
+    <columns>Quote_Requested__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>contains</operation>
+        <value>APP-IND-2025-GLO-Webinar-3RD-DG-ZZ-SpectroscopyWebinar</value>
+    </filters>
+    <label>2025-GLO-Webinar-3RD-DG-ZZ-Spectroscopy</label>
+</ListView>

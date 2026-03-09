@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_Approver_DOA_Level_Matrix_Default</fullName>
+    <fields>Name</fields>
+    <fields>Sales_Rep__c</fields>
+    <fields>Sales_Rep_DOA_Level2__c</fields>
+    <fields>Sales_Rep_DOA_Level3__c</fields>
+    <fields>LastModifiedById</fields>
+    <label>C.LAY Approver DOA Level Matrix Default</label>
+</CompactLayout>

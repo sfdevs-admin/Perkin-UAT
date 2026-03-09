@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_LSDX_Trash_Cases_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CC LSDX Trash Cases</label>
+    <queue>ARQ_001268</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

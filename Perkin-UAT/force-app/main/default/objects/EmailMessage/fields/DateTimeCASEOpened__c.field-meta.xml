@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DateTimeCASEOpened__c</fullName>
+    <description>2023.10.06 MG: Noticed this field when looking at Email Message PSETs regarding INC0384511
+Was created 2020 pre-Standardization I propose reNaming this to  label: &quot;fxDateTimeOpened&quot;
+ API name &quot;fxDateTimeCaseOpened__c&quot;</description>
+    <formula>Parent.CreatedDate</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Date/Time Case Opened</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

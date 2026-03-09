@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Lead_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+ If(
+  Age_in_Days__c &lt; 10, &quot;/img/samples/light_green.gif&quot;,
+  IF(
+   Age_in_Days__c &lt; 15, &quot;/img/samples/light_yellow.gif&quot;, &quot;/img/samples/light_red.gif&quot;)), &quot;LST Lead Status&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LST Lead Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

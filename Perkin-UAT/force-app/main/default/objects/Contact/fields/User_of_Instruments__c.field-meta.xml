@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_of_Instruments__c</fullName>
+    <inlineHelpText>Please select all products used.</inlineHelpText>
+    <label>User of Instruments</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Biotek</fullName>
+                <default>false</default>
+                <label>Biotek</label>
+            </value>
+            <value>
+                <fullName>Cell::Explorer</fullName>
+                <default>false</default>
+                <label>Cell::Explorer</label>
+            </value>
+            <value>
+                <fullName>Cell::Explorer HCS</fullName>
+                <default>false</default>
+                <label>Cell::Explorer HCS</label>
+            </value>
+            <value>
+                <fullName>Cell::Explorer SPHH</fullName>
+                <default>false</default>
+                <label>Cell::Explorer SPHH</label>
+            </value>
+            <value>
+                <fullName>CGX Hybridization System</fullName>
+                <default>false</default>
+                <label>CGX Hybridization System</label>
+            </value>
+            <value>
+                <fullName>Chemagic</fullName>
+                <default>false</default>
+                <label>Chemagic</label>
+            </value>
+            <value>
+                <fullName>Columbia Cell::Explorer</fullName>
+                <default>false</default>
+                <label>Columbia Cell::Explorer</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Cytomat</fullName>
+                <default>false</default>
+                <label>Cytomat</label>
+            </value>
+            <value>
+                <fullName>ELX 405xx Plate Washer</fullName>
+                <default>false</default>
+                <label>ELX 405xx Plate Washer</label>
+            </value>
+            <value>
+                <fullName>EM CCD Camera</fullName>
+                <default>false</default>
+                <label>EM CCD Camera</label>
+            </value>
+            <value>
+                <fullName>Enspire</fullName>
+                <default>false</default>
+                <label>Enspire</label>
+            </value>
+            <value>
+                <fullName>EnVision</fullName>
+                <default>false</default>
+                <label>EnVision</label>
+            </value>
+            <value>
+                <fullName>Evolution</fullName>
+                <default>false</default>
+                <label>Evolution</label>
+            </value>
+            <value>
+                <fullName>EZ Reader II</fullName>
+                <default>false</default>
+                <label>EZ Reader II</label>
+            </value>
+            <value>
+                <fullName>FMT1000-680</fullName>
+                <default>false</default>
+                <label>FMT1000-680</label>
+            </value>
+            <value>
+                <fullName>FMT1000-750</fullName>
+                <default>false</default>
+                <label>FMT1000-750</label>
+            </value>
+            <value>
+                <fullName>FMT 2000</fullName>
+                <default>false</default>
+                <label>FMT 2000</label>
+            </value>
+            <value>
+                <fullName>FMT 2500</fullName>
+                <default>false</default>
+                <label>FMT 2500</label>
+            </value>
+            <value>
+                <fullName>FMT 4000</fullName>
+                <default>false</default>
+                <label>FMT 4000</label>
+            </value>
+            <value>
+                <fullName>Genprobe</fullName>
+                <default>false</default>
+                <label>Genprobe</label>
+            </value>
+            <value>
+                <fullName>Harvester-Microbeta</fullName>
+                <default>false</default>
+                <label>Harvester-Microbeta</label>
+            </value>
+            <value>
+                <fullName>Harvester-Micromate</fullName>
+                <default>false</default>
+                <label>Harvester-Micromate</label>
+            </value>
+            <value>
+                <fullName>Harvester-Omni</fullName>
+                <default>false</default>
+                <label>Harvester-Omni</label>
+            </value>
+            <value>
+                <fullName>Harvester-Unifilter</fullName>
+                <default>false</default>
+                <label>Harvester-Unifilter</label>
+            </value>
+            <value>
+                <fullName>inForm Software</fullName>
+                <default>false</default>
+                <label>inForm Software</label>
+            </value>
+            <value>
+                <fullName>IVIS 100 Series</fullName>
+                <default>false</default>
+                <label>IVIS 100 Series</label>
+            </value>
+            <value>
+                <fullName>IVIS 200 Series</fullName>
+                <default>false</default>
+                <label>IVIS 200 Series</label>
+            </value>
+            <value>
+                <fullName>IVIS Kinetic</fullName>
+                <default>false</default>
+                <label>IVIS Kinetic</label>
+            </value>
+            <value>
+                <fullName>IVIS Lumina</fullName>
+                <default>false</default>
+                <label>IVIS Lumina</label>
+            </value>
+            <value>
+                <fullName>IVIS Lumina XR</fullName>
+                <default>false</default>
+                <label>IVIS Lumina XR</label>
+            </value>
+            <value>
+                <fullName>IVIS Quantum FX</fullName>
+                <default>false</default>
+                <label>IVIS Quantum FX</label>
+            </value>
+            <value>
+                <fullName>IVIS Spectrum</fullName>
+                <default>false</default>
+                <label>IVIS Spectrum</label>
+            </value>
+            <value>
+                <fullName>IVIS Spectrum CT</fullName>
+                <default>false</default>
+                <label>IVIS Spectrum CT</label>
+            </value>
+            <value>
+                <fullName>Janus Expanded</fullName>
+                <default>false</default>
+                <label>Janus Expanded</label>
+            </value>
+            <value>
+                <fullName>Janus Integrator</fullName>
+                <default>false</default>
+                <label>Janus Integrator</label>
+            </value>
+            <value>
+                <fullName>Janus Mini</fullName>
+                <default>false</default>
+                <label>Janus Mini</label>
+            </value>
+            <value>
+                <fullName>Janus NGS Express</fullName>
+                <default>false</default>
+                <label>Janus NGS Express</label>
+            </value>
+            <value>
+                <fullName>Janus PCR</fullName>
+                <default>false</default>
+                <label>Janus PCR</label>
+            </value>
+            <value>
+                <fullName>LabChip 3000</fullName>
+                <default>false</default>
+                <label>LabChip 3000</label>
+            </value>
+            <value>
+                <fullName>LabChip 90</fullName>
+                <default>false</default>
+                <label>LabChip 90</label>
+            </value>
+            <value>
+                <fullName>LabChip DS</fullName>
+                <default>false</default>
+                <label>LabChip DS</label>
+            </value>
+            <value>
+                <fullName>LabChip GX</fullName>
+                <default>false</default>
+                <label>LabChip GX</label>
+            </value>
+            <value>
+                <fullName>LabChip GXII</fullName>
+                <default>false</default>
+                <label>LabChip GXII</label>
+            </value>
+            <value>
+                <fullName>LabChip XT</fullName>
+                <default>false</default>
+                <label>LabChip XT</label>
+            </value>
+            <value>
+                <fullName>LabChip XTe</fullName>
+                <default>false</default>
+                <label>LabChip XTe</label>
+            </value>
+            <value>
+                <fullName>Maestro</fullName>
+                <default>false</default>
+                <label>Maestro</label>
+            </value>
+            <value>
+                <fullName>MDX Scanner</fullName>
+                <default>false</default>
+                <label>MDX Scanner</label>
+            </value>
+            <value>
+                <fullName>Microbeta</fullName>
+                <default>false</default>
+                <label>Microbeta</label>
+            </value>
+            <value>
+                <fullName>Multiprobe</fullName>
+                <default>false</default>
+                <label>Multiprobe</label>
+            </value>
+            <value>
+                <fullName>Multiprobe HT</fullName>
+                <default>false</default>
+                <label>Multiprobe HT</label>
+            </value>
+            <value>
+                <fullName>Multiprobe Nucleic Acid WS</fullName>
+                <default>false</default>
+                <label>Multiprobe Nucleic Acid WS</label>
+            </value>
+            <value>
+                <fullName>Nuance</fullName>
+                <default>false</default>
+                <label>Nuance</label>
+            </value>
+            <value>
+                <fullName>OoSight</fullName>
+                <default>false</default>
+                <label>OoSight</label>
+            </value>
+            <value>
+                <fullName>Opera</fullName>
+                <default>false</default>
+                <label>Opera</label>
+            </value>
+            <value>
+                <fullName>Opera LX</fullName>
+                <default>false</default>
+                <label>Opera LX</label>
+            </value>
+            <value>
+                <fullName>Opera Phenix</fullName>
+                <default>false</default>
+                <label>Opera Phenix</label>
+            </value>
+            <value>
+                <fullName>Opera TEHS</fullName>
+                <default>false</default>
+                <label>Opera TEHS</label>
+            </value>
+            <value>
+                <fullName>Operetta</fullName>
+                <default>false</default>
+                <label>Operetta</label>
+            </value>
+            <value>
+                <fullName>Operetta CLS</fullName>
+                <default>false</default>
+                <label>Operetta CLS</label>
+            </value>
+            <value>
+                <fullName>Pannoramic 250</fullName>
+                <default>false</default>
+                <label>Pannoramic 250</label>
+            </value>
+            <value>
+                <fullName>Pannoramic DESK</fullName>
+                <default>false</default>
+                <label>Pannoramic DESK</label>
+            </value>
+            <value>
+                <fullName>Pannoramic MIDI</fullName>
+                <default>false</default>
+                <label>Pannoramic MIDI</label>
+            </value>
+            <value>
+                <fullName>Pannoramic SCAN</fullName>
+                <default>false</default>
+                <label>Pannoramic SCAN</label>
+            </value>
+            <value>
+                <fullName>Plate::Handler</fullName>
+                <default>false</default>
+                <label>Plate::Handler</label>
+            </value>
+            <value>
+                <fullName>Plate::Vision</fullName>
+                <default>false</default>
+                <label>Plate::Vision</label>
+            </value>
+            <value>
+                <fullName>Platestak</fullName>
+                <default>false</default>
+                <label>Platestak</label>
+            </value>
+            <value>
+                <fullName>Proteomic Imaging System</fullName>
+                <default>false</default>
+                <label>Proteomic Imaging System</label>
+            </value>
+            <value>
+                <fullName>Sciclone ALH 3000</fullName>
+                <default>false</default>
+                <label>Sciclone ALH 3000</label>
+            </value>
+            <value>
+                <fullName>Sciclone G3</fullName>
+                <default>false</default>
+                <label>Sciclone G3</label>
+            </value>
+            <value>
+                <fullName>Sciclone NGS</fullName>
+                <default>false</default>
+                <label>Sciclone NGS</label>
+            </value>
+            <value>
+                <fullName>Staccato Workstations</fullName>
+                <default>false</default>
+                <label>Staccato Workstations</label>
+            </value>
+            <value>
+                <fullName>TMA Master</fullName>
+                <default>false</default>
+                <label>TMA Master</label>
+            </value>
+            <value>
+                <fullName>TopCount Systems</fullName>
+                <default>false</default>
+                <label>TopCount Systems</label>
+            </value>
+            <value>
+                <fullName>Tri-Carb</fullName>
+                <default>false</default>
+                <label>Tri-Carb</label>
+            </value>
+            <value>
+                <fullName>Trio Imaging System</fullName>
+                <default>false</default>
+                <label>Trio Imaging System</label>
+            </value>
+            <value>
+                <fullName>Twister II</fullName>
+                <default>false</default>
+                <label>Twister II</label>
+            </value>
+            <value>
+                <fullName>Twister III</fullName>
+                <default>false</default>
+                <label>Twister III</label>
+            </value>
+            <value>
+                <fullName>Ultraview</fullName>
+                <default>false</default>
+                <label>Ultraview</label>
+            </value>
+            <value>
+                <fullName>Ultraview ERS</fullName>
+                <default>false</default>
+                <label>Ultraview ERS</label>
+            </value>
+            <value>
+                <fullName>Ultraview VOX</fullName>
+                <default>false</default>
+                <label>Ultraview VOX</label>
+            </value>
+            <value>
+                <fullName>Vectra (200-slide capacity)</fullName>
+                <default>false</default>
+                <label>Vectra (200-slide capacity)</label>
+            </value>
+            <value>
+                <fullName>Vectra (single-slide capacity)</fullName>
+                <default>false</default>
+                <label>Vectra (single-slide capacity)</label>
+            </value>
+            <value>
+                <fullName>Vectra Polaris</fullName>
+                <default>false</default>
+                <label>Vectra Polaris</label>
+            </value>
+            <value>
+                <fullName>VictorX</fullName>
+                <default>false</default>
+                <label>VictorX</label>
+            </value>
+            <value>
+                <fullName>ViewLux</fullName>
+                <default>false</default>
+                <label>ViewLux</label>
+            </value>
+            <value>
+                <fullName>Volocity</fullName>
+                <default>false</default>
+                <label>Volocity</label>
+            </value>
+            <value>
+                <fullName>Wizard</fullName>
+                <default>false</default>
+                <label>Wizard</label>
+            </value>
+            <value>
+                <fullName>Zephyr</fullName>
+                <default>false</default>
+                <label>Zephyr</label>
+            </value>
+            <value>
+                <fullName>Zephyr Genomics Workstation</fullName>
+                <default>false</default>
+                <label>Zephyr Genomics Workstation</label>
+            </value>
+            <value>
+                <fullName>Zephyr SPE</fullName>
+                <default>false</default>
+                <label>Zephyr SPE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

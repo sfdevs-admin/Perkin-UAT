@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Working_Stage_INF__c</fullName>
+    <label>Lead Working Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contacted 1st attempt</fullName>
+                <default>false</default>
+                <label>Contacted 1st attempt</label>
+            </value>
+            <value>
+                <fullName>Contacted 2nd attempt</fullName>
+                <default>false</default>
+                <label>Contacted 2nd attempt</label>
+            </value>
+            <value>
+                <fullName>Showed Interest</fullName>
+                <default>false</default>
+                <label>Showed Interest</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Contacted 1st attempt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Contacted 2nd attempt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Showed Interest</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family_INF__c</fullName>
+    <description>Use case is same as Product Name field</description>
+    <inlineHelpText>INF Only Field</inlineHelpText>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bioanalytical Module</fullName>
+                <default>false</default>
+                <label>Bioanalytical Module</label>
+            </value>
+            <value>
+                <fullName>Business Author</fullName>
+                <default>false</default>
+                <label>Business Author</label>
+            </value>
+            <value>
+                <fullName>Calibration</fullName>
+                <default>false</default>
+                <label>Calibration</label>
+            </value>
+            <value>
+                <fullName>ChemACX</fullName>
+                <default>false</default>
+                <label>ChemACX</label>
+            </value>
+            <value>
+                <fullName>ChemDraw</fullName>
+                <default>false</default>
+                <label>ChemDraw</label>
+            </value>
+            <value>
+                <fullName>ChemDraw ActiveX/Plugin</fullName>
+                <default>false</default>
+                <label>ChemDraw ActiveX/Plugin</label>
+            </value>
+            <value>
+                <fullName>ChemOffice</fullName>
+                <default>false</default>
+                <label>ChemOffice</label>
+            </value>
+            <value>
+                <fullName>ChemScript</fullName>
+                <default>false</default>
+                <label>ChemScript</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Columbus Plus</fullName>
+                <default>false</default>
+                <label>Columbus Plus</label>
+            </value>
+            <value>
+                <fullName>Connector for SAP</fullName>
+                <default>false</default>
+                <label>Connector for SAP</label>
+            </value>
+            <value>
+                <fullName>Connectors</fullName>
+                <default>false</default>
+                <label>Connectors</label>
+            </value>
+            <value>
+                <fullName>Datalytix Powered by TIBCO Spotfire</fullName>
+                <default>false</default>
+                <label>Datalytix Powered by TIBCO Spotfire</label>
+            </value>
+            <value>
+                <fullName>Elements</fullName>
+                <default>false</default>
+                <label>Elements</label>
+            </value>
+            <value>
+                <fullName>E-Notebook</fullName>
+                <default>false</default>
+                <label>E-Notebook</label>
+            </value>
+            <value>
+                <fullName>E-Notebook Enterprise</fullName>
+                <default>false</default>
+                <label>E-Notebook Enterprise</label>
+            </value>
+            <value>
+                <fullName>E-Notebook for Biology</fullName>
+                <default>false</default>
+                <label>E-Notebook for Biology</label>
+            </value>
+            <value>
+                <fullName>E-Notebook for Chemistry</fullName>
+                <default>false</default>
+                <label>E-Notebook for Chemistry</label>
+            </value>
+            <value>
+                <fullName>E-Notebook for Formulations</fullName>
+                <default>false</default>
+                <label>E-Notebook for Formulations</label>
+            </value>
+            <value>
+                <fullName>Formulation and Analytical / LIMS</fullName>
+                <default>false</default>
+                <label>Formulation and Analytical / LIMS</label>
+            </value>
+            <value>
+                <fullName>HC Profiler</fullName>
+                <default>false</default>
+                <label>HC Profiler</label>
+            </value>
+            <value>
+                <fullName>iLab LES</fullName>
+                <default>false</default>
+                <label>iLab LES</label>
+            </value>
+            <value>
+                <fullName>iLAB Pro</fullName>
+                <default>false</default>
+                <label>iLAB Pro</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Inventory Management</fullName>
+                <default>false</default>
+                <label>Inventory Management</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery Powered by TIBCO Spotfire</fullName>
+                <default>false</default>
+                <label>Lead Discovery Powered by TIBCO Spotfire</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery Premium</fullName>
+                <default>false</default>
+                <label>Lead Discovery Premium</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery Biologics</fullName>
+                <default>false</default>
+                <label>Lead Discovery Biologics</label>
+            </value>
+            <value>
+                <fullName>LimsLink</fullName>
+                <default>false</default>
+                <label>LimsLink</label>
+            </value>
+            <value>
+                <fullName>OmicsOffice</fullName>
+                <default>false</default>
+                <label>OmicsOffice</label>
+            </value>
+            <value>
+                <fullName>Registration</fullName>
+                <default>false</default>
+                <label>Registration</label>
+            </value>
+            <value>
+                <fullName>Sample Tracker</fullName>
+                <default>false</default>
+                <label>Sample Tracker</label>
+            </value>
+            <value>
+                <fullName>SciStream</fullName>
+                <default>false</default>
+                <label>SciStream</label>
+            </value>
+            <value>
+                <fullName>TotalChrom</fullName>
+                <default>false</default>
+                <label>TotalChrom</label>
+            </value>
+            <value>
+                <fullName>tranSMART Connector</fullName>
+                <default>false</default>
+                <label>tranSMART Connector</label>
+            </value>
+            <value>
+                <fullName>Clinical Research</fullName>
+                <default>false</default>
+                <label>Clinical Research</label>
+            </value>
+            <value>
+                <fullName>TIBCO Spotfire Data Visualization Platf</fullName>
+                <default>false</default>
+                <label>TIBCO Spotfire Data Visualization Platf</label>
+            </value>
+            <value>
+                <fullName>SignalsTranslational</fullName>
+                <default>false</default>
+                <label>SignalsTranslational</label>
+            </value>
+            <value>
+                <fullName>Signals Perspectives (Attivio)</fullName>
+                <default>false</default>
+                <label>Attivio</label>
+            </value>
+            <value>
+                <fullName>SignalsScreening</fullName>
+                <default>false</default>
+                <label>SignalsScreening</label>
+            </value>
+            <value>
+                <fullName>Streambase</fullName>
+                <default>false</default>
+                <label>Streambase</label>
+            </value>
+            <value>
+                <fullName>Signals Notebook</fullName>
+                <default>false</default>
+                <label>Signals Notebook</label>
+            </value>
+            <value>
+                <fullName>Signals Lead Discovery</fullName>
+                <default>false</default>
+                <label>Signals Lead Discovery</label>
+            </value>
+            <value>
+                <fullName>Spotfire Business Author</fullName>
+                <default>false</default>
+                <label>Spotfire Business Author</label>
+            </value>
+            <value>
+                <fullName>Signals Inventa</fullName>
+                <default>false</default>
+                <label>Signals Inventa</label>
+            </value>
+            <value>
+                <fullName>Signals VitroVivo</fullName>
+                <default>false</default>
+                <label>Signals VitroVivo</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery</fullName>
+                <default>false</default>
+                <label>Lead Discovery</label>
+            </value>
+            <value>
+                <fullName>Signals Medical Review</fullName>
+                <default>false</default>
+                <label>Signals Medical Review</label>
+            </value>
+            <value>
+                <fullName>Signals Screening</fullName>
+                <default>false</default>
+                <label>Signals Screening</label>
+            </value>
+            <value>
+                <fullName>Signals Translational</fullName>
+                <default>false</default>
+                <label>Signals Translational</label>
+            </value>
+            <value>
+                <fullName>Colombus Plus</fullName>
+                <default>false</default>
+                <label>Colombus Plus</label>
+            </value>
+            <value>
+                <fullName>Signals Data Factory</fullName>
+                <default>false</default>
+                <label>Signals Data Factory</label>
+            </value>
+            <value>
+                <fullName>Signals Line Listing Review</fullName>
+                <default>false</default>
+                <label>Signals Line Listing Review</label>
+            </value>
+            <value>
+                <fullName>Spotfire Clinical</fullName>
+                <default>false</default>
+                <label>Spotfire Clinical</label>
+            </value>
+            <value>
+                <fullName>Spotfire Manufacturing</fullName>
+                <default>false</default>
+                <label>Spotfire Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Spotfire Research</fullName>
+                <default>false</default>
+                <label>Spotfire Research</label>
+            </value>
+            <value>
+                <fullName>ChemDraw JS</fullName>
+                <default>false</default>
+                <label>ChemDraw JS</label>
+            </value>
+            <value>
+                <fullName>Signals Image Artist</fullName>
+                <default>false</default>
+                <label>Signals Image Artist</label>
+            </value>
+            <value>
+                <fullName>Signals Research Suite</fullName>
+                <default>false</default>
+                <label>Signals Research Suite</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

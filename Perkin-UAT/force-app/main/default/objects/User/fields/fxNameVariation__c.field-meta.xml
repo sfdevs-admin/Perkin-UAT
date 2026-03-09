@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxNameVariation__c</fullName>
+    <description>This will evaluate the email address vs the First/Last name to see if there are any differences</description>
+    <formula>substitute(lower(FirstName &amp; &quot;.&quot; &amp; LastName),&quot; &quot;,&quot;&quot;) &lt;&gt; substitute(LOWER(LEFT( Email , FIND(&quot;@&quot;,Email)-1 )),&quot;.ext&quot;,&quot;&quot;)</formula>
+    <inlineHelpText>If True, the email does not match the First and last Name of user</inlineHelpText>
+    <label>fxNameVariation</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

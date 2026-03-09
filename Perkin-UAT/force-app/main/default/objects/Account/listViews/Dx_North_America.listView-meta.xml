@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dx_North_America</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PKI_SAP_Customer_Number__c</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Products__c</columns>
+    <columns>PKI_SAP_Country_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Products__c</field>
+        <operation>includes</operation>
+        <value>Dx Reproductive Health,Dx Vanadis</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>US,CA,MX</value>
+    </filters>
+    <filters>
+        <field>PKI_SAP_Customer_Number__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Dx North America RH Accounts</label>
+    <sharedTo>
+        <group>ARQ_000778</group>
+        <group>ARQ_000780</group>
+        <group>ARQ_000787</group>
+        <group>ARQ_000788</group>
+        <group>ARQ_000789</group>
+        <group>ARQ_000790</group>
+        <group>ARQ_000792</group>
+        <group>ARQ_000793</group>
+        <group>ARQ_000794</group>
+        <group>ARQ_000796</group>
+        <group>ARQ_000799</group>
+    </sharedTo>
+</ListView>

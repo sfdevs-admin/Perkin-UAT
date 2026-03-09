@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Topic_you_need_help_with__c</fullName>
+    <label>Topic you need help with</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Website Support</fullName>
+                <default>false</default>
+                <label>Website Support</label>
+            </value>
+            <value>
+                <fullName>Account Set-Up</fullName>
+                <default>false</default>
+                <label>Account Set-Up</label>
+            </value>
+            <value>
+                <fullName>Request Product/Service Information</fullName>
+                <default>false</default>
+                <label>Request Product/Service Information</label>
+            </value>
+            <value>
+                <fullName>Request a Quote</fullName>
+                <default>false</default>
+                <label>Request a Quote</label>
+            </value>
+            <value>
+                <fullName>Existing Order Support</fullName>
+                <default>false</default>
+                <label>Existing Order Support</label>
+            </value>
+            <value>
+                <fullName>Invoicing Support</fullName>
+                <default>false</default>
+                <label>Invoicing Support</label>
+            </value>
+            <value>
+                <fullName>Credit/Order Holds Support</fullName>
+                <default>false</default>
+                <label>Credit/Order Holds Support</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Shipping_Modification_MDM</fullName>
+    <active>true</active>
+    <description>Users with PKI country = Blank should only be allowed to edit Shipping Address fields. Rest everyone globally has been prohibited to edit the shipping addresses except MDM Team &amp; Integration Account.</description>
+    <errorConditionFormula>AND (
+    NOT($Permission.C_PERM_2100_Bypass_Account_V_RULE)
+   ,OR(
+       ISCHANGED(ShippingStreet)
+      ,ISCHANGED(ShippingState)
+      ,ISCHANGED(ShippingPostalCode)
+      ,ISCHANGED(ShippingCountry)
+      ,ISCHANGED(ShippingCity)
+     )
+  /* ,TEXT($User.PKICountry__c) !=&quot;China&quot;  */
+     ,Len(PriorValue(ShippingCountry))=2
+     ,NOT(ISBLANK(TEXT($User.PKICountry__c)))
+     ,PKI_SAP_Account_Group__c &lt;&gt; &#39;OMIT&#39;
+    )</errorConditionFormula>
+    <errorMessage>V.RULE_ACCOUNT_004: Users can not modify shipping address in Salesforce directly, please use the &quot;Account Modification Request&quot; button</errorMessage>
+</ValidationRule>

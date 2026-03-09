@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inside_Sales_Rep__c</fullName>
+    <label>Inside Sales Rep</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cathy Chitwood</fullName>
+                <default>false</default>
+                <label>Cathy Chitwood</label>
+            </value>
+            <value>
+                <fullName>Dana Duta</fullName>
+                <default>false</default>
+                <label>Dana Duta</label>
+            </value>
+            <value>
+                <fullName>Elaine Amico</fullName>
+                <default>false</default>
+                <label>Elaine Amico</label>
+            </value>
+            <value>
+                <fullName>Jason Robinson</fullName>
+                <default>false</default>
+                <label>Jason Robinson</label>
+            </value>
+            <value>
+                <fullName>Melana Spalding</fullName>
+                <default>false</default>
+                <label>Melana Spalding</label>
+            </value>
+            <value>
+                <fullName>Phil Rogers</fullName>
+                <default>false</default>
+                <label>Phil Rogers</label>
+            </value>
+            <value>
+                <fullName>Susan Hegseth</fullName>
+                <default>false</default>
+                <label>Susan Hegseth</label>
+            </value>
+            <value>
+                <fullName>James Thouin</fullName>
+                <default>false</default>
+                <label>James Thouin</label>
+            </value>
+            <value>
+                <fullName>Richard Ouellette</fullName>
+                <default>false</default>
+                <label>Richard Ouellette</label>
+            </value>
+            <value>
+                <fullName>Stella Ponzo</fullName>
+                <default>false</default>
+                <label>Stella Ponzo</label>
+            </value>
+            <value>
+                <fullName>David Stanton</fullName>
+                <default>false</default>
+                <label>David Stanton</label>
+            </value>
+            <value>
+                <fullName>Meara Jones</fullName>
+                <default>false</default>
+                <label>Meara Jones</label>
+            </value>
+            <value>
+                <fullName>Rosemarie Connolly</fullName>
+                <default>false</default>
+                <label>Rosemarie Connolly</label>
+            </value>
+            <value>
+                <fullName>Magdalena Jaworska</fullName>
+                <default>false</default>
+                <label>Magdalena Jaworska</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

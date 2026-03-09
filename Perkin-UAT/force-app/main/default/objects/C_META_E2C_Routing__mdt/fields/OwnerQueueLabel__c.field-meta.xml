@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OwnerQueueLabel__c</fullName>
+    <description>This will be the Owner Queue Display Name assigned to the case in a SBX. (Source ATEAM-1886)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>This will be the Owner Queue Display Name assigned to the case in a SBX. (Source ATEAM-1886)</inlineHelpText>
+    <label>OwnerQueueLabel</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

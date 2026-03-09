@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Industry__c</fullName>
+    <label>Company Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ACADEMIC</fullName>
+                <default>false</default>
+                <label>ACADEMIC</label>
+            </value>
+            <value>
+                <fullName>AEROSPACE / DEFENSE</fullName>
+                <default>false</default>
+                <label>AEROSPACE / DEFENSE</label>
+            </value>
+            <value>
+                <fullName>CHEMICAL</fullName>
+                <default>false</default>
+                <label>CHEMICAL</label>
+            </value>
+            <value>
+                <fullName>CONSUMER PRODUCTS</fullName>
+                <default>false</default>
+                <label>CONSUMER PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>CRO / INDEPENDENT TESTING LAB</fullName>
+                <default>false</default>
+                <label>CRO / INDEPENDENT TESTING LAB</label>
+            </value>
+            <value>
+                <fullName>DEALER</fullName>
+                <default>false</default>
+                <label>DEALER</label>
+            </value>
+            <value>
+                <fullName>DISTRIBUTOR</fullName>
+                <default>false</default>
+                <label>DISTRIBUTOR</label>
+            </value>
+            <value>
+                <fullName>ENERGY</fullName>
+                <default>false</default>
+                <label>ENERGY</label>
+            </value>
+            <value>
+                <fullName>ENVIRONMENTAL</fullName>
+                <default>false</default>
+                <label>ENVIRONMENTAL</label>
+            </value>
+            <value>
+                <fullName>FOOD &amp; BEVERAGE</fullName>
+                <default>false</default>
+                <label>FOOD &amp; BEVERAGE</label>
+            </value>
+            <value>
+                <fullName>GOVERNMENT</fullName>
+                <default>false</default>
+                <label>GOVERNMENT</label>
+            </value>
+            <value>
+                <fullName>HEALTHCARE</fullName>
+                <default>false</default>
+                <label>HEALTHCARE</label>
+            </value>
+            <value>
+                <fullName>MANUFACTURING GENERAL</fullName>
+                <default>false</default>
+                <label>MANUFACTURING GENERAL</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>PHARMACEUTICAL / BIOTECHNOLOGY</fullName>
+                <default>false</default>
+                <label>PHARMACEUTICAL / BIOTECHNOLOGY</label>
+            </value>
+            <value>
+                <fullName>SECURITY</fullName>
+                <default>false</default>
+                <label>SECURITY</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTATION</fullName>
+                <default>false</default>
+                <label>TRANSPORTATION</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

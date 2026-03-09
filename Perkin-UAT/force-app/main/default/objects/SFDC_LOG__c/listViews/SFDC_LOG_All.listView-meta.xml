@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFDC_LOG_All</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>fxCreatedTime__c</columns>
+    <columns>Running_User__c</columns>
+    <columns>Source_Name__c</columns>
+    <columns>Source_Type__c</columns>
+    <columns>Source_Step__c</columns>
+    <columns>Message__c</columns>
+    <columns>Message_Long__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>SFDC LOG (All)</label>
+</ListView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business__c</fullName>
+    <label>Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EH</fullName>
+                <default>false</default>
+                <label>EH</label>
+            </value>
+            <value>
+                <fullName>DX</fullName>
+                <default>false</default>
+                <label>DX</label>
+            </value>
+            <value>
+                <fullName>LST</fullName>
+                <default>false</default>
+                <label>LST</label>
+            </value>
+            <value>
+                <fullName>Informatics</fullName>
+                <default>false</default>
+                <label>Informatics</label>
+            </value>
+            <value>
+                <fullName>OneSource</fullName>
+                <default>false</default>
+                <label>OneSource</label>
+            </value>
+            <value>
+                <fullName>Corp IT</fullName>
+                <default>false</default>
+                <label>Corp IT</label>
+            </value>
+            <value>
+                <fullName>Corp Legal</fullName>
+                <default>false</default>
+                <label>Corp Legal</label>
+            </value>
+            <value>
+                <fullName>Corp Mrkt</fullName>
+                <default>false</default>
+                <label>Corp Mrkt</label>
+            </value>
+            <value>
+                <fullName>Corp HR</fullName>
+                <default>false</default>
+                <label>Corp HR</label>
+            </value>
+            <value>
+                <fullName>Corp Operations</fullName>
+                <default>false</default>
+                <label>Corp Operations</label>
+            </value>
+            <value>
+                <fullName>Corp Finance</fullName>
+                <default>false</default>
+                <label>Corp Finance</label>
+            </value>
+            <value>
+                <fullName>Food Business</fullName>
+                <default>false</default>
+                <label>Food Business</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO5Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.ADDRESS2_STREET</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>CONTACT.ADDRESS2_ZIP</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>GC_List__c</columns>
+    <columns>LC_List__c</columns>
+    <columns>IR_List__c</columns>
+    <columns>UVS_List__c</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>greaterOrEqual</operation>
+        <value>19700</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>lessThan</operation>
+        <value>19999</value>
+    </filters>
+    <label>SO5 Contacts</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

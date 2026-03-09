@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_BL__c</fullName>
+    <label>Business Line</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analysis-Visualisation</fullName>
+                <default>false</default>
+                <label>Analysis-Visualisation</label>
+            </value>
+            <value>
+                <fullName>Elements</fullName>
+                <default>false</default>
+                <label>Elements</label>
+            </value>
+            <value>
+                <fullName>Enterprise R-D</fullName>
+                <default>false</default>
+                <label>Enterprise R-D</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>Personal Applications</fullName>
+                <default>false</default>
+                <label>Personal Applications</label>
+            </value>
+            <value>
+                <fullName>QA/QC</fullName>
+                <default>false</default>
+                <label>QA/QC</label>
+            </value>
+            <value>
+                <fullName>Signals</fullName>
+                <default>false</default>
+                <label>Signals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

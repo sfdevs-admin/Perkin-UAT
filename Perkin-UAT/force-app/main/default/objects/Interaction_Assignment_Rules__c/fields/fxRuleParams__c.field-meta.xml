@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxRuleParams__c</fullName>
+    <description>This will create a string to show what parameters this rule expects (i.e. RCSAPLPC) or when not present, and &quot;x&quot; is used in it&#39;s place (i.e. RPSxxPC). Used in L.FLOW 4100</description>
+    <externalId>false</externalId>
+    <formula>IF(Country__c=&quot;[ALL]&quot;,&quot;x-&quot;,&quot;C-&quot;) &amp; 
+IF(State__c=&quot;[ALL]&quot;,&quot;x-&quot;,&quot;S-&quot;) &amp;
+IF(PostalCode__c=&quot;[ALL]&quot;,&quot;x-&quot;,&quot;Z-&quot;) &amp;
+
+IF(INCLUDES(SolutionsAreaofInterest__c,&quot;[ALL]&quot;),&quot;x-&quot;,&quot;A-&quot;) &amp; 
+IF(INCLUDES(ProductLine__c,&quot;[ALL]&quot;),&quot;x-&quot;,&quot;PL-&quot;) &amp;
+IF(INCLUDES(ProductClass__c,&quot;[ALL]&quot;),&quot;x-&quot;,&quot;PC&quot;)</formula>
+    <inlineHelpText>This shows what parameters are used in this rule</inlineHelpText>
+    <label>fxRuleParams</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

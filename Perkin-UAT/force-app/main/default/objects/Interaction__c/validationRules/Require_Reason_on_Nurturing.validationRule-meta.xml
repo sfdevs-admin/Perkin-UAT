@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Reason_on_Nurturing</fullName>
+    <active>true</active>
+    <description>When an open Interaction moves to working status, future nurturing reason is mandatory
+Source # INC0363966 : Restrict user clicks the Future Nurturing button w/o converting the interaction and select the &quot;Linked to Contact&quot;  in Future Nurturing Reason</description>
+    <errorConditionFormula>AND( 
+   TEXT(ClosedStatus__c) = &#39;Future Nurturing&#39;  
+  ,ISBLANK(Converted_Date__c)
+  ,OR(
+     ISBLANK(TEXT(Turnback_Reason__c))
+    ,TEXT(Turnback_Reason__c) = &#39;Linked to Contact&#39;
+     )
+   )</errorConditionFormula>
+    <errorDisplayField>Turnback_Reason__c</errorDisplayField>
+    <errorMessage>V.RULE_INTERACTION_003:  Choose a reason why this is being changed to Future Nurturing except reason Linked to Contact.</errorMessage>
+</ValidationRule>

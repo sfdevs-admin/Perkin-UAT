@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Falls_in_NPI_date_range__c</fullName>
+    <formula>AND( (CreatedDate &gt;  PricebookEntry.Product2.NPI_Start_Date__c ),(CreatedDate &lt;  PricebookEntry.Product2.NPI_End_Date__c ))</formula>
+    <label>Falls in NPI date range</label>
+    <type>Checkbox</type>
+</CustomField>

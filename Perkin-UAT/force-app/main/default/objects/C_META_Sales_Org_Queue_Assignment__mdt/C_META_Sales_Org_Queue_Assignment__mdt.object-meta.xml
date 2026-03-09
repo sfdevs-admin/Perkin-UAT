@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This C.Meta maps Sales Org with Queue ID and is being used in Node 40 of &quot;L.FLOW_2402: Case - After - (General)&quot;</description>
+    <label>C.META Sales Org Queue Assignment</label>
+    <pluralLabel>C.META Sales Org Queue Assignments</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nicolle_s_Product_Detail_Lookup</fullName>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>IGOR_Item_Class_Desc__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Partnum__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Frozen_Costs__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>SIOP_Model__c</columns>
+    <columns>SUB_BUSINESS_UNIT_FORMULA__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PricebookEntryID__c</columns>
+    <columns>INF_Pricing_Model__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>IGOR_Description__c</field>
+        <operation>contains</operation>
+        <value>Contract</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.NAME</field>
+        <operation>notContain</operation>
+        <value>Obsolete</value>
+    </filters>
+    <label>Nicolle&#39;s Product Detail Lookup</label>
+</ListView>

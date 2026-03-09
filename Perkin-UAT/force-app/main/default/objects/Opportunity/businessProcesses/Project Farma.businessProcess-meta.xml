@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project Farma</fullName>
+    <description>Project Farma Sales Process</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Abandoned</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 1 - Lead %2F Interaction</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 2 - Qualify</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 3 - Develop</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 4 - Proposal Submitted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Stage 5 - Negotiation</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

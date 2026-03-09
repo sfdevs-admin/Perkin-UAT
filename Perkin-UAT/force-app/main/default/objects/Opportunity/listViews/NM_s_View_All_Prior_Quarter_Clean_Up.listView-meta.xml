@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NM_s_View_All_Prior_Quarter_Clean_Up</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>SAP_Quote__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Zero Stage,Stage 6 - Implement (Closed),Closed Won,Closed Lost,Abandoned</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>equals</operation>
+        <value>Demo – New Unit Request ($0-SIOP Planning only),Demo – For Sale to Customer ($$-Not for SIOP planning),Instrument,Large Instrument</value>
+    </filters>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>AES,TBD</value>
+    </filters>
+    <filters>
+        <field>Product_Line_Name__c</field>
+        <operation>equals</operation>
+        <value>AA,BIO,DEL,GC,GCM,ICP,LC,LCA,LCM,MAS,MBA,PER,UVS</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS,APAC,EMEA</value>
+    </filters>
+    <filters>
+        <field>Test_Record__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>NM&#39;s View All- Prior Quarter Clean Up</label>
+</ListView>

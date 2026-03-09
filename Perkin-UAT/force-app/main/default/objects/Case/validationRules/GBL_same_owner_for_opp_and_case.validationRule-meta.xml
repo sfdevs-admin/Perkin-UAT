@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_same_owner_for_opp_and_case</fullName>
+    <active>true</active>
+    <description>LST - Case and Opp Owner must be the same</description>
+    <errorConditionFormula>ISPICKVAL(Type ,&quot;Field Service&quot;)
+&amp;&amp; 
+IsClosed = True
+&amp;&amp; 
+!ISBLANK(Source_Opportunity__c) 
+&amp;&amp; 
+OwnerId &lt;&gt; Source_Opportunity__r.OwnerId</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>V.RULE_CASE_028: The Case Owner and Opportunity Owner must be the same</errorMessage>
+</ValidationRule>

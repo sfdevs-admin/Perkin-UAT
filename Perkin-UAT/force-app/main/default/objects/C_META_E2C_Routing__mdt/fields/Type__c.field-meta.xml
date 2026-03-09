@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <defaultValue>&quot;&quot;</defaultValue>
+    <description>This is used to set the &quot;Case Type&quot; as needed. Can be blank.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>This is used to set the &quot;Case Type&quot; as needed. Can be blank.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billing Problem</fullName>
+                <default>true</default>
+                <label>Billing Problem</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>Customer confidence issue</fullName>
+                <default>false</default>
+                <label>Customer confidence issue</label>
+            </value>
+            <value>
+                <fullName>Customer Master Inquiry</fullName>
+                <default>false</default>
+                <label>Customer Master Inquiry</label>
+            </value>
+            <value>
+                <fullName>Customer training issue</fullName>
+                <default>false</default>
+                <label>Customer training issue</label>
+            </value>
+            <value>
+                <fullName>Deals Inquiry</fullName>
+                <default>false</default>
+                <label>Deals Inquiry</label>
+            </value>
+            <value>
+                <fullName>Depot Repair</fullName>
+                <default>false</default>
+                <label>Depot Repair</label>
+            </value>
+            <value>
+                <fullName>e-procurement</fullName>
+                <default>false</default>
+                <label>e-procurement</label>
+            </value>
+            <value>
+                <fullName>Field Service</fullName>
+                <default>false</default>
+                <label>Field Service</label>
+            </value>
+            <value>
+                <fullName>General user question</fullName>
+                <default>false</default>
+                <label>General user question</label>
+            </value>
+            <value>
+                <fullName>Hardware Problem</fullName>
+                <default>false</default>
+                <label>Hardware Problem</label>
+            </value>
+            <value>
+                <fullName>Install product &amp; Location Inquiry</fullName>
+                <default>false</default>
+                <label>Install product &amp; Location Inquiry</label>
+            </value>
+            <value>
+                <fullName>Invoice Inquiry</fullName>
+                <default>false</default>
+                <label>Invoice Inquiry</label>
+            </value>
+            <value>
+                <fullName>Issue</fullName>
+                <default>false</default>
+                <label>Issue</label>
+            </value>
+            <value>
+                <fullName>Marketing Process</fullName>
+                <default>false</default>
+                <label>Marketing Process</label>
+            </value>
+            <value>
+                <fullName>MDx Tech Support</fullName>
+                <default>false</default>
+                <label>MDx Tech Support</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>New Feature Request</fullName>
+                <default>false</default>
+                <label>New Feature Request</label>
+            </value>
+            <value>
+                <fullName>Non-Quality</fullName>
+                <default>false</default>
+                <label>Non-Quality</label>
+            </value>
+            <value>
+                <fullName>Not performing to spec</fullName>
+                <default>false</default>
+                <label>Not performing to spec</label>
+            </value>
+            <value>
+                <fullName>Order Placement</fullName>
+                <default>false</default>
+                <label>Order Placement</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Out of Box Failure</fullName>
+                <default>false</default>
+                <label>Out of Box Failure</label>
+            </value>
+            <value>
+                <fullName>Price and Availability Inquiry</fullName>
+                <default>false</default>
+                <label>Price and Availability Inquiry</label>
+            </value>
+            <value>
+                <fullName>Product application issue</fullName>
+                <default>false</default>
+                <label>Product application issue</label>
+            </value>
+            <value>
+                <fullName>Product Inquiry</fullName>
+                <default>false</default>
+                <label>Product Inquiry</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Quality Failure</fullName>
+                <default>false</default>
+                <label>Quality Failure</label>
+            </value>
+            <value>
+                <fullName>Quote Inquiry</fullName>
+                <default>false</default>
+                <label>Quote Inquiry</label>
+            </value>
+            <value>
+                <fullName>Sales Order Inquiry</fullName>
+                <default>false</default>
+                <label>Sales Order Inquiry</label>
+            </value>
+            <value>
+                <fullName>Sales Process</fullName>
+                <default>false</default>
+                <label>Sales Process</label>
+            </value>
+            <value>
+                <fullName>Service Contract Inquiry</fullName>
+                <default>false</default>
+                <label>Service Contract Inquiry</label>
+            </value>
+            <value>
+                <fullName>Shipment Inquiry</fullName>
+                <default>false</default>
+                <label>Shipment Inquiry</label>
+            </value>
+            <value>
+                <fullName>Software Problem</fullName>
+                <default>false</default>
+                <label>Software Problem</label>
+            </value>
+            <value>
+                <fullName>Suggestion</fullName>
+                <default>false</default>
+                <label>Suggestion</label>
+            </value>
+            <value>
+                <fullName>Technical Support</fullName>
+                <default>false</default>
+                <label>Technical Support</label>
+            </value>
+            <value>
+                <fullName>Training Request</fullName>
+                <default>false</default>
+                <label>Training Request</label>
+            </value>
+            <value>
+                <fullName>Update</fullName>
+                <default>false</default>
+                <label>Update</label>
+            </value>
+            <value>
+                <fullName>Work Order Inquiry</fullName>
+                <default>false</default>
+                <label>Work Order Inquiry</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GA_Stakeholder_Mgmt_Plan__c</fullName>
+    <description>The approach the Global Account Plan Owner will take to achieving the annual target.</description>
+    <inlineHelpText>The approach the Global Account Plan Owner will take to achieving the annual target.</inlineHelpText>
+    <label>Stakeholder Management Plan</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

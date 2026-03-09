@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>We store the ServiceAdress + Subject + HTML Body + Additional recipients within C.META E2C Routing.
+This allows us to have a tabular lookup to locate a service address and then dynamically contract the subject+body and recipients so that we do not require Email templates and WorkFlow Alerts. Add any new Serviceadress + subject/body into C.META for future auto Reponses needed.  Also, there is formulaic variable substitution so that the messages can have CaseNumber, Subject, etc however these must be coded within the C.META record values as {!$Record.field_api_name} forexample: {!$Record.CaseNumber}</description>
+    <label>C.META E2C Routing</label>
+    <pluralLabel>C.META E2C Routings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

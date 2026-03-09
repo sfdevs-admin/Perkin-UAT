@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExistingContact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is pulled into the the Custom Lead Conversion S.FLOW_2410: Lead Convert Default</description>
+    <inlineHelpText>If the existing Contact is known, you can fill it in here and it will be used during lead conversion.</inlineHelpText>
+    <label>Existing Contact</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Contact.Merged_Flag__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.FirstName</field>
+            <operation>notContain</operation>
+            <value>1.</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.LastName</field>
+            <operation>notContain</operation>
+            <value>1.</value>
+        </filterItems>
+        <infoMessage>Search Contacts on MDM Approved Accounts</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Leads (Existing Contact)</relationshipLabel>
+    <relationshipName>Leads1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

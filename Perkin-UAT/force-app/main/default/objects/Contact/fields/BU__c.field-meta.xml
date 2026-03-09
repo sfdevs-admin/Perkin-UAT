@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BU__c</fullName>
+    <description>Business Unit</description>
+    <inlineHelpText>Select all that apply.</inlineHelpText>
+    <label>BU</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dx</fullName>
+                <default>false</default>
+                <label>Dx</label>
+            </value>
+            <value>
+                <fullName>IDS</fullName>
+                <default>false</default>
+                <label>IDS</label>
+            </value>
+            <value>
+                <fullName>INF</fullName>
+                <default>false</default>
+                <label>INF</label>
+            </value>
+            <value>
+                <fullName>LST</fullName>
+                <default>false</default>
+                <label>LST</label>
+            </value>
+            <value>
+                <fullName>MED</fullName>
+                <default>false</default>
+                <label>MED</label>
+            </value>
+            <value>
+                <fullName>SVC</fullName>
+                <default>false</default>
+                <label>SVC</label>
+            </value>
+            <value>
+                <fullName>ONE</fullName>
+                <default>false</default>
+                <label>ONE</label>
+            </value>
+            <value>
+                <fullName>EH</fullName>
+                <default>false</default>
+                <label>EH</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

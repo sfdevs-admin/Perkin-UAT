@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products__c</fullName>
+    <description>11/10/15 - To be deleted</description>
+    <label>Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2nd Server Instance</fullName>
+                <default>false</default>
+                <label>2nd Server Instance</label>
+            </value>
+            <value>
+                <fullName>ADB</fullName>
+                <default>false</default>
+                <label>ADB</label>
+            </value>
+            <value>
+                <fullName>ASM</fullName>
+                <default>false</default>
+                <label>ASM</label>
+            </value>
+            <value>
+                <fullName>AVM</fullName>
+                <default>false</default>
+                <label>AVM</label>
+            </value>
+            <value>
+                <fullName>BM</fullName>
+                <default>false</default>
+                <label>BM</label>
+            </value>
+            <value>
+                <fullName>BSM</fullName>
+                <default>false</default>
+                <label>BSM</label>
+            </value>
+            <value>
+                <fullName>CIM</fullName>
+                <default>false</default>
+                <label>CIM</label>
+            </value>
+            <value>
+                <fullName>CM</fullName>
+                <default>false</default>
+                <label>CM</label>
+            </value>
+            <value>
+                <fullName>DRM</fullName>
+                <default>false</default>
+                <label>DRM</label>
+            </value>
+            <value>
+                <fullName>Dx Applied Genomics</fullName>
+                <default>false</default>
+                <label>Dx Applied Genomics</label>
+            </value>
+            <value>
+                <fullName>Dx Blood Bank/Hao Yuan</fullName>
+                <default>false</default>
+                <label>Dx Blood Bank/Hao Yuan</label>
+            </value>
+            <value>
+                <fullName>Dx EUROIMMUN</fullName>
+                <default>false</default>
+                <label>Dx EUROIMMUN</label>
+            </value>
+            <value>
+                <fullName>Dx Independent Clinical Laboratory</fullName>
+                <default>false</default>
+                <label>Dx Independent Clinical Laboratory</label>
+            </value>
+            <value>
+                <fullName>Dx_PCR</fullName>
+                <default>false</default>
+                <label>Dx PCR</label>
+            </value>
+            <value>
+                <fullName>Dx POCT</fullName>
+                <default>false</default>
+                <label>Dx POCT</label>
+            </value>
+            <value>
+                <fullName>Dx Reproductive Health</fullName>
+                <default>false</default>
+                <label>Dx Reproductive Health</label>
+            </value>
+            <value>
+                <fullName>Dx Symbio</fullName>
+                <default>false</default>
+                <label>Dx Symbio</label>
+            </value>
+            <value>
+                <fullName>Dx Vanadis</fullName>
+                <default>false</default>
+                <label>Dx Vanadis</label>
+            </value>
+            <value>
+                <fullName>Finch</fullName>
+                <default>false</default>
+                <label>Finch</label>
+            </value>
+            <value>
+                <fullName>FinchDocs</fullName>
+                <default>false</default>
+                <label>FinchDocs</label>
+            </value>
+            <value>
+                <fullName>FinchTV</fullName>
+                <default>false</default>
+                <label>FinchTV</label>
+            </value>
+            <value>
+                <fullName>FinchTV as a Client</fullName>
+                <default>false</default>
+                <label>FinchTV as a Client</label>
+            </value>
+            <value>
+                <fullName>FOM</fullName>
+                <default>false</default>
+                <label>FOM</label>
+            </value>
+            <value>
+                <fullName>GAIT-GM</fullName>
+                <default>false</default>
+                <label>GAIT-GM</label>
+            </value>
+            <value>
+                <fullName>GAIT-SS</fullName>
+                <default>false</default>
+                <label>GAIT-SS</label>
+            </value>
+            <value>
+                <fullName>GM</fullName>
+                <default>false</default>
+                <label>GM</label>
+            </value>
+            <value>
+                <fullName>Grid</fullName>
+                <default>false</default>
+                <label>Grid</label>
+            </value>
+            <value>
+                <fullName>iFinch</fullName>
+                <default>false</default>
+                <label>iFinch</label>
+            </value>
+            <value>
+                <fullName>LDAP</fullName>
+                <default>false</default>
+                <label>LDAP</label>
+            </value>
+            <value>
+                <fullName>LM</fullName>
+                <default>false</default>
+                <label>LM</label>
+            </value>
+            <value>
+                <fullName>OM</fullName>
+                <default>false</default>
+                <label>OM</label>
+            </value>
+            <value>
+                <fullName>OOM</fullName>
+                <default>false</default>
+                <label>OOM</label>
+            </value>
+            <value>
+                <fullName>PE</fullName>
+                <default>false</default>
+                <label>PE</label>
+            </value>
+            <value>
+                <fullName>PerkinElmer Genomics</fullName>
+                <default>false</default>
+                <label>PerkinElmer Genomics</label>
+            </value>
+            <value>
+                <fullName>Services</fullName>
+                <default>false</default>
+                <label>Services</label>
+            </value>
+            <value>
+                <fullName>SIM</fullName>
+                <default>false</default>
+                <label>SIM</label>
+            </value>
+            <value>
+                <fullName>SLA</fullName>
+                <default>false</default>
+                <label>SLA</label>
+            </value>
+            <value>
+                <fullName>SpecimenGate Software</fullName>
+                <default>false</default>
+                <label>SpecimenGate Software</label>
+            </value>
+            <value>
+                <fullName>SPM</fullName>
+                <default>false</default>
+                <label>SPM</label>
+            </value>
+            <value>
+                <fullName>SQL*LIMS</fullName>
+                <default>false</default>
+                <label>SQL*LIMS</label>
+            </value>
+            <value>
+                <fullName>SRM</fullName>
+                <default>false</default>
+                <label>SRM</label>
+            </value>
+            <value>
+                <fullName>Staging Server</fullName>
+                <default>false</default>
+                <label>Staging Server</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

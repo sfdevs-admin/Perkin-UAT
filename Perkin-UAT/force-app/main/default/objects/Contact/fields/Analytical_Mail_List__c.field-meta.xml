@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analytical_Mail_List__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(  AA_List__c  ,&quot;TRUE&quot;,if(   FLR_List__c   ,&quot;TRUE&quot;,if(   GC_List__c   ,&quot;TRUE&quot;,if(  ICP_List__c   ,&quot;TRUE&quot;,if(  ICPMS_List__c   ,&quot;TRUE&quot;,if(   IR_List__c  ,&quot;TRUE&quot;,if(   TEA_List__c   ,&quot;TRUE&quot;,if(    UVS_List__c   ,&quot;TRUE&quot;,if(     AS_Consumables_List__c   ,&quot;TRUE&quot;,NULL)))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Analytical Mail List</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

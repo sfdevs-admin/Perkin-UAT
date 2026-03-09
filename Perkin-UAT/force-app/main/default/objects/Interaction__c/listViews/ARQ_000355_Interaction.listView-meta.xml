@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_000355_Interaction</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: APAC China - AM - TianjinHenan</label>
+    <queue>ARQ_000258</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_CC_mand_flds_upd_new_status</fullName>
+    <active>true</active>
+    <description>Customer care quality questions, source of error ,reason code, Ref. Txn Type and Ref. Txn Number are required when changing the status of a case from &#39;New&#39; to anything else</description>
+    <errorConditionFormula>AND(
+        $Permission.BD_Bypass_Automation != TRUE 
+	,RecordType.Name = &#39;Customer Care - Complaint&#39;
+	,NOT(ISPICKVAL(Status, &#39;New&#39;))
+	,OR(
+		ISBLANK(TEXT(Complaint_Question1__c))
+		,ISBLANK(TEXT(Complaint_Question2__c))
+		,ISBLANK(TEXT(Complaint_Question3__c))
+		,ISBLANK(TEXT(Complaint_Question4__c))
+		,ISBLANK(TEXT(Complaint_Question5__c))
+		,ISBLANK(TEXT( Source_of_Error__c))
+		,ISBLANK(TEXT( Reason_Code__c))
+		,ISBLANK( Reference_Transaction_Number__c) 
+		,ISBLANK( TEXT(Reference_Transaction_Object__c))
+
+	)
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>V.RULE_CASE_021: Qualification questions, Source of Error and Reason Code, Ref. Txn Type	and Ref. Txn Number  are required before moving this Case out of the New Status</errorMessage>
+</ValidationRule>

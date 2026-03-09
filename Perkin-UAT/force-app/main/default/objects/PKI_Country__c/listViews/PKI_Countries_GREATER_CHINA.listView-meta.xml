@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Countries_GREATER_CHINA</fullName>
+    <columns>Super_Territory__c</columns>
+    <columns>Global_Territory__c</columns>
+    <columns>Territory__c</columns>
+    <columns>Sub_Territory__c</columns>
+    <columns>NAME</columns>
+    <columns>Country_ISO_Code__c</columns>
+    <columns>Country_ISO_Alpha_2__c</columns>
+    <columns>Country_ISO_Alpha_3__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Inactive__c</columns>
+    <columns>FlagForUpdate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Super_Territory__c</field>
+        <operation>equals</operation>
+        <value>GREATER CHINA</value>
+    </filters>
+    <label>PKI Countries (GREATER CHINA)</label>
+</ListView>

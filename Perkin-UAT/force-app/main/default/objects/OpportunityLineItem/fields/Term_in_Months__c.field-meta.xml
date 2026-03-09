@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Term_in_Months__c</fullName>
+    <description>This a Formula field that calculates Term in full months from Start to End Date. 
+15+ days are being considered as a 1 Month.</description>
+    <externalId>false</externalId>
+    <formula>(((YEAR(End_Date_INF__c) - YEAR(Start_Date_INF__c ) - 1) *12) + (12 - MONTH(Start_Date_INF__c ) +1) + MONTH(End_Date_INF__c)- 1+ 
+
+IF((DAY(End_Date_INF__c) - DAY(Start_Date_INF__c )&gt;15),1, 
+
+IF((DAY(End_Date_INF__c) - DAY(Start_Date_INF__c )&lt;(-15)),-1, 
+
+
+
+0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Term (in Months)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Asset_mandatory</fullName>
+    <active>true</active>
+    <description>LST - For Field Service Type</description>
+    <errorConditionFormula>NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+&amp;&amp; 
+ISPICKVAL(Type, &quot;Field Service&quot;)
+&amp;&amp; 
+OR(ISPICKVAL(Sub_Type__c,&quot;Assist&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;FAT / SAT&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Field Application Support&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Hardware&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Installation&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Integration&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Move / Re-Install&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Preventative Maintenance&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Service Call&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Update / Upgrade&quot;)
+,ISPICKVAL(Sub_Type__c,&quot;Validation&quot;))
+&amp;&amp; 
+ISBLANK( AssetId )</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>V.RULE_CASE_017: Please link to correct Asset in &quot;Assets&quot; section of Case</errorMessage>
+</ValidationRule>

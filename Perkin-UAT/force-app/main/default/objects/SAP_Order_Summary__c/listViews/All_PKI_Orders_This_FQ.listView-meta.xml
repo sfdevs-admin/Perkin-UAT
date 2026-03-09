@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_PKI_Orders_This_FQ</fullName>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Order_Net_Currency__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Current_Global_Delivery_Date__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Customer_Accept_Date__c</columns>
+    <columns>Penalty_Start_Date__c</columns>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxRevRecDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Actual_Customer_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Order_Path__c</field>
+        <operation>notEqual</operation>
+        <value>Processing Hold</value>
+    </filters>
+    <label>All PKI Orders (This FQ)</label>
+</ListView>

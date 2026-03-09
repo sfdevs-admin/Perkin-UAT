@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B01MailListCheck</fullName>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>AA_List__c</columns>
+    <columns>ICP_List__c</columns>
+    <columns>ICPMS_List__c</columns>
+    <columns>GC_List__c</columns>
+    <columns>LC_List__c</columns>
+    <columns>IR_List__c</columns>
+    <columns>UVS_List__c</columns>
+    <columns>TEA_List__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>startsWith</operation>
+        <value>730,731,735,736.737,738,739,746</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>startsWith</operation>
+        <value>760,761,762,763,764,765,766,768,769</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>startsWith</operation>
+        <value>790,791,792,793,794,795,796,797,798</value>
+    </filters>
+    <label>B01 Mail List Check</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_001077</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonUpdate__c</fullName>
+    <description>ReasonUpdate holds Jira ticket and why the field was updated</description>
+    <inlineHelpText>Please enter the  Jira ticket and why the field was updated</inlineHelpText>
+    <label>ReasonUpdate</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Order_Status__c</fullName>
+    <label>Order Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>On Hold - Credit</fullName>
+                <default>false</default>
+                <label>On Hold - Credit</label>
+            </value>
+            <value>
+                <fullName>Assigned</fullName>
+                <default>false</default>
+                <label>Assigned</label>
+            </value>
+            <value>
+                <fullName>Ready to Dispatch</fullName>
+                <default>false</default>
+                <label>Ready to Dispatch</label>
+            </value>
+            <value>
+                <fullName>Technician Accepted</fullName>
+                <default>false</default>
+                <label>Technician Accepted</label>
+            </value>
+            <value>
+                <fullName>Technician Rejected</fullName>
+                <default>false</default>
+                <label>Technician Rejected</label>
+            </value>
+            <value>
+                <fullName>Technician Enroute</fullName>
+                <default>false</default>
+                <label>Technician Enroute</label>
+            </value>
+            <value>
+                <fullName>Technician Onsite</fullName>
+                <default>false</default>
+                <label>Technician Onsite</label>
+            </value>
+            <value>
+                <fullName>Awaiting Customer</fullName>
+                <default>false</default>
+                <label>Awaiting Customer</label>
+            </value>
+            <value>
+                <fullName>Estimate Approved</fullName>
+                <default>false</default>
+                <label>Estimate Approved</label>
+            </value>
+            <value>
+                <fullName>Estimate Rejected</fullName>
+                <default>false</default>
+                <label>Estimate Rejected</label>
+            </value>
+            <value>
+                <fullName>Requires Revisit</fullName>
+                <default>false</default>
+                <label>Requires Revisit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

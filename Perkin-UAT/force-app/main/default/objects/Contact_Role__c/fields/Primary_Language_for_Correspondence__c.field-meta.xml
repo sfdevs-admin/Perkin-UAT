@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Language_for_Correspondence__c</fullName>
+    <label>Primary Language for Correspondence</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>English</fullName>
+                <default>false</default>
+                <label>English</label>
+            </value>
+            <value>
+                <fullName>Flemish</fullName>
+                <default>false</default>
+                <label>Flemish</label>
+            </value>
+            <value>
+                <fullName>French</fullName>
+                <default>false</default>
+                <label>French</label>
+            </value>
+            <value>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+                <label>Portuguese</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Swedish</fullName>
+                <default>false</default>
+                <label>Swedish</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

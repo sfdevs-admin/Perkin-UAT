@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Integration_Errors</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_ErrorMessage__c</columns>
+    <columns>SMAX_PS_PartsOrder__c</columns>
+    <columns>SMAX_PS_WorkDetail__c</columns>
+    <columns>SMAX_PS_WorkOrder__c</columns>
+    <columns>SMAX_PS_My_Integration_Errors__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMAX_PS_My_Integration_Errors__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Integration Errors</label>
+    <language>en_US</language>
+</ListView>

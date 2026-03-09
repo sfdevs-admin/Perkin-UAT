@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Quality_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( ShippingCity),0,1) + IF(ISBLANK(  ShippingCountry ),0,1)+IF(ISBLANK(  ShippingState ),0,1)+IF(ISBLANK(  ShippingStreet ),0,1)+IF(ISBLANK(  ShippingPostalCode ),0,1) + 
+
+IF( ISPICKVAL(Industry,&quot;&quot;), 0,1) +  IF(LEN(Phone) = 0, 0,1) + IF( ISPICKVAL( Laboratory_Type__c ,&quot;&quot;), 0,1) +IF( ISBLANK(  Name2__c ), 0,1) + IF(ISBLANK(  Website ),0,1)</formula>
+    <inlineHelpText>The Profile completeness score depends on providing accurate information in the following fields
+Shipping Street
+Shipping City
+Shipping State
+Shipping Zip/PostalL
+Shipping Country
+Phone
+Industry
+Laboratory Type
+Department
+Website</inlineHelpText>
+    <label>Profile Completeness Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method__c</fullName>
+    <description>This field is used in the &quot;Custom UI&quot; (Generate NetSuite Order) and the details captured are sent to NetSuite through Integration (ITSFDC-5103)</description>
+    <inlineHelpText>This field is used in the &quot;Custom UI&quot; (Generate NetSuite Order) and the details captured are sent to NetSuite through Integration (ITSFDC-5103)</inlineHelpText>
+    <label>Payment Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Visa</fullName>
+                <default>false</default>
+                <label>Visa</label>
+            </value>
+            <value>
+                <fullName>Mastercard</fullName>
+                <default>false</default>
+                <label>Mastercard</label>
+            </value>
+            <value>
+                <fullName>AMEX</fullName>
+                <default>false</default>
+                <label>AMEX</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

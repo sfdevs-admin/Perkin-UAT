@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Milestone_Status__c</fullName>
+    <description>Milestone Status of an E-Commerce Case</description>
+    <label>Milestone Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Setup - Credentials and Punchout</fullName>
+                <default>false</default>
+                <label>Setup - Credentials and Punchout</label>
+            </value>
+            <value>
+                <fullName>Setup - Map Ship to Codes</fullName>
+                <default>false</default>
+                <label>Setup - Map Ship to Codes</label>
+            </value>
+            <value>
+                <fullName>Test - Punch-Out &amp; Order</fullName>
+                <default>false</default>
+                <label>Test - Punch-Out &amp; Order</label>
+            </value>
+            <value>
+                <fullName>Test - Invoice</fullName>
+                <default>false</default>
+                <label>Test - Invoice</label>
+            </value>
+            <value>
+                <fullName>Test - Verify Order</fullName>
+                <default>false</default>
+                <label>Test - Verify Order</label>
+            </value>
+            <value>
+                <fullName>Test - Create invoice</fullName>
+                <default>false</default>
+                <label>Test - Create invoice</label>
+            </value>
+            <value>
+                <fullName>Test - Map invoice</fullName>
+                <default>false</default>
+                <label>Test - Map invoice</label>
+            </value>
+            <value>
+                <fullName>Approve</fullName>
+                <default>false</default>
+                <label>Approve</label>
+            </value>
+            <value>
+                <fullName>Deployment</fullName>
+                <default>false</default>
+                <label>Deployment</label>
+            </value>
+            <value>
+                <fullName>Post-Deployment Follow-Up</fullName>
+                <default>false</default>
+                <label>Post-Deployment Follow-Up</label>
+            </value>
+            <value>
+                <fullName>Credential Set-Up Phase</fullName>
+                <default>false</default>
+                <label>Credential Set-Up Phase</label>
+            </value>
+            <value>
+                <fullName>Address Connection Issues</fullName>
+                <default>false</default>
+                <label>Address Connection Issues</label>
+            </value>
+            <value>
+                <fullName>Invoice Confirmation</fullName>
+                <default>false</default>
+                <label>Invoice Confirmation</label>
+            </value>
+            <value>
+                <fullName>Sending Order Text File</fullName>
+                <default>false</default>
+                <label>Sending Order Text File</label>
+            </value>
+            <value>
+                <fullName>Deployment Phase</fullName>
+                <default>false</default>
+                <label>Deployment Phase</label>
+            </value>
+            <value>
+                <fullName>Address Invoice Issues</fullName>
+                <default>false</default>
+                <label>Address Invoice Issues</label>
+            </value>
+            <value>
+                <fullName>Verify Order</fullName>
+                <default>false</default>
+                <label>Verify Order</label>
+            </value>
+            <value>
+                <fullName>Mapping Ship to Codes</fullName>
+                <default>false</default>
+                <label>Mapping Ship to Codes</label>
+            </value>
+            <value>
+                <fullName>Approval by Customer and PKI (Go-Live)</fullName>
+                <default>false</default>
+                <label>Approval by Customer and PKI (Go-Live)</label>
+            </value>
+            <value>
+                <fullName>Punch-Out Testing</fullName>
+                <default>false</default>
+                <label>Punch-Out Testing</label>
+            </value>
+            <value>
+                <fullName>Order Testing</fullName>
+                <default>false</default>
+                <label>Order Testing</label>
+            </value>
+            <value>
+                <fullName>Deployment Confirmation</fullName>
+                <default>false</default>
+                <label>Deployment Confirmation</label>
+            </value>
+            <value>
+                <fullName>Punch-Out Creation</fullName>
+                <default>false</default>
+                <label>Punch-Out Creation</label>
+            </value>
+            <value>
+                <fullName>Invoice Creation</fullName>
+                <default>false</default>
+                <label>Invoice Creation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

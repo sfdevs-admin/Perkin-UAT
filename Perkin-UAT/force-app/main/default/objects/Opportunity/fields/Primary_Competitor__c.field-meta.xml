@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Competitor__c</fullName>
+    <label>Primary Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABI SQL LIMS</fullName>
+                <default>false</default>
+                <label>ABI SQL LIMS</label>
+            </value>
+            <value>
+                <fullName>ATL</fullName>
+                <default>false</default>
+                <label>ATL</label>
+            </value>
+            <value>
+                <fullName>Baytek Bliss</fullName>
+                <default>false</default>
+                <label>Baytek Bliss</label>
+            </value>
+            <value>
+                <fullName>Chemware Horizons</fullName>
+                <default>false</default>
+                <label>Chemware Horizons</label>
+            </value>
+            <value>
+                <fullName>LabSoft</fullName>
+                <default>false</default>
+                <label>LabSoft</label>
+            </value>
+            <value>
+                <fullName>LabVantage</fullName>
+                <default>false</default>
+                <label>LabVantage</label>
+            </value>
+            <value>
+                <fullName>Labware</fullName>
+                <default>false</default>
+                <label>Labware</label>
+            </value>
+            <value>
+                <fullName>Promium</fullName>
+                <default>false</default>
+                <label>Promium</label>
+            </value>
+            <value>
+                <fullName>StarLIMS</fullName>
+                <default>false</default>
+                <label>StarLIMS</label>
+            </value>
+            <value>
+                <fullName>Build In House</fullName>
+                <default>false</default>
+                <label>Build In House</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>THERMO</fullName>
+                <default>false</default>
+                <label>THERMO</label>
+            </value>
+            <value>
+                <fullName>AGILENT</fullName>
+                <default>false</default>
+                <label>AGILENT</label>
+            </value>
+            <value>
+                <fullName>METROLOGY</fullName>
+                <default>false</default>
+                <label>METROLOGY</label>
+            </value>
+            <value>
+                <fullName>JCI</fullName>
+                <default>false</default>
+                <label>JCI</label>
+            </value>
+            <value>
+                <fullName>JLL</fullName>
+                <default>false</default>
+                <label>JLL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

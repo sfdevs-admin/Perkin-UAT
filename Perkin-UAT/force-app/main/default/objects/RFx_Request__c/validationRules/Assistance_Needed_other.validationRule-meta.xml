@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assistance_Needed_other</fullName>
+    <active>true</active>
+    <description>If Assistance Needed = Yes then prompts a message to the use to enter Reason Assistance.</description>
+    <errorConditionFormula>AND( ISPICKVAL(Assistance_Needed__c,&#39;Yes&#39;),
+ISBLANK(Reason_Assistance__c))</errorConditionFormula>
+    <errorDisplayField>Reason_Assistance__c</errorDisplayField>
+    <errorMessage>V.RULE_RFx_REQUEST_002: Please enter the reason for Assistance needed</errorMessage>
+</ValidationRule>

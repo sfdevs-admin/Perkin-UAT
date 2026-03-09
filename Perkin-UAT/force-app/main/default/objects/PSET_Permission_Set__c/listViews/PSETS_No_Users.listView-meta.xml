@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSETS_No_Users</fullName>
+    <columns>Label__c</columns>
+    <columns>NAME</columns>
+    <columns>Description__c</columns>
+    <columns>IsCustom__c</columns>
+    <columns>IsOwnedByProfile__c</columns>
+    <columns>CreatedDate_FromStandard__c</columns>
+    <columns>CreatedById_FromStandard__c</columns>
+    <columns>LastModifiedById_FromStandard__c</columns>
+    <columns>LastModifiedDate_FromStandard__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>DeactivationDate__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>IsOwnedByProfile__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>PSETS (No Users)</label>
+</ListView>

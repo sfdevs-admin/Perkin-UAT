@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_LSS_Bid_Compt_Other_Mandatory</fullName>
+    <active>true</active>
+    <description>Updated by PwC as part of SC-433 - Consumables and Service Contract record types excluded from the validation</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c,
+ RecordType.DeveloperName &lt;&gt; &#39;Consumables&#39;,
+ RecordType.DeveloperName &lt;&gt; &#39;ServiceContract&#39;,
+AND(( INCLUDES(LSS_Bid_Competitor__c, &quot;other&quot;) ),   LSS_Bid_competitor_Other__c =&quot;&quot; ))</errorConditionFormula>
+    <errorDisplayField>Likely_to_Purchase__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_013: If &quot;Other&quot; competitor is selected, provide details</errorMessage>
+</ValidationRule>

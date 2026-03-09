@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>today</fullName>
+    <columns>SOLUTION.ISSUE</columns>
+    <columns>SOLUTION.SOLUTION_NUMBER</columns>
+    <columns>SOLUTION.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>SOLUTION.TIMES_USED</columns>
+    <columns>SOLUTION.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SOLUTION.ISSUE</field>
+        <operation>contains</operation>
+        <value>test</value>
+    </filters>
+    <filters>
+        <field>SOLUTION.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>today</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000713</group>
+        <group>ARQ_001032</group>
+    </sharedTo>
+</ListView>

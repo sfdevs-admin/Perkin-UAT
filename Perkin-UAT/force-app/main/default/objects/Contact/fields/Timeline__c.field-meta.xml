@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timeline__c</fullName>
+    <description>ANNUITAS PDG Program</description>
+    <label>Timeline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0-3 months</fullName>
+                <default>false</default>
+                <label>0-3 months</label>
+            </value>
+            <value>
+                <fullName>3-6 months</fullName>
+                <default>false</default>
+                <label>3-6 months</label>
+            </value>
+            <value>
+                <fullName>6-12 months</fullName>
+                <default>false</default>
+                <label>6-12 months</label>
+            </value>
+            <value>
+                <fullName>12+ months</fullName>
+                <default>false</default>
+                <label>12+ months</label>
+            </value>
+            <value>
+                <fullName>We’ve already engaged a partner</fullName>
+                <default>false</default>
+                <label>We’ve already engaged a partner</label>
+            </value>
+            <value>
+                <fullName>We don’t have any current plans</fullName>
+                <default>false</default>
+                <label>We don’t have any current plans</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

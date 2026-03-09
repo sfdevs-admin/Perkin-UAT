@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADMIN_All_COVID_19</fullName>
+    <columns>NAME</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Credit_Status_Name__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Ship_To_Customer_Name__c</columns>
+    <columns>Inco_Terms_Description__c</columns>
+    <columns>Sold_To_Customer_Name__c</columns>
+    <columns>Bill_To_Customer_Name__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>fxCOVIDItems__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>(ADMIN) All COVID-19</label>
+    <sharedTo>
+        <group>ARQ_001007</group>
+        <group>ARQ_001019</group>
+    </sharedTo>
+</ListView>

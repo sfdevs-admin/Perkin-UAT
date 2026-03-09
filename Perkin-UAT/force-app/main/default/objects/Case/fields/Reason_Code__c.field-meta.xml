@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Code__c</fullName>
+    <inlineHelpText>Code used for SAP FSCM integration</inlineHelpText>
+    <label>Reason Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>R10 - NCP-Non-Compliance(USA Govt Contract)</fullName>
+                <default>false</default>
+                <label>R10 - NCP-Non-Compliance(USA Govt Contract)</label>
+            </value>
+            <value>
+                <fullName>R11 - Incorrect promotion set up</fullName>
+                <default>false</default>
+                <label>R11 - Incorrect promotion set up</label>
+            </value>
+            <value>
+                <fullName>R12 - Deal expired</fullName>
+                <default>false</default>
+                <label>R12 - Deal expired</label>
+            </value>
+            <value>
+                <fullName>R13 - Incorrect deal setup</fullName>
+                <default>false</default>
+                <label>R13 - Incorrect deal setup</label>
+            </value>
+            <value>
+                <fullName>R14 - Special price agreement</fullName>
+                <default>false</default>
+                <label>R14 - Special price agreement</label>
+            </value>
+            <value>
+                <fullName>R15 - TAX-Tax/VAT</fullName>
+                <default>false</default>
+                <label>R15 - TAX-Tax/VAT</label>
+            </value>
+            <value>
+                <fullName>R16 - VCH-Voucher Not Done (USA)</fullName>
+                <default>false</default>
+                <label>R16 - VCH-Voucher Not Done (USA)</label>
+            </value>
+            <value>
+                <fullName>R17 - WBT-Wrong Bill to</fullName>
+                <default>false</default>
+                <label>R17 - WBT-Wrong Bill to</label>
+            </value>
+            <value>
+                <fullName>R18 - WPO-Incomplete PO/wrong PO#</fullName>
+                <default>false</default>
+                <label>R18 - WPO-Incomplete PO/wrong PO#</label>
+            </value>
+            <value>
+                <fullName>R19 - Documents required for payment</fullName>
+                <default>false</default>
+                <label>R19 - Documents required for payment</label>
+            </value>
+            <value>
+                <fullName>R1 - INV-Multiple/Unusual Billing Errors</fullName>
+                <default>false</default>
+                <label>R1 - INV-Multiple/Unusual Billing Errors</label>
+            </value>
+            <value>
+                <fullName>R20 - ERP System error</fullName>
+                <default>false</default>
+                <label>R20 - ERP System error</label>
+            </value>
+            <value>
+                <fullName>R21 - Trade In/Trade Up</fullName>
+                <default>false</default>
+                <label>R21 - Trade In/Trade Up</label>
+            </value>
+            <value>
+                <fullName>R22 - SBD-Service Billing dispute</fullName>
+                <default>false</default>
+                <label>R22 - SBD-Service Billing dispute</label>
+            </value>
+            <value>
+                <fullName>R23 - INV-Customer error leading to wrong &quot;item&quot;</fullName>
+                <default>false</default>
+                <label>R23 - INV-Customer error leading to wrong &quot;item&quot;</label>
+            </value>
+            <value>
+                <fullName>R24 - WST-Customer error leading to wrong &quot;shi</fullName>
+                <default>false</default>
+                <label>R24 - WST-Customer error leading to wrong &quot;shi</label>
+            </value>
+            <value>
+                <fullName>R25 - INC-Customer not ready to do install</fullName>
+                <default>false</default>
+                <label>R25 - INC-Customer not ready to do install</label>
+            </value>
+            <value>
+                <fullName>R26 - EDN : EDI submitted not approved</fullName>
+                <default>false</default>
+                <label>R26 - EDN : EDI submitted not approved</label>
+            </value>
+            <value>
+                <fullName>R27 - DOC : Doc required for payment</fullName>
+                <default>false</default>
+                <label>R27 - DOC : Doc required for payment</label>
+            </value>
+            <value>
+                <fullName>R28 - EDR : EDI rejection</fullName>
+                <default>false</default>
+                <label>R28 - EDR : EDI rejection</label>
+            </value>
+            <value>
+                <fullName>R29 - WVN-Wrong Vendor Name</fullName>
+                <default>false</default>
+                <label>R29 - WVN-Wrong Vendor Name</label>
+            </value>
+            <value>
+                <fullName>R2 - Prepayments/Installments/consolidated in</fullName>
+                <default>false</default>
+                <label>R2 - Prepayments/Installments/consolidated in</label>
+            </value>
+            <value>
+                <fullName>R30 - Sent to QMS</fullName>
+                <default>false</default>
+                <label>R30 - Sent to QMS</label>
+            </value>
+            <value>
+                <fullName>R32 - EU only - Missing PO</fullName>
+                <default>false</default>
+                <label>R32 - EU only - Missing PO</label>
+            </value>
+            <value>
+                <fullName>R33 - Wrong item used in service order confirmation</fullName>
+                <default>false</default>
+                <label>R33 - Wrong item used in service order confirmation</label>
+            </value>
+            <value>
+                <fullName>R3 - Order/Contract Cancelled</fullName>
+                <default>false</default>
+                <label>R3 - Order/Contract Cancelled</label>
+            </value>
+            <value>
+                <fullName>R4 - On Contract/Warranty, Should Not Be Bill</fullName>
+                <default>false</default>
+                <label>R4 - On Contract/Warranty, Should Not Be Bill</label>
+            </value>
+            <value>
+                <fullName>R5 - PRI-Price wrong</fullName>
+                <default>false</default>
+                <label>R5 - PRI-Price wrong</label>
+            </value>
+            <value>
+                <fullName>R6 - CCD-Credit Card Issues</fullName>
+                <default>false</default>
+                <label>R6 - CCD-Credit Card Issues</label>
+            </value>
+            <value>
+                <fullName>R7 - EDI-Electronic Billing Not Done</fullName>
+                <default>false</default>
+                <label>R7 - EDI-Electronic Billing Not Done</label>
+            </value>
+            <value>
+                <fullName>R8 - EPO-exceeded PO/Expired PO</fullName>
+                <default>false</default>
+                <label>R8 - EPO-exceeded PO/Expired PO</label>
+            </value>
+            <value>
+                <fullName>R9 - FRE-Freight Charge Dispute</fullName>
+                <default>false</default>
+                <label>R9 - FRE-Freight Charge Dispute</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

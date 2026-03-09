@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxProfileName__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE ( Profile.Name
+           , &quot; PT1&quot;, &quot;System Administrator&quot;
+           , &quot; PT2&quot;, &quot;Standard User&quot;
+           , &quot; PT3&quot;, &quot;Read Only&quot;
+           , Profile.Name
+          )
+
+/*
+PT1 System Administrator
+PT2 Standard User
+PT3 Read Only
+PT4 Solution Manager
+PT5 Marketing User
+PT6 Contract Manager
+PT7 Partner User
+PT8 Standard Platform User
+PT9 Standard Platform One User
+PT10 Salesforce Administrator
+PT11 Package License Manager
+PT12 Standard Partner
+PT13 Customer Portal User
+PT14 Customer Portal Manager
+*/</formula>
+    <label>fxProfileName</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

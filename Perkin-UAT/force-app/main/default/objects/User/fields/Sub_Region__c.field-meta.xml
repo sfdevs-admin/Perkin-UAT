@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Region__c</fullName>
+    <label>Sub-Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AUSTRALIA</fullName>
+                <default>false</default>
+                <label>AUSTRALIA</label>
+            </value>
+            <value>
+                <fullName>CANADA</fullName>
+                <default>false</default>
+                <label>CANADA</label>
+            </value>
+            <value>
+                <fullName>CHINA</fullName>
+                <default>false</default>
+                <label>CHINA</label>
+            </value>
+            <value>
+                <fullName>EUROPE</fullName>
+                <default>false</default>
+                <label>EUROPE</label>
+            </value>
+            <value>
+                <fullName>INDIA</fullName>
+                <default>false</default>
+                <label>INDIA</label>
+            </value>
+            <value>
+                <fullName>INDONESIA</fullName>
+                <default>false</default>
+                <label>INDONESIA</label>
+            </value>
+            <value>
+                <fullName>ISRAEL</fullName>
+                <default>false</default>
+                <label>ISRAEL</label>
+            </value>
+            <value>
+                <fullName>JAPAN</fullName>
+                <default>false</default>
+                <label>JAPAN</label>
+            </value>
+            <value>
+                <fullName>KOREA, REPUBLIC OF</fullName>
+                <default>false</default>
+                <label>KOREA, REPUBLIC OF</label>
+            </value>
+            <value>
+                <fullName>KOSEA</fullName>
+                <default>false</default>
+                <label>KOSEA</label>
+            </value>
+            <value>
+                <fullName>LATIN AMERICA</fullName>
+                <default>false</default>
+                <label>LATIN AMERICA</label>
+            </value>
+            <value>
+                <fullName>MALAYSIA</fullName>
+                <default>false</default>
+                <label>MALAYSIA</label>
+            </value>
+            <value>
+                <fullName>NORTH AMERICA</fullName>
+                <default>false</default>
+                <label>NORTH AMERICA</label>
+            </value>
+            <value>
+                <fullName>PHILIPPINES</fullName>
+                <default>false</default>
+                <label>PHILIPPINES</label>
+            </value>
+            <value>
+                <fullName>SINGAPORE</fullName>
+                <default>false</default>
+                <label>SINGAPORE</label>
+            </value>
+            <value>
+                <fullName>SOUTH AMERICA</fullName>
+                <default>false</default>
+                <label>SOUTH AMERICA</label>
+            </value>
+            <value>
+                <fullName>SOUTH ASIA</fullName>
+                <default>false</default>
+                <label>SOUTH ASIA</label>
+            </value>
+            <value>
+                <fullName>SOUTH PAC</fullName>
+                <default>false</default>
+                <label>SOUTH PAC</label>
+            </value>
+            <value>
+                <fullName>THAILAND</fullName>
+                <default>false</default>
+                <label>THAILAND</label>
+            </value>
+            <value>
+                <fullName>UNITED STATES</fullName>
+                <default>false</default>
+                <label>UNITED STATES</label>
+            </value>
+            <value>
+                <fullName>VIETNAM</fullName>
+                <default>false</default>
+                <label>VIETNAM</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AMERICAS</controllingFieldValue>
+            <valueName>CANADA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMERICAS</controllingFieldValue>
+            <valueName>LATIN AMERICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMERICAS</controllingFieldValue>
+            <valueName>NORTH AMERICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMERICAS</controllingFieldValue>
+            <valueName>SOUTH AMERICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMERICAS</controllingFieldValue>
+            <valueName>UNITED STATES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>AUSTRALIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>CHINA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>INDONESIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>JAPAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>KOREA, REPUBLIC OF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>KOSEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>MALAYSIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>PHILIPPINES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>SINGAPORE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>SOUTH ASIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>SOUTH PAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>THAILAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>VIETNAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>EUROPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>INDIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>ISRAEL</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

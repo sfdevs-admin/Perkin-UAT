@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Country_Pricebooks_QUICK_FILTER</fullName>
+    <columns>NAME</columns>
+    <columns>PKI_Country__c</columns>
+    <columns>PKI_Country_Name__c</columns>
+    <columns>PriceBookName__c</columns>
+    <columns>fxCountryISOAlpha2__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxCountryISOAlpha2__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>PKI Country Pricebooks (*QUICK FILTER*)</label>
+</ListView>

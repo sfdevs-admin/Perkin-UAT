@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Price__c</fullName>
+    <formula>if(ISPICKVAL( Type__c , &quot;INST&quot;), if( Age__c  &lt; 6, List_Price__c ,
+if(Age__c &lt;19, round((List_Price__c * (1-(Age__c *1.9/100))),0),
+if(Age__c &lt;25, round((List_Price__c * (1-(Age__c *2.4/100))),0),
+round((List_Price__c *0.4),0)))), if(Age__c &lt; 4, List_Price__c, IF(Age__c &lt; 7, List_Price__c * 0.75,List_Price__c*0.5) ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Discount Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

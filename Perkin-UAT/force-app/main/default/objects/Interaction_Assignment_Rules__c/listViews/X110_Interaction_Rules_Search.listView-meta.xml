@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X110_Interaction_Rules_Search</fullName>
+    <columns>Inactive__c</columns>
+    <columns>NAME</columns>
+    <columns>Country__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>PostalCode__c</columns>
+    <columns>PKIQueue__c</columns>
+    <columns>SolutionsAreaofInterest__c</columns>
+    <columns>fxQueueName__c</columns>
+    <columns>fxQueueEmail__c</columns>
+    <columns>ProductClass__c</columns>
+    <columns>Region__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>RunOrder__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxQueueEmail__c</field>
+        <operation>contains</operation>
+        <value>pablo</value>
+    </filters>
+    <label>110. Interaction Rules - Search</label>
+</ListView>

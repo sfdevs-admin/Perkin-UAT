@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer_Cant_Edit_Closed_Won_Opps</fullName>
+    <active>true</active>
+    <description>Dealers cant edit closed won opportunity records</description>
+    <errorConditionFormula>AND( $Profile.Name  = &quot;Dealer&quot;, NOT(ISNEW()) ,  ISPICKVAL(StageName, &quot;Closed Won&quot;) )</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_057: Dealer Portal Users cant neither change the stage to &#39;Close-won&#39; nor can modify already &#39;Closed - Won&#39; opportunities.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Disable_Expired_Reseller_Account</fullName>
+    <active>true</active>
+    <description>Checks &#39;Reseller Account&#39; expired or not .</description>
+    <errorConditionFormula>AND(
+    $Permission.BD_Bypass_Automation != TRUE,
+    OR(ISNEW()
+      ,ISCHANGED( Reseller__c )
+      ,AND(ISCHANGED(StageName),fxStageNumber__c &lt;= 6)
+      )  
+    ,RecordType.Name = &quot;Informatics&quot;
+    ,NOT(ISBLANK(Reseller__c))
+    ,Reseller__r.Reseller_Term_Date__c &lt;= TODAY()
+  )</errorConditionFormula>
+    <errorDisplayField>Reseller__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_068: The Reseller &quot;Contract Date&quot; has expired. You will need to send an email to informatics.operations2@perkinelmer.com and work with the Operations team before proceeding.</errorMessage>
+</ValidationRule>

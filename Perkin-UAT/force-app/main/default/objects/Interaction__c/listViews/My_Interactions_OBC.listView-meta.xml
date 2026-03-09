@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Interactions_OBC</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Lead__c</columns>
+    <columns>FlagForUpdate__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>AES,LSDX</value>
+    </filters>
+    <label>My Interactions OBC</label>
+</ListView>

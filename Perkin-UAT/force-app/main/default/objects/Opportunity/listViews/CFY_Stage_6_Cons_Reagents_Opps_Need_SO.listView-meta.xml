@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CFY_Stage_6_Cons_Reagents_Opps_Need_SO</fullName>
+    <booleanFilter>1 AND (2 OR 5) AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.FORECAST_CATEGORY</field>
+        <operation>equals</operation>
+        <value>Best Case,Commit,Closed</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>equals</operation>
+        <value>Reagent - One Time,Reagent - Standing Order,Monthly RunRate,Consumable - One Time,Consumable - Standing Order,Accessories</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>reagent,runrate,run rate</value>
+    </filters>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>notEqual</operation>
+        <value>LSDX</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>notContain</operation>
+        <value>LifeSci-,Dx,DX Rh</value>
+    </filters>
+    <label>CFY Stage 6 Cons/Reagents Opps - Need SO</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

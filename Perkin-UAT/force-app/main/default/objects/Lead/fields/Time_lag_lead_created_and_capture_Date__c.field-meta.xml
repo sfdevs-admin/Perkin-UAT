@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_lag_lead_created_and_capture_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>(DATEVALUE(Created_date_with_time_stamp__c)- CaptureDate__c) * 24 * 60</formula>
+    <inlineHelpText>To determine difference in time between when a lead is captured at the event and then entered into Salesforce.com</inlineHelpText>
+    <label>Time lag Lead created and capture date</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

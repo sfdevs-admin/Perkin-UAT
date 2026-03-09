@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_PKI_Orders_Rejected</fullName>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Current_Global_Delivery_Date__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>sales_Rep_Email__c</columns>
+    <columns>Count_of_Items__c</columns>
+    <columns>Sold_To_Address_Country__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxOrder_Is_Rejected__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Sold_To_Address_Country__c</field>
+        <operation>equals</operation>
+        <value>it</value>
+    </filters>
+    <label>All PKI Orders (Rejected)</label>
+</ListView>

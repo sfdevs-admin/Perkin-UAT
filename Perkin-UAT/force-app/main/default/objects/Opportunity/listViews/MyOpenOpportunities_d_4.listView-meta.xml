@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyOpenOpportunities_d_4</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>MyTerritory</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Won,Closed Lost,Abandoned</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Owner__c</field>
+        <operation>equals</operation>
+        <value>knela</value>
+    </filters>
+    <label>My Open Opportunities</label>
+</ListView>

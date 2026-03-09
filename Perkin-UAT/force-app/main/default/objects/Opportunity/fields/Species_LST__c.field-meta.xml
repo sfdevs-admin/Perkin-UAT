@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Species_LST__c</fullName>
+    <label>Species</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LST_Themes__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Human</fullName>
+                <default>false</default>
+                <label>Human</label>
+            </value>
+            <value>
+                <fullName>Mouse</fullName>
+                <default>false</default>
+                <label>Mouse</label>
+            </value>
+            <value>
+                <fullName>Rat</fullName>
+                <default>false</default>
+                <label>Rat</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Human</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Mouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Rat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative Pathology</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

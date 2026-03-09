@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_User_Additional_Information__c</fullName>
+    <inlineHelpText>Please fill in End User Type (Public Hospital, Private Hospital, Business Research Institute, National Research Institute or Others) with &quot;/&quot; and End User Level (1A, 1B, 1C, 2A, 2B, 2C, 3A, 3B, 3C, Level 1, Level 2, Level 3, or Not applicable</inlineHelpText>
+    <label>End User Additional Information</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_SP_Complaint_Required</fullName>
+    <active>true</active>
+    <description>If Complaint is yes complaint number is required</description>
+    <errorConditionFormula>IF(AND(RecordTypeId=&#39;0123A000001GhBc&#39; /*DX Software Services */
+,NOT(PKI_GLB_Duplicate_Case__c)
+,ISPICKVAL(DX_Complaint__c,&#39;Yes&#39;)
+,ISBLANK(DX_Complaint_Details__c))
+,true,false)</errorConditionFormula>
+    <errorDisplayField>DX_Complaint_Details__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_012: Complaint Number is Required</errorMessage>
+</ValidationRule>

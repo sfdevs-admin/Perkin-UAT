@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxDistributor__c</fullName>
+    <description>this looks at license type of owner and if Partner, this is a distributor</description>
+    <formula>CONTAINS(Owner:User.License_type__c ,&quot;Partner&quot;)</formula>
+    <label>Distributor</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

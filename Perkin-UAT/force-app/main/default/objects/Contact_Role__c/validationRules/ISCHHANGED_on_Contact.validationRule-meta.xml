@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISCHHANGED_on_Contact</fullName>
+    <active>true</active>
+    <description>To ensure that the Contact can not be modified once record is created.  Must be deactivated or deleted by Master System Admin or Regional System Admin.</description>
+    <errorConditionFormula>AND(
+$User.ProfileId  &lt;&gt; &#39;00e6000000135c0&#39;,
+NOT(ISNEW()), 
+ISCHANGED(  Contact__c  ) 
+)</errorConditionFormula>
+    <errorDisplayField>Contact__c</errorDisplayField>
+    <errorMessage>V.RULE_CONTACT_ROLE_001: Contact can not be changed after Save.  Either Deactivate or alert System Administrator for delete to take place.</errorMessage>
+</ValidationRule>

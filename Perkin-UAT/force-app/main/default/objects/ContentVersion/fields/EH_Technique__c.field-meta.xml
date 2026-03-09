@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_Technique__c</fullName>
+    <label>Technique</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Atomic Spectroscopy</fullName>
+                <default>false</default>
+                <label>Atomic Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Chromatography</fullName>
+                <default>false</default>
+                <label>Chromatography</label>
+            </value>
+            <value>
+                <fullName>Elemental Analysis</fullName>
+                <default>false</default>
+                <label>Elemental Analysis</label>
+            </value>
+            <value>
+                <fullName>Elm</fullName>
+                <default>false</default>
+                <label>Elm</label>
+            </value>
+            <value>
+                <fullName>Functional Analysis</fullName>
+                <default>false</default>
+                <label>Functional Analysis</label>
+            </value>
+            <value>
+                <fullName>Hyphenated Technique</fullName>
+                <default>false</default>
+                <label>Hyphenated Technique</label>
+            </value>
+            <value>
+                <fullName>Molecular Spectroscopy</fullName>
+                <default>false</default>
+                <label>Molecular Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>OneSource</fullName>
+                <default>false</default>
+                <label>OneSource</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Thermal Analysis</fullName>
+                <default>false</default>
+                <label>Thermal Analysis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

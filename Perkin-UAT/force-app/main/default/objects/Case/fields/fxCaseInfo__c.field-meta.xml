@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCaseInfo__c</fullName>
+    <description>this will be used for the S.FLOW_2405 to be able to show case info to user on the lookup list.</description>
+    <externalId>false</externalId>
+    <formula>LEFT(&quot;Status: &quot; &amp; TEXT(Status) &amp; &quot; / Created: &quot; &amp; TEXT(CreatedDate) &amp; &quot; / Email: &quot; &amp; SuppliedEmail &amp; &quot; / Subject: &quot; &amp; Subject,255)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>info about the case on the lookup list inside the Case Merge flow</inlineHelpText>
+    <label>fxCaseInfo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legacy_Rev_Rec_Date__c</fullName>
+    <description>This field is used for data migration on 29 Oct 2016. This field could be removed after 1 Jan 2017. - Lay Lay</description>
+    <label>Legacy Rev Rec Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

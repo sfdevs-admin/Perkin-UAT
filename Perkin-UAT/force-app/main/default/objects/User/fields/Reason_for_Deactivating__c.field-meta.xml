@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Deactivating__c</fullName>
+    <description>Documents the various reasons User accounts can be deactivated</description>
+    <inlineHelpText>Please select the reason for Deactivating the User.</inlineHelpText>
+    <label>Reason for Deactivating</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Duplicate User Account</fullName>
+                <default>false</default>
+                <label>Duplicate User Account</label>
+            </value>
+            <value>
+                <fullName>Employee Terminated</fullName>
+                <default>false</default>
+                <label>Employee No Longer at PKI</label>
+            </value>
+            <value>
+                <fullName>Employee No Longer Need User Account</fullName>
+                <default>false</default>
+                <label>Employee No Longer Need User Account</label>
+            </value>
+            <value>
+                <fullName>HR Feed</fullName>
+                <default>false</default>
+                <label>HR Feed</label>
+            </value>
+            <value>
+                <fullName>Manager request</fullName>
+                <default>false</default>
+                <label>Manager request</label>
+            </value>
+            <value>
+                <fullName>No Login for too many consecutive days</fullName>
+                <default>false</default>
+                <label>No Login for too many consecutive days</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>User Never Logged In</fullName>
+                <default>false</default>
+                <label>User Never Logged In</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

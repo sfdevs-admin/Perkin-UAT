@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Street_Number__c</fullName>
+    <description>Allows for the deduplication of Accounts</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The sales team can enter corrections to the address supplied by the ERP systems</inlineHelpText>
+    <label>Sales Street Number</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

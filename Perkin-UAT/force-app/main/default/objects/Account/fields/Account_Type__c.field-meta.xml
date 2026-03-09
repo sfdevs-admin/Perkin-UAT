@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type__c</fullName>
+    <description>LST or DX - Another segmentation field which attempts to group by clinical or LS. Not sure if still used</description>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academic institution</fullName>
+                <default>false</default>
+                <label>Academic institution</label>
+            </value>
+            <value>
+                <fullName>Cancer Center</fullName>
+                <default>false</default>
+                <label>Cancer Center</label>
+            </value>
+            <value>
+                <fullName>Children’s Hospital</fullName>
+                <default>false</default>
+                <label>Children’s Hospital</label>
+            </value>
+            <value>
+                <fullName>Commercial Lab</fullName>
+                <default>false</default>
+                <label>Commercial Lab</label>
+            </value>
+            <value>
+                <fullName>Comprehensive Cancer Center</fullName>
+                <default>false</default>
+                <label>Comprehensive Cancer Center</label>
+            </value>
+            <value>
+                <fullName>Hematology-Oncology practice</fullName>
+                <default>false</default>
+                <label>Hematology-Oncology practice</label>
+            </value>
+            <value>
+                <fullName>Hospital Lab</fullName>
+                <default>false</default>
+                <label>Hospital Lab</label>
+            </value>
+            <value>
+                <fullName>Other(s)</fullName>
+                <default>false</default>
+                <label>Other(s)</label>
+            </value>
+            <value>
+                <fullName>Physician Practice</fullName>
+                <default>false</default>
+                <label>Physician Practice</label>
+            </value>
+            <value>
+                <fullName>Research Lab</fullName>
+                <default>false</default>
+                <label>Research Lab</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

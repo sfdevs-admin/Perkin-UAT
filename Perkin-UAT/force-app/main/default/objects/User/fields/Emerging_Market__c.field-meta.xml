@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emerging_Market__c</fullName>
+    <label>Emerging Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country_ISO_Code__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>TURKMENISTAN -TM</controllingFieldValue>
+            <controllingFieldValue>ISRAEL -IL</controllingFieldValue>
+            <controllingFieldValue>TURKS AND CAICOS ISLANDS -TC</controllingFieldValue>
+            <controllingFieldValue>ITALY -IT</controllingFieldValue>
+            <controllingFieldValue>TUVALU -TV</controllingFieldValue>
+            <controllingFieldValue>U.S. VIRGIN ISLANDS -VI</controllingFieldValue>
+            <controllingFieldValue>JAMAICA -JM</controllingFieldValue>
+            <controllingFieldValue>JAPAN -JP</controllingFieldValue>
+            <controllingFieldValue>JOHNSTON,MIDWAY,WAKE ISLS -UM</controllingFieldValue>
+            <controllingFieldValue>UNITED ARAB EMIRATES -AE</controllingFieldValue>
+            <controllingFieldValue>JORDAN -JO</controllingFieldValue>
+            <controllingFieldValue>UNITED KINGDOM -GB</controllingFieldValue>
+            <controllingFieldValue>KAZAKHSTAN -KZ</controllingFieldValue>
+            <controllingFieldValue>UNITED STATES -US</controllingFieldValue>
+            <controllingFieldValue>KIRIBATI -KI</controllingFieldValue>
+            <controllingFieldValue>ANTIGUA &amp; BARBUDA -AG</controllingFieldValue>
+            <controllingFieldValue>ARGENTINA -AR</controllingFieldValue>
+            <controllingFieldValue>ARUBA -AW</controllingFieldValue>
+            <controllingFieldValue>AUSTRALIA -AU</controllingFieldValue>
+            <controllingFieldValue>AUSTRIA -AT</controllingFieldValue>
+            <controllingFieldValue>BAHAMAS -BS</controllingFieldValue>
+            <controllingFieldValue>BAHRAIN -BH</controllingFieldValue>
+            <controllingFieldValue>BANGLADESH -BD</controllingFieldValue>
+            <controllingFieldValue>USSR -SU</controllingFieldValue>
+            <controllingFieldValue>KOREA, REPUBLIC OF -KR</controllingFieldValue>
+            <controllingFieldValue>UZBEKISTAN -UZ</controllingFieldValue>
+            <controllingFieldValue>KOREA,DEM PEOPLES REP -KP</controllingFieldValue>
+            <controllingFieldValue>VANUATU -VU</controllingFieldValue>
+            <controllingFieldValue>AFGHANISTAN -AF</controllingFieldValue>
+            <controllingFieldValue>KOSOVO -XK</controllingFieldValue>
+            <controllingFieldValue>VATICAN CITY (HOLY SEE) -VA</controllingFieldValue>
+            <controllingFieldValue>KUWAIT -KW</controllingFieldValue>
+            <controllingFieldValue>KYRGYZSTAN -KG</controllingFieldValue>
+            <controllingFieldValue>VIETNAM -VN</controllingFieldValue>
+            <controllingFieldValue>AMERICAN SAMOA -AS</controllingFieldValue>
+            <controllingFieldValue>LAOS -LA</controllingFieldValue>
+            <controllingFieldValue>WALLIS &amp; FUTUNA IS.(FRANC -WF</controllingFieldValue>
+            <controllingFieldValue>ANDORRA -AD</controllingFieldValue>
+            <controllingFieldValue>LATVIA -LV</controllingFieldValue>
+            <controllingFieldValue>WEST BANK -WE</controllingFieldValue>
+            <controllingFieldValue>LEBANON -LB</controllingFieldValue>
+            <controllingFieldValue>WESTERN SAHARA -EH</controllingFieldValue>
+            <controllingFieldValue>ANGUILLA -AI</controllingFieldValue>
+            <controllingFieldValue>WESTERN SAMOA -WS</controllingFieldValue>
+            <controllingFieldValue>ANTARCTICA -TF</controllingFieldValue>
+            <controllingFieldValue>ANTARCTICA -AQ</controllingFieldValue>
+            <controllingFieldValue>BARBADOS -BB</controllingFieldValue>
+            <controllingFieldValue>BELGIUM -BE</controllingFieldValue>
+            <controllingFieldValue>BERMUDA -BM</controllingFieldValue>
+            <controllingFieldValue>BHUTAN -BT</controllingFieldValue>
+            <controllingFieldValue>YEMEN -YE</controllingFieldValue>
+            <controllingFieldValue>YUGOSLAVIA -YU</controllingFieldValue>
+            <controllingFieldValue>LIECHTENSTEIN -LI</controllingFieldValue>
+            <controllingFieldValue>ZAIRE -ZR</controllingFieldValue>
+            <controllingFieldValue>LITHUANIA -LT</controllingFieldValue>
+            <controllingFieldValue>LUXEMBOURG -LU</controllingFieldValue>
+            <controllingFieldValue>MACAU -MO</controllingFieldValue>
+            <controllingFieldValue>MALAYSIA -MY</controllingFieldValue>
+            <controllingFieldValue>MALDIVES -MV</controllingFieldValue>
+            <controllingFieldValue>BOUVET ISLAND -BV</controllingFieldValue>
+            <controllingFieldValue>BRITISH INDIAN OCEAN TERR -IO</controllingFieldValue>
+            <controllingFieldValue>BRITISH VIRGIN ISLANDS -VG</controllingFieldValue>
+            <controllingFieldValue>BRUNEI DARUSSALAM -BN</controllingFieldValue>
+            <controllingFieldValue>CAMBODIA -KH</controllingFieldValue>
+            <controllingFieldValue>MALTA -MT</controllingFieldValue>
+            <controllingFieldValue>MARSHALL ISLANDS -MH</controllingFieldValue>
+            <controllingFieldValue>MARTINIQUE -MQ</controllingFieldValue>
+            <controllingFieldValue>MAURITIUS -MU</controllingFieldValue>
+            <controllingFieldValue>MAYOTTE -YT</controllingFieldValue>
+            <controllingFieldValue>MICRONESIA, FEDERATED STS -FM</controllingFieldValue>
+            <controllingFieldValue>MOLDOVA, REPUBLIC OF -MD</controllingFieldValue>
+            <controllingFieldValue>CANADA -CA</controllingFieldValue>
+            <controllingFieldValue>CAYMAN ISLANDS -KY</controllingFieldValue>
+            <controllingFieldValue>CHINA -CN</controllingFieldValue>
+            <controllingFieldValue>CHRISTMAS IS. (AUSTRAILIA -CX</controllingFieldValue>
+            <controllingFieldValue>COCOS(KEELING) IS. (AUST) -CC</controllingFieldValue>
+            <controllingFieldValue>MONGOLIA -MN</controllingFieldValue>
+            <controllingFieldValue>MONTSERAT -MS</controllingFieldValue>
+            <controllingFieldValue>MOROCCO -MA</controllingFieldValue>
+            <controllingFieldValue>MYANMAR -MM</controllingFieldValue>
+            <controllingFieldValue>NAURU -NR</controllingFieldValue>
+            <controllingFieldValue>NEPAL -NP</controllingFieldValue>
+            <controllingFieldValue>NETHERLANDS -NL</controllingFieldValue>
+            <controllingFieldValue>NETHERLANDS ANTILLES -AN</controllingFieldValue>
+            <controllingFieldValue>COMOROS -KM</controllingFieldValue>
+            <controllingFieldValue>COOK ISLANDS -CK</controllingFieldValue>
+            <controllingFieldValue>CUBA -CU</controllingFieldValue>
+            <controllingFieldValue>CYPRUS -CY</controllingFieldValue>
+            <controllingFieldValue>CZECHOSLOVAKIA -CSX</controllingFieldValue>
+            <controllingFieldValue>NEW CALEDONIA -NC</controllingFieldValue>
+            <controllingFieldValue>NEW ZEALAND -NZ</controllingFieldValue>
+            <controllingFieldValue>NIUE -NU</controllingFieldValue>
+            <controllingFieldValue>NORFOLK ISLAND (AUSTRALIA -NF</controllingFieldValue>
+            <controllingFieldValue>NORTHERN MARIANA ISLANDS -MP</controllingFieldValue>
+            <controllingFieldValue>NORWAY -NO</controllingFieldValue>
+            <controllingFieldValue>OMAN -OM</controllingFieldValue>
+            <controllingFieldValue>DENMARK -DK</controllingFieldValue>
+            <controllingFieldValue>DOMINICA -DM</controllingFieldValue>
+            <controllingFieldValue>DOMINICAN REPUBLIC -DO</controllingFieldValue>
+            <controllingFieldValue>EAST TIMOR -TP</controllingFieldValue>
+            <controllingFieldValue>PAKISTAN -PK</controllingFieldValue>
+            <controllingFieldValue>PALAU ISLANDS -PW</controllingFieldValue>
+            <controllingFieldValue>PAPUA NEW GUINEA -PG</controllingFieldValue>
+            <controllingFieldValue>PHILIPPINES -PH</controllingFieldValue>
+            <controllingFieldValue>PITCAIRN ISLANDS -PN</controllingFieldValue>
+            <controllingFieldValue>PORTUGAL -PT</controllingFieldValue>
+            <controllingFieldValue>ESTONIA -EE</controllingFieldValue>
+            <controllingFieldValue>EUROPE, M.E., AFRICA(ABD) -EM</controllingFieldValue>
+            <controllingFieldValue>FAEROE ISLANDS (DENMARK) -FO</controllingFieldValue>
+            <controllingFieldValue>FALKLAND ISLANDS -FK</controllingFieldValue>
+            <controllingFieldValue>FIJI -FJ</controllingFieldValue>
+            <controllingFieldValue>FINLAND -FI</controllingFieldValue>
+            <controllingFieldValue>FMR YUG REP MACEDONIA -MK</controllingFieldValue>
+            <controllingFieldValue>FRANCE -FR</controllingFieldValue>
+            <controllingFieldValue>FRANCE, METROPOLITAN -FX</controllingFieldValue>
+            <controllingFieldValue>PUERTO RICO -PR</controllingFieldValue>
+            <controllingFieldValue>QATAR -QA</controllingFieldValue>
+            <controllingFieldValue>REPUBLIC OF MONTENEGRO -ME</controllingFieldValue>
+            <controllingFieldValue>REPUBLIC OF SERBIA -RS</controllingFieldValue>
+            <controllingFieldValue>SAINT LUCIA -LC</controllingFieldValue>
+            <controllingFieldValue>SAN MARINO -SM</controllingFieldValue>
+            <controllingFieldValue>FRENCH POLYNESIA -PF</controllingFieldValue>
+            <controllingFieldValue>GAZA STRIP -GZ</controllingFieldValue>
+            <controllingFieldValue>GERMANY -DE</controllingFieldValue>
+            <controllingFieldValue>GIBRALTAR -GI</controllingFieldValue>
+            <controllingFieldValue>GREECE -GR</controllingFieldValue>
+            <controllingFieldValue>SAUDI ARABIA -SA</controllingFieldValue>
+            <controllingFieldValue>SERBIA MONTENEGRO -CS</controllingFieldValue>
+            <controllingFieldValue>SINGAPORE -SG</controllingFieldValue>
+            <controllingFieldValue>SLOVAKIA  was SLOVAK REP. -SQ</controllingFieldValue>
+            <controllingFieldValue>GREENLAND -GL</controllingFieldValue>
+            <controllingFieldValue>GRENADA -GD</controllingFieldValue>
+            <controllingFieldValue>GUADELOUPE -GP</controllingFieldValue>
+            <controllingFieldValue>GUAM -GU</controllingFieldValue>
+            <controllingFieldValue>GUINEA BISSAU -GW</controllingFieldValue>
+            <controllingFieldValue>HAITI -HT</controllingFieldValue>
+            <controllingFieldValue>HEARD &amp; MCDONALD IS.(AUS) -HM</controllingFieldValue>
+            <controllingFieldValue>SO.GEORGIA AND SO.SANDWICH IS. -GS</controllingFieldValue>
+            <controllingFieldValue>SOLOMON ISLANDS -SB</controllingFieldValue>
+            <controllingFieldValue>SOUTH AMERICA   (ABD) -LN</controllingFieldValue>
+            <controllingFieldValue>SOUTH EAST EUROPE (Export) -SEE</controllingFieldValue>
+            <controllingFieldValue>SPAIN -ES</controllingFieldValue>
+            <controllingFieldValue>SRI LANKA -LK</controllingFieldValue>
+            <controllingFieldValue>ST HELENA (U.K.) -SH</controllingFieldValue>
+            <controllingFieldValue>ST PIERRE &amp; MIQUELON(FRN) -PM</controllingFieldValue>
+            <controllingFieldValue>ST. KITTS AND NEVIS -KN</controllingFieldValue>
+            <controllingFieldValue>ST. VINCENT -VC</controllingFieldValue>
+            <controllingFieldValue>SUDAN -SD</controllingFieldValue>
+            <controllingFieldValue>SVALBARD&amp;JAN MAYEN IS(NOR -SJ</controllingFieldValue>
+            <controllingFieldValue>SWEDEN -SE</controllingFieldValue>
+            <controllingFieldValue>SWEDEN(OLD CODE,SEE &quot;SE&quot;) -SW</controllingFieldValue>
+            <controllingFieldValue>SWITZERLAND -CH</controllingFieldValue>
+            <controllingFieldValue>SYRIAN ARAB REPUBLIC -SY</controllingFieldValue>
+            <controllingFieldValue>TAIWAN -TW</controllingFieldValue>
+            <controllingFieldValue>TAJIKISTAN -TJ</controllingFieldValue>
+            <controllingFieldValue>HONG KONG -HK</controllingFieldValue>
+            <controllingFieldValue>THAILAND -TH</controllingFieldValue>
+            <controllingFieldValue>ICELAND -IS</controllingFieldValue>
+            <controllingFieldValue>INDIA -IN</controllingFieldValue>
+            <controllingFieldValue>TOKELAU (N.Z.) -TK</controllingFieldValue>
+            <controllingFieldValue>INDONESIA -ID</controllingFieldValue>
+            <controllingFieldValue>TONGA -TO</controllingFieldValue>
+            <controllingFieldValue>IRAN -IR</controllingFieldValue>
+            <controllingFieldValue>TRINIDAD &amp; TOBAGO -TT</controllingFieldValue>
+            <controllingFieldValue>IRAQ -IQ</controllingFieldValue>
+            <controllingFieldValue>IRAQ SAUDI ARABIA NEUTRAL ZONE -NT</controllingFieldValue>
+            <controllingFieldValue>IRELAND -IE</controllingFieldValue>
+            <valueName>No</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IVORY COAST -CI</controllingFieldValue>
+            <controllingFieldValue>UGANDA -UG</controllingFieldValue>
+            <controllingFieldValue>UKRAINE -UA</controllingFieldValue>
+            <controllingFieldValue>KENYA -KE</controllingFieldValue>
+            <controllingFieldValue>URUGUAY -UY</controllingFieldValue>
+            <controllingFieldValue>ARMENIA -AM</controllingFieldValue>
+            <controllingFieldValue>AZERBAIJAN -AZ</controllingFieldValue>
+            <controllingFieldValue>ALBANIA -AL</controllingFieldValue>
+            <controllingFieldValue>VENEZUELA -VE</controllingFieldValue>
+            <controllingFieldValue>ALGERIA -DZ</controllingFieldValue>
+            <controllingFieldValue>ANGOLA -AO</controllingFieldValue>
+            <controllingFieldValue>LESOTHO -LS</controllingFieldValue>
+            <controllingFieldValue>LIBERIA -LR</controllingFieldValue>
+            <controllingFieldValue>BELARUS -BY</controllingFieldValue>
+            <controllingFieldValue>BELIZE -BZ</controllingFieldValue>
+            <controllingFieldValue>BENIN -BJ</controllingFieldValue>
+            <controllingFieldValue>BOLIVIA -BO</controllingFieldValue>
+            <controllingFieldValue>BOSNIA AND HERZEGOVINA -BA</controllingFieldValue>
+            <controllingFieldValue>BOTSWANA -BW</controllingFieldValue>
+            <controllingFieldValue>LIBYA ARAB JAMAHIRIYA -LY</controllingFieldValue>
+            <controllingFieldValue>ZAMBIA -ZM</controllingFieldValue>
+            <controllingFieldValue>ZIMBABWE -ZW</controllingFieldValue>
+            <controllingFieldValue>MADAGASCAR -MG</controllingFieldValue>
+            <controllingFieldValue>MALAWI -MW</controllingFieldValue>
+            <controllingFieldValue>MALI -ML</controllingFieldValue>
+            <controllingFieldValue>BRAZIL -BR</controllingFieldValue>
+            <controllingFieldValue>BULGARIA -BG</controllingFieldValue>
+            <controllingFieldValue>BURKINA FASO -BF</controllingFieldValue>
+            <controllingFieldValue>BURUNDI -BI</controllingFieldValue>
+            <controllingFieldValue>CAMEROON -CM</controllingFieldValue>
+            <controllingFieldValue>MAURITANIA -MR</controllingFieldValue>
+            <controllingFieldValue>MEXICO -MX</controllingFieldValue>
+            <controllingFieldValue>MONACO -MC</controllingFieldValue>
+            <controllingFieldValue>CAPE VERDE -CV</controllingFieldValue>
+            <controllingFieldValue>CENTRAL AFRICAN REPUBLIC -CF</controllingFieldValue>
+            <controllingFieldValue>CHAD -TD</controllingFieldValue>
+            <controllingFieldValue>CHILE -CL</controllingFieldValue>
+            <controllingFieldValue>COLOMBIA -CO</controllingFieldValue>
+            <controllingFieldValue>MOZAMBIQUE -MZ</controllingFieldValue>
+            <controllingFieldValue>NAMIBIA -NA</controllingFieldValue>
+            <controllingFieldValue>CONGO -CG</controllingFieldValue>
+            <controllingFieldValue>CONGO DEMOCRATIC REPUBLIC -CD</controllingFieldValue>
+            <controllingFieldValue>COSTA RICA -CR</controllingFieldValue>
+            <controllingFieldValue>CROATIA -HR</controllingFieldValue>
+            <controllingFieldValue>CZECH REPUBLIC -CZ</controllingFieldValue>
+            <controllingFieldValue>NICARAGUA -NI</controllingFieldValue>
+            <controllingFieldValue>NIGER -NE</controllingFieldValue>
+            <controllingFieldValue>NIGERIA -NG</controllingFieldValue>
+            <controllingFieldValue>DJIBOUTI -DJ</controllingFieldValue>
+            <controllingFieldValue>ECUADOR -EC</controllingFieldValue>
+            <controllingFieldValue>EGYPT -EG</controllingFieldValue>
+            <controllingFieldValue>EL SALVADOR -SV</controllingFieldValue>
+            <controllingFieldValue>EQUATORIAL GUINEA -GQ</controllingFieldValue>
+            <controllingFieldValue>ERITREA -ER</controllingFieldValue>
+            <controllingFieldValue>PANAMA -PA</controllingFieldValue>
+            <controllingFieldValue>PARAGUAY -PY</controllingFieldValue>
+            <controllingFieldValue>PERU -PE</controllingFieldValue>
+            <controllingFieldValue>POLAND -PL</controllingFieldValue>
+            <controllingFieldValue>ETHIOPIA -ET</controllingFieldValue>
+            <controllingFieldValue>REUNION -RE</controllingFieldValue>
+            <controllingFieldValue>ROMANIA -RO</controllingFieldValue>
+            <controllingFieldValue>RUSSIAN FEDERATION -RU</controllingFieldValue>
+            <controllingFieldValue>RWANDA -RW</controllingFieldValue>
+            <controllingFieldValue>FRENCH GUIANA -GF</controllingFieldValue>
+            <controllingFieldValue>GABON -GA</controllingFieldValue>
+            <controllingFieldValue>GAMBIA -GM</controllingFieldValue>
+            <controllingFieldValue>GEORGIA -GE</controllingFieldValue>
+            <controllingFieldValue>GHANA -GH</controllingFieldValue>
+            <controllingFieldValue>SAO TOME AND PRINCIPE -ST</controllingFieldValue>
+            <controllingFieldValue>SENEGAL -SN</controllingFieldValue>
+            <controllingFieldValue>SEYCHELLES -SC</controllingFieldValue>
+            <controllingFieldValue>SIERRA LEONE -SL</controllingFieldValue>
+            <controllingFieldValue>SLOVAKIA -SK</controllingFieldValue>
+            <controllingFieldValue>SLOVENIA -SI</controllingFieldValue>
+            <controllingFieldValue>GUATEMALA -GT</controllingFieldValue>
+            <controllingFieldValue>GUINEA -GN</controllingFieldValue>
+            <controllingFieldValue>GUYANA -GY</controllingFieldValue>
+            <controllingFieldValue>SOMALIA -SO</controllingFieldValue>
+            <controllingFieldValue>SOUTH AFRICA -ZA</controllingFieldValue>
+            <controllingFieldValue>SURINAME -SR</controllingFieldValue>
+            <controllingFieldValue>SWAZILAND -SZ</controllingFieldValue>
+            <controllingFieldValue>HONDURAS -HN</controllingFieldValue>
+            <controllingFieldValue>TANZANIA -TZ</controllingFieldValue>
+            <controllingFieldValue>HUNGARY -HU</controllingFieldValue>
+            <controllingFieldValue>TOGO -TG</controllingFieldValue>
+            <controllingFieldValue>TUNISIA -TN</controllingFieldValue>
+            <controllingFieldValue>TURKEY -TR</controllingFieldValue>
+            <valueName>Yes</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BU_INF__c</fullName>
+    <description>Field to capture BU information on accounts</description>
+    <label>Legacy BU</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>INF</fullName>
+                <default>false</default>
+                <label>INF</label>
+            </value>
+            <value>
+                <fullName>LST</fullName>
+                <default>false</default>
+                <label>LST</label>
+            </value>
+            <value>
+                <fullName>ENV</fullName>
+                <default>false</default>
+                <label>ENV</label>
+            </value>
+            <value>
+                <fullName>Dx</fullName>
+                <default>false</default>
+                <label>Dx</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

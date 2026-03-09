@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIOP_Model_Entry_Compact</fullName>
+    <fields>Name</fields>
+    <fields>SIOP_Model__c</fields>
+    <fields>fxRegionType__c</fields>
+    <fields>Current_Quarter__c</fields>
+    <fields>Month_1__c</fields>
+    <fields>Month_2__c</fields>
+    <fields>Month_3__c</fields>
+    <fields>Region_Forecast_Owner__c</fields>
+    <label>SIOP Model Entry (Compact)</label>
+</CompactLayout>

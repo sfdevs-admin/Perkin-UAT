@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FCO_Type_Number__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  FCO_Type__c , 
+&#39;Important Field Safety Notice&#39;, &#39;A&#39;, 
+&#39;Important Field Safety Modification&#39;, &#39;B&#39;, 
+&#39;Important User Notice&#39;, &#39;C&#39;, 
+&#39;Important Product Modification&#39;, &#39;D&#39;, 
+&#39;Product Bulletin&#39;, &#39;E&#39;, 
+&#39;Product Modification&#39;, &#39;F&#39;, 
+&#39;Product Recommendation&#39;, &#39;G&#39;, 
+&#39;Internal Information Exchange&#39;, &#39;H&#39;, &#39;I&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>FCO Type Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

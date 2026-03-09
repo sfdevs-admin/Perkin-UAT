@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reactivation_Comments__c</fullName>
+    <description>Reason the end user was reactivated or Unfreeze. This field should list the ticket # as well as other pertinent information.</description>
+    <inlineHelpText>Please enter the ticket # that was used to reactivate or unfreeze the end user&#39;s account.</inlineHelpText>
+    <label>Reactivation Comments</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

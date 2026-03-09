@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxIsOpenINF__c</fullName>
+    <description>Used as part of L.FLOW_2000 for informatics to determine to flag for auto-completion. True=Open</description>
+    <formula>AND(
+ IsTask =True
+,  NOT(ISPICKVAL(Status, &quot;Completed&quot;))
+,  NOT(ISPICKVAL(Status, &quot;Call Completed&quot;))
+
+)</formula>
+    <inlineHelpText>Used as part of L.FLOW_2000 for informatics to determine to flag for auto-completion. True=Open</inlineHelpText>
+    <label>fxIsOpen_INF</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_with_CPQ__c</fullName>
+    <description>This field has been created on behalf of Ticket #-INC0314956 to know if the contact can be used with CPQ.</description>
+    <formula>Account.Use_with_CPQ__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>It helps in identifying the contact which can be used with CPQ.</inlineHelpText>
+    <label>Use with CPQ</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxStageNumber__c</fullName>
+    <description>This uses the Stage Names and set  numeral so we can use it in math validations going forward or backawards a state</description>
+    <externalId>false</externalId>
+    <formula>CASE( TEXT(StageName)
+,&quot;Abandoned&quot;,9
+,&quot;Abandoned (E-Com &amp; E-Proc)&quot;,9
+,&quot;Bid defense and technical negotiation&quot;,4
+,&quot;Bid/Quote Preparation &amp; Submission&quot;,3
+,&quot;Closed Lost&quot;,8
+,&quot;Closed Lost (E-Com &amp; E-Proc)&quot;,8
+,&quot;Closed Won&quot;,7
+,&quot;Closed Won Reagent&quot;,7
+,&quot;Contract negotiation&quot;,5
+,&quot;E-Launch - Closed/Won/Monitor - 100%&quot;,6
+,&quot;Initial Qualification&quot;,1
+,&quot;Order deferred&quot;,99
+,&quot;Order lost&quot;,8
+,&quot;Order won&quot;,7
+,&quot;Stage 1 - Create/Plan&quot;,1
+,&quot;Stage 1 - Identification E-Com &amp; E-Proc&quot;,1
+,&quot;Stage 1 - Qualification&quot;,1
+,&quot;Stage 1 - Qualification/Relating&quot;,1
+,&quot;Stage 2 - Needs Analysis&quot;,2
+,&quot;Stage 2 - Needs Analysis/Discovery&quot;,2
+,&quot;Stage 2 - Needs Analysis/Strategy&quot;,2
+,&quot;Stage 2 - Qualify&quot;,2
+,&quot;Stage 3 - Advocating/Value Proposition&quot;,3
+,&quot;Stage 3 - Develop&quot;,3
+,&quot;Stage 3 - Presentation/Demo (E-Com)&quot;,3
+,&quot;Stage 3 - Solution Differentiation&quot;,3
+,&quot;Stage 4 - Bid Preparation &amp; Submission&quot;,4
+,&quot;Stage 4 - Kickoff Meeting (E-Proc)&quot;,4
+,&quot;Stage 4 - Objection Handling&quot;,4
+,&quot;Stage 4 - Prove&quot;,4
+,&quot;Stage 5 - Customization/Implementation&quot;,5
+,&quot;Stage 5 - Negotiate&quot;,5
+,&quot;Stage 5 - Negotiation&quot;,5
+,&quot;Stage 5 - Preferred&quot;,5
+,&quot;Stage 5 - Supporting/Objection Handling&quot;,5
+,&quot;Stage 6 - Implement&quot;,6
+,&quot;Stage 6 - Implement (Closed)&quot;,6
+,&quot;Stage 6 - Negotiating/Forecast&quot;,6
+,&quot;Stage 7 - Submit Order&quot;,7
+,&quot;Stakeholder relationship development&quot;,2
+,&quot;Zero Stage&quot;,0
+,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This uses the Stage Names and set  numeral so we can use it in math validations going forward or backawards a state</inlineHelpText>
+    <label>fxStageNumber</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>flagForUpdate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is a field used to allow external systems to trigger an update without actually updating any other fields</description>
+    <inlineHelpText>This is a field used to allow external systems to trigger an update without actually updating any other fields</inlineHelpText>
+    <label>flagForUpdate</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

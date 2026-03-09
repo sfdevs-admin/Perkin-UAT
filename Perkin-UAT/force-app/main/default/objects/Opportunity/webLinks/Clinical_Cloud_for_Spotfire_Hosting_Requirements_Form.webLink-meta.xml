@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clinical_Cloud_for_Spotfire_Hosting_Requirements_Form</fullName>
+    <availability>online</availability>
+    <description>for   INC0355775</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Clinical Cloud for Spotfire-Hosting Requirements Form</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>https://informatics.perkinelmer.com/sitesubscription/pdf/Hosting%20Requirements%20Form%20for%20Clinical%20Cloud%20for%20Spotfire.docx</url>
+</WebLink>

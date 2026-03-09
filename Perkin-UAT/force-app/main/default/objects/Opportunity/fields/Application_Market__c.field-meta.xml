@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Market__c</fullName>
+    <description>Identify Customer Market. Standardized Names (no double spaces, no space after slash, spaces before and after &#39;&amp;&#39;, use &#39;&amp;&#39; vs &#39;and&#39;, space after commas, lists do not have comma before last item and use &#39;&amp;&#39; before last item)</description>
+    <label>Application Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Application_Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academia &amp; Academic Research</fullName>
+                <default>false</default>
+                <label>Academia &amp; Academic Research</label>
+            </value>
+            <value>
+                <fullName>Air</fullName>
+                <default>false</default>
+                <label>Air</label>
+            </value>
+            <value>
+                <fullName>Alcoholic &amp; Non-Alcoholic Beverages</fullName>
+                <default>false</default>
+                <label>Alcoholic &amp; Non-Alcoholic Beverages</label>
+            </value>
+            <value>
+                <fullName>Applied</fullName>
+                <default>false</default>
+                <label>Applied</label>
+            </value>
+            <value>
+                <fullName>Applied Genomics</fullName>
+                <default>false</default>
+                <label>Applied Genomics</label>
+            </value>
+            <value>
+                <fullName>Basic Research</fullName>
+                <default>false</default>
+                <label>Basic Research</label>
+            </value>
+            <value>
+                <fullName>Biologics/Vaccines Drug Development</fullName>
+                <default>false</default>
+                <label>Biologics/Vaccines Drug Development</label>
+            </value>
+            <value>
+                <fullName>Biologics Manufacturing QA/QC</fullName>
+                <default>false</default>
+                <label>Biologics Manufacturing QA/QC</label>
+            </value>
+            <value>
+                <fullName>Cannabis/Hemp</fullName>
+                <default>false</default>
+                <label>Cannabis/Hemp</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Chemicals &amp; Mining</fullName>
+                <default>false</default>
+                <label>Chemicals &amp; Mining</label>
+            </value>
+            <value>
+                <fullName>Clinical Diagnostics</fullName>
+                <default>false</default>
+                <label>Clinical Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Contract Lab</fullName>
+                <default>false</default>
+                <label>Contract Lab</label>
+            </value>
+            <value>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+                <label>Dairy</label>
+            </value>
+            <value>
+                <fullName>Detection</fullName>
+                <default>false</default>
+                <label>Detection</label>
+            </value>
+            <value>
+                <fullName>Drug Discovery</fullName>
+                <default>false</default>
+                <label>Drug Discovery</label>
+            </value>
+            <value>
+                <fullName>Drug QA/QC Manufacturing</fullName>
+                <default>false</default>
+                <label>Drug QA/QC Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Edible Oils</fullName>
+                <default>false</default>
+                <label>Edible Oils</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Energy &amp; Petrochem</fullName>
+                <default>false</default>
+                <label>Energy &amp; Petrochem</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Flavor &amp; Fragrance</fullName>
+                <default>false</default>
+                <label>Flavor &amp; Fragrance</label>
+            </value>
+            <value>
+                <fullName>Forensics &amp; Security</fullName>
+                <default>false</default>
+                <label>Forensics &amp; Security</label>
+            </value>
+            <value>
+                <fullName>Fruits &amp; Vegetables</fullName>
+                <default>false</default>
+                <label>Fruits &amp; Vegetables</label>
+            </value>
+            <value>
+                <fullName>Government/Academic</fullName>
+                <default>false</default>
+                <label>Government/Academic</label>
+            </value>
+            <value>
+                <fullName>Government &amp; Academia</fullName>
+                <default>false</default>
+                <label>Government &amp; Academia</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>Immunodiagnostics</fullName>
+                <default>false</default>
+                <label>Immunodiagnostics</label>
+            </value>
+            <value>
+                <fullName>Material</fullName>
+                <default>false</default>
+                <label>Material</label>
+            </value>
+            <value>
+                <fullName>Materials</fullName>
+                <default>false</default>
+                <label>Materials</label>
+            </value>
+            <value>
+                <fullName>Meat, Poultry &amp; Seafood</fullName>
+                <default>false</default>
+                <label>Meat, Poultry &amp; Seafood</label>
+            </value>
+            <value>
+                <fullName>Milling, Grains &amp; Animal Feed</fullName>
+                <default>false</default>
+                <label>Milling, Grains &amp; Animal Feed</label>
+            </value>
+            <value>
+                <fullName>Mining &amp; Metals</fullName>
+                <default>false</default>
+                <label>Mining &amp; Metals</label>
+            </value>
+            <value>
+                <fullName>Nutraceuticals</fullName>
+                <default>false</default>
+                <label>Nutraceuticals</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Food</fullName>
+                <default>false</default>
+                <label>Other Food</label>
+            </value>
+            <value>
+                <fullName>Pharma/Biotec</fullName>
+                <default>false</default>
+                <label>Pharma/Biotec</label>
+            </value>
+            <value>
+                <fullName>Processed Human &amp; Pet Food</fullName>
+                <default>false</default>
+                <label>Processed Human &amp; Pet Food</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Reproductive Health</fullName>
+                <default>false</default>
+                <label>Reproductive Health</label>
+            </value>
+            <value>
+                <fullName>Safety</fullName>
+                <default>false</default>
+                <label>Safety</label>
+            </value>
+            <value>
+                <fullName>Small Molecule Drug Development</fullName>
+                <default>false</default>
+                <label>Small Molecule Drug Development</label>
+            </value>
+            <value>
+                <fullName>Small Molecule Manufacturing QA/QC</fullName>
+                <default>false</default>
+                <label>Small Molecule Manufacturing QA/QC</label>
+            </value>
+            <value>
+                <fullName>Soil/Solids</fullName>
+                <default>false</default>
+                <label>Soil/Solids</label>
+            </value>
+            <value>
+                <fullName>Teaching Labs</fullName>
+                <default>false</default>
+                <label>Teaching Labs</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+            <value>
+                <fullName>Clinical Research</fullName>
+                <default>false</default>
+                <label>Clinical Research</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <valueName>Cannabis/Hemp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <valueName>Chemicals &amp; Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <valueName>Energy &amp; Petrochem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <valueName>Environmental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <valueName>Government &amp; Academia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <valueName>Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Applied</controllingFieldValue>
+            <valueName>Clinical Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Academia &amp; Academic Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Alcoholic &amp; Non-Alcoholic Beverages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>Applied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Diagnostics</controllingFieldValue>
+            <valueName>Applied Genomics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Basic Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Biologics/Vaccines Drug Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Biologics Manufacturing QA/QC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Diagnostics</controllingFieldValue>
+            <valueName>Clinical Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Contract Lab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Dairy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Edible Oils</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Flavor &amp; Fragrance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Fruits &amp; Vegetables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>Government/Academic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Diagnostics</controllingFieldValue>
+            <valueName>Immunodiagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Meat, Poultry &amp; Seafood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Milling, Grains &amp; Animal Feed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Nutraceuticals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Other Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Informatics</controllingFieldValue>
+            <valueName>Pharma/Biotec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Processed Human &amp; Pet Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Diagnostics</controllingFieldValue>
+            <valueName>Reproductive Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Small Molecule Drug Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COVID</controllingFieldValue>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Small Molecule Manufacturing QA/QC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Detection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life Science</controllingFieldValue>
+            <valueName>Imaging</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

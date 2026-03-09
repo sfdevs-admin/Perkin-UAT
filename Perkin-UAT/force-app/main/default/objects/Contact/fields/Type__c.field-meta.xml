@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Decision Maker</fullName>
+                <default>false</default>
+                <label>Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Evaluator</fullName>
+                <default>false</default>
+                <label>Evaluator</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Primary Contact</fullName>
+                <default>false</default>
+                <label>Primary Contact</label>
+            </value>
+            <value>
+                <fullName>Secondary Contact</fullName>
+                <default>false</default>
+                <label>Secondary Contact</label>
+            </value>
+            <value>
+                <fullName>No Potential</fullName>
+                <default>false</default>
+                <label>No Potential</label>
+            </value>
+            <value>
+                <fullName>Low Potential</fullName>
+                <default>false</default>
+                <label>Low Potential</label>
+            </value>
+            <value>
+                <fullName>Key Opinion Leader</fullName>
+                <default>false</default>
+                <label>Key Opinion Leader</label>
+            </value>
+            <value>
+                <fullName>User</fullName>
+                <default>false</default>
+                <label>User</label>
+            </value>
+            <value>
+                <fullName>Primary Investigator</fullName>
+                <default>false</default>
+                <label>Primary Investigator</label>
+            </value>
+            <value>
+                <fullName>Purchasing Agent</fullName>
+                <default>false</default>
+                <label>Purchasing Agent</label>
+            </value>
+            <value>
+                <fullName>Contract Contact</fullName>
+                <default>false</default>
+                <label>Contract Contact</label>
+            </value>
+            <value>
+                <fullName>Accounts Contact</fullName>
+                <default>false</default>
+                <label>Accounts Contact</label>
+            </value>
+            <value>
+                <fullName>Web Contact</fullName>
+                <default>false</default>
+                <label>Web Contact</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

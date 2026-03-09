@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBE__c</fullName>
+    <label>SBE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Analytical Sciences</fullName>
+                <default>false</default>
+                <label>Analytical Sciences</label>
+            </value>
+            <value>
+                <fullName>GDS</fullName>
+                <default>false</default>
+                <label>GDS</label>
+            </value>
+            <value>
+                <fullName>LST</fullName>
+                <default>false</default>
+                <label>LST</label>
+            </value>
+            <value>
+                <fullName>Molecular Medicine</fullName>
+                <default>false</default>
+                <label>Molecular Medicine</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

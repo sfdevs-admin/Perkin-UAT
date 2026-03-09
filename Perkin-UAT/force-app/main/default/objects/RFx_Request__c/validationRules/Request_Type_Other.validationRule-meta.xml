@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Type_Other</fullName>
+    <active>true</active>
+    <description>If Request Type = Other (Please Specify) then prompts a message to the use to enter Reason Other.</description>
+    <errorConditionFormula>AND( ISPICKVAL(	Request_Type__c,&#39;Other (Please Specify)&#39;),
+ISBLANK(Reason_Other__c))</errorConditionFormula>
+    <errorDisplayField>Reason_Other__c</errorDisplayField>
+    <errorMessage>V.RULE_RFx_REQUEST_001: Please enter the reason for Other</errorMessage>
+</ValidationRule>

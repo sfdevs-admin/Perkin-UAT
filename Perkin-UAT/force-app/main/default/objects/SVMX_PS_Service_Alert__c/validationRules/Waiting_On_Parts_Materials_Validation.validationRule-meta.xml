@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Waiting_On_Parts_Materials_Validation</fullName>
+    <active>true</active>
+    <description>When Status = Waiting on Parts/Materials, Work Order, Defective Part and Part Order Number fields must be populated.</description>
+    <errorConditionFormula>AND(ISPICKVAL( SVMX_PS_Status__c, &quot;Waiting on Parts/Materials&quot;),
+    OR(ISBLANK( SVMX_PS_Defective_Part__c ),
+    ISBLANK( SVMX_PS_SAP_Part_Order_Number__c ),
+    ISBLANK(SVMX_PS_Work_Order__c)))</errorConditionFormula>
+    <errorMessage>When the Status is Waiting on Parts/Materials, a Work Order, Defective Part and Parts Order Number must be entered.</errorMessage>
+</ValidationRule>

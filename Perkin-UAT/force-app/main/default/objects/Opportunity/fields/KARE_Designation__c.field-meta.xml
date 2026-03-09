@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KARE_Designation__c</fullName>
+    <label>KARE Designation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Keep</fullName>
+                <default>false</default>
+                <label>Keep</label>
+            </value>
+            <value>
+                <fullName>Attain</fullName>
+                <default>false</default>
+                <label>Attain</label>
+            </value>
+            <value>
+                <fullName>Recapture</fullName>
+                <default>false</default>
+                <label>Recapture</label>
+            </value>
+            <value>
+                <fullName>Expand</fullName>
+                <default>false</default>
+                <label>Expand</label>
+            </value>
+            <value>
+                <fullName>Never Work With Again</fullName>
+                <default>false</default>
+                <label>Never Work With Again</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

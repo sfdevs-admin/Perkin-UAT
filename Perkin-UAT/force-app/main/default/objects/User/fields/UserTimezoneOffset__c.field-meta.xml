@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserTimezoneOffset__c</fullName>
+    <description>This uses logic to determine what timezone a user is in so formulas can react accordingly.</description>
+    <externalId>false</externalId>
+    <formula>(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 00:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 01:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 02:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 03:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 04:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 05:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 06:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 07:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 08:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 09:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 10:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 11:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 12:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 13:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 14:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 15:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 16:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 17:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 18:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 19:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 20:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 21:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 22:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 23:00:00&quot;)) - TODAY())</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>UserTimezoneOffset</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

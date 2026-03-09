@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_Type__c</fullName>
+    <label>Technology Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atomic Spectroscopy</fullName>
+                <default>false</default>
+                <label>Atomic Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Chromatography</fullName>
+                <default>false</default>
+                <label>Chromatography</label>
+            </value>
+            <value>
+                <fullName>Food Quality</fullName>
+                <default>false</default>
+                <label>Food Quality</label>
+            </value>
+            <value>
+                <fullName>Molecular Spectroscopy</fullName>
+                <default>false</default>
+                <label>Molecular Spectroscopy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

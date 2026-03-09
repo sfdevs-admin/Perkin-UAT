@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Extended_Warranty_Calculations</fullName>
+    <columns>NAME</columns>
+    <columns>PKI_Super_Territory__c</columns>
+    <columns>Percentage__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Extended Warranty Calculations</label>
+    <language>en_US</language>
+</ListView>

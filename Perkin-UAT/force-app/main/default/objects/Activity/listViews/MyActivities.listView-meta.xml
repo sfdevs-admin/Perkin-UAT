@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyActivities</fullName>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>TASK.DUE_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2012 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>TASK.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>My Activities</label>
+    <language>en_US</language>
+</ListView>

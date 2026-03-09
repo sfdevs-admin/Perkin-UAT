@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRTA_Data_grouping__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(text(COMPELLING_REASON_TO_ACT_CRTA__c),&#39;1&#39;,&#39;1. Action tied to a specific initiative, pain or goal&#39;,&#39;0&#39;,&#39;0. No compelling reason to act identified&#39;,&#39;2&#39;,&#39;2. Sponsor shared a specific date for action&#39;,&#39;3&#39;,&#39;3. Documented CRTA agreed upon by Sponsor&#39;,&#39;4&#39;,&#39;4. Power shared a specific date for action&#39;,&#39;5&#39;,&#39;5. Documented CRTA agreed upon by Power&#39;,&#39;null&#39;)</formula>
+    <label>CRTA Data grouping</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

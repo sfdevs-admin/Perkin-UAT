@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAPTransactioncount__c</fullName>
+    <description>This is to indicate that this Account (typically  Payer Account) has transactions on it in SAP. (This is set through Automation, users can not edit value)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is to indicate that this Account (typically  Payer Account) has transactions on it in SAP. (This is set through Automation, users can not edit value)</inlineHelpText>
+    <label>SAP Transaction count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

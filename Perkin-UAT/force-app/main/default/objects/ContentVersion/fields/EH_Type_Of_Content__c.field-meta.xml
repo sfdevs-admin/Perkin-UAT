@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_Type_Of_Content__c</fullName>
+    <label>Type of Content</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advertisements</fullName>
+                <default>false</default>
+                <label>Advertisements</label>
+            </value>
+            <value>
+                <fullName>Application Notes</fullName>
+                <default>false</default>
+                <label>Application Notes</label>
+            </value>
+            <value>
+                <fullName>Application Sheet</fullName>
+                <default>false</default>
+                <label>Application Sheet</label>
+            </value>
+            <value>
+                <fullName>Articles</fullName>
+                <default>false</default>
+                <label>Articles</label>
+            </value>
+            <value>
+                <fullName>Banner/Email Signature</fullName>
+                <default>false</default>
+                <label>Banner/Email Signature</label>
+            </value>
+            <value>
+                <fullName>Brochures</fullName>
+                <default>false</default>
+                <label>Brochures</label>
+            </value>
+            <value>
+                <fullName>Card</fullName>
+                <default>false</default>
+                <label>Card</label>
+            </value>
+            <value>
+                <fullName>Case Studies</fullName>
+                <default>false</default>
+                <label>Case Studies</label>
+            </value>
+            <value>
+                <fullName>Catalog</fullName>
+                <default>false</default>
+                <label>Catalog</label>
+            </value>
+            <value>
+                <fullName>Certificates (CE, 9001, 14001)</fullName>
+                <default>false</default>
+                <label>Certificates (CE, 9001, 14001)</label>
+            </value>
+            <value>
+                <fullName>Cheat Sheet</fullName>
+                <default>false</default>
+                <label>Cheat Sheet</label>
+            </value>
+            <value>
+                <fullName>Compendium</fullName>
+                <default>false</default>
+                <label>Compendium</label>
+            </value>
+            <value>
+                <fullName>FAQ</fullName>
+                <default>false</default>
+                <label>FAQ</label>
+            </value>
+            <value>
+                <fullName>Flyers</fullName>
+                <default>false</default>
+                <label>Flyers</label>
+            </value>
+            <value>
+                <fullName>How-To</fullName>
+                <default>false</default>
+                <label>How-To</label>
+            </value>
+            <value>
+                <fullName>Infographics</fullName>
+                <default>false</default>
+                <label>Infographics</label>
+            </value>
+            <value>
+                <fullName>Manuals</fullName>
+                <default>false</default>
+                <label>Manuals</label>
+            </value>
+            <value>
+                <fullName>Marketing News</fullName>
+                <default>false</default>
+                <label>Marketing News</label>
+            </value>
+            <value>
+                <fullName>MIS</fullName>
+                <default>false</default>
+                <label>MIS</label>
+            </value>
+            <value>
+                <fullName>Newsletter</fullName>
+                <default>false</default>
+                <label>Newsletter</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Packing Lists</fullName>
+                <default>false</default>
+                <label>Packing Lists</label>
+            </value>
+            <value>
+                <fullName>PDL</fullName>
+                <default>false</default>
+                <label>PDL</label>
+            </value>
+            <value>
+                <fullName>Photos</fullName>
+                <default>false</default>
+                <label>Photos</label>
+            </value>
+            <value>
+                <fullName>Playbook</fullName>
+                <default>false</default>
+                <label>Playbook</label>
+            </value>
+            <value>
+                <fullName>Preparing Your Lab</fullName>
+                <default>false</default>
+                <label>Preparing Your Lab</label>
+            </value>
+            <value>
+                <fullName>Presentations</fullName>
+                <default>false</default>
+                <label>Presentations</label>
+            </value>
+            <value>
+                <fullName>Pricing list</fullName>
+                <default>false</default>
+                <label>Pricing list</label>
+            </value>
+            <value>
+                <fullName>Product Notes</fullName>
+                <default>false</default>
+                <label>Product Notes</label>
+            </value>
+            <value>
+                <fullName>Promotional Posters</fullName>
+                <default>false</default>
+                <label>Promotional Posters</label>
+            </value>
+            <value>
+                <fullName>Reference Guide</fullName>
+                <default>false</default>
+                <label>Reference Guide</label>
+            </value>
+            <value>
+                <fullName>Shipping kit</fullName>
+                <default>false</default>
+                <label>Shipping kit</label>
+            </value>
+            <value>
+                <fullName>Specification Sheets</fullName>
+                <default>false</default>
+                <label>Specification Sheets</label>
+            </value>
+            <value>
+                <fullName>Technical Notes</fullName>
+                <default>false</default>
+                <label>Technical Notes</label>
+            </value>
+            <value>
+                <fullName>Technical Posters</fullName>
+                <default>false</default>
+                <label>Technical Posters</label>
+            </value>
+            <value>
+                <fullName>Tshirt</fullName>
+                <default>false</default>
+                <label>Tshirt</label>
+            </value>
+            <value>
+                <fullName>Video</fullName>
+                <default>false</default>
+                <label>Video</label>
+            </value>
+            <value>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+                <label>Webinars</label>
+            </value>
+            <value>
+                <fullName>White Papers</fullName>
+                <default>false</default>
+                <label>White Papers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

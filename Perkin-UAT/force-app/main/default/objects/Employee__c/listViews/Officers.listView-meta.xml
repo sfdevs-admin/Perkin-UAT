@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Officers</fullName>
+    <columns>NAME</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Job_Title__c</columns>
+    <columns>Email__c</columns>
+    <columns>Officer__c</columns>
+    <columns>Phone__c</columns>
+    <columns>Fax__c</columns>
+    <columns>Start_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Officer__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Officers</label>
+    <language>en_US</language>
+</ListView>

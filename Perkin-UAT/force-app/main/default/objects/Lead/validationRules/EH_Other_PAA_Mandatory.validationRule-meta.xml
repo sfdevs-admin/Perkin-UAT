@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_Other_PAA_Mandatory</fullName>
+    <active>true</active>
+    <description>This validation will fire onlyif the logged in user&#39;s Business is EH. Also, checks If the BE field has set as EH and PAA as other</description>
+    <errorConditionFormula>AND(
+     ISPICKVAL( $User.Business__c, &#39;EH&#39;)
+    ,INCLUDES( BE__c,&#39;EH&#39;)
+    ,ISPICKVAL(Product_Application_Area__c,&#39;Other - Explain&#39;)
+    ,ISBLANK(Other_PAA__c)
+  )</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_002: Please specify the Product Application Area</errorMessage>
+</ValidationRule>

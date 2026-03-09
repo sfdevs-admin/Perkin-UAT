@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory__c</fullName>
+    <label>Territory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NORTH AMERICA</fullName>
+                <default>false</default>
+                <label>NORTH AMERICA</label>
+            </value>
+            <value>
+                <fullName>SOUTH AMERICA</fullName>
+                <default>false</default>
+                <label>SOUTH AMERICA</label>
+            </value>
+            <value>
+                <fullName>WESTERN EUROPE</fullName>
+                <default>false</default>
+                <label>WESTERN EUROPE</label>
+            </value>
+            <value>
+                <fullName>EASTERN EUROPE</fullName>
+                <default>false</default>
+                <label>EASTERN EUROPE</label>
+            </value>
+            <value>
+                <fullName>MIDDLE EAST</fullName>
+                <default>false</default>
+                <label>MIDDLE EAST</label>
+            </value>
+            <value>
+                <fullName>AFRICA</fullName>
+                <default>false</default>
+                <label>AFRICA</label>
+            </value>
+            <value>
+                <fullName>INDIA</fullName>
+                <default>false</default>
+                <label>INDIA</label>
+            </value>
+            <value>
+                <fullName>KOSEA</fullName>
+                <default>false</default>
+                <label>KOSEA</label>
+            </value>
+            <value>
+                <fullName>CHINA</fullName>
+                <default>false</default>
+                <label>CHINA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_USA_TAC_TEA_VoiceCall</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SCV USA TAC TEA</label>
+    <queue>SCV_USA_TAC_TEA</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Complaint_Case_Initial_Status</fullName>
+    <active>true</active>
+    <description>When creating a Customer Care - Complaint case, Status must be set to &quot;New&quot; or &quot;Assessment and Investigation&quot; initially.
+PRIOR: MM
+NEW:   MG  2202.09.22   cleaned up formatting + Error Msg</description>
+    <errorConditionFormula>AND(
+$Permission.BD_Bypass_Automation != TRUE
+,ISNEW()
+,RecordType.Name = &#39;Customer Care - Complaint&#39;
+,NOT(ISPICKVAL(Status, &#39;New&#39;))
+,NOT(ISPICKVAL(Status
+,&#39;Assessment and Investigation&#39;))
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>V.RULE_CASE_001: When creating a Customer Care - Complaint case, Status must be set to &quot;New&quot; or &quot;Assessment and Investigation&quot; initially.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anesthesia_Kit__c</fullName>
+    <description>Copied from CALP 2-10-2012</description>
+    <label>Anesthesia Kit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Standard Kit (MK50122-A)</fullName>
+                <default>false</default>
+                <label>Standard Kit (MK50122-A)</label>
+            </value>
+            <value>
+                <fullName>Convertible Kit (MK50122-B)</fullName>
+                <default>false</default>
+                <label>Convertible Kit (MK50122-B)</label>
+            </value>
+            <value>
+                <fullName>Chamber (MK50122-IC)</fullName>
+                <default>false</default>
+                <label>Chamber (MK50122-IC)</label>
+            </value>
+            <value>
+                <fullName>Nose Cone (MK50122-NC)</fullName>
+                <default>false</default>
+                <label>Nose Cone (MK50122-NC)</label>
+            </value>
+            <value>
+                <fullName>Heated Stage (MK50122-HS)</fullName>
+                <default>false</default>
+                <label>Heated Stage (MK50122-HS)</label>
+            </value>
+            <value>
+                <fullName>CRI Anesthesia Stage (MK50123-1)</fullName>
+                <default>false</default>
+                <label>CRI Anesthesia Stage (MK50123-1)</label>
+            </value>
+            <value>
+                <fullName>CRI Anesthesia Stage (MK50123-2)</fullName>
+                <default>false</default>
+                <label>CRI Anesthesia Stage (MK50123-2)</label>
+            </value>
+            <value>
+                <fullName>CRI Anesthesia Stage (MK50123-3)</fullName>
+                <default>false</default>
+                <label>CRI Anesthesia Stage (MK50123-3)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

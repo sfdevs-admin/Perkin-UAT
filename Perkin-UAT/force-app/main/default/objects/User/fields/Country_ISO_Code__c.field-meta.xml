@@ -1,0 +1,2301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_ISO_Code__c</fullName>
+    <label>Country - ISO Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AFGHANISTAN -AF</fullName>
+                <default>false</default>
+                <label>AFGHANISTAN -AF</label>
+            </value>
+            <value>
+                <fullName>ALBANIA -AL</fullName>
+                <default>false</default>
+                <label>ALBANIA -AL</label>
+            </value>
+            <value>
+                <fullName>ALGERIA -DZ</fullName>
+                <default>false</default>
+                <label>ALGERIA -DZ</label>
+            </value>
+            <value>
+                <fullName>AMERICAN SAMOA -AS</fullName>
+                <default>false</default>
+                <label>AMERICAN SAMOA -AS</label>
+            </value>
+            <value>
+                <fullName>ANDORRA -AD</fullName>
+                <default>false</default>
+                <label>ANDORRA -AD</label>
+            </value>
+            <value>
+                <fullName>ANGOLA -AO</fullName>
+                <default>false</default>
+                <label>ANGOLA -AO</label>
+            </value>
+            <value>
+                <fullName>ANGUILLA -AI</fullName>
+                <default>false</default>
+                <label>ANGUILLA -AI</label>
+            </value>
+            <value>
+                <fullName>ANTARCTICA -TF</fullName>
+                <default>false</default>
+                <label>ANTARCTICA -TF</label>
+            </value>
+            <value>
+                <fullName>ANTARCTICA -AQ</fullName>
+                <default>false</default>
+                <label>ANTARCTICA -AQ</label>
+            </value>
+            <value>
+                <fullName>ANTIGUA &amp; BARBUDA -AG</fullName>
+                <default>false</default>
+                <label>ANTIGUA &amp; BARBUDA -AG</label>
+            </value>
+            <value>
+                <fullName>ARGENTINA -AR</fullName>
+                <default>false</default>
+                <label>ARGENTINA -AR</label>
+            </value>
+            <value>
+                <fullName>ARMENIA -AM</fullName>
+                <default>false</default>
+                <label>ARMENIA -AM</label>
+            </value>
+            <value>
+                <fullName>ARUBA -AW</fullName>
+                <default>false</default>
+                <label>ARUBA -AW</label>
+            </value>
+            <value>
+                <fullName>AUSTRALIA -AU</fullName>
+                <default>false</default>
+                <label>AUSTRALIA -AU</label>
+            </value>
+            <value>
+                <fullName>AUSTRIA -AT</fullName>
+                <default>false</default>
+                <label>AUSTRIA -AT</label>
+            </value>
+            <value>
+                <fullName>AZERBAIJAN -AZ</fullName>
+                <default>false</default>
+                <label>AZERBAIJAN -AZ</label>
+            </value>
+            <value>
+                <fullName>BAHAMAS -BS</fullName>
+                <default>false</default>
+                <label>BAHAMAS -BS</label>
+            </value>
+            <value>
+                <fullName>BAHRAIN -BH</fullName>
+                <default>false</default>
+                <label>BAHRAIN -BH</label>
+            </value>
+            <value>
+                <fullName>BANGLADESH -BD</fullName>
+                <default>false</default>
+                <label>BANGLADESH -BD</label>
+            </value>
+            <value>
+                <fullName>BARBADOS -BB</fullName>
+                <default>false</default>
+                <label>BARBADOS -BB</label>
+            </value>
+            <value>
+                <fullName>BELARUS -BY</fullName>
+                <default>false</default>
+                <label>BELARUS -BY</label>
+            </value>
+            <value>
+                <fullName>BELGIUM -BE</fullName>
+                <default>false</default>
+                <label>BELGIUM -BE</label>
+            </value>
+            <value>
+                <fullName>BELIZE -BZ</fullName>
+                <default>false</default>
+                <label>BELIZE -BZ</label>
+            </value>
+            <value>
+                <fullName>BENIN -BJ</fullName>
+                <default>false</default>
+                <label>BENIN -BJ</label>
+            </value>
+            <value>
+                <fullName>BERMUDA -BM</fullName>
+                <default>false</default>
+                <label>BERMUDA -BM</label>
+            </value>
+            <value>
+                <fullName>BHUTAN -BT</fullName>
+                <default>false</default>
+                <label>BHUTAN -BT</label>
+            </value>
+            <value>
+                <fullName>BOLIVIA -BO</fullName>
+                <default>false</default>
+                <label>BOLIVIA -BO</label>
+            </value>
+            <value>
+                <fullName>BOSNIA AND HERZEGOVINA -BA</fullName>
+                <default>false</default>
+                <label>BOSNIA AND HERZEGOVINA -BA</label>
+            </value>
+            <value>
+                <fullName>BOTSWANA -BW</fullName>
+                <default>false</default>
+                <label>BOTSWANA -BW</label>
+            </value>
+            <value>
+                <fullName>BOUVET ISLAND -BV</fullName>
+                <default>false</default>
+                <label>BOUVET ISLAND -BV</label>
+            </value>
+            <value>
+                <fullName>BRAZIL -BR</fullName>
+                <default>false</default>
+                <label>BRAZIL -BR</label>
+            </value>
+            <value>
+                <fullName>BRITISH INDIAN OCEAN TERR -IO</fullName>
+                <default>false</default>
+                <label>BRITISH INDIAN OCEAN TERR -IO</label>
+            </value>
+            <value>
+                <fullName>BRITISH VIRGIN ISLANDS -VG</fullName>
+                <default>false</default>
+                <label>BRITISH VIRGIN ISLANDS -VG</label>
+            </value>
+            <value>
+                <fullName>BRUNEI DARUSSALAM -BN</fullName>
+                <default>false</default>
+                <label>BRUNEI DARUSSALAM -BN</label>
+            </value>
+            <value>
+                <fullName>BULGARIA -BG</fullName>
+                <default>false</default>
+                <label>BULGARIA -BG</label>
+            </value>
+            <value>
+                <fullName>BURKINA FASO -BF</fullName>
+                <default>false</default>
+                <label>BURKINA FASO -BF</label>
+            </value>
+            <value>
+                <fullName>BURUNDI -BI</fullName>
+                <default>false</default>
+                <label>BURUNDI -BI</label>
+            </value>
+            <value>
+                <fullName>CAMBODIA -KH</fullName>
+                <default>false</default>
+                <label>CAMBODIA -KH</label>
+            </value>
+            <value>
+                <fullName>CAMEROON -CM</fullName>
+                <default>false</default>
+                <label>CAMEROON -CM</label>
+            </value>
+            <value>
+                <fullName>CANADA -CA</fullName>
+                <default>false</default>
+                <label>CANADA -CA</label>
+            </value>
+            <value>
+                <fullName>CAPE VERDE -CV</fullName>
+                <default>false</default>
+                <label>CAPE VERDE -CV</label>
+            </value>
+            <value>
+                <fullName>CAYMAN ISLANDS -KY</fullName>
+                <default>false</default>
+                <label>CAYMAN ISLANDS -KY</label>
+            </value>
+            <value>
+                <fullName>CENTRAL AFRICAN REPUBLIC -CF</fullName>
+                <default>false</default>
+                <label>CENTRAL AFRICAN REPUBLIC -CF</label>
+            </value>
+            <value>
+                <fullName>CHAD -TD</fullName>
+                <default>false</default>
+                <label>CHAD -TD</label>
+            </value>
+            <value>
+                <fullName>CHILE -CL</fullName>
+                <default>false</default>
+                <label>CHILE -CL</label>
+            </value>
+            <value>
+                <fullName>CHINA -CN</fullName>
+                <default>false</default>
+                <label>CHINA -CN</label>
+            </value>
+            <value>
+                <fullName>CHRISTMAS IS. (AUSTRAILIA -CX</fullName>
+                <default>false</default>
+                <label>CHRISTMAS IS. (AUSTRAILIA -CX</label>
+            </value>
+            <value>
+                <fullName>COCOS(KEELING) IS. (AUST) -CC</fullName>
+                <default>false</default>
+                <label>COCOS(KEELING) IS. (AUST) -CC</label>
+            </value>
+            <value>
+                <fullName>COLOMBIA -CO</fullName>
+                <default>false</default>
+                <label>COLOMBIA -CO</label>
+            </value>
+            <value>
+                <fullName>COMOROS -KM</fullName>
+                <default>false</default>
+                <label>COMOROS -KM</label>
+            </value>
+            <value>
+                <fullName>CONGO -CG</fullName>
+                <default>false</default>
+                <label>CONGO -CG</label>
+            </value>
+            <value>
+                <fullName>CONGO DEMOCRATIC REPUBLIC -CD</fullName>
+                <default>false</default>
+                <label>CONGO DEMOCRATIC REPUBLIC -CD</label>
+            </value>
+            <value>
+                <fullName>COOK ISLANDS -CK</fullName>
+                <default>false</default>
+                <label>COOK ISLANDS -CK</label>
+            </value>
+            <value>
+                <fullName>COSTA RICA -CR</fullName>
+                <default>false</default>
+                <label>COSTA RICA -CR</label>
+            </value>
+            <value>
+                <fullName>CROATIA -HR</fullName>
+                <default>false</default>
+                <label>CROATIA -HR</label>
+            </value>
+            <value>
+                <fullName>CUBA -CU</fullName>
+                <default>false</default>
+                <label>CUBA -CU</label>
+            </value>
+            <value>
+                <fullName>CYPRUS -CY</fullName>
+                <default>false</default>
+                <label>CYPRUS -CY</label>
+            </value>
+            <value>
+                <fullName>CZECH REPUBLIC -CZ</fullName>
+                <default>false</default>
+                <label>CZECH REPUBLIC -CZ</label>
+            </value>
+            <value>
+                <fullName>CZECHOSLOVAKIA -CSX</fullName>
+                <default>false</default>
+                <label>CZECHOSLOVAKIA -CSX</label>
+            </value>
+            <value>
+                <fullName>DENMARK -DK</fullName>
+                <default>false</default>
+                <label>DENMARK -DK</label>
+            </value>
+            <value>
+                <fullName>DJIBOUTI -DJ</fullName>
+                <default>false</default>
+                <label>DJIBOUTI -DJ</label>
+            </value>
+            <value>
+                <fullName>DOMINICA -DM</fullName>
+                <default>false</default>
+                <label>DOMINICA -DM</label>
+            </value>
+            <value>
+                <fullName>DOMINICAN REPUBLIC -DO</fullName>
+                <default>false</default>
+                <label>DOMINICAN REPUBLIC -DO</label>
+            </value>
+            <value>
+                <fullName>EAST TIMOR -TP</fullName>
+                <default>false</default>
+                <label>EAST TIMOR -TP</label>
+            </value>
+            <value>
+                <fullName>ECUADOR -EC</fullName>
+                <default>false</default>
+                <label>ECUADOR -EC</label>
+            </value>
+            <value>
+                <fullName>EGYPT -EG</fullName>
+                <default>false</default>
+                <label>EGYPT -EG</label>
+            </value>
+            <value>
+                <fullName>EL SALVADOR -SV</fullName>
+                <default>false</default>
+                <label>EL SALVADOR -SV</label>
+            </value>
+            <value>
+                <fullName>EQUATORIAL GUINEA -GQ</fullName>
+                <default>false</default>
+                <label>EQUATORIAL GUINEA -GQ</label>
+            </value>
+            <value>
+                <fullName>ERITREA -ER</fullName>
+                <default>false</default>
+                <label>ERITREA -ER</label>
+            </value>
+            <value>
+                <fullName>ESTONIA -EE</fullName>
+                <default>false</default>
+                <label>ESTONIA -EE</label>
+            </value>
+            <value>
+                <fullName>ETHIOPIA -ET</fullName>
+                <default>false</default>
+                <label>ETHIOPIA -ET</label>
+            </value>
+            <value>
+                <fullName>EUROPE, M.E., AFRICA(ABD) -EM</fullName>
+                <default>false</default>
+                <label>EUROPE, M.E., AFRICA(ABD) -EM</label>
+            </value>
+            <value>
+                <fullName>FAEROE ISLANDS (DENMARK) -FO</fullName>
+                <default>false</default>
+                <label>FAEROE ISLANDS (DENMARK) -FO</label>
+            </value>
+            <value>
+                <fullName>FALKLAND ISLANDS -FK</fullName>
+                <default>false</default>
+                <label>FALKLAND ISLANDS -FK</label>
+            </value>
+            <value>
+                <fullName>FIJI -FJ</fullName>
+                <default>false</default>
+                <label>FIJI -FJ</label>
+            </value>
+            <value>
+                <fullName>FINLAND -FI</fullName>
+                <default>false</default>
+                <label>FINLAND -FI</label>
+            </value>
+            <value>
+                <fullName>FMR YUG REP MACEDONIA -MK</fullName>
+                <default>false</default>
+                <label>FMR YUG REP MACEDONIA -MK</label>
+            </value>
+            <value>
+                <fullName>FRANCE -FR</fullName>
+                <default>false</default>
+                <label>FRANCE -FR</label>
+            </value>
+            <value>
+                <fullName>FRANCE, METROPOLITAN -FX</fullName>
+                <default>false</default>
+                <label>FRANCE, METROPOLITAN -FX</label>
+            </value>
+            <value>
+                <fullName>FRENCH GUIANA -GF</fullName>
+                <default>false</default>
+                <label>FRENCH GUIANA -GF</label>
+            </value>
+            <value>
+                <fullName>FRENCH POLYNESIA -PF</fullName>
+                <default>false</default>
+                <label>FRENCH POLYNESIA -PF</label>
+            </value>
+            <value>
+                <fullName>GABON -GA</fullName>
+                <default>false</default>
+                <label>GABON -GA</label>
+            </value>
+            <value>
+                <fullName>GAMBIA -GM</fullName>
+                <default>false</default>
+                <label>GAMBIA -GM</label>
+            </value>
+            <value>
+                <fullName>GAZA STRIP -GZ</fullName>
+                <default>false</default>
+                <label>GAZA STRIP -GZ</label>
+            </value>
+            <value>
+                <fullName>GEORGIA -GE</fullName>
+                <default>false</default>
+                <label>GEORGIA -GE</label>
+            </value>
+            <value>
+                <fullName>GERMANY -DE</fullName>
+                <default>false</default>
+                <label>GERMANY -DE</label>
+            </value>
+            <value>
+                <fullName>GHANA -GH</fullName>
+                <default>false</default>
+                <label>GHANA -GH</label>
+            </value>
+            <value>
+                <fullName>GIBRALTAR -GI</fullName>
+                <default>false</default>
+                <label>GIBRALTAR -GI</label>
+            </value>
+            <value>
+                <fullName>GREECE -GR</fullName>
+                <default>false</default>
+                <label>GREECE -GR</label>
+            </value>
+            <value>
+                <fullName>GREENLAND -GL</fullName>
+                <default>false</default>
+                <label>GREENLAND -GL</label>
+            </value>
+            <value>
+                <fullName>GRENADA -GD</fullName>
+                <default>false</default>
+                <label>GRENADA -GD</label>
+            </value>
+            <value>
+                <fullName>GUADELOUPE -GP</fullName>
+                <default>false</default>
+                <label>GUADELOUPE -GP</label>
+            </value>
+            <value>
+                <fullName>GUAM -GU</fullName>
+                <default>false</default>
+                <label>GUAM -GU</label>
+            </value>
+            <value>
+                <fullName>GUATEMALA -GT</fullName>
+                <default>false</default>
+                <label>GUATEMALA -GT</label>
+            </value>
+            <value>
+                <fullName>GUINEA -GN</fullName>
+                <default>false</default>
+                <label>GUINEA -GN</label>
+            </value>
+            <value>
+                <fullName>GUINEA BISSAU -GW</fullName>
+                <default>false</default>
+                <label>GUINEA BISSAU -GW</label>
+            </value>
+            <value>
+                <fullName>GUYANA -GY</fullName>
+                <default>false</default>
+                <label>GUYANA -GY</label>
+            </value>
+            <value>
+                <fullName>HAITI -HT</fullName>
+                <default>false</default>
+                <label>HAITI -HT</label>
+            </value>
+            <value>
+                <fullName>HEARD &amp; MCDONALD IS.(AUS) -HM</fullName>
+                <default>false</default>
+                <label>HEARD &amp; MCDONALD IS.(AUS) -HM</label>
+            </value>
+            <value>
+                <fullName>HONDURAS -HN</fullName>
+                <default>false</default>
+                <label>HONDURAS -HN</label>
+            </value>
+            <value>
+                <fullName>HONG KONG -HK</fullName>
+                <default>false</default>
+                <label>HONG KONG -HK</label>
+            </value>
+            <value>
+                <fullName>HUNGARY -HU</fullName>
+                <default>false</default>
+                <label>HUNGARY -HU</label>
+            </value>
+            <value>
+                <fullName>ICELAND -IS</fullName>
+                <default>false</default>
+                <label>ICELAND -IS</label>
+            </value>
+            <value>
+                <fullName>INDIA -IN</fullName>
+                <default>false</default>
+                <label>INDIA -IN</label>
+            </value>
+            <value>
+                <fullName>INDONESIA -ID</fullName>
+                <default>false</default>
+                <label>INDONESIA -ID</label>
+            </value>
+            <value>
+                <fullName>IRAN -IR</fullName>
+                <default>false</default>
+                <label>IRAN -IR</label>
+            </value>
+            <value>
+                <fullName>IRAQ -IQ</fullName>
+                <default>false</default>
+                <label>IRAQ -IQ</label>
+            </value>
+            <value>
+                <fullName>IRAQ SAUDI ARABIA NEUTRAL ZONE -NT</fullName>
+                <default>false</default>
+                <label>IRAQ SAUDI ARABIA NEUTRAL ZONE -NT</label>
+            </value>
+            <value>
+                <fullName>IRELAND -IE</fullName>
+                <default>false</default>
+                <label>IRELAND -IE</label>
+            </value>
+            <value>
+                <fullName>ISRAEL -IL</fullName>
+                <default>false</default>
+                <label>ISRAEL -IL</label>
+            </value>
+            <value>
+                <fullName>ITALY -IT</fullName>
+                <default>false</default>
+                <label>ITALY -IT</label>
+            </value>
+            <value>
+                <fullName>IVORY COAST -CI</fullName>
+                <default>false</default>
+                <label>IVORY COAST -CI</label>
+            </value>
+            <value>
+                <fullName>JAMAICA -JM</fullName>
+                <default>false</default>
+                <label>JAMAICA -JM</label>
+            </value>
+            <value>
+                <fullName>JAPAN -JP</fullName>
+                <default>false</default>
+                <label>JAPAN -JP</label>
+            </value>
+            <value>
+                <fullName>JOHNSTON,MIDWAY,WAKE ISLS -UM</fullName>
+                <default>false</default>
+                <label>JOHNSTON,MIDWAY,WAKE ISLS -UM</label>
+            </value>
+            <value>
+                <fullName>JORDAN -JO</fullName>
+                <default>false</default>
+                <label>JORDAN -JO</label>
+            </value>
+            <value>
+                <fullName>KAZAKHSTAN -KZ</fullName>
+                <default>false</default>
+                <label>KAZAKHSTAN -KZ</label>
+            </value>
+            <value>
+                <fullName>KENYA -KE</fullName>
+                <default>false</default>
+                <label>KENYA -KE</label>
+            </value>
+            <value>
+                <fullName>KIRIBATI -KI</fullName>
+                <default>false</default>
+                <label>KIRIBATI -KI</label>
+            </value>
+            <value>
+                <fullName>KOREA, REPUBLIC OF -KR</fullName>
+                <default>false</default>
+                <label>KOREA, REPUBLIC OF -KR</label>
+            </value>
+            <value>
+                <fullName>KOREA,DEM PEOPLES REP -KP</fullName>
+                <default>false</default>
+                <label>KOREA,DEM PEOPLES REP -KP</label>
+            </value>
+            <value>
+                <fullName>KOSOVO -XK</fullName>
+                <default>false</default>
+                <label>KOSOVO -XK</label>
+            </value>
+            <value>
+                <fullName>KUWAIT -KW</fullName>
+                <default>false</default>
+                <label>KUWAIT -KW</label>
+            </value>
+            <value>
+                <fullName>KYRGYZSTAN -KG</fullName>
+                <default>false</default>
+                <label>KYRGYZSTAN -KG</label>
+            </value>
+            <value>
+                <fullName>LAOS -LA</fullName>
+                <default>false</default>
+                <label>LAOS -LA</label>
+            </value>
+            <value>
+                <fullName>LATVIA -LV</fullName>
+                <default>false</default>
+                <label>LATVIA -LV</label>
+            </value>
+            <value>
+                <fullName>LEBANON -LB</fullName>
+                <default>false</default>
+                <label>LEBANON -LB</label>
+            </value>
+            <value>
+                <fullName>LESOTHO -LS</fullName>
+                <default>false</default>
+                <label>LESOTHO -LS</label>
+            </value>
+            <value>
+                <fullName>LIBERIA -LR</fullName>
+                <default>false</default>
+                <label>LIBERIA -LR</label>
+            </value>
+            <value>
+                <fullName>LIBYA ARAB JAMAHIRIYA -LY</fullName>
+                <default>false</default>
+                <label>LIBYA ARAB JAMAHIRIYA -LY</label>
+            </value>
+            <value>
+                <fullName>LIECHTENSTEIN -LI</fullName>
+                <default>false</default>
+                <label>LIECHTENSTEIN -LI</label>
+            </value>
+            <value>
+                <fullName>LITHUANIA -LT</fullName>
+                <default>false</default>
+                <label>LITHUANIA -LT</label>
+            </value>
+            <value>
+                <fullName>LUXEMBOURG -LU</fullName>
+                <default>false</default>
+                <label>LUXEMBOURG -LU</label>
+            </value>
+            <value>
+                <fullName>MACAU -MO</fullName>
+                <default>false</default>
+                <label>MACAU -MO</label>
+            </value>
+            <value>
+                <fullName>MADAGASCAR -MG</fullName>
+                <default>false</default>
+                <label>MADAGASCAR -MG</label>
+            </value>
+            <value>
+                <fullName>MALAWI -MW</fullName>
+                <default>false</default>
+                <label>MALAWI -MW</label>
+            </value>
+            <value>
+                <fullName>MALAYSIA -MY</fullName>
+                <default>false</default>
+                <label>MALAYSIA -MY</label>
+            </value>
+            <value>
+                <fullName>MALDIVES -MV</fullName>
+                <default>false</default>
+                <label>MALDIVES -MV</label>
+            </value>
+            <value>
+                <fullName>MALI -ML</fullName>
+                <default>false</default>
+                <label>MALI -ML</label>
+            </value>
+            <value>
+                <fullName>MALTA -MT</fullName>
+                <default>false</default>
+                <label>MALTA -MT</label>
+            </value>
+            <value>
+                <fullName>MARSHALL ISLANDS -MH</fullName>
+                <default>false</default>
+                <label>MARSHALL ISLANDS -MH</label>
+            </value>
+            <value>
+                <fullName>MARTINIQUE -MQ</fullName>
+                <default>false</default>
+                <label>MARTINIQUE -MQ</label>
+            </value>
+            <value>
+                <fullName>MAURITANIA -MR</fullName>
+                <default>false</default>
+                <label>MAURITANIA -MR</label>
+            </value>
+            <value>
+                <fullName>MAURITIUS -MU</fullName>
+                <default>false</default>
+                <label>MAURITIUS -MU</label>
+            </value>
+            <value>
+                <fullName>MAYOTTE -YT</fullName>
+                <default>false</default>
+                <label>MAYOTTE -YT</label>
+            </value>
+            <value>
+                <fullName>MEXICO -MX</fullName>
+                <default>false</default>
+                <label>MEXICO -MX</label>
+            </value>
+            <value>
+                <fullName>MICRONESIA, FEDERATED STS -FM</fullName>
+                <default>false</default>
+                <label>MICRONESIA, FEDERATED STS -FM</label>
+            </value>
+            <value>
+                <fullName>MOLDOVA, REPUBLIC OF -MD</fullName>
+                <default>false</default>
+                <label>MOLDOVA, REPUBLIC OF -MD</label>
+            </value>
+            <value>
+                <fullName>MONACO -MC</fullName>
+                <default>false</default>
+                <label>MONACO -MC</label>
+            </value>
+            <value>
+                <fullName>MONGOLIA -MN</fullName>
+                <default>false</default>
+                <label>MONGOLIA -MN</label>
+            </value>
+            <value>
+                <fullName>MONTSERAT -MS</fullName>
+                <default>false</default>
+                <label>MONTSERAT -MS</label>
+            </value>
+            <value>
+                <fullName>MOROCCO -MA</fullName>
+                <default>false</default>
+                <label>MOROCCO -MA</label>
+            </value>
+            <value>
+                <fullName>MOZAMBIQUE -MZ</fullName>
+                <default>false</default>
+                <label>MOZAMBIQUE -MZ</label>
+            </value>
+            <value>
+                <fullName>MYANMAR -MM</fullName>
+                <default>false</default>
+                <label>MYANMAR -MM</label>
+            </value>
+            <value>
+                <fullName>NAMIBIA -NA</fullName>
+                <default>false</default>
+                <label>NAMIBIA -NA</label>
+            </value>
+            <value>
+                <fullName>NAURU -NR</fullName>
+                <default>false</default>
+                <label>NAURU -NR</label>
+            </value>
+            <value>
+                <fullName>NEPAL -NP</fullName>
+                <default>false</default>
+                <label>NEPAL -NP</label>
+            </value>
+            <value>
+                <fullName>NETHERLANDS -NL</fullName>
+                <default>false</default>
+                <label>NETHERLANDS -NL</label>
+            </value>
+            <value>
+                <fullName>NETHERLANDS ANTILLES -AN</fullName>
+                <default>false</default>
+                <label>NETHERLANDS ANTILLES -AN</label>
+            </value>
+            <value>
+                <fullName>NEW CALEDONIA -NC</fullName>
+                <default>false</default>
+                <label>NEW CALEDONIA -NC</label>
+            </value>
+            <value>
+                <fullName>NEW ZEALAND -NZ</fullName>
+                <default>false</default>
+                <label>NEW ZEALAND -NZ</label>
+            </value>
+            <value>
+                <fullName>NICARAGUA -NI</fullName>
+                <default>false</default>
+                <label>NICARAGUA -NI</label>
+            </value>
+            <value>
+                <fullName>NIGER -NE</fullName>
+                <default>false</default>
+                <label>NIGER -NE</label>
+            </value>
+            <value>
+                <fullName>NIGERIA -NG</fullName>
+                <default>false</default>
+                <label>NIGERIA -NG</label>
+            </value>
+            <value>
+                <fullName>NIUE -NU</fullName>
+                <default>false</default>
+                <label>NIUE -NU</label>
+            </value>
+            <value>
+                <fullName>NORFOLK ISLAND (AUSTRALIA -NF</fullName>
+                <default>false</default>
+                <label>NORFOLK ISLAND (AUSTRALIA -NF</label>
+            </value>
+            <value>
+                <fullName>NORTHERN MARIANA ISLANDS -MP</fullName>
+                <default>false</default>
+                <label>NORTHERN MARIANA ISLANDS -MP</label>
+            </value>
+            <value>
+                <fullName>NORWAY -NO</fullName>
+                <default>false</default>
+                <label>NORWAY -NO</label>
+            </value>
+            <value>
+                <fullName>OMAN -OM</fullName>
+                <default>false</default>
+                <label>OMAN -OM</label>
+            </value>
+            <value>
+                <fullName>PAKISTAN -PK</fullName>
+                <default>false</default>
+                <label>PAKISTAN -PK</label>
+            </value>
+            <value>
+                <fullName>PALAU ISLANDS -PW</fullName>
+                <default>false</default>
+                <label>PALAU ISLANDS -PW</label>
+            </value>
+            <value>
+                <fullName>PANAMA -PA</fullName>
+                <default>false</default>
+                <label>PANAMA -PA</label>
+            </value>
+            <value>
+                <fullName>PAPUA NEW GUINEA -PG</fullName>
+                <default>false</default>
+                <label>PAPUA NEW GUINEA -PG</label>
+            </value>
+            <value>
+                <fullName>PARAGUAY -PY</fullName>
+                <default>false</default>
+                <label>PARAGUAY -PY</label>
+            </value>
+            <value>
+                <fullName>PERU -PE</fullName>
+                <default>false</default>
+                <label>PERU -PE</label>
+            </value>
+            <value>
+                <fullName>PHILIPPINES -PH</fullName>
+                <default>false</default>
+                <label>PHILIPPINES -PH</label>
+            </value>
+            <value>
+                <fullName>PITCAIRN ISLANDS -PN</fullName>
+                <default>false</default>
+                <label>PITCAIRN ISLANDS -PN</label>
+            </value>
+            <value>
+                <fullName>POLAND -PL</fullName>
+                <default>false</default>
+                <label>POLAND -PL</label>
+            </value>
+            <value>
+                <fullName>PORTUGAL -PT</fullName>
+                <default>false</default>
+                <label>PORTUGAL -PT</label>
+            </value>
+            <value>
+                <fullName>PUERTO RICO -PR</fullName>
+                <default>false</default>
+                <label>PUERTO RICO -PR</label>
+            </value>
+            <value>
+                <fullName>QATAR -QA</fullName>
+                <default>false</default>
+                <label>QATAR -QA</label>
+            </value>
+            <value>
+                <fullName>REPUBLIC OF MONTENEGRO -ME</fullName>
+                <default>false</default>
+                <label>REPUBLIC OF MONTENEGRO -ME</label>
+            </value>
+            <value>
+                <fullName>REPUBLIC OF SERBIA -RS</fullName>
+                <default>false</default>
+                <label>REPUBLIC OF SERBIA -RS</label>
+            </value>
+            <value>
+                <fullName>REUNION -RE</fullName>
+                <default>false</default>
+                <label>REUNION -RE</label>
+            </value>
+            <value>
+                <fullName>ROMANIA -RO</fullName>
+                <default>false</default>
+                <label>ROMANIA -RO</label>
+            </value>
+            <value>
+                <fullName>RUSSIAN FEDERATION -RU</fullName>
+                <default>false</default>
+                <label>RUSSIAN FEDERATION -RU</label>
+            </value>
+            <value>
+                <fullName>RWANDA -RW</fullName>
+                <default>false</default>
+                <label>RWANDA -RW</label>
+            </value>
+            <value>
+                <fullName>SAINT LUCIA -LC</fullName>
+                <default>false</default>
+                <label>SAINT LUCIA -LC</label>
+            </value>
+            <value>
+                <fullName>SAN MARINO -SM</fullName>
+                <default>false</default>
+                <label>SAN MARINO -SM</label>
+            </value>
+            <value>
+                <fullName>SAO TOME AND PRINCIPE -ST</fullName>
+                <default>false</default>
+                <label>SAO TOME AND PRINCIPE -ST</label>
+            </value>
+            <value>
+                <fullName>SAUDI ARABIA -SA</fullName>
+                <default>false</default>
+                <label>SAUDI ARABIA -SA</label>
+            </value>
+            <value>
+                <fullName>SENEGAL -SN</fullName>
+                <default>false</default>
+                <label>SENEGAL -SN</label>
+            </value>
+            <value>
+                <fullName>SERBIA MONTENEGRO -CS</fullName>
+                <default>false</default>
+                <label>SERBIA MONTENEGRO -CS</label>
+            </value>
+            <value>
+                <fullName>SEYCHELLES -SC</fullName>
+                <default>false</default>
+                <label>SEYCHELLES -SC</label>
+            </value>
+            <value>
+                <fullName>SIERRA LEONE -SL</fullName>
+                <default>false</default>
+                <label>SIERRA LEONE -SL</label>
+            </value>
+            <value>
+                <fullName>SINGAPORE -SG</fullName>
+                <default>false</default>
+                <label>SINGAPORE -SG</label>
+            </value>
+            <value>
+                <fullName>SLOVAKIA -SK</fullName>
+                <default>false</default>
+                <label>SLOVAKIA -SK</label>
+            </value>
+            <value>
+                <fullName>SLOVAKIA  was SLOVAK REP. -SQ</fullName>
+                <default>false</default>
+                <label>SLOVAKIA  was SLOVAK REP. -SQ</label>
+            </value>
+            <value>
+                <fullName>SLOVENIA -SI</fullName>
+                <default>false</default>
+                <label>SLOVENIA -SI</label>
+            </value>
+            <value>
+                <fullName>SO.GEORGIA AND SO.SANDWICH IS. -GS</fullName>
+                <default>false</default>
+                <label>SO.GEORGIA AND SO.SANDWICH IS. -GS</label>
+            </value>
+            <value>
+                <fullName>SOLOMON ISLANDS -SB</fullName>
+                <default>false</default>
+                <label>SOLOMON ISLANDS -SB</label>
+            </value>
+            <value>
+                <fullName>SOMALIA -SO</fullName>
+                <default>false</default>
+                <label>SOMALIA -SO</label>
+            </value>
+            <value>
+                <fullName>SOUTH AFRICA -ZA</fullName>
+                <default>false</default>
+                <label>SOUTH AFRICA -ZA</label>
+            </value>
+            <value>
+                <fullName>SOUTH AMERICA   (ABD) -LN</fullName>
+                <default>false</default>
+                <label>SOUTH AMERICA   (ABD) -LN</label>
+            </value>
+            <value>
+                <fullName>SOUTH EAST EUROPE (Export) -SEE</fullName>
+                <default>false</default>
+                <label>SOUTH EAST EUROPE (Export) -SEE</label>
+            </value>
+            <value>
+                <fullName>SPAIN -ES</fullName>
+                <default>false</default>
+                <label>SPAIN -ES</label>
+            </value>
+            <value>
+                <fullName>SRI LANKA -LK</fullName>
+                <default>false</default>
+                <label>SRI LANKA -LK</label>
+            </value>
+            <value>
+                <fullName>ST HELENA (U.K.) -SH</fullName>
+                <default>false</default>
+                <label>ST HELENA (U.K.) -SH</label>
+            </value>
+            <value>
+                <fullName>ST PIERRE &amp; MIQUELON(FRN) -PM</fullName>
+                <default>false</default>
+                <label>ST PIERRE &amp; MIQUELON(FRN) -PM</label>
+            </value>
+            <value>
+                <fullName>ST. KITTS AND NEVIS -KN</fullName>
+                <default>false</default>
+                <label>ST. KITTS AND NEVIS -KN</label>
+            </value>
+            <value>
+                <fullName>ST. VINCENT -VC</fullName>
+                <default>false</default>
+                <label>ST. VINCENT -VC</label>
+            </value>
+            <value>
+                <fullName>SUDAN -SD</fullName>
+                <default>false</default>
+                <label>SUDAN -SD</label>
+            </value>
+            <value>
+                <fullName>SURINAME -SR</fullName>
+                <default>false</default>
+                <label>SURINAME -SR</label>
+            </value>
+            <value>
+                <fullName>SVALBARD&amp;JAN MAYEN IS(NOR -SJ</fullName>
+                <default>false</default>
+                <label>SVALBARD&amp;JAN MAYEN IS(NOR -SJ</label>
+            </value>
+            <value>
+                <fullName>SWAZILAND -SZ</fullName>
+                <default>false</default>
+                <label>SWAZILAND -SZ</label>
+            </value>
+            <value>
+                <fullName>SWEDEN -SE</fullName>
+                <default>false</default>
+                <label>SWEDEN -SE</label>
+            </value>
+            <value>
+                <fullName>SWEDEN(OLD CODE,SEE &quot;SE&quot;) -SW</fullName>
+                <default>false</default>
+                <label>SWEDEN(OLD CODE,SEE &quot;SE&quot;) -SW</label>
+            </value>
+            <value>
+                <fullName>SWITZERLAND -CH</fullName>
+                <default>false</default>
+                <label>SWITZERLAND -CH</label>
+            </value>
+            <value>
+                <fullName>SYRIAN ARAB REPUBLIC -SY</fullName>
+                <default>false</default>
+                <label>SYRIAN ARAB REPUBLIC -SY</label>
+            </value>
+            <value>
+                <fullName>TAIWAN -TW</fullName>
+                <default>false</default>
+                <label>TAIWAN -TW</label>
+            </value>
+            <value>
+                <fullName>TAJIKISTAN -TJ</fullName>
+                <default>false</default>
+                <label>TAJIKISTAN -TJ</label>
+            </value>
+            <value>
+                <fullName>TANZANIA -TZ</fullName>
+                <default>false</default>
+                <label>TANZANIA -TZ</label>
+            </value>
+            <value>
+                <fullName>THAILAND -TH</fullName>
+                <default>false</default>
+                <label>THAILAND -TH</label>
+            </value>
+            <value>
+                <fullName>TOGO -TG</fullName>
+                <default>false</default>
+                <label>TOGO -TG</label>
+            </value>
+            <value>
+                <fullName>TOKELAU (N.Z.) -TK</fullName>
+                <default>false</default>
+                <label>TOKELAU (N.Z.) -TK</label>
+            </value>
+            <value>
+                <fullName>TONGA -TO</fullName>
+                <default>false</default>
+                <label>TONGA -TO</label>
+            </value>
+            <value>
+                <fullName>TRINIDAD &amp; TOBAGO -TT</fullName>
+                <default>false</default>
+                <label>TRINIDAD &amp; TOBAGO -TT</label>
+            </value>
+            <value>
+                <fullName>TUNISIA -TN</fullName>
+                <default>false</default>
+                <label>TUNISIA -TN</label>
+            </value>
+            <value>
+                <fullName>TURKEY -TR</fullName>
+                <default>false</default>
+                <label>TURKEY -TR</label>
+            </value>
+            <value>
+                <fullName>TURKMENISTAN -TM</fullName>
+                <default>false</default>
+                <label>TURKMENISTAN -TM</label>
+            </value>
+            <value>
+                <fullName>TURKS AND CAICOS ISLANDS -TC</fullName>
+                <default>false</default>
+                <label>TURKS AND CAICOS ISLANDS -TC</label>
+            </value>
+            <value>
+                <fullName>TUVALU -TV</fullName>
+                <default>false</default>
+                <label>TUVALU -TV</label>
+            </value>
+            <value>
+                <fullName>U.S. VIRGIN ISLANDS -VI</fullName>
+                <default>false</default>
+                <label>U.S. VIRGIN ISLANDS -VI</label>
+            </value>
+            <value>
+                <fullName>UGANDA -UG</fullName>
+                <default>false</default>
+                <label>UGANDA -UG</label>
+            </value>
+            <value>
+                <fullName>UKRAINE -UA</fullName>
+                <default>false</default>
+                <label>UKRAINE -UA</label>
+            </value>
+            <value>
+                <fullName>UNITED ARAB EMIRATES -AE</fullName>
+                <default>false</default>
+                <label>UNITED ARAB EMIRATES -AE</label>
+            </value>
+            <value>
+                <fullName>UNITED KINGDOM -GB</fullName>
+                <default>false</default>
+                <label>UNITED KINGDOM -GB</label>
+            </value>
+            <value>
+                <fullName>UNITED STATES -US</fullName>
+                <default>false</default>
+                <label>UNITED STATES -US</label>
+            </value>
+            <value>
+                <fullName>URUGUAY -UY</fullName>
+                <default>false</default>
+                <label>URUGUAY -UY</label>
+            </value>
+            <value>
+                <fullName>USSR -SU</fullName>
+                <default>false</default>
+                <label>USSR -SU</label>
+            </value>
+            <value>
+                <fullName>UZBEKISTAN -UZ</fullName>
+                <default>false</default>
+                <label>UZBEKISTAN -UZ</label>
+            </value>
+            <value>
+                <fullName>VANUATU -VU</fullName>
+                <default>false</default>
+                <label>VANUATU -VU</label>
+            </value>
+            <value>
+                <fullName>VATICAN CITY (HOLY SEE) -VA</fullName>
+                <default>false</default>
+                <label>VATICAN CITY (HOLY SEE) -VA</label>
+            </value>
+            <value>
+                <fullName>VENEZUELA -VE</fullName>
+                <default>false</default>
+                <label>VENEZUELA -VE</label>
+            </value>
+            <value>
+                <fullName>VIETNAM -VN</fullName>
+                <default>false</default>
+                <label>VIETNAM -VN</label>
+            </value>
+            <value>
+                <fullName>WALLIS &amp; FUTUNA IS.(FRANC -WF</fullName>
+                <default>false</default>
+                <label>WALLIS &amp; FUTUNA IS.(FRANC -WF</label>
+            </value>
+            <value>
+                <fullName>WEST BANK -WE</fullName>
+                <default>false</default>
+                <label>WEST BANK -WE</label>
+            </value>
+            <value>
+                <fullName>WESTERN SAHARA -EH</fullName>
+                <default>false</default>
+                <label>WESTERN SAHARA -EH</label>
+            </value>
+            <value>
+                <fullName>WESTERN SAMOA -WS</fullName>
+                <default>false</default>
+                <label>WESTERN SAMOA -WS</label>
+            </value>
+            <value>
+                <fullName>YEMEN -YE</fullName>
+                <default>false</default>
+                <label>YEMEN -YE</label>
+            </value>
+            <value>
+                <fullName>YUGOSLAVIA -YU</fullName>
+                <default>false</default>
+                <label>YUGOSLAVIA -YU</label>
+            </value>
+            <value>
+                <fullName>ZAIRE -ZR</fullName>
+                <default>false</default>
+                <label>ZAIRE -ZR</label>
+            </value>
+            <value>
+                <fullName>ZAMBIA -ZM</fullName>
+                <default>false</default>
+                <label>ZAMBIA -ZM</label>
+            </value>
+            <value>
+                <fullName>ZIMBABWE -ZW</fullName>
+                <default>false</default>
+                <label>ZIMBABWE -ZW</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CHINA</controllingFieldValue>
+            <valueName>CHINA -CN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>AFGHANISTAN -AF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ALBANIA -AL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ALGERIA -DZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ANDORRA -AD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ANGOLA -AO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ARMENIA -AM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>AUSTRIA -AT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>AZERBAIJAN -AZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BAHRAIN -BH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BELARUS -BY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BELGIUM -BE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BENIN -BJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BOSNIA AND HERZEGOVINA -BA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BOTSWANA -BW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BOUVET ISLAND -BV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BRITISH INDIAN OCEAN TERR -IO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BULGARIA -BG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BURKINA FASO -BF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>BURUNDI -BI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CAMEROON -CM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CAPE VERDE -CV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CENTRAL AFRICAN REPUBLIC -CF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CHAD -TD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>COMOROS -KM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CONGO -CG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CONGO DEMOCRATIC REPUBLIC -CD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CROATIA -HR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CYPRUS -CY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CZECH REPUBLIC -CZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>CZECHOSLOVAKIA -CSX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>DENMARK -DK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>DJIBOUTI -DJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>EGYPT -EG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>EQUATORIAL GUINEA -GQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ERITREA -ER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ESTONIA -EE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ETHIOPIA -ET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>EUROPE, M.E., AFRICA(ABD) -EM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>FAEROE ISLANDS (DENMARK) -FO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>FINLAND -FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>FMR YUG REP MACEDONIA -MK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>FRANCE -FR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>FRANCE, METROPOLITAN -FX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>FRENCH GUIANA -GF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GABON -GA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GAMBIA -GM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GAZA STRIP -GZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GEORGIA -GE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GERMANY -DE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GHANA -GH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GIBRALTAR -GI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GREECE -GR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GREENLAND -GL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GUADELOUPE -GP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GUINEA -GN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>GUINEA BISSAU -GW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>HUNGARY -HU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ICELAND -IS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>IRAN -IR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>IRAQ -IQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>IRAQ SAUDI ARABIA NEUTRAL ZONE -NT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>IRELAND -IE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ISRAEL -IL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ITALY -IT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>IVORY COAST -CI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>JORDAN -JO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>KAZAKHSTAN -KZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>KENYA -KE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>KOSOVO -XK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>KUWAIT -KW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>KYRGYZSTAN -KG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>LATVIA -LV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>LEBANON -LB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>LESOTHO -LS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>LIBERIA -LR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>LIBYA ARAB JAMAHIRIYA -LY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>LIECHTENSTEIN -LI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>LITHUANIA -LT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>LUXEMBOURG -LU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MADAGASCAR -MG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MALAWI -MW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MALI -ML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MALTA -MT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MARTINIQUE -MQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MAURITANIA -MR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MAURITIUS -MU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MAYOTTE -YT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MOLDOVA, REPUBLIC OF -MD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MONACO -MC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MONGOLIA -MN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MOROCCO -MA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>MOZAMBIQUE -MZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>NAMIBIA -NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>NETHERLANDS -NL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>NEW CALEDONIA -NC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>NIGER -NE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>NIGERIA -NG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>NORWAY -NO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>OMAN -OM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>PAKISTAN -PK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>POLAND -PL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>PORTUGAL -PT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>QATAR -QA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>REPUBLIC OF MONTENEGRO -ME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>REPUBLIC OF SERBIA -RS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>REUNION -RE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ROMANIA -RO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>RUSSIAN FEDERATION -RU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>RWANDA -RW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SAN MARINO -SM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SAO TOME AND PRINCIPE -ST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SAUDI ARABIA -SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SENEGAL -SN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SERBIA MONTENEGRO -CS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SEYCHELLES -SC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SIERRA LEONE -SL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SLOVAKIA -SK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SLOVAKIA  was SLOVAK REP. -SQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SLOVENIA -SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SOMALIA -SO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SOUTH AFRICA -ZA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SOUTH EAST EUROPE (Export) -SEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SPAIN -ES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ST HELENA (U.K.) -SH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SUDAN -SD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SVALBARD&amp;JAN MAYEN IS(NOR -SJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SWAZILAND -SZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SWEDEN -SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SWEDEN(OLD CODE,SEE &quot;SE&quot;) -SW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SWITZERLAND -CH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>SYRIAN ARAB REPUBLIC -SY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>TAJIKISTAN -TJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>TANZANIA -TZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>TOGO -TG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>TUNISIA -TN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>TURKEY -TR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>TURKMENISTAN -TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>UGANDA -UG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>UKRAINE -UA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>UNITED ARAB EMIRATES -AE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>UNITED KINGDOM -GB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>USSR -SU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>UZBEKISTAN -UZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>VATICAN CITY (HOLY SEE) -VA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>WEST BANK -WE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>WESTERN SAHARA -EH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>YEMEN -YE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>YUGOSLAVIA -YU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ZAIRE -ZR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ZAMBIA -ZM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EUROPE</controllingFieldValue>
+            <valueName>ZIMBABWE -ZW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>JAPAN</controllingFieldValue>
+            <valueName>JAPAN -JP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOREA, REPUBLIC OF</controllingFieldValue>
+            <valueName>KOREA, REPUBLIC OF -KR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOREA, REPUBLIC OF</controllingFieldValue>
+            <valueName>KOREA,DEM PEOPLES REP -KP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>AMERICAN SAMOA -AS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>ANTARCTICA -TF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>CHRISTMAS IS. (AUSTRAILIA -CX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>COCOS(KEELING) IS. (AUST) -CC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>COOK ISLANDS -CK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>EAST TIMOR -TP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>FRENCH POLYNESIA -PF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>GUAM -GU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>HEARD &amp; MCDONALD IS.(AUS) -HM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>JOHNSTON,MIDWAY,WAKE ISLS -UM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>KIRIBATI -KI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>MARSHALL ISLANDS -MH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>MICRONESIA, FEDERATED STS -FM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>NAURU -NR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>NIUE -NU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>NORFOLK ISLAND (AUSTRALIA -NF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>NORTHERN MARIANA ISLANDS -MP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>PALAU ISLANDS -PW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>PITCAIRN ISLANDS -PN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>SOLOMON ISLANDS -SB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>TOKELAU (N.Z.) -TK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>TONGA -TO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>TUVALU -TV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>VANUATU -VU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>WALLIS &amp; FUTUNA IS.(FRANC -WF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSEA</controllingFieldValue>
+            <valueName>WESTERN SAMOA -WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>ANTARCTICA -AQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>BELIZE -BZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>BOLIVIA -BO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>COLOMBIA -CO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>COSTA RICA -CR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>ECUADOR -EC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>EL SALVADOR -SV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>GUATEMALA -GT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>HONDURAS -HN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>MEXICO -MX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>MONTSERAT -MS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>NICARAGUA -NI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>PANAMA -PA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>PARAGUAY -PY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>PERU -PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>SO.GEORGIA AND SO.SANDWICH IS. -GS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>SOUTH AMERICA   (ABD) -LN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>URUGUAY -UY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATIN AMERICA</controllingFieldValue>
+            <valueName>VENEZUELA -VE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>ANGUILLA -AI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>ANTIGUA &amp; BARBUDA -AG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>ARUBA -AW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>BAHAMAS -BS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>BARBADOS -BB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>BERMUDA -BM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>BRITISH VIRGIN ISLANDS -VG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>CANADA -CA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>CAYMAN ISLANDS -KY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>CUBA -CU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>DOMINICA -DM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>DOMINICAN REPUBLIC -DO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>FALKLAND ISLANDS -FK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>GRENADA -GD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>GUYANA -GY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>HAITI -HT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>JAMAICA -JM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>NETHERLANDS ANTILLES -AN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>PUERTO RICO -PR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>SAINT LUCIA -LC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>ST PIERRE &amp; MIQUELON(FRN) -PM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>ST. KITTS AND NEVIS -KN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>ST. VINCENT -VC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>SURINAME -SR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>TRINIDAD &amp; TOBAGO -TT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>TURKS AND CAICOS ISLANDS -TC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>U.S. VIRGIN ISLANDS -VI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH AMERICA</controllingFieldValue>
+            <valueName>UNITED STATES -US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH AMERICA</controllingFieldValue>
+            <valueName>ARGENTINA -AR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH AMERICA</controllingFieldValue>
+            <valueName>BRAZIL -BR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH AMERICA</controllingFieldValue>
+            <valueName>CHILE -CL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH ASIA</controllingFieldValue>
+            <valueName>BANGLADESH -BD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH ASIA</controllingFieldValue>
+            <valueName>BHUTAN -BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH ASIA</controllingFieldValue>
+            <valueName>INDIA -IN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH ASIA</controllingFieldValue>
+            <valueName>MALDIVES -MV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH ASIA</controllingFieldValue>
+            <valueName>NEPAL -NP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH ASIA</controllingFieldValue>
+            <valueName>SRI LANKA -LK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>AUSTRALIA -AU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>BRUNEI DARUSSALAM -BN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>CAMBODIA -KH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>FIJI -FJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>HONG KONG -HK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>INDONESIA -ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>LAOS -LA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>MACAU -MO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>MALAYSIA -MY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>MYANMAR -MM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>NEW ZEALAND -NZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>PAPUA NEW GUINEA -PG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>PHILIPPINES -PH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>SINGAPORE -SG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>TAIWAN -TW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>THAILAND -TH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOUTH PAC</controllingFieldValue>
+            <valueName>VIETNAM -VN</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Assignment_Policies</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>SMAX_PS_Availability__c</columns>
+    <columns>SMAX_PS_Bundling__c</columns>
+    <columns>SMAX_PS_Continuity__c</columns>
+    <columns>SMAX_PS_Expertise__c</columns>
+    <columns>SMAX_PS_Proximity__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Assignment Policies</label>
+    <language>en_US</language>
+</ListView>

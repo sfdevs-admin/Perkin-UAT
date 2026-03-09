@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X910_Queue_QC_Not_Available</fullName>
+    <columns>NAME</columns>
+    <columns>MembersCount__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>fxAutoId__c</columns>
+    <columns>API_Name__c</columns>
+    <columns>NativeQueueID__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>fxQueueMembers__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>API_Name__c</field>
+        <operation>equals</operation>
+        <value>not available</value>
+    </filters>
+    <label>910. Queue QC (Not Available)</label>
+</ListView>

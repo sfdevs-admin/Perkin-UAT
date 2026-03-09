@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>opp_report_After_Market_Consumbales_modi</fullName>
+    <booleanFilter>(1 OR 2) AND 3 AND 4</booleanFilter>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>contains</operation>
+        <value>ClearyBlanc,Friedman,McCarthy</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>contains</operation>
+        <value>Dolan,Boucino</value>
+    </filters>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2017</value>
+    </filters>
+    <filters>
+        <field>UPDATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>Vbhat</value>
+    </filters>
+    <label>opp report After Market Consumbales modi</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

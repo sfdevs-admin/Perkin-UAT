@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Information__c</fullName>
+    <label>Price Information</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospect has final written quote or price information</fullName>
+                <default>false</default>
+                <label>Prospect has final written quote or price information</label>
+            </value>
+            <value>
+                <fullName>Prospect has verbal quote or informal pricing information</fullName>
+                <default>false</default>
+                <label>Prospect has verbal quote or informal pricing information</label>
+            </value>
+            <value>
+                <fullName>Not quoted as yet</fullName>
+                <default>false</default>
+                <label>Not quoted as yet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

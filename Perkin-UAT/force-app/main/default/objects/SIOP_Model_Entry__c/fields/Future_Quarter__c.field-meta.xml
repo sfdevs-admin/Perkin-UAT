@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Future_Quarter__c</fullName>
+    <description>This will represent what Fields: Month 4, Month 5, Month 6 represent.</description>
+    <externalId>false</externalId>
+    <formula>CASE(
+MONTH(TODAY()),
+1, &quot;Apr-May-Jun&quot;,
+2, &quot;Apr-May-Jun&quot;,
+3, &quot;Apr-May-Jun&quot;,
+4, &quot;Jul-Aug-Sep&quot;,
+5, &quot;Jul-Aug-Sep&quot;,
+6, &quot;Jul-Aug-Sep&quot;,
+7, &quot;Oct-Nov-Dec&quot;,
+8, &quot;Oct-Nov-Dec&quot;,
+9, &quot;Oct-Nov-Dec&quot;,
+10, &quot;Jan-Feb-Mar&quot;,
+11, &quot;Jan-Feb-Mar&quot;,
+&quot;Jan-Feb-Mar&quot;
+)</formula>
+    <label>Future Quarter</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

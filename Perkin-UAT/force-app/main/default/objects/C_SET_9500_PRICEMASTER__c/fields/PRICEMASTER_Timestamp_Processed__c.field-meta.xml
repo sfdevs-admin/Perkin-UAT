@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRICEMASTER_Timestamp_Processed__c</fullName>
+    <description>This is the last timestamp processed and routine will use this during a restart to only process remaining records</description>
+    <inlineHelpText>This is the last timestamp processed and routine will use this during a restart to only process remaining records</inlineHelpText>
+    <label>PRICEMASTER Timestamp Processed</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

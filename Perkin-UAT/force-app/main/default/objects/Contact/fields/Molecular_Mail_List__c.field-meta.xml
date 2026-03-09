@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Molecular_Mail_List__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( ALH_List__c ,&quot;TRUE&quot;,if(  ANP_List__c  ,&quot;TRUE&quot;,if(  PGI_List__c  ,&quot;TRUE&quot;,if( IMG_List__c  ,&quot;TRUE&quot;,if( MLD_List__c  ,&quot;TRUE&quot;,if(  Reagent_List__c  ,&quot;TRUE&quot;,if(  RRD_List__c  ,&quot;TRUE&quot;,if(   LS_Consumables_List__c  ,&quot;TRUE&quot;,NULL))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Molecular Mail List</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

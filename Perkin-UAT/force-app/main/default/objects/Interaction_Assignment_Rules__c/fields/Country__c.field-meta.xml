@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country__c</fullName>
+    <defaultValue>&quot;#ALL&quot;</defaultValue>
+    <description>Countries used for matching against. Multiple values are comma separated (no spaces needed after comma)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the country used for this rule. Multiple values are comma separated (no spaces needed after comma)</inlineHelpText>
+    <label>Country</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

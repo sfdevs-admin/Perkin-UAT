@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Emerging_Tech_DNA__c</fullName>
+    <label>Type - Emerging Tech DNA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Existing Client</fullName>
+                <default>false</default>
+                <label>Existing Client</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>New Business</fullName>
+                <default>false</default>
+                <label>New Business</label>
+            </value>
+            <value>
+                <fullName>Services</fullName>
+                <default>false</default>
+                <label>Services</label>
+            </value>
+            <value>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+            <value>
+                <fullName>6 Month Academic New</fullName>
+                <default>false</default>
+                <label>6 Month Academic New</label>
+            </value>
+            <value>
+                <fullName>1 Year Academic New</fullName>
+                <default>false</default>
+                <label>1 Year Academic New</label>
+            </value>
+            <value>
+                <fullName>2 Year Academic New</fullName>
+                <default>false</default>
+                <label>2 Year Academic New</label>
+            </value>
+            <value>
+                <fullName>3 Year Academic New</fullName>
+                <default>false</default>
+                <label>3 Year Academic New</label>
+            </value>
+            <value>
+                <fullName>6 Month Commercial New</fullName>
+                <default>false</default>
+                <label>6 Month Commercial New</label>
+            </value>
+            <value>
+                <fullName>1 Year Commercial New</fullName>
+                <default>false</default>
+                <label>1 Year Commercial New</label>
+            </value>
+            <value>
+                <fullName>2 Year Commercial New</fullName>
+                <default>false</default>
+                <label>2 Year Commercial New</label>
+            </value>
+            <value>
+                <fullName>Academic Core New</fullName>
+                <default>false</default>
+                <label>Academic Core New</label>
+            </value>
+            <value>
+                <fullName>Commercial Core New</fullName>
+                <default>false</default>
+                <label>Commercial Core New</label>
+            </value>
+            <value>
+                <fullName>PSE New</fullName>
+                <default>false</default>
+                <label>PSE New</label>
+            </value>
+            <value>
+                <fullName>1 Year Academic Renewal</fullName>
+                <default>false</default>
+                <label>1 Year Academic Renewal</label>
+            </value>
+            <value>
+                <fullName>2 Year Academic Renewal</fullName>
+                <default>false</default>
+                <label>2 Year Academic Renewal</label>
+            </value>
+            <value>
+                <fullName>3 Year Academic Renewal</fullName>
+                <default>false</default>
+                <label>3 Year Academic Renewal</label>
+            </value>
+            <value>
+                <fullName>1 Year Commercial Renewal</fullName>
+                <default>false</default>
+                <label>1 Year Commercial Renewal</label>
+            </value>
+            <value>
+                <fullName>2 Year Commercial Renewal</fullName>
+                <default>false</default>
+                <label>2 Year Commercial Renewal</label>
+            </value>
+            <value>
+                <fullName>Academic Core Renewal</fullName>
+                <default>false</default>
+                <label>Academic Core Renewal</label>
+            </value>
+            <value>
+                <fullName>Commercial Core Renewal</fullName>
+                <default>false</default>
+                <label>Commercial Core Renewal</label>
+            </value>
+            <value>
+                <fullName>PSE Renewal</fullName>
+                <default>false</default>
+                <label>PSE Renewal</label>
+            </value>
+            <value>
+                <fullName>Academic Individual Pilot</fullName>
+                <default>false</default>
+                <label>Academic Individual Pilot</label>
+            </value>
+            <value>
+                <fullName>Academic Core Pilot</fullName>
+                <default>false</default>
+                <label>Academic Core Pilot</label>
+            </value>
+            <value>
+                <fullName>Commercial Individual Pilot</fullName>
+                <default>false</default>
+                <label>Commercial Individual Pilot</label>
+            </value>
+            <value>
+                <fullName>Commercial Core Pilot</fullName>
+                <default>false</default>
+                <label>Commercial Core Pilot</label>
+            </value>
+            <value>
+                <fullName>Academic NGS Transactions</fullName>
+                <default>false</default>
+                <label>Academic NGS Transactions</label>
+            </value>
+            <value>
+                <fullName>Commercial NGS Transactions</fullName>
+                <default>false</default>
+                <label>Commercial NGS Transactions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter_Types__c</fullName>
+    <label>Filter Types</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blue (MK50102-BLUE)</fullName>
+                <default>false</default>
+                <label>Blue (MK50102-BLUE)</label>
+            </value>
+            <value>
+                <fullName>Green (MK50102-GREEN)</fullName>
+                <default>false</default>
+                <label>Green (MK50102-GREEN)</label>
+            </value>
+            <value>
+                <fullName>Yellow (MK50102-YELLOW)</fullName>
+                <default>false</default>
+                <label>Yellow (MK50102-YELLOW)</label>
+            </value>
+            <value>
+                <fullName>Red (MK50102-RED)</fullName>
+                <default>false</default>
+                <label>Red (MK50102-RED)</label>
+            </value>
+            <value>
+                <fullName>Deep Red (MK50102-DEEPRED)</fullName>
+                <default>false</default>
+                <label>Deep Red (MK50102-DEEPRED)</label>
+            </value>
+            <value>
+                <fullName>NIR (MK50102-NIR)</fullName>
+                <default>false</default>
+                <label>NIR (MK50102-NIR)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

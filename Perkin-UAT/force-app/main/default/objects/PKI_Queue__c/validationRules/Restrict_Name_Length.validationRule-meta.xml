@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Name_Length</fullName>
+    <active>true</active>
+    <description>Name Length can only be 40 characters to match System Limitation in Native</description>
+    <errorConditionFormula>LEN(Name)&gt;40</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>V.RULE_PKI_QUEUE_001: The Name if the queue can only be a maximum of 35 characters after the prefix of &quot;ARQ: &quot; (A total of 40 characters)</errorMessage>
+</ValidationRule>

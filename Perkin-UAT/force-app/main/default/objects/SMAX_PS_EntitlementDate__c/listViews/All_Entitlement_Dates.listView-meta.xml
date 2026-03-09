@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Entitlement_Dates</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_IsDeleted__c</columns>
+    <columns>SMAX_PS_Entitlement__c</columns>
+    <columns>SMAX_PS_External_ID__c</columns>
+    <columns>SMAX_PS_PlannedDate__c</columns>
+    <columns>SMAX_PS_CoveredProduct__c</columns>
+    <columns>SMAX_PS_LastTxnNum__c</columns>
+    <columns>SMAX_PS_ServiceOrderNumber__c</columns>
+    <columns>SMAX_PS_WorkOrder__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Entitlement Dates</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_PKI_QUEUE_Default</fullName>
+    <fields>Name</fields>
+    <fields>Email__c</fields>
+    <fields>MembersCount__c</fields>
+    <fields>Subgroups__c</fields>
+    <fields>SalesLeader__c</fields>
+    <fields>Description__c</fields>
+    <fields>fxAutoId__c</fields>
+    <label>C.LAY PKI QUEUE Default</label>
+</CompactLayout>

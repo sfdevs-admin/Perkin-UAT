@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxSalesType__c</fullName>
+    <description>Used in P FLOW 2000 node 4e (Formula uses API Value)</description>
+    <externalId>false</externalId>
+    <formula>CASE (Type
+, &quot;Expand&quot;, &quot;Service&quot;
+, &quot;Land&quot;, &quot;Service&quot;
+, &quot;Renew&quot;, &quot;Service&quot;
+, &quot;New Service Contract&quot;, &quot;Service&quot;
+, &quot;Product&quot;
+) &amp; &quot; Sales&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used in P FLOW 2000 node 4e</inlineHelpText>
+    <label>fxSalesType</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Ignore_Product_Line__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Always sent a notification email to this distribution list regardless of the Product Line</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Ignore Product Line?</label>
+    <type>Checkbox</type>
+</CustomField>

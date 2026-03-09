@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCountOfUrls__c</fullName>
+    <description>This will count the number of tracking URLs are related to this Item. This field is used in an integration &amp; formula to determine whether or not tracking info is needed</description>
+    <label>fxCountOfUrls</label>
+    <summaryFilterItems>
+        <field>SAP_Order_Item_Tracking__c.TrackingURL__c</field>
+        <operation>notEqual</operation>
+        <value />
+    </summaryFilterItems>
+    <summaryForeignKey>SAP_Order_Item_Tracking__c.PKIOrderItems__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Product_Family__c</fullName>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>BD_Business_Unit__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Materials Characterization</fullName>
+                <default>false</default>
+                <label>Materials Characterization</label>
+            </value>
+            <value>
+                <fullName>Inorganic (Atomic Spectroscopy)</fullName>
+                <default>false</default>
+                <label>Inorganic (Atomic Spectroscopy)</label>
+            </value>
+            <value>
+                <fullName>Chromatography</fullName>
+                <default>false</default>
+                <label>Chromatography</label>
+            </value>
+            <value>
+                <fullName>Perten</fullName>
+                <default>false</default>
+                <label>Perten</label>
+            </value>
+            <value>
+                <fullName>Analytical</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Analytical</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Hyphenated Techniques</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hyphenated Techniques</label>
+            </value>
+            <value>
+                <fullName>Mass Spectrometry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mass Spectrometry</label>
+            </value>
+            <value>
+                <fullName>Molecular Spectroscopy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Molecular Spectroscopy</label>
+            </value>
+            <value>
+                <fullName>Thermal Analysis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Thermal Analysis</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Analytical Solutions</controllingFieldValue>
+            <valueName>Materials Characterization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Analytical Solutions</controllingFieldValue>
+            <valueName>Inorganic (Atomic Spectroscopy)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Analytical Solutions</controllingFieldValue>
+            <valueName>Chromatography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <valueName>Perten</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

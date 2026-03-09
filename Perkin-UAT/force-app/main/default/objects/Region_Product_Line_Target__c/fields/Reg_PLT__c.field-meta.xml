@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reg_PLT__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT( Region__c ) &amp;
+&quot;-&quot; &amp;
+Product_Line__c &amp;
+&quot;-&quot; &amp;
+TEXT( Year__c )&amp;
+&quot;-&quot; &amp;
+RIGHT(TEXT( Month__c ),3)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Reg-PLT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

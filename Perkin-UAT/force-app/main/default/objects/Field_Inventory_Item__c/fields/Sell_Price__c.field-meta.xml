@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sell_Price__c</fullName>
+    <formula>if(ISPICKVAL( Type__c , &quot;INST&quot;), if( AgeItem__c  &lt; 6, List_price__c ,
+if(AgeItem__c &lt;19, round((List_price__c * (1-(AgeItem__c *1.9/100))),0),
+if(AgeItem__c &lt;25, round((List_price__c * (1-(AgeItem__c *2.4/100))),0),
+round((List_price__c *0.4),0)))), if(AgeItem__c &lt; 4, List_price__c, IF(AgeItem__c &lt; 7, List_price__c * 0.75,List_price__c*0.5) ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sell Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

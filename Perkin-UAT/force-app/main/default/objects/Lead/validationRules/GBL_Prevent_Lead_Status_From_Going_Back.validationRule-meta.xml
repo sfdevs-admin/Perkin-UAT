@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_Prevent_Lead_Status_From_Going_Back</fullName>
+    <active>false</active>
+    <description>Prevent lead status from going back to open, this validation is added as a workaround for Eloqua bug</description>
+    <errorConditionFormula>AND(
+     RecordTypeId &lt;&gt; &#39;01230000001ZzA6&#39;,
+     PRIORVALUE(Status) = &#39;Working&#39;,
+     PRIORVALUE(Status) = &#39;Future-Nurturing&#39;,
+     PRIORVALUE(Status) = &#39;Distributor&#39;,
+     PRIORVALUE(Status) = &#39;Abandoned&#39;,
+     PRIORVALUE(Status) = &#39;Qualified&#39;,
+     LastModifiedById = &#39;0053A00000DPNX3&#39;,
+     ISPICKVAL(Status, &#39;Open&#39;)
+)</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_005: Status cannot go back to Open again</errorMessage>
+</ValidationRule>

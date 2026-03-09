@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X920_Queue_QC_Missing_Email</fullName>
+    <columns>NAME</columns>
+    <columns>MembersCount__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>API_Name__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>fxQueueMembers__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Email__c</columns>
+    <columns>iSalesLeader__c</columns>
+    <columns>SalesLeader__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Email__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Queue</value>
+    </filters>
+    <label>920. Queue QC (Missing Email)</label>
+</ListView>

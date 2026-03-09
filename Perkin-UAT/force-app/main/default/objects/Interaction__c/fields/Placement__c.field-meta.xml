@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Placement__c</fullName>
+    <description>This is used to collect UTM parameters.(Created as per Source : INC0393005)</description>
+    <inlineHelpText>UTM parameters can help you find out which websites and ad locations are bringing in the most traffic and leading to the most conversions.</inlineHelpText>
+    <label>Placement</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

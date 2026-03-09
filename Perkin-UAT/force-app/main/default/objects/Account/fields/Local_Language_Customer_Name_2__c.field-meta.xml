@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Language_Customer_Name_2__c</fullName>
+    <description>JIRA #-ITSFDC-5068:This field is used when customer name length is not enough to include the complete customer name.
+API name is not in sync with label due to legacy record. This has to be taken care at a later stage. Confirmed by Brad.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Additional length for Customer Name</inlineHelpText>
+    <label>Local Customer Name 2</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

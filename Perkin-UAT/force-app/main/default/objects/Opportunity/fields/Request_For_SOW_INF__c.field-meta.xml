@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_For_SOW_INF__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Informatics - field used by sales reps to request sow from service team. On checking this field a task will be assigned to service team member.</description>
+    <inlineHelpText>Check this field to notify service team to prepare SOW</inlineHelpText>
+    <label>Request For SOW</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

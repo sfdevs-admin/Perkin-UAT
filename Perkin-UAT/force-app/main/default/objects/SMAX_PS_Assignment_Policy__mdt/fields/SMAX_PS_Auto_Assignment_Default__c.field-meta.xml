@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Auto_Assignment_Default__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When checked, this is the metadata type that the auto-assignment will use. This should only be checked on one Assignment Policy.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>When checked, this is the metadata type that the auto-assignment will use. This should only be checked on one Assignment Policy.</inlineHelpText>
+    <label>Auto-Assignment Default</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_Belgium_Sales_VoiceCall</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SCV Belgium DU Sales</label>
+    <queue>SCV_Belgium_DU_Sales</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

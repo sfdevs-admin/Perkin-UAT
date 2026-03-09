@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membranes_Nylon_Membranes__c</fullName>
+    <label>Membranes - Nylon Membranes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PKI</fullName>
+                <default>false</default>
+                <label>PKI</label>
+            </value>
+            <value>
+                <fullName>Biorad</fullName>
+                <default>false</default>
+                <label>Biorad</label>
+            </value>
+            <value>
+                <fullName>Fisher</fullName>
+                <default>false</default>
+                <label>Fisher</label>
+            </value>
+            <value>
+                <fullName>GE Healthcare</fullName>
+                <default>false</default>
+                <label>GE Healthcare</label>
+            </value>
+            <value>
+                <fullName>Millipore</fullName>
+                <default>false</default>
+                <label>Millipore</label>
+            </value>
+            <value>
+                <fullName>Pall</fullName>
+                <default>false</default>
+                <label>Pall</label>
+            </value>
+            <value>
+                <fullName>S&amp;S</fullName>
+                <default>false</default>
+                <label>S&amp;S</label>
+            </value>
+            <value>
+                <fullName>VWR</fullName>
+                <default>false</default>
+                <label>VWR</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

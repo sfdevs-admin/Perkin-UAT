@@ -1,0 +1,1891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Detailed_P_L_Interest_2__c</fullName>
+    <label>LST-Detailed P/L Interest 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LST_Product_Interest_2__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abrio</fullName>
+                <default>false</default>
+                <label>Abrio</label>
+            </value>
+            <value>
+                <fullName>Acapella Software</fullName>
+                <default>false</default>
+                <label>Acapella Software</label>
+            </value>
+            <value>
+                <fullName>Aequorin Licenses</fullName>
+                <default>false</default>
+                <label>Aequorin Licenses</label>
+            </value>
+            <value>
+                <fullName>Aequorin Parental Cell Lines</fullName>
+                <default>false</default>
+                <label>Aequorin Parental Cell Lines</label>
+            </value>
+            <value>
+                <fullName>Aequorin Technology</fullName>
+                <default>false</default>
+                <label>Aequorin Technology</label>
+            </value>
+            <value>
+                <fullName>AlphaLISA</fullName>
+                <default>false</default>
+                <label>AlphaLISA</label>
+            </value>
+            <value>
+                <fullName>Alphascreen</fullName>
+                <default>false</default>
+                <label>Alphascreen</label>
+            </value>
+            <value>
+                <fullName>AlphaScreen Surefire</fullName>
+                <default>false</default>
+                <label>AlphaScreen Surefire</label>
+            </value>
+            <value>
+                <fullName>AlphaLISA SureFire Ultra</fullName>
+                <default>false</default>
+                <label>AlphaLISA SureFire Ultra</label>
+            </value>
+            <value>
+                <fullName>AlphaPlex</fullName>
+                <default>false</default>
+                <label>AlphaPlex</label>
+            </value>
+            <value>
+                <fullName>Anesthesia System</fullName>
+                <default>false</default>
+                <label>Anesthesia System</label>
+            </value>
+            <value>
+                <fullName>Asset Mgmt</fullName>
+                <default>false</default>
+                <label>Asset Mgmt</label>
+            </value>
+            <value>
+                <fullName>ATPLite</fullName>
+                <default>false</default>
+                <label>ATPLite</label>
+            </value>
+            <value>
+                <fullName>Bacterial Strains</fullName>
+                <default>false</default>
+                <label>Bacterial Strains</label>
+            </value>
+            <value>
+                <fullName>Bioware</fullName>
+                <default>false</default>
+                <label>Bioware</label>
+            </value>
+            <value>
+                <fullName>BLAST</fullName>
+                <default>false</default>
+                <label>BLAST</label>
+            </value>
+            <value>
+                <fullName>BRET</fullName>
+                <default>false</default>
+                <label>BRET</label>
+            </value>
+            <value>
+                <fullName>CDAS ADME-PK</fullName>
+                <default>false</default>
+                <label>CDAS ADME-PK</label>
+            </value>
+            <value>
+                <fullName>CDAS Assay Development</fullName>
+                <default>false</default>
+                <label>CDAS Assay Development</label>
+            </value>
+            <value>
+                <fullName>CDAS Biomarker Discovery</fullName>
+                <default>false</default>
+                <label>CDAS Biomarker Discovery</label>
+            </value>
+            <value>
+                <fullName>CDAS Disease programs</fullName>
+                <default>false</default>
+                <label>CDAS Disease programs</label>
+            </value>
+            <value>
+                <fullName>CDAS Drug Combination</fullName>
+                <default>false</default>
+                <label>CDAS Drug Combination</label>
+            </value>
+            <value>
+                <fullName>CDAS Drug repositioning</fullName>
+                <default>false</default>
+                <label>CDAS Drug repositioning</label>
+            </value>
+            <value>
+                <fullName>CDAS Drug Safety</fullName>
+                <default>false</default>
+                <label>CDAS Drug Safety</label>
+            </value>
+            <value>
+                <fullName>CDAS Histological</fullName>
+                <default>false</default>
+                <label>CDAS Histological</label>
+            </value>
+            <value>
+                <fullName>CDAS Preclinical In Vivo</fullName>
+                <default>false</default>
+                <label>CDAS Preclinical In Vivo</label>
+            </value>
+            <value>
+                <fullName>CDAS Profiling</fullName>
+                <default>false</default>
+                <label>CDAS Profiling</label>
+            </value>
+            <value>
+                <fullName>cell::explorer</fullName>
+                <default>false</default>
+                <label>cell::explorer</label>
+            </value>
+            <value>
+                <fullName>chemagic Beads</fullName>
+                <default>false</default>
+                <label>chemagic Beads</label>
+            </value>
+            <value>
+                <fullName>chemagic Instruments</fullName>
+                <default>false</default>
+                <label>chemagic Instruments</label>
+            </value>
+            <value>
+                <fullName>chemagic Kits</fullName>
+                <default>false</default>
+                <label>chemagic Kits</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Contract Research</fullName>
+                <default>false</default>
+                <label>Contract Research</label>
+            </value>
+            <value>
+                <fullName>Cri Assisted reproductive technology</fullName>
+                <default>false</default>
+                <label>Cri Assisted reproductive technology</label>
+            </value>
+            <value>
+                <fullName>Cri Fluorescence Microscopy</fullName>
+                <default>false</default>
+                <label>Cri Fluorescence Microscopy</label>
+            </value>
+            <value>
+                <fullName>Cri immunohistochemistry</fullName>
+                <default>false</default>
+                <label>Cri immunohistochemistry</label>
+            </value>
+            <value>
+                <fullName>Cri In Vivo imaging</fullName>
+                <default>false</default>
+                <label>Cri In Vivo imaging</label>
+            </value>
+            <value>
+                <fullName>Cri tissue</fullName>
+                <default>false</default>
+                <label>Cri tissue</label>
+            </value>
+            <value>
+                <fullName>Cri whole slide imaging</fullName>
+                <default>false</default>
+                <label>Cri whole slide imaging</label>
+            </value>
+            <value>
+                <fullName>Custom Acycloterminators</fullName>
+                <default>false</default>
+                <label>Custom Acycloterminators</label>
+            </value>
+            <value>
+                <fullName>Custom Chip Fabrication Services</fullName>
+                <default>false</default>
+                <label>Custom Chip Fabrication Services</label>
+            </value>
+            <value>
+                <fullName>Custom Non-Rad Nucleotides</fullName>
+                <default>false</default>
+                <label>Custom Non-Rad Nucleotides</label>
+            </value>
+            <value>
+                <fullName>Custom Services - AlphaLISA</fullName>
+                <default>false</default>
+                <label>Custom Services - AlphaLISA</label>
+            </value>
+            <value>
+                <fullName>Custom Services - Assay Services</fullName>
+                <default>false</default>
+                <label>Custom Services - Assay Services</label>
+            </value>
+            <value>
+                <fullName>Custom Services - Cell Lines</fullName>
+                <default>false</default>
+                <label>Custom Services - Cell Lines</label>
+            </value>
+            <value>
+                <fullName>Custom Services - Flashplates</fullName>
+                <default>false</default>
+                <label>Custom Services - Flashplates</label>
+            </value>
+            <value>
+                <fullName>Custom Services - GENE2SCREEN</fullName>
+                <default>false</default>
+                <label>Custom Services - GENE2SCREEN</label>
+            </value>
+            <value>
+                <fullName>Custom Services - Labeling Service, TRF</fullName>
+                <default>false</default>
+                <label>Custom Services - Labeling Service, TRF</label>
+            </value>
+            <value>
+                <fullName>Custom Services - LANCE Labeling Svc</fullName>
+                <default>false</default>
+                <label>Custom Services - LANCE Labeling Svc</label>
+            </value>
+            <value>
+                <fullName>Custom Services - Microplates</fullName>
+                <default>false</default>
+                <label>Custom Services - Microplates</label>
+            </value>
+            <value>
+                <fullName>Custom Services - Receptors</fullName>
+                <default>false</default>
+                <label>Custom Services - Receptors</label>
+            </value>
+            <value>
+                <fullName>Custom Services - Ulight Labeling Svc</fullName>
+                <default>false</default>
+                <label>Custom Services - Ulight Labeling Svc</label>
+            </value>
+            <value>
+                <fullName>Cyclone (Plus) Phosphor Imager</fullName>
+                <default>false</default>
+                <label>Cyclone (Plus) Phosphor Imager</label>
+            </value>
+            <value>
+                <fullName>DELFIA</fullName>
+                <default>false</default>
+                <label>DELFIA</label>
+            </value>
+            <value>
+                <fullName>DESK (Pannoramic)</fullName>
+                <default>false</default>
+                <label>DESK (Pannoramic)</label>
+            </value>
+            <value>
+                <fullName>Disposable Tips</fullName>
+                <default>false</default>
+                <label>Disposable Tips</label>
+            </value>
+            <value>
+                <fullName>ELAST</fullName>
+                <default>false</default>
+                <label>ELAST</label>
+            </value>
+            <value>
+                <fullName>EnSight Multimode Plate Reader</fullName>
+                <default>false</default>
+                <label>EnSight Multimode Plate Reader</label>
+            </value>
+            <value>
+                <fullName>EnSpire Alpha Multimode Plate Reader</fullName>
+                <default>false</default>
+                <label>EnSpire Alpha Multimode Plate Reader</label>
+            </value>
+            <value>
+                <fullName>EnSpire AlphaPlus Multimode Plate Reader</fullName>
+                <default>false</default>
+                <label>EnSpire AlphaPlus Multimode Plate Reader</label>
+            </value>
+            <value>
+                <fullName>EnSpire Label-Free Multimode Plate Reader</fullName>
+                <default>false</default>
+                <label>EnSpire Label-Free Multimode Plate Reader</label>
+            </value>
+            <value>
+                <fullName>EnSpire Multimode Plate Reader</fullName>
+                <default>false</default>
+                <label>EnSpire Multimode Plate Reader</label>
+            </value>
+            <value>
+                <fullName>EnVision Multilabel Plate Reader</fullName>
+                <default>false</default>
+                <label>EnVision Multilabel Plate Reader</label>
+            </value>
+            <value>
+                <fullName>EnVision Multilabel Plate Reader with Alpha</fullName>
+                <default>false</default>
+                <label>EnVision Multilabel Plate Reader with Alpha</label>
+            </value>
+            <value>
+                <fullName>EZ Reader</fullName>
+                <default>false</default>
+                <label>EZ Reader</label>
+            </value>
+            <value>
+                <fullName>EZ Reader Enzyme Kits &amp; Substrates</fullName>
+                <default>false</default>
+                <label>EZ Reader Enzyme Kits &amp; Substrates</label>
+            </value>
+            <value>
+                <fullName>FlashPlate</fullName>
+                <default>false</default>
+                <label>FlashPlate</label>
+            </value>
+            <value>
+                <fullName>FlexDrop Plus Reagent Dispenser</fullName>
+                <default>false</default>
+                <label>FlexDrop Plus Reagent Dispenser</label>
+            </value>
+            <value>
+                <fullName>Flow Scintillation Analyzers (FSA)</fullName>
+                <default>false</default>
+                <label>Flow Scintillation Analyzers (FSA)</label>
+            </value>
+            <value>
+                <fullName>Fluorescent Labels and Nanoparticles</fullName>
+                <default>false</default>
+                <label>Fluorescent Labels and Nanoparticles</label>
+            </value>
+            <value>
+                <fullName>Fluorescent Pre-clinical Imaging Agents</fullName>
+                <default>false</default>
+                <label>Fluorescent Pre-clinical Imaging Agents</label>
+            </value>
+            <value>
+                <fullName>FMT 1000</fullName>
+                <default>false</default>
+                <label>FMT 1000</label>
+            </value>
+            <value>
+                <fullName>FMT 1500</fullName>
+                <default>false</default>
+                <label>FMT 1500</label>
+            </value>
+            <value>
+                <fullName>FMT 2000</fullName>
+                <default>false</default>
+                <label>FMT 2000</label>
+            </value>
+            <value>
+                <fullName>FMT 2500LX</fullName>
+                <default>false</default>
+                <label>FMT 2500LX</label>
+            </value>
+            <value>
+                <fullName>FMT 4000</fullName>
+                <default>false</default>
+                <label>FMT 4000</label>
+            </value>
+            <value>
+                <fullName>FroZen Cells</fullName>
+                <default>false</default>
+                <label>FroZen Cells</label>
+            </value>
+            <value>
+                <fullName>Gene Reporter Assays</fullName>
+                <default>false</default>
+                <label>Gene Reporter Assays</label>
+            </value>
+            <value>
+                <fullName>Grand Master (TMA)</fullName>
+                <default>false</default>
+                <label>Grand Master (TMA)</label>
+            </value>
+            <value>
+                <fullName>GSAE</fullName>
+                <default>false</default>
+                <label>GSAE</label>
+            </value>
+            <value>
+                <fullName>GSLE</fullName>
+                <default>false</default>
+                <label>GSLE</label>
+            </value>
+            <value>
+                <fullName>Harmony Software</fullName>
+                <default>false</default>
+                <label>Harmony Software</label>
+            </value>
+            <value>
+                <fullName>Harvestor</fullName>
+                <default>false</default>
+                <label>Harvestor</label>
+            </value>
+            <value>
+                <fullName>Imaging License Server</fullName>
+                <default>false</default>
+                <label>Imaging License Server</label>
+            </value>
+            <value>
+                <fullName>Imaging Microplates</fullName>
+                <default>false</default>
+                <label>Imaging Microplates</label>
+            </value>
+            <value>
+                <fullName>InForm Software</fullName>
+                <default>false</default>
+                <label>InForm Software</label>
+            </value>
+            <value>
+                <fullName>Instrument Service &amp; Repair</fullName>
+                <default>false</default>
+                <label>Instrument Service &amp; Repair</label>
+            </value>
+            <value>
+                <fullName>Integration Solutions</fullName>
+                <default>false</default>
+                <label>Integration Solutions</label>
+            </value>
+            <value>
+                <fullName>iStax Plat Stacking</fullName>
+                <default>false</default>
+                <label>iStax Plat Stacking</label>
+            </value>
+            <value>
+                <fullName>IVIS 100/200 Series</fullName>
+                <default>false</default>
+                <label>IVIS 100/200 Series</label>
+            </value>
+            <value>
+                <fullName>IVIS Accessories</fullName>
+                <default>false</default>
+                <label>IVIS Accessories</label>
+            </value>
+            <value>
+                <fullName>IVIS Kinetic</fullName>
+                <default>false</default>
+                <label>IVIS Kinetic</label>
+            </value>
+            <value>
+                <fullName>IVIS Lumina II</fullName>
+                <default>false</default>
+                <label>IVIS Lumina II</label>
+            </value>
+            <value>
+                <fullName>IVIS Lumina XR</fullName>
+                <default>false</default>
+                <label>IVIS Lumina XR</label>
+            </value>
+            <value>
+                <fullName>IVIS Software</fullName>
+                <default>false</default>
+                <label>IVIS Software</label>
+            </value>
+            <value>
+                <fullName>IVIS Spectrum</fullName>
+                <default>false</default>
+                <label>IVIS Spectrum</label>
+            </value>
+            <value>
+                <fullName>IVIS Spectrum CT</fullName>
+                <default>false</default>
+                <label>IVIS Spectrum CT</label>
+            </value>
+            <value>
+                <fullName>JANUS Automated Workstations</fullName>
+                <default>false</default>
+                <label>JANUS Automated Workstations</label>
+            </value>
+            <value>
+                <fullName>JANUS BTX Pro Plus Workstation</fullName>
+                <default>false</default>
+                <label>JANUS BTX Pro Plus Workstation</label>
+            </value>
+            <value>
+                <fullName>JANUS BTX  Pro Workstation</fullName>
+                <default>false</default>
+                <label>JANUS BTX  Pro Workstation</label>
+            </value>
+            <value>
+                <fullName>JANUS CS Autoplex Workstation</fullName>
+                <default>false</default>
+                <label>JANUS CS Autoplex Workstation</label>
+            </value>
+            <value>
+                <fullName>JANUS Project Manger</fullName>
+                <default>false</default>
+                <label>JANUS Project Manger</label>
+            </value>
+            <value>
+                <fullName>Kodak</fullName>
+                <default>false</default>
+                <label>Kodak</label>
+            </value>
+            <value>
+                <fullName>Kodak Autoradiography Film</fullName>
+                <default>false</default>
+                <label>Kodak Autoradiography Film</label>
+            </value>
+            <value>
+                <fullName>LabChip 90, GX &amp; GXII Assay Kits</fullName>
+                <default>false</default>
+                <label>LabChip 90, GX &amp; GXII Assay Kits</label>
+            </value>
+            <value>
+                <fullName>LabChip DX</fullName>
+                <default>false</default>
+                <label>LabChip DX</label>
+            </value>
+            <value>
+                <fullName>LabChip GXII Touch 24</fullName>
+                <default>false</default>
+                <label>LabChip GXII Touch 24</label>
+            </value>
+            <value>
+                <fullName>LabChip GXII Touch HT</fullName>
+                <default>false</default>
+                <label>LabChip GXII Touch HT</label>
+            </value>
+            <value>
+                <fullName>LabChip GX Touch 24</fullName>
+                <default>false</default>
+                <label>LabChip GX Touch 24</label>
+            </value>
+            <value>
+                <fullName>LabChip GX Touch HT</fullName>
+                <default>false</default>
+                <label>LabChip GX Touch HT</label>
+            </value>
+            <value>
+                <fullName>LabChip Fractionation (XT)</fullName>
+                <default>false</default>
+                <label>LabChip Fractionation (XT)</label>
+            </value>
+            <value>
+                <fullName>LabChip GX II</fullName>
+                <default>false</default>
+                <label>LabChip GX II</label>
+            </value>
+            <value>
+                <fullName>LabChip Separation (GX)</fullName>
+                <default>false</default>
+                <label>LabChip Separation (GX)</label>
+            </value>
+            <value>
+                <fullName>LabChip Spectral Analysis (DS)</fullName>
+                <default>false</default>
+                <label>LabChip Spectral Analysis (DS)</label>
+            </value>
+            <value>
+                <fullName>LabChip XT Assay Kits</fullName>
+                <default>false</default>
+                <label>LabChip XT Assay Kits</label>
+            </value>
+            <value>
+                <fullName>Label-free Plates</fullName>
+                <default>false</default>
+                <label>Label-free Plates</label>
+            </value>
+            <value>
+                <fullName>Lamina Multilabel Slide Scanner</fullName>
+                <default>false</default>
+                <label>Lamina Multilabel Slide Scanner</label>
+            </value>
+            <value>
+                <fullName>LANCE</fullName>
+                <default>false</default>
+                <label>LANCE</label>
+            </value>
+            <value>
+                <fullName>LANCE Ultra</fullName>
+                <default>false</default>
+                <label>LANCE Ultra</label>
+            </value>
+            <value>
+                <fullName>Liquid Scintillation Cocktail &amp; Vials</fullName>
+                <default>false</default>
+                <label>Liquid Scintillation Cocktail &amp; Vials</label>
+            </value>
+            <value>
+                <fullName>Luciferin Bulk</fullName>
+                <default>false</default>
+                <label>Luciferin Bulk</label>
+            </value>
+            <value>
+                <fullName>Maestro EX</fullName>
+                <default>false</default>
+                <label>Maestro EX</label>
+            </value>
+            <value>
+                <fullName>Maestro II</fullName>
+                <default>false</default>
+                <label>Maestro II</label>
+            </value>
+            <value>
+                <fullName>Membranes Preps</fullName>
+                <default>false</default>
+                <label>Membranes Preps</label>
+            </value>
+            <value>
+                <fullName>MicroBeta2 LumiJET Plate Counter</fullName>
+                <default>false</default>
+                <label>MicroBeta2 LumiJET Plate Counter</label>
+            </value>
+            <value>
+                <fullName>Microplates</fullName>
+                <default>false</default>
+                <label>Microplates</label>
+            </value>
+            <value>
+                <fullName>MIDI</fullName>
+                <default>false</default>
+                <label>MIDI</label>
+            </value>
+            <value>
+                <fullName>MRI</fullName>
+                <default>false</default>
+                <label>MRI</label>
+            </value>
+            <value>
+                <fullName>Multispecies Imaging Module (MSIM)</fullName>
+                <default>false</default>
+                <label>Multispecies Imaging Module (MSIM)</label>
+            </value>
+            <value>
+                <fullName>NEN Radiochemicals</fullName>
+                <default>false</default>
+                <label>NEN Radiochemicals</label>
+            </value>
+            <value>
+                <fullName>Neolite/Britelite/Steadylite Plus</fullName>
+                <default>false</default>
+                <label>Neolite/Britelite/Steadylite Plus</label>
+            </value>
+            <value>
+                <fullName>NGS Express</fullName>
+                <default>false</default>
+                <label>NGS Express</label>
+            </value>
+            <value>
+                <fullName>NGS Services</fullName>
+                <default>false</default>
+                <label>NGS Services</label>
+            </value>
+            <value>
+                <fullName>Non rad nucleotides/nucleotide analogs</fullName>
+                <default>false</default>
+                <label>Non rad nucleotides/nucleotide analogs</label>
+            </value>
+            <value>
+                <fullName>Nuance Ex &amp; Fx</fullName>
+                <default>false</default>
+                <label>Nuance Ex &amp; Fx</label>
+            </value>
+            <value>
+                <fullName>Nucleotide Analogs</fullName>
+                <default>false</default>
+                <label>Nucleotide Analogs</label>
+            </value>
+            <value>
+                <fullName>Olympus</fullName>
+                <default>false</default>
+                <label>Olympus</label>
+            </value>
+            <value>
+                <fullName>Olympus OV100</fullName>
+                <default>false</default>
+                <label>Olympus OV100</label>
+            </value>
+            <value>
+                <fullName>OoSight</fullName>
+                <default>false</default>
+                <label>OoSight</label>
+            </value>
+            <value>
+                <fullName>OpenLab</fullName>
+                <default>false</default>
+                <label>OpenLab</label>
+            </value>
+            <value>
+                <fullName>Opera HCS System</fullName>
+                <default>false</default>
+                <label>Opera HCS System</label>
+            </value>
+            <value>
+                <fullName>Opera Phenix HCS System</fullName>
+                <default>false</default>
+                <label>Opera Phenix HCS System</label>
+            </value>
+            <value>
+                <fullName>Operetta HCS System</fullName>
+                <default>false</default>
+                <label>Operetta HCS System</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other in vivo</fullName>
+                <default>false</default>
+                <label>Other in vivo</label>
+            </value>
+            <value>
+                <fullName>PET</fullName>
+                <default>false</default>
+                <label>PET</label>
+            </value>
+            <value>
+                <fullName>PET-a</fullName>
+                <default>false</default>
+                <label>PET-a</label>
+            </value>
+            <value>
+                <fullName>PhosTrap</fullName>
+                <default>false</default>
+                <label>PhosTrap</label>
+            </value>
+            <value>
+                <fullName>Photina Cell Lines</fullName>
+                <default>false</default>
+                <label>Photina Cell Lines</label>
+            </value>
+            <value>
+                <fullName>Photina Licenses</fullName>
+                <default>false</default>
+                <label>Photina Licenses</label>
+            </value>
+            <value>
+                <fullName>Photina Parental Cell Lines</fullName>
+                <default>false</default>
+                <label>Photina Parental Cell Lines</label>
+            </value>
+            <value>
+                <fullName>plate::explorer</fullName>
+                <default>false</default>
+                <label>plate::explorer</label>
+            </value>
+            <value>
+                <fullName>plate::handler</fullName>
+                <default>false</default>
+                <label>plate::handler</label>
+            </value>
+            <value>
+                <fullName>PlateStak</fullName>
+                <default>false</default>
+                <label>PlateStak</label>
+            </value>
+            <value>
+                <fullName>Protein Detection</fullName>
+                <default>false</default>
+                <label>Protein Detection</label>
+            </value>
+            <value>
+                <fullName>Quantification &amp; Regulatory Compliance</fullName>
+                <default>false</default>
+                <label>Quantification &amp; Regulatory Compliance</label>
+            </value>
+            <value>
+                <fullName>Quantulus Liquid Scintillation Counter</fullName>
+                <default>false</default>
+                <label>Quantulus Liquid Scintillation Counter</label>
+            </value>
+            <value>
+                <fullName>Quantum FX</fullName>
+                <default>false</default>
+                <label>Quantum FX</label>
+            </value>
+            <value>
+                <fullName>Rad Custom Synthesis &amp; Radiolabeling</fullName>
+                <default>false</default>
+                <label>Rad Custom Synthesis &amp; Radiolabeling</label>
+            </value>
+            <value>
+                <fullName>Radiation Safety Equipment</fullName>
+                <default>false</default>
+                <label>Radiation Safety Equipment</label>
+            </value>
+            <value>
+                <fullName>Radiolabeled Nucleotides</fullName>
+                <default>false</default>
+                <label>Radiolabeled Nucleotides</label>
+            </value>
+            <value>
+                <fullName>Radionuclides</fullName>
+                <default>false</default>
+                <label>Radionuclides</label>
+            </value>
+            <value>
+                <fullName>Radiotherapeutics</fullName>
+                <default>false</default>
+                <label>Radiotherapeutics</label>
+            </value>
+            <value>
+                <fullName>Receptor Membrane Products for Screening</fullName>
+                <default>false</default>
+                <label>Receptor Membrane Products for Screening</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>RGB Filters</fullName>
+                <default>false</default>
+                <label>RGB Filters</label>
+            </value>
+            <value>
+                <fullName>Sample Oxizdier</fullName>
+                <default>false</default>
+                <label>Sample Oxizdier</label>
+            </value>
+            <value>
+                <fullName>Scan Systems (150 &amp; 250)</fullName>
+                <default>false</default>
+                <label>Scan Systems (150 &amp; 250)</label>
+            </value>
+            <value>
+                <fullName>Sciclone G3</fullName>
+                <default>false</default>
+                <label>Sciclone G3</label>
+            </value>
+            <value>
+                <fullName>Sciclone NGS Workstation</fullName>
+                <default>false</default>
+                <label>Sciclone NGS Workstation</label>
+            </value>
+            <value>
+                <fullName>Scintillation Proximity Assays</fullName>
+                <default>false</default>
+                <label>Scintillation Proximity Assays</label>
+            </value>
+            <value>
+                <fullName>Service Contracts</fullName>
+                <default>false</default>
+                <label>Service Contracts</label>
+            </value>
+            <value>
+                <fullName>SLM (Spatial Light Modulators)</fullName>
+                <default>false</default>
+                <label>SLM (Spatial Light Modulators)</label>
+            </value>
+            <value>
+                <fullName>Soft. Maintenance Agreement</fullName>
+                <default>false</default>
+                <label>Soft. Maintenance Agreement</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Tissue MicroArray (TMA)</fullName>
+                <default>false</default>
+                <label>Tissue MicroArray (TMA)</label>
+            </value>
+            <value>
+                <fullName>Topcount Microplate Counter</fullName>
+                <default>false</default>
+                <label>Topcount Microplate Counter</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Transfer Membranes</fullName>
+                <default>false</default>
+                <label>Transfer Membranes</label>
+            </value>
+            <value>
+                <fullName>Tri-Carb Liquid Scintillation Analyzer</fullName>
+                <default>false</default>
+                <label>Tri-Carb Liquid Scintillation Analyzer</label>
+            </value>
+            <value>
+                <fullName>TRIO</fullName>
+                <default>false</default>
+                <label>TRIO</label>
+            </value>
+            <value>
+                <fullName>TruQuant Software</fullName>
+                <default>false</default>
+                <label>TruQuant Software</label>
+            </value>
+            <value>
+                <fullName>TBR</fullName>
+                <default>false</default>
+                <label>TBR</label>
+            </value>
+            <value>
+                <fullName>TSA - IHC</fullName>
+                <default>false</default>
+                <label>TSA - IHC</label>
+            </value>
+            <value>
+                <fullName>TSA - ImageAmp</fullName>
+                <default>false</default>
+                <label>TSA - ImageAmp</label>
+            </value>
+            <value>
+                <fullName>TSA - ISH</fullName>
+                <default>false</default>
+                <label>TSA - ISH</label>
+            </value>
+            <value>
+                <fullName>Twister Plate Handler</fullName>
+                <default>false</default>
+                <label>Twister Plate Handler</label>
+            </value>
+            <value>
+                <fullName>UltraView VoX</fullName>
+                <default>false</default>
+                <label>UltraView VoX</label>
+            </value>
+            <value>
+                <fullName>ULTRAVIEW VOX SYSTEM</fullName>
+                <default>false</default>
+                <label>ULTRAVIEW VOX SYSTEM</label>
+            </value>
+            <value>
+                <fullName>ValiScreen Cell Lines</fullName>
+                <default>false</default>
+                <label>ValiScreen Cell Lines</label>
+            </value>
+            <value>
+                <fullName>Varispec</fullName>
+                <default>false</default>
+                <label>Varispec</label>
+            </value>
+            <value>
+                <fullName>Vectra</fullName>
+                <default>false</default>
+                <label>Vectra</label>
+            </value>
+            <value>
+                <fullName>VictorX Multilabel Reader</fullName>
+                <default>false</default>
+                <label>VictorX Multilabel Reader</label>
+            </value>
+            <value>
+                <fullName>ViewLux CCD Imager</fullName>
+                <default>false</default>
+                <label>ViewLux CCD Imager</label>
+            </value>
+            <value>
+                <fullName>Volocity</fullName>
+                <default>false</default>
+                <label>Volocity</label>
+            </value>
+            <value>
+                <fullName>Western Blotting Products</fullName>
+                <default>false</default>
+                <label>Western Blotting Products</label>
+            </value>
+            <value>
+                <fullName>WIZARD2 Gamma Counters</fullName>
+                <default>false</default>
+                <label>WIZARD2 Gamma Counters</label>
+            </value>
+            <value>
+                <fullName>XenoLight</fullName>
+                <default>false</default>
+                <label>XenoLight</label>
+            </value>
+            <value>
+                <fullName>Zephyr Compact Workstation</fullName>
+                <default>false</default>
+                <label>Zephyr Compact Workstation</label>
+            </value>
+            <value>
+                <fullName>Zephyr Genomics Workstation</fullName>
+                <default>false</default>
+                <label>Zephyr Genomics Workstation</label>
+            </value>
+            <value>
+                <fullName>Zephyr Molecular Biology Workstation</fullName>
+                <default>false</default>
+                <label>Zephyr Molecular Biology Workstation</label>
+            </value>
+            <value>
+                <fullName>Zephyr SPE Workstation</fullName>
+                <default>false</default>
+                <label>Zephyr SPE Workstation</label>
+            </value>
+            <value>
+                <fullName>Protein Reagents</fullName>
+                <default>false</default>
+                <label>Protein Reagents</label>
+            </value>
+            <value>
+                <fullName>TSA HCA Kits</fullName>
+                <default>false</default>
+                <label>TSA HCA Kits</label>
+            </value>
+            <value>
+                <fullName>TSA IHC/ISH</fullName>
+                <default>false</default>
+                <label>TSA IHC/ISH</label>
+            </value>
+            <value>
+                <fullName>TSA Membranes</fullName>
+                <default>false</default>
+                <label>TSA Membranes</label>
+            </value>
+            <value>
+                <fullName>Chips (Consumables)</fullName>
+                <default>false</default>
+                <label>Chips (Consumables)</label>
+            </value>
+            <value>
+                <fullName>Victor Nivo</fullName>
+                <default>false</default>
+                <label>Victor Nivo</label>
+            </value>
+            <value>
+                <fullName>MuviCyte</fullName>
+                <default>false</default>
+                <label>MuviCyte</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</controllingFieldValue>
+            <valueName>BLAST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</controllingFieldValue>
+            <valueName>ELAST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</controllingFieldValue>
+            <valueName>Non rad nucleotides/nucleotide analogs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</controllingFieldValue>
+            <valueName>TBR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</controllingFieldValue>
+            <valueName>TSA - IHC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</controllingFieldValue>
+            <valueName>TSA - ImageAmp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</controllingFieldValue>
+            <valueName>TSA - ISH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOL - REAGENTS (NON-RAD) MOLECULAR BIOLOGY</controllingFieldValue>
+            <valueName>Western Blotting Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOX - LST DIAGNOSTICS SYSTEMS LABCHIP DX</controllingFieldValue>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <valueName>LabChip DX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAP - Chemagen Products</controllingFieldValue>
+            <valueName>chemagic Beads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAP - Chemagen Products</controllingFieldValue>
+            <valueName>chemagic Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAP - Chemagen Products</controllingFieldValue>
+            <valueName>chemagic Kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>LabChip 90, GX &amp; GXII Assay Kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <valueName>LabChip GX Touch 24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <valueName>LabChip GX Touch HT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <valueName>LabChip Fractionation (XT)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <valueName>LabChip Separation (GX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <valueName>LabChip Spectral Analysis (DS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>LabChip XT Assay Kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <valueName>NGS Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <valueName>NGS Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <valueName>Sciclone NGS Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NGS - Next Gen Sequencing</controllingFieldValue>
+            <valueName>Zephyr Genomics Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS ADME-PK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Assay Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Biomarker Discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Disease programs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Drug Combination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Drug repositioning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Drug Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Histological</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Preclinical In Vivo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>CDAS Profiling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NVS - LST ALLIANCES NOVASCREEN</controllingFieldValue>
+            <valueName>Contract Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PBR - REAGENTS PROTEIN BIOLOGY</controllingFieldValue>
+            <valueName>PhosTrap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</controllingFieldValue>
+            <valueName>Anesthesia System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</controllingFieldValue>
+            <valueName>FMT 1000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</controllingFieldValue>
+            <valueName>FMT 1500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</controllingFieldValue>
+            <valueName>FMT 2000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</controllingFieldValue>
+            <valueName>FMT 2500LX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</controllingFieldValue>
+            <valueName>FMT 4000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</controllingFieldValue>
+            <valueName>Multispecies Imaging Module (MSIM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QTS - SYSTEMS PRE-CLINICAL IMAGING FMT (INV FOR REST)</controllingFieldValue>
+            <valueName>TruQuant Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>Cyclone (Plus) Phosphor Imager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>Flow Scintillation Analyzers (FSA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>Harvestor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>MicroBeta2 LumiJET Plate Counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>Quantulus Liquid Scintillation Counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>Sample Oxizdier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>Topcount Microplate Counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>Tri-Carb Liquid Scintillation Analyzer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRD - SYSTEMS RADIOMETRIC DETECTION</controllingFieldValue>
+            <valueName>WIZARD2 Gamma Counters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EZR-EZR</controllingFieldValue>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>EZ Reader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EZR-EZR</controllingFieldValue>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>EZ Reader Enzyme Kits &amp; Substrates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EZR-EZR</controllingFieldValue>
+            <valueName>Chips (Consumables)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAP - AGENTS FLOURESCENT IMAGING</controllingFieldValue>
+            <valueName>Fluorescent Labels and Nanoparticles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAP - AGENTS FLOURESCENT IMAGING</controllingFieldValue>
+            <valueName>Fluorescent Pre-clinical Imaging Agents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>FlashPlate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>Kodak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>Kodak Autoradiography Film</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>Liquid Scintillation Cocktail &amp; Vials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>NEN Radiochemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>Nucleotide Analogs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>PET-a</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>Protein Detection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>Radiation Safety Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>Radiolabeled Nucleotides</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RAD</controllingFieldValue>
+            <valueName>Scintillation Proximity Assays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GPZ - Geospiza</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRS - REAGENTS RADIOMETRIC SERVICES</controllingFieldValue>
+            <valueName>Rad Custom Synthesis &amp; Radiolabeling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HCS - SYSTEMS HIGH CONTENT SCREENING</controllingFieldValue>
+            <valueName>Acapella Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HCS - SYSTEMS HIGH CONTENT SCREENING</controllingFieldValue>
+            <valueName>Harmony Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HCS - SYSTEMS HIGH CONTENT SCREENING</controllingFieldValue>
+            <valueName>Opera HCS System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HCS - SYSTEMS HIGH CONTENT SCREENING</controllingFieldValue>
+            <valueName>Opera Phenix HCS System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HCS - SYSTEMS HIGH CONTENT SCREENING</controllingFieldValue>
+            <valueName>Operetta HCS System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HCS - SYSTEMS HIGH CONTENT SCREENING</controllingFieldValue>
+            <valueName>MuviCyte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTH - Radioimaging &amp; Radiotherapeutics</controllingFieldValue>
+            <valueName>Radionuclides</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTH - Radioimaging &amp; Radiotherapeutics</controllingFieldValue>
+            <valueName>Radiotherapeutics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Acycloterminators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Non-Rad Nucleotides</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - AlphaLISA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - Assay Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - Cell Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - Flashplates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - GENE2SCREEN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - Labeling Service, TRF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - LANCE Labeling Svc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - Microplates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - Receptors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - ONPOINT SERVICES</controllingFieldValue>
+            <valueName>Custom Services - Ulight Labeling Svc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPS - (ALH) SYSTEMS SAMPLE PREP &amp; HTS</controllingFieldValue>
+            <valueName>Disposable Tips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPS - (ALH) SYSTEMS SAMPLE PREP &amp; HTS</controllingFieldValue>
+            <valueName>FlexDrop Plus Reagent Dispenser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>AlphaLISA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>Alphascreen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>AlphaScreen Surefire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>AlphaLISA SureFire Ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>AlphaPlex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>ATPLite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>BRET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>DELFIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>Gene Reporter Assays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>Imaging Microplates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>Label-free Plates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>LANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>LANCE Ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>Membranes Preps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>Microplates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>Neolite/Britelite/Steadylite Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HTS - REAGENTS SCREENING</controllingFieldValue>
+            <valueName>Transfer Membranes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVC - OneSource Service &amp; Support</controllingFieldValue>
+            <valueName>Asset Mgmt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVC - OneSource Service &amp; Support</controllingFieldValue>
+            <valueName>Instrument Service &amp; Repair</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVC - OneSource Service &amp; Support</controllingFieldValue>
+            <valueName>Quantification &amp; Regulatory Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVC - OneSource Service &amp; Support</controllingFieldValue>
+            <valueName>Relocation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IAS - SOFTWARE IMAGING &amp; ANALYSIS</controllingFieldValue>
+            <valueName>Service Contracts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IAS - SOFTWARE IMAGING &amp; ANALYSIS</controllingFieldValue>
+            <valueName>ULTRAVIEW VOX SYSTEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TBR - Tissue Biomarker Reagents</controllingFieldValue>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>Protein Reagents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TBR - Tissue Biomarker Reagents</controllingFieldValue>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>TSA HCA Kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TBR - Tissue Biomarker Reagents</controllingFieldValue>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>TSA IHC/ISH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TBR - Tissue Biomarker Reagents</controllingFieldValue>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>TSA Membranes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>IVIS 100/200 Series</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>IVIS Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>IVIS Kinetic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>IVIS Lumina II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>IVIS Lumina XR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>IVIS Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>IVIS Spectrum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>IVIS Spectrum CT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>Maestro EX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>Maestro II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>MRI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>PET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV - SYSTEMS PRE-CLINICAL IMAGING (FMT - USE QTS)</controllingFieldValue>
+            <valueName>Quantum FX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS - LST Optical Components/Polarization</controllingFieldValue>
+            <valueName>Abrio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS - LST Optical Components/Polarization</controllingFieldValue>
+            <valueName>OoSight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS - LST Optical Components/Polarization</controllingFieldValue>
+            <valueName>RGB Filters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS - LST Optical Components/Polarization</controllingFieldValue>
+            <valueName>SLM (Spatial Light Modulators)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS - LST Optical Components/Polarization</controllingFieldValue>
+            <valueName>Varispec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI - SYSTEMS LIVE CELL IMAGING</controllingFieldValue>
+            <valueName>Olympus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI - SYSTEMS LIVE CELL IMAGING</controllingFieldValue>
+            <valueName>Olympus OV100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LVI - SYSTEMS LIVE CELL IMAGING</controllingFieldValue>
+            <valueName>UltraView VoX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <controllingFieldValue>BTX - BIOTHERAPEUTICS</controllingFieldValue>
+            <valueName>LabChip GXII Touch 24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT - SYSTEMS MICROFLUIDICS</controllingFieldValue>
+            <controllingFieldValue>BTX - BIOTHERAPEUTICS</controllingFieldValue>
+            <valueName>LabChip GXII Touch HT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APS - (ALH) SYSTEMS APPLICATION</controllingFieldValue>
+            <valueName>Integration Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARS - (ALH) SYSTEMS AUTOMATED ROBOTIC</controllingFieldValue>
+            <valueName>cell::explorer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARS - (ALH) SYSTEMS AUTOMATED ROBOTIC</controllingFieldValue>
+            <valueName>plate::explorer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARS - (ALH) SYSTEMS AUTOMATED ROBOTIC</controllingFieldValue>
+            <valueName>plate::handler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS - (ALH) AUTOMATED LIQUID HANDLING</controllingFieldValue>
+            <valueName>JANUS Automated Workstations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS - (ALH) AUTOMATED LIQUID HANDLING</controllingFieldValue>
+            <controllingFieldValue>BTX - BIOTHERAPEUTICS</controllingFieldValue>
+            <valueName>JANUS BTX Pro Plus Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS - (ALH) AUTOMATED LIQUID HANDLING</controllingFieldValue>
+            <controllingFieldValue>BTX - BIOTHERAPEUTICS</controllingFieldValue>
+            <valueName>JANUS BTX  Pro Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS - (ALH) AUTOMATED LIQUID HANDLING</controllingFieldValue>
+            <valueName>JANUS CS Autoplex Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS - (ALH) AUTOMATED LIQUID HANDLING</controllingFieldValue>
+            <valueName>JANUS Project Manger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS - (ALH) AUTOMATED LIQUID HANDLING</controllingFieldValue>
+            <valueName>PlateStak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AWS - (ALH) AUTOMATED LIQUID HANDLING</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTX - BIOTHERAPEUTICS</controllingFieldValue>
+            <valueName>LabChip GX II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>Aequorin Licenses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>Aequorin Parental Cell Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>Aequorin Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>FroZen Cells</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>Photina Cell Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>Photina Licenses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>Photina Parental Cell Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CKP - REAGENTS CELLULAR KINETIC PHOTOPROTEINS</controllingFieldValue>
+            <valueName>ValiScreen Cell Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <valueName>iStax Plat Stacking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <valueName>Sciclone G3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <valueName>Twister Plate Handler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <valueName>Zephyr Compact Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <valueName>Zephyr Molecular Biology Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH - (ALH) SYSTEMS CALIPER LIQUID HANDLING</controllingFieldValue>
+            <valueName>Zephyr SPE Workstation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>Bacterial Strains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>Bioware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>Custom Chip Fabrication Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>Luciferin Bulk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>Other in vivo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>Receptor Membrane Products for Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLR - REAGENTS CALIPER</controllingFieldValue>
+            <valueName>XenoLight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Cri Assisted reproductive technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Cri Fluorescence Microscopy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Cri immunohistochemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Cri In Vivo imaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Cri tissue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Cri whole slide imaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>DESK (Pannoramic)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Grand Master (TMA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>InForm Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Lamina Multilabel Slide Scanner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>MIDI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Nuance Ex &amp; Fx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Scan Systems (150 &amp; 250)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Tissue MicroArray (TMA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>TRIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TSC - LST Microscopy &amp; Analysis</controllingFieldValue>
+            <valueName>Vectra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>EnSight Multimode Plate Reader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>EnSpire Alpha Multimode Plate Reader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>EnSpire AlphaPlus Multimode Plate Reader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>EnSpire Label-Free Multimode Plate Reader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>EnSpire Multimode Plate Reader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>EnVision Multilabel Plate Reader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>EnVision Multilabel Plate Reader with Alpha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>VictorX Multilabel Reader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>ViewLux CCD Imager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLD - SYSTEMS MULTIMODE DETECTION</controllingFieldValue>
+            <valueName>Victor Nivo</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

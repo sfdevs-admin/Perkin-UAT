@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_Case_Type__c</fullName>
+    <label>Quality Case Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mfg Procedures</fullName>
+                <default>false</default>
+                <label>Mfg Procedures</label>
+            </value>
+            <value>
+                <fullName>Bill of Material</fullName>
+                <default>false</default>
+                <label>Bill of Material</label>
+            </value>
+            <value>
+                <fullName>Camera</fullName>
+                <default>false</default>
+                <label>Camera</label>
+            </value>
+            <value>
+                <fullName>Chip Quality</fullName>
+                <default>false</default>
+                <label>Chip Quality</label>
+            </value>
+            <value>
+                <fullName>Mfg Test</fullName>
+                <default>false</default>
+                <label>Mfg Test</label>
+            </value>
+            <value>
+                <fullName>Mfg Tooling</fullName>
+                <default>false</default>
+                <label>Mfg Tooling</label>
+            </value>
+            <value>
+                <fullName>Mis/Other</fullName>
+                <default>false</default>
+                <label>Mis/Other</label>
+            </value>
+            <value>
+                <fullName>Optics</fullName>
+                <default>false</default>
+                <label>Optics</label>
+            </value>
+            <value>
+                <fullName>Out of Box Failure</fullName>
+                <default>false</default>
+                <label>Out of Box Failure</label>
+            </value>
+            <value>
+                <fullName>PC/Controller</fullName>
+                <default>false</default>
+                <label>PC/Controller</label>
+            </value>
+            <value>
+                <fullName>Plumbing – Pumps/Tubing</fullName>
+                <default>false</default>
+                <label>Plumbing – Pumps/Tubing</label>
+            </value>
+            <value>
+                <fullName>Robot</fullName>
+                <default>false</default>
+                <label>Robot</label>
+            </value>
+            <value>
+                <fullName>Wiring/Cabling</fullName>
+                <default>false</default>
+                <label>Wiring/Cabling</label>
+            </value>
+            <value>
+                <fullName>Misc. Hardware</fullName>
+                <default>false</default>
+                <label>Misc. Hardware</label>
+            </value>
+            <value>
+                <fullName>PCB</fullName>
+                <default>false</default>
+                <label>PCB</label>
+            </value>
+            <value>
+                <fullName>Product Specs</fullName>
+                <default>false</default>
+                <label>Product Specs</label>
+            </value>
+            <value>
+                <fullName>Missing/Wrong Component</fullName>
+                <default>false</default>
+                <label>Missing/Wrong Component</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Caliper Operating Process</fullName>
+                <default>false</default>
+                <label>Caliper Operating Process</label>
+            </value>
+            <value>
+                <fullName>Product Enhancements</fullName>
+                <default>false</default>
+                <label>Product Enhancements</label>
+            </value>
+            <value>
+                <fullName>Vendor/Supplier Issue</fullName>
+                <default>false</default>
+                <label>Vendor/Supplier Issue</label>
+            </value>
+            <value>
+                <fullName>Onsite Service/Support</fullName>
+                <default>false</default>
+                <label>Onsite Service/Support</label>
+            </value>
+            <value>
+                <fullName>Packaging/Shipping</fullName>
+                <default>false</default>
+                <label>Packaging/Shipping</label>
+            </value>
+            <value>
+                <fullName>Software/Firmware</fullName>
+                <default>false</default>
+                <label>Software/Firmware</label>
+            </value>
+            <value>
+                <fullName>Product Safety</fullName>
+                <default>false</default>
+                <label>Product Safety</label>
+            </value>
+            <value>
+                <fullName>Product User Documentation</fullName>
+                <default>false</default>
+                <label>Product User Documentation</label>
+            </value>
+            <value>
+                <fullName>Training/Workmanship</fullName>
+                <default>false</default>
+                <label>Training/Workmanship</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operating_System__c</fullName>
+    <label>Operating System</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>true</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Windows 7 Operating System</fullName>
+                <default>false</default>
+                <label>Windows 7 Operating System</label>
+            </value>
+            <value>
+                <fullName>Dual Windows XP and Windows XP</fullName>
+                <default>false</default>
+                <label>Dual Windows XP and Windows XP</label>
+            </value>
+            <value>
+                <fullName>Dual Windows 2000 and Windows 2000</fullName>
+                <default>false</default>
+                <label>Dual Windows 2000 and Windows 2000</label>
+            </value>
+            <value>
+                <fullName>Dual Windows 2000 and Windows 98</fullName>
+                <default>false</default>
+                <label>Dual Windows 2000 and Windows 98</label>
+            </value>
+            <value>
+                <fullName>Windows XP non Dual Boot</fullName>
+                <default>false</default>
+                <label>Windows XP non Dual Boot</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

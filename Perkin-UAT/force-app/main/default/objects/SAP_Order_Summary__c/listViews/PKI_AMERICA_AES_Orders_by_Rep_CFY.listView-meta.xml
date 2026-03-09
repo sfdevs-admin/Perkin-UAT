@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_AMERICA_AES_Orders_by_Rep_CFY</fullName>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>Source_Type__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>Ship_To_Address_Country__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Order_Total_Price__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Actual_Order_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>fxCOVIDItems__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>AES,TBD</value>
+    </filters>
+    <filters>
+        <field>Source_Type__c</field>
+        <operation>contains</operation>
+        <value>ZGNA,ZGCA,ZGLA</value>
+    </filters>
+    <filters>
+        <field>Sales_Rep_First_Name__c</field>
+        <operation>contains</operation>
+        <value>braga</value>
+    </filters>
+    <label>PKI AMERICA AES Orders  by Rep CFY</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

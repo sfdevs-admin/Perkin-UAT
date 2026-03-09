@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ITC_Test_Reminder</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>ITC Test Reminder</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://na1.salesforce.com/a0E/e?retURL=%2Fa0E%2Fo&amp;RecordType=012300000004Vlj&amp;_CONFIRMATIONTOKEN=PopNM5IhZJgbEVehywMBmZoDUXlQt3kZSnWZ4kdxFNmf.Uc.iM7AW5bsvRt8YH_ZRKK_NkEfhnhBcppPWbAkDte7_jb3jntn5xnE0WtINd9QNlNTgni3AwP0OFSV6YysZIPQO12vD4GP.GB8dOoyCM34MAj2kuivFQikAmwZV45TCt6U&amp;cancelURL=%2Fa0E%2Fo&amp;ent=01I30000000JTuD</url>
+</WebLink>

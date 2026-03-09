@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tanish_GGM_Interactions</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Country__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>InteractionAssignmentRules__c</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>Status__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>contains</operation>
+        <value>AGO,APS,ARS,AWS,BBT,CHS,CLH,HMG,MDX,MFT,MOX,NAP,NEX,NMO,PCR,POC,RHS,SDX,SPS</value>
+    </filters>
+    <filters>
+        <field>InteractionAssignmentRules__c</field>
+        <operation>notEqual</operation>
+        <value>&quot; &quot;</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>contains</operation>
+        <value>AE,AF,AO,BF,BH,BI,BJ,BV,BW,CD,CF,CG,CI,CM,CV,DJ,DZ,EG,EH,EM,ER,ET,FA,GA,GH,GM,GN,GQ,GW,GZ,IL,IO,IQ,IR,JO,KE,KM,KW,LB,LR,LS,LY,MA,MG,ML,MR,MU,MW,MZ,NA,NE,NG,NT,OM,PK,PS,QA,RW,SA,SC,SD,SH,SL,SN,SO,SS,ST,SY</value>
+    </filters>
+    <label>Tanish GGM Interactions</label>
+</ListView>

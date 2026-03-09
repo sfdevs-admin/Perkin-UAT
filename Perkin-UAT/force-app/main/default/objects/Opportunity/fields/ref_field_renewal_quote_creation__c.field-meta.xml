@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ref_field_renewal_quote_creation__c</fullName>
+    <externalId>false</externalId>
+    <formula>Originating_Opportunity_INF__r.ref_id_for_Parent_Opportunity__c</formula>
+    <label>ref_field_renewal_quote_creation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

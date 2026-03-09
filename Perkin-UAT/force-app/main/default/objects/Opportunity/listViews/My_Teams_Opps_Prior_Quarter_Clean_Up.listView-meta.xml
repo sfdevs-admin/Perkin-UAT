@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Teams_Opps_Prior_Quarter_Clean_Up</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Pre_Sale_Credit_Review__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>SAP_Quote__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>lessThan</operation>
+        <value>THIS_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Zero Stage,Stage 6 - Implement (Closed),Closed Won,Closed Lost,Abandoned</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PKI_Americas_SPI</value>
+    </filters>
+    <label>My Teams Opps -Prior Quarter Clean Up</label>
+    <language>en_US</language>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

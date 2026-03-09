@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>recordtypecopy__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>System-controlled checkbox reflecting Opportunity Record Type logic. FALSE for Project Farma; TRUE for all other record types. Not for manual updates.</description>
+    <inlineHelpText>Automatically set by system logic based on Opportunity Record Type. FALSE for Project Farma; TRUE for all other record types. Do not update manually.</inlineHelpText>
+    <label>recordtypecopy</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

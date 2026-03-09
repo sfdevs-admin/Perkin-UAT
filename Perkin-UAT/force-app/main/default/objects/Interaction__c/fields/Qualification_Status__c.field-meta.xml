@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_Status__c</fullName>
+    <description>as Interaction Type Pick list changes, this formula field must also be updated to account for new pick list values</description>
+    <externalId>false</externalId>
+    <formula>IF(
+				
+	OR(Contact_Requested__c, 
+				
+    Demo_Requested__c,
+				
+				Quote_Requested__c
+				
+	),
+				
+&quot;QL Hot&quot;,
+				
+CASE( TEXT( Interaction_Type__c ) ,
+
+&quot;Accelerator Form&quot;, &quot;QL Hot&quot;,
+
+&quot;Ad-hoc Hot Form&quot;, &quot;QL Hot&quot;,
+
+&quot;GROW&quot;, &quot;QL Hot&quot;,
+
+&quot;List Upload&quot;, IF( TEXT( Accelerator__c ) = &quot;TRUE&quot; , &quot;QL Hot&quot;, &quot;Pre-QL&quot;),
+
+&quot;Progressive Form&quot;, IF( TEXT( Accelerator__c ) = &quot;TRUE&quot; , &quot;QL Hot&quot;, &quot;Pre-QL&quot;),
+
+&quot;Trial&quot;, IF( TEXT( Accelerator__c ) = &quot;TRUE&quot; , &quot;QL Hot&quot;, &quot;Pre-QL&quot;),
+
+&quot;Webinar&quot;, IF( TEXT( Accelerator__c ) = &quot;TRUE&quot; , &quot;QL Hot&quot;, &quot;Pre-QL&quot;),
+
+&quot;icapture&quot;, IF( TEXT( Accelerator__c ) = &quot;TRUE&quot; , &quot;QL Hot&quot;, &quot;Pre-QL&quot;),
+
+IF( TEXT( Accelerator__c ) = &quot;TRUE&quot; , &quot;QL Hot&quot;, &quot;Pre-QL&quot;) )
+)</formula>
+    <inlineHelpText>formula to determine the qual status...uses interaction type + accelerator</inlineHelpText>
+    <label>Qualification Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

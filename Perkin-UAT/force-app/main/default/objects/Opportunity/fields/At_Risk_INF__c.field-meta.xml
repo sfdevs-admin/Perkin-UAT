@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>At_Risk_INF__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field requested by Dan Szot to drive focus on deals needing support.</description>
+    <inlineHelpText>Deal in Commit - known RISK exists to close Renewal</inlineHelpText>
+    <label>At Risk</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

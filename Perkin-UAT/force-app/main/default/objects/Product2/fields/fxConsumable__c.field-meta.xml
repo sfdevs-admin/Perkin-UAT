@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxConsumable__c</fullName>
+    <description>This field is used to check if the product is consumable or not based on Item class.(Source:S-693027)</description>
+    <formula>IF ( OR(( Item_Class__c = &quot;1&quot;), (Item_Class__c = &quot;2&quot;),(Item_Class__c = &quot;7&quot;)),FALSE, TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field is used to check if the product is consumable or not based on Item class</inlineHelpText>
+    <label>Consumable</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_LocalShipping_Modification_MDM</fullName>
+    <active>true</active>
+    <description>For OMIT Accounts, Local Shipping address fields should be editable</description>
+    <errorConditionFormula>AND (
+    OR(
+        ISCHANGED( PKI_ShippingCityLocal__c)
+       ,ISCHANGED( PKI_ShippingCountryCodeLocal__c)
+       ,ISCHANGED( PKI_ShippingPostalCodeLocal__c)
+       ,ISCHANGED( PKI_ShippingStateLocal__c) 
+       ,ISCHANGED( PKI_ShippingStreetLocal__c)
+      )
+       ,NOT(ISBLANK(TEXT($User.PKICountry__c)))
+       ,PKI_SAP_Account_Group__c &lt;&gt; &#39;OMIT&#39;
+)</errorConditionFormula>
+    <errorMessage>V.RULE_ACCOUNT_001: Non-OMIT account cannot be modified directly in SFDC. To modify this account, please use the ‘Account Modification Request’ button</errorMessage>
+</ValidationRule>

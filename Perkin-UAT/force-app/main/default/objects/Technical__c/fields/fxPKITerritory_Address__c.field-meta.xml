@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxPKITerritory_Address__c</fullName>
+    <description>Concatenating State, Country and Postalcode value (Source: S-692579)</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Account_Name__c),
+Lead_Name__r.State &amp; &#39;;&#39; &amp; &#39; &#39; &amp; Lead_Name__r.Country &amp; &#39;;&#39; &amp; &#39; &#39; &amp; Lead_Name__r.PostalCode ,
+Account_Name__r.ShippingState &amp; &#39;;&#39; &amp; &#39; &#39; &amp; Account_Name__r.ShippingCountry &amp; &#39;;&#39; &amp; &#39; &#39; &amp; Account_Name__r.ShippingPostalCode )</formula>
+    <label>fxPKITerritory Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

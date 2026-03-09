@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_CC_CompltPKIClsd_Resln_mand</fullName>
+    <active>true</active>
+    <description>Pending the status of a Complaint case, the resolution field is mandatory</description>
+    <errorConditionFormula>AND(
+RecordType.Name = &#39;Customer Care - Complaint&#39;
+,ISBLANK(DX_Resolution__c)
+,OR(ISPICKVAL(Status, &#39;Complaint Pki Closed&#39;)  
+)
+)</errorConditionFormula>
+    <errorDisplayField>DX_Resolution__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_019: A Resolution is required for a Case to be set to the status of Complaint Pki Closed.</errorMessage>
+</ValidationRule>

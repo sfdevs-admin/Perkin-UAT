@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxDomain__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(Type__c)=&#39;Email&#39;, SUBSTITUTE(Spam_Value__c , LEFT(Spam_Value__c , FIND(&quot;@&quot;, Spam_Value__c )), NULL),&#39;&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>fxDomain</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

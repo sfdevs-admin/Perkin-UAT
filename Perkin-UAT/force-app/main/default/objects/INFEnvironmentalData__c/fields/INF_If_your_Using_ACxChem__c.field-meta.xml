@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_If_your_Using_ACxChem__c</fullName>
+    <label>If your Using ChemACX you access it from</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>The Oracle database Tier</fullName>
+                <default>false</default>
+                <label>The Oracle database Tier</label>
+            </value>
+            <value>
+                <fullName>The Application mIddle Tier as .mdb Database</fullName>
+                <default>false</default>
+                <label>The Application mIddle Tier as .mdb Database</label>
+            </value>
+            <value>
+                <fullName>Online via CambridgeSoft&#39;s hosted site</fullName>
+                <default>false</default>
+                <label>Online via CambridgeSoft&#39;s hosted site</label>
+            </value>
+            <value>
+                <fullName>Not sure</fullName>
+                <default>false</default>
+                <label>Not sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualifying_Items__c</fullName>
+    <inlineHelpText>Add all Part Numbers / IGOR/PAC Codes / Item Categories which qualify for the discount.</inlineHelpText>
+    <label>Qualifying Items</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

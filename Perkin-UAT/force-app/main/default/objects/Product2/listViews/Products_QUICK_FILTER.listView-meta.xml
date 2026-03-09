@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_QUICK_FILTER</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>product_line__c</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.NAME</field>
+        <operation>contains</operation>
+        <value>ARNL7686</value>
+    </filters>
+    <label>Products: (*QUICK FILTER*)</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

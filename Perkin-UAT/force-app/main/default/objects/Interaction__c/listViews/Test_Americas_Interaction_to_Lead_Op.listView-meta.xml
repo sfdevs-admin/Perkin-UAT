@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Americas_Interaction_to_Lead_Op</fullName>
+    <columns>InteractionDate__c</columns>
+    <columns>Status__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>NAME</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>AccountCompany__c</columns>
+    <columns>Email__c</columns>
+    <columns>Country__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <columns>SecondaryQualification__c</columns>
+    <columns>ProductName__c</columns>
+    <columns>Content_Title__c</columns>
+    <columns>Lead_Qualification_Stage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Working,Closed</value>
+    </filters>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>contains</operation>
+        <value>AA,ICP,IR,GC,GCM</value>
+    </filters>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>contains</operation>
+        <value>America</value>
+    </filters>
+    <label>Test Americas - Interaction to Lead/Op</label>
+</ListView>

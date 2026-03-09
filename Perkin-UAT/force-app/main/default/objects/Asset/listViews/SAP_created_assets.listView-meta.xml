@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAP_created_assets</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>State__c</columns>
+    <columns>Country_Asset__c</columns>
+    <columns>CONTACT.LAST_NAME</columns>
+    <columns>CONTACT.FIRST_NAME</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Shipment_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>contains</operation>
+        <value>web</value>
+    </filters>
+    <filters>
+        <field>ASSET.LAST_UPDATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>LAST_N_DAYS:30</value>
+    </filters>
+    <label>SAP created assets</label>
+    <language>en_US</language>
+</ListView>

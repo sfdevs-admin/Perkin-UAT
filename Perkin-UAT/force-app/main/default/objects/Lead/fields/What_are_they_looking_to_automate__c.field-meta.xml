@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_are_they_looking_to_automate__c</fullName>
+    <label>What are they looking to automate?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ancestoral Testing</fullName>
+                <default>false</default>
+                <label>Ancestoral Testing</label>
+            </value>
+            <value>
+                <fullName>Clinical Trials</fullName>
+                <default>false</default>
+                <label>Clinical Trials</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Safety Testing</fullName>
+                <default>false</default>
+                <label>Food &amp; Safety Testing</label>
+            </value>
+            <value>
+                <fullName>Forensic Testing</fullName>
+                <default>false</default>
+                <label>Forensic Testing</label>
+            </value>
+            <value>
+                <fullName>Genetic Disease Testing (Cancer)</fullName>
+                <default>false</default>
+                <label>Genetic Disease Testing (Cancer)</label>
+            </value>
+            <value>
+                <fullName>Infectious Disease Testing (HIV, HBV)</fullName>
+                <default>false</default>
+                <label>Infectious Disease Testing (HIV, HBV)</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

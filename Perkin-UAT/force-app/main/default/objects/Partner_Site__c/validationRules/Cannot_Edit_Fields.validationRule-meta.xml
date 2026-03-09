@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Edit_Fields</fullName>
+    <active>true</active>
+    <description>Cannot edit SAP Customer Number unless you have a specific profile.</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c, 
+ OR(ISCHANGED(PKI_SAP_Customer_Number__c),
+  ISCHANGED(PKI_SAP_Function__c)),
+ NOT($Profile.Name  = &#39;Application Integration profiles&#39;))</errorConditionFormula>
+    <errorMessage>V.RULE_PARTNER_SITE_001: You cannot edit fields unless you have a specific profile</errorMessage>
+</ValidationRule>

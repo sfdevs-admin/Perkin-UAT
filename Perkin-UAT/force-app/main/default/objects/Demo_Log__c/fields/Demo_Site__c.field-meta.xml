@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Site__c</fullName>
+    <label>Demo Site</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Site</fullName>
+                <default>true</default>
+                <label>Customer Site</label>
+            </value>
+            <value>
+                <fullName>Waltham Technical Center</fullName>
+                <default>false</default>
+                <label>Waltham Technical Center</label>
+            </value>
+            <value>
+                <fullName>Atlanta Technical Center</fullName>
+                <default>false</default>
+                <label>Atlanta Technical Center</label>
+            </value>
+            <value>
+                <fullName>Oakbrook Technical Center</fullName>
+                <default>false</default>
+                <label>Oakbrook Technical Center</label>
+            </value>
+            <value>
+                <fullName>Shelton Technical Center</fullName>
+                <default>false</default>
+                <label>Shelton Technical Center</label>
+            </value>
+            <value>
+                <fullName>Jorgenson Machinery/ PKI Houston</fullName>
+                <default>false</default>
+                <label>Jorgenson Machinery/ PKI Houston</label>
+            </value>
+            <value>
+                <fullName>Woodbridge Technical Center</fullName>
+                <default>false</default>
+                <label>Woodbridge Technical Center</label>
+            </value>
+            <value>
+                <fullName>Japan Demo Lab</fullName>
+                <default>false</default>
+                <label>Japan Demo Lab</label>
+            </value>
+            <value>
+                <fullName>Colorado State University Demo Lab</fullName>
+                <default>false</default>
+                <label>Colorado State University Demo Lab</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

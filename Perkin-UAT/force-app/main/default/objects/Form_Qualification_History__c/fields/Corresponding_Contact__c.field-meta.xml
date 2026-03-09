@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Corresponding_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field associates the form history data to a specific contact/prospect combination.</description>
+    <inlineHelpText>This field associates the form history data to a specific contact/prospect combination.</inlineHelpText>
+    <label>Corresponding Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Forms Qualification History</relationshipLabel>
+    <relationshipName>Forms_Qualification_History</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

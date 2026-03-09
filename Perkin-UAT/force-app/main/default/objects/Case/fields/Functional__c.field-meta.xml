@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Functional__c</fullName>
+    <description>LST Service close case process for Installations</description>
+    <label>Functional</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100% - No field replacements</fullName>
+                <default>false</default>
+                <label>100% - No field replacements</label>
+            </value>
+            <value>
+                <fullName>50% - Only Minor field replacements</fullName>
+                <default>false</default>
+                <label>50% - Only Minor field replacements</label>
+            </value>
+            <value>
+                <fullName>0% - Major field replacements</fullName>
+                <default>false</default>
+                <label>0% - Major field replacements</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>100% - No field replacements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>50% - Only Minor field replacements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Box Failure</controllingFieldValue>
+            <controllingFieldValue>Field Service</controllingFieldValue>
+            <valueName>0% - Major field replacements</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

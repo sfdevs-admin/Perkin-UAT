@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Profile_Score__c</fullName>
+    <description>INC0381394    text field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Explicit potential customer data which identify &quot;A&quot; as a good fit or &quot;D&quot; not enough data provided</inlineHelpText>
+    <label>Lead Profile Score</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Product_Compatibility__c</fullName>
+    <description>Used to select the values for products. Perk-75</description>
+    <label>Product Compatibility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2400 Series Analyzer</fullName>
+                <default>false</default>
+                <label>2400 Series Analyzer</label>
+            </value>
+            <value>
+                <fullName>2400 Series Elemental Analyzer</fullName>
+                <default>false</default>
+                <label>2400 Series Elemental Analyzer</label>
+            </value>
+            <value>
+                <fullName>2400 Series II Analyzer</fullName>
+                <default>false</default>
+                <label>2400 Series II Analyzer</label>
+            </value>
+            <value>
+                <fullName>2400 Series II CHNS/O</fullName>
+                <default>false</default>
+                <label>2400 Series II CHNS/O</label>
+            </value>
+            <value>
+                <fullName>2410 Series II Analyzer</fullName>
+                <default>false</default>
+                <label>2410 Series II Analyzer</label>
+            </value>
+            <value>
+                <fullName>AAnalyst</fullName>
+                <default>false</default>
+                <label>AAnalyst</label>
+            </value>
+            <value>
+                <fullName>AAnalyst 100</fullName>
+                <default>false</default>
+                <label>AAnalyst 100</label>
+            </value>
+            <value>
+                <fullName>AAnalyst 200</fullName>
+                <default>false</default>
+                <label>AAnalyst 200</label>
+            </value>
+            <value>
+                <fullName>AAnalyst 300</fullName>
+                <default>false</default>
+                <label>AAnalyst 300</label>
+            </value>
+            <value>
+                <fullName>AAnalyst 400</fullName>
+                <default>false</default>
+                <label>AAnalyst 400</label>
+            </value>
+            <value>
+                <fullName>AAnalyst 700</fullName>
+                <default>false</default>
+                <label>AAnalyst 700</label>
+            </value>
+            <value>
+                <fullName>AAnalyst 800</fullName>
+                <default>false</default>
+                <label>AAnalyst 800</label>
+            </value>
+            <value>
+                <fullName>Clarus 480</fullName>
+                <default>false</default>
+                <label>Clarus 480</label>
+            </value>
+            <value>
+                <fullName>Clarus 580</fullName>
+                <default>false</default>
+                <label>Clarus 580</label>
+            </value>
+            <value>
+                <fullName>Clarus 590</fullName>
+                <default>false</default>
+                <label>Clarus 590</label>
+            </value>
+            <value>
+                <fullName>Clarus 590 PPC</fullName>
+                <default>false</default>
+                <label>Clarus 590 PPC</label>
+            </value>
+            <value>
+                <fullName>Clarus 680</fullName>
+                <default>false</default>
+                <label>Clarus 680</label>
+            </value>
+            <value>
+                <fullName>Clarus 690</fullName>
+                <default>false</default>
+                <label>Clarus 690</label>
+            </value>
+            <value>
+                <fullName>Clarus 690 PPC</fullName>
+                <default>false</default>
+                <label>Clarus 690 PPC</label>
+            </value>
+            <value>
+                <fullName>Differential Scanning Calorimeter DSC</fullName>
+                <default>false</default>
+                <label>Differential Scanning Calorimeter DSC</label>
+            </value>
+            <value>
+                <fullName>ELAN 6x00</fullName>
+                <default>false</default>
+                <label>ELAN 6x00</label>
+            </value>
+            <value>
+                <fullName>ELAN 9000</fullName>
+                <default>false</default>
+                <label>ELAN 9000</label>
+            </value>
+            <value>
+                <fullName>ELAN DRC II</fullName>
+                <default>false</default>
+                <label>ELAN DRC II</label>
+            </value>
+            <value>
+                <fullName>ELAN DRC-e</fullName>
+                <default>false</default>
+                <label>ELAN DRC-e</label>
+            </value>
+            <value>
+                <fullName>LAMBDA</fullName>
+                <default>false</default>
+                <label>LAMBDA</label>
+            </value>
+            <value>
+                <fullName>NexION 300</fullName>
+                <default>false</default>
+                <label>NexION 300</label>
+            </value>
+            <value>
+                <fullName>NexION 350</fullName>
+                <default>false</default>
+                <label>NexION 350</label>
+            </value>
+            <value>
+                <fullName>PinAAcle</fullName>
+                <default>false</default>
+                <label>PinAAcle</label>
+            </value>
+            <value>
+                <fullName>PinAAcle 900</fullName>
+                <default>false</default>
+                <label>PinAAcle 900</label>
+            </value>
+            <value>
+                <fullName>RGA Model 1015</fullName>
+                <default>false</default>
+                <label>RGA Model 1015</label>
+            </value>
+            <value>
+                <fullName>RGA Model 1115</fullName>
+                <default>false</default>
+                <label>RGA Model 1115</label>
+            </value>
+            <value>
+                <fullName>RGA Model 1157</fullName>
+                <default>false</default>
+                <label>RGA Model 1157</label>
+            </value>
+            <value>
+                <fullName>RGA Model 1215</fullName>
+                <default>false</default>
+                <label>RGA Model 1215</label>
+            </value>
+            <value>
+                <fullName>RGA Model 1315</fullName>
+                <default>false</default>
+                <label>RGA Model 1315</label>
+            </value>
+            <value>
+                <fullName>RGA Model 1317</fullName>
+                <default>false</default>
+                <label>RGA Model 1317</label>
+            </value>
+            <value>
+                <fullName>RGA Model 1515</fullName>
+                <default>false</default>
+                <label>RGA Model 1515</label>
+            </value>
+            <value>
+                <fullName>Sample Preparation Blocks</fullName>
+                <default>false</default>
+                <label>Sample Preparation Blocks</label>
+            </value>
+            <value>
+                <fullName>Spectrum</fullName>
+                <default>false</default>
+                <label>Spectrum</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 110</fullName>
+                <default>false</default>
+                <label>TurboMatrix 110</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 40</fullName>
+                <default>false</default>
+                <label>TurboMatrix 40</label>
+            </value>
+            <value>
+                <fullName>AVIO 200</fullName>
+                <default>false</default>
+                <label>Avio 200</label>
+            </value>
+            <value>
+                <fullName>AVIO 500</fullName>
+                <default>false</default>
+                <label>Avio 500</label>
+            </value>
+            <value>
+                <fullName>Clarus 500</fullName>
+                <default>false</default>
+                <label>Clarus 500</label>
+            </value>
+            <value>
+                <fullName>Clarus 600</fullName>
+                <default>false</default>
+                <label>Clarus 600</label>
+            </value>
+            <value>
+                <fullName>DA 7250</fullName>
+                <default>false</default>
+                <label>DA 7250</label>
+            </value>
+            <value>
+                <fullName>DMA 8000</fullName>
+                <default>false</default>
+                <label>DMA 8000</label>
+            </value>
+            <value>
+                <fullName>DSC 4000/6000</fullName>
+                <default>false</default>
+                <label>DSC 4000/6000</label>
+            </value>
+            <value>
+                <fullName>DSC 8000/8500</fullName>
+                <default>false</default>
+                <label>DSC 8000/8500</label>
+            </value>
+            <value>
+                <fullName>Exclude</fullName>
+                <default>false</default>
+                <label>Exclude</label>
+            </value>
+            <value>
+                <fullName>FL 6500</fullName>
+                <default>false</default>
+                <label>FL 6500</label>
+            </value>
+            <value>
+                <fullName>FL 8500</fullName>
+                <default>false</default>
+                <label>FL 8500</label>
+            </value>
+            <value>
+                <fullName>FLEXAR LC</fullName>
+                <default>false</default>
+                <label>FLEXAR LC</label>
+            </value>
+            <value>
+                <fullName>Frontier MIR</fullName>
+                <default>false</default>
+                <label>Frontier MIR</label>
+            </value>
+            <value>
+                <fullName>FT 9700</fullName>
+                <default>false</default>
+                <label>FT 9700</label>
+            </value>
+            <value>
+                <fullName>GC 2400</fullName>
+                <default>false</default>
+                <label>GC 2400</label>
+            </value>
+            <value>
+                <fullName>LAMBDA 1050</fullName>
+                <default>false</default>
+                <label>LAMBDA 1050</label>
+            </value>
+            <value>
+                <fullName>LAMBDA 265</fullName>
+                <default>false</default>
+                <label>LAMBDA 265</label>
+            </value>
+            <value>
+                <fullName>LAMBDA 365</fullName>
+                <default>false</default>
+                <label>LAMBDA 365</label>
+            </value>
+            <value>
+                <fullName>LAMBDA 465</fullName>
+                <default>false</default>
+                <label>LAMBDA 465</label>
+            </value>
+            <value>
+                <fullName>LC 300</fullName>
+                <default>false</default>
+                <label>LC 300</label>
+            </value>
+            <value>
+                <fullName>NexION 1000</fullName>
+                <default>false</default>
+                <label>NexION 1000</label>
+            </value>
+            <value>
+                <fullName>NexION 1100</fullName>
+                <default>false</default>
+                <label>NexION 1100</label>
+            </value>
+            <value>
+                <fullName>NexION 2000</fullName>
+                <default>false</default>
+                <label>NexION 2000</label>
+            </value>
+            <value>
+                <fullName>NexION 2200</fullName>
+                <default>false</default>
+                <label>NexION 2200</label>
+            </value>
+            <value>
+                <fullName>NexION 5000</fullName>
+                <default>false</default>
+                <label>NexION 5000</label>
+            </value>
+            <value>
+                <fullName>PinAAcle 500</fullName>
+                <default>false</default>
+                <label>PinAAcle 500</label>
+            </value>
+            <value>
+                <fullName>PinAAcle 900 Series</fullName>
+                <default>false</default>
+                <label>PinAAcle 900 Series</label>
+            </value>
+            <value>
+                <fullName>PYRIS 9</fullName>
+                <default>false</default>
+                <label>PYRIS 9</label>
+            </value>
+            <value>
+                <fullName>Qsight LC</fullName>
+                <default>false</default>
+                <label>Qsight LC</label>
+            </value>
+            <value>
+                <fullName>Spectrum 3</fullName>
+                <default>false</default>
+                <label>Spectrum 3</label>
+            </value>
+            <value>
+                <fullName>Spectrum Spotlight 200</fullName>
+                <default>false</default>
+                <label>Spectrum Spotlight 200</label>
+            </value>
+            <value>
+                <fullName>Spectrum Two</fullName>
+                <default>false</default>
+                <label>Spectrum Two</label>
+            </value>
+            <value>
+                <fullName>STA 6000</fullName>
+                <default>false</default>
+                <label>STA 6000</label>
+            </value>
+            <value>
+                <fullName>STA 8000</fullName>
+                <default>false</default>
+                <label>STA 8000</label>
+            </value>
+            <value>
+                <fullName>TGA 4000</fullName>
+                <default>false</default>
+                <label>TGA 4000</label>
+            </value>
+            <value>
+                <fullName>TGA 8000</fullName>
+                <default>false</default>
+                <label>TGA 8000</label>
+            </value>
+            <value>
+                <fullName>TMA 4000</fullName>
+                <default>false</default>
+                <label>TMA 4000</label>
+            </value>
+            <value>
+                <fullName>Optima 2000</fullName>
+                <default>false</default>
+                <label>Optima 2000</label>
+            </value>
+            <value>
+                <fullName>Optima 4000</fullName>
+                <default>false</default>
+                <label>Optima 4000</label>
+            </value>
+            <value>
+                <fullName>Optima 5000</fullName>
+                <default>false</default>
+                <label>Optima 5000</label>
+            </value>
+            <value>
+                <fullName>Optima 7000</fullName>
+                <default>false</default>
+                <label>Optima 7000</label>
+            </value>
+            <value>
+                <fullName>Optima 8000 DV</fullName>
+                <default>false</default>
+                <label>Optima 8000 DV</label>
+            </value>
+            <value>
+                <fullName>AS-800</fullName>
+                <default>false</default>
+                <label>AS-800</label>
+            </value>
+            <value>
+                <fullName>AS-900</fullName>
+                <default>false</default>
+                <label>AS-900</label>
+            </value>
+            <value>
+                <fullName>ATD 400</fullName>
+                <default>false</default>
+                <label>ATD 400</label>
+            </value>
+            <value>
+                <fullName>Autosystem</fullName>
+                <default>false</default>
+                <label>Autosystem</label>
+            </value>
+            <value>
+                <fullName>ELAN DRCs</fullName>
+                <default>false</default>
+                <label>ELAN DRCs</label>
+            </value>
+            <value>
+                <fullName>Clarus 400</fullName>
+                <default>false</default>
+                <label>Clarus 400</label>
+            </value>
+            <value>
+                <fullName>Autosystem XL</fullName>
+                <default>false</default>
+                <label>Autosystem XL</label>
+            </value>
+            <value>
+                <fullName>Optima 4x00 DV</fullName>
+                <default>false</default>
+                <label>Optima 4x00 DV</label>
+            </value>
+            <value>
+                <fullName>Optima 2x00 DV</fullName>
+                <default>false</default>
+                <label>Optima 2x00 DV</label>
+            </value>
+            <value>
+                <fullName>Optima 5x00 DV</fullName>
+                <default>false</default>
+                <label>Optima 5x00 DV</label>
+            </value>
+            <value>
+                <fullName>Optima 7x00 DV</fullName>
+                <default>false</default>
+                <label>Optima 7x00 DV</label>
+            </value>
+            <value>
+                <fullName>Optima 8x00</fullName>
+                <default>false</default>
+                <label>Optima 8x00</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 650 ATD</fullName>
+                <default>false</default>
+                <label>TurboMatrix 650 ATD</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 150 ATD</fullName>
+                <default>false</default>
+                <label>TurboMatrix 150 ATD</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 100 TD</fullName>
+                <default>false</default>
+                <label>TurboMatrix 100 TD</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 300 TD</fullName>
+                <default>false</default>
+                <label>TurboMatrix 300 TD</label>
+            </value>
+            <value>
+                <fullName>Model STS 25</fullName>
+                <default>false</default>
+                <label>Model STS 25</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 350 ATD</fullName>
+                <default>false</default>
+                <label>TurboMatrix 350 ATD</label>
+            </value>
+            <value>
+                <fullName>4 DX-FAS Autosamplers</fullName>
+                <default>false</default>
+                <label>4 DX-FAS Autosamplers</label>
+            </value>
+            <value>
+                <fullName>PinAAcle 900T</fullName>
+                <default>false</default>
+                <label>PinAAcle 900T</label>
+            </value>
+            <value>
+                <fullName>PinAAcle 900H</fullName>
+                <default>false</default>
+                <label>PinAAcle 900H</label>
+            </value>
+            <value>
+                <fullName>PinAAcle 900Z</fullName>
+                <default>false</default>
+                <label>PinAAcle 900Z</label>
+            </value>
+            <value>
+                <fullName>Thermogravimetric Analyzer (TGA)</fullName>
+                <default>false</default>
+                <label>Thermogravimetric Analyzer (TGA)</label>
+            </value>
+            <value>
+                <fullName>TGA</fullName>
+                <default>false</default>
+                <label>TGA</label>
+            </value>
+            <value>
+                <fullName>S10</fullName>
+                <default>false</default>
+                <label>S10</label>
+            </value>
+            <value>
+                <fullName>AS-93plus</fullName>
+                <default>false</default>
+                <label>AS-93plus</label>
+            </value>
+            <value>
+                <fullName>ELAN 5000</fullName>
+                <default>false</default>
+                <label>ELAN 5000</label>
+            </value>
+            <value>
+                <fullName>Differential Scanning Calorimeter (DSC)</fullName>
+                <default>false</default>
+                <label>Differential Scanning Calorimeter (DSC)</label>
+            </value>
+            <value>
+                <fullName>DSC</fullName>
+                <default>false</default>
+                <label>DSC</label>
+            </value>
+            <value>
+                <fullName>90A Autosampler</fullName>
+                <default>false</default>
+                <label>90A Autosampler</label>
+            </value>
+            <value>
+                <fullName>90plus Autosampler</fullName>
+                <default>false</default>
+                <label>90plus Autosampler</label>
+            </value>
+            <value>
+                <fullName>AS-90 Autosampler</fullName>
+                <default>false</default>
+                <label>AS-90 Autosampler</label>
+            </value>
+            <value>
+                <fullName>91 Autosampler</fullName>
+                <default>false</default>
+                <label>91 Autosampler</label>
+            </value>
+            <value>
+                <fullName>93plus Autosampler</fullName>
+                <default>false</default>
+                <label>93plus Autosampler</label>
+            </value>
+            <value>
+                <fullName>Spectrum One NTS</fullName>
+                <default>false</default>
+                <label>Spectrum One NTS</label>
+            </value>
+            <value>
+                <fullName>Spectrum 65</fullName>
+                <default>false</default>
+                <label>Spectrum 65</label>
+            </value>
+            <value>
+                <fullName>Spectrum 400</fullName>
+                <default>false</default>
+                <label>Spectrum 400</label>
+            </value>
+            <value>
+                <fullName>Spectrum One</fullName>
+                <default>false</default>
+                <label>Spectrum One</label>
+            </value>
+            <value>
+                <fullName>Spectrum 100N</fullName>
+                <default>false</default>
+                <label>Spectrum 100N</label>
+            </value>
+            <value>
+                <fullName>Spectrum 100</fullName>
+                <default>false</default>
+                <label>Spectrum 100</label>
+            </value>
+            <value>
+                <fullName>Thermomechanical Analysis (TMA)</fullName>
+                <default>false</default>
+                <label>Thermomechanical Analysis (TMA)</label>
+            </value>
+            <value>
+                <fullName>Optima 3x00 DV</fullName>
+                <default>false</default>
+                <label>Optima 3x00 DV</label>
+            </value>
+            <value>
+                <fullName>Optima 5300 V</fullName>
+                <default>false</default>
+                <label>Optima 5300 V</label>
+            </value>
+            <value>
+                <fullName>Optima 7300 V</fullName>
+                <default>false</default>
+                <label>Optima 7300 V</label>
+            </value>
+            <value>
+                <fullName>Optima 4300 V</fullName>
+                <default>false</default>
+                <label>Optima 4300 V</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix Headspace 40</fullName>
+                <default>false</default>
+                <label>TurboMatrix Headspace 40</label>
+            </value>
+            <value>
+                <fullName>HP 6890</fullName>
+                <default>false</default>
+                <label>HP 6890</label>
+            </value>
+            <value>
+                <fullName>HP 7890</fullName>
+                <default>false</default>
+                <label>HP 7890</label>
+            </value>
+            <value>
+                <fullName>HP 5890</fullName>
+                <default>false</default>
+                <label>HP 5890</label>
+            </value>
+            <value>
+                <fullName>HP 6850</fullName>
+                <default>false</default>
+                <label>HP 6850</label>
+            </value>
+            <value>
+                <fullName>NGA Model 2203</fullName>
+                <default>false</default>
+                <label>NGA Model 2203</label>
+            </value>
+            <value>
+                <fullName>NGA Model 2003</fullName>
+                <default>false</default>
+                <label>NGA Model 2003</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 40 HS Trap</fullName>
+                <default>false</default>
+                <label>TurboMatrix 40 HS Trap</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix HS XL</fullName>
+                <default>false</default>
+                <label>TurboMatrix HS XL</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 110 HS</fullName>
+                <default>false</default>
+                <label>TurboMatrix 110 HS</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 110 HS Trap</fullName>
+                <default>false</default>
+                <label>TurboMatrix 110 HS Trap</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 16 HS</fullName>
+                <default>false</default>
+                <label>TurboMatrix 16 HS</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 40 HS</fullName>
+                <default>false</default>
+                <label>TurboMatrix 40 HS</label>
+            </value>
+            <value>
+                <fullName>Clarus SQ 8</fullName>
+                <default>false</default>
+                <label>Clarus SQ 8</label>
+            </value>
+            <value>
+                <fullName>PinAAcle 900F</fullName>
+                <default>false</default>
+                <label>PinAAcle 900F</label>
+            </value>
+            <value>
+                <fullName>Optima 7000 DV</fullName>
+                <default>false</default>
+                <label>Optima 7000 DV</label>
+            </value>
+            <value>
+                <fullName>Optima 8000</fullName>
+                <default>false</default>
+                <label>Optima 8000</label>
+            </value>
+            <value>
+                <fullName>Leybold SV40BI</fullName>
+                <default>false</default>
+                <label>Leybold SV40BI</label>
+            </value>
+            <value>
+                <fullName>ASX-1600</fullName>
+                <default>false</default>
+                <label>ASX-1600</label>
+            </value>
+            <value>
+                <fullName>ASX-260</fullName>
+                <default>false</default>
+                <label>ASX-260</label>
+            </value>
+            <value>
+                <fullName>XLR-8</fullName>
+                <default>false</default>
+                <label>XLR-8</label>
+            </value>
+            <value>
+                <fullName>ASX-520HS</fullName>
+                <default>false</default>
+                <label>ASX-520HS</label>
+            </value>
+            <value>
+                <fullName>ASX-1400</fullName>
+                <default>false</default>
+                <label>ASX-1400</label>
+            </value>
+            <value>
+                <fullName>ASX-280</fullName>
+                <default>false</default>
+                <label>ASX-280</label>
+            </value>
+            <value>
+                <fullName>ASX-520</fullName>
+                <default>false</default>
+                <label>ASX-520</label>
+            </value>
+            <value>
+                <fullName>ASX-560</fullName>
+                <default>false</default>
+                <label>ASX-560</label>
+            </value>
+            <value>
+                <fullName>XLR-860</fullName>
+                <default>false</default>
+                <label>XLR-860</label>
+            </value>
+            <value>
+                <fullName>EXR-8</fullName>
+                <default>false</default>
+                <label>EXR-8</label>
+            </value>
+            <value>
+                <fullName>Optima</fullName>
+                <default>false</default>
+                <label>Optima</label>
+            </value>
+            <value>
+                <fullName>APS-1650</fullName>
+                <default>false</default>
+                <label>APS-1650</label>
+            </value>
+            <value>
+                <fullName>Optima 5x00</fullName>
+                <default>false</default>
+                <label>Optima 5x00</label>
+            </value>
+            <value>
+                <fullName>Optima 4x00</fullName>
+                <default>false</default>
+                <label>Optima 4x00</label>
+            </value>
+            <value>
+                <fullName>Optima 2x00</fullName>
+                <default>false</default>
+                <label>Optima 2x00</label>
+            </value>
+            <value>
+                <fullName>Optima 7x00</fullName>
+                <default>false</default>
+                <label>Optima 7x00</label>
+            </value>
+            <value>
+                <fullName>Model 3110</fullName>
+                <default>false</default>
+                <label>Model 3110</label>
+            </value>
+            <value>
+                <fullName>Model 3100</fullName>
+                <default>false</default>
+                <label>Model 3100</label>
+            </value>
+            <value>
+                <fullName>Model 3300</fullName>
+                <default>false</default>
+                <label>Model 3300</label>
+            </value>
+            <value>
+                <fullName>Model 5100 PC</fullName>
+                <default>false</default>
+                <label>Model 5100 PC</label>
+            </value>
+            <value>
+                <fullName>AS-72</fullName>
+                <default>false</default>
+                <label>AS-72</label>
+            </value>
+            <value>
+                <fullName>AS-71</fullName>
+                <default>false</default>
+                <label>AS-71</label>
+            </value>
+            <value>
+                <fullName>DSC 6000</fullName>
+                <default>false</default>
+                <label>DSC 6000</label>
+            </value>
+            <value>
+                <fullName>DSC 8000</fullName>
+                <default>false</default>
+                <label>DSC 8000</label>
+            </value>
+            <value>
+                <fullName>Pyris 1 DSC</fullName>
+                <default>false</default>
+                <label>Pyris 1 DSC</label>
+            </value>
+            <value>
+                <fullName>Jade DSC</fullName>
+                <default>false</default>
+                <label>Jade DSC</label>
+            </value>
+            <value>
+                <fullName>DSC 4000</fullName>
+                <default>false</default>
+                <label>DSC 4000</label>
+            </value>
+            <value>
+                <fullName>Diamond DSC</fullName>
+                <default>false</default>
+                <label>Diamond DSC</label>
+            </value>
+            <value>
+                <fullName>DSC 6</fullName>
+                <default>false</default>
+                <label>DSC 6</label>
+            </value>
+            <value>
+                <fullName>DSC 8500</fullName>
+                <default>false</default>
+                <label>DSC 8500</label>
+            </value>
+            <value>
+                <fullName>Pyris 6 DSC</fullName>
+                <default>false</default>
+                <label>Pyris 6 DSC</label>
+            </value>
+            <value>
+                <fullName>DSC 7</fullName>
+                <default>false</default>
+                <label>DSC 7</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 40 Trap HS</fullName>
+                <default>false</default>
+                <label>TurboMatrix 40 Trap HS</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix 110 Trap HS</fullName>
+                <default>false</default>
+                <label>TurboMatrix 110 Trap HS</label>
+            </value>
+            <value>
+                <fullName>DMA</fullName>
+                <default>false</default>
+                <label>DMA</label>
+            </value>
+            <value>
+                <fullName>Polarimeters</fullName>
+                <default>false</default>
+                <label>Polarimeters</label>
+            </value>
+            <value>
+                <fullName>Solid Phase Extraction (SPE)</fullName>
+                <default>false</default>
+                <label>Solid Phase Extraction (SPE)</label>
+            </value>
+            <value>
+                <fullName>PinAAcle 900 F</fullName>
+                <default>false</default>
+                <label>PinAAcle 900 F</label>
+            </value>
+            <value>
+                <fullName>Titan MPS</fullName>
+                <default>false</default>
+                <label>Titan MPS</label>
+            </value>
+            <value>
+                <fullName>Quechers Dispersive SPE</fullName>
+                <default>false</default>
+                <label>Quechers Dispersive SPE</label>
+            </value>
+            <value>
+                <fullName>S20</fullName>
+                <default>false</default>
+                <label>S20</label>
+            </value>
+            <value>
+                <fullName>NexION</fullName>
+                <default>false</default>
+                <label>NexION</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

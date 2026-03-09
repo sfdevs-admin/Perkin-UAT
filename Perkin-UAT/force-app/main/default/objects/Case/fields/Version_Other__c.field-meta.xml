@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Version_Other__c</fullName>
+    <description>Requested by rich talbot - itsfdc 2081</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter the Version number for add-ins or secondary applications the customer is having an issue with.</inlineHelpText>
+    <label>Version Other</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

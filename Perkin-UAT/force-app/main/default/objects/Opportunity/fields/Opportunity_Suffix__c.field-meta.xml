@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Suffix__c</fullName>
+    <description>Users can enter free text to append at the end of an Opportunity so long as the total Opportunity Name is not longer than 120 characters</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter up to 20 characters to the end of the Opportunity name</inlineHelpText>
+    <label>Opportunity Suffix</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isChildOpp__c</fullName>
+    <description>If there is an originating Opportunity, then this Opp is a child Opportunity</description>
+    <formula>NOT(Isblank(Originating_Opportunity_INF__c ))</formula>
+    <inlineHelpText>If there is an originating Opportunity, then this Opp is a child Opportunity</inlineHelpText>
+    <label>isChildOpp</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

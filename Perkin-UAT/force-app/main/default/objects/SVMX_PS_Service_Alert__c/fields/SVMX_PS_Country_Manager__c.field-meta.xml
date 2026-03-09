@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Country_Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>For a complete list of Service Alert Service Leaders, select Custom Links &gt; Service Alert Specialists and Service Leaders below.</inlineHelpText>
+    <label>Service Leader</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Service_Alerts2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

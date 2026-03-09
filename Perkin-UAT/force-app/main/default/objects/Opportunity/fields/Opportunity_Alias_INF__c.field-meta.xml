@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Alias_INF__c</fullName>
+    <description>this field is auto popluated by P.FLOW node 04b for PKI Sales R.TYPE.
+INF still enters manually.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Standardized naming conventions: 
+INF: Account-Product-CloseDate Information
+PKI Sales: Account Short Name-Close Year-Contact Last Name-(Product Lines)</inlineHelpText>
+    <label>Opportunity Alias</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

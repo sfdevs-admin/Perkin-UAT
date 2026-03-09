@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_cannot_set_approved_status</fullName>
+    <active>true</active>
+    <description>Case Status cannot be set to Approved until the case goes through Approval Process</description>
+    <errorConditionFormula>AND(
+RecordType.Name  = &#39;Customer Care - Complaint&#39;
+,
+Is_Approved__c = FALSE
+,ISPICKVAL(  Status 
+,(&#39;Approved&#39;) 
+)
+)</errorConditionFormula>
+    <errorDisplayField>Case_Status__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_018: Case Status cannot be set to Approved until the case goes through Approval Process</errorMessage>
+</ValidationRule>

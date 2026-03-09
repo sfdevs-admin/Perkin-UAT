@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASLS_CIS_Territory_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ASLS CIS Territory</label>
+    <queue>ARQ_000400</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

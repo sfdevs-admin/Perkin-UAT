@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAQ_LSDX_CC_US_Instrument_Sales_Unasgd_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: LSDX CC US Instrument Sales Unasgd</label>
+    <queue>ARQ_000528</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

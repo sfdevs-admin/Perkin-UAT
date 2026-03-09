@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Formatted_Address_Type__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Formatted Address Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single Line</fullName>
+                <default>true</default>
+                <label>Single Line</label>
+            </value>
+            <value>
+                <fullName>Multi Line</fullName>
+                <default>false</default>
+                <label>Multi Line</label>
+            </value>
+            <value>
+                <fullName>HTML</fullName>
+                <default>false</default>
+                <label>HTML</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

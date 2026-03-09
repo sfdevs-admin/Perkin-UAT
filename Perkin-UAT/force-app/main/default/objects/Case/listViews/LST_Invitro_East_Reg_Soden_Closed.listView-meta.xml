@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Invitro_East_Reg_Soden_Closed</fullName>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>Sub_Type__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.LST_Support_Service</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>Field Service</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>Soden</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2012 6:00 AM</value>
+    </filters>
+    <label>LST - Invitro - East Reg- Soden-Closed</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000965</group>
+    </sharedTo>
+</ListView>

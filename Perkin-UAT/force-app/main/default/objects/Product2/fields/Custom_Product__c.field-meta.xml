@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Product__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to define if this product  is a custom product .Set by Boomi Integration. (Source: S-695575 / S-692506)</description>
+    <inlineHelpText>This field is used to define if this product  is a custom product .Set by Boomi Integration.</inlineHelpText>
+    <label>Custom Product</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Submitted_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>User that submitted request</description>
+    <inlineHelpText>User that submitted request</inlineHelpText>
+    <label>Submitted By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Record_Update_Requests</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

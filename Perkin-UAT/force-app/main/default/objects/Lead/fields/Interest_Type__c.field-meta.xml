@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interest_Type__c</fullName>
+    <label>Interest Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GS LE - Sanger</fullName>
+                <default>false</default>
+                <label>GS LE - Sanger</label>
+            </value>
+            <value>
+                <fullName>GS LE - NextGen</fullName>
+                <default>false</default>
+                <label>GS LE - NextGen</label>
+            </value>
+            <value>
+                <fullName>GL LE - Microarray</fullName>
+                <default>false</default>
+                <label>GL LE - Microarray</label>
+            </value>
+            <value>
+                <fullName>GS AE - Microarray</fullName>
+                <default>false</default>
+                <label>GS AE - Microarray</label>
+            </value>
+            <value>
+                <fullName>GS AE - Analysis Kit</fullName>
+                <default>false</default>
+                <label>GS AE - Analysis Kit</label>
+            </value>
+            <value>
+                <fullName>Channel Partner - End User</fullName>
+                <default>false</default>
+                <label>Channel Partner - End User</label>
+            </value>
+            <value>
+                <fullName>Support/Maintenance</fullName>
+                <default>false</default>
+                <label>Support/Maintenance</label>
+            </value>
+            <value>
+                <fullName>GeneSifter</fullName>
+                <default>false</default>
+                <label>GeneSifter</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

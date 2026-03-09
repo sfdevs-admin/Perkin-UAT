@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Informatics_ZOE_Marketing_Elements_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Informatics-ZOE Mrkt ELM ENote</label>
+    <queue>ARQ_000599</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

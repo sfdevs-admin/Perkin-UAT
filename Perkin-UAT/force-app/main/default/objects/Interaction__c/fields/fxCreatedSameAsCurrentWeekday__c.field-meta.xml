@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCreatedSameAsCurrentWeekday__c</fullName>
+    <description>This will identify if an Interaction created data is on the same calendar day of week as current system date. Used in Bell Notifications</description>
+    <formula>WEEKDAY(DATEVALUE(CreatedDate)) = WEEKDAY(TODAY())</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This will identify if an Interaction created data is on the same calendar day of week as current system date. Used in Bell Notifications</inlineHelpText>
+    <label>fxCreatedSameAsCurrentWeekday</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

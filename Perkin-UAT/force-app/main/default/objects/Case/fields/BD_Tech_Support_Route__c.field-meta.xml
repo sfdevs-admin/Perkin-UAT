@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Tech_Support_Route__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(SMAX_PS_IP_Business_Unit__c = &quot;DAS&quot;,
+CASE(SMAX_PS_IP_Product_Line__c, &quot;AM&quot;, &quot;DAS-FOODS&quot;, &quot;BIO&quot;, &quot;DAS-FOODS&quot;, &quot;CDI&quot;, &quot;DAS-FOODS&quot;, &quot;DAB&quot;, &quot;DAS-FOODS&quot;, &quot;DAO&quot;, &quot;DAS-FOODS&quot;, &quot;DCS&quot;, &quot;DAS-FOODS&quot;, &quot;DEL&quot;, &quot;DAS-FOODS&quot;, &quot;DL&quot;, &quot;DAS-FOODS&quot;, &quot;DLS&quot;, &quot;DAS-FOODS&quot;, &quot;DSS&quot;, &quot;DAS-FOODS&quot;, &quot;FN&quot;, &quot;DAS-FOODS&quot;, &quot;FTF&quot;, &quot;DAS-FOODS&quot;, &quot;GM&quot;, &quot;DAS-FOODS&quot;, &quot;IMF&quot;, &quot;DAS-FOODS&quot;, &quot;IMG&quot;, &quot;DAS-FOODS&quot;, &quot;LM&quot;, &quot;DAS-FOODS&quot;, &quot;PER&quot;, &quot;DAS-FOODS&quot;, &quot;PIV&quot;, &quot;DAS-FOODS&quot;, &quot;RVA&quot;, &quot;DAS-FOODS&quot;, &quot;SKC&quot;, &quot;DAS-FOODS&quot;, &quot;SSS&quot;, &quot;DAS-FOODS&quot;, &quot;TXV&quot;, &quot;DAS-FOODS&quot;, &quot;DAS&quot;),
+
+IF(SMAX_PS_IP_Business_Unit__c = &quot;DX&quot;,
+CASE(SMAX_PS_IP_Product_Line__c, &quot;MDX&quot;, &quot;DX-AG&quot;, &quot;NAP&quot;, &quot;DX-AG&quot;, &quot;CLH&quot;, &quot;DX-AG&quot;, &quot;MFT&quot;, &quot;DX-AG&quot;, &quot;SPS&quot;, &quot;DX-AG&quot;, &quot;NMO&quot;, &quot;DX-AG&quot;, &quot;MOX&quot;, &quot;DX-AG&quot;, &quot;AWS&quot;, &quot;DX-AG&quot;, &quot;ARS&quot;, &quot;DX-AG&quot;, &quot;APS&quot;, &quot;DX-AG&quot;, &quot;NEX&quot;, &quot;DX-AG&quot;, &quot;MSD&quot;, &quot;DX-AG&quot;, &quot;NEO&quot;, &quot;DX-RH&quot;, &quot;PRE&quot;, &quot;DX-RH&quot;, &quot;DIA&quot;, &quot;DX-RH&quot;, &quot;VR&quot;, &quot;DX-RH&quot;, &quot;SDO&quot;, &quot;DX-RH&quot;, &quot;CCM&quot;, &quot;DX-RH&quot;, &quot;DX&quot;), null))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Support Route</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

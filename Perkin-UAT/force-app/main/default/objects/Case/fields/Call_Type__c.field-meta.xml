@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Type__c</fullName>
+    <label>Call Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Live Phone</fullName>
+                <default>false</default>
+                <label>Live Phone</label>
+            </value>
+            <value>
+                <fullName>E-mail</fullName>
+                <default>false</default>
+                <label>E-mail</label>
+            </value>
+            <value>
+                <fullName>Voice mail</fullName>
+                <default>false</default>
+                <label>Voice mail</label>
+            </value>
+            <value>
+                <fullName>Remote Diagnostics&lt;br&gt;</fullName>
+                <default>false</default>
+                <label>Remote Diagnostics&lt;br&gt;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

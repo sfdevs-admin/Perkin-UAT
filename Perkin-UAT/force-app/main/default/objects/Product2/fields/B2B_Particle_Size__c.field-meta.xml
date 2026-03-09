@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Particle_Size__c</fullName>
+    <description>Used to select the particle size for products. Perk-75</description>
+    <label>Particle Size</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>10.0 µm</fullName>
+                <default>false</default>
+                <label>10.0 µm</label>
+            </value>
+            <value>
+                <fullName>3.0 µm</fullName>
+                <default>false</default>
+                <label>3.0 µm</label>
+            </value>
+            <value>
+                <fullName>5.0 µm</fullName>
+                <default>false</default>
+                <label>5.0 µm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

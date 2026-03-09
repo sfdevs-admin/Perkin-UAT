@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_editing_ExtraAttributes</fullName>
+    <active>true</active>
+    <description>fxUserExtraAttributes should only be edited by users with C.PERM_8100 so that there can be consistency across users</description>
+    <errorConditionFormula>AND(
+     NOT($Permission.C_PERM_8100_Edit_fxUserExtraAttributes)  
+  ,  ISCHANGED( fxUserExtraAttributes__c )
+    )</errorConditionFormula>
+    <errorDisplayField>fxUserExtraAttributes__c</errorDisplayField>
+    <errorMessage>V.RULE_USER_005: Editing Extra Attributes is only allowed by a dedicated team. Please see a GCE team member or submit a ticket for the SFDC IT Admin team.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CS_Website_User_Type_INF__c</fullName>
+    <label>CS Website User Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Registered User</fullName>
+                <default>false</default>
+                <label>Registered User</label>
+            </value>
+            <value>
+                <fullName>Harvest User</fullName>
+                <default>false</default>
+                <label>Harvest User</label>
+            </value>
+            <value>
+                <fullName>Store User</fullName>
+                <default>false</default>
+                <label>Store User</label>
+            </value>
+            <value>
+                <fullName>Partially Registered User</fullName>
+                <default>false</default>
+                <label>Partially Registered User</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

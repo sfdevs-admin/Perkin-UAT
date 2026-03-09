@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Owner_Change</fullName>
+    <active>false</active>
+    <description>We can only allow users to change owners to the same OBC tag. GCE team can adjust to other company if needed. TBD/Blank need to be done by GCE</description>
+    <errorConditionFormula>AND( NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+    ,NOT( $Permission.C_PERM_9610_Bulk_Transfer_Reassign_as_Any_User )
+    ,LEFT(OwnerId,3)=&#39;005&#39;
+    ,ISCHANGED(OwnerId) 
+    ,TEXT(Owner:User.Owned_by_Company__c)!= TEXT(PRIORVALUE(Owned_by_Company__c))
+    ,TEXT(PRIORVALUE(Owned_by_Company__c)) != &#39;TBD&#39;
+    ,TEXT(PRIORVALUE(Owned_by_Company__c))!= NULL
+  )</errorConditionFormula>
+    <errorMessage>V.RULE_CASE_048: The new case owner must be a QUEUE only that contains AES or LSDX in the label. To change to a specific user or TBD cases, please request a data steward to make the change.</errorMessage>
+</ValidationRule>

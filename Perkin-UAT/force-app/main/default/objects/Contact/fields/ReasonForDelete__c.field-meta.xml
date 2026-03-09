@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonForDelete__c</fullName>
+    <description>Uses a G.PICK 100 to allow users to provide a reason to delete. After it is reviewed by data stewards to actually delete or not. (ATEAm-1704)</description>
+    <inlineHelpText>Select a reason for deleting this record. Records will be reviewed by a data steward team and a decision will be made to delete or not.</inlineHelpText>
+    <label>Reason For Delete</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_100_Reasons_for_Delete</valueSetName>
+    </valueSet>
+</CustomField>

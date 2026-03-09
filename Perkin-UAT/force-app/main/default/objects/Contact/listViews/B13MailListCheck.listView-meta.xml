@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B13MailListCheck</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>AA_List__c</columns>
+    <columns>ICP_List__c</columns>
+    <columns>ICPMS_List__c</columns>
+    <columns>GC_List__c</columns>
+    <columns>LC_List__c</columns>
+    <columns>IR_List__c</columns>
+    <columns>UVS_List__c</columns>
+    <columns>TEA_List__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>No_longer_at_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>startsWith</operation>
+        <value>710,711,712</value>
+    </filters>
+    <label>B13 Mail List Check</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_001075</group>
+        <group>ARQ_001077</group>
+        <group>ARQ_001079</group>
+    </sharedTo>
+</ListView>

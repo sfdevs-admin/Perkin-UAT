@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apts_Currency__c</fullName>
+    <label>Currency</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Australian Dollar (AUD)</fullName>
+                <default>false</default>
+                <label>Australian Dollar (AUD)</label>
+            </value>
+            <value>
+                <fullName>Canadian Dollar (CAD)</fullName>
+                <default>false</default>
+                <label>Canadian Dollar (CAD)</label>
+            </value>
+            <value>
+                <fullName>Swiss Franc (CHF)</fullName>
+                <default>false</default>
+                <label>Swiss Franc (CHF)</label>
+            </value>
+            <value>
+                <fullName>Danish Krone (DKK)</fullName>
+                <default>false</default>
+                <label>Danish Krone (DKK)</label>
+            </value>
+            <value>
+                <fullName>Euro (EUR)</fullName>
+                <default>false</default>
+                <label>Euro (EUR)</label>
+            </value>
+            <value>
+                <fullName>British Pound (GBP)</fullName>
+                <default>false</default>
+                <label>British Pound (GBP)</label>
+            </value>
+            <value>
+                <fullName>Hong Kong Dollar (HKD)</fullName>
+                <default>false</default>
+                <label>Hong Kong Dollar (HKD)</label>
+            </value>
+            <value>
+                <fullName>Japanese Yen (JPY)</fullName>
+                <default>false</default>
+                <label>Japanese Yen (JPY)</label>
+            </value>
+            <value>
+                <fullName>Korean Won (KRW)</fullName>
+                <default>false</default>
+                <label>Korean Won (KRW)</label>
+            </value>
+            <value>
+                <fullName>Malaysian Ringgit (MYR)</fullName>
+                <default>false</default>
+                <label>Malaysian Ringgit (MYR)</label>
+            </value>
+            <value>
+                <fullName>Norwegian Krone (NOK)</fullName>
+                <default>false</default>
+                <label>Norwegian Krone (NOK)</label>
+            </value>
+            <value>
+                <fullName>Pilippine Peso (PJP)</fullName>
+                <default>false</default>
+                <label>Pilippine Peso (PJP)</label>
+            </value>
+            <value>
+                <fullName>Polish Zloty (PLN)</fullName>
+                <default>false</default>
+                <label>Polish Zloty (PLN)</label>
+            </value>
+            <value>
+                <fullName>Swedish Krona (SEK)</fullName>
+                <default>false</default>
+                <label>Swedish Krona (SEK)</label>
+            </value>
+            <value>
+                <fullName>Singapore Dollar (SGD)</fullName>
+                <default>false</default>
+                <label>Singapore Dollar (SGD)</label>
+            </value>
+            <value>
+                <fullName>Thai Baht (THB)</fullName>
+                <default>false</default>
+                <label>Thai Baht (THB)</label>
+            </value>
+            <value>
+                <fullName>Taiwan Dollar (TWD)</fullName>
+                <default>false</default>
+                <label>Taiwan Dollar (TWD)</label>
+            </value>
+            <value>
+                <fullName>South African Rand (ZAR)</fullName>
+                <default>false</default>
+                <label>South African Rand (ZAR)</label>
+            </value>
+            <value>
+                <fullName>United States Dollar (USD)</fullName>
+                <default>false</default>
+                <label>United States Dollar (USD)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

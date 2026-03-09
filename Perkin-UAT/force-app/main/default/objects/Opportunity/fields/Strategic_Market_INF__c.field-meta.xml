@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_Market_INF__c</fullName>
+    <label>Strategic Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Life Sciences Research</fullName>
+                <default>false</default>
+                <label>Life Sciences Research</label>
+            </value>
+            <value>
+                <fullName>Clinical &amp; Translational</fullName>
+                <default>false</default>
+                <label>Clinical &amp; Translational</label>
+            </value>
+            <value>
+                <fullName>Related Markets</fullName>
+                <default>false</default>
+                <label>Related Markets</label>
+            </value>
+            <value>
+                <fullName>Production Support</fullName>
+                <default>false</default>
+                <label>Production Support</label>
+            </value>
+            <value>
+                <fullName>Academic &amp; Government</fullName>
+                <default>false</default>
+                <label>Academic &amp; Government</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Applied Markets</fullName>
+                <default>false</default>
+                <label>Applied Markets</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

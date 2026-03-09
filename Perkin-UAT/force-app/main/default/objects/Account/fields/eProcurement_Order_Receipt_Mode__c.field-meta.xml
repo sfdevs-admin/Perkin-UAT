@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>eProcurement_Order_Receipt_Mode__c</fullName>
+    <label>eProcurement Order Receipt Mode</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automated</fullName>
+                <default>false</default>
+                <label>Automated</label>
+            </value>
+            <value>
+                <fullName>Non-Automated (Email/Fax/Paper)</fullName>
+                <default>false</default>
+                <label>Non-Automated (Email/Fax/Paper)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>Automated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>Non-Automated (Email/Fax/Paper)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

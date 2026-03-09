@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIOP_Product_List</fullName>
+    <columns>PRODUCT2.LAST_UPDATE</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>SIOP_Model__c</columns>
+    <columns>SIOPModelMaster__c</columns>
+    <columns>SIOP_Product_Group__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SIOP_Model__c</field>
+        <operation>notEqual</operation>
+        <value>NO SIOP</value>
+    </filters>
+    <filters>
+        <field>SIOP_Model__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>SIOP Product List</label>
+</ListView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_To__c</fullName>
+    <label>Assigned To</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dylan Fung</fullName>
+                <default>false</default>
+                <label>Dylan Fung</label>
+            </value>
+            <value>
+                <fullName>Daniel Ubilla</fullName>
+                <default>false</default>
+                <label>Daniel Ubilla</label>
+            </value>
+            <value>
+                <fullName>Emmanuel Escalante</fullName>
+                <default>false</default>
+                <label>Emmanuel Escalante</label>
+            </value>
+            <value>
+                <fullName>Demo Center</fullName>
+                <default>true</default>
+                <label>Demo Center</label>
+            </value>
+            <value>
+                <fullName>Edgardo Gutierrez</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Edgardo Gutierrez</label>
+            </value>
+            <value>
+                <fullName>Franklin Jimenez</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Franklin Jimenez</label>
+            </value>
+            <value>
+                <fullName>John Baker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>John Baker</label>
+            </value>
+            <value>
+                <fullName>Luis Diaz</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Luis Diaz</label>
+            </value>
+            <value>
+                <fullName>Stepan Churukanov</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stepan Churukanov</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

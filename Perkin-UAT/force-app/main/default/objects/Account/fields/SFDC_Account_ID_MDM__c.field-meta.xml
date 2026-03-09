@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFDC_Account_ID_MDM__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>for populating  Acct ID  18 - field updated  to Ext ID, Case Sens. &amp; NOT required per Brad approval 7/21/21
+ITSFDC-4909</description>
+    <externalId>true</externalId>
+    <label>SFDC Account ID MDM</label>
+    <length>18</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

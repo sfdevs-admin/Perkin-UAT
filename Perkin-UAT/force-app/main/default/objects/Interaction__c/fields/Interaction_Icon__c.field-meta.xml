@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interaction_Icon__c</fullName>
+    <description>S-692560/S-692561 - created as part of both the stories</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+CASE(Qualification_Status__c, 
+&quot;QL Hot&quot;, &quot;/resource/HotIndicatorFlame&quot;,
+&quot;QL Warm&quot;, &quot;/resource/WarmIndicatorFlame&quot;,
+&quot;Pre-QL&quot;, &quot;/resource/PreQLIndicatorFlame&quot;,
+&quot;&quot;)
+,&quot;&quot;, 25,25)</formula>
+    <inlineHelpText>The flame Indicates what type of Interaction it is. For Hot Interaction its RED Flame, Warm Interaction its YELLOW Flame and Pre-QL Interaction its BLUE Flame.</inlineHelpText>
+    <label>Interaction Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

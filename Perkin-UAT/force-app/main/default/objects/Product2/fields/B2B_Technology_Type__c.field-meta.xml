@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Technology_Type__c</fullName>
+    <description>Used to select technology type for products. Perk-75</description>
+    <label>Technology Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AA</fullName>
+                <default>false</default>
+                <label>AA</label>
+            </value>
+            <value>
+                <fullName>Autosampler</fullName>
+                <default>false</default>
+                <label>Autosampler</label>
+            </value>
+            <value>
+                <fullName>CAP injector</fullName>
+                <default>false</default>
+                <label>CAP injector</label>
+            </value>
+            <value>
+                <fullName>Chromatography</fullName>
+                <default>false</default>
+                <label>Chromatography</label>
+            </value>
+            <value>
+                <fullName>Falling Number</fullName>
+                <default>false</default>
+                <label>Falling Number</label>
+            </value>
+            <value>
+                <fullName>Gas Chromatography GC</fullName>
+                <default>false</default>
+                <label>Gas Chromatography GC</label>
+            </value>
+            <value>
+                <fullName>Gas Chromatography/Mass Spectrometry</fullName>
+                <default>false</default>
+                <label>Gas Chromatography/Mass Spectrometry</label>
+            </value>
+            <value>
+                <fullName>ICP-MS</fullName>
+                <default>false</default>
+                <label>ICP-MS</label>
+            </value>
+            <value>
+                <fullName>ICP-OES</fullName>
+                <default>false</default>
+                <label>ICP-OES</label>
+            </value>
+            <value>
+                <fullName>IR</fullName>
+                <default>false</default>
+                <label>IR</label>
+            </value>
+            <value>
+                <fullName>Liquid Chromatography LC</fullName>
+                <default>false</default>
+                <label>Liquid Chromatography LC</label>
+            </value>
+            <value>
+                <fullName>Multi-Quad ICP-MS for Cleanroom Applications</fullName>
+                <default>false</default>
+                <label>Multi-Quad ICP-MS for Cleanroom Applications</label>
+            </value>
+            <value>
+                <fullName>Multi-Quad ICP-MS for Non-Cleanroom Applications</fullName>
+                <default>false</default>
+                <label>Multi-Quad ICP-MS for Non-Cleanroom Applications</label>
+            </value>
+            <value>
+                <fullName>NIR</fullName>
+                <default>false</default>
+                <label>NIR</label>
+            </value>
+            <value>
+                <fullName>O-ring</fullName>
+                <default>false</default>
+                <label>O-ring</label>
+            </value>
+            <value>
+                <fullName>PSS injector</fullName>
+                <default>false</default>
+                <label>PSS injector</label>
+            </value>
+            <value>
+                <fullName>TEA</fullName>
+                <default>false</default>
+                <label>TEA</label>
+            </value>
+            <value>
+                <fullName>UV/VIS</fullName>
+                <default>false</default>
+                <label>UV/VIS</label>
+            </value>
+            <value>
+                <fullName>GC</fullName>
+                <default>false</default>
+                <label>GC</label>
+            </value>
+            <value>
+                <fullName>ICP</fullName>
+                <default>false</default>
+                <label>ICP</label>
+            </value>
+            <value>
+                <fullName>LC</fullName>
+                <default>false</default>
+                <label>LC</label>
+            </value>
+            <value>
+                <fullName>LCM</fullName>
+                <default>false</default>
+                <label>LCM</label>
+            </value>
+            <value>
+                <fullName>MAS</fullName>
+                <default>false</default>
+                <label>MAS</label>
+            </value>
+            <value>
+                <fullName>UVS</fullName>
+                <default>false</default>
+                <label>UVS</label>
+            </value>
+            <value>
+                <fullName>Sample Prep</fullName>
+                <default>false</default>
+                <label>Sample Prep</label>
+            </value>
+            <value>
+                <fullName>GC-MS</fullName>
+                <default>false</default>
+                <label>GC-MS</label>
+            </value>
+            <value>
+                <fullName>LC-MS</fullName>
+                <default>false</default>
+                <label>LC-MS</label>
+            </value>
+            <value>
+                <fullName>TGA</fullName>
+                <default>false</default>
+                <label>TGA</label>
+            </value>
+            <value>
+                <fullName>Process NIR</fullName>
+                <default>false</default>
+                <label>Process NIR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

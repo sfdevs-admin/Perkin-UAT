@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_Missing_Fields</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>fxMissingFieldsstageCurrent__c</columns>
+    <columns>fxMissingFieldsstageAll__c</columns>
+    <columns>fxStageNumber__c</columns>
+    <columns>StageNumber__c</columns>
+    <columns>fxStageNumberToAdvance__c</columns>
+    <columns>fxStageNameToAdvance__c</columns>
+    <columns>fxRecordTypeName__c</columns>
+    <columns>fxMissingFields_stage1__c</columns>
+    <columns>fxMissingFields_stage2__c</columns>
+    <columns>fxMissingFields_stage3__c</columns>
+    <columns>fxMissingFields_stage5__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxMissingFieldsstageAll__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.LAST_UPDATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>StageNumber__c</field>
+        <operation>notEqual</operation>
+        <value>9,0,8,7</value>
+    </filters>
+    <label>OPP: Missing Fields</label>
+    <sharedTo>
+        <group>ARQ_001007</group>
+    </sharedTo>
+</ListView>

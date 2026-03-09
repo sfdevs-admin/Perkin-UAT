@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Force_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This checkbox will be checked by a workflow rule to fire the entitlement trigger when the Entitlement becomes Active.</description>
+    <label>Force Trigger</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

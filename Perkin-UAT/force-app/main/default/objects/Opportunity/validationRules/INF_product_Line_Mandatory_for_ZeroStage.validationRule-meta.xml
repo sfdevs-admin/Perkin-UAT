@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_product_Line_Mandatory_for_ZeroStage</fullName>
+    <active>true</active>
+    <description>Modified 2022.01.13 BD to remove PKI RT, and set as INF Only</description>
+    <errorConditionFormula>AND(
+     ISCHANGED(OwnerId)
+    ,TEXT(StageName)=&#39;Zero Stage&#39;
+    ,ISBLANK(Product_Line_Name__c)
+    ,RecordType.Name = &#39;Informatics&#39;
+    ,NOT( $Permission.C_PERM_8020_Bypass_Opp_V_RULE )
+)</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_041: Please Enter Product Line Name for Stage Zero opportunities</errorMessage>
+</ValidationRule>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LATAM_Strategic_Acts_by_Cust_Base</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.NAME_LOCAL</columns>
+    <columns>PKI_SAP_Customer_Number__c</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>PKI_SAP_Customer_Base_Number_Formatted__c</columns>
+    <columns>Managed_Account_Type__c</columns>
+    <columns>Use_With_Opportunities__c</columns>
+    <columns>Opportunity_Info__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>fxPKICountryISOAlpha2__c</columns>
+    <columns>fxPKISubTerritory__c</columns>
+    <columns>fxPKITerritory__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>PKI_SAP_Industry_Key__c</columns>
+    <columns>Industry_Desc_1st_Level__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxPKIGlobalTerritory__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Customer</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Legal Entity</value>
+    </filters>
+    <filters>
+        <field>fxPKITerritory__c</field>
+        <operation>equals</operation>
+        <value>LATIN AMERICA</value>
+    </filters>
+    <filters>
+        <field>PKI_SAP_Customer_Base_Number_Formatted__c</field>
+        <operation>equals</operation>
+        <value>958659</value>
+    </filters>
+    <filters>
+        <field>fxSetMergeFlag__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>LATAM Strategic Acts - by Cust Base #</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIOPModelMaster__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the SIOP Model that is related to the Opportunity Line Item+Product SIOP Model. A P.FLOW will update this field on new/change OppLine Item Product</description>
+    <label>SIOP Model Master</label>
+    <referenceTo>SIOP_Model_Master__c</referenceTo>
+    <relationshipLabel>Opportunities</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

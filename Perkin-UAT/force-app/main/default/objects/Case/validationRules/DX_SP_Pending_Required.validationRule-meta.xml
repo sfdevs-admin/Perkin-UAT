@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_SP_Pending_Required</fullName>
+    <active>true</active>
+    <description>Fields required when DX SP is pending</description>
+    <errorConditionFormula>IF(AND(RecordTypeId=&#39;0123A000001GhBc&#39; /* DX Support */
+,NOT(PKI_GLB_Duplicate_Case__c)
+,OR(ISPICKVAL(Status,&#39;Resolved - Pending Follow-up&#39;)
+,NOT(ISNULL(DX_Resolution_Date__c )))
+,OR(ISPICKVAL(Product_Line__c,&#39;&#39;)
+,ISBLANK(DX_Resolution__c)))
+,true,false)</errorConditionFormula>
+    <errorDisplayField>DX_Resolution_Date__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_014: Product Line and Resolution fields are required</errorMessage>
+</ValidationRule>

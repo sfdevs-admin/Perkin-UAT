@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_Type__c</fullName>
+    <description>Used to decide if the SFDC LOg object record created are an Integration log type or Error/Exception log type</description>
+    <label>Log Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Error/Exception Log</fullName>
+                <default>false</default>
+                <label>Error/Exception Log</label>
+            </value>
+            <value>
+                <fullName>Integration Log</fullName>
+                <default>false</default>
+                <label>Integration Log</label>
+            </value>
+            <value>
+                <fullName>CPQ Logs</fullName>
+                <default>false</default>
+                <label>CPQ Logs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

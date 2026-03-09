@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_leads_owned_by_Marisol</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Global_Region__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Lead_Type_INF__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Informatics</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>calv,webm,Diana.Al</value>
+    </filters>
+    <label>INF leads owned by Marisol / Diana A</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Commentsto_CRC__c</fullName>
+    <description>Comments to customer care</description>
+    <inlineHelpText>Please put all necessary information to help expedite the replacement process, i.e. if full instrument or part of system replacement is requested; specific conditions on site; new contact person on customer side; etc</inlineHelpText>
+    <label>Comments to Customer Care</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

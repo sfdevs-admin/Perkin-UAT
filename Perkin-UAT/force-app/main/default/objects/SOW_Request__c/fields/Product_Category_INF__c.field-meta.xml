@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Category_INF__c</fullName>
+    <label>SOW Product Line</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analytics &amp; Visual - Clinical</fullName>
+                <default>false</default>
+                <label>Analytics &amp; Visual - Clinical</label>
+            </value>
+            <value>
+                <fullName>Analytics &amp; Visual - R&amp;D</fullName>
+                <default>false</default>
+                <label>Analytics &amp; Visual - R&amp;D</label>
+            </value>
+            <value>
+                <fullName>Attivio</fullName>
+                <default>false</default>
+                <label>Attivio</label>
+            </value>
+            <value>
+                <fullName>Desktop</fullName>
+                <default>false</default>
+                <label>Desktop</label>
+            </value>
+            <value>
+                <fullName>Elements</fullName>
+                <default>false</default>
+                <label>Elements</label>
+            </value>
+            <value>
+                <fullName>Enterprise R&amp;D</fullName>
+                <default>false</default>
+                <label>Enterprise R&amp;D</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>INF - Other</fullName>
+                <default>false</default>
+                <label>INF - Other</label>
+            </value>
+            <value>
+                <fullName>QA/QC</fullName>
+                <default>false</default>
+                <label>QA/QC</label>
+            </value>
+            <value>
+                <fullName>Signals</fullName>
+                <default>false</default>
+                <label>Signals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

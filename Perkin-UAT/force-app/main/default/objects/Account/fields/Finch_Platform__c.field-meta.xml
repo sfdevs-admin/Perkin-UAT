@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finch_Platform__c</fullName>
+    <label>Finch Platform</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>-- none --</fullName>
+                <default>false</default>
+                <label>-- none --</label>
+            </value>
+            <value>
+                <fullName>Finch (legacy customers)</fullName>
+                <default>false</default>
+                <label>Finch (legacy customers)</label>
+            </value>
+            <value>
+                <fullName>Finch Content Management Warehouse</fullName>
+                <default>false</default>
+                <label>Finch Content Management Warehouse</label>
+            </value>
+            <value>
+                <fullName>Finch LIMS</fullName>
+                <default>false</default>
+                <label>Finch LIMS</label>
+            </value>
+            <value>
+                <fullName>Finch LIMS with Integrated Analytics</fullName>
+                <default>false</default>
+                <label>Finch LIMS with Integrated Analytics</label>
+            </value>
+            <value>
+                <fullName>Finch eCommerce LIMS</fullName>
+                <default>false</default>
+                <label>Finch eCommerce LIMS</label>
+            </value>
+            <value>
+                <fullName>Finch for Genetic Testing</fullName>
+                <default>false</default>
+                <label>Finch for Genetic Testing</label>
+            </value>
+            <value>
+                <fullName>Finch for Clinical Trial Data Management</fullName>
+                <default>false</default>
+                <label>Finch for Clinical Trial Data Management</label>
+            </value>
+            <value>
+                <fullName>Finch for Bio-therapeutic Manufacturing</fullName>
+                <default>false</default>
+                <label>Finch for Bio-therapeutic Manufacturing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

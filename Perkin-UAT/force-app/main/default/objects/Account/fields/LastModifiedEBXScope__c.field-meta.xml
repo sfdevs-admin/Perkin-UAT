@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastModifiedEBXScope__c</fullName>
+    <description>These are fields that have been last modified that are also in scope for EBX fields being monitored.</description>
+    <inlineHelpText>This timestamp is when a field in EBX Scope was last modified.</inlineHelpText>
+    <label>LastModified_EBXScope</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

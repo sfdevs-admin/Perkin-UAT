@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interest_DNA__c</fullName>
+    <label>Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Customer Suppor</fullName>
+                <default>false</default>
+                <label>Customer Suppor</label>
+            </value>
+            <value>
+                <fullName>Educational Software</fullName>
+                <default>false</default>
+                <label>Educational Software</label>
+            </value>
+            <value>
+                <fullName>Finch Suite OnDemand</fullName>
+                <default>false</default>
+                <label>Finch Suite OnDemand</label>
+            </value>
+            <value>
+                <fullName>Finch Suite Products</fullName>
+                <default>false</default>
+                <label>Finch Suite Products</label>
+            </value>
+            <value>
+                <fullName>FinchTV</fullName>
+                <default>false</default>
+                <label>FinchTV</label>
+            </value>
+            <value>
+                <fullName>iFinch</fullName>
+                <default>false</default>
+                <label>iFinch</label>
+            </value>
+            <value>
+                <fullName>Next Gen Sequencing</fullName>
+                <default>false</default>
+                <label>Next Gen Sequencing</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>Product Training</fullName>
+                <default>false</default>
+                <label>Product Training</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

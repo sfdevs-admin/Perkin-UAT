@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Completed_Date__c</fullName>
+    <description>Date which the field person responsible for the bid response completed and returned it to Customer Care for final submission to the customer</description>
+    <label>Bid Response From Field Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

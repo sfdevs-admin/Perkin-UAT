@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used by the batch job &quot;BD_Batch_OrgLimitChecker&quot;. Defines what Org Limits to check and at what threshold to send an email alert. The Limit API names can be found here: https://developer.salesforce.com/docs/atlas.en-us.256.0.api_rest.meta/api_rest/resources_limits.htm</description>
+    <label>Org Limit Check</label>
+    <pluralLabel>Org Limit Checks</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Mandatory_Field_Required_LDR</fullName>
+    <active>true</active>
+    <description>lead conversion by an LDR rep before it is handed over to another rep by changing the opportunity owner all the required fields</description>
+    <errorConditionFormula>/*
+AND(
+    NOT($Permission.C_PERM_8020_Bypass_Opp_V_RULE)    
+  , DateValue(CreatedDate) &gt;= $Setup.CSET_9900__c.OppCutoverDate__c   
+  , fxRecordTypeName__c =&quot;PKI SPI Sales Process&quot;
+  , CONTAINS($User.fxUserAttributes__c,&quot;1000-LDR&quot;)
+  , IsChanged(OwnerId)
+  , OR(
+       TEXT(Solution_Area_of_Interest__c)=&quot;&quot;
+      ,TEXT(Type)=&quot;&quot;
+      ,FIND(&quot;Why:&quot;, Description)-FIND(&quot;What:&quot;, Description)&lt;=8
+      ,LEN(Description)-FIND(&quot;Why:&quot;, Description)&lt;=4
+      ,ISBLANK(Product_Line_Name__c)
+      )
+  )
+*/
+
+AND(
+    NOT($Permission.C_PERM_8020_Bypass_Opp_V_RULE)    
+  , DateValue(CreatedDate) &gt;= $Setup.CSET_9900__c.OppCutoverDate__c   
+  , fxRecordTypeName__c =&quot;PKI SPI Sales Process&quot;
+  , CONTAINS($User.fxUserAttributes__c,&quot;1000-LDR&quot;)
+  , IsChanged(OwnerId)
+  , OR(
+       TEXT(Solution_Area_of_Interest__c)=&quot;&quot;
+      ,TEXT(Type)=&quot;&quot;
+      ,ISBLANK(Product_Line_Name__c)
+      )
+  )</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_078: LDR Reps, please Complete Solution Area of Interest, Type, Product Line Names, and Description (What &amp; Why) before changing to a new owner.</errorMessage>
+</ValidationRule>

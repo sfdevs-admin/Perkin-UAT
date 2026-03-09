@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_is_required_for_grow</fullName>
+    <active>true</active>
+    <description>ITSFDC-</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Employee_Email__c))
+    , ISCHANGED(IsConverted) 
+    ,IsConverted=true
+    ,ISBLANK(ConvertedOpportunityId)
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_008: Opportunity required for GROW Lead Conversion</errorMessage>
+</ValidationRule>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JulianEndDate__c</fullName>
+    <externalId>false</externalId>
+    <formula>/* Count number of days between End Date &amp; January 1 1900 AD */
+(
+    (
+        End_Date__c
+        + 1
+    )
+    - (
+        DATE(
+            1900,
+            1,
+            1
+        )
+        - 1
+    )
+)
+/* Add number of days between noon January 1 4713 BC &amp; January 1 1900 AD. This results in a Julian End Date */
++ 2415018.5</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>JulianEndDate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

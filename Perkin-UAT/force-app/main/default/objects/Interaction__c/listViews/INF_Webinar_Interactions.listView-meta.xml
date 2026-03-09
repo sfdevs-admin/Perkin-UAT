@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Webinar_Interactions</fullName>
+    <columns>NAME</columns>
+    <columns>Campaign__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>Status__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>contains</operation>
+        <value>INF-SRP-2023-GLO-Webinar-3RD-DG-ZZ-BioITWebinar</value>
+    </filters>
+    <label>INF Webinar Interactions</label>
+</ListView>

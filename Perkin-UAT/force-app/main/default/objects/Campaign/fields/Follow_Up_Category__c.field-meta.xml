@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_Up_Category__c</fullName>
+    <description>Telemarketing Category - VoiceCentric</description>
+    <label>Follow Up Process</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AA - Agree to Appointment</fullName>
+                <default>false</default>
+                <label>AA - Agree to Appointment</label>
+            </value>
+            <value>
+                <fullName>Email - Send Email w/Fufillment</fullName>
+                <default>false</default>
+                <label>Email - Send Email w/Fufillment</label>
+            </value>
+            <value>
+                <fullName>General Inquiry - Other Product</fullName>
+                <default>false</default>
+                <label>General Inquiry - Other Product</label>
+            </value>
+            <value>
+                <fullName>Lit Fulfillment - Print</fullName>
+                <default>false</default>
+                <label>Lit Fulfillment - Print</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

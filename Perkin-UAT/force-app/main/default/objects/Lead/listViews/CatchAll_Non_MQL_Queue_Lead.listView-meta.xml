@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CatchAll_Non_MQL_Queue_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CatchAll Non MQL Queue</label>
+    <queue>ARQ_000384</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

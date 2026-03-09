@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limit_Owner_Name</fullName>
+    <active>false</active>
+    <description>this is used to ensure that the Lead is owned by a service user and not a single named user.</description>
+    <errorConditionFormula>$Permission.BD_Bypass_Automation != TRUE &amp;&amp; 
+NOT(CONTAINS(&quot;PerkinElmer Inc.,Eloqua Service Account&quot;, Owner:User.fxUserFullName__c))
+&amp;&amp; NOT(CONTAINS(&quot;Data Migration&quot;, Owner:User.fxUserFullName__c))</errorConditionFormula>
+    <errorMessage>V.RULE_LEAD_015: Leads should be owned by the service user called &quot;PerkinElmer Inc.&quot; (not a named user, since users own interactions instead)</errorMessage>
+</ValidationRule>

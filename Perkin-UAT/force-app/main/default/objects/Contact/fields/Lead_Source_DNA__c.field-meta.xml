@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_DNA__c</fullName>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Ad/Public Relations</fullName>
+                <default>false</default>
+                <label>Ad/Public Relations</label>
+            </value>
+            <value>
+                <fullName>Channel Partner - End User</fullName>
+                <default>false</default>
+                <label>Channel Partner - End User</label>
+            </value>
+            <value>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+                <label>Cold Call</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Download - FinchTV</fullName>
+                <default>false</default>
+                <label>Download - FinchTV</label>
+            </value>
+            <value>
+                <fullName>Email Inquiry</fullName>
+                <default>false</default>
+                <label>Email Inquiry</label>
+            </value>
+            <value>
+                <fullName>Email Response</fullName>
+                <default>false</default>
+                <label>Email Response</label>
+            </value>
+            <value>
+                <fullName>Existing Customer</fullName>
+                <default>false</default>
+                <label>Existing Customer</label>
+            </value>
+            <value>
+                <fullName>GeneSifter AE web download</fullName>
+                <default>false</default>
+                <label>GeneSifter AE web download</label>
+            </value>
+            <value>
+                <fullName>GeneSifter Trial Request</fullName>
+                <default>false</default>
+                <label>GeneSifter Trial Request</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Partner - Applied Biosystems</fullName>
+                <default>false</default>
+                <label>Partner - Applied Biosystems</label>
+            </value>
+            <value>
+                <fullName>Partner Opportunity</fullName>
+                <default>false</default>
+                <label>Partner Opportunity</label>
+            </value>
+            <value>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+                <label>Phone Inquiry</label>
+            </value>
+            <value>
+                <fullName>SEM - Google/Yahoo</fullName>
+                <default>false</default>
+                <label>SEM - Google/Yahoo</label>
+            </value>
+            <value>
+                <fullName>Trade Show - 454 User Conf Leads 9 08</fullName>
+                <default>false</default>
+                <label>Trade Show - 454 User Conf Leads 9 08</label>
+            </value>
+            <value>
+                <fullName>Trade Show - AACR 2009</fullName>
+                <default>false</default>
+                <label>Trade Show - AACR 2009</label>
+            </value>
+            <value>
+                <fullName>Trade Show - ABRF 2008 Salt Lake City</fullName>
+                <default>false</default>
+                <label>Trade Show - ABRF 2008 Salt Lake City</label>
+            </value>
+            <value>
+                <fullName>Trade Show - ABRF 2009 Memphis</fullName>
+                <default>false</default>
+                <label>Trade Show - ABRF 2009 Memphis</label>
+            </value>
+            <value>
+                <fullName>Trade Show - ABRF 2010 Sacramento</fullName>
+                <default>false</default>
+                <label>Trade Show - ABRF 2010 Sacramento</label>
+            </value>
+            <value>
+                <fullName>Trade Show - ABRF 2011 San Antonio</fullName>
+                <default>false</default>
+                <label>Trade Show - ABRF 2011 San Antonio</label>
+            </value>
+            <value>
+                <fullName>Trade Show - ASHG 2008</fullName>
+                <default>false</default>
+                <label>Trade Show - ASHG 2008</label>
+            </value>
+            <value>
+                <fullName>Trade Show - CHI SD 2009</fullName>
+                <default>false</default>
+                <label>Trade Show - CHI SD 2009</label>
+            </value>
+            <value>
+                <fullName>Trade Show - SOLiD User Group 10-08</fullName>
+                <default>false</default>
+                <label>Trade Show - SOLiD User Group 10-08</label>
+            </value>
+            <value>
+                <fullName>Trade Show – SOLiD User Group 10-09</fullName>
+                <default>false</default>
+                <label>Trade Show – SOLiD User Group 10-09</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Webinar - 2011-Mar - NGS Data Analysis</fullName>
+                <default>false</default>
+                <label>Webinar - 2011-Mar - NGS Data Analysis</label>
+            </value>
+            <value>
+                <fullName>Webinar - Channel - Aug2009 - Opened</fullName>
+                <default>false</default>
+                <label>Webinar - Channel - Aug2009 - Opened</label>
+            </value>
+            <value>
+                <fullName>Webinar - GEX Profiling - Aug2009</fullName>
+                <default>false</default>
+                <label>Webinar - GEX Profiling - Aug2009</label>
+            </value>
+            <value>
+                <fullName>Webinar - GSAE Partner Program - Aug2009</fullName>
+                <default>false</default>
+                <label>Webinar - GSAE Partner Program - Aug2009</label>
+            </value>
+            <value>
+                <fullName>Webinar - Illumina Solexa April 2008</fullName>
+                <default>false</default>
+                <label>Webinar - Illumina Solexa April 2008</label>
+            </value>
+            <value>
+                <fullName>Webinar - RNA-Seq June 30-2009</fullName>
+                <default>false</default>
+                <label>Webinar - RNA-Seq June 30-2009</label>
+            </value>
+            <value>
+                <fullName>Webinar - Sanger - 1/2009</fullName>
+                <default>false</default>
+                <label>Webinar - Sanger - 1/2009</label>
+            </value>
+            <value>
+                <fullName>Webinar - Seq. the Transcriptome - Sep09</fullName>
+                <default>false</default>
+                <label>Webinar - Seq. the Transcriptome - Sep09</label>
+            </value>
+            <value>
+                <fullName>Webinar - Small RNA - 309</fullName>
+                <default>false</default>
+                <label>Webinar - Small RNA - 309</label>
+            </value>
+            <value>
+                <fullName>Webinar - SOLiD 10-08</fullName>
+                <default>false</default>
+                <label>Webinar - SOLiD 10-08</label>
+            </value>
+            <value>
+                <fullName>Web - Request More Info</fullName>
+                <default>false</default>
+                <label>Web - Request More Info</label>
+            </value>
+            <value>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+                <label>Word of Mouth</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owned_By_Company__c</fullName>
+    <description>This identifies if the Price Book is used for one company or another</description>
+    <inlineHelpText>This identifies if the Price Book is used for one company or another</inlineHelpText>
+    <label>Owned By Company</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_050_Owned_by_Company</valueSetName>
+    </valueSet>
+</CustomField>

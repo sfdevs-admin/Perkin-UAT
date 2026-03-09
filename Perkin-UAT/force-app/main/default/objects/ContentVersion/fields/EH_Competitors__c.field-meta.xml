@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_Competitors__c</fullName>
+    <label>Competitors</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aeroqual</fullName>
+                <default>false</default>
+                <label>Aeroqual</label>
+            </value>
+            <value>
+                <fullName>Agilent Technologies</fullName>
+                <default>false</default>
+                <label>Agilent Technologies</label>
+            </value>
+            <value>
+                <fullName>AirQualityEgg</fullName>
+                <default>false</default>
+                <label>AirQualityEgg</label>
+            </value>
+            <value>
+                <fullName>Airsensa</fullName>
+                <default>false</default>
+                <label>Airsensa</label>
+            </value>
+            <value>
+                <fullName>Analytik Jena</fullName>
+                <default>false</default>
+                <label>Analytik Jena</label>
+            </value>
+            <value>
+                <fullName>Büchi</fullName>
+                <default>false</default>
+                <label>Büchi</label>
+            </value>
+            <value>
+                <fullName>Dionex Corp</fullName>
+                <default>false</default>
+                <label>Dionex Corp</label>
+            </value>
+            <value>
+                <fullName>Dustduino</fullName>
+                <default>false</default>
+                <label>Dustduino</label>
+            </value>
+            <value>
+                <fullName>Envirowatch</fullName>
+                <default>false</default>
+                <label>Envirowatch</label>
+            </value>
+            <value>
+                <fullName>Foss</fullName>
+                <default>false</default>
+                <label>Foss</label>
+            </value>
+            <value>
+                <fullName>GBC Scientific Equipment</fullName>
+                <default>false</default>
+                <label>GBC Scientific Equipment</label>
+            </value>
+            <value>
+                <fullName>Geotech</fullName>
+                <default>false</default>
+                <label>Geotech</label>
+            </value>
+            <value>
+                <fullName>Hitachi Instruments</fullName>
+                <default>false</default>
+                <label>Hitachi Instruments</label>
+            </value>
+            <value>
+                <fullName>Jasco</fullName>
+                <default>false</default>
+                <label>Jasco</label>
+            </value>
+            <value>
+                <fullName>LabTech</fullName>
+                <default>false</default>
+                <label>LabTech</label>
+            </value>
+            <value>
+                <fullName>Mettler-Toledo International</fullName>
+                <default>false</default>
+                <label>Mettler-Toledo International</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Nerds for nature</fullName>
+                <default>false</default>
+                <label>Nerds for nature</label>
+            </value>
+            <value>
+                <fullName>Netsch</fullName>
+                <default>false</default>
+                <label>Netsch</label>
+            </value>
+            <value>
+                <fullName>ReliaSens</fullName>
+                <default>false</default>
+                <label>ReliaSens</label>
+            </value>
+            <value>
+                <fullName>Shimadzu</fullName>
+                <default>false</default>
+                <label>Shimadzu</label>
+            </value>
+            <value>
+                <fullName>Spectro Analytical Instruments</fullName>
+                <default>false</default>
+                <label>Spectro Analytical Instruments</label>
+            </value>
+            <value>
+                <fullName>TA Instruments</fullName>
+                <default>false</default>
+                <label>TA Instruments</label>
+            </value>
+            <value>
+                <fullName>Thermo Fisher Scientific</fullName>
+                <default>false</default>
+                <label>Thermo Fisher Scientific</label>
+            </value>
+            <value>
+                <fullName>Varian</fullName>
+                <default>false</default>
+                <label>Varian</label>
+            </value>
+            <value>
+                <fullName>VWR International</fullName>
+                <default>false</default>
+                <label>VWR International</label>
+            </value>
+            <value>
+                <fullName>Waters Corporation</fullName>
+                <default>false</default>
+                <label>Waters Corporation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

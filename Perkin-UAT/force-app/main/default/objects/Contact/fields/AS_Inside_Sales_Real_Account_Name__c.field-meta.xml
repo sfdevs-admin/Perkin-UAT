@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AS_Inside_Sales_Real_Account_Name__c</fullName>
+    <inlineHelpText>Only used for contacts assigned to &#39;dummy&#39; accounts for future transfering of records.</inlineHelpText>
+    <label>AS Inside Sales Real Account Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

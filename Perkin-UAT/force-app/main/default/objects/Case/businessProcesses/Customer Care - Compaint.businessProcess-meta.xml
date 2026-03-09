@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer Care - Compaint</fullName>
+    <description>Support Process that Supports Customer Care - Compaint.  Initially Developed for ServiceMax Deployment.</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Approval Rejected</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Approval Required</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Assessment and Investigation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Complaint PKI Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Customer Informed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Resolution</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Sent to QMS</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

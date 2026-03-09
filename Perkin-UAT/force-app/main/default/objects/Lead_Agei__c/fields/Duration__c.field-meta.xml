@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration__c</fullName>
+    <description>Displays the number of hours that the Lead had the Previous Value for until the Activity occurred. For example, if the Activity was &quot;Value of Lead Status Changed&quot; and the Previous Value was &quot;Open&quot;, then the Duration could be 5 hours. Durations are rounded (up or down) to the nearest hour.</description>
+    <externalId>false</externalId>
+    <label>Duration</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

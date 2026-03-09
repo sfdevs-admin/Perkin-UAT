@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_SAP_Customer_Base_Number__c</fullName>
+    <description>SAP - KNA1/HKUNNR. HgLvCust. This is the raw hierarchy number with leading zeros</description>
+    <externalId>false</externalId>
+    <label>PKI SAP Customer Base Number</label>
+    <length>30</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

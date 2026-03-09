@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allocadia_Ids__c</fullName>
+    <description>This is a comma separated list of IDs from Allocadia integration that will be IDs of expenses related to a campaign.</description>
+    <inlineHelpText>Allocadia IDs sent over from an integration. You can use the id and manually lookup the related info within Allocadia</inlineHelpText>
+    <label>Allocadia Ids</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

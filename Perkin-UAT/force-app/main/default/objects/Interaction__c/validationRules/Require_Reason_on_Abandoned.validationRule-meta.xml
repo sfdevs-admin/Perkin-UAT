@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Reason_on_Abandoned</fullName>
+    <active>true</active>
+    <description>A reason is needed when abandoning</description>
+    <errorConditionFormula>AND( 
+   ISPICKVAL(ClosedStatus__c,&quot;Abandoned&quot;) 
+ , ISBLANK(TEXT( Rejected_Reason__c ))  
+
+)</errorConditionFormula>
+    <errorDisplayField>Rejected_Reason__c</errorDisplayField>
+    <errorMessage>V.RULE_INTERACTION_004:  Choose a reason why this is being changed to Abandoned</errorMessage>
+</ValidationRule>

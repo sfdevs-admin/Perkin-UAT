@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>War_Room_INF__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this box if focus of War Room tracking:
+Renamed as per request to Must Win</description>
+    <inlineHelpText>Check if focus of War Room tracking:
+Must Win</inlineHelpText>
+    <label>Must Win</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

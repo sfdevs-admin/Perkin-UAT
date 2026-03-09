@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_MDM_All_Caribbean_Accounts</fullName>
+    <columns>BD_Record_Type_formula__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Global_Ultimate_DUNS__c</columns>
+    <columns>DUNS__c</columns>
+    <columns>Cluster_ID__c</columns>
+    <columns>Use_With_Opportunities__c</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>PKI_Global_Region__c</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>SIC_DESC</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>US,USA</value>
+    </filters>
+    <filters>
+        <field>Global_Ultimate_DUNS__c</field>
+        <operation>equals</operation>
+        <value>989046313</value>
+    </filters>
+    <label>MDM - ALL US Accounts</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

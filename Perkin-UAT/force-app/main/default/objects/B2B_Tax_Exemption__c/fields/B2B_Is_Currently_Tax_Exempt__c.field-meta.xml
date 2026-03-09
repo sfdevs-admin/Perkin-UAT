@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Is_Currently_Tax_Exempt__c</fullName>
+    <description>Formula to Check if the Date lies between the Effective date and Expiration Date</description>
+    <formula>AND(
+  NOT(ISBLANK(B2B_Exemption_Code__c)),
+  TODAY() &gt;= B2B_Effective_Date__c,
+  TODAY() &lt;= B2B_Expiration_Date__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Currently Tax Exempt?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

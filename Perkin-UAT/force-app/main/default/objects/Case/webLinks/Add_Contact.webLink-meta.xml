@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Contact</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Add Contact</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/support/console/33.0/integration.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/22.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/22.0/apex.js&quot; )} 
+
+if (typeof(srcUp) == &#39;function&#39;) { 
+console.log(&quot;sforce: %o&quot;, sforce); 
+sforce.console.getEnclosingPrimaryTabId(function(response) { 
+var primaryTabId = response.id; 
+console.log(&quot;primaryTabId: %o&quot;, primaryTabId); 
+var connection = sforce.connection; 
+sforce.connection.sessionId = &#39;{!$Api.Session_ID}&#39;; 
+var url = &quot;/003/e&quot;; 
+var isActive = true; 
+var tabLabel = &#39;Contact&#39;; 
+var subtabId = null; 
+sforce.console.openSubtab( 
+primaryTabId, url, isActive, tabLabel, subtabId); 
+}); 
+} 
+else{ 
+window.open(&#39;/003/e&#39;); 
+}</url>
+</WebLink>

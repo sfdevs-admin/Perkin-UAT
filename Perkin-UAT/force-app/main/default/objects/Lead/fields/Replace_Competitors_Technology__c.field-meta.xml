@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Replace_Competitors_Technology__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Added to support fields added to Service lead form for EH, LST and INF. CHG0030726</description>
+    <label>Replace Competitors Technology</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

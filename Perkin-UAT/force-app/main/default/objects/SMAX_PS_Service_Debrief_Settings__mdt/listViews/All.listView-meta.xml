@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>DeveloperName</columns>
+    <columns>SMAX_PS_OwnedByCompany__c</columns>
+    <columns>SMAX_PS_Enable_Additional_LaborTravel__c</columns>
+    <columns>SMAX_PS_Enable_Shared_Parts__c</columns>
+    <columns>SMAX_PS_Shared_Location_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

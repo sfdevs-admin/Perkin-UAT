@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Case__c</columns>
+    <columns>INF_Support_Sat_No__c</columns>
+    <columns>INF_Support_Sat_Yes__c</columns>
+    <columns>INF_Recently_Created_Survey__c</columns>
+    <columns>INF_Support_Sat_Bin__c</columns>
+    <columns>INF_Support_sat_Comments__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

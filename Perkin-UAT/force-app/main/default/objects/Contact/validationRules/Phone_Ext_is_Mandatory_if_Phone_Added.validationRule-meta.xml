@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Ext_is_Mandatory_if_Phone_Added</fullName>
+    <active>true</active>
+    <description>Phone Ext is Mandatory if Phone Added</description>
+    <errorConditionFormula>AND(
+    $RecordType.Id &lt;&gt; &quot;012bf000002etUUAAY&quot;,
+    OR(
+        AND(
+            NOT(ISBLANK(Phone)),
+            ISBLANK(TRIM(Phone_Ext__c))
+        ),
+        AND(
+            NOT(ISBLANK(TRIM(Phone_Ext__c))),
+            OR(
+                LEN(TRIM(Phone_Ext__c)) &gt; 4,
+                NOT(REGEX(TRIM(Phone_Ext__c), &quot;^\\+[0-9]{1,3}$&quot;))
+            )
+        )
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Phone_Ext__c</errorDisplayField>
+    <errorMessage>Phone Extension is required when Phone is populated and must start with &quot;+&quot; followed by 1–3 digits (max 4 characters total).</errorMessage>
+</ValidationRule>

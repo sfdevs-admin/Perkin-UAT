@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Software_Planner_Cases_Akron</fullName>
+    <columns>Legacy_Case_ID__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Dx_Software_Services</value>
+    </filters>
+    <filters>
+        <field>Legacy_Case_ID__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Active,Closed</value>
+    </filters>
+    <filters>
+        <field>External_Email_Inbox__c</field>
+        <operation>equals</operation>
+        <value>Specimen.Gate.Support@perkinelmer.com,Specimen.Gate.Support@revvity.com</value>
+    </filters>
+    <label>Software Services Akron SP Cases</label>
+    <sharedTo>
+        <group>ARQ_000792</group>
+    </sharedTo>
+</ListView>

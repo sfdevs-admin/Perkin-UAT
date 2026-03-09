@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SolutionsAreaofInterest__c</fullName>
+    <defaultValue>&quot;#ALL&quot;</defaultValue>
+    <description>This is the areas of interest in Eloqua and may need to be updated over time.</description>
+    <inlineHelpText>Select one or more Areas of Interest for this Interaction.</inlineHelpText>
+    <label>Solutions Area of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_410_Solution_Area_of_Interest</valueSetName>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

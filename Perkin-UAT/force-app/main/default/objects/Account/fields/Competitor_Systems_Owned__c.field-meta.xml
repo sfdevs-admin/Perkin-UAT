@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_Systems_Owned__c</fullName>
+    <description>Formerly Visen_Competitor_Systems_Owned, re-purposing field. Merged CRI, Caliper, Xenogen, etc. into _PKI Pre-Acquisition field</description>
+    <inlineHelpText>Select appropriate system(s) owned by this account. Created for In Vivo.</inlineHelpText>
+    <label>Competitor Systems Owned</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>_PKI-Pre Acquisition Purchase</fullName>
+                <default>false</default>
+                <label>_PKI-Pre Acquisition Purchase</label>
+            </value>
+            <value>
+                <fullName>Ailgent Technologies</fullName>
+                <default>false</default>
+                <label>Ailgent Technologies</label>
+            </value>
+            <value>
+                <fullName>Analytik Jena</fullName>
+                <default>false</default>
+                <label>Analytik Jena</label>
+            </value>
+            <value>
+                <fullName>ART/GE</fullName>
+                <default>false</default>
+                <label>ART/GE</label>
+            </value>
+            <value>
+                <fullName>Berthold</fullName>
+                <default>false</default>
+                <label>Berthold</label>
+            </value>
+            <value>
+                <fullName>Bioluminescence</fullName>
+                <default>false</default>
+                <label>Bioluminescence</label>
+            </value>
+            <value>
+                <fullName>Bioscan- BioFLECT</fullName>
+                <default>false</default>
+                <label>Bioscan- BioFLECT</label>
+            </value>
+            <value>
+                <fullName>Biospace</fullName>
+                <default>false</default>
+                <label>Biospace</label>
+            </value>
+            <value>
+                <fullName>Bruker Albira</fullName>
+                <default>false</default>
+                <label>Bruker Albira</label>
+            </value>
+            <value>
+                <fullName>Bruker FXPro</fullName>
+                <default>false</default>
+                <label>Bruker FXPro</label>
+            </value>
+            <value>
+                <fullName>Bruker Icon uMRI</fullName>
+                <default>false</default>
+                <label>Bruker Icon uMRI</label>
+            </value>
+            <value>
+                <fullName>Bruker Skyscan uCT</fullName>
+                <default>false</default>
+                <label>Bruker Skyscan uCT</label>
+            </value>
+            <value>
+                <fullName>Bruker Xtreme</fullName>
+                <default>false</default>
+                <label>Bruker Xtreme</label>
+            </value>
+            <value>
+                <fullName>CareStream</fullName>
+                <default>false</default>
+                <label>CareStream</label>
+            </value>
+            <value>
+                <fullName>Confocal Microscope</fullName>
+                <default>false</default>
+                <label>Confocal Microscope</label>
+            </value>
+            <value>
+                <fullName>Endra</fullName>
+                <default>false</default>
+                <label>Endra</label>
+            </value>
+            <value>
+                <fullName>Fluoptics</fullName>
+                <default>false</default>
+                <label>Fluoptics</label>
+            </value>
+            <value>
+                <fullName>Hamamatsu</fullName>
+                <default>false</default>
+                <label>Hamamatsu</label>
+            </value>
+            <value>
+                <fullName>IThera</fullName>
+                <default>false</default>
+                <label>IThera</label>
+            </value>
+            <value>
+                <fullName>Kodak</fullName>
+                <default>false</default>
+                <label>Kodak</label>
+            </value>
+            <value>
+                <fullName>Licor</fullName>
+                <default>false</default>
+                <label>Licor</label>
+            </value>
+            <value>
+                <fullName>Mediso</fullName>
+                <default>false</default>
+                <label>Mediso</label>
+            </value>
+            <value>
+                <fullName>MiLabs</fullName>
+                <default>false</default>
+                <label>MiLabs</label>
+            </value>
+            <value>
+                <fullName>MRI</fullName>
+                <default>false</default>
+                <label>MRI</label>
+            </value>
+            <value>
+                <fullName>MRSolutions</fullName>
+                <default>false</default>
+                <label>MRSolutions</label>
+            </value>
+            <value>
+                <fullName>Olympus</fullName>
+                <default>false</default>
+                <label>Olympus</label>
+            </value>
+            <value>
+                <fullName>Olympus OV100</fullName>
+                <default>false</default>
+                <label>Olympus OV100</label>
+            </value>
+            <value>
+                <fullName>RSD2 uMRI</fullName>
+                <default>false</default>
+                <label>RSD2 uMRI</label>
+            </value>
+            <value>
+                <fullName>Scanco uCT</fullName>
+                <default>false</default>
+                <label>Scanco uCT</label>
+            </value>
+            <value>
+                <fullName>Shimadzu</fullName>
+                <default>false</default>
+                <label>Shimadzu</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>Spectral Instruments Lago</fullName>
+                <default>false</default>
+                <label>Spectral Instruments Lago</label>
+            </value>
+            <value>
+                <fullName>Thermo Scientific</fullName>
+                <default>false</default>
+                <label>Thermo Scientific</label>
+            </value>
+            <value>
+                <fullName>UVP</fullName>
+                <default>false</default>
+                <label>UVP</label>
+            </value>
+            <value>
+                <fullName>Varian Inc</fullName>
+                <default>false</default>
+                <label>Varian Inc</label>
+            </value>
+            <value>
+                <fullName>VisualSonics US</fullName>
+                <default>false</default>
+                <label>VisualSonics US</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

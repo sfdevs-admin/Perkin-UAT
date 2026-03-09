@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DegreeUrgencyNum__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(ispickval( Degree_of_Urgency__c,&quot;High. Prospect must buy this month&quot;),30,if(ispickval( Degree_of_Urgency__c,&quot;Medium. Prospect will likely buy this month&quot;),20,if(ispickval( Degree_of_Urgency__c,&quot;Low. Prospect may decide to buy now&quot;),10,if(ispickval( Degree_of_Urgency__c,&quot;No sense of urgency to buy now&quot;),0,0))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DegreeUrgencyNum</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

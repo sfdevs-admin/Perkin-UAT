@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Editing</fullName>
+    <active>false</active>
+    <description>Uses a C.PERM and P.SET 9100 to restrict editing by &quot;Modify All Data&quot; users.</description>
+    <errorConditionFormula>NOT($Permission.C_PERM_9100_Edit_Orders)
+&amp;&amp;
+
+ ischanged(   Add_RR__c )</errorConditionFormula>
+    <errorMessage>V.RULE_ORDER_SUMMARY_001: Only Boomi Integration user can edit records</errorMessage>
+</ValidationRule>

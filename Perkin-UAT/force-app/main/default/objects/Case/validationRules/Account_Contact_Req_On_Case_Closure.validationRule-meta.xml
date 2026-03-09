@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Contact_Req_On_Case_Closure</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT($Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE)
+   ,OR( AccountId = null
+       ,ContactId =null
+      )
+   ,TEXT(Status) =&#39;Closed&#39;
+   ,BD_Record_Type_formula__c = &#39;Customer Care - General&#39;
+   ,TEXT(Origin) != &#39;Web&#39;
+    )</errorConditionFormula>
+    <errorMessage>V.RULE_CASE_049: Account and Contact are required on case closure.</errorMessage>
+</ValidationRule>

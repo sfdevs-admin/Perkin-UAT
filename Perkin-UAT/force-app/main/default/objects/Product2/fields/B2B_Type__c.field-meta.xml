@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Type__c</fullName>
+    <description>Used to select type for products. Perk-75</description>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Certified</fullName>
+                <default>false</default>
+                <label>Certified</label>
+            </value>
+            <value>
+                <fullName>HS 16</fullName>
+                <default>false</default>
+                <label>HS 16</label>
+            </value>
+            <value>
+                <fullName>Model 1115</fullName>
+                <default>false</default>
+                <label>Model 1115</label>
+            </value>
+            <value>
+                <fullName>Model 1116</fullName>
+                <default>false</default>
+                <label>Model 1116</label>
+            </value>
+            <value>
+                <fullName>Model 1117</fullName>
+                <default>false</default>
+                <label>Model 1117</label>
+            </value>
+            <value>
+                <fullName>Model 4087</fullName>
+                <default>false</default>
+                <label>Model 4087</label>
+            </value>
+            <value>
+                <fullName>MS Certified</fullName>
+                <default>false</default>
+                <label>MS Certified</label>
+            </value>
+            <value>
+                <fullName>Sample Preparation Block</fullName>
+                <default>false</default>
+                <label>Sample Preparation Block</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

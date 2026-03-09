@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_F1comp_num_mand_sent_to_QMS</fullName>
+    <active>true</active>
+    <description>If the case is moved to QMS, the F1 Complaint Number is mandatory</description>
+    <errorConditionFormula>AND(
+$Permission.BD_Bypass_Automation != TRUE 
+,RecordType.Name = &#39;Customer Care - Complaint&#39;
+,ISBLANK(F1_Complaint_Number__c )
+,OR(ISPICKVAL(Status, &#39;Sent to QMS&#39;)  
+)
+)</errorConditionFormula>
+    <errorDisplayField>DX_Complaint_Details__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_024: An F1 Complaint Number is required for a Case to be set to the status of Sent to QMS</errorMessage>
+</ValidationRule>

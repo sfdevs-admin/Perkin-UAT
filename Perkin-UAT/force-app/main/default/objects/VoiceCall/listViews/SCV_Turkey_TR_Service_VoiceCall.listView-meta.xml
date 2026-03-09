@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_Turkey_TR_Service_VoiceCall</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SCV Turkey TR Service</label>
+    <queue>SCV_Turkey_TR_Service</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

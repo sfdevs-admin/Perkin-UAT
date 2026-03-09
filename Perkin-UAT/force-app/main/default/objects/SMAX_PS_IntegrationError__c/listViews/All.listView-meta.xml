@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_WorkDetail__c</columns>
+    <columns>SMAX_PS_ErrorMessage__c</columns>
+    <columns>SMAX_PS_RelatedElementType__c</columns>
+    <columns>SMAX_PS_RelatedElementIdentifier__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMAX_PS_Case__c</field>
+        <operation>equals</operation>
+        <value>04419944</value>
+    </filters>
+    <label>All</label>
+</ListView>

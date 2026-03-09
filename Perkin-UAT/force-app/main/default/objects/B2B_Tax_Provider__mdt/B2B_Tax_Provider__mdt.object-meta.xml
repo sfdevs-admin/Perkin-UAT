@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to store the details of tax providers.  PERK-69</description>
+    <label>B2B Tax Provider</label>
+    <pluralLabel>B2B Tax Providers</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

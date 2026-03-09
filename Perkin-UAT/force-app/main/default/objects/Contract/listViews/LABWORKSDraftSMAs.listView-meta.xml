@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LABWORKSDraftSMAs</fullName>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>CONTRACT.NAME</columns>
+    <columns>OnSupport__c</columns>
+    <columns>CONTRACT.END_DATE</columns>
+    <columns>Plan_Type__c</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTRACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contract.LABWORKSSMA</value>
+    </filters>
+    <filters>
+        <field>CONTRACT.STATUS</field>
+        <operation>equals</operation>
+        <value>Draft</value>
+    </filters>
+    <label>LABWORKS - Draft SMAs</label>
+    <language>en_US</language>
+</ListView>

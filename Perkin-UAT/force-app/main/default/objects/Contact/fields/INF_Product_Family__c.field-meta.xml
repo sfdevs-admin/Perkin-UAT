@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Product_Family__c</fullName>
+    <description>This is the product family that will get carried over from the lead</description>
+    <label>INF Product Family</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset Genius</fullName>
+                <default>false</default>
+                <label>Asset Genius</label>
+            </value>
+            <value>
+                <fullName>Bioanalytical Module</fullName>
+                <default>false</default>
+                <label>Bioanalytical Module</label>
+            </value>
+            <value>
+                <fullName>Calibration</fullName>
+                <default>false</default>
+                <label>Calibration</label>
+            </value>
+            <value>
+                <fullName>ChemACX</fullName>
+                <default>false</default>
+                <label>ChemACX</label>
+            </value>
+            <value>
+                <fullName>ChemBio3D</fullName>
+                <default>false</default>
+                <label>ChemBio3D</label>
+            </value>
+            <value>
+                <fullName>ChemBioDraw</fullName>
+                <default>false</default>
+                <label>ChemBioDraw</label>
+            </value>
+            <value>
+                <fullName>ChemBioOffice</fullName>
+                <default>false</default>
+                <label>ChemBioOffice</label>
+            </value>
+            <value>
+                <fullName>ChemBioOffice Enterprise</fullName>
+                <default>false</default>
+                <label>ChemBioOffice Enterprise</label>
+            </value>
+            <value>
+                <fullName>ChemBioViz</fullName>
+                <default>false</default>
+                <label>ChemBioViz</label>
+            </value>
+            <value>
+                <fullName>ChemDraw</fullName>
+                <default>false</default>
+                <label>ChemDraw</label>
+            </value>
+            <value>
+                <fullName>ChemDraw ActiveX/Plugin</fullName>
+                <default>false</default>
+                <label>ChemDraw ActiveX/Plugin</label>
+            </value>
+            <value>
+                <fullName>ChemOffice</fullName>
+                <default>false</default>
+                <label>ChemOffice</label>
+            </value>
+            <value>
+                <fullName>ChemScript</fullName>
+                <default>false</default>
+                <label>ChemScript</label>
+            </value>
+            <value>
+                <fullName>Collect</fullName>
+                <default>false</default>
+                <label>Collect</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Connector for SAP</fullName>
+                <default>false</default>
+                <label>Connector for SAP</label>
+            </value>
+            <value>
+                <fullName>Connectors</fullName>
+                <default>false</default>
+                <label>Connectors</label>
+            </value>
+            <value>
+                <fullName>Elements</fullName>
+                <default>false</default>
+                <label>Elements</label>
+            </value>
+            <value>
+                <fullName>Email Incident</fullName>
+                <default>false</default>
+                <label>Email Incident</label>
+            </value>
+            <value>
+                <fullName>E-Notebook</fullName>
+                <default>false</default>
+                <label>E-Notebook</label>
+            </value>
+            <value>
+                <fullName>E-Notebook Enterprise</fullName>
+                <default>false</default>
+                <label>E-Notebook Enterprise</label>
+            </value>
+            <value>
+                <fullName>E-Notebook for Biology</fullName>
+                <default>false</default>
+                <label>E-Notebook for Biology</label>
+            </value>
+            <value>
+                <fullName>E-Notebook for Chemistry</fullName>
+                <default>false</default>
+                <label>E-Notebook for Chemistry</label>
+            </value>
+            <value>
+                <fullName>E-Notebook for Formulations</fullName>
+                <default>false</default>
+                <label>E-Notebook for Formulations</label>
+            </value>
+            <value>
+                <fullName>Formulation and Analytical / LIMS</fullName>
+                <default>false</default>
+                <label>Formulation and Analytical / LIMS</label>
+            </value>
+            <value>
+                <fullName>GAMESS</fullName>
+                <default>false</default>
+                <label>GAMESS</label>
+            </value>
+            <value>
+                <fullName>Gaussian</fullName>
+                <default>false</default>
+                <label>Gaussian</label>
+            </value>
+            <value>
+                <fullName>Gaussian Utilities</fullName>
+                <default>false</default>
+                <label>Gaussian Utilities</label>
+            </value>
+            <value>
+                <fullName>GaussView</fullName>
+                <default>false</default>
+                <label>GaussView</label>
+            </value>
+            <value>
+                <fullName>GeneSifter</fullName>
+                <default>false</default>
+                <label>GeneSifter</label>
+            </value>
+            <value>
+                <fullName>iLab LES</fullName>
+                <default>false</default>
+                <label>iLab LES</label>
+            </value>
+            <value>
+                <fullName>iLAB Pro</fullName>
+                <default>false</default>
+                <label>iLAB Pro</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Inventory Management</fullName>
+                <default>false</default>
+                <label>Inventory Management</label>
+            </value>
+            <value>
+                <fullName>KNIME</fullName>
+                <default>false</default>
+                <label>KNIME</label>
+            </value>
+            <value>
+                <fullName>LABWORKS LIMS</fullName>
+                <default>false</default>
+                <label>LABWORKS LIMS</label>
+            </value>
+            <value>
+                <fullName>LimsLink</fullName>
+                <default>false</default>
+                <label>LimsLink</label>
+            </value>
+            <value>
+                <fullName>Mnova</fullName>
+                <default>false</default>
+                <label>Mnova</label>
+            </value>
+            <value>
+                <fullName>MOPAC</fullName>
+                <default>false</default>
+                <label>MOPAC</label>
+            </value>
+            <value>
+                <fullName>Nexxis</fullName>
+                <default>false</default>
+                <label>Nexxis</label>
+            </value>
+            <value>
+                <fullName>OmicsOffice</fullName>
+                <default>false</default>
+                <label>OmicsOffice</label>
+            </value>
+            <value>
+                <fullName>Pipette Tracker</fullName>
+                <default>false</default>
+                <label>Pipette Tracker</label>
+            </value>
+            <value>
+                <fullName>R-D Insight / Chemists</fullName>
+                <default>false</default>
+                <label>R-D Insight / Chemists</label>
+            </value>
+            <value>
+                <fullName>Registration</fullName>
+                <default>false</default>
+                <label>Registration</label>
+            </value>
+            <value>
+                <fullName>Sample Tracker</fullName>
+                <default>false</default>
+                <label>Sample Tracker</label>
+            </value>
+            <value>
+                <fullName>Search Genius</fullName>
+                <default>false</default>
+                <label>Search Genius</label>
+            </value>
+            <value>
+                <fullName>Struct=Name</fullName>
+                <default>false</default>
+                <label>Struct=Name</label>
+            </value>
+            <value>
+                <fullName>TIBCO Spotfire® Data Visualization Platf</fullName>
+                <default>false</default>
+                <label>TIBCO Spotfire® Data Visualization Platf</label>
+            </value>
+            <value>
+                <fullName>TotalChrom</fullName>
+                <default>false</default>
+                <label>TotalChrom</label>
+            </value>
+            <value>
+                <fullName>Volocity</fullName>
+                <default>false</default>
+                <label>Volocity</label>
+            </value>
+            <value>
+                <fullName>SignalsScreening</fullName>
+                <default>false</default>
+                <label>SignalsScreening</label>
+            </value>
+            <value>
+                <fullName>Signals Perspectives (Attivio)</fullName>
+                <default>false</default>
+                <label>Signals Perspectives (Attivio)</label>
+            </value>
+            <value>
+                <fullName>SignalsTranslational</fullName>
+                <default>false</default>
+                <label>SignalsTranslational</label>
+            </value>
+            <value>
+                <fullName>Streambase</fullName>
+                <default>false</default>
+                <label>Streambase</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

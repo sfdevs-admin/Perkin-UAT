@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plans_Included_in_Contract__c</fullName>
+    <label>Plans Included in Contract</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Indemnity</fullName>
+                <default>false</default>
+                <label>Indemnity</label>
+            </value>
+            <value>
+                <fullName>PPO</fullName>
+                <default>false</default>
+                <label>PPO</label>
+            </value>
+            <value>
+                <fullName>HMO</fullName>
+                <default>false</default>
+                <label>HMO</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>Managed Medicaid</fullName>
+                <default>false</default>
+                <label>Managed Medicaid</label>
+            </value>
+            <value>
+                <fullName>EPO</fullName>
+                <default>false</default>
+                <label>EPO</label>
+            </value>
+            <value>
+                <fullName>ACO</fullName>
+                <default>false</default>
+                <label>ACO</label>
+            </value>
+            <value>
+                <fullName>Exchange</fullName>
+                <default>false</default>
+                <label>Exchange</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

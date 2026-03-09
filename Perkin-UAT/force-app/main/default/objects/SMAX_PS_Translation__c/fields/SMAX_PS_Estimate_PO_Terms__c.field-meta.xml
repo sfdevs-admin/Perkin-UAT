@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Estimate_PO_Terms__c</fullName>
+    <description>Should include the following text: You can submit the purchase order via fax to 0800 891 714 or via email on cc.uk@perkinelmer.com 
+Please ensure the Quote Number located in the top is included on your Purchase Order. 
+If your company is VAT exempt please supply the exemption certificate when sending in your Purchase Order.</description>
+    <inlineHelpText>Please include: You can submit the purchase order via fax to 0800 891 714 or via email on cc.uk@perkinelmer.com 
+Please ensure the Quote Number located in the top is included on your Purchase Order. 
+If your company is VAT exempt please</inlineHelpText>
+    <label>Estimate PO Terms</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

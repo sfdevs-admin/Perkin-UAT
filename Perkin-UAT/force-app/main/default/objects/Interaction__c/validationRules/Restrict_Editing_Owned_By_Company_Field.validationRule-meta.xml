@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Editing_Owned_By_Company_Field</fullName>
+    <active>false</active>
+    <description>This rule will stop the user from editing the &quot;Owned by Company&quot; field if the user doesn&#39;t have the special permission set. (Source: CMC Story #S-697011)</description>
+    <errorConditionFormula>AND(
+NOT(ISNEW()),
+ISCHANGED(Owned_by_Company__c),
+NOT($Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE)
+)</errorConditionFormula>
+    <errorDisplayField>Owned_by_Company__c</errorDisplayField>
+    <errorMessage>V.RULE_INTERACTION_006: Cannot edit &quot;Owned by Company&quot; field. You do not have the level of access, please contact your company administrator.</errorMessage>
+</ValidationRule>

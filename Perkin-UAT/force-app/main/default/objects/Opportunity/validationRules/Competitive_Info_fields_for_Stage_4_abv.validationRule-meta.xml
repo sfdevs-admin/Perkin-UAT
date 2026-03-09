@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitive_Info_fields_for_Stage_4_abv</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    DateValue(CreatedDate) &gt;= $Setup.CSET_9900__c.OppCutoverDate__c,
+    fxRecordTypeName__c = &quot;PKI SPI Sales Process&quot;,
+
+    OR(
+        ( PRIORVALUE(StageName) = &quot;Stage 3 - Develop&quot; &amp;&amp;
+        ISPICKVAL(StageName, &quot;Stage 4 - Prove&quot;)),
+        
+        ( PRIORVALUE(StageName) = &quot;Stage 4 - Prove&quot; &amp;&amp;
+        ISPICKVAL(StageName, &quot;Stage 5 - Negotiation&quot;)),
+
+        
+        ( PRIORVALUE(StageName) = &quot;Stage 5 - Negotiation&quot; &amp;&amp;
+        ISPICKVAL(StageName, &quot;Closed Won&quot;)),
+
+        ( 
+          (PRIORVALUE(StageName) = &quot;Stage 5 - Negotiation&quot; ||
+           PRIORVALUE(StageName) = &quot;Stage 4 - Prove&quot;) &amp;&amp;
+           ISPICKVAL(StageName, &quot;Closed Lost&quot;))
+/*
+        ISPICKVAL(StageName, &quot;Stage 5 - Negotiation&quot;),
+        ISPICKVAL(StageName, &quot;Closed Won&quot;),
+        ISPICKVAL(StageName, &quot;Closed Lost&quot;)
+*/
+
+    ),
+
+    OR(
+       ISPICKVAL( BD_Region__c, &quot;&quot; ),
+       ISPICKVAL( Sales_Campaign__c, &quot;&quot; ),
+       ISPICKVAL( Pillar_1_2__c, &quot;&quot; ),
+       ISPICKVAL( Type_Of_Customer__c, &quot;&quot; ),
+       ISPICKVAL( Public_Tender__c, &quot;&quot; ),
+       INCLUDES(Types_Of_Risk__c, &quot;&quot;)
+    )
+)</errorConditionFormula>
+    <errorMessage>Please check if the Fields under section &quot;Region &amp; Sales Campaigns&quot; OR  &quot;Competitive Information&quot; not filled up for stage 4 and above. Both Section fields are important to filled up to proceed opportunity to stage 4 and above</errorMessage>
+</ValidationRule>

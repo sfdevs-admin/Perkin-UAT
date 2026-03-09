@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blue_Sheet_Read_Only_License__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>SAM Blue Sheet licenses option for large orgs.</description>
+    <label>Blue Sheet Read Only License</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

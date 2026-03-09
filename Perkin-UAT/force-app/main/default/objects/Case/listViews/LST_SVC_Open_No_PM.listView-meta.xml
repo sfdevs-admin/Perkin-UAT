@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_SVC_Open_No_PM</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CALP_Case__c</columns>
+    <columns>Sub_Type__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.LST_Support_Service</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>Sub_Type__c</field>
+        <operation>notContain</operation>
+        <value>Preventative</value>
+    </filters>
+    <label>LST SVC Open-No PM</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000975</group>
+    </sharedTo>
+</ListView>

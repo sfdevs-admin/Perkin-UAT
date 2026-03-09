@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Acc_Group__c</fullName>
+    <businessOwnerGroup>ARQ_001005</businessOwnerGroup>
+    <description>1 of 5 Sub Acct Group MDM attributes</description>
+    <label>Sub.Acc.Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>04</fullName>
+                <default>false</default>
+                <label>Third Party Payer</label>
+            </value>
+            <value>
+                <fullName>01</fullName>
+                <default>false</default>
+                <label>A-customer</label>
+            </value>
+            <value>
+                <fullName>02</fullName>
+                <default>false</default>
+                <label>B-customer</label>
+            </value>
+            <value>
+                <fullName>03</fullName>
+                <default>false</default>
+                <label>C-customer</label>
+            </value>
+            <value>
+                <fullName>05</fullName>
+                <default>false</default>
+                <label>Ship to Address</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

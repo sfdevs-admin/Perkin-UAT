@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeographyValue__c</fullName>
+    <label>Geography Value</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>GeographyLevel__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_026_All_Territories</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Super Territory</controllingFieldValue>
+            <controllingFieldValue>Global territory</controllingFieldValue>
+            <valueName>AMERICAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super Territory</controllingFieldValue>
+            <controllingFieldValue>Global territory</controllingFieldValue>
+            <valueName>APAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super Territory</controllingFieldValue>
+            <valueName>EMEAI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super Territory</controllingFieldValue>
+            <controllingFieldValue>Global territory</controllingFieldValue>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>GREATER CHINA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super Territory</controllingFieldValue>
+            <controllingFieldValue>Global territory</controllingFieldValue>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>KOSJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global territory</controllingFieldValue>
+            <valueName>EMT AND INDIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global territory</controllingFieldValue>
+            <valueName>EUROPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global territory</controllingFieldValue>
+            <valueName>EM EMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global territory</controllingFieldValue>
+            <valueName>EM INDIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>BNL AND NORDICS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>DACH AND POLAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>GREATER FRANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>ITALY AND IBERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>LATIN AMERICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>NORTH AMERICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>UKI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>MEAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Territory</controllingFieldValue>
+            <valueName>EERCIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>BENELUX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>CARIBBEAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>DACH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>EMT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>GREATER INDIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>GREATER ITALY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>IBERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>KOREA AND JAPAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>NORDICS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>OCEANIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>OTHER CENTRAL AMERICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>OTHER KOSJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>OTHER SOUTH AMERICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>POLAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>SEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>GULF REGION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>CENTRAL EASTERN EUROPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>FRENCH AFRICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>CIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>ENGLISH AFRICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>SOUTH EAST EUROPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>ARAB MIDDLE EAST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>RUSSIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sub Territory</controllingFieldValue>
+            <valueName>INDIA SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Afghanistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Åland Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Albania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Algeria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>American Samoa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Andorra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Angola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Anguilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Antarctica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Antigua and Barbuda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Argentina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Armenia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Aruba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Austria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Azerbaijan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bahamas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bahrain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bangladesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Barbados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Belarus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Belgium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Belize</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Benin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bermuda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bhutan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bolivia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bonaire, Sint Eustatius and Saba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bosnia and Herzegovina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Botswana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bouvet Island</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Brazil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>British Indian Ocean Territory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>British Virgin Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Brunei Darussalam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Bulgaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Burkina Faso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Burundi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Cambodia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Cameroon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Cape Verde</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Cayman Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Central African Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Chad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Chile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>China</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Christmas Island</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Cocos (Keeling) Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Colombia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Comoros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Congo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Congo, The Democratic Republic of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Cook Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Costa Rica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Croatia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Cuba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Curacao</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Cyprus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Czech Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Denmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Djibouti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Dominica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Dominican Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>East Timor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Ecuador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Egypt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>El Salvador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Equatorial Guinea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Eritrea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Estonia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Ethiopia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Falkland Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Faroe Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Fiji</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Finland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>French Guiana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>French Polynesia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>French Southern Territories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Gabon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Gambia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Gaza Strip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Georgia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Germany</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Ghana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Gibraltar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Greece</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Greenland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Grenada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Guadeloupe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Guam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Guatemala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Guernsey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Guinea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Guinea-Bissau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Guyana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Haiti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Heard Island and McDonald Mcdonald Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Honduras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Hong Kong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Hungary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Iceland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>India</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Indonesia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Iran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Iraq</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Ireland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Isle of Man</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Israel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Italy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Ivory Coast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Jamaica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Japan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Jersey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Jordan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Kazakhstan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Kenya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Kiribati</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Korea, Democratic People&#39;s Republic of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Korea, Republic of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Kosovo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Kuwait</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Kyrgyzstan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Laos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Latvia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Lebanon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Lesotho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Liberia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Liechtenstein</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Lithuania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Luxembourg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Libya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Macau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Macedonia, the Former Yugoslav Republic of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Madagascar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Malawi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Malaysia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Maldives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Mali</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Malta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Marshall Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Martinique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Mauritania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Mauritius</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Mayotte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Micronesia, Federated States of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Moldova, Republic of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Monaco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Mongolia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Montenegro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Montserrat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Morocco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Mozambique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Myanmar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Namibia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Nauru</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Nepal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Netherlands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Netherlands Antilles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>New Caledonia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>New Zealand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Nicaragua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Niger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Nigeria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Niue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Norfolk Island</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Northern Mariana Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Norway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Oman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Pakistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Palau, The Republic of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Palestine, State of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Panama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Papua New Guinea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Paraguay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Peru</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Philippines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Pitcairn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Portugal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Puerto Rico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Qatar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Réunion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Romania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Russian Federation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Rwanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Saint Barth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Saint Helena</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Saint Kitts and Nevis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Saint Lucia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Saint Martin (French part)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Saint Pierre and Miquelon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Saint Vincent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Samoa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>San Marino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Sao Tome and Principe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Saudi Arabia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Senegal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Serbia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Seychelles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Sierra Leone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Singapore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Sint Maarten (Dutch part)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Slovakia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Slovenia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Solomon Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Somalia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>South Africa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>South Georgia and the South Sandwich Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>South Sudan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Spain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Sri Lanka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Sudan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Suriname</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Svalbard and Jan Mayen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Swaziland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Sweden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Switzerland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Syrian Arab Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Taiwan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Tajikistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Tanzania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Thailand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Timor-Leste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Togo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Tokelau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Tonga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Trinidad and Tobago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Tunisia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Turkey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Turkmenistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Turks and Caicos Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Tuvalu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>U.S. Virgin Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Uganda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Ukraine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>United Arab Emirates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>United Kingdom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>United States</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>United States Minor Outlying Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Uruguay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Uzbekistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Vanuatu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Vatican City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Venezuela</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Vietnam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Wallis and Futuna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>West Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Western Sahara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Yemen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Zambia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Country</controllingFieldValue>
+            <valueName>Zimbabwe</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

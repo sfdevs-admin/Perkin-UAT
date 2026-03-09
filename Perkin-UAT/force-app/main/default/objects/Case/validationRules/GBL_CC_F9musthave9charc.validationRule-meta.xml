@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_CC_F9musthave9charc</fullName>
+    <active>true</active>
+    <description>If F1 Complaint Number is required, then it must have 9 characters</description>
+    <errorConditionFormula>AND(
+  RecordType.Name = &#39;Customer Care - Complaint&#39;
+  ,NOT( ISBLANK( F1_Complaint_Number__c ))
+  ,AND( LEN( F1_Complaint_Number__c ) &lt;&gt; 9
+  )
+  )</errorConditionFormula>
+    <errorDisplayField>DX_Complaint_Details__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_020: If F1 Complaint Number is required, then it must have 9 characters</errorMessage>
+</ValidationRule>

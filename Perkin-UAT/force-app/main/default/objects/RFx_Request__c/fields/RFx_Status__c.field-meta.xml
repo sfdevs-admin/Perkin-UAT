@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFx_Status__c</fullName>
+    <label>RFx Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial</fullName>
+                <default>true</default>
+                <label>Initial</label>
+            </value>
+            <value>
+                <fullName>Awaiting</fullName>
+                <default>false</default>
+                <label>Awaiting</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Invited to RFx</fullName>
+                <default>false</default>
+                <label>Invited to RFx</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Post Submission</fullName>
+                <default>false</default>
+                <label>Post Submission</label>
+            </value>
+            <value>
+                <fullName>Bid Defense</fullName>
+                <default>false</default>
+                <label>Bid Defense</label>
+            </value>
+            <value>
+                <fullName>Won</fullName>
+                <default>false</default>
+                <label>Won</label>
+            </value>
+            <value>
+                <fullName>Lost</fullName>
+                <default>false</default>
+                <label>Lost</label>
+            </value>
+            <value>
+                <fullName>Abandoned</fullName>
+                <default>false</default>
+                <label>Abandoned</label>
+            </value>
+            <value>
+                <fullName>No Bid</fullName>
+                <default>false</default>
+                <label>No Bid</label>
+            </value>
+            <value>
+                <fullName>Withdrawn by Customer</fullName>
+                <default>false</default>
+                <label>Withdrawn by Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

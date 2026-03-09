@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_LAY_User_Default</fullName>
+    <fields>Name</fields>
+    <fields>Title</fields>
+    <fields>CompanyName</fields>
+    <fields>IsActive</fields>
+    <fields>ProfileId</fields>
+    <fields>UserRoleId</fields>
+    <fields>Direct_Manager__c</fields>
+    <label>C.LAY User Default</label>
+</CompactLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Application_Area__c</fullName>
+    <label>Product Application Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adulteration/Provenance</fullName>
+                <default>false</default>
+                <label>Adulteration/Provenance</label>
+            </value>
+            <value>
+                <fullName>Advanced Materials</fullName>
+                <default>false</default>
+                <label>Advanced Materials</label>
+            </value>
+            <value>
+                <fullName>Architectural/Building materials</fullName>
+                <default>false</default>
+                <label>Architectural/Building materials</label>
+            </value>
+            <value>
+                <fullName>Biomass</fullName>
+                <default>false</default>
+                <label>Biomass</label>
+            </value>
+            <value>
+                <fullName>Chemical/Fine Chemicals</fullName>
+                <default>false</default>
+                <label>Chemical/Fine Chemicals</label>
+            </value>
+            <value>
+                <fullName>Consumer Products</fullName>
+                <default>false</default>
+                <label>Consumer Products</label>
+            </value>
+            <value>
+                <fullName>Cosmetics &amp; Personal Care</fullName>
+                <default>false</default>
+                <label>Cosmetics &amp; Personal Care</label>
+            </value>
+            <value>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+                <label>Dairy</label>
+            </value>
+            <value>
+                <fullName>Drinking Water</fullName>
+                <default>false</default>
+                <label>Drinking Water</label>
+            </value>
+            <value>
+                <fullName>Emissions</fullName>
+                <default>false</default>
+                <label>Emissions</label>
+            </value>
+            <value>
+                <fullName>Environmental Research</fullName>
+                <default>false</default>
+                <label>Environmental Research</label>
+            </value>
+            <value>
+                <fullName>Environmental Waters</fullName>
+                <default>false</default>
+                <label>Environmental Waters</label>
+            </value>
+            <value>
+                <fullName>Evidence</fullName>
+                <default>false</default>
+                <label>Evidence</label>
+            </value>
+            <value>
+                <fullName>Forestry</fullName>
+                <default>false</default>
+                <label>Forestry</label>
+            </value>
+            <value>
+                <fullName>Fuel Cell</fullName>
+                <default>false</default>
+                <label>Fuel Cell</label>
+            </value>
+            <value>
+                <fullName>Grain</fullName>
+                <default>false</default>
+                <label>Grain</label>
+            </value>
+            <value>
+                <fullName>Indoor Air</fullName>
+                <default>false</default>
+                <label>Indoor Air</label>
+            </value>
+            <value>
+                <fullName>Inks,Dyes and Paints</fullName>
+                <default>false</default>
+                <label>Inks,Dyes and Paints</label>
+            </value>
+            <value>
+                <fullName>Lubricants/Used Oils</fullName>
+                <default>false</default>
+                <label>Lubricants/Used Oils</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Meat</fullName>
+                <default>false</default>
+                <label>Meat</label>
+            </value>
+            <value>
+                <fullName>Mining,Minerals, Metals and Alloys</fullName>
+                <default>false</default>
+                <label>Mining,Minerals, Metals and Alloys</label>
+            </value>
+            <value>
+                <fullName>Nutraceutical/Botanicals/Natural Remedies</fullName>
+                <default>false</default>
+                <label>Nutraceutical/Botanicals/Natural Remedies</label>
+            </value>
+            <value>
+                <fullName>Nutritional Analysis</fullName>
+                <default>false</default>
+                <label>Nutritional Analysis</label>
+            </value>
+            <value>
+                <fullName>Other - Explain</fullName>
+                <default>false</default>
+                <label>Other - Explain</label>
+            </value>
+            <value>
+                <fullName>Outdoor Air</fullName>
+                <default>false</default>
+                <label>Outdoor Air</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Petro/Refining</fullName>
+                <default>false</default>
+                <label>Petro/Refining</label>
+            </value>
+            <value>
+                <fullName>Polymers/Plastics</fullName>
+                <default>false</default>
+                <label>Polymers/Plastics</label>
+            </value>
+            <value>
+                <fullName>Processed Foods</fullName>
+                <default>false</default>
+                <label>Processed Foods</label>
+            </value>
+            <value>
+                <fullName>Product Development/Research</fullName>
+                <default>false</default>
+                <label>Product Development/Research</label>
+            </value>
+            <value>
+                <fullName>Regulatory Testing</fullName>
+                <default>false</default>
+                <label>Regulatory Testing</label>
+            </value>
+            <value>
+                <fullName>Safety/Quality</fullName>
+                <default>false</default>
+                <label>Safety/Quality</label>
+            </value>
+            <value>
+                <fullName>Semiconductors/Electronics</fullName>
+                <default>false</default>
+                <label>Semiconductors/Electronics</label>
+            </value>
+            <value>
+                <fullName>Soil</fullName>
+                <default>false</default>
+                <label>Soil</label>
+            </value>
+            <value>
+                <fullName>Solar</fullName>
+                <default>false</default>
+                <label>Solar</label>
+            </value>
+            <value>
+                <fullName>Tobacco</fullName>
+                <default>false</default>
+                <label>Tobacco</label>
+            </value>
+            <value>
+                <fullName>Toxicology</fullName>
+                <default>false</default>
+                <label>Toxicology</label>
+            </value>
+            <value>
+                <fullName>Waste Water</fullName>
+                <default>false</default>
+                <label>Waste Water</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

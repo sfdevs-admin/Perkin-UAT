@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject_Category__c</fullName>
+    <label>Subject Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin &amp; General</fullName>
+                <default>false</default>
+                <label>Admin &amp; General</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Grand Rounds</fullName>
+                <default>false</default>
+                <label>Grand Rounds</label>
+            </value>
+            <value>
+                <fullName>Instrument Demo Request</fullName>
+                <default>false</default>
+                <label>Instrument Demo Request</label>
+            </value>
+            <value>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+                <label>Meeting</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Please enter a subject</fullName>
+                <default>false</default>
+                <label>Please enter a subject</label>
+            </value>
+            <value>
+                <fullName>Postsales</fullName>
+                <default>false</default>
+                <label>Postsales</label>
+            </value>
+            <value>
+                <fullName>Presales</fullName>
+                <default>false</default>
+                <label>Presales</label>
+            </value>
+            <value>
+                <fullName>Reagent Evaluation Request</fullName>
+                <default>false</default>
+                <label>Reagent Evaluation Request</label>
+            </value>
+            <value>
+                <fullName>Run Samples</fullName>
+                <default>false</default>
+                <label>Run Samples</label>
+            </value>
+            <value>
+                <fullName>Sales Call</fullName>
+                <default>false</default>
+                <label>Sales Call</label>
+            </value>
+            <value>
+                <fullName>Scientific Presentation</fullName>
+                <default>false</default>
+                <label>Scientific Presentation</label>
+            </value>
+            <value>
+                <fullName>Send Specimen Kit</fullName>
+                <default>false</default>
+                <label>Send Specimen Kit</label>
+            </value>
+            <value>
+                <fullName>Service Call</fullName>
+                <default>false</default>
+                <label>Service Call</label>
+            </value>
+            <value>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+                <label>Tradeshow</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Webcast</fullName>
+                <default>false</default>
+                <label>Webcast</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Breakfast</fullName>
+                <default>false</default>
+                <label>Breakfast</label>
+            </value>
+            <value>
+                <fullName>Lunch</fullName>
+                <default>false</default>
+                <label>Lunch</label>
+            </value>
+            <value>
+                <fullName>Dinner</fullName>
+                <default>false</default>
+                <label>Dinner</label>
+            </value>
+            <value>
+                <fullName>Snack</fullName>
+                <default>false</default>
+                <label>Snack</label>
+            </value>
+            <value>
+                <fullName>Local Conference or Tradeshow</fullName>
+                <default>false</default>
+                <label>Local Conference or Tradeshow</label>
+            </value>
+            <value>
+                <fullName>Guest Speaker Event</fullName>
+                <default>false</default>
+                <label>Guest Speaker Event</label>
+            </value>
+            <value>
+                <fullName>Educational or Scientific Presentation</fullName>
+                <default>false</default>
+                <label>Educational or Scientific Presentation</label>
+            </value>
+            <value>
+                <fullName>PTO Day</fullName>
+                <default>false</default>
+                <label>PTO Day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

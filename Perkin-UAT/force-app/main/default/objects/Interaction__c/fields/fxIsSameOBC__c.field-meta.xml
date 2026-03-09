@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxIsSameOBC__c</fullName>
+    <description>This compares OBC from User Owner and Interaction to determine if the Owner is not of same company so it can be reassigned. True=Record is OK, False= Reassign record</description>
+    <formula>OR( TEXT(Owner:User.Owned_by_Company__c) = TEXT(Owned_by_Company__c)
+   ,CONTAINS( Owner:Queue.QueueName, TEXT(Owned_by_Company__c))
+   ,TEXT(PKI_Queue__r.Owned_By_Company__c) = TEXT(Owned_by_Company__c)
+   ,TEXT(Owned_by_Company__c) = &#39;TBD&#39;
+   ,TEXT(Owned_by_Company__c) = null
+   )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This compares OBC from User Owner and Interaction to determine if the Owner is not of same company so it can be reassigned. True=Record is OK, False= Reassign record</inlineHelpText>
+    <label>fxIsSameOBC</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HCS_Opera_and_Operetta</fullName>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Country_Asset__c</columns>
+    <columns>Phone__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.NAME</field>
+        <operation>contains</operation>
+        <value>Opera,Operetta</value>
+    </filters>
+    <label>HCS Opera and Operetta</label>
+    <language>en_US</language>
+</ListView>

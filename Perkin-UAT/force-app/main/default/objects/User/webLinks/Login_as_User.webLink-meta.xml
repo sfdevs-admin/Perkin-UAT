@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Login_as_User</fullName>
+    <availability>online</availability>
+    <description>custom link to login as user</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Login as User</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://perkinelmer.my.salesforce.com/one/one.app#/alohaRedirect/servlet/servlet.su?oid={!$Organization.Id}&amp;suorgadminid={!User.Id}&amp;targetURL=%2Fhome%2Fhome.jsp&amp;retURL=%2F005%3FisUserEntityOverride%3D1%26retURL%3D%252Fsetup%252Fhome%26appLayout%3Dsetup%26tour%3D%26isdtp%3Dp1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fperkinelmer.lightning.force.com%26sfdcIFrameHost%3Dweb%26nonce%3Da755e8395d036dd2dbc97a7fbbd85b756126bf7b088ca3ab5c6c37f80cd4b92f%26ltn_app_id%3D06m4V000001GeOQQA0%26clc%3D1&amp;isdtp=p1</url>
+</WebLink>

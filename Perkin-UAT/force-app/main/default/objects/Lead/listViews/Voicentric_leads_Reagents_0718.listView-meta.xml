@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Voicentric_leads_Reagents_0718</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>Product_Line__c</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>eq_Contact_Requested__c</columns>
+    <columns>eq_Demo_Requested__c</columns>
+    <columns>eq_Default_MQL__c</columns>
+    <columns>Quote_Requested__c</columns>
+    <columns>eq_Quote_Requested__c</columns>
+    <columns>MQL__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>7/1/2018 12:00 AM</value>
+    </filters>
+    <label>Voicentric leads -Reagents 0718</label>
+    <language>en_US</language>
+</ListView>

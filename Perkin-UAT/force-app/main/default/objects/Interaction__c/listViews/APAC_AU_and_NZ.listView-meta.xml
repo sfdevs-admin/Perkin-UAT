@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>APAC_AU_and_NZ</fullName>
+    <columns>NAME</columns>
+    <columns>Country__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>Status__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>Interaction_Type__c</columns>
+    <columns>Interaction_Icon__c</columns>
+    <columns>Lead_Qualification_Stage__c</columns>
+    <columns>PrimaryQualification__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>contains</operation>
+        <value>NZ,AU</value>
+    </filters>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>LSDX,TBD</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <label>APAC AU and NZ</label>
+</ListView>

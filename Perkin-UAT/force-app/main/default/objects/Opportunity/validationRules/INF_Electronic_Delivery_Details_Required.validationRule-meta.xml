@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Electronic_Delivery_Details_Required</fullName>
+    <active>false</active>
+    <description>This validation trigger when user tries to change the opportunity stage to stage 6 without providing Electronic Delivery Details (ITSFDC-5103)
+Rule Name changed - new name is INF_Required_for_Stage6_Progression (Activated)</description>
+    <errorConditionFormula>AND( RecordType.Name = &#39;Informatics&#39;
+     ,ISPICKVAL(StageName , &#39;Stage 6 - Implement (Closed)&#39;) 
+     ,OR(ISBLANK( First_Name__c ) 
+     ,ISBLANK( Last_Name__c )  
+     ,ISBLANK( Primary_Email_Address__c 
+)))</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_085: Electronic Delivery details are required when the opportunity is in Stage 6.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Last_Labor_Datetime__c</fullName>
+    <description>The MAX of the Labor line End Date Time values. Auto-calculated when the WO enters TECO or Remote/Closed.</description>
+    <inlineHelpText>The MAX of the Labor line End Date Time values. Auto-calculated when the WO enters TECO or Remote/Closed.</inlineHelpText>
+    <label>Last Labor Datetime</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

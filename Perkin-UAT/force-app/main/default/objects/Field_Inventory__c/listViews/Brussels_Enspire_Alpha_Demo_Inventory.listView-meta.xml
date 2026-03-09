@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brussels_Enspire_Alpha_Demo_Inventory</fullName>
+    <columns>NAME</columns>
+    <columns>Current_Location__c</columns>
+    <columns>Date_Sent__c</columns>
+    <columns>Status__c</columns>
+    <columns>ShipTo_Name__c</columns>
+    <columns>Serial_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>Enspire</value>
+    </filters>
+    <label>Brussels Enspire Alpha Demo Inventory</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000703</group>
+        <group>ARQ_000706</group>
+        <group>ARQ_000709</group>
+        <group>ARQ_000710</group>
+    </sharedTo>
+</ListView>

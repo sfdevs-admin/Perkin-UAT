@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Karyotype_88269_Chrom_Analysis__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Karyotype - 88269 Chrom Analysis, in situ for amnio, 1 Karyotype w/banding</inlineHelpText>
+    <label>Karyotype - 88269 Chrom Analysis</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

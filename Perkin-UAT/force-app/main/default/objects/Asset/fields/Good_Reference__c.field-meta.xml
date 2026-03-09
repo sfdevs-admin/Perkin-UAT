@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Good_Reference__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check box for PKI asset to mark them as good references that can be used in future sales</description>
+    <label>Good Reference</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

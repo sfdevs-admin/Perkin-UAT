@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_CR_Due_Date_is_Hard_Deadline__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to record whether the due date can be negotiated,(Jira ITSFDC-4753)</description>
+    <inlineHelpText>Indicates that due date cannot be postponed</inlineHelpText>
+    <label>CR Due Date is Hard Deadline</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

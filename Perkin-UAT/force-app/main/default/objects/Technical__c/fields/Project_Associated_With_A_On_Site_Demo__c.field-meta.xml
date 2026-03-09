@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Associated_With_A_On_Site_Demo__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Project Associated with a hands-on Visit (Source: S-692579)</description>
+    <inlineHelpText>Project Associated with a hands-on Visit</inlineHelpText>
+    <label>Project associated with a hands-on visit</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

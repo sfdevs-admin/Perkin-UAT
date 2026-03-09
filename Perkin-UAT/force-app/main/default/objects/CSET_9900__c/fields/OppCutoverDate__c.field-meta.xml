@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OppCutoverDate__c</fullName>
+    <description>Opps created before this date are exempt from newer V.RULEs. This will be coded into the V.RULE to reference this date</description>
+    <inlineHelpText>Opps created before this date are exempt from newer V.RULEs. This will be coded into the V.RULE to reference this date</inlineHelpText>
+    <label>OppCutoverDate</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

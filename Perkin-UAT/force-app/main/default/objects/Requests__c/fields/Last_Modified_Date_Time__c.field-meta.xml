@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Modified_Date_Time__c</fullName>
+    <description>This field is used to display the time portion in addition to the date portion of the Last Modified Date</description>
+    <formula>LastModifiedDate</formula>
+    <label>Last Modified Date/Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

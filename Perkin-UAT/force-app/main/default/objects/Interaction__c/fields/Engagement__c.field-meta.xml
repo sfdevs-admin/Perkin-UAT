@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>INC0304725:
+Created for Identifying Interaction records as coming from the Cisbio pages &amp; forms.</description>
+    <inlineHelpText>Identifying Interaction records as coming from the Cisbio pages &amp; forms.</inlineHelpText>
+    <label>Cisbio Engagement</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

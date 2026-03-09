@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_PSET</fullName>
+    <availability>online</availability>
+    <description>Opens the Native Permission Set in Lightning</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Open PSET</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/lightning/setup/PermSets/page?address=%2F{!PSET_Permission_Set__c.PermissionSetId_FromStandard__c}</url>
+</WebLink>

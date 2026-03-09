@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>I_want_to__c</fullName>
+    <inlineHelpText>Enter the request in this field. Example of an entry into the &quot;I want to&quot; field: &quot;be able to click a button and have the contact&#39;s mailing address match the account&#39;s shipping address&quot;.</inlineHelpText>
+    <label>I want to</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

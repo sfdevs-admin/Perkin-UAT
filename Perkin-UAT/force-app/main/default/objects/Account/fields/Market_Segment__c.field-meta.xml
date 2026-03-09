@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_Segment__c</fullName>
+    <label>Market Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Academic</fullName>
+                <default>false</default>
+                <label>Academic</label>
+            </value>
+            <value>
+                <fullName>ADMET</fullName>
+                <default>false</default>
+                <label>ADMET</label>
+            </value>
+            <value>
+                <fullName>Aerospace</fullName>
+                <default>false</default>
+                <label>Aerospace</label>
+            </value>
+            <value>
+                <fullName>Agriculture &amp; Feed</fullName>
+                <default>false</default>
+                <label>Agriculture &amp; Feed</label>
+            </value>
+            <value>
+                <fullName>API Synthesis/Scale-Up</fullName>
+                <default>false</default>
+                <label>API Synthesis/Scale-Up</label>
+            </value>
+            <value>
+                <fullName>Assay Development</fullName>
+                <default>false</default>
+                <label>Assay Development</label>
+            </value>
+            <value>
+                <fullName>Automotive &amp; Machinery</fullName>
+                <default>false</default>
+                <label>Automotive &amp; Machinery</label>
+            </value>
+            <value>
+                <fullName>BEER BEV AND WINE</fullName>
+                <default>false</default>
+                <label>BEER BEV AND WINE</label>
+            </value>
+            <value>
+                <fullName>BioTech</fullName>
+                <default>false</default>
+                <label>BioTech</label>
+            </value>
+            <value>
+                <fullName>Cancer</fullName>
+                <default>false</default>
+                <label>Cancer</label>
+            </value>
+            <value>
+                <fullName>Cell Biology</fullName>
+                <default>false</default>
+                <label>Cell Biology</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Clinical Research</fullName>
+                <default>false</default>
+                <label>Clinical Research</label>
+            </value>
+            <value>
+                <fullName>COMMERCIAL CONTRACT TESTING LABS</fullName>
+                <default>false</default>
+                <label>COMMERCIAL CONTRACT TESTING LABS</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>FEED &amp; PET FOOD</fullName>
+                <default>false</default>
+                <label>FEED &amp; PET FOOD</label>
+            </value>
+            <value>
+                <fullName>Forensic Science</fullName>
+                <default>false</default>
+                <label>Forensic Science</label>
+            </value>
+            <value>
+                <fullName>Genomics/Genetics</fullName>
+                <default>false</default>
+                <label>Genomics/Genetics</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>GRAIN GENERAL &amp; TRADE UNPROCESSED (INCL FARMERS)</fullName>
+                <default>false</default>
+                <label>GRAIN GENERAL &amp; TRADE UNPROCESSED (INCL FARMERS)</label>
+            </value>
+            <value>
+                <fullName>GRAIN PROCESSING (INCL STARCH PRODUCTION)</fullName>
+                <default>false</default>
+                <label>GRAIN PROCESSING (INCL STARCH PRODUCTION)</label>
+            </value>
+            <value>
+                <fullName>Hospitals &amp; Clinics</fullName>
+                <default>false</default>
+                <label>Hospitals &amp; Clinics</label>
+            </value>
+            <value>
+                <fullName>Immunology</fullName>
+                <default>false</default>
+                <label>Immunology</label>
+            </value>
+            <value>
+                <fullName>Independent Testing</fullName>
+                <default>false</default>
+                <label>Independent Testing</label>
+            </value>
+            <value>
+                <fullName>Lead Discovery</fullName>
+                <default>false</default>
+                <label>Lead Discovery</label>
+            </value>
+            <value>
+                <fullName>Lead Validation &amp; Optimization</fullName>
+                <default>false</default>
+                <label>Lead Validation &amp; Optimization</label>
+            </value>
+            <value>
+                <fullName>LIQUID MILK</fullName>
+                <default>false</default>
+                <label>LIQUID MILK</label>
+            </value>
+            <value>
+                <fullName>MEAT</fullName>
+                <default>false</default>
+                <label>MEAT</label>
+            </value>
+            <value>
+                <fullName>Metals</fullName>
+                <default>false</default>
+                <label>Metals</label>
+            </value>
+            <value>
+                <fullName>Microbiology</fullName>
+                <default>false</default>
+                <label>Microbiology</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Molecular Biology</fullName>
+                <default>false</default>
+                <label>Molecular Biology</label>
+            </value>
+            <value>
+                <fullName>Neuroscience</fullName>
+                <default>false</default>
+                <label>Neuroscience</label>
+            </value>
+            <value>
+                <fullName>OIL SEED MILLING</fullName>
+                <default>false</default>
+                <label>OIL SEED MILLING</label>
+            </value>
+            <value>
+                <fullName>OIL SEED MILLING AND EDIBLE OILS (INCL. OLIVE PROCESSING)</fullName>
+                <default>false</default>
+                <label>OIL SEED MILLING AND EDIBLE OILS (INCL. OLIVE PROCESSING)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Analytical</fullName>
+                <default>false</default>
+                <label>Other Analytical</label>
+            </value>
+            <value>
+                <fullName>Other Disease</fullName>
+                <default>false</default>
+                <label>Other Disease</label>
+            </value>
+            <value>
+                <fullName>Other Life Science</fullName>
+                <default>false</default>
+                <label>Other Life Science</label>
+            </value>
+            <value>
+                <fullName>Paper &amp; Pulp</fullName>
+                <default>false</default>
+                <label>Paper &amp; Pulp</label>
+            </value>
+            <value>
+                <fullName>Petrochemicals</fullName>
+                <default>false</default>
+                <label>Petrochemicals</label>
+            </value>
+            <value>
+                <fullName>Pharmaceuticals</fullName>
+                <default>false</default>
+                <label>Pharmaceuticals</label>
+            </value>
+            <value>
+                <fullName>PLANT BREEDING</fullName>
+                <default>false</default>
+                <label>PLANT BREEDING</label>
+            </value>
+            <value>
+                <fullName>Polymers</fullName>
+                <default>false</default>
+                <label>Polymers</label>
+            </value>
+            <value>
+                <fullName>PROCESSED DAIRY</fullName>
+                <default>false</default>
+                <label>PROCESSED DAIRY</label>
+            </value>
+            <value>
+                <fullName>PROCESSED FOODS/BAKERY/ INGREDIENTS</fullName>
+                <default>false</default>
+                <label>PROCESSED FOODS/BAKERY/ INGREDIENTS</label>
+            </value>
+            <value>
+                <fullName>Proteomics</fullName>
+                <default>false</default>
+                <label>Proteomics</label>
+            </value>
+            <value>
+                <fullName>Radiation/Health Physics</fullName>
+                <default>false</default>
+                <label>Radiation/Health Physics</label>
+            </value>
+            <value>
+                <fullName>Semiconductors</fullName>
+                <default>false</default>
+                <label>Semiconductors</label>
+            </value>
+            <value>
+                <fullName>SNACK FOOD</fullName>
+                <default>false</default>
+                <label>SNACK FOOD</label>
+            </value>
+            <value>
+                <fullName>Textiles</fullName>
+                <default>false</default>
+                <label>Textiles</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>WHEAT FLOUR MILLING</fullName>
+                <default>false</default>
+                <label>WHEAT FLOUR MILLING</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

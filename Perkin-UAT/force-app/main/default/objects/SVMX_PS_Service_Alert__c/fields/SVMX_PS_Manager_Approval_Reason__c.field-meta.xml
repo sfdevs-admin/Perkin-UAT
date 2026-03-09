@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Manager_Approval_Reason__c</fullName>
+    <label>Manager Approval Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unable to be repaired in the Field</fullName>
+                <default>false</default>
+                <label>Unable to be repaired in the Field</label>
+            </value>
+            <value>
+                <fullName>Too many service calls on unit</fullName>
+                <default>false</default>
+                <label>Too many service calls on unit</label>
+            </value>
+            <value>
+                <fullName>Instrument damaged</fullName>
+                <default>false</default>
+                <label>Instrument damaged</label>
+            </value>
+            <value>
+                <fullName>Does not meet instrument performance specifications</fullName>
+                <default>false</default>
+                <label>Does not meet instrument performance specifications</label>
+            </value>
+            <value>
+                <fullName>Can’t perform customer’s application</fullName>
+                <default>false</default>
+                <label>Can’t perform customer’s application</label>
+            </value>
+            <value>
+                <fullName>Customer not satisfied and wants replacement</fullName>
+                <default>false</default>
+                <label>Customer not satisfied and wants replacement</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

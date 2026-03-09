@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispensation_Time_Expired__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Gets stamped when Warm Dispensation Time is finished</description>
+    <label>Dispensation Time Expired</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

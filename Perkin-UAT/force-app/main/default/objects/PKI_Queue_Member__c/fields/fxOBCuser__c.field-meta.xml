@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxOBCuser__c</fullName>
+    <description>This will display the Users OwnedByCompany value. Compare it to PKI Queue OwnedByCompany to see if users are out of place.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(User__r.Owned_by_Company__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This will display the Users OwnedByCompany value. Compare it to PKI Queue OwnedByCompany to see if users are out of place.</inlineHelpText>
+    <label>fxOBCuser</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

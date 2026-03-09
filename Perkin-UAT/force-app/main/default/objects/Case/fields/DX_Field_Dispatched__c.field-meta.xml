@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Field_Dispatched__c</fullName>
+    <label>Field Dispatched</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Field Application Scientist</fullName>
+                <default>false</default>
+                <label>Field Application Scientist</label>
+            </value>
+            <value>
+                <fullName>Field Service Engineer</fullName>
+                <default>false</default>
+                <label>Field Service Engineer</label>
+            </value>
+            <value>
+                <fullName>Field Specialist</fullName>
+                <default>false</default>
+                <label>Field Specialist</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Resolved through Remote Support</fullName>
+                <default>false</default>
+                <label>Resolved through Remote Support</label>
+            </value>
+            <value>
+                <fullName>Support Specialist</fullName>
+                <default>false</default>
+                <label>Support Specialist</label>
+            </value>
+            <value>
+                <fullName>Allocated to Quality</fullName>
+                <default>false</default>
+                <label>Allocated to Quality</label>
+            </value>
+            <value>
+                <fullName>Allocated to Product Manager</fullName>
+                <default>false</default>
+                <label>Allocated to Product Manager</label>
+            </value>
+            <value>
+                <fullName>Allocated to R&amp;D</fullName>
+                <default>false</default>
+                <label>Allocated to R&amp;D</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

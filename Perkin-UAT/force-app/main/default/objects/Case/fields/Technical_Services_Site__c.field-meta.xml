@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technical_Services_Site__c</fullName>
+    <description>This picklist is fopr the Technical Services Case Form</description>
+    <label>Technical Services Site</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Brussels</fullName>
+                <default>false</default>
+                <label>Brussels</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Hopkinton</fullName>
+                <default>false</default>
+                <label>Hopkinton</label>
+            </value>
+            <value>
+                <fullName>Naperville</fullName>
+                <default>false</default>
+                <label>Naperville</label>
+            </value>
+            <value>
+                <fullName>Poland</fullName>
+                <default>false</default>
+                <label>Poland</label>
+            </value>
+            <value>
+                <fullName>Shelton</fullName>
+                <default>false</default>
+                <label>Shelton</label>
+            </value>
+            <value>
+                <fullName>Waltham</fullName>
+                <default>false</default>
+                <label>Waltham</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

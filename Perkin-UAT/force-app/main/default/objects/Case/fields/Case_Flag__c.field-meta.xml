@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Flag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Case_Aging_open__c  &gt; 10, IMAGE(&quot;/img/samples/color_red.gif&quot;,&quot;red&quot;, 30,30),
+IF( Case_Aging_open__c  &gt; 5, IMAGE(&quot;/img/samples/color_yellow.gif&quot;,&quot;yellow&quot;, 30,30),
+IMAGE(&quot;/img/samples/color_green.gif&quot;, &quot;green&quot;, 30, 30)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

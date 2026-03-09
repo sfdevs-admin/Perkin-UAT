@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Lost__c</fullName>
+    <label>Reason Lost</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Did not meet technical requirements</fullName>
+                <default>false</default>
+                <label>Did not meet technical requirements</label>
+            </value>
+            <value>
+                <fullName>Poor Price/Performance</fullName>
+                <default>false</default>
+                <label>Poor Price/Performance</label>
+            </value>
+            <value>
+                <fullName>Historical competitor bias</fullName>
+                <default>false</default>
+                <label>Historical competitor bias</label>
+            </value>
+            <value>
+                <fullName>Add-on to existing system</fullName>
+                <default>false</default>
+                <label>Add-on to existing system</label>
+            </value>
+            <value>
+                <fullName>Poor Support/Service Experience</fullName>
+                <default>false</default>
+                <label>Poor Support/Service Experience</label>
+            </value>
+            <value>
+                <fullName>Our delivery not acceptable</fullName>
+                <default>false</default>
+                <label>Our delivery not acceptable</label>
+            </value>
+            <value>
+                <fullName>PKI not consulted</fullName>
+                <default>false</default>
+                <label>PKI not consulted</label>
+            </value>
+            <value>
+                <fullName>Lack of Applications / Proofs / References</fullName>
+                <default>false</default>
+                <label>Lack of Applications / Proofs / References</label>
+            </value>
+            <value>
+                <fullName>Cost of extended warranty too expensive</fullName>
+                <default>false</default>
+                <label>Cost of extended warranty too expensive</label>
+            </value>
+            <value>
+                <fullName>Lack of Leasing Program</fullName>
+                <default>false</default>
+                <label>Lack of Leasing Program</label>
+            </value>
+            <value>
+                <fullName>Poor service experience</fullName>
+                <default>false</default>
+                <label>Poor service experience</label>
+            </value>
+            <value>
+                <fullName>Lack of local support team</fullName>
+                <default>false</default>
+                <label>Lack of local support team</label>
+            </value>
+            <value>
+                <fullName>Poor demonstration</fullName>
+                <default>false</default>
+                <label>Poor demonstration</label>
+            </value>
+            <value>
+                <fullName>No Bid</fullName>
+                <default>false</default>
+                <label>No Bid</label>
+            </value>
+            <value>
+                <fullName>Used Instrument</fullName>
+                <default>false</default>
+                <label>Used Instrument</label>
+            </value>
+            <value>
+                <fullName>Customer Lost Funding</fullName>
+                <default>false</default>
+                <label>Customer Lost Funding</label>
+            </value>
+            <value>
+                <fullName>Service Hourly Rates</fullName>
+                <default>false</default>
+                <label>Service Hourly Rates</label>
+            </value>
+            <value>
+                <fullName>Service Contract Pricing</fullName>
+                <default>false</default>
+                <label>Service Contract Pricing</label>
+            </value>
+            <value>
+                <fullName>Needs more clinical proof</fullName>
+                <default>false</default>
+                <label>Needs more clinical proof</label>
+            </value>
+            <value>
+                <fullName>Not ready for this technology</fullName>
+                <default>false</default>
+                <label>Not ready for this technology</label>
+            </value>
+            <value>
+                <fullName>Only wants to have Tech Only, not Full Service.</fullName>
+                <default>false</default>
+                <label>Only wants to have Tech Only, not Full Service.</label>
+            </value>
+            <value>
+                <fullName>Will only do for research purposes</fullName>
+                <default>false</default>
+                <label>Will only do for research purposes</label>
+            </value>
+            <value>
+                <fullName>Instrument Size</fullName>
+                <default>false</default>
+                <label>Instrument Size</label>
+            </value>
+            <value>
+                <fullName>Specification</fullName>
+                <default>false</default>
+                <label>Specification</label>
+            </value>
+            <value>
+                <fullName>Product performance</fullName>
+                <default>false</default>
+                <label>Product performance</label>
+            </value>
+            <value>
+                <fullName>Product not available to sell</fullName>
+                <default>false</default>
+                <label>Product not available to sell</label>
+            </value>
+            <value>
+                <fullName>Delivery timeline</fullName>
+                <default>false</default>
+                <label>Delivery timeline</label>
+            </value>
+            <value>
+                <fullName>Service availability</fullName>
+                <default>false</default>
+                <label>Service availability</label>
+            </value>
+            <value>
+                <fullName>Preferred vendor</fullName>
+                <default>false</default>
+                <label>Preferred vendor</label>
+            </value>
+            <value>
+                <fullName>Reputation</fullName>
+                <default>false</default>
+                <label>Reputation</label>
+            </value>
+            <value>
+                <fullName>Support Declined</fullName>
+                <default>false</default>
+                <label>Support Declined</label>
+            </value>
+            <value>
+                <fullName>Purchased on SciStore</fullName>
+                <default>false</default>
+                <label>Purchased on SciStore</label>
+            </value>
+            <value>
+                <fullName>Sunset Product</fullName>
+                <default>false</default>
+                <label>Sunset Product</label>
+            </value>
+            <value>
+                <fullName>Combined Opportunitites</fullName>
+                <default>false</default>
+                <label>Combined Opportunitites</label>
+            </value>
+            <value>
+                <fullName>Site Closing</fullName>
+                <default>false</default>
+                <label>Site Closing</label>
+            </value>
+            <value>
+                <fullName>Repaired Old Instrument</fullName>
+                <default>false</default>
+                <label>Repaired Old Instrument</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Lack of funding</fullName>
+                <default>false</default>
+                <label>Lack of funding</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Too expensive</fullName>
+                <default>false</default>
+                <label>Too expensive</label>
+            </value>
+            <value>
+                <fullName>Lost to competitor - price</fullName>
+                <default>false</default>
+                <label>Lost to competitor - price</label>
+            </value>
+            <value>
+                <fullName>Lost to competitor - features</fullName>
+                <default>false</default>
+                <label>Lost to competitor - features</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

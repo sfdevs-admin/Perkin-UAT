@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry__c</fullName>
+    <description>the industry field from the Demonstration Information Form</description>
+    <label>Industry</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academic/Research</fullName>
+                <default>false</default>
+                <label>Academic/Research</label>
+            </value>
+            <value>
+                <fullName>Agricultural</fullName>
+                <default>false</default>
+                <label>Agricultural</label>
+            </value>
+            <value>
+                <fullName>Biotech</fullName>
+                <default>false</default>
+                <label>Biotech</label>
+            </value>
+            <value>
+                <fullName>Chemical</fullName>
+                <default>false</default>
+                <label>Chemical</label>
+            </value>
+            <value>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+                <label>Chemistry</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Contract Research Labs.</fullName>
+                <default>false</default>
+                <label>Contract Research Labs.</label>
+            </value>
+            <value>
+                <fullName>CRO</fullName>
+                <default>false</default>
+                <label>CRO</label>
+            </value>
+            <value>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+                <label>Dealer</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+                <label>Electronic</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Fragrance</fullName>
+                <default>false</default>
+                <label>Food &amp; Fragrance</label>
+            </value>
+            <value>
+                <fullName>Forensics</fullName>
+                <default>false</default>
+                <label>Forensics</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Health Services</fullName>
+                <default>false</default>
+                <label>Health Services</label>
+            </value>
+            <value>
+                <fullName>Incubator</fullName>
+                <default>false</default>
+                <label>Incubator</label>
+            </value>
+            <value>
+                <fullName>Lubricating/Used Oils</fullName>
+                <default>false</default>
+                <label>Lubricating/Used Oils</label>
+            </value>
+            <value>
+                <fullName>Medical Device</fullName>
+                <default>false</default>
+                <label>Medical Device</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Pharmceutical</fullName>
+                <default>false</default>
+                <label>Pharmceutical</label>
+            </value>
+            <value>
+                <fullName>Scientific Equipment</fullName>
+                <default>false</default>
+                <label>Scientific Equipment</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Speciality Chemicals</fullName>
+                <default>false</default>
+                <label>Speciality Chemicals</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Water/Wastewater</fullName>
+                <default>false</default>
+                <label>Water/Wastewater</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

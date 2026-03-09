@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCalculatedSeconds__c</fullName>
+    <description>Total seconds calculated against start and end time for a status or owner change</description>
+    <externalId>false</externalId>
+    <formula>( EndTime__c - StartTime__c )* 86400</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Calculation done in seconds for how long it was with that particular status or owner</inlineHelpText>
+    <label>fxCalculatedSeconds</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBL_CC_status_locked_CCT_closed</fullName>
+    <active>true</active>
+    <description>The Status cannot be changed in this Record Type.</description>
+    <errorConditionFormula>AND( 
+RecordType.Name = &#39;Customer Care - Complaint Closed&#39;
+,NOT( ISPICKVAL(Status, (&#39;Complaint PKI Closed&#39;)))
+,OR( NOT( ISPICKVAL(Status, (&#39;Sent to QMS&#39;))))
+,OR( NOT( ISPICKVAL(Status, (&#39;Cancelled&#39;)))) 
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>V.RULE_CASE_023: The Status cannot be changed in this Record Type. Please contact your System Admin to make any changes</errorMessage>
+</ValidationRule>

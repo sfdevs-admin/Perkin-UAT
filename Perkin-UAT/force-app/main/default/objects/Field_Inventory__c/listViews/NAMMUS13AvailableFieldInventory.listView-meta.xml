@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAMMUS13AvailableFieldInventory</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Current_Location__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Plant__c</field>
+        <operation>equals</operation>
+        <value>US13</value>
+    </filters>
+    <filters>
+        <field>Marketing_Business_Unit__c</field>
+        <operation>equals</operation>
+        <value>LIFE SCIENCE TECHNOLOGIES</value>
+    </filters>
+    <filters>
+        <field>Date_Sold__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>NAMM US13 - Available Field Inventory</label>
+    <language>en_US</language>
+</ListView>

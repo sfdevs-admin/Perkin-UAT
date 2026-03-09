@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assets_loaded_from_CALP</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <columns>CONTACT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>contains</operation>
+        <value>44-CLH,45-MFT,46-INV,47-TIS,50-TSC,52-MOX</value>
+    </filters>
+    <label>Assets loaded from CALP</label>
+    <language>en_US</language>
+</ListView>

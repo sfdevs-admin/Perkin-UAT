@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Warning_Message__c</fullName>
+    <description>This field is used to store the Order Warning message for the quote template. (S-692500)</description>
+    <inlineHelpText>This field is used to store the Order Warning message for the quote template.</inlineHelpText>
+    <label>Order Warning Message</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

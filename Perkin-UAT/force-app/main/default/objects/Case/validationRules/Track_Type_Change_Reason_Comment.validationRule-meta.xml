@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Track_Type_Change_Reason_Comment</fullName>
+    <active>true</active>
+    <description>When users selects Reason For Type Change, we require them to populatecomment.</description>
+    <errorConditionFormula>AND( 
+				 ISBLANK(Reason_For_Type_SubType_Change_Comment__c)
+			, NOT(ISBLANK(TEXT(Reason_For_Type_SubType_Change__c)))
+ 		, TEXT(Owned_by_Company__c)=&#39;LSDX&#39;
+			, fxRecordTypeDevName__c=&#39;Customer_Care_General&#39;/*Asked by Isa on Email scope Of AI is only for CC general cases with case origin : Email*/
+   , TEXT(Origin)=&#39;Email&#39;
+			, NOT($Permission.C_PERM_2400_Bypass_Case_V_RULES)
+			
+   )</errorConditionFormula>
+    <errorDisplayField>Reason_For_Type_SubType_Change_Comment__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_054: Kindly provide the comment for selecting the Reason for Type change.</errorMessage>
+</ValidationRule>

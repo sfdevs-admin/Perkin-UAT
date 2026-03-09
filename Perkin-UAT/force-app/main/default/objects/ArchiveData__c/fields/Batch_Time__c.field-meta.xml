@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batch_Time__c</fullName>
+    <description>This date/time was uploaded into the table where the date has been fixed (in the event we need to purge and replace a specific batch)</description>
+    <inlineHelpText>Enter This date/time was uploaded into the table where the date has been fixed (in the event we need to purge and replace a specific batch)</inlineHelpText>
+    <label>Batch Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

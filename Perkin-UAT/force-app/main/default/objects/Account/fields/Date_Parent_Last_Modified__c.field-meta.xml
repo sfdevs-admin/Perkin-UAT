@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Parent_Last_Modified__c</fullName>
+    <description>Used in the UpdateParentAutomated.apxc to determine whether or not to include this record again.</description>
+    <inlineHelpText>Used in the UpdateParentAutomated.apxc to determine whether or not to include this record again.</inlineHelpText>
+    <label>Date Parent Last Modified</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

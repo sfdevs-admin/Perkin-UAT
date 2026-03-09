@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_Segment__c</fullName>
+    <label>Market Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academia</fullName>
+                <default>false</default>
+                <label>Academia</label>
+            </value>
+            <value>
+                <fullName>Aerospace</fullName>
+                <default>false</default>
+                <label>Aerospace</label>
+            </value>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+                <label>Automotive</label>
+            </value>
+            <value>
+                <fullName>Biofuels</fullName>
+                <default>false</default>
+                <label>Biofuels</label>
+            </value>
+            <value>
+                <fullName>Cellular Research</fullName>
+                <default>false</default>
+                <label>Cellular Research</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Clinical / Biomonitoring</fullName>
+                <default>false</default>
+                <label>Clinical / Biomonitoring</label>
+            </value>
+            <value>
+                <fullName>Clinical Genetics and Diagnostics</fullName>
+                <default>false</default>
+                <label>Clinical Genetics and Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Consumer products and Product Safety</fullName>
+                <default>false</default>
+                <label>Consumer products and Product Safety</label>
+            </value>
+            <value>
+                <fullName>Consumer Products Supplier</fullName>
+                <default>false</default>
+                <label>Consumer Products Supplier</label>
+            </value>
+            <value>
+                <fullName>Research and Drug Discovery</fullName>
+                <default>false</default>
+                <label>Research and Drug Discovery</label>
+            </value>
+            <value>
+                <fullName>Electronics / Electroplating</fullName>
+                <default>false</default>
+                <label>Electronics / Electroplating</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Foods &amp; Beverages</fullName>
+                <default>false</default>
+                <label>Foods &amp; Beverages</label>
+            </value>
+            <value>
+                <fullName>Forensics</fullName>
+                <default>false</default>
+                <label>Forensics</label>
+            </value>
+            <value>
+                <fullName>General Manufacturing</fullName>
+                <default>false</default>
+                <label>General Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Genomics</fullName>
+                <default>false</default>
+                <label>Genomics</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Homeland Security</fullName>
+                <default>false</default>
+                <label>Homeland Security</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>Life Science Research</fullName>
+                <default>false</default>
+                <label>Life Science Research</label>
+            </value>
+            <value>
+                <fullName>Lubricants</fullName>
+                <default>false</default>
+                <label>Lubricants</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Mining / Metal</fullName>
+                <default>false</default>
+                <label>Mining / Metal</label>
+            </value>
+            <value>
+                <fullName>NGS</fullName>
+                <default>false</default>
+                <label>NGS</label>
+            </value>
+            <value>
+                <fullName>Nuclear</fullName>
+                <default>false</default>
+                <label>Nuclear</label>
+            </value>
+            <value>
+                <fullName>Nuclear Power and Radiation Safety</fullName>
+                <default>false</default>
+                <label>Nuclear Power and Radiation Safety</label>
+            </value>
+            <value>
+                <fullName>Nutraceuticals</fullName>
+                <default>false</default>
+                <label>Nutraceuticals</label>
+            </value>
+            <value>
+                <fullName>Optics</fullName>
+                <default>false</default>
+                <label>Optics</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Petrochemical</fullName>
+                <default>false</default>
+                <label>Petrochemical</label>
+            </value>
+            <value>
+                <fullName>Pharmaceutical &amp; Cosmetics</fullName>
+                <default>false</default>
+                <label>Pharmaceutical &amp; Cosmetics</label>
+            </value>
+            <value>
+                <fullName>Pharmaceutical Development &amp; Manufacturing</fullName>
+                <default>false</default>
+                <label>Pharmaceutical Development &amp; Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Polymers, Paints, Coatings and Plastics</fullName>
+                <default>false</default>
+                <label>Polymers, Paints, Coatings and Plastics</label>
+            </value>
+            <value>
+                <fullName>Power / Utilities</fullName>
+                <default>false</default>
+                <label>Power / Utilities</label>
+            </value>
+            <value>
+                <fullName>Semiconductors and Nanomaterials</fullName>
+                <default>false</default>
+                <label>Semiconductors and Nanomaterials</label>
+            </value>
+            <value>
+                <fullName>Solar</fullName>
+                <default>false</default>
+                <label>Solar</label>
+            </value>
+            <value>
+                <fullName>Wind</fullName>
+                <default>false</default>
+                <label>Wind</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Pharma &amp; Biotech</fullName>
+                <default>false</default>
+                <label>Pharma &amp; Biotech</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Nano</fullName>
+                <default>false</default>
+                <label>Nano</label>
+            </value>
+            <value>
+                <fullName>Food R&amp;D and Testing</fullName>
+                <default>false</default>
+                <label>Food R&amp;D and Testing</label>
+            </value>
+            <value>
+                <fullName>Food Manufacturing</fullName>
+                <default>false</default>
+                <label>Food Manufacturing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

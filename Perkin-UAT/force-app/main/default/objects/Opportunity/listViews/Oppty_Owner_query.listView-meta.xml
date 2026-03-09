@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oppty_Owner_query</fullName>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>Product_Line__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Won,Closed Lost,Abandoned</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Owner__c</field>
+        <operation>contains</operation>
+        <value>Stjernberg</value>
+    </filters>
+    <label>Oppty Owner query</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

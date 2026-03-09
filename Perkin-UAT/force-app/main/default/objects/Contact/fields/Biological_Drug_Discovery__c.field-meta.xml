@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Biological_Drug_Discovery__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Application Focus area</description>
+    <label>Biological Drug Discovery</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

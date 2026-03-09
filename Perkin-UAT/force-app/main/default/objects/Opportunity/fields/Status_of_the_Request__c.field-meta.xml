@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_of_the_Request__c</fullName>
+    <label>Status of the Request</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Submitted to Sales Leader</fullName>
+                <default>false</default>
+                <label>Submitted to Sales Leader</label>
+            </value>
+            <value>
+                <fullName>Submitted to Specialist Leader</fullName>
+                <default>false</default>
+                <label>Submitted to Specialist Leader</label>
+            </value>
+            <value>
+                <fullName>Rejected by Sales Leader</fullName>
+                <default>false</default>
+                <label>Rejected by Sales Leader</label>
+            </value>
+            <value>
+                <fullName>Specialist Assigned</fullName>
+                <default>false</default>
+                <label>Specialist Assigned</label>
+            </value>
+            <value>
+                <fullName>Rejected by Specialist Leader</fullName>
+                <default>false</default>
+                <label>Rejected by Specialist Leader</label>
+            </value>
+            <value>
+                <fullName>No further actions</fullName>
+                <default>false</default>
+                <label>No further actions</label>
+            </value>
+            <value>
+                <fullName>Waiting for customer</fullName>
+                <default>false</default>
+                <label>Waiting for customer</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

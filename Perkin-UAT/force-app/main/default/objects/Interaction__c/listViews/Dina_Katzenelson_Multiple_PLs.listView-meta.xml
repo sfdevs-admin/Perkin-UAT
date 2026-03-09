@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dina_Katzenelson_Multiple_PLs</fullName>
+    <columns>NAME</columns>
+    <columns>Country__c</columns>
+    <columns>ProductLine__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>InteractionDate__c</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>Status__c</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>PKI_Queue__c</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>InteractionAssignmentRules__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>contains</operation>
+        <value>CLR,CSB,FAP,HCA,HCS,HTS,INV,MLD,MOL,NXM,RRD,RRS</value>
+    </filters>
+    <filters>
+        <field>GlobalRegion__c</field>
+        <operation>contains</operation>
+        <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>contains</operation>
+        <value>IL,KZ,GE,BY,MD,MN,RU,AM</value>
+    </filters>
+    <label>Dina Katzenelson Multiple PLs</label>
+</ListView>

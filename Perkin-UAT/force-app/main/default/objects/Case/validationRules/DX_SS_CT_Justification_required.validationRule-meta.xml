@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_SS_CT_Justification_required</fullName>
+    <active>true</active>
+    <description>If not a Duplicate &amp; Type of Case = Complaint Internal  &amp; Complaint Justification = null</description>
+    <errorConditionFormula>AND(
+OR(RecordTypeId = &#39;0123A000001GhBb&#39; /* DX Software Services */
+,RecordTypeId = &#39;0123A000001GjKo&#39;) /* EMEA L2 */
+,NOT(PKI_GLB_Duplicate_Case__c)
+,AND(ISPICKVAL(TypeOfCase__c, &#39;Complaint - Internal&#39;)
+,ISPICKVAL(DX_Complaint_Justification__c,&#39;&#39;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>DX_Complaint_Justification__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_015: Internal Complaint Justification Required</errorMessage>
+</ValidationRule>

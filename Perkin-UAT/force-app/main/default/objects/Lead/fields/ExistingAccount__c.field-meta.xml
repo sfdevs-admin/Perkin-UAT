@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExistingAccount__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is used to select/store an existing account for a lead (and can be used in Lead Conversion if already known)</description>
+    <inlineHelpText>This is used to select/store an existing account for a lead (and can be used in Lead Conversion if already known)</inlineHelpText>
+    <label>Existing Account</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <filterItems>
+            <field>Account.Merged_Flag__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.BD_Record_Type_formula__c</field>
+            <operation>equals</operation>
+            <value>Prospect</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Leads (AccountFilter)</relationshipLabel>
+    <relationshipName>Leads3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Originating_Opportunity_INF__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Informatics - This field will get autopopulated with parent opportunity name/link when a renewal opportunity is created.</description>
+    <label>Originating (Master) Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Child Opportunities</relationshipLabel>
+    <relationshipName>Originating_Opportunity</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

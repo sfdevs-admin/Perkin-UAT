@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCOVIDItems__c</fullName>
+    <description>This will count the number of COVID-19 items on the order (if any)</description>
+    <inlineHelpText>The number of COVID-19 items on this order</inlineHelpText>
+    <label>fxCOVIDItems</label>
+    <summaryFilterItems>
+        <field>SAP_Order_Items__c.isCOVID__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SAP_Order_Items__c.PKI_Order_Summary__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

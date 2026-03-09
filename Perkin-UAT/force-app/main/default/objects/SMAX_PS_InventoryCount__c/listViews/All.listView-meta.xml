@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>SMAX_PS_Status__c</columns>
+    <columns>SMAX_PS_Technician__c</columns>
+    <columns>SMAX_PS_PlannedDate__c</columns>
+    <columns>SMAX_PS_IsBlockedForPosting__c</columns>
+    <columns>SMAX_PS_Recount_Required__c</columns>
+    <columns>SMAX_PS_RequestedFrom__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

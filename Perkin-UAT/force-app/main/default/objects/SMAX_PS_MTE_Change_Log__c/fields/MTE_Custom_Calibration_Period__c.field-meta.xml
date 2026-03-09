@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MTE_Custom_Calibration_Period__c</fullName>
+    <description>From MTE IP - is set at time of record creation based on value of formula on IP</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fixed at time of record creation to current value from MTE IP record.</inlineHelpText>
+    <label>MTE Custom Calibration Period</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

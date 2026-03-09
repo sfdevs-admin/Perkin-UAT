@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>patient_num_Mole_Diag__c</fullName>
+    <label># of Patients Molecular Diagnostics</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-50</fullName>
+                <default>false</default>
+                <label>1-50</label>
+            </value>
+            <value>
+                <fullName>51-100</fullName>
+                <default>false</default>
+                <label>51-100</label>
+            </value>
+            <value>
+                <fullName>101-250</fullName>
+                <default>false</default>
+                <label>101-250</label>
+            </value>
+            <value>
+                <fullName>251-500</fullName>
+                <default>false</default>
+                <label>251-500</label>
+            </value>
+            <value>
+                <fullName>500-1000</fullName>
+                <default>false</default>
+                <label>500-1000</label>
+            </value>
+            <value>
+                <fullName>1000+</fullName>
+                <default>false</default>
+                <label>1000+</label>
+            </value>
+            <value>
+                <fullName>Future Patient Number Potential</fullName>
+                <default>false</default>
+                <label>Future Patient Number Potential</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

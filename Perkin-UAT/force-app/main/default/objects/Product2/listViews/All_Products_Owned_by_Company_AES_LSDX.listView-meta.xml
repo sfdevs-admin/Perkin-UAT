@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Products_Owned_by_Company_AES_LSDX</fullName>
+    <columns>PRODUCT2.LAST_UPDATE</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Owned_by_Company__c</columns>
+    <columns>PricebookEntryID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>AES,LSDX</value>
+    </filters>
+    <label>All Products Owned by Company AES/LSDX</label>
+</ListView>

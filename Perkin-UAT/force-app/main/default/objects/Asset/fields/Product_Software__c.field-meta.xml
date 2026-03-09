@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Software__c</fullName>
+    <description>Product Line Dependent Picklist</description>
+    <inlineHelpText>Please select the Product Family</inlineHelpText>
+    <label>Product Software</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Line__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>iLinkPro Software v.1.0 SP1</fullName>
+                <default>false</default>
+                <label>iLinkPro Software v.1.0 SP1</label>
+            </value>
+            <value>
+                <fullName>iLinkPro Software v.1.0 SP2</fullName>
+                <default>false</default>
+                <label>iLinkPro Software v.1.0 SP2</label>
+            </value>
+            <value>
+                <fullName>iLinkPro Software v.1.1</fullName>
+                <default>false</default>
+                <label>iLinkPro Software v.1.1</label>
+            </value>
+            <value>
+                <fullName>iLinkPro Software v.1.1 SP3</fullName>
+                <default>false</default>
+                <label>iLinkPro Software v.1.1 SP3</label>
+            </value>
+            <value>
+                <fullName>iLinkPro Software v.1.1 SP4</fullName>
+                <default>false</default>
+                <label>iLinkPro Software v.1.1 SP4</label>
+            </value>
+            <value>
+                <fullName>Maestro Software v.4.1.7</fullName>
+                <default>false</default>
+                <label>Maestro Software v.4.1.7</label>
+            </value>
+            <value>
+                <fullName>Maestro Software v.4.2 SP3</fullName>
+                <default>false</default>
+                <label>Maestro Software v.4.2 SP3</label>
+            </value>
+            <value>
+                <fullName>Maestro Software v.4.4 SP1</fullName>
+                <default>false</default>
+                <label>Maestro Software v.4.4 SP1</label>
+            </value>
+            <value>
+                <fullName>Maestro Software v.4.4 SP2</fullName>
+                <default>false</default>
+                <label>Maestro Software v.4.4 SP2</label>
+            </value>
+            <value>
+                <fullName>Maestro Software v.5.0 SP1</fullName>
+                <default>false</default>
+                <label>Maestro Software v.5.0 SP1</label>
+            </value>
+            <value>
+                <fullName>RapidPlate v.1.01</fullName>
+                <default>false</default>
+                <label>RapidPlate v.1.01</label>
+            </value>
+            <value>
+                <fullName>RapidPlate v.1.4</fullName>
+                <default>false</default>
+                <label>RapidPlate v.1.4</label>
+            </value>
+            <value>
+                <fullName>RapidPlate v.2.3</fullName>
+                <default>false</default>
+                <label>RapidPlate v.2.3</label>
+            </value>
+            <value>
+                <fullName>RapidPlate v.2.4</fullName>
+                <default>false</default>
+                <label>RapidPlate v.2.4</label>
+            </value>
+            <value>
+                <fullName>RapidPlate v.2.5</fullName>
+                <default>false</default>
+                <label>RapidPlate v.2.5</label>
+            </value>
+            <value>
+                <fullName>Sciclone Software v.3.2</fullName>
+                <default>false</default>
+                <label>Sciclone Software v.3.2</label>
+            </value>
+            <value>
+                <fullName>Sciclone Software v.3.4 SP2</fullName>
+                <default>false</default>
+                <label>Sciclone Software v.3.4 SP2</label>
+            </value>
+            <value>
+                <fullName>Sciclone Software v.3.5</fullName>
+                <default>false</default>
+                <label>Sciclone Software v.3.5</label>
+            </value>
+            <value>
+                <fullName>Sciclone Software v.3.5 SP1</fullName>
+                <default>false</default>
+                <label>Sciclone Software v.3.5 SP1</label>
+            </value>
+            <value>
+                <fullName>Zephyr Genomic Workstation v.1.0</fullName>
+                <default>false</default>
+                <label>Zephyr Genomic Workstation v.1.0</label>
+            </value>
+            <value>
+                <fullName>Zephyr SPE v.1.0</fullName>
+                <default>false</default>
+                <label>Zephyr SPE v.1.0</label>
+            </value>
+            <value>
+                <fullName>Living Image v.4.3.1</fullName>
+                <default>false</default>
+                <label>Living Image v.4.3.1</label>
+            </value>
+            <value>
+                <fullName>Living Image v.4.2</fullName>
+                <default>false</default>
+                <label>Living Image v.4.2</label>
+            </value>
+            <value>
+                <fullName>Living Image v.4.1</fullName>
+                <default>false</default>
+                <label>Living Image v.4.1</label>
+            </value>
+            <value>
+                <fullName>Living Image v.4.0</fullName>
+                <default>false</default>
+                <label>Living Image v.4.0</label>
+            </value>
+            <value>
+                <fullName>Living Image v.3.2</fullName>
+                <default>false</default>
+                <label>Living Image v.3.2</label>
+            </value>
+            <value>
+                <fullName>Living Image v.3.1</fullName>
+                <default>false</default>
+                <label>Living Image v.3.1</label>
+            </value>
+            <value>
+                <fullName>Living Image v.3.0</fullName>
+                <default>false</default>
+                <label>Living Image v.3.0</label>
+            </value>
+            <value>
+                <fullName>Living Image v.2.60.02</fullName>
+                <default>false</default>
+                <label>Living Image v.2.60.02</label>
+            </value>
+            <value>
+                <fullName>Living Image v.2.60</fullName>
+                <default>false</default>
+                <label>Living Image v.2.60</label>
+            </value>
+            <value>
+                <fullName>Living Image v.2.50</fullName>
+                <default>false</default>
+                <label>Living Image v.2.50</label>
+            </value>
+            <value>
+                <fullName>Desktop Profiler/EZ Reader v.1.1</fullName>
+                <default>false</default>
+                <label>Desktop Profiler/EZ Reader v.1.1</label>
+            </value>
+            <value>
+                <fullName>Desktop Profiler/EZ Reader v.2.0</fullName>
+                <default>false</default>
+                <label>Desktop Profiler/EZ Reader v.2.0</label>
+            </value>
+            <value>
+                <fullName>Desktop Profiler/EZ Reader v.2.1</fullName>
+                <default>false</default>
+                <label>Desktop Profiler/EZ Reader v.2.1</label>
+            </value>
+            <value>
+                <fullName>Desktop Profiler/EZ Reader v.2.2</fullName>
+                <default>false</default>
+                <label>Desktop Profiler/EZ Reader v.2.2</label>
+            </value>
+            <value>
+                <fullName>Labchip GX v.1.0</fullName>
+                <default>false</default>
+                <label>Labchip GX v.1.0</label>
+            </value>
+            <value>
+                <fullName>Labchip GX v.1.1</fullName>
+                <default>false</default>
+                <label>Labchip GX v.1.1</label>
+            </value>
+            <value>
+                <fullName>Labchip GX v.2.0</fullName>
+                <default>false</default>
+                <label>Labchip GX v.2.0</label>
+            </value>
+            <value>
+                <fullName>Labchip GX v.2.1</fullName>
+                <default>false</default>
+                <label>Labchip GX v.2.1</label>
+            </value>
+            <value>
+                <fullName>LabChip GX v3.0</fullName>
+                <default>false</default>
+                <label>LabChip GX v3.0</label>
+            </value>
+            <value>
+                <fullName>3DH (MS90100-DSV)</fullName>
+                <default>false</default>
+                <label>3DH (MS90100-DSV)</label>
+            </value>
+            <value>
+                <fullName>Abrio (MS90060)</fullName>
+                <default>false</default>
+                <label>Abrio (MS90060)</label>
+            </value>
+            <value>
+                <fullName>Abrio IM (MS90064)</fullName>
+                <default>false</default>
+                <label>Abrio IM (MS90064)</label>
+            </value>
+            <value>
+                <fullName>inForm (MS90087)</fullName>
+                <default>false</default>
+                <label>inForm (MS90087)</label>
+            </value>
+            <value>
+                <fullName>Maestro (MS90036)</fullName>
+                <default>false</default>
+                <label>Maestro (MS90036)</label>
+            </value>
+            <value>
+                <fullName>MicroColor (MS90070)</fullName>
+                <default>false</default>
+                <label>MicroColor (MS90070)</label>
+            </value>
+            <value>
+                <fullName>Nuance (MS90031)</fullName>
+                <default>false</default>
+                <label>Nuance (MS90031)</label>
+            </value>
+            <value>
+                <fullName>Oosight Basic (MS90051)</fullName>
+                <default>false</default>
+                <label>Oosight Basic (MS90051)</label>
+            </value>
+            <value>
+                <fullName>Oosight Meta (MS90052)</fullName>
+                <default>false</default>
+                <label>Oosight Meta (MS90052)</label>
+            </value>
+            <value>
+                <fullName>Oosight Ultra (MS90053)</fullName>
+                <default>false</default>
+                <label>Oosight Ultra (MS90053)</label>
+            </value>
+            <value>
+                <fullName>SLM (MS90018)</fullName>
+                <default>false</default>
+                <label>SLM (MS90018)</label>
+            </value>
+            <value>
+                <fullName>VariSpec (MS90042)</fullName>
+                <default>false</default>
+                <label>VariSpec (MS90042)</label>
+            </value>
+            <value>
+                <fullName>Vectra (MS90089)</fullName>
+                <default>false</default>
+                <label>Vectra (MS90089)</label>
+            </value>
+            <value>
+                <fullName>Other (See Comments)</fullName>
+                <default>false</default>
+                <label>Other (See Comments)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Desktop Profiler/EZ Reader v.1.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Desktop Profiler/EZ Reader v.2.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Desktop Profiler/EZ Reader v.2.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Desktop Profiler/EZ Reader v.2.2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Labchip GX v.1.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Labchip GX v.1.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Labchip GX v.2.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>Labchip GX v.2.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MFT</controllingFieldValue>
+            <valueName>LabChip GX v3.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>3DH (MS90100-DSV)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>Abrio (MS90060)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>Abrio IM (MS90064)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>inForm (MS90087)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>MicroColor (MS90070)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>Nuance (MS90031)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>Oosight Basic (MS90051)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>Oosight Meta (MS90052)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>Oosight Ultra (MS90053)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>SLM (MS90018)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>VariSpec (MS90042)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TIS</controllingFieldValue>
+            <valueName>Vectra (MS90089)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.4.3.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.4.2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.4.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.4.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.3.2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.3.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.3.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.2.60.02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.2.60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Living Image v.2.50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INV</controllingFieldValue>
+            <valueName>Maestro (MS90036)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>iLinkPro Software v.1.0 SP1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>iLinkPro Software v.1.0 SP2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>iLinkPro Software v.1.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>iLinkPro Software v.1.1 SP3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>iLinkPro Software v.1.1 SP4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Maestro Software v.4.1.7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Maestro Software v.4.2 SP3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Maestro Software v.4.4 SP1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Maestro Software v.4.4 SP2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Maestro Software v.5.0 SP1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>RapidPlate v.1.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>RapidPlate v.1.4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>RapidPlate v.2.3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>RapidPlate v.2.4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>RapidPlate v.2.5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Sciclone Software v.3.2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Sciclone Software v.3.4 SP2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Sciclone Software v.3.5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Sciclone Software v.3.5 SP1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Zephyr Genomic Workstation v.1.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLH</controllingFieldValue>
+            <valueName>Zephyr SPE v.1.0</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

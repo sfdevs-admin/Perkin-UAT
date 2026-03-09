@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Requires_Issue_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+   OR( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE
+      ,RecordType.DeveloperName=&quot;Cloud_Operations&quot;
+      ,RecordType.DeveloperName=&quot;Sec_Operations&quot;
+     )
+  ,false
+  ,IF( External_Email_Inbox__c =&quot;einvoicing@perkinelmer.com&quot;
+      ,false
+      ,IF(AND(TEXT(Type)=&#39;Issue&#39;
+              ,TEXT(Issue_Type__c)=&#39;&#39;
+	      ,RecordType.DeveloperName !=&quot;Address_Review&quot;
+              )
+          ,true
+          ,false
+          )
+      )
+   )
+
+/*$ Profile.Id &lt;&gt; &quot;00e30000001Z46G&quot;,
+             &lt;&gt; &quot;00e30000001Z46G&quot;;
+*/</errorConditionFormula>
+    <errorDisplayField>Issue_Type__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_043: If &quot;Type&quot;  =   &quot;Issue&quot;  then an &#39;Issue Type&#39; is required</errorMessage>
+</ValidationRule>

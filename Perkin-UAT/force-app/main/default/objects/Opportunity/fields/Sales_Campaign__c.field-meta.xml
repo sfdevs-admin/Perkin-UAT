@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Campaign__c</fullName>
+    <label>Sales Campaign</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>BD_Region__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>2400 GC Platform</fullName>
+                <default>false</default>
+                <label>2400 GC Platform</label>
+            </value>
+            <value>
+                <fullName>Advanced materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advanced materials</label>
+            </value>
+            <value>
+                <fullName>Avio550 Korea</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Avio550 Korea</label>
+            </value>
+            <value>
+                <fullName>Battery</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Battery</label>
+            </value>
+            <value>
+                <fullName>Battery &amp; New Materials</fullName>
+                <default>false</default>
+                <label>Battery &amp; New Materials</label>
+            </value>
+            <value>
+                <fullName>Brazil - Oils and Lubricants</fullName>
+                <default>false</default>
+                <label>Brazil - Oils and Lubricants</label>
+            </value>
+            <value>
+                <fullName>Brazil - Pharma and Polymers</fullName>
+                <default>false</default>
+                <label>Brazil - Pharma and Polymers</label>
+            </value>
+            <value>
+                <fullName>Brazil- Renewed energy Biofuels GH2</fullName>
+                <default>false</default>
+                <label>Brazil- Renewed energy Biofuels GH2</label>
+            </value>
+            <value>
+                <fullName>Central - #GoldCard (GC2400/ LC300) prom</fullName>
+                <default>false</default>
+                <label>Central - #GoldCard (GC2400/ LC300) prom</label>
+            </value>
+            <value>
+                <fullName>Central - GC for Pharma</fullName>
+                <default>false</default>
+                <label>Central - GC for Pharma</label>
+            </value>
+            <value>
+                <fullName>Central - Global Key Accounts</fullName>
+                <default>false</default>
+                <label>Central - Global Key Accounts</label>
+            </value>
+            <value>
+                <fullName>Channel Management</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Channel Management</label>
+            </value>
+            <value>
+                <fullName>Channel Partner Management</fullName>
+                <default>false</default>
+                <label>Channel Partner Management</label>
+            </value>
+            <value>
+                <fullName>Chrom Recovery Plan (exl. LCM)</fullName>
+                <default>false</default>
+                <label>Chrom Recovery Plan (exl. LCM)</label>
+            </value>
+            <value>
+                <fullName>Distributors</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Distributors</label>
+            </value>
+            <value>
+                <fullName>Elemental Speciation</fullName>
+                <default>false</default>
+                <label>Elemental Speciation</label>
+            </value>
+            <value>
+                <fullName>End Of Life campaigns - Chrom</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>End Of Life campaigns - Chrom</label>
+            </value>
+            <value>
+                <fullName>End Of Life campaigns - Inorganic</fullName>
+                <default>false</default>
+                <label>End Of Life campaigns - Inorganic</label>
+            </value>
+            <value>
+                <fullName>End Of Life campaigns - MatChar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>End Of Life campaigns - MatChar</label>
+            </value>
+            <value>
+                <fullName>Environmental Duplicate instruments</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Environmental Duplicate instruments</label>
+            </value>
+            <value>
+                <fullName>EOSL</fullName>
+                <default>false</default>
+                <label>EOSL</label>
+            </value>
+            <value>
+                <fullName>Gold Card</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gold Card</label>
+            </value>
+            <value>
+                <fullName>High End Matchar</fullName>
+                <default>false</default>
+                <label>High End Matchar</label>
+            </value>
+            <value>
+                <fullName>Japan - Nuclear</fullName>
+                <default>false</default>
+                <label>Japan - Nuclear</label>
+            </value>
+            <value>
+                <fullName>Key Accounts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Key Accounts</label>
+            </value>
+            <value>
+                <fullName>Korea - Cosmetics</fullName>
+                <default>false</default>
+                <label>Korea - Cosmetics</label>
+            </value>
+            <value>
+                <fullName>Lambda750</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lambda750</label>
+            </value>
+            <value>
+                <fullName>Mexico - Agribusiness and Advance Materials</fullName>
+                <default>false</default>
+                <label>Mexico - Agribusiness and Advance Materials</label>
+            </value>
+            <value>
+                <fullName>Mexico - Distributors Excellence Program</fullName>
+                <default>false</default>
+                <label>Mexico - Distributors Excellence Program</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>No Campaign/ Business as Usual</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Campaign/ Business as Usual</label>
+            </value>
+            <value>
+                <fullName>No Campaign - Business As Usual</fullName>
+                <default>false</default>
+                <label>No Campaign - Business As Usual</label>
+            </value>
+            <value>
+                <fullName>NPI - DSC/STA/TGA9</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NPI - DSC/STA/TGA9</label>
+            </value>
+            <value>
+                <fullName>NPI - DSC8500</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NPI - DSC8500</label>
+            </value>
+            <value>
+                <fullName>NPI - N1100</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NPI - N1100</label>
+            </value>
+            <value>
+                <fullName>NPI - Qsight 500</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NPI - Qsight 500</label>
+            </value>
+            <value>
+                <fullName>NPI - Spotlight Aurora</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NPI - Spotlight Aurora</label>
+            </value>
+            <value>
+                <fullName>Qsight 500</fullName>
+                <default>false</default>
+                <label>Qsight 500</label>
+            </value>
+            <value>
+                <fullName>Recertified</fullName>
+                <default>false</default>
+                <label>Recertified</label>
+            </value>
+            <value>
+                <fullName>Recertified and Trade-in</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Recertified and Trade-in</label>
+            </value>
+            <value>
+                <fullName>Recycled Polymer</fullName>
+                <default>false</default>
+                <label>Recycled Polymer</label>
+            </value>
+            <value>
+                <fullName>Regional Key Accounts</fullName>
+                <default>false</default>
+                <label>Regional Key Accounts</label>
+            </value>
+            <value>
+                <fullName>SEA - Environment Safety</fullName>
+                <default>false</default>
+                <label>SEA - Environment Safety</label>
+            </value>
+            <value>
+                <fullName>SEA - Rare Earth Exploration and Processing</fullName>
+                <default>false</default>
+                <label>SEA - Rare Earth Exploration and Processing</label>
+            </value>
+            <value>
+                <fullName>SEA - Sustainable Fuel (SAF)</fullName>
+                <default>false</default>
+                <label>SEA - Sustainable Fuel (SAF)</label>
+            </value>
+            <value>
+                <fullName>Semiconductor</fullName>
+                <default>false</default>
+                <label>Semiconductor</label>
+            </value>
+            <value>
+                <fullName>Semiconductors</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Semiconductors</label>
+            </value>
+            <value>
+                <fullName>Tradein</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tradein</label>
+            </value>
+            <value>
+                <fullName>Trade-In</fullName>
+                <default>false</default>
+                <label>Trade-In</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <controllingFieldValue>NORTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>SOUTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>EMT</controllingFieldValue>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <controllingFieldValue>GREATER CHINA</controllingFieldValue>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>Central - #GoldCard (GC2400/ LC300) prom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <controllingFieldValue>NORTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>SOUTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>EMT</controllingFieldValue>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <controllingFieldValue>GREATER CHINA</controllingFieldValue>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>Central - GC for Pharma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <controllingFieldValue>NORTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>SOUTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>EMT</controllingFieldValue>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <controllingFieldValue>GREATER CHINA</controllingFieldValue>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>Central - Global Key Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <controllingFieldValue>GREATER CHINA</controllingFieldValue>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>Channel Partner Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <valueName>Elemental Speciation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <valueName>EOSL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <valueName>Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <controllingFieldValue>NORTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>SOUTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>EMT</controllingFieldValue>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <controllingFieldValue>GREATER CHINA</controllingFieldValue>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>No Campaign - Business As Usual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <valueName>Recertified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <controllingFieldValue>GREATER CHINA</controllingFieldValue>
+            <valueName>Regional Key Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAM</controllingFieldValue>
+            <valueName>Trade-In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Brazil - Oils and Lubricants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Brazil - Pharma and Polymers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Brazil- Renewed energy Biofuels GH2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Mexico - Agribusiness and Advance Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Mexico - Distributors Excellence Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>SOUTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>EMT</controllingFieldValue>
+            <valueName>Chrom Recovery Plan (exl. LCM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>SOUTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>EMT</controllingFieldValue>
+            <valueName>High End Matchar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NORTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>SOUTH EUROPE</controllingFieldValue>
+            <controllingFieldValue>EMT</controllingFieldValue>
+            <valueName>Qsight 500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <valueName>2400 GC Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <valueName>Recycled Polymer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GREATER INDIA</controllingFieldValue>
+            <controllingFieldValue>GREATER CHINA</controllingFieldValue>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>Semiconductor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GREATER CHINA</controllingFieldValue>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>Battery &amp; New Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>Japan - Nuclear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>Korea - Cosmetics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>SEA - Environment Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>SEA - Rare Earth Exploration and Processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KOSJ</controllingFieldValue>
+            <valueName>SEA - Sustainable Fuel (SAF)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

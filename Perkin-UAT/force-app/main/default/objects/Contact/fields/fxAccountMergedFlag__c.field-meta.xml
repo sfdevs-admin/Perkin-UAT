@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxAccountMergedFlag__c</fullName>
+    <description>This is for use to mirror Account Merge Flag. Updated via L.FLOW 2100/2200</description>
+    <inlineHelpText>This is for use to mirror Account Merge Flag.</inlineHelpText>
+    <label>fxAccountMergedFlag</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_000_True_False</valueSetName>
+    </valueSet>
+</CustomField>

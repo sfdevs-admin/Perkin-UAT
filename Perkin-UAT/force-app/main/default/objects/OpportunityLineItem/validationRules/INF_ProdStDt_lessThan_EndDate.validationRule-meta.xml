@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_ProdStDt_lessThan_EndDate</fullName>
+    <active>true</active>
+    <description>End Date should not be greated than Start date</description>
+    <errorConditionFormula>AND(End_Date_INF__c  &lt;   Start_Date_INF__c, Product2.Business_Unit__c == &#39;INF&#39; )</errorConditionFormula>
+    <errorDisplayField>Start_Date_INF__c</errorDisplayField>
+    <errorMessage>V.RULE_OPP_PRODUCT_001:  End Date must not be lesser than Start Date</errorMessage>
+</ValidationRule>

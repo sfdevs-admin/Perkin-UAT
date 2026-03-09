@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_Weightage__c</fullName>
+    <formula>CASE(TEXT(Opportunity.StageName),&quot;Stage 4 - Objection Handling&quot;,  TotalPrice  *0.5,&quot;Stage 5 - Preferred&quot;,  TotalPrice  *0.80,&quot;Stage 6 - Negotiating/Forecast&quot;, TotalPrice *1,&quot;Closed Won&quot;, TotalPrice *1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Amount Weightage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

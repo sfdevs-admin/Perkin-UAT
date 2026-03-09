@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem_type__c</fullName>
+    <label>Problem Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Business Related</fullName>
+                <default>false</default>
+                <label>Business Related</label>
+            </value>
+            <value>
+                <fullName>General and Other issues</fullName>
+                <default>false</default>
+                <label>General and Other issues</label>
+            </value>
+            <value>
+                <fullName>Mobile Salesforce.com</fullName>
+                <default>false</default>
+                <label>Mobile Salesforce.com</label>
+            </value>
+            <value>
+                <fullName>New User Request</fullName>
+                <default>false</default>
+                <label>New User Request</label>
+            </value>
+            <value>
+                <fullName>Reports and Dashboards</fullName>
+                <default>false</default>
+                <label>Reports and Dashboards</label>
+            </value>
+            <value>
+                <fullName>Salesforce.com How-Tos</fullName>
+                <default>false</default>
+                <label>Salesforce.com How-Tos</label>
+            </value>
+            <value>
+                <fullName>Sales functionality</fullName>
+                <default>false</default>
+                <label>Sales functionality</label>
+            </value>
+            <value>
+                <fullName>Service functionality</fullName>
+                <default>false</default>
+                <label>Service functionality</label>
+            </value>
+            <value>
+                <fullName>Technical Issue</fullName>
+                <default>false</default>
+                <label>Technical Issue</label>
+            </value>
+            <value>
+                <fullName>User Reactivation</fullName>
+                <default>false</default>
+                <label>User Reactivation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

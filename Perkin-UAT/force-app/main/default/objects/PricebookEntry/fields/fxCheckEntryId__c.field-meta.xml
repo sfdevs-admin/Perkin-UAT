@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCheckEntryId__c</fullName>
+    <description>This will check if the External ID matches the formulated external ID</description>
+    <formula>/*OR(
+   LEFT(Pricebook_entry_ID__c,LEN(Pricebook_entry_ID__c)-19) =  Pricebook_Entry_Formula__c
+ , Pricebook_entry_ID__c =  Pricebook_Entry_Formula__c
+  )
+*/
+
+ Pricebook_entry_ID__c =  Pricebook_Entry_Formula__c</formula>
+    <inlineHelpText>This will check if the External ID matches the formulated external ID</inlineHelpText>
+    <label>fxCheckEntryId</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Native_Queue_ID__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used to highlight updated records to resolve issue with legacy queue IDs in NewProd</description>
+    <label>Update Native Queue ID</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

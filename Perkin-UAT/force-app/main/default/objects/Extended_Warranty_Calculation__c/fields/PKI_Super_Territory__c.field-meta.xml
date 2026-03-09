@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Super_Territory__c</fullName>
+    <description>Field to Store Territory for Warranty Products. (Source: S-692534)</description>
+    <inlineHelpText>Field to Store Territory for Warranty Products.</inlineHelpText>
+    <label>PKI Super Territory</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_021_Territory_Super</valueSetName>
+    </valueSet>
+</CustomField>

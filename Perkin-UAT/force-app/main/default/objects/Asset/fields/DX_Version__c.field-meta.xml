@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Version__c</fullName>
+    <description>Captures asset versions installed at the client site</description>
+    <label>Version</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1.0</fullName>
+                <default>false</default>
+                <label>1.0</label>
+            </value>
+            <value>
+                <fullName>1.0.0.408</fullName>
+                <default>false</default>
+                <label>1.0.0.408</label>
+            </value>
+            <value>
+                <fullName>1.0 R2</fullName>
+                <default>false</default>
+                <label>1.0 R2</label>
+            </value>
+            <value>
+                <fullName>1.0 R3</fullName>
+                <default>false</default>
+                <label>1.0 R3</label>
+            </value>
+            <value>
+                <fullName>1.1</fullName>
+                <default>false</default>
+                <label>1.1</label>
+            </value>
+            <value>
+                <fullName>1.2</fullName>
+                <default>false</default>
+                <label>1.2</label>
+            </value>
+            <value>
+                <fullName>1.2 R2</fullName>
+                <default>false</default>
+                <label>1.2 R2</label>
+            </value>
+            <value>
+                <fullName>1.3</fullName>
+                <default>false</default>
+                <label>1.3</label>
+            </value>
+            <value>
+                <fullName>1.3 R2</fullName>
+                <default>false</default>
+                <label>1.3 R2</label>
+            </value>
+            <value>
+                <fullName>1.4</fullName>
+                <default>false</default>
+                <label>1.4</label>
+            </value>
+            <value>
+                <fullName>1.5</fullName>
+                <default>false</default>
+                <label>1.5</label>
+            </value>
+            <value>
+                <fullName>1.6</fullName>
+                <default>false</default>
+                <label>1.6</label>
+            </value>
+            <value>
+                <fullName>1.7</fullName>
+                <default>false</default>
+                <label>1.7</label>
+            </value>
+            <value>
+                <fullName>1.7 R2</fullName>
+                <default>false</default>
+                <label>1.7 R2</label>
+            </value>
+            <value>
+                <fullName>1.8</fullName>
+                <default>false</default>
+                <label>1.8</label>
+            </value>
+            <value>
+                <fullName>1.9</fullName>
+                <default>false</default>
+                <label>1.9</label>
+            </value>
+            <value>
+                <fullName>2.0</fullName>
+                <default>false</default>
+                <label>2.0</label>
+            </value>
+            <value>
+                <fullName>2.1</fullName>
+                <default>false</default>
+                <label>2.1</label>
+            </value>
+            <value>
+                <fullName>2.2</fullName>
+                <default>false</default>
+                <label>2.2</label>
+            </value>
+            <value>
+                <fullName>2.3</fullName>
+                <default>false</default>
+                <label>2.3</label>
+            </value>
+            <value>
+                <fullName>2.5.1</fullName>
+                <default>false</default>
+                <label>2.5.1</label>
+            </value>
+            <value>
+                <fullName>2008</fullName>
+                <default>false</default>
+                <label>2008</label>
+            </value>
+            <value>
+                <fullName>2008 R2</fullName>
+                <default>false</default>
+                <label>2008 R2</label>
+            </value>
+            <value>
+                <fullName>2011</fullName>
+                <default>false</default>
+                <label>2011</label>
+            </value>
+            <value>
+                <fullName>2012</fullName>
+                <default>false</default>
+                <label>2012</label>
+            </value>
+            <value>
+                <fullName>2012 R2</fullName>
+                <default>false</default>
+                <label>2012 R2</label>
+            </value>
+            <value>
+                <fullName>2013</fullName>
+                <default>false</default>
+                <label>2013</label>
+            </value>
+            <value>
+                <fullName>2014</fullName>
+                <default>false</default>
+                <label>2014</label>
+            </value>
+            <value>
+                <fullName>2015</fullName>
+                <default>false</default>
+                <label>2015</label>
+            </value>
+            <value>
+                <fullName>2015 R2</fullName>
+                <default>false</default>
+                <label>2015 R2</label>
+            </value>
+            <value>
+                <fullName>2016</fullName>
+                <default>false</default>
+                <label>2016</label>
+            </value>
+            <value>
+                <fullName>2017</fullName>
+                <default>false</default>
+                <label>2017</label>
+            </value>
+            <value>
+                <fullName>2018</fullName>
+                <default>false</default>
+                <label>2018</label>
+            </value>
+            <value>
+                <fullName>2019</fullName>
+                <default>false</default>
+                <label>2019</label>
+            </value>
+            <value>
+                <fullName>2020</fullName>
+                <default>false</default>
+                <label>2020</label>
+            </value>
+            <value>
+                <fullName>2021</fullName>
+                <default>false</default>
+                <label>2021</label>
+            </value>
+            <value>
+                <fullName>2022</fullName>
+                <default>false</default>
+                <label>2022</label>
+            </value>
+            <value>
+                <fullName>2023</fullName>
+                <default>false</default>
+                <label>2023</label>
+            </value>
+            <value>
+                <fullName>2024</fullName>
+                <default>false</default>
+                <label>2024</label>
+            </value>
+            <value>
+                <fullName>2025</fullName>
+                <default>false</default>
+                <label>2025</label>
+            </value>
+            <value>
+                <fullName>3.0</fullName>
+                <default>false</default>
+                <label>3.0</label>
+            </value>
+            <value>
+                <fullName>3.1</fullName>
+                <default>false</default>
+                <label>3.1</label>
+            </value>
+            <value>
+                <fullName>3.1.8</fullName>
+                <default>false</default>
+                <label>3.1.8</label>
+            </value>
+            <value>
+                <fullName>3.2</fullName>
+                <default>false</default>
+                <label>3.2</label>
+            </value>
+            <value>
+                <fullName>4.0</fullName>
+                <default>false</default>
+                <label>4.0</label>
+            </value>
+            <value>
+                <fullName>4.0 R2</fullName>
+                <default>false</default>
+                <label>4.0 R2</label>
+            </value>
+            <value>
+                <fullName>4.0 R3</fullName>
+                <default>false</default>
+                <label>4.0 R3</label>
+            </value>
+            <value>
+                <fullName>4.0 R4</fullName>
+                <default>false</default>
+                <label>4.0 R4</label>
+            </value>
+            <value>
+                <fullName>4.0 R4 Media F</fullName>
+                <default>false</default>
+                <label>4.0 R4 Media F</label>
+            </value>
+            <value>
+                <fullName>4.0 R4 Media G</fullName>
+                <default>false</default>
+                <label>4.0 R4 Media G</label>
+            </value>
+            <value>
+                <fullName>5.0</fullName>
+                <default>false</default>
+                <label>5.0</label>
+            </value>
+            <value>
+                <fullName>5.1</fullName>
+                <default>false</default>
+                <label>5.1</label>
+            </value>
+            <value>
+                <fullName>6.0</fullName>
+                <default>false</default>
+                <label>6.0</label>
+            </value>
+            <value>
+                <fullName>7.0</fullName>
+                <default>false</default>
+                <label>7.0</label>
+            </value>
+            <value>
+                <fullName>7.0 R2</fullName>
+                <default>false</default>
+                <label>7.0 R2</label>
+            </value>
+            <value>
+                <fullName>7.0 R3</fullName>
+                <default>false</default>
+                <label>7.0 R3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

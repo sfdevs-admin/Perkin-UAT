@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_IRA_Specimens__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>(Account must have a least 1 Web Access user)</description>
+    <inlineHelpText>(Account must have a least 1 Web Access user)</inlineHelpText>
+    <label>Send IRA Specimens</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

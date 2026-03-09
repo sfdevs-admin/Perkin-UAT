@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Closing_Open_Interaction</fullName>
+    <active>true</active>
+    <description>Users can only close an interaction after it has been set as Working.</description>
+    <errorConditionFormula>OR(
+   AND(
+       TEXT(Status__c) &lt;&gt;&quot;Closed&quot;
+      ,NOT(ISBLANK(TEXT(ClosedStatus__c)))
+      ,ISBLANK(Opportunity__c)
+      ,NOT($Permission.C_PERM_4100_Change_Interaction_Status)
+      )
+
+  , AND(
+      TEXT(PRIORVALUE(Status__c)) = &quot;Open&quot;
+      ,TEXT(Status__c)=&quot;Closed&quot; 
+      ,ISBLANK(Opportunity__c)
+      ,NOT($Permission.C_PERM_4100_Change_Interaction_Status)
+      )
+  )</errorConditionFormula>
+    <errorDisplayField>ClosedStatus__c</errorDisplayField>
+    <errorMessage>V.RULE_INTERACTION_005:  Please use one of the buttons (Convert, Nurture, Abandon) instead of changing the Closed Status manually.</errorMessage>
+</ValidationRule>

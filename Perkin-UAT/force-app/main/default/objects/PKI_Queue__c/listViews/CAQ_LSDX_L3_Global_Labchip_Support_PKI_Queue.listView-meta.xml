@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAQ_LSDX_L3_Global_Labchip_Support_PKI_Queue</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: LSDX L3 Global Labchip Support</label>
+    <queue>ARQ_001253</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

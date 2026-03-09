@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Restrict_Users_to_Modify_Pricebboks</fullName>
+    <active>true</active>
+    <description>Restrict users to Modify Pricebooks</description>
+    <errorConditionFormula>AND(
+  $Profile.Name = &quot;PROFILE: PKI Sales&quot;,
+  (ISCHANGED( Name ) || ISCHANGED(Description) || ISCHANGED(IsActive)),
+  NOT($Permission.C_PERM_Edit_Pricebook_Entries)
+)</errorConditionFormula>
+    <errorMessage>Contact CPQ team to Modify Pricebook Information</errorMessage>
+</ValidationRule>

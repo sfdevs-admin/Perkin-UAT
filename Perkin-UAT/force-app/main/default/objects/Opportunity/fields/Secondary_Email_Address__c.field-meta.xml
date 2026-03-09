@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Email_Address__c</fullName>
+    <description>This Field is under the &quot;Electronic Delivery Section&quot; and the details are sent to NetSuite when the Order is processed through integration(ITSFDC-5103)</description>
+    <inlineHelpText>Optional field, add additional contacts to receive software email notification. Multiple emails can be added by separating with comma (no space).</inlineHelpText>
+    <label>Secondary Email Address</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

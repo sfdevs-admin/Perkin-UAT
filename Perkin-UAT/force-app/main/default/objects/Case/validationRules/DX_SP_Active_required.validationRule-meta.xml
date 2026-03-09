@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_SP_Active_required</fullName>
+    <active>true</active>
+    <description>Fields required when DX SP is active</description>
+    <errorConditionFormula>IF(AND(RecordTypeId=&#39;0123A000001GhBc&#39; /* DX Support */
+,ISPICKVAL(Status,&#39;Active&#39;)
+,NOT(PKI_GLB_Duplicate_Case__c)
+,OR(ISPICKVAL(Origin,&#39;&#39;)
+,ISBLANK(Subject)))
+,true,false)</errorConditionFormula>
+    <errorDisplayField>Origin</errorDisplayField>
+    <errorMessage>V.RULE_CASE_011:  Case Origin, Subject fields are required</errorMessage>
+</ValidationRule>

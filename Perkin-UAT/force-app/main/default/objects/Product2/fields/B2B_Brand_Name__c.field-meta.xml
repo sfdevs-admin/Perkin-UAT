@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Brand_Name__c</fullName>
+    <description>Used to select the brand name for products. Perk-75</description>
+    <label>Brand Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AssureID</fullName>
+                <default>false</default>
+                <label>AssureID</label>
+            </value>
+            <value>
+                <fullName>BTO Orange Injection Port Septa</fullName>
+                <default>false</default>
+                <label>BTO Orange Injection Port Septa</label>
+            </value>
+            <value>
+                <fullName>Clarus</fullName>
+                <default>false</default>
+                <label>Clarus</label>
+            </value>
+            <value>
+                <fullName>Green Injection Port Septa</fullName>
+                <default>false</default>
+                <label>Green Injection Port Septa</label>
+            </value>
+            <value>
+                <fullName>LAMBDA</fullName>
+                <default>false</default>
+                <label>LAMBDA</label>
+            </value>
+            <value>
+                <fullName>Lumina</fullName>
+                <default>false</default>
+                <label>Lumina</label>
+            </value>
+            <value>
+                <fullName>NexION</fullName>
+                <default>false</default>
+                <label>NexION</label>
+            </value>
+            <value>
+                <fullName>Pecosphere</fullName>
+                <default>false</default>
+                <label>Pecosphere</label>
+            </value>
+            <value>
+                <fullName>PerkinElmer Advanced Green</fullName>
+                <default>false</default>
+                <label>PerkinElmer Advanced Green</label>
+            </value>
+            <value>
+                <fullName>PinAAcle</fullName>
+                <default>false</default>
+                <label>PinAAcle</label>
+            </value>
+            <value>
+                <fullName>PureView™</fullName>
+                <default>false</default>
+                <label>PureView™</label>
+            </value>
+            <value>
+                <fullName>SPB</fullName>
+                <default>false</default>
+                <label>SPB</label>
+            </value>
+            <value>
+                <fullName>Spectrum Two</fullName>
+                <default>false</default>
+                <label>Spectrum Two</label>
+            </value>
+            <value>
+                <fullName>Spheri-10</fullName>
+                <default>false</default>
+                <label>Spheri-10</label>
+            </value>
+            <value>
+                <fullName>Spheri-5</fullName>
+                <default>false</default>
+                <label>Spheri-5</label>
+            </value>
+            <value>
+                <fullName>Torion®</fullName>
+                <default>false</default>
+                <label>Torion®</label>
+            </value>
+            <value>
+                <fullName>TurboMatrix</fullName>
+                <default>false</default>
+                <label>TurboMatrix</label>
+            </value>
+            <value>
+                <fullName>Pyris</fullName>
+                <default>false</default>
+                <label>Pyris</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

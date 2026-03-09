@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store0ZSPs0000000GZROA2</fullName>
+    <columns>Name</columns>
+    <columns>IsNavigational</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Catalog</field>
+        <operation>equals</operation>
+        <value>PerkinElmer Catalog</value>
+    </filters>
+    <label>PerkinElmer Categories</label>
+</ListView>

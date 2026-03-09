@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ServiceCon_Require_Closed_Reason_Detail</fullName>
+    <active>true</active>
+    <description>Require Close Reason Detail when Service Competitor is Other</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName = &quot;ServiceContract&quot;,
+ISPICKVAL(StageName , &quot;Closed Lost&quot;),
+ISPICKVAL(Closed_Reason__c , &quot;Using 3rd party service provider/in-house&quot;),
+ISPICKVAL(Service_Competitor__c , &quot;Other&quot;), 
+ISBLANK(Reason_Lost_Detail__c)
+)</errorConditionFormula>
+    <errorDisplayField>Reason_Lost_Detail__c</errorDisplayField>
+    <errorMessage>Close Reason Detail is required is when Service_Competitor__c  =  Other</errorMessage>
+</ValidationRule>

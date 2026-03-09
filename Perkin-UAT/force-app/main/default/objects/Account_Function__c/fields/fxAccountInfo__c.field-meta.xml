@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxAccountInfo__c</fullName>
+    <description>this will be used for the S.FLOW_5112 to be able to show user info about the account on the lookup list.</description>
+    <externalId>false</externalId>
+    <formula>&quot;Deal? &quot; &amp;  IF(fxSAPHasDeal__c,&quot;YES&quot;,&quot;No&quot;) &amp; &quot; / Txn#: &quot; &amp; TEXT(fxSAPTransactionCount__c)  &amp; &quot; - &quot; &amp; Target_Account__r.Name &amp; &quot; (&quot;&amp; PKI_SAP_Sales_Org__c &amp;&quot;) &quot; 
+&amp; &quot; / Address: &quot; &amp; Target_Account__r.PKI_SAP_Street__c &amp; &quot;,&quot; &amp; Target_Account__r.SMAX_PS_PKI_SAP_Address_Concatenated__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>info about the account on the lookup list inside teh select payer flow</inlineHelpText>
+    <label>fxAccountInfo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

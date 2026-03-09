@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AES_Orders_To_Check_for_Quote_PO</fullName>
+    <columns>Sales_Rep_First_Name__c</columns>
+    <columns>Opp_Owner__c</columns>
+    <columns>NAME</columns>
+    <columns>Sold_To_Customer_Name__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Order_Net_Value__c</columns>
+    <columns>Quote_Number__c</columns>
+    <columns>Customer_PO_Number__c</columns>
+    <columns>Order_Path__c</columns>
+    <columns>fxBlockedBy__c</columns>
+    <columns>Actual_Order_Date__c</columns>
+    <columns>fxRevRecDate__c</columns>
+    <columns>Current_CER_date__c</columns>
+    <columns>Actual_Customer_Date__c</columns>
+    <columns>Customer_Accept_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>fxOrder_Is_Rejected__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Actual_Order_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2021</value>
+    </filters>
+    <filters>
+        <field>Ship_To_Customer_Name__c</field>
+        <operation>notContain</operation>
+        <value>Perkin</value>
+    </filters>
+    <filters>
+        <field>Source_Type__c</field>
+        <operation>contains</operation>
+        <value>C1</value>
+    </filters>
+    <label>AES Orders  - To Check for Quote &amp; PO</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

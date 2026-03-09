@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxProductLineName__c</fullName>
+    <description>This field stores opportunity&#39;s Product Line Name.(INC0288127)</description>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.fxProductLines__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field stores opportunity&#39;s Product Line Name.</inlineHelpText>
+    <label>fxProductLineName</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

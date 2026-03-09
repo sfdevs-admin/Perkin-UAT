@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_SAP_Acct__c</fullName>
+    <description>Used for ecommerce self-registration to capture an SAP account number from customer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for ecommerce self-registration to capture an SAP account number from customer</inlineHelpText>
+    <label>Customer Account Number</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

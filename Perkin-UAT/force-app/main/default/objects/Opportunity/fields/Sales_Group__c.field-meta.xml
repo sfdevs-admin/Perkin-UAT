@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Group__c</fullName>
+    <label>Sales Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Beijing Office</fullName>
+                <default>false</default>
+                <label>Beijing Office</label>
+            </value>
+            <value>
+                <fullName>Chengdu Office</fullName>
+                <default>false</default>
+                <label>Chengdu Office</label>
+            </value>
+            <value>
+                <fullName>Guangzhou Office</fullName>
+                <default>false</default>
+                <label>Guangzhou Office</label>
+            </value>
+            <value>
+                <fullName>Hongkong Office</fullName>
+                <default>false</default>
+                <label>Hongkong Office</label>
+            </value>
+            <value>
+                <fullName>Shanghai Office</fullName>
+                <default>false</default>
+                <label>Shanghai Office</label>
+            </value>
+            <value>
+                <fullName>Shenyang Office</fullName>
+                <default>false</default>
+                <label>Shenyang Office</label>
+            </value>
+            <value>
+                <fullName>Taiwan Office</fullName>
+                <default>false</default>
+                <label>Taiwan Office</label>
+            </value>
+            <value>
+                <fullName>Wuhan Office</fullName>
+                <default>false</default>
+                <label>Wuhan Office</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

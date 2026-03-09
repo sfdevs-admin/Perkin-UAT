@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxPart_Number__c</fullName>
+    <description>Formula Field to get Part Number field value from Product. (Source: S-692534)</description>
+    <externalId>false</externalId>
+    <formula>Product__r.Partnum__c</formula>
+    <inlineHelpText>Formula Field to get Part Number field value from Product.</inlineHelpText>
+    <label>Part Number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

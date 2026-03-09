@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxIsRole__c</fullName>
+    <description>This will indicate the Queue Member is a Role so it can be excluded form reports or counters. True=Is a Role or Territory; False= It is a user or Group/Queue</description>
+    <formula>AND( User__c = null 
+, Member_Group__c =null
+)</formula>
+    <inlineHelpText>This will indicate the Queue Member is a Role so it can be excluded form reports or counters. True=Is a Role or Territory; False= It is a user or Group/Queue</inlineHelpText>
+    <label>fxIsRole</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

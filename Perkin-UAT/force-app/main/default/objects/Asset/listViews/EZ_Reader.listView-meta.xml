@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EZ_Reader</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.NAME</field>
+        <operation>contains</operation>
+        <value>desktop profiler,ez reader</value>
+    </filters>
+    <filters>
+        <field>Country_Asset__c</field>
+        <operation>notEqual</operation>
+        <value>US,CA</value>
+    </filters>
+    <label>EZ Reader</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000713</group>
+        <group>ARQ_001040</group>
+    </sharedTo>
+</ListView>

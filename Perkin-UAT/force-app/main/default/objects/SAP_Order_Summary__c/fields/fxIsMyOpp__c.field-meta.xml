@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxIsMyOpp__c</fullName>
+    <description>formula to determine if the Opportunity owner is the same as the running user</description>
+    <formula>Opportunity__r.Owner.Id = $User.Id</formula>
+    <label>fxIsMyOpp</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

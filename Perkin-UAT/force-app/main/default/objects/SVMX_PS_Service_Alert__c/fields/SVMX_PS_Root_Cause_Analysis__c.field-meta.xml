@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Root_Cause_Analysis__c</fullName>
+    <label>Root Cause Analysis</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Expectations not met</fullName>
+                <default>false</default>
+                <label>Customer Expectations not met</label>
+            </value>
+            <value>
+                <fullName>Design related</fullName>
+                <default>false</default>
+                <label>Design related</label>
+            </value>
+            <value>
+                <fullName>Fluid Leak</fullName>
+                <default>false</default>
+                <label>Fluid Leak</label>
+            </value>
+            <value>
+                <fullName>Freight Damage</fullName>
+                <default>false</default>
+                <label>Freight Damage</label>
+            </value>
+            <value>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+                <label>Mechanical</label>
+            </value>
+            <value>
+                <fullName>Misc. Electrical</fullName>
+                <default>false</default>
+                <label>Misc. Electrical</label>
+            </value>
+            <value>
+                <fullName>Misuse</fullName>
+                <default>false</default>
+                <label>Misuse</label>
+            </value>
+            <value>
+                <fullName>Motor</fullName>
+                <default>false</default>
+                <label>Motor</label>
+            </value>
+            <value>
+                <fullName>Never Received for RCA</fullName>
+                <default>false</default>
+                <label>Never Received for RCA</label>
+            </value>
+            <value>
+                <fullName>No Problem Found</fullName>
+                <default>false</default>
+                <label>No Problem Found</label>
+            </value>
+            <value>
+                <fullName>Not evaluated for RCA</fullName>
+                <default>false</default>
+                <label>Not evaluated for RCA</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Optical</fullName>
+                <default>false</default>
+                <label>Optical</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Out of Spec Limits</fullName>
+                <default>false</default>
+                <label>Out of Spec Limits</label>
+            </value>
+            <value>
+                <fullName>PCBA</fullName>
+                <default>false</default>
+                <label>PCBA</label>
+            </value>
+            <value>
+                <fullName>Power Supply</fullName>
+                <default>false</default>
+                <label>Power Supply</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Wrong Application</fullName>
+                <default>false</default>
+                <label>Wrong Application</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

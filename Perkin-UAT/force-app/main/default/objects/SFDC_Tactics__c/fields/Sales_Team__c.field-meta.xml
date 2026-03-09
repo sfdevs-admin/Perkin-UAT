@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Team__c</fullName>
+    <description>Name of the sales team who is driving this tactic</description>
+    <label>Sales Team</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>REAGENTS</fullName>
+                <default>false</default>
+                <label>REAGENTS</label>
+            </value>
+            <value>
+                <fullName>ANALYTICAL</fullName>
+                <default>false</default>
+                <label>ANALYTICAL</label>
+            </value>
+            <value>
+                <fullName>MOLECULAR</fullName>
+                <default>false</default>
+                <label>MOLECULAR</label>
+            </value>
+            <value>
+                <fullName>GENETIC DISEASE</fullName>
+                <default>false</default>
+                <label>GENETIC DISEASE</label>
+            </value>
+            <value>
+                <fullName>SERVICE</fullName>
+                <default>false</default>
+                <label>SERVICE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

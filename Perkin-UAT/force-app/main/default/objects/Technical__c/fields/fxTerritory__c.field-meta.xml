@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxTerritory__c</fullName>
+    <description>Getting PKI Territory value from Lead or Account (Source: S-692579)</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Account_Name__c),(Lead_Name__r.fxPKITerritory__c),(Account_Name__r.fxPKITerritory__c))</formula>
+    <label>fxTerritory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

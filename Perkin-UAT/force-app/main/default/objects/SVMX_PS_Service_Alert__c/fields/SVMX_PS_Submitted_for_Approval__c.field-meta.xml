@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMX_PS_Submitted_for_Approval__c</fullName>
+    <description>Timestamp of when the Service Alert was submitted for approval</description>
+    <inlineHelpText>Date and time the Replacement Alert was submitted to the first level approver.  Used for KPI reporting.</inlineHelpText>
+    <label>Submitted for Approval</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

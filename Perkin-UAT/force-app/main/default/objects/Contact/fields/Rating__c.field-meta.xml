@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rating__c</fullName>
+    <label>Rating</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A+ - Global Key Account</fullName>
+                <default>false</default>
+                <label>A+ - Global Key Account</label>
+            </value>
+            <value>
+                <fullName>A - High Potential</fullName>
+                <default>false</default>
+                <label>A - High Potential</label>
+            </value>
+            <value>
+                <fullName>B - Good Potential</fullName>
+                <default>false</default>
+                <label>B - Good Potential</label>
+            </value>
+            <value>
+                <fullName>C - Modest Potential</fullName>
+                <default>false</default>
+                <label>C - Modest Potential</label>
+            </value>
+            <value>
+                <fullName>D - Low Potential</fullName>
+                <default>false</default>
+                <label>D - Low Potential</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

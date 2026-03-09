@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nicolle_s_Asset_View_Americas</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>Equipment_Number__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>Contact_Country__c</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>Location_Detail__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Warranty_Expiry_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Model_Description__c</field>
+        <operation>contains</operation>
+        <value>Clarus 500</value>
+    </filters>
+    <label>Nicolle&#39;s Asset View - Americas</label>
+</ListView>

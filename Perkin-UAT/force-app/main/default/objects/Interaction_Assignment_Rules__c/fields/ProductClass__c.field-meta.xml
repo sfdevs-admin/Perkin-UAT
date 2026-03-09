@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductClass__c</fullName>
+    <defaultValue>&quot;#ALL&quot;</defaultValue>
+    <description>This value comes from Eloqua and list must include values from Eloqua, however, there is IGOR Item Class Desc on Products that can also be added to list if needed</description>
+    <inlineHelpText>Select one or more product classes that are applicable to this rule</inlineHelpText>
+    <label>Product Class</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>G_PICK_211_Product_Class</valueSetName>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

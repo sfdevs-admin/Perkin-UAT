@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxNonSaleableProduct__c</fullName>
+    <description>This field is set to TRUE if product is non-saleable(Source:INC0350585)</description>
+    <formula>CONTAINS(&quot;;00;01;02;03;04;11;93;95;96;99;Z1;Z2;Z4;Z7;Z9;ZB;T7;T4&quot; , &quot;;&quot;&amp; SMAX_PS_DistributionChainMaterialStatus__c &amp; &quot;;&quot; )</formula>
+    <inlineHelpText>This product is non-saleable</inlineHelpText>
+    <label>fxNonSaleableProduct</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

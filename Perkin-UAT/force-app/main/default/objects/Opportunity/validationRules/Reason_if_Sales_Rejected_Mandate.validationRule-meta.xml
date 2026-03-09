@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_if_Sales_Rejected_Mandate</fullName>
+    <active>true</active>
+    <description>Reason if Sales Rejected if Sales not accepted by any reason listed in the drop.</description>
+    <errorConditionFormula>IF(
+  AND(
+    $User.ProfileName__c = &quot;PROFILE: PKI Sales&quot;,
+    RecordType.DeveloperName = &quot;PKI_Americas_SPI&quot;,
+    ISCHANGED(StageName),
+    TEXT(PRIORVALUE(StageName))=&quot;Zero Stage&quot;,
+    OR(
+      ISPICKVAL(Sales_Accepted_Lead__c, &quot;&quot;),
+      AND(
+        OR
+        (
+          ISPICKVAL(Sales_Accepted_Lead__c,&quot;Rejected: Duplicate&quot;),
+          ISPICKVAL(Sales_Accepted_Lead__c,&quot;Rejected: Not Valid&quot;),
+          ISPICKVAL(Sales_Accepted_Lead__c,&quot;Rejected: Future Opportunity&quot;)
+        ),
+        ISBLANK(Reason_if_Sales_Rejected__c)
+      )
+    )
+  ),
+  TRUE,
+  FALSE
+)</errorConditionFormula>
+    <errorMessage>Opportunity cannot be progressed without accepting or rejecting opportunity (section 1G). If rejected, reason must be provided.</errorMessage>
+</ValidationRule>

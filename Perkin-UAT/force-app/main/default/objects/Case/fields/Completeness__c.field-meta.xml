@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completeness__c</fullName>
+    <description>LST Service process for closing installation cases</description>
+    <label>Completeness</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Functional__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Process Exists</fullName>
+                <default>false</default>
+                <label>No Process Exists</label>
+            </value>
+            <value>
+                <fullName>Mfg Procedures</fullName>
+                <default>false</default>
+                <label>Mfg Procedures</label>
+            </value>
+            <value>
+                <fullName>Existing Process Needs Improvement</fullName>
+                <default>false</default>
+                <label>Existing Process Needs Improvement</label>
+            </value>
+            <value>
+                <fullName>Site Prep Process</fullName>
+                <default>false</default>
+                <label>Site Prep Process</label>
+            </value>
+            <value>
+                <fullName>PDP Process</fullName>
+                <default>false</default>
+                <label>PDP Process</label>
+            </value>
+            <value>
+                <fullName>Software Issue</fullName>
+                <default>false</default>
+                <label>Software Issue</label>
+            </value>
+            <value>
+                <fullName>Service/Support Issue</fullName>
+                <default>false</default>
+                <label>Service/Support Issue</label>
+            </value>
+            <value>
+                <fullName>Shipping Problem</fullName>
+                <default>false</default>
+                <label>Shipping Problem</label>
+            </value>
+            <value>
+                <fullName>Marketing/Sales</fullName>
+                <default>false</default>
+                <label>Marketing/Sales</label>
+            </value>
+            <value>
+                <fullName>Misc Hardware</fullName>
+                <default>false</default>
+                <label>Misc Hardware</label>
+            </value>
+            <value>
+                <fullName>100% - No components missing</fullName>
+                <default>false</default>
+                <label>100% - No components missing</label>
+            </value>
+            <value>
+                <fullName>50% - 1 or 2 components missing</fullName>
+                <default>false</default>
+                <label>50% - 1 or 2 components missing</label>
+            </value>
+            <value>
+                <fullName>0% - 2+ components missing</fullName>
+                <default>false</default>
+                <label>0% - 2+ components missing</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>100% - No field replacements</controllingFieldValue>
+            <controllingFieldValue>50% - Only Minor field replacements</controllingFieldValue>
+            <controllingFieldValue>0% - Major field replacements</controllingFieldValue>
+            <valueName>100% - No components missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>100% - No field replacements</controllingFieldValue>
+            <controllingFieldValue>50% - Only Minor field replacements</controllingFieldValue>
+            <controllingFieldValue>0% - Major field replacements</controllingFieldValue>
+            <valueName>50% - 1 or 2 components missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>100% - No field replacements</controllingFieldValue>
+            <controllingFieldValue>50% - Only Minor field replacements</controllingFieldValue>
+            <controllingFieldValue>0% - Major field replacements</controllingFieldValue>
+            <valueName>0% - 2+ components missing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

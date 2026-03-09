@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Create_Contact_for_Parent_Account</fullName>
+    <active>true</active>
+    <description>Cannot Create a Contact under a Parent Account - &quot;Type=Parent Company&quot;</description>
+    <errorConditionFormula>AND(
+    $Permission.BD_Bypass_Automation != TRUE
+    ,ISPICKVAL (Account.Type, &quot;Parent Company&quot;)
+    ,NOT(ISNULL(AccountId))
+    ,IsNew()
+   )</errorConditionFormula>
+    <errorMessage>V.RULE_CONTACT_002: Cannot Create a Contact under a Parent Account - &quot;Type=Parent Company&quot;</errorMessage>
+</ValidationRule>

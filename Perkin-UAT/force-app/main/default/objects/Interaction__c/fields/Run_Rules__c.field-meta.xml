@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Run_Rules__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>This is to prevent that interaction assignment from running again, unless a user with permissions changes the field to TRUE.</description>
+    <inlineHelpText>If Checked, this will allow the normal Assignment rules to run and assign (if status is Open). Unchecking it is normal after the first assignment and as other statuses change. User would manually need to turn this Run Rules back on.</inlineHelpText>
+    <label>Run Rules</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

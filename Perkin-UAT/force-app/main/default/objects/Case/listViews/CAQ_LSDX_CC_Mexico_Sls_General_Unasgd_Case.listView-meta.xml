@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAQ_LSDX_CC_Mexico_Sls_General_Unasgd_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CAQ: LSDX CC Mexico Sls General Unasgd</label>
+    <queue>ARQ_000515</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

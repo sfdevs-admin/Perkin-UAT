@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>eProcurement_Catalog_Channel__c</fullName>
+    <label>eProcurement Catalog Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SciQuest</fullName>
+                <default>false</default>
+                <label>SciQuest</label>
+            </value>
+            <value>
+                <fullName>Ariba</fullName>
+                <default>false</default>
+                <label>Ariba</label>
+            </value>
+            <value>
+                <fullName>Hubwoo</fullName>
+                <default>false</default>
+                <label>Hubwoo</label>
+            </value>
+            <value>
+                <fullName>Perfect Commerce</fullName>
+                <default>false</default>
+                <label>Perfect Commerce</label>
+            </value>
+            <value>
+                <fullName>GHX</fullName>
+                <default>false</default>
+                <label>GHX</label>
+            </value>
+            <value>
+                <fullName>Intramalls</fullName>
+                <default>false</default>
+                <label>Intramalls</label>
+            </value>
+            <value>
+                <fullName>Customer Specific</fullName>
+                <default>false</default>
+                <label>Customer Specific</label>
+            </value>
+            <value>
+                <fullName>ePlus</fullName>
+                <default>false</default>
+                <label>ePlus</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>SciQuest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>Ariba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>Hubwoo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>Perfect Commerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>GHX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>Intramalls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>Customer Specific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>ePlus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer– eProcurement Active</controllingFieldValue>
+            <controllingFieldValue>Customer– eProcurement Inactive</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LST_Marketing_Leads_queueAM_GTR</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Next_Action_Date_INF__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Primary_Qualification__c</columns>
+    <columns>Secondary_Qualification__c</columns>
+    <columns>Requested_Interests__c</columns>
+    <columns>Global_Region__c</columns>
+    <columns>Age_in_Days__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Standard_Default</value>
+    </filters>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>Americas</value>
+    </filters>
+    <filters>
+        <field>Product_Line__c</field>
+        <operation>equals</operation>
+        <value>NGS,BTX,MFT,AWS,ARS,SPS</value>
+    </filters>
+    <filters>
+        <field>Job_Function__c</field>
+        <operation>notEqual</operation>
+        <value>Student</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open,Working</value>
+    </filters>
+    <label>LST Marketing Leads QueueAM GTR</label>
+    <language>en_US</language>
+    <queue>ARQ_000616</queue>
+</ListView>

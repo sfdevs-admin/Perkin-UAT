@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxSAP_Customer_Base_Name__c</fullName>
+    <description>Pulling data from Account.PKI_SAP_Customer_Base_Name__c (INC0384104).</description>
+    <externalId>false</externalId>
+    <formula>Account.PKI_SAP_Customer_Base_Name__c</formula>
+    <label>fxSAP Customer Base Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

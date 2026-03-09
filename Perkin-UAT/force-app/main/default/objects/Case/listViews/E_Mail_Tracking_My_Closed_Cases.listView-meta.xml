@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E_Mail_Tracking_My_Closed_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Action__c</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed,Merged</value>
+    </filters>
+    <filters>
+        <field>PKI_GLB_Duplicate_Case__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Action__c</field>
+        <operation>equals</operation>
+        <value>Re-Open</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Dx_Software_Services</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>TRASH CASES,DX Software Services - Turku</value>
+    </filters>
+    <filters>
+        <field>External_Email_Inbox__c</field>
+        <operation>notEqual</operation>
+        <value>specimengatesupportfi@perkinelmer.com,specimengate.support.fi@perkinelmer.com</value>
+    </filters>
+    <label>Software Email Tracking My Closed Cases</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000776</group>
+        <group>ARQ_000792</group>
+        <group>ARQ_000793</group>
+    </sharedTo>
+</ListView>

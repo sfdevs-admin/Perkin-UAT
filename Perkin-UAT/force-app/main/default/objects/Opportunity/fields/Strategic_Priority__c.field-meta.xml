@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_Priority__c</fullName>
+    <label>Strategic Priority - EMEA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Application__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Pharma</fullName>
+                <default>false</default>
+                <label>Pharma</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+            <value>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+                <label>Automotive</label>
+            </value>
+            <value>
+                <fullName>Detection – Academic</fullName>
+                <default>false</default>
+                <label>Detection – Academic</label>
+            </value>
+            <value>
+                <fullName>Detection – Cancer</fullName>
+                <default>false</default>
+                <label>Detection – Cancer</label>
+            </value>
+            <value>
+                <fullName>Detection – Neuroscience</fullName>
+                <default>false</default>
+                <label>Detection – Neuroscience</label>
+            </value>
+            <value>
+                <fullName>Detection – Inflammation</fullName>
+                <default>false</default>
+                <label>Detection – Inflammation</label>
+            </value>
+            <value>
+                <fullName>Detection – Metabolism</fullName>
+                <default>false</default>
+                <label>Detection – Metabolism</label>
+            </value>
+            <value>
+                <fullName>HCS – Microbe</fullName>
+                <default>false</default>
+                <label>HCS – Microbe</label>
+            </value>
+            <value>
+                <fullName>HCS – Immunotherapy</fullName>
+                <default>false</default>
+                <label>HCS – Immunotherapy</label>
+            </value>
+            <value>
+                <fullName>HCS – Metabolic</fullName>
+                <default>false</default>
+                <label>HCS – Metabolic</label>
+            </value>
+            <value>
+                <fullName>INV – Optical Install Base</fullName>
+                <default>false</default>
+                <label>INV – Optical Install Base</label>
+            </value>
+            <value>
+                <fullName>INV – Soft Tissue</fullName>
+                <default>false</default>
+                <label>INV – Soft Tissue</label>
+            </value>
+            <value>
+                <fullName>Biotech- Immune Oncology</fullName>
+                <default>false</default>
+                <label>Biotech- Immune Oncology</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Lubricating Oils</controllingFieldValue>
+            <controllingFieldValue>Outdoor Air</controllingFieldValue>
+            <controllingFieldValue>Paints, Pigments &amp; Dyes</controllingFieldValue>
+            <controllingFieldValue>Polymers, Plastics &amp; Composites</controllingFieldValue>
+            <controllingFieldValue>Power &amp; Utilities</controllingFieldValue>
+            <controllingFieldValue>Metals</controllingFieldValue>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <controllingFieldValue>Refining &amp; PetroChem</controllingFieldValue>
+            <controllingFieldValue>Renewable Energy</controllingFieldValue>
+            <controllingFieldValue>Semiconductor</controllingFieldValue>
+            <controllingFieldValue>Soil</controllingFieldValue>
+            <controllingFieldValue>Specialty Chemicals</controllingFieldValue>
+            <controllingFieldValue>Commodity Chemicals</controllingFieldValue>
+            <controllingFieldValue>Consumer Products</controllingFieldValue>
+            <controllingFieldValue>Teaching Labs</controllingFieldValue>
+            <controllingFieldValue>Tissues &amp; Biological Media</controllingFieldValue>
+            <controllingFieldValue>Toxicology &amp; Evidence</controllingFieldValue>
+            <controllingFieldValue>Defense &amp; Security</controllingFieldValue>
+            <controllingFieldValue>Fine &amp; Agricultural Chemicals</controllingFieldValue>
+            <controllingFieldValue>Forensics</controllingFieldValue>
+            <controllingFieldValue>Geochemistry</controllingFieldValue>
+            <controllingFieldValue>Glass, Ceramics &amp; Optics</controllingFieldValue>
+            <controllingFieldValue>Indoor Air</controllingFieldValue>
+            <controllingFieldValue>Natural Gas</controllingFieldValue>
+            <controllingFieldValue>Nuclear</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lubricating Oils</controllingFieldValue>
+            <controllingFieldValue>Paints, Pigments &amp; Dyes</controllingFieldValue>
+            <controllingFieldValue>Polymers, Plastics &amp; Composites</controllingFieldValue>
+            <controllingFieldValue>Renewable Energy</controllingFieldValue>
+            <controllingFieldValue>Semiconductor</controllingFieldValue>
+            <controllingFieldValue>Glass, Ceramics &amp; Optics</controllingFieldValue>
+            <valueName>Automotive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pesticides &amp; Organic Contamination</controllingFieldValue>
+            <controllingFieldValue>Authenticity &amp; Adulteration</controllingFieldValue>
+            <controllingFieldValue>Biological Pathogens &amp; Toxins</controllingFieldValue>
+            <controllingFieldValue>Compositional Analysis</controllingFieldValue>
+            <controllingFieldValue>Trace Metal Contamination</controllingFieldValue>
+            <controllingFieldValue>Veterinary Drugs</controllingFieldValue>
+            <controllingFieldValue>Flavor Analysis</controllingFieldValue>
+            <controllingFieldValue>Food Packaging</controllingFieldValue>
+            <controllingFieldValue>Functional Analysis</controllingFieldValue>
+            <valueName>Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API/Compound Analysis</controllingFieldValue>
+            <controllingFieldValue>Residual Solvents</controllingFieldValue>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>Dissolution</controllingFieldValue>
+            <controllingFieldValue>Elemental Impurities/Trace Metals Analysis</controllingFieldValue>
+            <controllingFieldValue>Extractable &amp; Leachable</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>Pharma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API/Compound Analysis</controllingFieldValue>
+            <controllingFieldValue>Residual Solvents</controllingFieldValue>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>Teaching Labs</controllingFieldValue>
+            <controllingFieldValue>Dissolution</controllingFieldValue>
+            <controllingFieldValue>Elemental Impurities/Trace Metals Analysis</controllingFieldValue>
+            <controllingFieldValue>Extractable &amp; Leachable</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>Biotech- Immune Oncology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surface &amp; Ground Water</controllingFieldValue>
+            <controllingFieldValue>Drinking Water</controllingFieldValue>
+            <controllingFieldValue>Waste &amp; Process Water</controllingFieldValue>
+            <valueName>Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>Detection – Academic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>Detection – Cancer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>Detection – Neuroscience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>Detection – Inflammation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>Detection – Metabolism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>HCS – Microbe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>HCS – Immunotherapy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Target Characterization/Validation</controllingFieldValue>
+            <controllingFieldValue>Target Identification</controllingFieldValue>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Identification</controllingFieldValue>
+            <controllingFieldValue>Other InVitro Studies</controllingFieldValue>
+            <controllingFieldValue>Lead Optimization</controllingFieldValue>
+            <valueName>HCS – Metabolic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <valueName>INV – Optical Install Base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>InVivo Studies</controllingFieldValue>
+            <valueName>INV – Soft Tissue</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxFlowEditTime__c</fullName>
+    <description>This will be updated by a L.FLOW 4530 as it updates daily. Users will not edit this field. The V.RULE will allow the Flow to run and edit historical months in ENTRY, but not users</description>
+    <inlineHelpText>This will be updated by a L.FLOW 4530 as it updates daily. Users will not edit this field. The V.RULE will allow the Flow to run and edit historical months in ENTRY, but not users</inlineHelpText>
+    <label>fxFlowEditTime</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

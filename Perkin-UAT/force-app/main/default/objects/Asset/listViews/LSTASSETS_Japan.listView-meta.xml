@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSTASSETS_Japan</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>equals</operation>
+        <value>,13-AWS,14-SPS,15-APS,16-RRD,17-MLD,19-LVI,22-HTS,32-HCS,33-IAS,36-FAP</value>
+    </filters>
+    <filters>
+        <field>Country_Asset__c</field>
+        <operation>equals</operation>
+        <value>JP</value>
+    </filters>
+    <label>LST ASSETS Japan</label>
+    <language>en_US</language>
+</ListView>

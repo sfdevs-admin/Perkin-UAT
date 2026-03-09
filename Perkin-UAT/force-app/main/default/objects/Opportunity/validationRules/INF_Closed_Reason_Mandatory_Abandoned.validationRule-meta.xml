@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Closed_Reason_Mandatory_Abandoned</fullName>
+    <active>true</active>
+    <description>Please enter Closed Reason for Abandoning an opportunity.</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c, 
+NOT(CONTAINS($Profile.Name , &#39;System Administrator&#39;)), 
+RecordType.Name=&#39;Informatics&#39;, 
+ISPICKVAL(StageName ,&#39;Abandoned&#39;), 
+ISPICKVAL(Closed_Reason__c,&#39;&#39;)
+)</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_024: Please enter Closed Reason for Abandoned stage.</errorMessage>
+</ValidationRule>

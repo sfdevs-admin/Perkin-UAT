@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer_Opps_Pending_Approval</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Application_Segment__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Owned_by_Company__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Dealer_Approval_Status__c</field>
+        <operation>equals</operation>
+        <value>Pending_For_Approval</value>
+    </filters>
+    <label>Dealer Opps - Pending Approval</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

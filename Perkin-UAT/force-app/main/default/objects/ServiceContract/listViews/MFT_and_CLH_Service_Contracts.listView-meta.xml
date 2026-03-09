@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MFT_and_CLH_Service_Contracts</fullName>
+    <columns>CONTRACT.NAME</columns>
+    <columns>Contract_Stage__c</columns>
+    <columns>CONTRACT.STARTDATE</columns>
+    <columns>CONTRACT.ENDDATE</columns>
+    <columns>CONTRACT.CREATED_DATE</columns>
+    <columns>OWNER.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.NAME</field>
+        <operation>contains</operation>
+        <value>Mantia</value>
+    </filters>
+    <label>MFT and CLH Service Contracts</label>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Will_Accept_Date__c</fullName>
+    <inlineHelpText>If the customer is not ready to receive the purchase as soon as it&#39;s placed, please enter the earliest data that the customer is ready to accept</inlineHelpText>
+    <label>Customer Will Accept Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

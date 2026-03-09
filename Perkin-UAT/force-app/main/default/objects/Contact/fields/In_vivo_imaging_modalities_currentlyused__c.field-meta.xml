@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_vivo_imaging_modalities_currentlyused__c</fullName>
+    <label>In vivo imaging modalities currentlyused</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>ART</fullName>
+                <default>false</default>
+                <label>ART</label>
+            </value>
+            <value>
+                <fullName>Bioluminescence</fullName>
+                <default>false</default>
+                <label>Bioluminescence</label>
+            </value>
+            <value>
+                <fullName>CT</fullName>
+                <default>false</default>
+                <label>CT</label>
+            </value>
+            <value>
+                <fullName>Fluorescence</fullName>
+                <default>false</default>
+                <label>Fluorescence</label>
+            </value>
+            <value>
+                <fullName>Fluorescence Tomography</fullName>
+                <default>false</default>
+                <label>Fluorescence Tomography</label>
+            </value>
+            <value>
+                <fullName>FMT</fullName>
+                <default>false</default>
+                <label>FMT</label>
+            </value>
+            <value>
+                <fullName>FMT1</fullName>
+                <default>false</default>
+                <label>FMT1</label>
+            </value>
+            <value>
+                <fullName>Hammatsu</fullName>
+                <default>false</default>
+                <label>Hammatsu</label>
+            </value>
+            <value>
+                <fullName>IVIS</fullName>
+                <default>false</default>
+                <label>IVIS</label>
+            </value>
+            <value>
+                <fullName>IVIS 100</fullName>
+                <default>false</default>
+                <label>IVIS 100</label>
+            </value>
+            <value>
+                <fullName>IVIS 200</fullName>
+                <default>false</default>
+                <label>IVIS 200</label>
+            </value>
+            <value>
+                <fullName>IVIS 50</fullName>
+                <default>false</default>
+                <label>IVIS 50</label>
+            </value>
+            <value>
+                <fullName>IVIS Lumina</fullName>
+                <default>false</default>
+                <label>IVIS Lumina</label>
+            </value>
+            <value>
+                <fullName>IVIS Spectrum</fullName>
+                <default>false</default>
+                <label>IVIS Spectrum</label>
+            </value>
+            <value>
+                <fullName>Kodax</fullName>
+                <default>false</default>
+                <label>Kodax</label>
+            </value>
+            <value>
+                <fullName>Maestro</fullName>
+                <default>false</default>
+                <label>Maestro</label>
+            </value>
+            <value>
+                <fullName>MRI</fullName>
+                <default>false</default>
+                <label>MRI</label>
+            </value>
+            <value>
+                <fullName>None, buying now</fullName>
+                <default>false</default>
+                <label>None, buying now</label>
+            </value>
+            <value>
+                <fullName>Olympus</fullName>
+                <default>false</default>
+                <label>Olympus</label>
+            </value>
+            <value>
+                <fullName>Olympus OV100</fullName>
+                <default>false</default>
+                <label>Olympus OV100</label>
+            </value>
+            <value>
+                <fullName>PET</fullName>
+                <default>false</default>
+                <label>PET</label>
+            </value>
+            <value>
+                <fullName>PET/CT</fullName>
+                <default>false</default>
+                <label>PET/CT</label>
+            </value>
+            <value>
+                <fullName>Planar System</fullName>
+                <default>false</default>
+                <label>Planar System</label>
+            </value>
+            <value>
+                <fullName>SPECT</fullName>
+                <default>false</default>
+                <label>SPECT</label>
+            </value>
+            <value>
+                <fullName>Spectrum</fullName>
+                <default>false</default>
+                <label>Spectrum</label>
+            </value>
+            <value>
+                <fullName>Ultrasound</fullName>
+                <default>false</default>
+                <label>Ultrasound</label>
+            </value>
+            <value>
+                <fullName>VisualSonics micro-ultrasound</fullName>
+                <default>false</default>
+                <label>VisualSonics micro-ultrasound</label>
+            </value>
+            <value>
+                <fullName>Xenogen</fullName>
+                <default>false</default>
+                <label>Xenogen</label>
+            </value>
+            <value>
+                <fullName>CRI</fullName>
+                <default>false</default>
+                <label>CRI</label>
+            </value>
+            <value>
+                <fullName>2 photon microscope</fullName>
+                <default>false</default>
+                <label>2 photon microscope</label>
+            </value>
+            <value>
+                <fullName>Fluorescence Microscopy</fullName>
+                <default>false</default>
+                <label>Fluorescence Microscopy</label>
+            </value>
+            <value>
+                <fullName>Licor System</fullName>
+                <default>false</default>
+                <label>Licor System</label>
+            </value>
+            <value>
+                <fullName>Licor Odyssey</fullName>
+                <default>false</default>
+                <label>Licor Odyssey</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

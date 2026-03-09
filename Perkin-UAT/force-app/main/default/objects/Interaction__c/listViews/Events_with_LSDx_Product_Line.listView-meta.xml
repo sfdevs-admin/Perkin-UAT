@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Events_with_LSDx_Product_Line</fullName>
+    <columns>NAME</columns>
+    <columns>Campaign__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>GlobalRegion__c</columns>
+    <columns>Status__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Qualification_Status__c</columns>
+    <columns>ProductLine__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProductLine__c</field>
+        <operation>contains</operation>
+        <value>LSDX</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>contains</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>Qualification_Status__c</field>
+        <operation>contains</operation>
+        <value>Hot</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Interaction_Type__c</field>
+        <operation>equals</operation>
+        <value>List Upload</value>
+    </filters>
+    <label>Events with LSDx Product Line</label>
+</ListView>

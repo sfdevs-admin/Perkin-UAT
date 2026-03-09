@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Reason__c</fullName>
+    <inlineHelpText>See Opportunity Disposition terms Explained attachment  in the Useful Links section for clarity on picklist choices</inlineHelpText>
+    <label>Closed Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brand Loyalty</fullName>
+                <default>false</default>
+                <label>Brand Loyalty</label>
+            </value>
+            <value>
+                <fullName>Created in Error/Duplicate/Merged</fullName>
+                <default>false</default>
+                <label>Created in Error/Duplicate/Merged</label>
+            </value>
+            <value>
+                <fullName>Demo Performed</fullName>
+                <default>false</default>
+                <label>Demo Performed</label>
+            </value>
+            <value>
+                <fullName>Funding not available</fullName>
+                <default>false</default>
+                <label>Funding not available</label>
+            </value>
+            <value>
+                <fullName>No response</fullName>
+                <default>false</default>
+                <label>No response</label>
+            </value>
+            <value>
+                <fullName>No Interest</fullName>
+                <default>false</default>
+                <label>No Interest</label>
+            </value>
+            <value>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Product Features/Performance</fullName>
+                <default>false</default>
+                <label>Product Features/Performance</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Logistics</fullName>
+                <default>false</default>
+                <label>Logistics</label>
+            </value>
+            <value>
+                <fullName>Chose competitor consumable</fullName>
+                <default>false</default>
+                <label>Chose competitor consumable</label>
+            </value>
+            <value>
+                <fullName>Purchased PKI consumables from reseller</fullName>
+                <default>false</default>
+                <label>Purchased PKI consumables from reseller</label>
+            </value>
+            <value>
+                <fullName>Price too high</fullName>
+                <default>false</default>
+                <label>Price too high</label>
+            </value>
+            <value>
+                <fullName>Postponed purchase</fullName>
+                <default>false</default>
+                <label>Postponed purchase</label>
+            </value>
+            <value>
+                <fullName>Quality issue</fullName>
+                <default>false</default>
+                <label>Quality issue</label>
+            </value>
+            <value>
+                <fullName>Issues with availability / delivery speed</fullName>
+                <default>false</default>
+                <label>Issues with availability / delivery speed</label>
+            </value>
+            <value>
+                <fullName>PKI too slow / non-responsive</fullName>
+                <default>false</default>
+                <label>PKI too slow / non-responsive</label>
+            </value>
+            <value>
+                <fullName>Price checking only</fullName>
+                <default>false</default>
+                <label>Price checking only</label>
+            </value>
+            <value>
+                <fullName>Unknown – customer unresponsive</fullName>
+                <default>false</default>
+                <label>Unknown – customer unresponsive</label>
+            </value>
+            <value>
+                <fullName>Quote not real (e.g., duplicate / replaced)</fullName>
+                <default>false</default>
+                <label>Quote not real (e.g., duplicate / replaced)</label>
+            </value>
+            <value>
+                <fullName>Booked on Alternative</fullName>
+                <default>false</default>
+                <label>Booked on Alternative</label>
+            </value>
+            <value>
+                <fullName>Multivendor</fullName>
+                <default>false</default>
+                <label>Multivendor</label>
+            </value>
+            <value>
+                <fullName>Budget constraints</fullName>
+                <default>false</default>
+                <label>Budget constraints</label>
+            </value>
+            <value>
+                <fullName>Company/Lab no longer in operation</fullName>
+                <default>false</default>
+                <label>Company/Lab no longer in operation</label>
+            </value>
+            <value>
+                <fullName>Customer company policy</fullName>
+                <default>false</default>
+                <label>Customer company policy</label>
+            </value>
+            <value>
+                <fullName>Dissatisfied with service</fullName>
+                <default>false</default>
+                <label>Dissatisfied with service</label>
+            </value>
+            <value>
+                <fullName>Low instrument utilization</fullName>
+                <default>false</default>
+                <label>Low instrument utilization</label>
+            </value>
+            <value>
+                <fullName>Instrument no longer in use</fullName>
+                <default>false</default>
+                <label>Instrument no longer in use</label>
+            </value>
+            <value>
+                <fullName>Moved to OneSource</fullName>
+                <default>false</default>
+                <label>Moved to OneSource</label>
+            </value>
+            <value>
+                <fullName>Contract offerings do not fit customer needs</fullName>
+                <default>false</default>
+                <label>Contract offerings do not fit customer needs</label>
+            </value>
+            <value>
+                <fullName>Non-responsive</fullName>
+                <default>false</default>
+                <label>Non-responsive</label>
+            </value>
+            <value>
+                <fullName>PKI decision (legal, no territory cover, etc.)</fullName>
+                <default>false</default>
+                <label>PKI decision (legal, no territory cover, etc.)</label>
+            </value>
+            <value>
+                <fullName>Replaced instrument with competitor</fullName>
+                <default>false</default>
+                <label>Replaced instrument with competitor</label>
+            </value>
+            <value>
+                <fullName>Replaced instrument with PKI</fullName>
+                <default>false</default>
+                <label>Replaced instrument with PKI</label>
+            </value>
+            <value>
+                <fullName>Using 3rd party service provider/in-house</fullName>
+                <default>false</default>
+                <label>Using 3rd party service provider/in-house</label>
+            </value>
+            <value>
+                <fullName>EOSL</fullName>
+                <default>false</default>
+                <label>EOSL</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Food – No PM at this time (sporadic PM schedule)</fullName>
+                <default>false</default>
+                <label>Food – No PM at this time (sporadic PM schedule)</label>
+            </value>
+            <value>
+                <fullName>Food – PMs at &gt;1-year intervals</fullName>
+                <default>false</default>
+                <label>Food – PMs at &gt;1-year intervals</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Brand Loyalty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Demo Performed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Abandoned</controllingFieldValue>
+            <valueName>Funding not available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Abandoned</controllingFieldValue>
+            <valueName>No response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Product Features/Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Chose competitor consumable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Purchased PKI consumables from reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Price too high</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Postponed purchase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Quality issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Issues with availability / delivery speed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>PKI too slow / non-responsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Price checking only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Unknown – customer unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Quote not real (e.g., duplicate / replaced)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Booked on Alternative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Multivendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Budget constraints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Company/Lab no longer in operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Customer company policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Dissatisfied with service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Low instrument utilization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Instrument no longer in use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Moved to OneSource</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Contract offerings do not fit customer needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Non-responsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>PKI decision (legal, no territory cover, etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Replaced instrument with competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Replaced instrument with PKI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Using 3rd party service provider/in-house</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>EOSL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Food – No PM at this time (sporadic PM schedule)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Food – PMs at &gt;1-year intervals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Abandoned</controllingFieldValue>
+            <valueName>Created in Error/Duplicate/Merged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Abandoned</controllingFieldValue>
+            <valueName>No Interest</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

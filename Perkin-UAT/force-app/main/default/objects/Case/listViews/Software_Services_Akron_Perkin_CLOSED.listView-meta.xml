@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Software_Services_Akron_Perkin_CLOSED</fullName>
+    <booleanFilter>(1 AND 2 AND 3 AND 4 AND 5) AND (6 OR 7 OR 8)</booleanFilter>
+    <columns>Action__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Dx_Software_Services</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>External_Email_Inbox__c</field>
+        <operation>equals</operation>
+        <value>Specimen.Gate.Support@perkinelmer.com,Specimen.Gate.Support@revvity.com</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>TRASH CASES,DX Software Services - Turku</value>
+    </filters>
+    <filters>
+        <field>CASES.PRIORITY</field>
+        <operation>equals</operation>
+        <value>Urgent Case,Moderate Case,Minor Case</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>startsWith</operation>
+        <value>Arizona,Arkansas,British,Colorado,Georgia,Illinois,Louisiana</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>startsWith</operation>
+        <value>Maryland,Missouri,Nevada,Ohio,Hospital,Massachusetts Department of Public</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>startsWith</operation>
+        <value>Virginia,State of Connecticut,State of South Carolina</value>
+    </filters>
+    <label>Software Services Akron Perkin CLOSED</label>
+    <sharedTo>
+        <group>ARQ_000792</group>
+    </sharedTo>
+</ListView>

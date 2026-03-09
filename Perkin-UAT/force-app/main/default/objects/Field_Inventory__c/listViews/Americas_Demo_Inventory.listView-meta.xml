@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Americas_Demo_Inventory</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>LAST_UPDATE</columns>
+    <columns>NAME</columns>
+    <columns>Comment__c</columns>
+    <columns>Current_Location__c</columns>
+    <columns>Status__c</columns>
+    <columns>Serial_Number__c</columns>
+    <columns>Storage_Location__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Item_Tag__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>Date_Sold__c</columns>
+    <columns>Date_Received__c</columns>
+    <columns>Date_Sent__c</columns>
+    <columns>Date_Transfered__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>Edward Carr</value>
+    </filters>
+    <label>Americas Demo Inventory</label>
+    <language>en_US</language>
+</ListView>

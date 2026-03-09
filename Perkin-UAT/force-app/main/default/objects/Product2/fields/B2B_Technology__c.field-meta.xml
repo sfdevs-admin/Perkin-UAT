@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Technology__c</fullName>
+    <description>Used to select the technology for products. Pekr-75</description>
+    <label>Technology</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atomic Absorption</fullName>
+                <default>false</default>
+                <label>Atomic Absorption</label>
+            </value>
+            <value>
+                <fullName>Cartridge</fullName>
+                <default>false</default>
+                <label>Cartridge</label>
+            </value>
+            <value>
+                <fullName>Cartridge Column</fullName>
+                <default>false</default>
+                <label>Cartridge Column</label>
+            </value>
+            <value>
+                <fullName>HPLC</fullName>
+                <default>false</default>
+                <label>HPLC</label>
+            </value>
+            <value>
+                <fullName>ICP Mass Spectrometry</fullName>
+                <default>false</default>
+                <label>ICP Mass Spectrometry</label>
+            </value>
+            <value>
+                <fullName>Infrared IR</fullName>
+                <default>false</default>
+                <label>Infrared IR</label>
+            </value>
+            <value>
+                <fullName>Thermal Analysis</fullName>
+                <default>false</default>
+                <label>Thermal Analysis</label>
+            </value>
+            <value>
+                <fullName>UV/Visible</fullName>
+                <default>false</default>
+                <label>UV/Visible</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

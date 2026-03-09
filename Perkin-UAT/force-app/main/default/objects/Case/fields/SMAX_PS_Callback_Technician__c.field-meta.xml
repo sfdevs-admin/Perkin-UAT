@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Callback_Technician__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Refers to the Technician to forward a the callback phone call from the customer.</description>
+    <inlineHelpText>Refers to the Technician to forward a the callback phone call from the customer.</inlineHelpText>
+    <label>Callback Technician</label>
+    <referenceTo>SVMXC__Service_Group_Members__c</referenceTo>
+    <relationshipLabel>Cases (Callback Technician)</relationshipLabel>
+    <relationshipName>Cases2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

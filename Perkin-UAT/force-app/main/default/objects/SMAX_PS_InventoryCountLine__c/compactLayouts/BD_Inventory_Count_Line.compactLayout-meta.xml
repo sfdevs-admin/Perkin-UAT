@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Inventory_Count_Line</fullName>
+    <fields>Name</fields>
+    <fields>SMAX_PS_InvCnt_Status__c</fields>
+    <fields>SMAX_PS_Product__c</fields>
+    <fields>SMAX_PS_CountedQty__c</fields>
+    <label>Inventory Count Line</label>
+</CompactLayout>

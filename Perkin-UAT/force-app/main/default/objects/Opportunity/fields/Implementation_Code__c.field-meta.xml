@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementation_Code__c</fullName>
+    <label>Implementation Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Code 1 - (Regulated Solution)</fullName>
+                <default>false</default>
+                <label>Code 1 - (Regulated Solution)</label>
+            </value>
+            <value>
+                <fullName>Code 2 - (Entrp. Solution w/Sol. Servs)</fullName>
+                <default>false</default>
+                <label>Code 2 - (Entrp. Solution w/Sol. Servs)</label>
+            </value>
+            <value>
+                <fullName>Code 3 - (Solution w/o Sol. Services)</fullName>
+                <default>false</default>
+                <label>Code 3 - (Solution w/o Sol. Services)</label>
+            </value>
+            <value>
+                <fullName>Code 4 - (Hosted Solution)</fullName>
+                <default>false</default>
+                <label>Code 4 - (Hosted Solution)</label>
+            </value>
+            <value>
+                <fullName>Code 5a - (FinchLab Hosted)</fullName>
+                <default>false</default>
+                <label>Code 5a - (FinchLab Hosted)</label>
+            </value>
+            <value>
+                <fullName>Code 5b - (FinchLab On-Site)</fullName>
+                <default>false</default>
+                <label>Code 5b - (FinchLab On-Site)</label>
+            </value>
+            <value>
+                <fullName>Code 5c - (FinchLab Next Gen On-Site)</fullName>
+                <default>false</default>
+                <label>Code 5c - (FinchLab Next Gen On-Site)</label>
+            </value>
+            <value>
+                <fullName>Code 5d - (FinchLab Next Gen Hosted)</fullName>
+                <default>false</default>
+                <label>Code 5d - (FinchLab Next Gen Hosted)</label>
+            </value>
+            <value>
+                <fullName>Code 6a - (iFinch Hosted)</fullName>
+                <default>false</default>
+                <label>Code 6a - (iFinch Hosted)</label>
+            </value>
+            <value>
+                <fullName>Code 6b - (iFinch On-Site)</fullName>
+                <default>false</default>
+                <label>Code 6b - (iFinch On-Site)</label>
+            </value>
+            <value>
+                <fullName>Upgrade with Services</fullName>
+                <default>false</default>
+                <label>Upgrade with Services</label>
+            </value>
+            <value>
+                <fullName>Upgrade without Services</fullName>
+                <default>false</default>
+                <label>Upgrade without Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

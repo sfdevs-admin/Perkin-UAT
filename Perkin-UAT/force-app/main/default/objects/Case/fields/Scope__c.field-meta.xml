@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope__c</fullName>
+    <label>Scope</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Automated invoices</fullName>
+                <default>false</default>
+                <label>Automated invoices</label>
+            </value>
+            <value>
+                <fullName>Automated orders</fullName>
+                <default>false</default>
+                <label>Automated orders</label>
+            </value>
+            <value>
+                <fullName>Confirmations</fullName>
+                <default>false</default>
+                <label>Confirmations</label>
+            </value>
+            <value>
+                <fullName>Hosted/E-Catalog</fullName>
+                <default>false</default>
+                <label>Hosted/E-Catalog</label>
+            </value>
+            <value>
+                <fullName>Level 2 Punchout</fullName>
+                <default>false</default>
+                <label>Level 2 Punchout</label>
+            </value>
+            <value>
+                <fullName>Live Availability</fullName>
+                <default>false</default>
+                <label>Live Availability</label>
+            </value>
+            <value>
+                <fullName>Live Price</fullName>
+                <default>false</default>
+                <label>Live Price</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Pricing &amp; Availability</fullName>
+                <default>false</default>
+                <label>Pricing &amp; Availability</label>
+            </value>
+            <value>
+                <fullName>Punchout</fullName>
+                <default>false</default>
+                <label>Punchout</label>
+            </value>
+            <value>
+                <fullName>Ship Notifications</fullName>
+                <default>false</default>
+                <label>Ship Notifications</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMAX_PS_Technician_Equipment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Denotes the technician that is related to the drop ship location</description>
+    <inlineHelpText>Denotes the technician that is related to the drop ship location</inlineHelpText>
+    <label>Technician/Equipment</label>
+    <referenceTo>SVMXC__Service_Group_Members__c</referenceTo>
+    <relationshipLabel>Drop Ship Locations</relationshipLabel>
+    <relationshipName>Drop_Ship_Locations</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

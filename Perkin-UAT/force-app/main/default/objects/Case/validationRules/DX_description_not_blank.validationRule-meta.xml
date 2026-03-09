@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_description_not_blank</fullName>
+    <active>true</active>
+    <description>Applies to the &quot;DX Software Services&quot; Case record type
+PRIOR: MM
+NEW:   MG  2202.09.22   cleaned up formatting + Error Msg</description>
+    <errorConditionFormula>AND(NOT( $Permission.C_PERM_8030_Bypass_OwnedByCompany_V_RULE )
+,OR(RecordType.Name = &#39;Dx Software Services&#39;
+,RecordTypeId = &#39;0123A000001GjKo&#39;) /*Dx Software Services EMEA L2*/
+,ISPICKVAL(Status, &#39;Closed&#39;)
+,ISBLANK(Case_Description__c))</errorConditionFormula>
+    <errorDisplayField>Case_Description__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_006: When closing a Case, the Case Description field cannot be blank</errorMessage>
+</ValidationRule>

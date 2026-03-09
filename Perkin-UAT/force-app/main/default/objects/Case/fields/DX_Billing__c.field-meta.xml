@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Billing__c</fullName>
+    <description>Used to record billing category of the Software Services change request.(Jira ITSFDC-4753)</description>
+    <inlineHelpText>Indicates the revenue impact of the change</inlineHelpText>
+    <label>Billing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Free of charge</fullName>
+                <default>false</default>
+                <label>Free of charge</label>
+            </value>
+            <value>
+                <fullName>Billable</fullName>
+                <default>false</default>
+                <label>Billable</label>
+            </value>
+            <value>
+                <fullName>Indirect revenue</fullName>
+                <default>false</default>
+                <label>Indirect revenue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

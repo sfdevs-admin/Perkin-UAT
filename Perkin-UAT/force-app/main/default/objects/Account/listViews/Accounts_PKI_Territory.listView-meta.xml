@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_PKI_Territory</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PKICountry__c</columns>
+    <columns>Managed_Account_Type__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
+    <columns>fxPKICountryISOAlpha2__c</columns>
+    <columns>fxPKISubTerritory__c</columns>
+    <columns>fxPKITerritory__c</columns>
+    <columns>fxPKIGlobalTerritory__c</columns>
+    <columns>fxPKISuperTerritory__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>LastModifiedEBXScope__c</columns>
+    <columns>PKI_SAP_Country_Code__c</columns>
+    <columns>PKI_SAP_Language__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Accounts:  PKI Territory</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

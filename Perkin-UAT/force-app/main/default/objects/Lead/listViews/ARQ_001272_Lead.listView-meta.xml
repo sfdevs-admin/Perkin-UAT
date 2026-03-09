@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_001272_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ARQ: Marketing Queue AMER16 LSDX</label>
+    <queue>ARQ_001203</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PKI_Contacts</fullName>
+    <booleanFilter>1 and 2</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>BU__c</columns>
+    <columns>AS_Product_Family_Interest__c</columns>
+    <columns>Product_Line__c</columns>
+    <columns>Areas_of_Work__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>PerkinElmer LAS Inc</value>
+    </filters>
+    <filters>
+        <field>CONTACT.LAST_NAME</field>
+        <operation>contains</operation>
+        <value>rose,rhoden,casagrande,romero,mohebbi,clark,jones,wooldridge,bodnar,schmidt</value>
+    </filters>
+    <label>PKI Contacts - WEST</label>
+    <language>en_US</language>
+</ListView>

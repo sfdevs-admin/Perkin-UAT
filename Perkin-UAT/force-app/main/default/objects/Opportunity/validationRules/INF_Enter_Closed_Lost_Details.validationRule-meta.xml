@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INF_Enter_Closed_Lost_Details</fullName>
+    <active>true</active>
+    <description>Please enter Closed Reason and Closed Reason Detail for Closed Lost stage.</description>
+    <errorConditionFormula>AND($Setup.Rules_Execution__c.Run__c, 
+RecordType.Name=&#39;Informatics&#39;, 
+NOT(CONTAINS($Profile.Name , &#39;System Administrator&#39;)), 
+ISPICKVAL(StageName,&#39;Closed Lost&#39;), 
+OR(ISPICKVAL(Closed_Reason__c,&#39;&#39;), 
+ISBLANK(Reason_Lost_Detail__c) 
+))</errorConditionFormula>
+    <errorMessage>V.RULE_OPP_025: Please make sure to fill both Closed Reason and Closed Reason Detail fields for Closed Lost stage.</errorMessage>
+</ValidationRule>

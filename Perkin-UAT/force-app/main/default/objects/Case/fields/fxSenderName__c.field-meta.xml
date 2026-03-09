@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxSenderName__c</fullName>
+    <businessOwnerGroup>ARQ_001007</businessOwnerGroup>
+    <businessStatus>Active</businessStatus>
+    <description>This will help us get the Senders name from a contact, or the Web Name to use in E2C Auto responders (INC0302167)</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Contact.Id)
+  , BLANKVALUE(SuppliedName, &quot;Customer&quot;)
+  , Contact.FirstName &amp; &quot; &quot; &amp; Contact.LastName
+  )</formula>
+    <inlineHelpText>This will help us get the Senders name from a contact, or the Web Name to use in E2C Auto responders</inlineHelpText>
+    <label>fxSenderName</label>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

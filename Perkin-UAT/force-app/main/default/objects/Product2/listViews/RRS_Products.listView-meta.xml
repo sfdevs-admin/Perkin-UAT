@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RRS_Products</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Item_Class__c</columns>
+    <columns>IGOR_Item_Class_Desc__c</columns>
+    <columns>product_line__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>product_line__c</field>
+        <operation>equals</operation>
+        <value>RRS</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>RRS Products</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>ARQ_000778</group>
+        <group>ARQ_000786</group>
+        <group>ARQ_000788</group>
+        <group>ARQ_000789</group>
+        <group>ARQ_000794</group>
+        <group>ARQ_000795</group>
+        <group>ARQ_000796</group>
+        <group>ARQ_000797</group>
+        <group>ARQ_000799</group>
+    </sharedTo>
+</ListView>

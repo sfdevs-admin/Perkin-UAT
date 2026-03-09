@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scoping_Progress__c</fullName>
+    <label>Scoping Progress</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0 - Not Started</fullName>
+                <default>false</default>
+                <label>0 - Not Started</label>
+            </value>
+            <value>
+                <fullName>1- Acknowledged and transfer to SME</fullName>
+                <default>false</default>
+                <label>1- Acknowledged and transfer to SME</label>
+            </value>
+            <value>
+                <fullName>2 - SME Contacts Sales</fullName>
+                <default>false</default>
+                <label>2 - SME Contacts Sales</label>
+            </value>
+            <value>
+                <fullName>3 - Scoping begun with Customer</fullName>
+                <default>false</default>
+                <label>3 - Scoping begun with Customer</label>
+            </value>
+            <value>
+                <fullName>4 - Effort agreed</fullName>
+                <default>false</default>
+                <label>4 - Effort agreed</label>
+            </value>
+            <value>
+                <fullName>5 - SOW Completed</fullName>
+                <default>false</default>
+                <label>5 - SOW Completed</label>
+            </value>
+            <value>
+                <fullName>6 - Waiting for PO</fullName>
+                <default>false</default>
+                <label>6 - Waiting for PO</label>
+            </value>
+            <value>
+                <fullName>7 - Complete</fullName>
+                <default>false</default>
+                <label>7 - Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

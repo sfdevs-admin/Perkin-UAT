@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARQ_000619_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>DX Software Services - Akron</label>
+    <queue>ARQ_000550</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_INF__c</fullName>
+    <label>Activity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Call</fullName>
+                <default>false</default>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Workshop/Pilot</fullName>
+                <default>false</default>
+                <label>Workshop/Pilot</label>
+            </value>
+            <value>
+                <fullName>Customer Outreach</fullName>
+                <default>false</default>
+                <label>Customer Outreach</label>
+            </value>
+            <value>
+                <fullName>Conference/Webinar/Seminar</fullName>
+                <default>false</default>
+                <label>Conference/Webinar/Seminar</label>
+            </value>
+            <value>
+                <fullName>Presentation/Discussion</fullName>
+                <default>false</default>
+                <label>Presentation/Discussion</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>RFP/RFI/RFQ</fullName>
+                <default>false</default>
+                <label>RFP/RFI/RFQ</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Followup</fullName>
+                <default>false</default>
+                <label>Followup</label>
+            </value>
+            <value>
+                <fullName>Customer Support</fullName>
+                <default>false</default>
+                <label>Customer Support</label>
+            </value>
+            <value>
+                <fullName>Win/Loss Analysis</fullName>
+                <default>false</default>
+                <label>Win/Loss Analysis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

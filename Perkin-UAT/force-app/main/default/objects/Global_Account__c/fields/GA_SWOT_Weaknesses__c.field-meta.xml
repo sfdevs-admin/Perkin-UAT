@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GA_SWOT_Weaknesses__c</fullName>
+    <description>What are our current weaknesses at these program accounts?</description>
+    <inlineHelpText>What are our current weaknesses at these program accounts?</inlineHelpText>
+    <label>Weaknesses</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

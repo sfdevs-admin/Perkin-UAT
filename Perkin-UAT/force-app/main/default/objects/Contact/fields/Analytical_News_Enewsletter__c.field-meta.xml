@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analytical_News_Enewsletter__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Select to depict subscription to the Analytical News Enewsletter</inlineHelpText>
+    <label>Analytical News Enewsletter</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Date_received_It_resltn_date</fullName>
+    <active>true</active>
+    <description>DX SP date closed greater than or equal to date received
+PRIOR: MM
+NEW:   MG  2202.09.22   cleaned up formatting + Error Msg</description>
+    <errorConditionFormula>IF(AND(RecordTypeId=&#39;0123A000001GhBc&#39; /*Dx Support */
+,NOT(PKI_GLB_Duplicate_Case__c)
+,ISPICKVAL(Status,&#39;Closed&#39;)
+,(DX_Resolution_Date__c &lt;  DX_Date_Received__c))
+,true,false)</errorConditionFormula>
+    <errorDisplayField>DX_Resolution_Date__c</errorDisplayField>
+    <errorMessage>V.RULE_CASE_005: Resolution date cannot be less than Date received</errorMessage>
+</ValidationRule>

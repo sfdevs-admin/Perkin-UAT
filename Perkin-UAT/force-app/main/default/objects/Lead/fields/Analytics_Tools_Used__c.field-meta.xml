@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analytics_Tools_Used__c</fullName>
+    <label>Analytics Tools Used</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GeneSifter</fullName>
+                <default>false</default>
+                <label>GeneSifter</label>
+            </value>
+            <value>
+                <fullName>Mutation Surveyor</fullName>
+                <default>false</default>
+                <label>Mutation Surveyor</label>
+            </value>
+            <value>
+                <fullName>Sequencher</fullName>
+                <default>false</default>
+                <label>Sequencher</label>
+            </value>
+            <value>
+                <fullName>SeqScape</fullName>
+                <default>false</default>
+                <label>SeqScape</label>
+            </value>
+            <value>
+                <fullName>Variant Reporter</fullName>
+                <default>false</default>
+                <label>Variant Reporter</label>
+            </value>
+            <value>
+                <fullName>Phred/Phrap/Consed</fullName>
+                <default>false</default>
+                <label>Phred/Phrap/Consed</label>
+            </value>
+            <value>
+                <fullName>LaserGene</fullName>
+                <default>false</default>
+                <label>LaserGene</label>
+            </value>
+            <value>
+                <fullName>Staden Package</fullName>
+                <default>false</default>
+                <label>Staden Package</label>
+            </value>
+            <value>
+                <fullName>VectorNTI</fullName>
+                <default>false</default>
+                <label>VectorNTI</label>
+            </value>
+            <value>
+                <fullName>Aligner</fullName>
+                <default>false</default>
+                <label>Aligner</label>
+            </value>
+            <value>
+                <fullName>Gene Workbench</fullName>
+                <default>false</default>
+                <label>Gene Workbench</label>
+            </value>
+            <value>
+                <fullName>In-house tools</fullName>
+                <default>false</default>
+                <label>In-house tools</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>
