@@ -1,0 +1,55 @@
+/**************************************************************
+  * 1. Jira Ticket(s) that relates to this class
+  *    - ATEAM-1862
+  *    - ITSFDC-####
+  *
+  * 2. Description - Put detailed description here of what this class is used for procedurally
+  *    this will allow running Account Territories via Q.ACTION & M.ACTION which is otherwise not possible via native execution.
+  *    This allows it to run as a system user so that default users do not need elevated permissions on accounts. (i.e. Public Read Only is all that is needed)
+  *
+  * 3. Objects referenced
+  *    -Account
+  *    -Object Name
+  *    -Object Name
+  *    -Object Name 
+  *
+  * 4. Callouts to additional Components (including their methods) or None:
+  *    - None
+  *    - Component.Method  
+  *    - Component.Method
+  *
+  * 5. Dependant Class(es):
+  *    - UTIL_RunTerritoryRules
+  *    - UTIL_TerritoryForAccount  (<--is Invocable)
+  *    - UTIL_TerritoryForAccountMockTest
+  *    - UTIL_TerritoryForAccountTest
+  *
+  * 6. Test Class Name: UTIL_TerritoryForAccountMockTest, UTIL_TerritoryForAccountTest
+  *
+  * 7. Is @Invocable (Yes or No):  Yes
+  *
+  * 8. Author Name(s): 
+  *    - (KPMG)Yakup Garayev - 2022.12.12
+  *    - First Last & Updated Date(YYYY.MM.DD)
+  *    - First Last & Updated Date(YYYY.MM.DD)
+  *
+*************************************************************/ 
+public class UTIL_TerritoryForAccount {
+    @InvocableMethod (label = 'Territory For Account' description = 'Assign Territory to Account' callout = true)
+    
+    public static void getAccId ( List<List<Account>> listAccLists) {
+        Set<String> accIds = new Set<String>();
+        //get the first List from the List of Lists
+        List<Account> accsList = listAccLists.get(0);
+        if(accsList.size() > 0){
+        for(Account ac : accsList){
+            accIds.add(ac.id);
+        }
+        }
+        if(accIds.size() > 0){
+            UTIL_RunTerritoryRules job = new UTIL_RunTerritoryRules() ;
+            job.accntIds = accIds; 
+                System.enqueueJob(job);
+        }
+    }
+}

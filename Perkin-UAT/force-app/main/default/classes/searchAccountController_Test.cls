@@ -1,0 +1,23 @@
+@isTest
+private class searchAccountController_Test{
+  @testSetup
+  static void setupTestData(){
+    test.startTest();
+    Account account_Obj = new Account(Name = 'Jai', ShippingStreet = 'Lansing', ShippingCity = 'ATL', ShippingState = 'GA', ShippingPostalCode = '30041', ShippingCountry = 'US', ShippingLatitude = 22, ShippingLongitude = 23, ShippingGeocodeAccuracy = 'Address', AccountNumber = 'Accou933', Site = 'Site422', IsExcludedFromRealign = false, SAP_Customer_Base_No__c = 'SAP_C564', SAP_Customer_Number__c = 'SAP_C180', SAP_Customer_Base_Name__c = 'SAP_C855', Name2__c = 'Name2__c613', Name3__c = 'Name3__c966', Name4__c = 'Name4__c387', PKI_Test_Record__c = false, SVMX_PS_Active__c = false, Active__c = false /*, SBQQ__AssetQuantitiesCombined__c = false, SBQQ__CoTermedContractsCombined__c = false, SBQQ__IgnoreParentContractedPrices__c = false, SBQQ__PreserveBundle__c = false*/, Territory_Update__c = false, Marked_For_Deletion__c = false, SAP_Customer_ID__c = 'SAP_C683', PKI_SAP_EInvoice_Customer_Id__c = 'PKI_S997', Taylor_Kyleigh_Core_Lab_List__c = false, Multiple_Support_Opps__c = false, Unsupported_Customer__c = false, Viacord_Customer_Care_Account__c = false, Legal_Entity__c = 'Corporation', Verinata_Requisition_Opt_Out__c = false, Send_IRA_Specimens__c = false, Client_Bill__c = false, Clinician_Access__c = false, Contracted_Price_Agreement_Attached__c = false, Copy_of_Sequential_Results__c = false, Email_Report__c = false, Insurance_Bill__c = false, Low_PAPP_A_Comment__c = false, Mail_Report__c = false, Online_Web_Access_IRA__c = false, Online_Web_Access_view_only__c = false, Phlebotomy_Available__c = false, Prefilled_Sequential_Requistions__c = false, Sample_Dried_Blood_Card__c = false, Sample_Type_Fluid__c = false, Sample_Type_Serum__c = false, Self_pay__c = false, CRL_Low_Limit_37__c = false, Extreme_Values_Report_Flags__c = false, Converted_Lead__c = false, update_checkbox__c = false, NIPT_Mail_Report__c = false, NIPT_Fax_Report__c = false, NIPT_Client_Bill__c = false, NIPT_Insurance_Bill__c = false, NIPT_Contracted_Price__c = false, Contract_Expiration_Date__c = false, NTD_eReports__c = false, NIPT_eReports__c = false, INF_Hosted_Solutions__c = false, INF_Support_Special_Handling__c = false, INF_Ultra_Support__c = false, Merged_Flag__c = false, Update_Sales_Address__c = false, Update_Top_Parent__c = false, PKI_SAP_Marked_for_Deletion__c = false);
+    Insert account_Obj; 
+    test.stopTest();
+  }
+  static testMethod void test_fetchAccount_UseCase1(){
+    List<Account> account_Obj  =  [SELECT Name,ShippingStreet,ShippingCity,ShippingState,ShippingPostalCode,ShippingCountry,ShippingLatitude,ShippingLongitude,ShippingGeocodeAccuracy,ShippingAddress,AccountNumber,Site,IsExcludedFromRealign,SAP_Customer_Base_No__c,SAP_Customer_Number__c,SAP_Customer_Base_Name__c,Name2__c,Name3__c,Name4__c,PKI_Test_Record__c,SVMX_PS_Active__c,Active__c /*,SBQQ__AssetQuantitiesCombined__c,SBQQ__CoTermedContractsCombined__c,SBQQ__IgnoreParentContractedPrices__c,SBQQ__PreserveBundle__c*/,Territory_Update__c,Marked_For_Deletion__c,SAP_Customer_ID__c,PKI_SAP_EInvoice_Customer_Id__c,Taylor_Kyleigh_Core_Lab_List__c,Multiple_Support_Opps__c,Unsupported_Customer__c,Viacord_Customer_Care_Account__c,Legal_Entity__c,Verinata_Requisition_Opt_Out__c,Send_IRA_Specimens__c,Client_Bill__c,Clinician_Access__c,Contracted_Price_Agreement_Attached__c,Copy_of_Sequential_Results__c,Email_Report__c,Insurance_Bill__c,Low_PAPP_A_Comment__c,Mail_Report__c,Online_Web_Access_IRA__c,Online_Web_Access_view_only__c,Phlebotomy_Available__c,Prefilled_Sequential_Requistions__c,Sample_Dried_Blood_Card__c,Sample_Type_Fluid__c,Sample_Type_Serum__c,Self_pay__c,CRL_Low_Limit_37__c,Extreme_Values_Report_Flags__c,Converted_Lead__c,update_checkbox__c,NIPT_Mail_Report__c,NIPT_Fax_Report__c,NIPT_Client_Bill__c,NIPT_Insurance_Bill__c,NIPT_Contracted_Price__c,Contract_Expiration_Date__c,NTD_eReports__c,NIPT_eReports__c,INF_Hosted_Solutions__c,INF_Support_Special_Handling__c,INF_Ultra_Support__c,Merged_Flag__c,Update_Sales_Address__c,Update_Top_Parent__c,PKI_SAP_Marked_for_Deletion__c from Account];
+    System.assertEquals(true,account_Obj.size()>0);
+    searchAccountController obj01 = new searchAccountController();
+    searchAccountController.fetchAccount('test data','test data','test data','test data','test data');
+  }  
+  
+  static testMethod void testFetchUserInfo(){
+       User u = searchAccountController.fetchUserInfo();
+       System.assertNotEquals(null, u);
+
+   }
+  
+}

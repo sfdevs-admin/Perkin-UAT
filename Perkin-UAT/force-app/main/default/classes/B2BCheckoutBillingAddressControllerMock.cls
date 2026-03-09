@@ -1,0 +1,11 @@
+@isTest
+global class B2BCheckoutBillingAddressControllerMock implements HttpCalloutMock{
+
+    global HTTPResponse respond(HTTPRequest req) {
+        HttpResponse res = new HttpResponse();
+        res.setHeader('Content-Type', 'application/json');
+        res.setBody('{"result":{"verdict":{"inputGranularity":"SUB_PREMISE","validationGranularity":"PREMISE","geocodeGranularity":"PREMISE","addressComplete":true,"hasUnconfirmedComponents":true,"hasInferredComponents":true},"address":{"formattedAddress":"2000 Auburn Drive suite 340, Beachwood, OH 44122-4327, USA","postalAddress":{"regionCode":"US","languageCode":"en","postalCode":"44122-4327","administrativeArea":"OH","locality":"Beachwood","addressLines":["2000 Auburn Dr suite 340"]},"addressComponents":[{"componentName":{"text":"2000"},"componentType":"street_number","confirmationLevel":"CONFIRMED"},{"componentName":{"text":"Auburn Drive","languageCode":"en"},"componentType":"route","confirmationLevel":"UNCONFIRMED_BUT_PLAUSIBLE"},{"componentName":{"text":"suite 340","languageCode":"en"},"componentType":"subpremise","confirmationLevel":"UNCONFIRMED_BUT_PLAUSIBLE"},{"componentName":{"text":"Beachwood","languageCode":"en"},"componentType":"locality","confirmationLevel":"UNCONFIRMED_BUT_PLAUSIBLE"},{"componentName":{"text":"OH","languageCode":"en"},"componentType":"administrative_area_level_1","confirmationLevel":"UNCONFIRMED_BUT_PLAUSIBLE"},{"componentName":{"text":"44122"},"componentType":"postal_code","confirmationLevel":"UNCONFIRMED_BUT_PLAUSIBLE"},{"componentName":{"text":"USA","languageCode":"en"},"componentType":"country","confirmationLevel":"CONFIRMED"},{"componentName":{"text":"4327"},"componentType":"postal_code_suffix","confirmationLevel":"CONFIRMED","inferred":true}],"missingComponentTypes":["route","locality","postal_code","administrative_area_level_1","street_number"],"unconfirmedComponentTypes":["subpremise","route","locality","postal_code","administrative_area_level_1","street_number"]},"uspsData":{"standardizedAddress":{"firstAddressLine":"2000 AUBURN DR STE 340","cityStateZipAddressLine":"BEACHWOOD OH 44122-4327","city":"BEACHWOOD","state":"OH","zipCode":"44122","zipCodeExtension":"4327"}}}}');
+        res.setStatusCode(200);
+        return res;
+    }
+}
