@@ -1,0 +1,109 @@
+<!--
+  @description       : 
+  @author            : Gaurav Setia
+  @group             : 
+  @last modified on  : 07-30-2025
+  @last modified by  : S.T
+-->
+<template>
+    <template lwc:if={showStencil}>
+       <template lwc:if={isOrderConfirmPage}>
+            <div>
+                <c-stencil height="25" width="40%" border-radius="5px"></c-stencil>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                    <c-stencil height="25" width="70%" border-radius="5px"></c-stencil>
+                    <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+                    <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+                    <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+                </div>
+                <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                    <c-stencil height="25" width="70%" border-radius="5px"></c-stencil>
+                    <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+                </div>
+                <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                    <div class="">
+                        <div class="slds-grid slds-grid_vertical">
+                            <div class="slds-col">
+                                <c-stencil height="25" width="70%" border-radius="5px"></c-stencil>
+                                <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+                            </div>
+                            <div class="slds-col">
+                                <c-stencil height="25" width="70%" border-radius="5px"></c-stencil>
+                                <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <template lwc:else>
+            <c-stencil height="25" width="25%" border-radius="5px"></c-stencil>
+            <c-stencil height="20" width="15%" border-radius="5px"></c-stencil>
+        </template>
+    </template>
+    <template lwc:else>
+        <template lwc:if={isOrderDetailsAvailable}>
+            <template lwc:if={isOrderConfirmPage}>
+                <div>
+                    <h1 class="slds-page-header__title">{labels.ShippingInfoHeader}</h1>
+                </div>
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                        <div class="slds-var-p-top_x-small">{labels.ShippingAddress}</div>
+                        <div class="font-weight-300">{street}</div>
+                        <div class="font-weight-300">{city}, {state} {postalCode}</div>
+                        <div class="font-weight-300">{country} </div>
+                    </div>
+                    <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                        <div class="slds-var-p-top_x-small">{labels.ShippingMethod}</div>
+                        <div class="font-weight-300">{method}</div>
+                    </div>
+                    <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                        <div class="slds-grid">
+                            <div class="slds-grid slds-grid_vertical">
+                                <div class="slds-col">
+                                    <div class="slds-var-p-top_x-small">{labels.ShippingCharges}</div>
+                                    <div class="font-weight-300">
+                                        <lightning-formatted-number 
+                                            value={charges} 
+                                            format-style="currency" 
+                                            currency-code={currencyCode}>
+                                        </lightning-formatted-number>
+                                    </div>
+                                </div>
+                                <div lwc:if={isEstimatedDateAvailable} class="slds-col">
+                                    <div class="slds-var-p-top_x-small">{labels.estimatedDays}</div>
+                                    <div class="font-weight-300">
+                                        <p>{estimatedDate}</p>
+                                        <!-- <lightning-formatted-date-time 
+                                            value={estimatedDate}
+                                            year="2-digit" 
+                                            month="2-digit" 
+                                            day="2-digit"
+                                        ></lightning-formatted-date-time> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+            <template lwc:else>
+                <div lwc:if={isEstimatedDateAvailable}>
+                    <h1 class="slds-page-header__title ">{labels.estimatedDays}</h1>
+                    <div class="font-weight-300">
+                        <p>{estimatedDate}</p>
+                        <!-- <lightning-formatted-date-time 
+                            value={estimatedDate}
+                            year="2-digit" 
+                            month="2-digit" 
+                            day="2-digit"
+                        ></lightning-formatted-date-time> -->
+                    </div>
+                </div>
+            </template>
+        </template>
+    </template>
+</template>

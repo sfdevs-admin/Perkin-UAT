@@ -1,0 +1,121 @@
+.slds-assistive-text + .original-price {
+    text-decoration: line-through;
+}
+.price-container {
+    width: auto;
+    line-height: 2rem;
+}
+.price-col {
+    vertical-align: baseline;
+}
+.price-col-section {
+    font-weight: var(--dxp-s-body-font-weight, 300);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.price-label:first-child {
+    font-weight: var(--ref-c-product-pricing-price-label-font-weight, var(--dxp-c-strong-text-weight, 700));
+}
+.negotiated-price {
+    color: var(
+        --ref-c-product-pricing-negotiated-price-label-color,
+        var(--com-c-product-details-negotiated-price-label-color)
+    );
+    font-size: var(
+        --ref-c-product-pricing-negotiated-price-label-size,
+        var(--com-c-product-details-negotiated-price-label-size)
+    );
+}
+.tax-info-label {
+    color: var(--ref-c-product-pricing-tax-info-label-color, var(--com-c-product-details-tax-info-label-color));
+    font-size: var(--ref-c-product-pricing-tax-info-label-size, var(--com-c-product-details-tax-info-label-size));
+}
+.original-price {
+    color: var(
+        --ref-c-product-pricing-original-price-label-color,
+        var(--com-c-product-details-original-price-label-color)
+    );
+    font-size: var(
+        --ref-c-product-pricing-original-price-label-size,
+        var(--com-c-product-details-original-price-label-size)
+    );
+}
+.price-unavailable{
+    font-weight: var(--ref-c-product-pricing-price-label-font-weight, var(--dxp-c-strong-text-weight, 700));
+    font-size: 1.2rem;
+    position: relative;
+    display: inline-block; /* Ensures the underline matches content width */
+    cursor: pointer; /* Changes cursor to pointer */
+    text-decoration: none; /* Removes default underline */
+}
+
+.price-unavailable::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjusts underline position */
+    width: 0; /* Initially hidden */
+    height: 2px; /* Thickness of the underline */
+    background-color: currentColor; /* Uses text color */
+    transition: width 0.3s ease-in-out;
+}
+
+.price-unavailable:hover::after {
+    width: 100%; /* Expands underline */
+}
+
+.product-saved {
+    /* background: #d9dfe7;
+    color: #292927; */
+    /* background: rgb(68, 166, 78); */
+    background: #58A618;
+    color: #ffffff;
+    padding: 4px 6px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 5px;
+    margin-top: 4px;
+    align-items: flex-end;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 48em) {
+    .price-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .price-col-section:first-child {
+        text-align: right;
+    }
+    .price-unavailable {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .tax-container {
+        text-align: center;
+    }
+    .product-saved {
+        align-items: flex-start;
+        display: flex;
+    }
+}
+
+
+.price-col-section {
+    display: inline-block;
+    text-align: right;
+}
+
+.price-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 0.5rem; 
+}
+
+.negotiated-price {
+    font-weight: bold;
+    color: black;
+}

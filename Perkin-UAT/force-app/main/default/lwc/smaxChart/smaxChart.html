@@ -1,0 +1,34 @@
+<!-- Smax Chart -->
+<template>
+    <!--
+    <template if:true={isDonut}>
+        <lightning-card >
+            <div class="slds-align_absolute-center">>
+                <canvas class="donut" lwc:dom="manual"></canvas>
+            </div>
+        </lightning-card>
+    </template>
+    -->
+    <template if:true={isLinear}>
+        <table>
+            <tr>
+                <td style="width:50%">
+                    <lightning-card >
+                        <div>
+                            <canvas class="line" lwc:dom="manual"></canvas>
+                        </div>
+                    </lightning-card>
+                </td>
+                <td style="width:50%">
+                    <!--</template>
+                    <template if:true={isBar}>-->
+                    <lightning-card >
+                        <div>
+                            <canvas class="bar" lwc:dom="manual"></canvas>
+                        </div>
+                    </lightning-card>
+                </td>
+            </tr>
+        </table>
+    </template>
+</template>

@@ -1,0 +1,20 @@
+<!--
+  @description       : 
+  @author            : S.T
+  @group             : 
+  @last modified on  : 11-10-2025
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light">
+    <template if:true={isLoading}>
+        <lightning-button variant="brand" label={label.ADD_TO_CART} title={label.ADD_TO_CART} onclick={handleAddToCart}
+            class="slds-m-left_x-small custom-addtocart-button"
+            disabled
+            ></lightning-button>
+    </template>
+    <template if:false={isLoading}>
+        <lightning-button variant="brand" label={label.ADD_TO_CART} title={label.ADD_TO_CART} onclick={handleAddToCart}
+            class="slds-m-left_x-small custom-addtocart-button"
+            ></lightning-button>
+    </template>
+</template>

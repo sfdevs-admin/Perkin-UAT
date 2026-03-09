@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <masterLabel>B2B Card Tile</masterLabel>
+    <description>B2B Checkout</description>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="imageUrl" type="String" label="Image URL" />
+            <!-- <property name="headline" type="String" label="Headline" />
+            <property name="subtitle" type="String" label="Subtitle" />
+            <property name="buttonLabel" type="String" label="Button Label" /> -->
+            <property name="buttonUrl" type="String" label="Button URL" />
+            <!-- <property name="description" type="String" label="Description" />     -->
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

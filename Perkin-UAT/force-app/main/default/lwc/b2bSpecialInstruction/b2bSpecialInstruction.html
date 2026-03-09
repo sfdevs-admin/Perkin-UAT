@@ -1,0 +1,26 @@
+<template lwc:render-mode="light">
+  <div if:true={showSpinner}>
+    <div class="spinner">
+      <lightning-spinner
+        variant="brand"
+        title="Loading"
+        size="medium"
+      ></lightning-spinner>
+      <div class="slds-backdrop slds-backdrop_open"></div>
+    </div>
+  </div>
+  <div if:true={isLoading}>
+    <c-stencil height="20" width="100%"></c-stencil>
+  </div>
+  <div if:false={isLoading}>
+    <lightning-textarea
+      type="text"
+      value={userInput}
+      onchange={handleChange}
+      class="special-instruction-text-area"
+      variant="label-hidden"
+      label=""
+    >
+    </lightning-textarea>
+  </div>
+</template>

@@ -1,0 +1,84 @@
+<template>
+    <lightning-modal-header class="custom-modal-header" label={modalTitle}></lightning-modal-header>
+
+    <lightning-modal-body>
+        <div class="step-section">
+            <div if:true={errorMsg} style='color:red'>{errorMsg}</div>
+
+            <template for:each={propertyList} for:item="property">
+                <div key={property.propertyId}>
+                    <template if:true={property.isLabel}>
+                        <label class="slds-form-element__label slds-p-top_x-small" key={property.propertyId}
+                            style={property.style}>
+                            {property.label}
+                        </label>
+                    </template>
+                    <template if:true={property.isInput}>
+                        <lightning-input class="slds-p-bottom_x-small"  variant="label-hidden" key={property.propertyId}
+                            data-id={property.propertyId} type={property.dataType} value={property.selectedAnswer}
+                            max-length="255" required={property.isRequired} onchange={handleChange}>
+                        </lightning-input>
+                    </template>
+                    <template if:true={property.isTextArea}>
+                        <lightning-textarea class="slds-p-bottom_x-small" key={property.propertyId} variant="label-hidden"
+                            data-id={property.propertyId} value={property.selectedAnswer} max-length="255"
+                            required={property.isRequired} onchange={handleChange} >
+                        </lightning-textarea>
+                    </template>
+                    <template if:true={property.isCombobox}>
+                        
+                        <lightning-combobox class="slds-p-bottom_x-small" key={property.propertyId} variant="label-hidden" disabled={property.disabled} 
+                            data-id={property.propertyId} value={property.selectedAnswer} required={property.isRequired}
+                            options={property.options} onchange={handleChange}></lightning-combobox>
+                    </template>
+                </div>
+            </template>
+        </div>
+
+
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <div class="slds-grid">
+
+            <!-- Only one button visible -->
+            <template if:true={hasOnlyOneAction}>
+                <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2 slds-col_bump-left slds-p-around_x-small">
+                    <div if:true={hasPrimaryAction}>
+                        <c-common-button variant="primary" width="stretch" assistive-text={primaryActionLabel}
+                            onclick={handlePrimaryAction}>
+                            {primaryActionLabel}
+                        </c-common-button>
+                    </div>
+                    <div if:true={hasSecondaryAction}>
+                        <c-common-button variant="secondary" width="stretch" assistive-text={secondaryActionLabel}
+                            onclick={handleSecondaryAction}>
+                            {secondaryActionLabel}
+                        </c-common-button>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Both buttons visible -->
+            <template if:false={hasOnlyOneAction}>
+                <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2 slds-p-around_x-small">
+                    <div if:true={hasPrimaryAction}>
+                        <c-common-button variant="primary" width="stretch" assistive-text={primaryActionLabel}
+                            onclick={handlePrimaryAction}>
+                            {primaryActionLabel}
+                        </c-common-button>
+                    </div>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2 slds-p-around_x-small">
+                    <div if:true={hasSecondaryAction}>
+                        <c-common-button variant="secondary" width="stretch" assistive-text={secondaryActionLabel}
+                            onclick={handleSecondaryAction}>
+                            {secondaryActionLabel}
+                        </c-common-button>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </lightning-modal-footer>
+
+
+</template>

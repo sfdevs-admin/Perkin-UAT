@@ -1,0 +1,25 @@
+<!-- <template>
+    <div style={urlImageAttribute}
+    class="slds-box slds-grid slds-grid_align-spread slds-grid_vertical-align-center imageClass">
+         
+        <div class="slds-col slds-p-around_medium">
+            <h2 if:true={headline} class="headerClass slds-text-heading_medium">
+                {headline}
+            </h2>
+            <p class="slds-m-top_x-small subHeaderClass" if:true={subtitle}>{subtitle}</p>
+            <p class="subHeaderClass" if:true={description}>{description}</p>
+            <div if:true={showButton}>
+                <a href={buttonUrl} class="buttonClass slds-button slds-button_brand slds-m-top_medium">{buttonLabel}</a>
+            </div>
+        </div>
+    </div> 
+</template>
+ -->
+
+<template>
+    <div class="tile-container">
+        <a href={buttonUrl} target="_blank" rel="noopener noreferrer">
+            <img src={imageUrl} alt="Image Tile" class="tile-image" />
+        </a>
+    </div>
+</template>

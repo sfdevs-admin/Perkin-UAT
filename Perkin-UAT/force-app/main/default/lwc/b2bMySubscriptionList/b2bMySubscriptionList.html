@@ -1,0 +1,95 @@
+<template>
+    <div class={mainListContainer}>
+        <!-- Empty State UI -->
+        <div if:false={isLoading}>
+            <template if:false={haSubscription}>
+                <div class="empty-state">
+                    <img src={emptySubscriptionImage} alt="No Subscription Lists" />
+                    <p class="empty-message">{labels.emptyHeading}</p>
+                    <p class="empty-subtext">{labels.emptySubheading}</p>
+                </div>
+            </template>
+        </div>
+
+        <!-- Render subscription List Cards -->
+        <template if:false={isMySubscriptionDetailPage}>
+            <div class={containerClass}>
+                <template if:true={haSubscription}>
+                    <template if:true={subscriptionLists}>
+                        <template for:each={subscriptionLists} for:item="list">
+                            <div key={list.Id} class="summary-card">
+                                <div class="card-header">
+                                    <h2>{list.subscriptionName}
+                                    </h2>
+                                    <a  onclick={handleViewDetails} data-id={list.Id}>{labels.viewDetails}</a>
+                                </div>
+                                <div class="card-body slds-grid slds-wrap slds-gutters list-details">
+                                    <!-- Left column: Description & Billing Frequency -->
+                                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                                        <h3 class="list-info-description">
+                                            <b>{labels.description}: </b>
+                                            <lightning-formatted-rich-text value={list.subscriptionDescription}></lightning-formatted-rich-text>
+                                        </h3>
+                                        <h3 class="list-info-description">
+                                            <b>{labels.billingFrequency}: </b>
+                                            <lightning-formatted-rich-text value={list.subscriptionBillingFrequency}></lightning-formatted-rich-text>
+                                        </h3>
+                                    </div>
+
+                                    <!-- Right column: Status -->
+                                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                                        <h3 class="list-info-description">
+                                            <b>{labels.status}: </b>
+                                            <lightning-formatted-rich-text value={list.subscriptionStatus}></lightning-formatted-rich-text>
+                                        </h3>
+                                        <h3 class="list-info-description">
+                                            <b>{labels.billingDate}: </b>
+                                            <lightning-formatted-rich-text value={list.subscriptionNextBillingDate}></lightning-formatted-rich-text>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+                    </template>
+                </template>
+            </div>
+        </template>
+
+        <!-- Template for My Subscription  Details Page -->
+        <template if:true={isMySubscriptionDetailPage}>
+            <div class={containerClass}>
+                <template if:true={subscriptionLists}>
+                    <template for:each={subscriptionLists} for:item="list">
+                        <div 
+                            key={list.Id} 
+                            class={list.cardClass} 
+                            onclick={handleCardClick} 
+                            data-id={list.Id}>
+
+                            <div class="card-header">
+                                <h2>
+                                    {list.subscriptionName}
+                                </h2>
+                            </div>
+
+                        </div>
+                    </template>
+                </template>
+            </div>
+        </template>
+
+        <div if:true={isLoading}>
+            <div class="summary-card">
+                <c-stencil height="20" width="100%"></c-stencil>
+            </div>
+            <div class="summary-card">
+                <c-stencil height="20" width="100%"></c-stencil>
+            </div>
+            <div class="summary-card">
+                <c-stencil height="20" width="100%"></c-stencil>
+            </div>
+        </div>
+
+
+    </div>
+</template>

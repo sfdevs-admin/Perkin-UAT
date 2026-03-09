@@ -1,0 +1,96 @@
+<!--
+  @description       : 
+  @author            : Gaurav Setia
+  @group             : 
+  @last modified on  : 10-03-2025
+  @last modified by  : Swati Chilap
+-->
+<template>
+    <div class="slds-grid slds-wrap slds-gutters slds-var-p-around_small item-container">
+        <div lwc:if={showProductImage} class="slds-col slds-size_4-of-12 slds-large-size_2-of-12 slds-var-p-right_xxx-small">
+            <img alt={item.productDetails.thumbnailImage.alternateText} class="thumbnailImg"
+                onclick={handleProductRedirection} src={imageUrl}>
+        </div>
+        <div class="slds-col slds-grid slds-wrap slds-size_8-of-12 slds-large-size_10-of-12">
+            <div class="slds-gutters slds-grid slds-wrap slds-col slds-size_1-of-1">
+                <div class="slds-col slds-size_1-of-1 slds-large-size_6-of-12 autoFlex">
+                    <span class="cursor-pointer" onclick={handleProductRedirection}>
+                        <h2><b>
+                            <lightning-formatted-rich-text value={item.productDetails.fields.B2B_Display_Name__c}>
+                            </lightning-formatted-rich-text>
+                        </b></h2>
+                    </span>
+                    <div lwc:if={showSku} class="productAttribute">
+                        {labels.SkuLabel}# <lightning-formatted-rich-text value={item.productDetails.sku}>
+                        </lightning-formatted-rich-text>
+                    </div>
+                    <template for:each={fieldsWithLabels} for:item="itemField">
+                        <div key={itemField} class="productAttribute">
+                            {itemField.label}: <lightning-formatted-rich-text value={itemField.value}>
+                            </lightning-formatted-rich-text>
+                        </div>
+                    </template>
+                </div>
+                <div lwc:if={showPricePerUnit} class="slds-col slds-size_1-of-1 slds-large-size_3-of-12 dynamicTextAlign autoFlex">
+                    <lightning-formatted-number
+                        format-style="currency"
+                        currency-code={currencyCode}
+                        currency-display-as="symbol"
+                        maximum-fraction-digits="2"
+                        value={item.unitAdjustedPriceWithItemAdj}>
+                    </lightning-formatted-number>/{labels.ItemLabel}
+                    <!-- value={item.salesPrice}> -->
+                </div>
+                <div lwc:if={showLineItemTotal} class="slds-grid slds-wrap slds-col slds-size_1-of-1 slds-large-size_3-of-12 dynamicTextAlign">
+                    <div lwc:if={showActualPrice}>
+                        <b>
+                            <lightning-formatted-number
+                                format-style="currency"
+                                currency-code={currencyCode}
+                                currency-display-as="symbol"
+                                maximum-fraction-digits="2"
+                                value={totalPrice}>
+                            </lightning-formatted-number>
+                        </b>
+                    </div>
+                    <div lwc:if={needsOriginalPrice} class="listPrice">
+                        <lightning-formatted-number
+                            format-style="currency"
+                            currency-code={currencyCode}
+                            currency-display-as="symbol"
+                            maximum-fraction-digits="2"
+                            value={totalListPrice}>
+                        </lightning-formatted-number>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slds-col actionsContainer">
+                    <div if:false={hideQuantitySelector} class="quantitySelectorContainer">
+                        <lightning-helptext lwc:if={hasQuantityRule} content={quantityRuleHelpText} class="helpText"></lightning-helptext>
+                        <c-b2b-quantity-selector 
+                            quantity={quantity}
+                            product-id={item.productDetails.productId}
+                            is-subscription-cart={isSubscriptionCart}
+                            onproductquantity={handleProductQuantity}>
+                        </c-b2b-quantity-selector>
+                    </div>
+                    <lightning-button lwc:if={showRemoveItemOption}
+                        onclick={handleDelete} variant="base"
+                        label={labels.DeleteBtn} title={labels.DeleteBtn}
+                        class="slds-var-m-left_x-small deleteBtn">
+                    </lightning-button>
+                </div>
+                <div lwc:if={savedAmount} class="customBadge" style={additionalBadgeStyle}>
+                    {labels.SavedTagLabel} <lightning-formatted-number
+                        format-style="currency"
+                        currency-code={currencyCode}
+                        currency-display-as="symbol"
+                        maximum-fraction-digits="2"
+                        value={savedAmount}>
+                    </lightning-formatted-number>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

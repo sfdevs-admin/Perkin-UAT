@@ -1,0 +1,69 @@
+.qty-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qty-label {
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+.qty-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    overflow: hidden;
+    background: white;
+}
+
+.qty-field {
+    width: 55px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: white;
+    padding-left: 22px;
+    padding-right: 0;
+    line-height: 32px; /* Ensures perfect vertical centering */
+}
+
+.qty-input lightning-button-icon {
+    --sds-c-button-icon-border-radius: 0;
+    --sds-c-button-icon-spacing-block-end: 0;
+    --sds-c-button-icon-spacing-block-start: 0;
+    --sds-c-button-icon-spacing-inline-end: 0;
+    --sds-c-button-icon-spacing-inline-start: 0;
+    border: 1px solid #d1d1d1;
+    background: white;
+    height: 32px; /* Matches the input field height */
+}
+
+.number-input__decrement-button {
+    /* border-right: var(--dxp-s-form-element-width-border, 1px) solid var(--dxp-g-neutral-1); */
+    border: var(--dxp-s-form-element-width-border, 1px) solid var(--dxp-g-neutral-1);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+.number-input__increment-button:focus,
+.number-input__decrement-button:focus,
+.number-input__input:focus {
+    --slds-c-input-shadow: 0 0 3px var(--dxp-g-neutral-1);
+}
+
+.number-input__increment-button {
+    /* border-left: var(--dxp-s-form-element-width-border, 1px) solid var(--dxp-g-neutral-1); */
+    border: var(--dxp-s-form-element-width-border, 1px) solid var(--dxp-g-neutral-1);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.background-disabled {
+    background: #ececec;
+}

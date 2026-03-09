@@ -1,0 +1,132 @@
+<!--
+  @description       : 
+  @author            : S.T
+  @group             : 
+  @last modified on  : 09-02-2025
+  @last modified by  : S.T
+-->
+<template>
+
+    <div class="details-page">
+
+        <!-- Header with Name & Description -->
+        <div class="header">
+            <div class="list-info">
+                <div class="list-name-edit-cta">
+                    <h2>{selectedListName}</h2>
+                    <div class="edit-button">
+                        <template if:true={showActivateButton}>
+                            <lightning-button
+                                label={labels.activate}
+                                variant="brand"
+                                onclick={openActivateSubModal}
+                                disabled={isListEmpty}>
+                            </lightning-button>
+                            <a onclick={openEditModal}>{labels.edit}</a>
+                        </template>
+                        <!-- When status is Paused the show activate subscription button -->
+                        <template if:true={showActiveSubscriptionButton}>
+                            <lightning-button
+                                label={labels.activeSubscription}
+                                variant="brand"
+                                onclick={handleActiveSubscription}
+                                disabled={isListEmpty}>
+                            </lightning-button>
+                            <a onclick={openEditModal}>{labels.edit}</a>
+                        </template>
+
+                        <!-- when status is cancel show only edit button -->
+                        <template if:true={showEditButton}>
+                            <a onclick={openEditModal}>{labels.edit}</a>
+                        </template>
+
+                        <!-- When status IS Active, show menu -->
+                        <template if:true={showStatusChangeButtons}>
+                            {labels.subscriptionMenu}<lightning-button-menu
+                                alternative-text="Actions"
+                                icon-name="utility:down"
+                                menu-alignment="right"
+                                onselect={handleMenuAction}>
+                                
+                                <lightning-menu-item value={labels.editMenu} label={labels.subscriptionMenu}></lightning-menu-item>
+                                <lightning-menu-item value={labels.pauseMenu} label={labels.pauseSubMenu} disabled={isListEmpty}></lightning-menu-item>
+                                <lightning-menu-item value={labels.cancelMenu} label={labels.cancelSubMenu} disabled={isListEmpty}></lightning-menu-item>
+                            </lightning-button-menu>
+                        </template>
+                    </div>
+                </div>
+
+
+                <div class="slds-grid slds-wrap slds-gutters list-details">
+                    <!-- Left column: Description & Billing Frequency -->
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                        <h3 class="list-info-description">
+                            <b>{labels.description}: </b>
+                            <lightning-formatted-rich-text value={selectedListDescription}></lightning-formatted-rich-text>
+                        </h3>
+                        <h3 class="list-info-description">
+                            <b>{labels.billingFrequency}: </b>
+                            <lightning-formatted-rich-text value={selectedListBillingFrequency}></lightning-formatted-rich-text>
+                        </h3>
+                    </div>
+
+                    <!-- Right column: Status -->
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                        <h3 class="list-info-description">
+                            <b>{labels.status}: </b>
+                            <lightning-formatted-rich-text value={selectedListStatus}></lightning-formatted-rich-text>
+                        </h3>
+                        <h3 class="list-info-description">
+                            <b>{labels.billingDate}: </b>
+                            <lightning-formatted-rich-text value={selectedListBillingDate}></lightning-formatted-rich-text>
+                        </h3>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="item-count">
+                {itemCountInfo}
+        </div>
+
+        <!-- List Items with Checkboxes -->
+        <div class="items-container">
+            <!-- <template for:each={listItems} for:item="item"> -->
+            <template for:each={visibleItems} for:item="item">
+                <div key={item.id} class="item-card">
+                    <c-b2b-shopping-list-items
+                        item={item}
+                        disabled={addToCartButtonDisabled}
+                        disabled-delete={deleteListButtonDisabled}
+                        onaddtocart={handleAddToCart}
+                        onvaluechanged={handleProductQuantity}
+                        ondeleteitemfromlist={handleDeleteItemFromList}
+                        has-deals-applied={hasDealsApplied}
+                        is-subscription={isSubscription}
+                        show-subscription-prices={showSubscriptionPrices}
+                        onpricingstatus={handlePricingStatus}
+                        effective-account-id={effectiveAccountId}
+                        account-subscription-discount={accountSubscriptionDiscount}>
+                    </c-b2b-shopping-list-items>
+                </div>
+            </template>
+
+            <template if:true={isShowMoreVisible}>
+                <div class="show-more-container">
+                    <a onclick={handleToggleShowMore}>{showMoreLabel}
+                    </a>
+                </div>
+            </template>
+        </div>
+
+        
+        <template if:true={isListEmpty}>
+            <div class="empty-message">
+                <h2>{labels.emptyListHeading}</h2>
+                <p>{labels.emptyListSubheading}</p>
+            </div>
+        </template>
+    </div>
+</template>

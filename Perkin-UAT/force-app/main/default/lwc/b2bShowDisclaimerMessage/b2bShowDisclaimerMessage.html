@@ -1,0 +1,19 @@
+<template>
+    <lightning-modal-header>
+        <lightning-formatted-text value={customLabel.B2B_Disclaimer_Message} style="font-size: xx-large;"></lightning-formatted-text>
+    </lightning-modal-header>
+    <lightning-modal-body> 
+        <div style="text-align: center;">
+            <lightning-formatted-text style="font-size: 20px;" value={customLabel.B2B_Disclaimer_Message2}></lightning-formatted-text>
+        </div>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <div class="slds-text-align_left slds-p-around_x-small">
+            <button class="slds-button slds-button_outline-brand custom-black-button"
+            onclick={handleProceed}
+            style="width: 10%;">
+            {customLabel.B2B_Modal_Proceed_Button}
+            </button>
+        </div>
+    </lightning-modal-footer>
+</template>

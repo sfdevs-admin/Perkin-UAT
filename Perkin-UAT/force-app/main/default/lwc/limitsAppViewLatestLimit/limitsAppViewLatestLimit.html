@@ -1,0 +1,167 @@
+<template>
+    <lightning-card title="Limits App"> 
+        
+        <div class="slds-p-bottom_large slds-p-right_large">
+            <lightning-button-icon class="slds-float_right" icon-name="utility:refresh" alternative-text="Refresh" onclick={handleLoad} variant="brand"></lightning-button-icon>
+            <template if:true={recordData}>
+                <p class="slds-text-title_caps slds-p-left_large slds-p-top__x-small">Showing Record: {recordData.fields.Name.value} </p>
+                <p class="slds-text-title_caps slds-p-left_large slds-p-top_small">Latest Limit Record: {recordData.fields.Latest__c.value}</p>
+            </template>
+        </div>
+
+        <div class="slds-m-around_medium">
+
+        <template if:true={recordData}>
+            <!-- Create a grid for compoment -->
+            <div class="slds-grid slds-gutters_x-small">
+                <!-- Limit Name , Max / Remaining , Usage %   -->
+                <div class="slds-col slds-size_1-of-1 slds-large-size_5-of-12">
+                    <p class="slds-text-title_caps slds-align_absolute-center slds-text-title_bold">Limit Name</p>
+
+                    <br/><p class="slds-align_absolute-center">Single Email</p>
+                    <br/><p class="slds-align_absolute-center">Streaming Api Concurrent Clients</p>
+                    <br/><p class="slds-align_absolute-center">Analytics External Data Size MB</p>
+                    <br/><p class="slds-align_absolute-center">Concurrent Async Get Report Instances</p>
+                    <br/><p class="slds-align_absolute-center">Concurrent Sync Report Runs</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Async Report Runs</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Sync Report Runs</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Dashboard Refreshes</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Dashboard Results</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Dashboard Statuses</p>
+                    <br/><p class="slds-align_absolute-center">Mass Email</p>
+                    <br/><p class="slds-align_absolute-center">Daily Api Requests</p>
+                    <br/><p class="slds-align_absolute-center">Daily Async Apex Executions</p>
+                    <br/><p class="slds-align_absolute-center">Daily Async Apex Tests</p>
+                    <br/><p class="slds-align_absolute-center">Daily Bulk Api Batches</p>
+                    <br/><p class="slds-align_absolute-center">Daily Bulk V2 Query File Storage MB</p>
+                    <br/><p class="slds-align_absolute-center">Daily Bulk V2 Query Jobs</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Published Platform Events</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Published Standard Volume Platform Events</p>
+                    <br/><p class="slds-align_absolute-center">Daily Standard Volume Platform Events</p>
+                    <br/><p class="slds-align_absolute-center">Daily Delivered Platform Events</p>
+                    <br/><p class="slds-align_absolute-center">Monthly Platform Events Usage Entitlement</p>
+                    <br/><p class="slds-align_absolute-center">Private Connect Outbound Callout Hourly Limit MB</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Long Term Id Mapping</p>
+                    <br/><p class="slds-align_absolute-center">Hourly OData Callout</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Short Term Id Mapping</p>
+                    <br/><p class="slds-align_absolute-center">Active Scratch Orgs</p>
+                    <br/><p class="slds-align_absolute-center">Daily Scratch Orgs</p>
+                    <br/><p class="slds-align_absolute-center">Package 2 Version Creates</p>
+                    <br/><p class="slds-align_absolute-center">Package 2 Version Creates Without Validation</p>
+                    <br/><p class="slds-align_absolute-center">Daily Functions Api Call Limit</p>
+                    <br/><p class="slds-align_absolute-center">Data Storage MB</p>
+                    <br/><p class="slds-align_absolute-center">File Storage MB</p>
+                    <br/><p class="slds-align_absolute-center">Daily Durable Generic Streaming Api Events</p>
+                    <br/><p class="slds-align_absolute-center">Daily Durable Streaming Api Events</p>
+                    <br/><p class="slds-align_absolute-center">Durable Streaming Api Concurrent Clients</p>
+                    <br/><p class="slds-align_absolute-center">Daily Generic Streaming Api Events</p>
+                    <br/><p class="slds-align_absolute-center">Daily Streaming Api Events</p>
+                    <br/><p class="slds-align_absolute-center">Daily Workflow Emails</p>
+                    <br/><p class="slds-align_absolute-center">Hourly Time Based Workflow</p>
+                    
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+                    <p class="slds-text-title_caps slds-align_absolute-center slds-text-title_bold">(Remain / Max) Usage %</p>
+
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.SingleEmail_Remaining__c.value} / {recordData.fields.SingleEmail_Max__c.value} ) {SingleEmail_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.StreamingApiConcurrentClients_Remaining__c.value} / {recordData.fields.StreamingApiConcurrentClients_Max__c.value} ) {StreamingApiConcurrentClients_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.AnalyticsExternalDataSizeMB_Remaining__c.value} / {recordData.fields.AnalyticsExternalDataSizeMB_Max__c.value} ) {AnalyticsExternalDataSizeMB_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.ConcurrentAsyncGetReportInstances_Remain__c.value} / {recordData.fields.ConcurrentAsyncGetReportInstances_Max__c.value} ) {ConcurrentAsyncGetReportInstances_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.ConcurrentSyncReportRuns_Remaining__c.value} / {recordData.fields.ConcurrentSyncReportRuns_Max__c.value} ) {ConcurrentSyncReportRuns_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyAsyncReportRuns_Remaining__c.value} / {recordData.fields.HourlyAsyncReportRuns_Max__c.value} ) {HourlyAsyncReportRuns_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlySyncReportRuns_Remaining__c.value} / {recordData.fields.HourlySyncReportRuns_Max__c.value} ) {HourlySyncReportRuns_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyDashboardRefreshes_Remaining__c.value} / {recordData.fields.HourlyDashboardRefreshes_Max__c.value} ) {HourlyDashboardRefreshes_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyDashboardResults_Remaining__c.value} / {recordData.fields.HourlyDashboardResults_Max__c.value} ) {HourlyDashboardResults_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyDashboardStatuses_Remaining__c.value} / {recordData.fields.HourlyDashboardStatuses_Max__c.value} ) {HourlyDashboardStatuses_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.MassEmail_Remaining__c.value} / {recordData.fields.MassEmail_Max__c.value} ) {MassEmail_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyApiRequests_Remaining__c.value} / {recordData.fields.DailyApiRequests_Max__c.value} ) {DailyApiRequests_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyAsyncApexExecutions_Remaining__c.value} / {recordData.fields.DailyAsyncApexExecutions_Max__c.value} ) {DailyAsyncApexExecutions_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyAsyncApexTests_Remaining__c.value} / {recordData.fields.DailyAsyncApexTests_Max__c.value} ) {DailyAsyncApexTests_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyBulkApiBatches_Remaining__c.value} / {recordData.fields.DailyBulkApiBatches_Max__c.value} ) {DailyBulkApiBatches_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyBulkV2QueryFileStorageMB_Remaining__c.value} / {recordData.fields.DailyBulkV2QueryFileStorageMB_Max__c.value} ) {DailyBulkV2QueryFileStorageMB_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyBulkV2QueryJobs_Remaining__c.value} / {recordData.fields.DailyBulkV2QueryJobs_Max__c.value} ) {DailyBulkV2QueryJobs_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyPublishedPlatformEvents_Remaining__c.value} / {recordData.fields.HourlyPublishedPlatformEvents_Max__c.value} ) {HourlyPublishedPlatformEvents_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyPSVPlatformEvents_Rem__c.value} / {recordData.fields.HourlyPSVPlatformEvents_Max__c.value} ) {HourlyPublishedStandardVolumePlatformEvents_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyStandardVolumePlatformEvents_Remain__c.value} / {recordData.fields.DailyStandardVolumePlatformEvents_Max__c.value} ) {DailyStandardVolumePlatformEvents_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyDeliveredPlatformEvents_Remaining__c.value} / {recordData.fields.DailyDeliveredPlatformEvents_Max__c.value} ) {DailyDeliveredPlatformEvents_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.MonthlyPlatformEventsUsageEntitlement_Re__c.value} / {recordData.fields.MonthlyPlatformEventsUsageEntitlement_Ma__c.value} ) {MonthlyPlatformEventsUsageEntitlement_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.PrivateConnectOutboundCalloutHourly_Rem__c.value} / {recordData.fields.PrivateConnectOutboundCalloutHourly_Max__c.value} ) {PrivateConnectOutboundCalloutHourlyLimitMB_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyLongTermIdMapping_Remaining__c.value} / {recordData.fields.HourlyLongTermIdMapping_Max__c.value} ) {HourlyLongTermIdMapping_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyODataCallout_Remaining__c.value} / {recordData.fields.HourlyODataCallout_Max__c.value} ) {HourlyODataCallout_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyShortTermIdMapping_Remaining__c.value} / {recordData.fields.HourlyShortTermIdMapping_Max__c.value} ) {HourlyShortTermIdMapping_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.ActiveScratchOrgs_Remaining__c.value} / {recordData.fields.ActiveScratchOrgs_Max__c.value} ) {ActiveScratchOrgs_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyScratchOrgs_Remaining__c.value} / {recordData.fields.DailyScratchOrgs_Max__c.value} ) {DailyScratchOrgs_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.Package2VersionCreates_Remaining__c.value} / {recordData.fields.Package2VersionCreates_Max__c.value} ) {Package2VersionCreates_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.Package2VersionCreatesWOV_Rem__c.value} / {recordData.fields.Package2VersionCreatesWOV_Max__c.value} ) {Package2VersionCreatesWithoutValidation_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyFunctionsApiCallLimit_Remaining__c.value} / {recordData.fields.DailyFunctionsApiCallLimit_Max__c.value} ) {DailyFunctionsApiCallLimit_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DataStorageMB_Remaining__c.value} / {recordData.fields.DataStorageMB_Max__c.value} ) {DataStorageMB_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.FileStorageMB_Remaining__c.value} / {recordData.fields.FileStorageMB_Max__c.value} ) {FileStorageMB_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyDurableGenericStreamingApiEvents_Re__c.value} / {recordData.fields.DailyDurableGenericStreamingApiEvents_Ma__c.value} ) {DailyDurableGenericStreamingApiEvents_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyDurableStreamingApiEvents_Remaining__c.value} / {recordData.fields.DailyDurableStreamingApiEvents_Max__c.value} ) {DailyDurableStreamingApiEvents_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DurableStreamingApiConcurrentClients_Rem__c.value} / {recordData.fields.DurableStreamingApiConcurrentClients_Max__c.value} ) {DurableStreamingApiConcurrentClients_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyGenericStreamingApiEvents_Remaining__c.value} / {recordData.fields.DailyGenericStreamingApiEvents_Max__c.value} ) {DailyGenericStreamingApiEvents_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyStreamingApiEvents_Remaining__c.value} / {recordData.fields.DailyStreamingApiEvents_Max__c.value} ) {DailyStreamingApiEvents_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.DailyWorkflowEmails_Remaining__c.value} / {recordData.fields.DailyWorkflowEmails_Max__c.value} ) {DailyWorkflowEmails_progress}%</p>
+                    <br/><p class="slds-align_absolute-center">( {recordData.fields.HourlyTimeBasedWorkflow_Remaining__c.value} / {recordData.fields.HourlyTimeBasedWorkflow_Max__c.value} ) {HourlyTimeBasedWorkflow_progress}%</p>
+                    
+                </div>
+                <!-- progress bar for the Usage % -->
+                <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+                    <p class="slds-text-title_caps slds-align_absolute-center slds-text-title_bold">Usage Bar</p>
+                    
+                    <br/><p class="br-spacing"><lightning-progress-bar value={SingleEmail_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={StreamingApiConcurrentClients_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={AnalyticsExternalDataSizeMB_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={ConcurrentAsyncGetReportInstances_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={ConcurrentSyncReportRuns_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyAsyncReportRuns_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlySyncReportRuns_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyDashboardRefreshes_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyDashboardResults_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyDashboardStatuses_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={MassEmail_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyApiRequests_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyAsyncApexExecutions_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyAsyncApexTests_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyBulkApiBatches_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyBulkV2QueryFileStorageMB_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyBulkV2QueryJobs_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyPublishedPlatformEvents_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyPublishedStandardVolumePlatformEvents_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyStandardVolumePlatformEvents_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyDeliveredPlatformEvents_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={MonthlyPlatformEventsUsageEntitlement_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={PrivateConnectOutboundCalloutHourlyLimitMB_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyLongTermIdMapping_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyODataCallout_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyShortTermIdMapping_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={ActiveScratchOrgs_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyScratchOrgs_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={Package2VersionCreates_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={Package2VersionCreatesWithoutValidation_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyFunctionsApiCallLimit_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DataStorageMB_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={FileStorageMB_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyDurableGenericStreamingApiEvents_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyDurableStreamingApiEvents_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DurableStreamingApiConcurrentClients_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyGenericStreamingApiEvents_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyStreamingApiEvents_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={DailyWorkflowEmails_progress}></lightning-progress-bar></p>
+                    <br/><p class="br-spacing"><lightning-progress-bar value={HourlyTimeBasedWorkflow_progress}></lightning-progress-bar></p>
+                                                            
+                </div>
+            </div>
+
+        </template>
+        
+        <template if:false={recordData}>
+            <p>Loading ...</p>
+        </template>   
+        <template if:true={error}>
+            <p>Error ...</p>
+        </template>     
+  
+    </div>
+    </lightning-card>
+</template>

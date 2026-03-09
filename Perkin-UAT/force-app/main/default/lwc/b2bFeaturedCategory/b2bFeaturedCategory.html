@@ -1,0 +1,48 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 10-03-2025
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light" >
+    
+    <div if:true={categories.length} class="classPadding slds-m-top_medium slds-m-bottom_medium">
+        <div class="slds-p-bottom_large featuredProductheadingContainer">
+            <span> {headingLabel} </span>
+        </div>
+
+        <template for:each={categories} for:item="category">
+            <c-b2b-featured-category-child
+                key={category.id}
+                category-id={category.id}
+                category-name={category.name}
+                oncategoryloaded={handleCategoryLoaded}
+            ></c-b2b-featured-category-child>
+        </template>
+
+        <div class="slds-p-top_x-small slds-grid slds-wrap slds-gutters">
+            <template for:each={featuredCategories} for:item="category">
+                <div
+                    key={category.id}
+                    class="slds-col slds-size_1-of-5 slds-text-align_center"
+                    onclick={handleCategoryClick}
+                    data-id={category.id}
+                    data-urlname={category.urlName}
+                    data-name={category.name}
+                    style="cursor: pointer;"
+                >
+                    <div class="slds-align_absolute-center">
+                        <img
+                            src={category.imageUrl}
+                            alt={category.name}
+                            class="slds-image slds-image_circle"
+                            style="width: 150px; height: 150px; object-fit: cover;"
+                        />
+                    </div>
+                    <p class="slds-m-top_small">{category.name}</p>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,397 @@
+<!--
+ - Created by tony on 1/20/21.
+ -->
+
+<!-- Smax Dispatch Management Dashboard -->
+<template>
+
+    <lightning-card title="Dispatch Management Dashboard" >
+
+        <lightning-layout pull-to-boundary="medium">
+            <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                <c-custom-lookup label="Territory / Geography / Technician / Dispatcher" placeholder="Enter search values here..." is-multi-entry="true"
+                                 selection={selectedTerritories} errors={lookupErrors} onsearch={handleTerritorySearch} onselectionchange={handleTerritorySelectionChange}>
+                </c-custom-lookup>
+            </lightning-layout-item>
+
+            <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                <!--
+                <p>Your Permissions:</p>
+                <p>Disable Edit Dispatchers: {disableEditDispatchers} &emsp; Disable Edit Technician: {disableEditTechnicians}</p>
+                -->
+                <br/>
+                <template if:true={showUnassignedGeographies}>
+                    <lightning-button label={unassignedGeographiesCount}
+                                      onclick={navigateToUnassignedGeographiesListView}
+                                      icon-name="utility:warning"
+                                      variant="destructive">
+                    </lightning-button>
+                </template>
+
+            </lightning-layout-item>
+        </lightning-layout>
+
+        <lightning-layout pull-to-boundary="medium">
+            <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                <lightning-button label="Search"
+                                  title="Non-primary action"
+                                  onclick={handleTreeSearchClick}
+                                  class="slds-m-left_x-small"
+                                  variant="brand">
+                </lightning-button>
+
+                <lightning-button label="Clear Filter"
+                                  title="Non-primary action"
+                                  onclick={clearFilter}
+                                  class="slds-m-left_x-small"
+                                  variant="destructive-text">
+                </lightning-button>
+            </lightning-layout-item>
+        </lightning-layout>
+
+        <lightning-layout pull-to-boundary="medium" vertical-align="start">
+
+            <lightning-layout-item flexibility="auto" padding="around-large" size="3">
+                <div class="slds-box">
+                    <lightning-tree items={allTerritories}
+                                    header="Territories"
+                                    onselect={handleOnselect}>
+                    </lightning-tree>
+                </div>
+            </lightning-layout-item>
+
+            <lightning-layout-item flexibility="auto" padding="around-large">
+                <!-- <p>The selected Territory Id is: <span class="slds-text-heading_small">{selectedTerritory}</span></p> -->
+
+                <template if:true={dispatchersIsProcessing}>
+                    <lightning-spinner alternative-text="Processing"></lightning-spinner>
+                </template>
+                <template if:false={dispatchersIsProcessing}>
+                    <div class="slds-p-around_small" style="height: 200px">
+                        <lightning-datatable key-field="id"
+                                             data={dispatcherData}
+                                             columns={dispatcherColumns}
+                                             onrowaction={handleDispatcherRowAction}
+                                             hide-checkbox-column="true">
+                        </lightning-datatable>
+                    </div>
+                </template>
+
+                <br/>
+                <lightning-button label="Manage All Dispatchers"
+                                  title="Non-primary action"
+                                  onclick={handleManageDispatchersClick}
+                                  class="slds-m-left_x-small"
+                                  variant="brand"
+                                  disabled={manageDispatchingDisabled}>
+                </lightning-button>
+
+                <lightning-button label="Create Dispatcher"
+                                  title="Non-primary action"
+                                  onclick={handleCreateDispatcherClick}
+                                  class="slds-m-left_x-small"
+                                  variant="brand"
+                                  disabled={disableEditDispatchers}>
+                </lightning-button>
+                <br/><br/>
+
+                <template if:true={techniciansIsProcessing}>
+                    <lightning-spinner alternative-text="Processing"></lightning-spinner>
+                </template>
+                <template if:false={techniciansIsProcessing}>
+                    <div class="slds-p-around_small" style="height: 200px">
+                        <lightning-datatable key-field="id"
+                                             data={technicianData}
+                                             columns={technicianColumns}
+                                             onrowaction={handleTechnicianRowAction}>
+                        </lightning-datatable>
+                    </div>
+                </template>
+
+                <br/>
+                <lightning-button label="Manage Geographies"
+                                  title="Non-primary action"
+                                  onclick={handleManageGeographiesClick}
+                                  class="slds-m-left_x-small"
+                                  variant="brand"
+                                  disabled={manageGeosDisabled}>
+                </lightning-button>
+            </lightning-layout-item>
+
+        </lightning-layout>
+        <br/><br/>
+    </lightning-card>
+    <br/><br/>
+
+    <!-- #region Dispatcher Edit Modal Pop-Up -->
+    <template if:true={showDispatcherEdit}>
+        <div>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                     aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="width: 90%; max-width: none">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                title="Close" onclick={handleDispatcherClose}>
+                            <lightning-icon icon-name="utility:close" variant="inverse" size="medium"> </lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+
+                        <h2 id="dispatcher-edit-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                            Edit Dispatcher
+                        </h2>
+
+                        <div class="slds-text-title_bold" align="left">
+                            Dispatcher:  {dispatcherDataName}<br/><br/>
+                        </div>
+                    </header>
+
+                    <div class="slds-modal__content spinner-container" id="dispatcher-edit-id-1">
+                        <div id="dispatcher-edit-spinner" if:true={isProcessing} class="spinner-mask">
+                            <lightning-spinner alternative-text="Processing" size="medium"></lightning-spinner>
+                        </div>
+
+                        <div>
+                            <lightning-button label="Expand/Collapse" onclick={handleDispatcherTerritoryExpansion}>
+                            </lightning-button>
+                        </div>
+                        <lightning-layout pull-to-boundary="medium" vertical-align="start">
+                            <lightning-layout-item flexibility="auto" padding="around-large" size="6">
+                                <div class="slds-p-around_medium" style="height: 400px">
+                                    <lightning-tree-grid class="dispatcher-territory-tree-grid"
+                                                         columns={dispatcherTerritoryColumns}
+                                                         data={dispatcherTerritoryData}
+                                                         selected-rows={dispatcherSelectedTerritoryIds}
+                                                         key-field="name"
+                                                         expanded-rows={dispatcherTerritoryExpandedRows}
+                                                         onrowselection={handleDispatcherTerritoryOnRowSelection}
+                                                         onrowaction={handleDispatcherTerritoryOnRowAction}>
+                                    </lightning-tree-grid>
+                                </div>
+                            </lightning-layout-item>
+
+                            <lightning-layout-item flexibility="auto" padding="around-large" size="6">
+                                <div class="slds-p-around_medium" style="height: 400px">
+                                    <lightning-datatable class="dispatcher-team-data-table"
+                                                         key-field="id"
+                                                         columns={teamColumns}
+                                                         data={teamData}
+                                                         selected-rows={dispatcherSelectedTeamIds}
+                                                         onrowselection={handleDispatcherTeamOnRowSelection}>
+                                    </lightning-datatable>
+                                </div>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </div>
+
+
+                    <footer class="slds-modal__footer">
+                        <lightning-layout horizontal-align="end">
+                            <lightning-layout-item>
+                                <lightning-button-group>
+                                    <lightning-button label="Cancel" onclick={handleDispatcherClose}>
+                                    </lightning-button>
+                                    <lightning-button label="Save" variant="brand" onclick={handleDispatcherSave} disabled={disableEditDispatchers}>
+                                    </lightning-button>
+                                </lightning-button-group>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </template>
+    <!-- #endregion Dispatcher Edit Pop-Up -->
+
+    <!-- #region Technician Edit Modal Pop-Up -->
+    <template if:true={showTechnicianEdit}>
+        <div>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                     aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="width: 90%; max-width: none">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                title="Close" onclick={handleTechnicianClose}>
+                            <lightning-icon icon-name="utility:close" variant="inverse" size="medium"> </lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="technician-edit-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                            Edit Technician
+                        </h2>
+                    </header>
+
+                    <div class="slds-modal__content spinner-container" id="technician-edit-id-1">
+                        <div id="technician-edit-spinner" if:true={isProcessing} class="spinner-mask">
+                            <lightning-spinner alternative-text="Processing" size="medium"></lightning-spinner>
+                        </div>
+                        <div class="slds-p-around_medium" style="height: 400px">
+                            <div class="slds-text-title_bold">
+                                Technician:  {technicianEditDetailsName}<br/><br/>
+                            </div>
+
+                            <c-custom-lookup class="geo-checkbox-territory" label="Territory" placeholder="Enter search values here..."
+                                 is-multi-entry={territoryMultiSelect} selection={technicianSelectedTerritory}
+                                 errors={lookupErrors} onsearch={handleGeoCheckboxTerritorySearch}
+                                 onselectionchange={handleGeoCheckboxTerritorySelectionChange}>
+                            </c-custom-lookup>
+
+                            <c-custom-lookup class="geo-checkbox-team" label="Team" placeholder="Enter search values here..."
+                                             is-multi-entry={territoryMultiSelect} selection={technicianSelectedTeam}
+                                             errors={lookupErrors} onsearch={handleGeoCheckboxTeamSearch}
+                                             onselectionchange={handleGeoCheckboxTeamSelectionChange}>
+                            </c-custom-lookup>
+
+                            <br/>
+                            <div>
+                                <lightning-checkbox-group name="Geographies Checkbox Group"
+                                                          label="Geographies:"
+                                                          options={geoCheckboxOptions}
+                                                          value={geoCheckboxValues}
+                                                          onchange={handleGeoCheckboxChange}>
+                                </lightning-checkbox-group>
+                                <!-- <p>Selected Values are: {geoCheckboxSelectedValues}</p> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <footer class="slds-modal__footer">
+                        <lightning-button-group>
+                            <lightning-button label="Cancel" onclick={handleTechnicianClose}>
+                            </lightning-button>
+                            <lightning-button label="Save" variant="brand" onclick={handleTechnicianSave} disabled={disableEditTechnicians}>
+                            </lightning-button>
+                        </lightning-button-group>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </template>
+    <!-- #endregion Technician Edit Pop-Up -->
+
+    <!-- #region Tech-Geo Grid Modal Pop-Up -->
+    <template if:true={showManageGeos}>
+        <div>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                     aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="width: 90%; max-width: none">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                title="Close" onclick={handleManageGeosClose}>
+                            <lightning-icon icon-name="utility:close" variant="inverse" size="medium"> </lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="geo-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                            Manage Geographies
+                        </h2>
+                    </header>
+
+                    <div class="slds-modal__content spinner-container" id="geo-content-id-1">
+                        <div id="geo-spinner" if:true={isProcessing} class="spinner-mask">
+                            <lightning-spinner alternative-text="Processing" size="medium"></lightning-spinner>
+                        </div>
+                        <div class="slds-p-around_medium" style="height: 400px">
+                            <lightning-datatable id="geoTable" class="check-grid" key-field="rowId"
+                                                 data={geoGridData} columns={geoGridColumns} draft-values={geoDraftValues}
+                                                 onsave={handleManageGeosSave} oncancel={handleManageGeosClose} onheaderaction={handleGeoHeaderAction}
+                                                 oncellchange={handleGeoGridCellChange} onrowselection={handleGeoRowSelect} column-widths-mode="fixed" resize-column-disabled>
+                            </lightning-datatable>
+                        </div>
+                    </div>
+
+                    <footer class="slds-modal__footer">
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </template>
+    <!-- #endregion Tech-Geo Modal Pop-Up -->
+
+    <!-- #region Dispatchers Grid Modal Pop-Up -->
+    <template if:true={showManageDispatchers}>
+        <div>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                     aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="width: 90%; max-width: none">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                title="Close" onclick={handleManageDispatchersClose}>
+                            <lightning-icon icon-name="utility:close" variant="inverse" size="medium"> </lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="dispatchers-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                            Manage Dispatchers
+                        </h2>
+                    </header>
+
+                    <div class="slds-modal__content spinner-container" id="dispatchers-content-id-1">
+                        <div id="dispatchers-spinner" if:true={isProcessing} class="spinner-mask">
+                            <lightning-spinner alternative-text="Processing" size="medium"></lightning-spinner>
+                        </div>
+                        <div class="slds-p-around_medium" style="height: 400px">
+                            <lightning-datatable id="disTable" class="check-grid" key-field="rowId"
+                                                 data={disGridData} columns={disGridColumns} draft-values={disDraftValues}
+                                                 onsave={handleManageDispatchersSave} oncancel={handleManageDispatchersClose} onheaderaction={handleDisHeaderAction}
+                                                 oncellchange={handleDisGridCellChange} onrowselection={handleDisRowSelect} column-widths-mode="fixed" resize-column-disabled>
+                            </lightning-datatable>
+                        </div>
+                    </div>
+
+                    <footer class="slds-modal__footer">
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </template>
+    <!-- #endregion Dispatchers Modal Pop-Up -->
+
+    <!-- #region Create Dispatcher Modal Pop-Up -->
+    <template if:true={showCreateDispatcher}>
+        <div>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                     aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="width: 90%; max-width: none">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                title="Close" onclick={handleCreateDispatcherClose}>
+                            <lightning-icon icon-name="utility:close" variant="inverse" size="medium"> </lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="create-dispatcher-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                            Create Dispatcher
+                        </h2>
+                    </header>
+
+                    <div class="slds-modal__content spinner-container" id="create-dispatcher-content-id-1">
+                        <div id="create-dispatcher-spinner" if:true={isProcessing} class="spinner-mask">
+                            <lightning-spinner alternative-text="Processing" size="medium"></lightning-spinner>
+                        </div>
+                        <div class="slds-p-around_medium" style="height: 400px">
+                            <lightning-record-edit-form object-api-name="SVMXC__Dispatcher_Access__c" onsuccess={handleCreateDispatcherSuccess} >
+                                <div class="slds-m-around_medium">
+                                    <lightning-input-field field-name='SVMXC__Dispatcher__c' onchange={handleDispatcherChange}></lightning-input-field>
+                                    <lightning-input-field field-name='SVMXC__Territory__c' onchange={handleTerritoryChange}></lightning-input-field>
+                                    <!--
+                                    <lightning-input-field field-name='SVMXC__Service_Team__c' onchange={handleServiceTeamChange}></lightning-input-field>
+                                    -->
+                                    <div class="slds-m-top_medium">
+                                        <lightning-button label="Cancel" onclick={handleCreateDispatcherClose}></lightning-button>
+                                        <lightning-button variant="brand" type="submit" name="save" label="Create Dispatcher"></lightning-button>
+                                    </div>
+                                </div>
+                            </lightning-record-edit-form>
+                        </div>
+                    </div>
+
+                    <footer class="slds-modal__footer">
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </template>
+    <!-- #endregion Create Dispatcher Modal Pop-Up -->
+
+</template>

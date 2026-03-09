@@ -1,0 +1,37 @@
+.selected-codes-box {
+    background-color: transparent; /* Transparent background */
+    border: 1px solid #c9c9c9; /* Normal gray border (SLDS standard) */
+    border-radius: 4px;
+    padding: 0.75rem;
+    min-height: 2.5rem;
+    word-break: break-word;
+}
+
+.selected-codes-box lightning-formatted-text {
+    color: #080707; /* Normal text color for selected codes */
+    font-weight: 400;
+}
+
+.selected-codes-box .slds-text-color_weak {
+    font-style: normal; /* Changed from italic to normal */
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.checkbox-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.checkbox-wrapper {
+    margin-bottom: 0.5rem;
+}
+
+.selection-summary {
+    display: flex;
+    align-items: center;
+}

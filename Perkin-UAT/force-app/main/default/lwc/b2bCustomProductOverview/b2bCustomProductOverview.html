@@ -1,0 +1,36 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 03-04-2026
+  @last modified by  : Swati Chilap
+-->
+<template>
+    <lightning-card>
+        <lightning-tabset class="custom-tabset slds-tabs_default slds-tabs_large" style="--dxp-c-link-text-color: black; --slds-c-tabs-item-sizing-height: 3rem; --slds-c-tabs-item-color-border-active: rgb(37, 79, 158);">
+            <lightning-tab label={label.B2B_Product_Overview} value="Tab 1" onactive={handleActive} data-tab="Tab 1">
+                <!-- Content for Tab 1 -->
+                <div if:true={tab1Selected}>
+                    <template lwc:if={showDescription}>
+                        <div class="slds-align_absolute-center slds-p-around_large">
+                            <!-- <lightning-formatted-text value={longDescription}></lightning-formatted-text> -->
+                            <lightning-formatted-rich-text value={longDescription}></lightning-formatted-rich-text>
+                        </div>
+                    </template>
+                    <c-b2b-product-specification
+                        product-data={productData}>
+                    </c-b2b-product-specification>
+                </div>
+            </lightning-tab>
+            <lightning-tab label={label.B2B_PDP_TAB_RESOURCES} value="Tab 2" onactive={handleActive} data-tab="Tab 2">
+                <!-- Content for Tab 2 -->
+                <div if:true={tab2Selected}>
+                    <slot name="resourcesEventsAndMore"></slot>
+                    <c-b2b-product-resources
+                        product-data={productData}>
+                    </c-b2b-product-resources>
+                </div>
+            </lightning-tab>
+        </lightning-tabset>
+    </lightning-card>
+</template>

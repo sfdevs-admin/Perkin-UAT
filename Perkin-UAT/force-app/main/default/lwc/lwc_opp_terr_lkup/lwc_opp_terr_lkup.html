@@ -1,0 +1,33 @@
+<template>
+<lightning-card title="Territory Label">
+    <div class="spinner">
+        <template if:true={loadspin}>
+            <lightning-spinner alternative-text="Loading" variant="brand" size="large">
+            </lightning-spinner>    
+        </template>
+    </div>
+    <div style="margin-left:3%;">
+        <lightning-radio-group name="Opportunity Territory"
+                                label="Opportunity Territory"
+                                onchange={handleChange}
+                                options={options}
+                                value={selectedValue}
+                                type="radio"></lightning-radio-group>
+        <br/>
+        <div style="font-size: 17px; font-weight: bold;">
+            <template if:true={noValueReturned}>
+                <h1>
+                    <!-- {customMessage}  -->  
+              <lightning-formatted-rich-text
+              value={customMessage}
+              ></lightning-formatted-rich-text>
+                  </h1>
+            </template>        
+        </div>
+        <div if:true={selectedValue}>
+            Thanks for selecting <b>{valueselected}</b>.
+        </div> <br/>
+        <lightning-button label="Assign Territory" variant="brand" title="Assign Territory" onclick={handleClick} class="slds-m-right_x-small" disabled={isButtonDisabled}></lightning-button>                       
+    </div>
+</lightning-card>
+</template>

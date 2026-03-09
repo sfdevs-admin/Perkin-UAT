@@ -1,0 +1,67 @@
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+    border: 1px solid #e1e1e1;
+    padding: 14px;
+}
+
+.list-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.list-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.list-description {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.list-dropdown {
+    width: 280px;
+}
+.description-label {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.select-option {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.step-section {
+    margin-bottom: 1rem;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.success-message {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: green;
+    text-align: center;
+}
+
+.select-option-body, .existing-selection-option-body, .review-section, .success-screen {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

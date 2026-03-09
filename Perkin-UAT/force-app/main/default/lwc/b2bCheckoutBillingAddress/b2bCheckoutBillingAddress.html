@@ -1,0 +1,130 @@
+<template>
+    <div if:true={showComp}>
+        <div if:true={showSpinner}>
+            <div class="slds-grid slds-wrap" if:false={showReadOnlyAddress}>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_3-of-6 slds-p-right_x-small">
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_3-of-6">
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_6-of-6 slds-p-right_x-small">
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_6-of-6 slds-p-right_x-small">
+
+                    <c-stencil height="45" width="100%" square=true></c-stencil>
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_4-of-6 slds-p-right_x-small">
+
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_2-of-6 slds-p-right_x-small">
+
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_4-of-6 slds-p-right_x-small">
+
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_2-of-6 slds-p-right_x-small">
+
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+                </div>
+
+            </div>
+            <div class="slds-grid slds-wrap" if:true={showReadOnlyAddress}>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_1-of-3 slds-p-right_x-small">
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-medium-size_2-of-3 slds-p-right_x-small">
+                    <c-stencil height="25" width="100%" square=true></c-stencil>
+
+                </div>
+            </div>
+            <!-- <lightning-spinner variant="brand" title="Loading" size="medium"></lightning-spinner> -->
+        </div>
+
+        <div if:false={showSpinner}>
+            <div if:false={showReadOnlyAddress}>
+
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_2-of-2 slds-medium-size_3-of-6 slds-p-right_x-small">
+                        <lightning-input label={label.firstName} name="firstName" value={billingAddress.firstName}
+                            onchange={handleAddressChange} data-id="firstName" required></lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_2-of-2 slds-medium-size_3-of-6">
+                        <lightning-input label={label.lastName} name="lastName" value={billingAddress.lastName}
+                            onchange={handleAddressChange} data-id="lastName" required></lightning-input>
+                    </div>
+                </div>
+                <lightning-input-address show-address-lookup street-label={label.street} city-label={label.city}
+                    province-label={label.state} country-label={label.country} postal-code-label={label.postalCode}
+                    street={billingAddress.street} city={billingAddress.city} province={billingAddress.region}
+                    country={billingAddress.country} postal-code={billingAddress.postalCode}
+                    onchange={handleAddressChange} name="address" data-id="address" required></lightning-input-address>
+                <div if:true={showAddressErrorMsg}>
+                    <span class="slds-text-color_error">{invalidAddressMsg}</span>
+                </div>
+                <div class="slds-text-align_right">
+                    <lightning-button variant="brand" label={label.validate} title={label.validate}
+                        onclick={validateBillingAddress} disabled={disableButton}></lightning-button>
+                </div>
+                <div if:true={showFormattedAddress}>
+                    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                        aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                        <div class="slds-modal__container">
+
+                            <header class="slds-modal__header">
+                                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+                    <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                    </svg>
+                    <span class="slds-assistive-text">Close</span>
+                    </button>
+                                <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">{label.modaHeading}
+                                </h2>
+                            </header>
+
+                            <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                                <div>
+                                    <p>{label.modalContent}</p>
+                                    <div class="slds-var-m-vertical_small"><strong>{formattedAddress}</strong></div>
+                                </div>
+
+                                <div class="slds-grid slds-wrap slds-gutters">
+                                    <div class="slds-col slds-size_1-of-2">
+                                        <lightning-button variant="neutral" onclick={closeModal} label={label.cancel}
+                                            stretch="true"></lightning-button>
+                                    </div>
+                                    <div class="slds-col slds-size_1-of-2">
+                                        <lightning-button variant="brand" onclick={updateAddress} label={label.update}
+                                            stretch="true"></lightning-button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="slds-backdrop slds-backdrop_open"></div>
+                </div>
+            </div>
+            <lightning-layout if:true={showReadOnlyAddress}>
+                <lightning-layout-item padding="around-small" size="4">
+                    {billingAddress.firstName} &nbsp;{billingAddress.lastName}<br/>
+            {billingAddress.street}<br />
+                    {billingAddress.city}, {billingAddress.region}
+                    {billingAddress.postalCode}, {billingAddress.country}<br />
+
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="7" alignment-bump="left">
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="1" alignment-bump="left">
+                    <lightning-button variant="base" label={label.changeLabel} onclick={handleChangeClick}
+                        class="slds-m-left_x-small"></lightning-button>
+                </lightning-layout-item>
+
+            </lightning-layout>
+        </div>
+    </div>
+</template>

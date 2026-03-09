@@ -1,0 +1,115 @@
+/* .main-container {
+    height: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.glider_slide {
+    display: flow;
+    object-fit: contain;
+}
+
+.image-container {
+    overflow: hidden; 
+    border: 1px solid #ccc;
+    margin-right: 6px;
+}
+
+.image-container img {
+    width: 250px;
+    height: 300px;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.glider-arrow-next-outside {
+    right: -4%;
+}
+
+.glider-arrow-previous-outside {
+    left: -4%;
+}
+
+.featuredProductContainer{
+    padding: 20px 20px 20px 20px;
+}
+
+.glider-contain{
+    text-align: center;
+    width: 100%;
+}
+
+.glider-coloumn{
+    height: auto !important;
+    width: 400px !important;
+} */
+.glider-contain {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center; /* Centers the items vertically */
+    text-align: center;
+}
+
+.glider-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; /* Adjusts width dynamically based on content */
+}
+
+.relatedProdParentDiv{
+    overflow: auto;
+    white-space: nowrap;
+    max-width: 95vw;
+}
+
+.glider-coloumn{
+    text-align: center;
+    /* border: 1px solid lightgrey; */
+    margin: 5px;
+    /* border-radius: 5px; */
+}
+
+.borderLine-featuredProductheading{
+    display: -webkit-inline-box;
+    margin-bottom: 7px;
+    border-bottom: 1px solid;
+    width: 30%;
+}
+
+.featuredProductheadingContainer{
+    text-align: center; 
+    font-size: x-large
+}
+
+@media only screen and (max-width: 810px) {
+    .borderLine-featuredProductheading{
+        display: -webkit-inline-box;
+        margin-bottom: 7px;
+        border-bottom: 1px solid;
+        width: 25%;
+    }
+
+    .featuredProductheadingContainer{
+        text-align: center; 
+        font-size: x-large
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .borderLine-featuredProductheading{
+        display: -webkit-inline-box;
+        margin-bottom: 7px;
+        border-bottom: 1px solid;
+        width: 8%;
+    }
+
+    .featuredProductheadingContainer{
+        text-align: center; 
+        font-size: x-large
+    }
+}

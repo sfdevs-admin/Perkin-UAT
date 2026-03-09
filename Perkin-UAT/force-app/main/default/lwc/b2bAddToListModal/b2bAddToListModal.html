@@ -1,0 +1,60 @@
+<template>
+    <lightning-modal-header class="custom-modal-header" label={labels.addToShoppingList}></lightning-modal-header>
+
+    <lightning-modal-body>
+
+         <!-- 1st scrren Select Existing List -->
+        <template if:true={isSelectExistingStep}>
+            <div class="step-section existing-selection-option-body">
+                <lightning-combobox name="shoppingLists" label={labels.selectShoppingList} value={selectedListId} options={listOptions} onchange={handleListChange} disabled={disableAddToExistingList}></lightning-combobox>
+                <template if:true={disableAddToExistingList}>
+                    <h3>{labels.noExistingList}</h3>
+                </template>
+                
+                <div class="form-actions">
+                    <lightning-button 
+                        label={labels.createNewShoppingList} 
+                        variant="brand-outline" 
+                        onclick={handleChooseCreate}>
+                    </lightning-button>
+                    <lightning-button 
+                        label={labels.selectAndContinue} 
+                        variant="brand" 
+                        onclick={handleAddToList} 
+                        disabled={disableAddToExistingList}>
+                    </lightning-button>
+                </div>
+            </div>
+        </template>
+
+        <!-- 2nd Create New List -->
+        <template if:true={isCreateStep}>
+            <div class="step-section">
+                <lightning-input label={labels.listName} value={newListName} onchange={handleNameChange} required></lightning-input>
+                <lightning-textarea label={labels.description} value={newListDescription} onchange={handleDescriptionChange}></lightning-textarea>
+                <lightning-input type="checkbox" label={labels.setAsDefault} checked={newListIsDefault} onchange={handleIsDefaultChange}></lightning-input>
+
+                <div class="form-actions">
+                    <lightning-button label={labels.back} variant="neutral" onclick={handleBack}></lightning-button>
+                    <lightning-button label={labels.saveAndContinue} variant="brand" onclick={handleSaveNewList} disabled={disableSave}></lightning-button>
+                </div>
+            </div>
+        </template>
+
+        <!-- Success Screen -->
+        <template if:true={isSuccessStep}>
+            <div class="step-section success-screen">
+                <p class="success-message">{labels.productAddedSuccessfully} <b>{selectedListName}</b>.</p>
+
+                <div class="form-actions">
+                    <lightning-button 
+                        label={labels.goToMyList} 
+                        variant="brand" 
+                        onclick={handleGoToMyList}>
+                    </lightning-button>
+                </div>
+            </div>
+        </template>
+
+    </lightning-modal-body>
+</template>

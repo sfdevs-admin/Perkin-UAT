@@ -1,0 +1,72 @@
+.container {
+    margin: 30px;
+}
+.resource-container {
+    border: 1px solid #d1d1d1; 
+    padding: 10px;
+}
+
+.resource-card {
+    border-bottom: 1px solid #d1d1d1; 
+    padding: 12px;
+}
+
+.resource-card:last-child {
+    border-bottom: none;
+}
+
+.resource-title {
+    font-weight: bold;
+    color: #0070d2 !important; 
+    margin-bottom: 5px;
+}
+
+.resource-summary {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.4em * 4);
+}
+
+/* 
+.styled-checkbox lightning-primitive-input-checkbox[checked] > div > span > label > span.slds-checkbox_faux {
+    background-color: #0057a8 !important;  
+    width: 25px !important;
+    height: 25px !important;
+}
+.styled-checkbox lightning-primitive-input-checkbox:not([checked]) > div > span > label > span.slds-checkbox_faux {
+    background-color: white !important; 
+    width: 25px !important;
+    height: 25px !important;
+}
+.styled-checkbox lightning-primitive-input-checkbox[checked] > div > span > label > span.slds-checkbox_faux::after {
+    border-color: white !important;
+    width: 12px !important;
+    height: 6px !important;
+}
+.styled-checkbox > fieldset[checked] > div > span > label > span.slds-checkbox_faux {
+    background-color: #0057a8 !important;  
+    width: 25px !important;
+    height: 25px !important;
+}
+.styled-checkbox > fieldset:not([checked]) > div > span > label > span.slds-checkbox_faux {
+    background-color: white !important;  
+    width: 25px !important;
+    height: 25px !important;
+}
+.styled-checkbox > fieldset[checked] > div > span > label > span.slds-checkbox_faux::after {
+    border-color: white !important;
+    width: 12px !important;
+    height: 6px !important;
+} */
+
+@media (max-width: 768px) {
+    .filters {
+      overflow: auto;
+    }
+  }

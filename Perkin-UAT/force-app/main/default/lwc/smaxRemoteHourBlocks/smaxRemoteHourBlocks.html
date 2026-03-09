@@ -1,0 +1,69 @@
+<!--
+ - Created by tony on 8/10/21.
+ -->
+
+<!-- SMAX Remote Hour Blocks -->
+<template>
+    <template if:true={showRemoteHourBlocks}>
+        <lightning-card variant="narrow">
+            <div class="slds-text-heading_medium slds-m-left_small">
+                <!-- <img height=40 width=40 src={phoneSupportImage}> Contract Entitlement -->
+                Contract Entitlement
+            </div>
+
+            <div class="slds-grid slds-wrap">
+                <template for:each={remoteHourBlocks} for:item="block">
+
+                    <div key={block.Id} class="slds-col slds-size_1-of-4">
+                        <!--                <lightning-card  title={block.name}>-->
+                        <lightning-card variant="narrow">
+                            <div if:false={block.selectedCoveredProduct}>
+                                <!-- <div if:true={block.selectedCoveredProduct} class="slds-card_boundary"> -->
+                                <!-- <p><lightning-formatted-url value={block.installedProductId} label={block.installedProduct} target="_blank" class="slds-p-horizontal_small slds-text-heading_small"></lightning-formatted-url></p> -->
+                                <!-- <lightning-icon if:true={block.remoteHourBlock} icon-name="action:share_thanks" class="BirthdayCheck" size="xx-small"></lightning-icon> -->
+                                <p class="slds-p-horizontal_small slds-text-heading_small">
+                                    <lightning-icon if:true={block.selectedCoveredProduct} icon-name="standard:task2" class="SelectedCoveredProductCheck" size="xx-small"></lightning-icon>
+                                    <lightning-icon if:true={block.remoteHourBlock} icon-name="standard:voice_call" class="RemoteHourBlockCheck" size="xx-small"></lightning-icon>
+                                    <lightning-icon if:false={block.remoteHourBlock} icon-name="standard:entitlement" class="RemoteHourBlockCheck" size="xx-small"></lightning-icon> Installed Product: <lightning-formatted-url value={block.installedProductId} label={block.installedProduct} target="_blank"></lightning-formatted-url>
+                                </p>
+                                <p class="slds-p-horizontal_small slds-text-body_medium">SLA Terms Notes: {block.slaTermsNotes}</p>
+                                <p if:true={block.remoteHourBlock} class="slds-p-horizontal_small slds-text-body_small">Item Qty: {block.itemQty}</p>
+                                <p if:true={block.remoteHourBlock} class="slds-p-horizontal_small slds-text-body_small">Item Qty Remaining: {block.itemQtyRemaining}</p>
+                                <p if:true={block.remoteHourBlock} class="slds-p-horizontal_small slds-text-body_small">Remote Hours Remaining: {block.remoteHoursRemaining}</p>
+                                <p class="slds-p-horizontal_small slds-text-body_medium">Start Date: {block.startDate}</p>
+                                <p class="slds-p-horizontal_small slds-text-body_medium">End Date: {block.endDate}</p>
+                                <p class="slds-p-horizontal_small slds-text-body_small">Covered Product: <lightning-formatted-url value={block.coveredProductId} label={block.coveredProduct} target="_blank"></lightning-formatted-url></p>
+                                <p class="slds-p-horizontal_small slds-text-body_small">Service/Maintenance Contract: <lightning-formatted-url value={block.serviceMaintenanceContractId} label={block.serviceMaintenanceContract} target="_blank"></lightning-formatted-url></p>
+                                <p class="slds-p-horizontal_small slds-text-body_small">Sales Org: {block.salesOrg}</p>
+                                <p class="slds-p-horizontal_small slds-text-body_small">Description: {block.description}</p>
+                            </div>
+
+                            <div if:true={block.selectedCoveredProduct} class="slds-card_boundary ">
+                            <!-- <div if:true={block.selectedCoveredProduct} style="background-color: lightgray"> -->
+                                <!-- <div if:true={block.selectedCoveredProduct} class="slds-card_boundary"> -->
+                                <!-- <p><lightning-formatted-url value={block.installedProductId} label={block.installedProduct} target="_blank" class="slds-p-horizontal_small slds-text-heading_small"></lightning-formatted-url></p> -->
+                                <!-- <lightning-icon if:true={block.remoteHourBlock} icon-name="action:share_thanks" class="BirthdayCheck" size="xx-small"></lightning-icon> -->
+                                <p class="slds-p-horizontal_small slds-text-heading_small">
+                                    <lightning-icon if:true={block.selectedCoveredProduct} icon-name="standard:task2" class="SelectedCoveredProductCheck" size="xx-small"></lightning-icon>
+                                    <lightning-icon if:true={block.remoteHourBlock} icon-name="standard:voice_call" class="RemoteHourBlockCheck" size="xx-small"></lightning-icon>
+                                    <lightning-icon if:false={block.remoteHourBlock} icon-name="standard:entitlement" class="RemoteHourBlockCheck" size="xx-small"></lightning-icon> Installed Product: <lightning-formatted-url value={block.installedProductId} label={block.installedProduct} target="_blank"></lightning-formatted-url>
+                                </p>
+                                <p class="slds-p-horizontal_small slds-text-body_medium">SLA Terms Notes: {block.slaTermsNotes}</p>
+                                <p if:true={block.remoteHourBlock} class="slds-p-horizontal_small slds-text-body_small">Item Qty: {block.itemQty}</p>
+                                <p if:true={block.remoteHourBlock} class="slds-p-horizontal_small slds-text-body_small">Item Qty Remaining: {block.itemQtyRemaining}</p>
+                                <p if:true={block.remoteHourBlock} class="slds-p-horizontal_small slds-text-body_small">Remote Hours Remaining: {block.remoteHoursRemaining}</p>
+                                <p class="slds-p-horizontal_small slds-text-body_medium">Start Date: {block.startDate}</p>
+                                <p class="slds-p-horizontal_small slds-text-body_medium">End Date: {block.endDate}</p>
+                                <p class="slds-p-horizontal_small slds-text-body_small">Covered Product: <lightning-formatted-url value={block.coveredProductId} label={block.coveredProduct} target="_blank"></lightning-formatted-url></p>
+                                <p class="slds-p-horizontal_small slds-text-body_small">Service/Maintenance Contract: <lightning-formatted-url value={block.serviceMaintenanceContractId} label={block.serviceMaintenanceContract} target="_blank"></lightning-formatted-url></p>
+                                <p class="slds-p-horizontal_small slds-text-body_small">Sales Org: {block.salesOrg}</p>
+                                <p class="slds-p-horizontal_small slds-text-body_small">Description: {block.description}</p>
+                            </div>
+                        </lightning-card>
+                    </div>
+                </template>
+
+            </div>
+        </lightning-card>
+    </template>
+</template>

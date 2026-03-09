@@ -1,0 +1,125 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 02-26-2026
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light">
+    <div class="slds-p-top_medium" onclick={handleNavigateToProductPage}>
+        <img src={prodImageUrl} alt={prodName} class="related-product-img">
+    </div>
+
+    <div if:true={isPDP}>
+        <div class="slds-p-top_medium slds-p-left_x-large slds-p-right_x-large">
+            <div class="slds-col slds-p-left_x-small slds-truncate text-wrap-custom">
+                <a class="prod-label"><p onclick={handleNavigateToProductPage} style="font-size: medium;">{prodName}</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div if:false={isPDP}>
+        <div class="slds-p-top_medium slds-p-left_x-large slds-p-right_x-large
+            slds-grid slds-grid_vertical
+            slds-grid_vertical-stretch"
+            style="min-height: 160px;">
+
+            <div class="slds-grow">
+                <a>
+                    <lightning-formatted-rich-text 
+                        class="prod-label two-line-truncate slds-truncate text-wrap-custom slds-m-bottom_xx-small"
+                        onclick={handleNavigateToProductPage} 
+                        value={prodName}
+                        style="font-size: medium;"
+                        >
+                    </lightning-formatted-rich-text>
+                </a>
+                
+                <p class="prod-label slds-truncate text-wrap-custom">
+                    {prodCatlogNumber}
+                </p>
+            </div>
+
+            <!-- Normal pricing  -->
+            <template if:false={isPromotionLoaded}>
+                <div class="slds-text-align_center slds-m-top_auto">
+                    <div class="prod-label slds-m-bottom_x-small">
+                        <s>
+                            <lightning-formatted-number
+                                value={listPrice}
+                                currency-code={currencyCode}
+                                format-style="currency">
+                            </lightning-formatted-number>
+                        </s>
+                        <lightning-formatted-number
+                            value={unitPrice}
+                            currency-code={currencyCode}
+                            format-style="currency"
+                            class="slds-m-left_small">
+                        </lightning-formatted-number>
+                    </div>  
+                    <div>
+                        <lightning-button
+                            variant="brand"
+                            label={label.ADD_TO_CART} 
+                            data-pid={productId}
+                            onclick={handleAddToCart}>
+                        </lightning-button>
+                    </div>
+
+                </div>
+            </template>
+
+            <!-- promotion loaded -->
+            <template if:true={isPromotionLoaded}>
+                <div class="slds-text-align_center slds-m-top_auto">
+                    <div class="prod-label slds-m-bottom_x-small">
+                        <s>
+                            <lightning-formatted-number
+                                value={unitPrice}
+                                currency-code={currencyCode}
+                                format-style="currency">
+                            </lightning-formatted-number>
+                        </s>
+                        <span class="slds-m-left_small">
+                            <lightning-formatted-number
+                                value={displayPrice}
+                                currency-code={currencyCode}
+                                format-style="currency">
+                            </lightning-formatted-number>
+                        </span>
+                        <!-- show saved amount -->
+                        <template if:true={displaySavedAmount}>
+                            <span class="slds-badge slds-theme_success slds-p-around_xx-small slds-m-left_small ">
+                                {label.saved} :
+                                <lightning-formatted-number
+                                    value={displaySavedAmount}
+                                    currency-code={currencyCode}
+                                    format-style="currency">
+                                </lightning-formatted-number>
+                            </span>
+                        </template>
+                    </div>  
+
+                    <div>
+                        <lightning-button
+                            variant="brand"
+                            label={label.ADD_TO_CART} 
+                            data-pid={productId}
+                            onclick={handleAddToCart}>
+                        </lightning-button>
+                    </div>
+
+                </div>
+            </template>
+
+
+            <template if:false={isPriceAvailable}>
+                <span class="slds-text-body_medium slds-text-color_error">
+                    {label.priceNotFound}
+                </span>
+            </template>
+        </div>
+        
+    </div>
+</template>

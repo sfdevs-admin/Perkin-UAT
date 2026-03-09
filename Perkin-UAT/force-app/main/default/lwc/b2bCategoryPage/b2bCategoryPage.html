@@ -1,0 +1,8 @@
+<template>
+    <div if:true={hideProducts}>
+        <slot name="categoryTable"></slot>
+    </div>
+    <div if:false={hideProducts}>
+        <slot name="searchResultLayout"></slot>
+    </div>
+</template>

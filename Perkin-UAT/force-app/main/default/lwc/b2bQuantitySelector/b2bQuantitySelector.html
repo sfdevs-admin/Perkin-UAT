@@ -1,0 +1,64 @@
+<!--
+  @description       : 
+  @author            : Gaurav Setia
+  @group             : 
+  @last modified on  : 09-09-2025
+  @last modified by  : S.T
+-->
+<template>
+    <div class="qty-container">
+        <div class="qty-input">
+            <!-- <lightning-button-icon icon-name="utility:dash" variant="border-filled"
+                alternative-text="Decrease Quantity" onclick={decreaseQuantity}></lightning-button-icon> -->
+                <!-- <lightning-button-icon icon-name="utility:dash" variant="border"
+                alternative-text="Decrease Quantity" onclick={decreaseQuantity}></lightning-button-icon> -->
+                <button lwc:if={isSubscriptionCart} aria-label="Decrease Quantity"
+                    class="number-input__decrement-button slds-button slds-button_neutral slds-p-horizontal_xx-small slds-p-vertical_x-small background-disabled"
+                    onclick={decreaseQuantity} disabled>
+                    <lightning-icon
+                        class="number-input__button-icon"
+                        icon-name="utility:dash"
+                        size="x-small"
+                        alternative-text="Decrease Quantity">
+                    </lightning-icon>
+                </button>
+                <button lwc:else aria-label="Decrease Quantity"
+                    class="number-input__decrement-button slds-button slds-button_neutral slds-p-horizontal_xx-small slds-p-vertical_x-small"
+                    onclick={decreaseQuantity}>
+                    <lightning-icon
+                        class="number-input__button-icon"
+                        icon-name="utility:dash"
+                        size="x-small"
+                        alternative-text="Decrease Quantity">
+                    </lightning-icon>
+                </button>
+            <input lwc:if={isSubscriptionCart} aria-label="Input Quantity" type="number" id="quantity" value={quantities} class="qty-field background-disabled" onchange={handleQuantityChange} min="0" disabled/>
+            <input lwc:else aria-label="Input Quantity" type="number" id="qty" value={quantities} class="qty-field" onchange={handleQuantityChange} min="0"/>
+            <!-- <lightning-button-icon icon-name="utility:add" variant="border-filled"
+                alternative-text="Increase Quantity" onclick={increaseQuantity}></lightning-button-icon> -->
+            
+            <button lwc:if={isSubscriptionCart}
+                aria-label="Increase Quantity"
+                class="number-input__increment-button slds-button slds-button_neutral slds-p-horizontal_xx-small slds-p-vertical_x-small background-disabled"
+                onclick={increaseQuantity} disabled>
+                <lightning-icon
+                    class="number-input__button-icon"
+                    icon-name="utility:add"
+                    size="x-small"
+                    alternative-text="Increase Quantity">
+                </lightning-icon>
+            </button>
+            <button lwc:else
+                aria-label="Increase Quantity"
+                class="number-input__increment-button slds-button slds-button_neutral slds-p-horizontal_xx-small slds-p-vertical_x-small"
+                onclick={increaseQuantity}>
+                <lightning-icon
+                    class="number-input__button-icon"
+                    icon-name="utility:add"
+                    size="x-small"
+                    alternative-text="Increase Quantity">
+                </lightning-icon>
+            </button>
+        </div>
+    </div>
+</template>

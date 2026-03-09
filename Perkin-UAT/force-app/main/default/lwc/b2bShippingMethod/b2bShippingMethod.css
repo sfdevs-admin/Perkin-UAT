@@ -1,0 +1,4 @@
+.shipping-fee {
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,52 @@
+<template>
+    <lightning-modal-header label={label}></lightning-modal-header>
+
+    <!-- Confirmation Modal for Pause or Cancel -->
+    <template if:true={showConfirmation}> 
+        <lightning-modal-body>
+            <div class="slds-p-around_medium">
+                <h3>{confirmMessage}</h3>
+            </div>
+            <div class="slds-grid slds-grid_align-end slds-p-around_medium slds-p-top_none">
+                <lightning-button label={subscriptionLabel} variant="brand" onclick={handleConfirmAction}></lightning-button>
+            </div>
+        </lightning-modal-body>
+    </template>
+
+    <!-- State 1: Cart exists -->
+    <template if:true={isCartExist}>
+        <lightning-modal-body>
+            <div class="slds-p-around_medium">
+                <h3>{labels.clearCartText}</h3>
+            </div>
+            <div class="slds-grid slds-grid_align-end slds-p-around_medium slds-p-top_none">
+                <lightning-button label={labels.clearCartButton} variant="brand" onclick={handleClearCart}></lightning-button>
+            </div>        
+        </lightning-modal-body>
+    </template>
+
+    <!-- State 2: Cart deleted, show activate -->
+    <template if:true={cartDeleted}>
+        <lightning-modal-body>
+            <div class="slds-p-around_medium">
+                <h3>{labels.cartDeletedText}</h3>
+            </div>
+            <div class="slds-grid slds-grid_align-end slds-p-around_medium slds-p-top_none">
+                <lightning-button label={labels.activate} variant="brand" onclick={handleActivate}></lightning-button>
+            </div>
+        </lightning-modal-body>
+    </template>
+
+    <!-- State 3: Activated -->
+    <!-- <template if:true={isActivated}> -->
+    <template if:true={isSubscriptionActivated}>
+        <lightning-modal-body>
+            <div class="slds-p-around_medium">
+                <h3>{labels.ItemsAddedText}</h3>
+            </div>
+            <div class="slds-grid slds-grid_align-end slds-p-around_medium slds-p-top_none">
+                <lightning-button label={labels.viewCart} variant="brand" onclick={handleViewCart}></lightning-button>
+            </div>
+        </lightning-modal-body>
+    </template>
+</template>

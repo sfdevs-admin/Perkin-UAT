@@ -1,0 +1,15 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 11-10-2025
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light">
+    <template if:true={showButton}>
+        <lightning-button variant="brand" label={label.B2B_REQUEST_MORE_INFORMATION} title={label.B2B_REQUEST_MORE_INFORMATION} onclick={handleRedirect} class="custom-request-btn slds-m-left_x-small"></lightning-button>
+    </template>
+    <template if:true={showButtonWhenCalledFromParent}>
+        <lightning-button variant="brand" label={label.B2B_REQUEST_MORE_INFORMATION} title={label.B2B_REQUEST_MORE_INFORMATION} onclick={handleRedirect} class="custom-request-btn slds-m-left_x-small"></lightning-button>
+    </template>
+</template>

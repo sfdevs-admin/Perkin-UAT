@@ -1,0 +1,119 @@
+<template>
+    <lightning-card title="Select SAP Pricing Condition Codes" icon-name="standard:product_item">
+        <div class="slds-p-horizontal_medium slds-p-vertical_small">
+
+            <!-- Selected Codes Display - ALWAYS VISIBLE -->
+            <template if:false={isLoading}>
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-text-heading_small slds-m-bottom_x-small">
+                        Selected Codes:
+                    </div>
+                    <div class="selected-codes-box">
+                        <template if:true={hasSelections}>
+                            <lightning-formatted-text value={selectedCodes}></lightning-formatted-text>
+                        </template>
+                        <template if:false={hasSelections}>
+                            <span class="slds-text-color_weak">No pricing conditions selected yet</span>
+                        </template>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Search Box -->
+            <template if:false={isLoading}>
+                <div class="slds-m-bottom_medium">
+                    <lightning-input
+                            type="search"
+                            label="Search Conditions"
+                            placeholder="Search by code or label..."
+                            value={searchTerm}
+                            onchange={handleSearchChange}>
+                    </lightning-input>
+                </div>
+            </template>
+
+            <!-- Loading Spinner -->
+            <template if:true={isLoading}>
+                <div class="slds-text-align_center slds-p-around_large">
+                    <lightning-spinner alternative-text="Loading pricing conditions" size="medium"></lightning-spinner>
+                    <p class="slds-m-top_small">Loading pricing conditions...</p>
+                </div>
+            </template>
+
+            <!-- Error Message -->
+            <template if:true={hasError}>
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                        <span class="slds-assistive-text">error</span>
+                        <h2>
+                            <lightning-icon icon-name="utility:error" size="x-small" variant="inverse"></lightning-icon>
+                            Error loading pricing conditions: {errorMessage}
+                        </h2>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Main Content -->
+            <template if:false={isLoading}>
+                <template if:true={hasRecords}>
+
+                    <!-- Selection Summary -->
+                    <div class="slds-m-bottom_small selection-summary">
+                        <lightning-badge label={selectedCount}></lightning-badge>
+                        <span class="slds-text-body_regular slds-m-left_x-small">
+                            {selectedCount} condition(s) selected
+                        </span>
+                        <template if:true={hasProductName}>
+                            <span class="slds-text-color_weak slds-m-left_small">
+                                ({productName})
+                            </span>
+                        </template>
+                    </div>
+
+                    <!-- Checkbox Grid -->
+                    <div class="checkbox-container">
+                        <template if:true={organizedColumns}>
+                            <template for:each={organizedColumns} for:item="column">
+                                <div key={column.id} class="checkbox-column">
+                                    <template if:true={column.items}>
+                                        <template for:each={column.items} for:item="item">
+                                            <template if:true={item}>
+                                                <div key={item.uniqueKey} class="checkbox-wrapper">
+                                                    <lightning-input
+                                                            type="checkbox"
+                                                            label={item.label}
+                                                            value={item.value}
+                                                            checked={item.checked}
+                                                            onchange={handleCheckboxChange}
+                                                            title={item.description}>
+                                                    </lightning-input>
+                                                </div>
+                                            </template>
+                                        </template>
+                                    </template>
+                                </div>
+                            </template>
+                        </template>
+                    </div>
+
+                </template>
+
+                <!-- No Records Message -->
+                <template if:false={hasRecords}>
+                    <template if:false={hasError}>
+                        <div class="slds-text-align_center slds-p-around_large">
+                            <lightning-icon icon-name="utility:warning" size="medium" variant="warning"></lightning-icon>
+                            <p class="slds-m-top_small slds-text-heading_small">
+                                No pricing condition records found
+                            </p>
+                            <p class="slds-m-top_x-small slds-text-color_weak">
+                                Try adjusting your search criteria
+                            </p>
+                        </div>
+                    </template>
+                </template>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

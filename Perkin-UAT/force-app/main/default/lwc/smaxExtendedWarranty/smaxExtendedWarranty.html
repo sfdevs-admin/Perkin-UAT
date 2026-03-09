@@ -1,0 +1,30 @@
+<!--
+ - Created by tony on 6/18/21.
+ -->
+
+<!-- SMAX Extended Warranty -->
+<template>
+    <template if:true={showExtendedWarranty}>
+        <lightning-card variant="Narrow">
+            <div class="slds-text-heading_medium slds-m-left_small">
+                Extended Warranty Parts
+            </div>
+
+            <div class="slds-grid slds-wrap">
+                <template for:each={extendedWarrantyParts} for:item="part">
+
+                    <div key={part.Id} class="slds-col">
+        <!--                <lightning-card  title={part.coveredPart}>-->
+                        <lightning-card variant="Narrow">
+                            <p><lightning-formatted-url value={part.coveredPartId} label={part.coveredPart} target="_blank" class="slds-p-horizontal_small slds-text-heading_small"></lightning-formatted-url></p>
+                            <p class="slds-p-horizontal_small slds-text-body_small">Contract: <lightning-formatted-url value={part.warrantyContractId} label={part.warrantyContract} target="_blank"></lightning-formatted-url></p>
+                            <p class="slds-p-horizontal_small slds-text-body_small">Contract Item: <lightning-formatted-url value={part.warrantyContractItemId} label={part.warrantyContractItem} target="_blank"></lightning-formatted-url></p>
+                            <p class="slds-p-horizontal_small slds-text-body_small">Covered Until: {part.coveredUntil}</p>
+                        </lightning-card>
+                    </div>
+                </template>
+
+            </div>
+        </lightning-card>
+    </template>
+</template>

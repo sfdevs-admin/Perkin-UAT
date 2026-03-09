@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B Shipping Information</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>  
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="orderDetails" type="String" default="{!Order.Details}" label="Order Details"/>
+            <property name="isOrderConfirmPage" type="Boolean" default="false" label="Is Order Confirmation Page?"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

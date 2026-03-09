@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B Country Switcher</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <!-- <property name="productPricing" type="String" default="{!Product.Pricing}"/>
+            <property name="productData" type="String" default="{!Product.Details}"/> -->
+            <property name="alertTitle" type="String" default="Locale Change is Restricted" label="Alert Modal Title to show that country switchng is restricted cause of Customer Specific Promotions"/>
+            <property name="alertMessage" type="String" default="Cannot change your locale at this moment as your Account has auto applied customer specific promotions." label="Alert Modal Message to show that country switchng is restricted cause of Customer Specific Promotions"/>
+            <property name="alertTheme" type="String" default="info" label="Alert Modal Theme to show that country switchng is restricted cause of Customer Specific Promotions"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

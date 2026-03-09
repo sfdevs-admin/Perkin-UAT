@@ -1,0 +1,238 @@
+<!--
+ - Created by tony on 4/15/21.
+ -->
+
+<!-- Expertise Management Dashboard -->
+<template>
+    <lightning-card title="Expertise Management Dashboard" >
+
+        <lightning-layout pull-to-boundary="medium">
+            <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                <c-custom-lookup
+                        label="Technician / Skill / Territory"
+                        placeholder="Enter search values here..."
+                        is-multi-entry="true"
+                        selection={selectedTechSkills}
+                        errors={lookupErrors}
+                        onsearch={handleTechSkillSearch}
+                        onselectionchange={handleTechSkillSelectionChange}>
+                </c-custom-lookup>
+            </lightning-layout-item>
+
+            <lightning-layout-item padding="horizontal-medium">
+                <div style="vertical-align: center">
+                    <lightning-checkbox-group name="recActionFilter"
+                                              label="Recommended Actions"
+                                              options={recActions}
+                                              value={selectedRecActions}
+                                              onchange={handleRecActionChange}>
+                    </lightning-checkbox-group>
+                </div>
+            </lightning-layout-item>
+
+            <lightning-layout-item padding="horizontal-medium">
+                <lightning-checkbox-group
+                        name="Range Checkbox Group"
+                        label="Search Scores"
+                        options={rangeOptions}
+                        value={rangeValue}
+                        onchange={handleRangeFilterChange}
+                        > <!-- variant="label-hidden" -->
+                </lightning-checkbox-group>
+
+                <!-- <p>Checkbox Selections: {rangeValue}</p> -->
+
+                <!--
+                <p>Your Permissions:</p>
+                <p>Edit Expertise: {editExpertise}</p>
+                <br/>
+                -->
+            </lightning-layout-item>
+
+            <lightning-layout-item>
+                <p>Range:</p>
+            </lightning-layout-item>
+
+            <lightning-layout-item padding="horizontal-medium" alignment-bump="right">
+                <div style="width:50px;" class="slds-form-element">
+                    <lightning-input
+                            type="number"
+                            label="Minimum"
+                            min="0.0"
+                            step=".1"
+                            value={inputMin}
+                            onchange={handleInputMinChange}
+                            variant="label-hidden">
+                    </lightning-input>
+                </div>
+            </lightning-layout-item>
+
+            <lightning-layout-item>
+                <p>to</p>
+            </lightning-layout-item>
+
+            <lightning-layout-item padding="horizontal-large">
+                <div style="width:50px;" class="slds-form-element">
+                    <lightning-input
+                            type="number"
+                            label="Maximum"
+                            min="0.0"
+                            step=".1"
+                            value={inputMax}
+                            onchange={handleInputMaxChange}
+                            variant="label-hidden">
+                    </lightning-input>
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+
+        <lightning-layout pull-to-boundary="medium">
+            <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                <lightning-button label="Search"
+                                  onclick={handleSearchClick}
+                                  class="slds-m-left_x-small"
+                                  variant="brand">
+                </lightning-button>
+
+                <lightning-button label="Clear Filter"
+                                  onclick={clearFilter}
+                                  class="slds-m-left_x-small"
+                                  variant="destructive-text">
+                </lightning-button>
+            </lightning-layout-item>
+        </lightning-layout>
+
+        <!-- #region Change the Remove button-icon color
+        <div class="iconContainer redColor">
+            <svg focusable="false" data-key="delete" aria-hidden="true" viewBox="0 0 52 52" class="slds-button__icon">
+                <g><g>
+                    <path d="M45.5 10H33V6c0-2.2-1.8-4-4-4h-6c-2.2 0-4 1.8-4 4v4H6.5c-.8 0-1.5.7-1.5 1.5v3c0 .8.7 1.5 1.5 1.5h39c.8 0 1.5-.7 1.5-1.5v-3c0-.8-.7-1.5-1.5-1.5zM23 7c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v3h-6V7zM41.5 20h-31c-.8 0-1.5.7-1.5 1.5V45c0 2.8 2.2 5 5 5h24c2.8 0 5-2.2 5-5V21.5c0-.8-.7-1.5-1.5-1.5zM23 42c0 .6-.4 1-1 1h-2c-.6 0-1-.4-1-1V28c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v14zm10 0c0 .6-.4 1-1 1h-2c-.6 0-1-.4-1-1V28c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v14z">
+
+                    </path>
+                </g></g>
+            </svg>
+        </div>
+         #endregion Change the Remove button-icon color -->
+
+        <lightning-layout pull-to-boundary="medium">
+            <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                <div class="slds-p-around_medium" style="height: 400px">
+                    <lightning-tree-grid
+                            class="tech-skill-tree-grid"
+                            columns={techSkillColumns}
+                            data={techSkillData}
+                            selected-rows={techSkillSelectedRowIds}
+                            expanded-rows={techSkillExpandedRows}
+                            onrowaction={handleTechSkillOnRowAction}
+                            key-field="key"
+                            hide-checkbox-column="true">
+                    </lightning-tree-grid>
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+
+                <!-- <p>The selected Territory Id is: <span class="slds-text-heading_small">{selectedTerritory}</span></p> -->
+
+        <br/><br/>
+    </lightning-card>
+
+    <!-- #region Create Expertise Modal Pop-Up -->
+    <template if:true={showCreateExpertise}>
+        <div>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                     aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="width: 90%; max-width: none">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                title="Close" onclick={handleCreateExpertiseClose}>
+                            <lightning-icon icon-name="utility:close" variant="inverse" size="medium"> </lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+
+                        <h2 id="create-expertise-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                            Create Expertise
+                        </h2>
+
+                        <div class="slds-text-title_bold" align="left">
+                            Technician:  {selectedTechnician}
+                            <br/>
+                        </div>
+                        <div class="slds-text-title_bold" align="left">
+                            Skill: {selectedSkill}
+                            <br/>
+                        </div>
+                    </header>
+
+                    <div class="slds-modal__content spinner-container" id="create-expertise-id-1">
+                        <div id="create-expertise-spinner" if:true={isProcessing} class="spinner-mask">
+                            <lightning-spinner alternative-text="Processing" size="medium"></lightning-spinner>
+                        </div>
+
+                        <lightning-layout pull-to-boundary="medium" vertical-align="start">
+                            <lightning-layout-item flexibility="auto" padding="around-large" size="6">
+                                <div class="slds-p-around_medium" style="height: 400px">
+                                    <lightning-input
+                                            class="create-expertise-skill-level-input"
+                                            type="number"
+                                            label="Skill Level"
+                                            value={inputSkillLevel}
+                                            name="skillLevel"
+                                            onchange={handleInputSkillLevelChange}>
+                                    </lightning-input>
+                                </div>
+                            </lightning-layout-item>
+
+                        </lightning-layout>
+                    </div>
+
+                    <!--
+                        <lightning-layout pull-to-boundary="medium" vertical-align="start">
+                            <lightning-layout-item flexibility="auto" padding="around-large" size="6">
+                                <div class="slds-p-around_medium" style="height: 400px">
+                                    <lightning-tree-grid class="dispatcher-territory-tree-grid"
+                                                         columns={dispatcherTerritoryColumns}
+                                                         data={dispatcherTerritoryData}
+                                                         selected-rows={dispatcherSelectedTerritoryIds}
+                                                         key-field="name"
+                                                         expanded-rows={dispatcherTerritoryExpandedRows}
+                                                         onrowselection={handleDispatcherTerritoryOnRowSelection}
+                                                         onrowaction={handleDispatcherTerritoryOnRowAction}>
+                                    </lightning-tree-grid>
+                                </div>
+                            </lightning-layout-item>
+
+                            <lightning-layout-item flexibility="auto" padding="around-large" size="6">
+                                <div class="slds-p-around_medium" style="height: 400px">
+                                    <lightning-datatable class="dispatcher-team-data-table"
+                                                         key-field="id"
+                                                         columns={teamColumns}
+                                                         data={teamData}
+                                                         selected-rows={dispatcherSelectedTeamIds}
+                                                         onrowselection={handleDispatcherTeamOnRowSelection}>
+                                    </lightning-datatable>
+                                </div>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </div>
+-->
+
+                    <footer class="slds-modal__footer">
+                        <lightning-layout horizontal-align="end">
+                            <lightning-layout-item>
+                                <lightning-button-group>
+                                    <lightning-button label="Cancel" onclick={handleCreateExpertiseClose}>
+                                    </lightning-button>
+                                    <lightning-button label="Save" variant="brand" onclick={handleCreateExpertiseSave} disabled={disableCreateExpertise}>
+                                    </lightning-button>
+                                </lightning-button-group>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </template>
+    <!-- #endregion Create Expertise Modal Pop-Up -->
+
+</template>

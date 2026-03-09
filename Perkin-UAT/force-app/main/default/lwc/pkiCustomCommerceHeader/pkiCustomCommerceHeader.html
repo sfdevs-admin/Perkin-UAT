@@ -1,0 +1,88 @@
+<template> 
+    <div class="pki-site-banner">
+        <slot name="site-banner"></slot>
+    </div>
+    <header class="pki-custom-commerce-header">
+        <div class="pki-header-grid">
+            <!-- Left Column -->
+            <div class="pki-header-column slds-m-top_medium" >
+                <div class="pki-mnav-mobile">
+                    <!-- <slot class="pki-mnav-mobile" name="mobile-nav"></slot> -->
+                    <slot  name="mobile-nav"></slot>
+                </div>
+                <div >
+                    <slot name="headerLogo"></slot>
+                </div>
+            </div>
+
+            <!-- Center Column -->
+            <div class="pki-header-column">
+                <div class="pki-header-inner-grid">
+                    <div class="pki-header-inner-column">
+                        <div class="pki-mnav-desktop">
+                            <!-- <slot class="pki-mnav-desktop" name="desktop-nav"></slot> -->
+                            <slot name="desktop-nav"></slot>
+                        </div>
+                    </div>
+
+                    <div class="pki-header-search desktop-search">
+                        <slot name="search-bar"></slot>
+                    </div>
+
+                    <template if:true={visibleSearchBar}>
+                        <div class="hide-for-desktop">
+                            <div class="pki-header-inner-column">
+                                <template if:false={showSearchBar}>
+                                    <svg class="slds-icon slds-icon-text-default slds-icon_x-small search-icon mobile-search pki-search-icon"
+                                        focusable="false"
+                                        data-key="search"
+                                        aria-hidden="true"
+                                        onclick={handleSearch}>
+                                        <!-- For sandbox -->
+                                        <!-- <use xlink:href="/store/assets/icons/utility-sprite/svg/symbols.svg#search"></use> -->
+                                        <!-- For UAT or Prod -->
+                                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                                    </svg>
+                                </template>
+
+                                <template if:true={showSearchBar}>
+                                    <svg class="slds-icon slds-icon-text-default slds-icon_x-small cancel-icon mobile-search pki-cancel-icon"
+                                        focusable="false"
+                                        data-key="cancel"
+                                        aria-hidden="true"
+                                        onclick={handleCancel}>
+                                        <!-- For sandbox -->
+                                        <use xlink:href="/store/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                                        <!-- For UAT or Prod -->
+                                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                                    </svg>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                    <div class="pki-header-inner-column pki-profile-nav">
+                        <slot name="profile-nav"></slot>
+                    </div>
+                    <div class="pki-header-inner-column pki-cart-link">
+                        <slot name="cart"></slot>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div if:true={showSearchBar}>
+            <div class="pki-header-search">
+                <slot name="search-bar"></slot>
+            </div>
+        </div>
+
+        <!-- <div class="pki-header-search mobile-search">
+            <slot name="search-bar"></slot>
+        </div> -->
+
+     <!--   <div if:true={pageTitle} class="pki-page-title">
+            <h1 style="visibility: hidden">{pageTitle}</h1>
+        </div>
+    -->
+    </header>
+</template>

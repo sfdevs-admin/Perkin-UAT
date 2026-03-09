@@ -1,0 +1,184 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 09-22-2025
+  @last modified by  : Swati Chilap
+-->
+<template>
+  <div class="product-card">
+    <div class="product-grid">
+
+      <div class="image-cell" 
+           data-pid={item.productId} 
+           data-pname={item.productName}
+           data-purlname={item.sku}  
+           onclick={handleNavigateToProductPage}>
+        <img src={prodImageUrl} alt="Product Image">
+      </div>
+
+      <div class="details-cell">
+        <a>
+          <lightning-formatted-rich-text class="product-name" 
+              data-pid={item.productId} 
+              data-pname={item.productName} 
+              data-purlname={item.sku} 
+              onclick={handleNavigateToProductPage}
+              value={prodName}>
+           </lightning-formatted-rich-text> 
+        </a>
+        <div class="product-sku">{item.sku}</div>
+        <div class="product-description">
+          <lightning-formatted-rich-text value={item.description}></lightning-formatted-rich-text>
+        </div>
+      </div>
+
+      <template if:false={isPricingFailed}>
+        <div class="action-cell">
+          <div class="qty-price">
+            <div class="product-price">
+              <template if:false={showSubscriptionPrices}>
+                <template if:false={isSubscriptionDiscountApplied}>
+                  <template if:true={isPromotionLoaded}>
+                      <div class="price-line">
+                          <span class="original-price">
+                              <s>
+                                  <lightning-formatted-number
+                                      value={unitPriceDisplay}
+                                      currency-code={currencyCode}
+                                      format-style="currency">
+                                  </lightning-formatted-number>
+                              </s>
+                          </span>
+                          <span class="promo-price">
+                              <lightning-formatted-number
+                                  value={calculatedPrice}
+                                  currency-code={currencyCode}
+                                  format-style="currency">
+                              </lightning-formatted-number>
+                          </span>
+                      </div>
+
+                      <template if:true={displaySavedAmount}>
+                          <div class="product-saved">
+                              {labels.saved}:
+                              <lightning-formatted-number
+                                  value={displaySavedAmount}
+                                  currency-code={currencyCode}
+                                  format-style="currency">
+                              </lightning-formatted-number>
+                          </div>
+                      </template>
+                  </template>
+
+                  <template if:false={isPromotionLoaded}>
+                      <div class="price-line">
+                          <s>
+                            <lightning-formatted-number
+                                value={listPrice}
+                                currency-code={currencyCode}
+                                format-style="currency">
+                            </lightning-formatted-number>
+                          </s>
+                          <lightning-formatted-number
+                              value={unitPriceDisplay}
+                              currency-code={currencyCode}
+                              format-style="currency">
+                          </lightning-formatted-number>
+                      </div>
+                  </template>
+                </template>
+              </template>
+
+              <!-- when subscription is Active or Paused -->
+              <template if:true={showSubscriptionPrices}>
+                   <div class="price-line">
+                      <lightning-formatted-number
+                          value={item.price}
+                          currency-code={currencyCode}
+                          format-style="currency">
+                      </lightning-formatted-number>
+                      <span class="promo-price">
+                          <lightning-formatted-number
+                              value={item.totalPrice}
+                              currency-code={currencyCode}
+                              format-style="currency">
+                          </lightning-formatted-number>
+                      </span>
+                  </div>
+              </template>
+
+              <!-- subscription disocunt prices  -->
+              <template if:false={showSubscriptionPrices}>
+                <template if:true={isSubscriptionDiscountApplied}>
+                      <div class="price-line">
+                          <s>
+                            <lightning-formatted-number
+                                value={productPricing.unitPrice}
+                                currency-code={currencyCode}
+                                format-style="currency">
+                            </lightning-formatted-number>
+                          </s>
+                          <lightning-formatted-number
+                              value={finalPrice}
+                              currency-code={currencyCode}
+                              format-style="currency">
+                          </lightning-formatted-number>
+                          <div class="product-saved">
+                            {labels.saved}:
+                            <lightning-formatted-number
+                                value={displaySavedPercentage}
+                                currency-code={currencyCode}
+                                format-style="currency">
+                            </lightning-formatted-number>
+                      </div>
+                      </div>
+                  </template>
+              </template>
+
+
+            </div>  
+          </div>
+          <div class="button-quantity-group">
+            <div class="product-quantity">
+                <c-product-quantity-selector
+                    if:true={showInlineQuantitySelector}
+                    value={item.quantity}
+                    product-id={item.productId}
+                    onvaluechanged={handleValueChanged}>
+                </c-product-quantity-selector>
+            </div>
+          
+            <div class="button-group">
+              <template if:false={isSubscription}>
+                <lightning-button
+                    variant="brand"
+                    label={labels.addToCart}
+                    data-pid={item.productId}
+                    data-quantity={item.quantity}
+                    onclick={handleAddToCart}
+                    disabled={disabled}>
+                </lightning-button>
+              </template>
+
+              <template if:false={isPublicListPage}>
+                <a data-itemid={item.id}
+                    onclick={handleDeleteItemFromList}
+                    disabled={disabledDelete}>{labels.remove}</a>
+              </template>
+            </div>
+          </div>
+        </div>
+      </template> 
+
+      <template if:true={isPricingFailed}>
+        <div class="request-quote">
+            <a onclick={handleRequestQuote} class="request-quote-link">
+                {labels.requestQuote}
+            </a>
+        </div>
+      </template>
+
+    </div>
+  </div>
+</template>

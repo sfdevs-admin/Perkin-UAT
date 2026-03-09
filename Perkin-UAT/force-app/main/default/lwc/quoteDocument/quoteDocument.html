@@ -1,0 +1,70 @@
+<template>
+    <lightning-card>
+        <h1 slot="title" class="slds-page-header__title">
+            {quoteName}
+        </h1>
+        <lightning-button class="slds-m-left_small" label="Preview" onclick={handlePreview} slot="actions"></lightning-button>
+        <lightning-button lwc:if={modeSave} class="slds-m-left_small" label="Save & Email" onclick={handleSaveEmail} slot="actions"></lightning-button>
+        <lightning-button lwc:if={modeSave} class="slds-m-left_small" label="Save" onclick={handleSave} slot="actions"></lightning-button>
+        <lightning-button class="slds-m-left_small" label="Cancel" onclick={handleCancel} slot="actions"></lightning-button>
+        <template lwc:if={modeSave}>
+            <h3 class="label slds-section__title slds-truncate slds-p-around_xx-small slds-m-around_small slds-theme_shade">
+                Generate Document
+            </h3>
+            <div class="slds-grid slds-m-around_small">
+                <div class="slds-col slds-size_1-of-2 slds-p-horizontal_small slds-p-vertical_x-small">
+                    <lightning-input type="text" label="Document name" required="true"
+                                     value={mergedDocumentName}
+                                     onchange={handleChangeDocumentName}>
+                    </lightning-input>
+                </div>
+            </div>
+        </template>
+        <div>
+            <h3 class="label slds-section__title slds-truncate slds-p-around_xx-small slds-m-around_small slds-theme_shade">
+                Quote Configuration
+            </h3>
+            <lightning-record-edit-form object-api-name="SBQQ__Quote__c" record-id={recordId} onload={handleOnLoad}>
+                <div class="slds-grid slds-m-around_small">
+                    <div class="slds-col slds-size_1-of-2 slds-p-horizontal_small slds-p-vertical_x-small">
+                        <lightning-input-field field-name="SBQQ__QuoteLanguage__c" required="true"></lightning-input-field>
+                        <lightning-input-field field-name="Header_Page__c"></lightning-input-field>
+                        <lightning-input-field field-name="Quote_Highlights_Page__c"></lightning-input-field>
+                        <lightning-input-field field-name="Marketing_Collateral_Page__c"></lightning-input-field>
+                        <lightning-input-field field-name="Included_Parts_Page__c"></lightning-input-field>
+                        <lightning-input-field field-name="Show_Purchase_Order_Guidelines__c"></lightning-input-field>
+                        <template lwc:if={quoteIsNotBrazil}>
+                            <lightning-input-field field-name="Authorization_optional__c"></lightning-input-field>
+                        </template>
+                    </div>
+                    <div class="slds-col slds-size_1-of-2 slds-p-horizontal_small slds-p-vertical_x-small">
+                        <lightning-input-field field-name="Quote_Type__c" required="true"></lightning-input-field>
+                        <lightning-input-field field-name="Show_Net_Weight__c"></lightning-input-field>
+                        <template lwc:if={quoteIsNotBrazil}>
+                            <lightning-input-field field-name="Show_Quantity__c"></lightning-input-field>
+                            <lightning-input-field field-name="Show_Quote_Line_Item_Prices__c"></lightning-input-field>
+                            <lightning-input-field field-name="Show_Quote_Line_Discounts__c"></lightning-input-field>
+                            <lightning-input-field field-name="Show_Quote_Line_Total_Prices__c"></lightning-input-field>
+                            <lightning-input-field field-name="Show_Line_Tax_Amount__c"></lightning-input-field>
+                            <lightning-input-field field-name="Show_Quote_Line_Total_After_Taxes__c"></lightning-input-field>
+                            <lightning-input-field field-name="Show_Total_List_Price__c"></lightning-input-field>
+                        </template>
+                        <lightning-input-field field-name="Show_Quote_Total_Discounts__c"></lightning-input-field>
+                        <lightning-input-field field-name="Show_Tax_Totals__c"></lightning-input-field>
+                    </div>
+                </div>
+            </lightning-record-edit-form>
+        </div>
+        <template lwc:if={processingSave}>
+            <c-merge-p-d-f
+                mode={mode}
+                source-ids={sourceIds}
+                document-name={quoteFileName}
+                onsave={handleSaveDocument}>
+            </c-merge-p-d-f>
+        </template>
+        <template lwc:if={showSpinner}>
+            <lightning-spinner alternative-text="Merging in progress..."></lightning-spinner>
+        </template>
+    </lightning-card>
+</template>

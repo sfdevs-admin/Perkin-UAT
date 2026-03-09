@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    margin: 0px;
+}
+.strike-prices {
+    display: flex;
+    gap: 5px;
+}
+/* Default (desktop): flatten the wrapper */
+.mobile-button-row {
+    display: contents; /* acts as if the div doesn’t exist */
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.display-saved-amount {
+    /* display: flex; */
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+.product-saved {
+    /* background: #d9dfe7;
+    color: #292927; */
+    /* background: rgb(68, 166, 78); */
+    background: #58A618;
+    color: #ffffff;
+    padding: 4px 6px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 4px;
+    font-size: 12px;
+}
+.promo-price {
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+/* Mobile only: activate row layout */
+@media (max-width: 768px) {
+    .mobile-button-row {
+        display: flex;
+        
+        gap: 10px;
+        width: 100%;
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .div3, .div2 {
+        display: flex;
+        
+    }
+
+    .div1 {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+}

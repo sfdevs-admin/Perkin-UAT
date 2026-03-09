@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B Checkout Payment</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>  
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="loadingMessage" type="String" default="Please wait while we process your order......" label="Enter Page Loading Message"/>
+            <property name="paynowLabel" type="String" default="Pay Now" label="Pay Now Option Label"/>
+            <property name="purchaseOrderLabel" type="String" default="Purchase Order" label="Purchase Order (PO) Option Label"/>
+            <property name="checkoutDetails" type="String" default="{!Checkout.Details}" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

@@ -1,0 +1,54 @@
+<!--
+  @description       : 
+  @author            : surya.thakur
+  @group             : 
+  @last modified on  : 02-26-2026
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light">
+    <div class="relatedProdParentDiv">
+        <div class="slds-p-bottom_x-small featuredProductheadingContainer" if:true={showCmp}>
+            <span class="borderLine-featuredProductheading"></span><span> {HeaderVal} </span><span>{HeaderVal2} </span><span class="borderLine-featuredProductheading"></span>
+            <!-- <span class="borderLine-featuredProductheading"></span><h2 class="slds-text-heading_large slds-m-bottom_large slds-text-align_center">{HeaderVal} Products</h2><span class="borderLine-featuredProductheading"></span> -->
+        </div>
+    
+        <!-- <div class="glider-contain slds-p-top_x-small">
+            <div class="glider">
+                <template for:each={featuredProdIdList} for:item="item" if:true={showCmp}>
+                    <div class="glider-coloumn" key={item.id}>
+                        <c-b2b-related-products-child product-id={item.id} product-data={item}
+                        onloadcomplete={handleLoadComplete} onremoveproduct={handleRemoveProduct}></c-b2b-related-products-child>
+                    </div>
+                </template>
+            </div>
+          
+            <div if:true={showCmp}>
+                <button aria-label="Previous" class="glider-prev">«</button>
+                <button aria-label="Next" class="glider-next">»</button>
+                <div role="tablist" class="dots"></div>
+            </div>
+        </div> -->
+        <template if:true={showCmp}>
+            <div class="glider-contain slds-p-top_x-small">
+                <div class="glider">
+                    <template for:each={featuredProdIdList} for:item="item">
+                        <div class="glider-coloumn" key={item.id}>
+                            <c-b2b-related-products-child 
+                                product-id={item.id} 
+                                product-data={item}
+                                is-p-d-p={isPDP}
+                                >
+                            </c-b2b-related-products-child>
+                        </div>
+                    </template>
+                </div>
+        
+                <div>
+                    <button aria-label="Previous" class="glider-prev">«</button>
+                    <button aria-label="Next" class="glider-next">»</button>
+                    <div role="tablist" class="dots"></div>
+                </div>
+            </div>
+        </template>        
+    </div>
+</template>

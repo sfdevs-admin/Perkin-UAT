@@ -1,0 +1,45 @@
+.host{
+}
+
+.stepLabel{
+    font-weight: 650;
+    text-decoration-line: underline;
+}
+
+.slds-button.slds-button_icon.slds-modal__close{
+    --slds-c-button-color-background: var(--dxp-g-root);
+}
+
+@media(min-width: 48em){
+
+    .slds-modal .slds-modal__title{
+        --slds-c-modal-heading-font-weight: 500;
+        --slds-c-modal-heading-font-size: 1.55rem;
+    }
+
+    .slds-modal__header{
+        --slds-c-modal-header-spacing-block-start: 0.5rem;
+        --slds-c-modal-header-spacing-block-end: 0.5rem;
+    }
+
+    .slds-modal__container{
+        width: 40% !important;
+        max-width: 52.0625rem !important;
+        min-width: 35rem !important;
+    }
+
+}
+
+@media(max-width: 48em){
+
+    .slds-modal .slds-modal__title{
+        --slds-c-modal-heading-font-weight: 500;
+        --slds-c-modal-heading-font-size: 1.45rem;
+    }
+
+    .slds-modal__header{
+        --slds-c-modal-header-spacing-block-start: 0.5rem;
+        --slds-c-modal-header-spacing-block-end: 0.5rem;
+    }
+
+}

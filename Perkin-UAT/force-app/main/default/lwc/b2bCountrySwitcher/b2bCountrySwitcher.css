@@ -1,0 +1,25 @@
+.exampleHolder{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: #0176D3;
+}
+
+.fullscreen-spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+
+.custom-btn lightning-button {
+    padding-left: 30px;
+    padding-right: 30px;
+}

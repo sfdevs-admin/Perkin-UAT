@@ -1,0 +1,121 @@
+<!--
+  @description       : 
+  @author            : S.T
+  @group             : 
+  @last modified on  : 03-04-2026
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light">
+    <!-- Billing Frequency Section -->
+    <div class="section slds-p-top_medium">
+        <p class="label slds-p-bottom_x-small"><b>{labels.BillingFrequency} :</b></p>
+        <div class="slds-grid slds-wrap slds-gutters_xx-small">
+            <template for:each={frequencyOptions} for:item="option">
+                <div key={option.value}
+                    class="slds-col slds-size_1-of-2 slds-small-size_1-of-2 slds-medium-size_1-of-5 slds-p-top_x-small slds-p-right_x-small slds-p-left_x-small">
+                    <lightning-button label={option.label} data-value={option.value} variant={option.variant}
+                        onclick={handleDeliverySelect} class="slds-size_full custom-frequency-button">
+                    </lightning-button>
+                </div>
+            </template>
+        </div>
+    </div>
+    <div class="slds-grid slds-wrap ">
+        <!-- Unit Price Section -->
+        <div class="slds-grid slds-wrap slds-col slds-size_1-of-1 section slds-p-top_medium">
+
+            <template if:false={isSubscriptionDiscountApplied}>
+                <template if:false={isPromotionLoaded}>
+                    <b class="unit-price-style"> {labels.UNIT_PRICE} :</b>
+                    <s class="slds-p-right_medium">
+                        <lightning-formatted-number value={productPricing.listPrice} currency-code={pricingCurrencyIsoCode} format-style="currency"></lightning-formatted-number>
+                    </s>
+                    <lightning-formatted-number class ="promo-price" value={productPricing.unitPrice} currency-code={pricingCurrencyIsoCode}
+                        format-style="currency">
+                    </lightning-formatted-number>
+                </template>
+            </template>
+
+            <template if:true={isPromotionLoaded}>
+                <div class="display-saved-amount">
+                    <b class="unit-price-style"> {labels.UNIT_PRICE} :</b>
+                    <s class="slds-p-right_medium">
+                        <lightning-formatted-number value={productPricing.unitPrice}
+                            currency-code={pricingCurrencyIsoCode} format-style="currency">
+                        </lightning-formatted-number>
+                    </s>
+                    <lightning-formatted-number class="promo-price" value={displayPrice}
+                        currency-code={pricingCurrencyIsoCode} format-style="currency">
+                    </lightning-formatted-number>
+                    <!-- Saved Amount -->
+                    <template if:true={displaySavedAmount}>
+                        <div class="product-saved">
+                            {labels.saved}:
+                            <lightning-formatted-number value={displaySavedAmount}
+                                currency-code={pricingCurrencyIsoCode} format-style="currency">
+                            </lightning-formatted-number>
+                        </div>
+                    </template>
+                </div>
+            </template>
+
+             <!-- Subscription Discount -->
+            <template if:true={isSubscriptionDiscountApplied}>
+                <div class="display-saved-amount">
+                    <b class="unit-price-style"> {labels.UNIT_PRICE} :</b>
+                    <!-- Strike-through original -->
+                    <s class="slds-p-right_medium">
+                        <lightning-formatted-number 
+                            value={productPricing.unitPrice} 
+                            currency-code={pricingCurrencyIsoCode} 
+                            format-style="currency">
+                        </lightning-formatted-number>
+                    </s>
+
+                    <!-- Discounted Final Price -->
+                    <span class="promo-price">
+                        <lightning-formatted-number 
+                            value={finalPrice} 
+                            currency-code={pricingCurrencyIsoCode} 
+                            format-style="currency">
+                        </lightning-formatted-number>
+                    </span>
+
+                    <!-- Saved % Badge -->
+                    <div class="product-saved">
+                        {labels.saved}:
+                        <lightning-formatted-number value={displaySavedPercentage}
+                            currency-code={pricingCurrencyIsoCode} format-style="currency">
+                        </lightning-formatted-number>
+                    </div>
+                </div>
+            </template>
+
+
+        </div>
+
+        <!-- Quantity Selector -->
+        <div class="slds-col slds-size_1-of-1 slds-small-size_1-of-1 slds-medium-size_2-of-12 section slds-p-top_medium slds-p-left_x-small">
+            <c-b2b-quantity-selector onproductquantity={handleProductQuantity}></c-b2b-quantity-selector>
+        </div>
+
+        <!-- Add to Subscription Button -->
+        <div class="slds-col slds-size_1-of-1 slds-small-size_1-of-1 slds-medium-size_3-of-12 slds-p-top_medium">
+            <lightning-button label={labels.AddToSubscription} variant="brand" onclick={handleSubscriptionClick}
+                class="cart-button slds-size_full"
+                disabled={isDisabled}>
+            </lightning-button>
+        </div>
+    </div>
+
+    <!-- Subscription Modal -->
+    <template if:true={showSubscriptionModal}>
+        <c-b2b-custom-subscription-popup parent-records-map={subscriptions}
+            new-subscription-properties={newSubscriptionProperties}
+            existing-subscription-properties={existingSubscriptionProperties}
+            onclosesubscription={handleCloseSubscription} oncreateparent={handleParentCreate}
+            show-existing-subscription-button={showExistingSubscriptionButton} onnavigatetolist={navigateToList}>
+        </c-b2b-custom-subscription-popup>
+    </template>
+
+</template>

@@ -1,0 +1,98 @@
+<!--
+ - Created by frankvanloon on 5/5/20.
+ -->
+
+<!-- ServiceMax Inventory Count Approval -->
+<template>
+
+	<lightning-card title="Inventory Count Approval Dashboard">
+
+		<lightning-layout pull-to-boundary="medium">
+
+			<lightning-layout-item flexibility="auto" padding="around-large">
+<!--				<lightning-dual-listbox name="plants" label="Select Plants" source-label="Available" selected-label="Selected"-->
+<!--					field-level-help="Select Plants" size="4" options={allPlants} onchange={handlePlantChange} value={selectedPlants}>-->
+<!--				</lightning-dual-listbox>-->
+
+				<c-custom-lookup label="Technicians / Locations / Plants" placeholder="Name, Location Code, Work Center..." is-multi-entry="true"
+					selection={selectedTechnicians} errors={lookupErrors} onsearch={handleTechSearch} onselectionchange={handleTechSelectionChange}>
+				</c-custom-lookup>
+
+			</lightning-layout-item>
+
+			<lightning-layout-item flexibility="auto" padding="around-large">
+
+				<lightning-dual-listbox name="statuses" label="Select Statuses" source-label="Available" selected-label="Selected"
+					field-level-help="Select Statuses" size="3" options={allStatuses} onchange={handleStatusChange} value={selectedStatuses}>
+				</lightning-dual-listbox>
+
+<!--				<lightning-combobox name="Status" label="Status" value={selectedStatuses}-->
+<!--					placeholder="Select Status" options={allStatuses} onchange={handleStatusChange}>-->
+<!--				</lightning-combobox>-->
+
+			</lightning-layout-item>
+
+		</lightning-layout>
+
+		<div class="slds-m-top_small slds-m-bottom_medium">
+
+			<lightning-button label="Search" title="Non-primary action" onclick={buildFilter} class="slds-m-left_x-small" variant="brand">
+			</lightning-button>
+
+			<lightning-button label="Clear Filter" title="Non-primary action" onclick={clearFilter} class="slds-m-left_x-small" variant="destructive-text">
+			</lightning-button>
+
+		</div>
+
+	</lightning-card>
+
+	<lightning-card title="Inventory Counts / Lines">
+		<lightning-layout pull-to-boundary="medium">
+			<lightning-layout-item flexibility="auto" padding="around-large">
+
+				<lightning-tree-grid data={treeItems} columns={columns} expanded-rows={expandedRows} is-loading={busySearching}
+					 onrowselection={handleSelectedRow} selected-rows={selectedRows} key-field="Id" ontoggle={handleRowToggle}>
+				</lightning-tree-grid>
+				<br/>
+				<p>  {selectedRowMessage}</p>
+				<br/>
+
+			</lightning-layout-item>
+		</lightning-layout>
+	</lightning-card>
+
+	<lightning-card title="Approval Results">
+
+		<lightning-layout pull-to-boundary="medium">
+
+			<lightning-layout-item flexibility="auto" padding="around-large">
+
+			<lightning-combobox name="Review Status" label="Status" value={selectedReviewStatus}
+				placeholder="Select Status" options={reviewOptions} onchange={handleReviewStatusChange}>
+			</lightning-combobox>
+
+			</lightning-layout-item>
+
+			<lightning-layout-item flexibility="auto" padding="around-large">
+
+				<lightning-textarea name="recountReason" label="Reason for Recount" onchange={handleRejectReasonChange}>
+				</lightning-textarea>
+
+			</lightning-layout-item>
+
+		</lightning-layout>
+
+		<div class="slds-m-top_small slds-m-bottom_medium">
+
+			<lightning-button label="Update Selected" title="Non-primary action" onclick={handleUpdate} class="slds-m-left_x-small" variant="brand"></lightning-button>
+
+			<br/>
+			<p>  {updateMessage}</p>
+
+		</div>
+
+	</lightning-card>
+
+	<br/>
+	<br/>
+</template>

@@ -1,0 +1,351 @@
+<!--
+ - Created by b.s.salmans on 2/15/2021.
+ -->
+
+<!-- Smax Standard Job Times Dashboard -->
+<template>
+    <lightning-card title="Standard Job Times Dashboard" >
+
+        <!-- #region FILTERS SECTION -->
+        <template if:true={showFilters}>
+            <lightning-layout pull-to-boundary="medium">
+                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                    <div style="vertical-align: center">
+                        <lightning-checkbox-group name="statusFilter"
+                           label="Status"
+                           options={statuses}
+                           value={selectedStatuses}
+                           onchange={handleStatusChange}>
+                        </lightning-checkbox-group>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                    <div style="padding-bottom: 10px;">
+                        <lightning-icon icon-name="standard:work_type" size="small"></lightning-icon>
+                        &nbsp; Order Type
+                    </div>
+                    <lightning-combobox
+                            name="orderType"
+                            label="Order Type" variant="label-hidden"
+                            value={selectedType}
+                            placeholder="Select Order Type..."
+                            options={orderTypes}
+                            onchange={typeChange}>
+                    </lightning-combobox>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                    <div style="padding-bottom: 10px;">
+                        <lightning-icon icon-name="standard:product_item" size="small"></lightning-icon>
+                        &nbsp; Product Line
+                    </div>
+                    <lightning-combobox
+                            name="productLine"
+                            label="Product Line" variant="label-hidden"
+                            value={selectedProductLine}
+                            placeholder="Select Product Line..."
+                            options={productLines}
+                            onchange={productLineChange}>
+                    </lightning-combobox>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                    <div style="padding-bottom: 10px;">
+                        <lightning-icon icon-name="standard:category" size="small"></lightning-icon>
+                        &nbsp; Model Series
+                    </div>
+                    <lightning-combobox
+                            name="modelSeries"
+                            label="Model Series" variant="label-hidden"
+                            value={selectedModelSeries}
+                            placeholder="Select Model Series..."
+                            options={modelSeries}
+                            onchange={modelSeriesChange}>
+                    </lightning-combobox>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                    <div style="vertical-align: center">
+<!--                        <lightning-layout-item flexibility="auto" padding="horizontal-large">-->
+                            <lightning-radio-group name="Filters"
+                                                   label="Timeframe"
+                                                   options={horizonOptions}
+                                                   value={horizonValue}
+                                                   onchange={handleHorizonChange}>
+                            </lightning-radio-group>
+<!--                        </lightning-layout-item>-->
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                    <lightning-slider label="Difference %" onchange={handleSliderChange}
+                          step="5" min="0" max="100" value={sliderValue}>
+                    </lightning-slider>
+                    <lightning-slider label="Minimum WO Count" onchange={handleMinCountChange}
+                          step="5" min="0" max="200" value={minCountValue}>
+                    </lightning-slider>
+                </lightning-layout-item>
+            </lightning-layout>
+
+            <div id="selection" role="listbox" aria-orientation="horizontal">
+                <ul class="slds-listbox slds-listbox_inline slds-var-p-top_xxx-small"
+                        role="group" aria-label="Selected Options:">
+                    <template for:each={selectedFilters} for:item="item">
+                        <li key={item.name} role="presentation" class="slds-listbox__item">
+                            <lightning-pill
+                                    label={item.label}
+                                    title={item.label}
+                                    onremove={handleRemoveSelectedItem}
+                                    name={item.name}>
+                                <lightning-icon icon-name={item.icon}></lightning-icon>
+                            </lightning-pill>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+
+            <lightning-layout pull-to-boundary="medium">
+                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                    <lightning-button label="Search" onclick={handleJobSearch} variant="brand" class="slds-m-left_x-small">
+                    </lightning-button>
+                    <lightning-button label="Clear" onclick={handleClear} variant="neutral" class="slds-m-left_x-small">
+                    </lightning-button>
+                    <lightning-button label="Add..." onclick={openAddJobTimes} variant="brand-outline" class="slds-m-left_x-small">
+                    </lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+
+            <lightning-layout pull-to-boundary="medium" vertical-align="start">
+                <lightning-layout-item flexibility="auto" padding="around-large">
+                    <c-smax-paginator records={sjtData}
+                                      show-search-box="false"
+                                      onpaginatorchange={handlePaginatorChange}
+                                      pagination-on={paginationOn}>
+                    </c-smax-paginator>
+                    <lightning-datatable key-field="id"
+                                         data={recordsToDisplay}
+                                         columns={sjtColumns}
+                                         hide-checkbox-column
+                                         show-row-number-column
+                                         row-number-offset={rowNumberOffset}
+                                         onrowaction={handleRowAction}>
+                    </lightning-datatable>
+                    <br/>
+                </lightning-layout-item>
+            </lightning-layout>
+        </template>
+        <!-- #endregion FILTERS SECTION -->
+
+        <!-- #region STANDARD JOB DATA -->
+        <template if:true={showSJTpopup}>
+            <div>
+                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                         aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                    <div class="slds-modal__container" style="width: 90%; max-width: none;">
+                        <header class="slds-modal__header">
+                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                    title="Close" onclick={handleDataClose}>
+                                <lightning-icon icon-name="utility:close" size="medium"> </lightning-icon>
+                                <span class="slds-assistive-text">Close</span>
+                            </button>
+                            <h2 id="technician-edit-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                                Standard Job Time Data
+                            </h2>
+                        </header>
+
+                        <div class="slds-modal__content spinner-container" id="job-data-id-1">
+                            <div id="job-data-spinner" if:true={isProcessing} class="spinner-mask">
+                                <lightning-spinner alternative-text="Processing" size="medium"></lightning-spinner>
+                            </div>
+                            <div class="slds-p-around_medium" style="height: 600px; vertical-align: center">
+                                <div class="slds-text-title_bold">
+                                    Standard Job Time: {selectedSjtName}<br/><br/>
+                                </div>
+
+                                <div class="slds-align_absolute-center">
+                                    <table style="width:60%;text-align:center;">
+                                        <tr>
+                                            <th></th>
+                                            <th>Work Order Count</th>
+                                            <th>Minimum Duration</th>
+                                            <th>Maximum Duration</th>
+                                            <th>Average Duration</th>
+                                            <th>Difference</th>
+                                        </tr>
+                                        <tr>
+                                            <td><b>1 Month</b></td>
+                                            <td>{selectedSjt.SVMX_PS_1MoRecCnt__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_1MoMin__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_1MoMax__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_1MoAvg__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_1MoDelta__c}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>3 Month</b></td>
+                                            <td>{selectedSjt.SVMX_PS_3MoRecCnt__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_3MoMin__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_3MoMax__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_3MoAvg__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_3MoDelta__c}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>6 Month</b></td>
+                                            <td>{selectedSjt.SVMX_PS_6MoRecCnt__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_6MoMin__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_6MoMax__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_6MoAvg__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_6MoDelta__c}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>12 Month</b></td>
+                                            <td>{selectedSjt.SVMX_PS_12MoRecCnt__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_12MoMin__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_12MoMax__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_12MoAvg__c}</td>
+                                            <td>{selectedSjt.SVMX_PS_12MoDelta__c}</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                                <c-smax-chart record-id={sjtId}
+                                              label={selectedSjtName}
+                                              chart-label={selectedSjtName}
+                                              horizon={horizonValue}
+                                              chart-type={chartType}> <!-- -->
+                                </c-smax-chart>
+                            </div>
+                        </div>
+                        <footer class="slds-modal__footer">
+                            <lightning-button-group>
+                                <lightning-button label="Exit" onclick={handleDataClose}>
+                                </lightning-button>
+                            </lightning-button-group>
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </div>
+        </template>
+        <!-- #endregion STANDARD JOB DATA -->
+
+        <!-- #region STANDARD JOB EDIT -->
+        <template if:true={recordEditPopup}>
+            <div>
+                <section role="dialog"
+                         tabindex="-1"
+                         aria-labelledby="modal-heading-01"
+                         aria-modal="true"
+                         aria-describedby="modal-content-id-1"
+                         class="slds-modal slds-fade-in-open"
+                >
+                    <div class="slds-modal__container slds-align_absolute-center">
+                        <div class="slds-modal__content spinner-container" id="job-edit-id-1">
+                            <div class="slds-p-around_medium " > <!-- style="height: 400px" -->
+                                <div class="slds-text-title_bold">
+                                    Standard Job Time: {recordToEditName}<br/><br/>
+                                </div>
+                                <div>
+                                    <lightning-record-edit-form record-id={recordToEditId}
+                                                                object-api-name="SVMX_PS_Standard_Job_Time__c"
+                                                                onsuccess={handleEditSave}
+                                                                class="slds-align_absolute-center">
+                                        <lightning-messages>
+                                        </lightning-messages>
+                                        <lightning-output-field field-name="Name" class="slds-text-align_center">
+                                        </lightning-output-field>
+                                        <lightning-input-field field-name="SVMX_PS_Status__c" class="slds-text-align_center">
+                                        </lightning-input-field>
+                                        <lightning-input-field field-name="SVMX_PS_Standard_Duration__c" class="slds-text-align_center">
+                                        </lightning-input-field>
+                                        <lightning-output-field field-name="SVMX_PS_Order_Type__c" class="slds-text-align_center">
+                                        </lightning-output-field>
+                                        <lightning-output-field field-name="SVMX_PS_Model_Series__c" class="slds-text-align_center">
+                                        </lightning-output-field>
+                                        <lightning-output-field field-name="SVMX_PS_Product_Line__c" class="slds-text-align_center">
+                                        </lightning-output-field>
+                                        <div class="slds-align_absolute-center">
+                                            <lightning-button
+                                                    class="slds-m-top_small slds-p-around_small"
+                                                    variant="brand"
+                                                    type="submit"
+                                                    name="update"
+                                                    label="Update">
+                                            </lightning-button>
+                                            <lightning-button
+                                                    class="slds-m-top_small slds-p-around_small"
+                                                    label="Exit"
+                                                    onclick={handleEditClose}>
+                                            </lightning-button>
+                                        </div>
+                                    </lightning-record-edit-form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </div>
+        </template>
+        <!-- #endregion STANDARD JOB EDIT -->
+
+        <!-- #region ADD Job Times Pop-Up -->
+        <template if:true={showAddJobTimes}>
+            <div>
+                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                         aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                    <div class="slds-modal__container" style="width: 90%; max-width: none">
+                        <header class="slds-modal__header">
+                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                    title="Close" onclick={handleAddJobTimesClose}>
+                                <lightning-icon icon-name="utility:close" variant="inverse" size="medium"> </lightning-icon>
+                                <span class="slds-assistive-text">Close</span>
+                            </button>
+                            <h2 id="add-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                                Add Standard Job Times
+                            </h2>
+                        </header>
+
+                        <div class="slds-modal__content spinner-container" id="add-content-id-1">
+                            <lightning-layout pull-to-boundary="medium">
+                                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                                    <lightning-combobox
+                                            name="addOrderType"
+                                            label="Order Type" variant="label-hidden"
+                                            value={selectedAddOrderType}
+                                            placeholder="Select Order Type..."
+                                            options={addOrderTypes}
+                                            onchange={handleAddOrderTypeChange}
+                                            if:true={showAddOrderType}>
+                                    </lightning-combobox>
+                                </lightning-layout-item>
+                                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                                    <p style="padding-top: 10px;"><b>NOTE:</b> After an Order Type is selected, only the Product Lines and Model Series
+                                        which are NOT already setup as Standard Job Times will be displayed.</p>
+                                </lightning-layout-item>
+                            </lightning-layout>
+
+                            <div class="slds-p-around_medium" style="height: 400px">
+                                <lightning-tree-grid key-field="name" data={newJobItems} columns={addSjtColumns}
+                                     is-loading={newJobSearching} onrowselection={handleNewJobSelect}
+                                     selected-rows={selectedNewJobRows} ontoggle={handleNewJobExpand}
+                                     expanded-rows={newJobItemsExpanded}>
+                                </lightning-tree-grid>
+                            </div>
+                        </div>
+
+                        <footer class="slds-modal__footer">
+                            <lightning-layout pull-to-boundary="medium">
+                                <lightning-layout-item flexibility="auto" padding="horizontal-large">
+                                    <lightning-button label="Create" onclick={handleNewJobCreate} variant="brand" class="slds-m-left_x-small">
+                                    </lightning-button>
+                                    <lightning-button label="Cancel" onclick={handleAddJobTimesClose} variant="neutral" class="slds-m-left_x-small">
+                                    </lightning-button>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </div>
+        </template>
+        <!-- #endregion ADD Job Times Pop-Up -->
+
+
+    </lightning-card>
+</template>

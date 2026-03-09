@@ -1,0 +1,12 @@
+.custom-black-button {
+    color: black !important;  /* Black text */
+    border: 2px solid black !important;  /* Black border */
+    border-radius: 6px; /* Rounded corners */
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-black-button:hover {
+    background-color: black;  /* Black background on hover */
+    color: white !important;  /* White text on hover */
+    border-color: black;
+}

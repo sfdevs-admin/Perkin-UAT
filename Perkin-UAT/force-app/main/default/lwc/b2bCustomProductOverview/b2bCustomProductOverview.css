@@ -1,0 +1,30 @@
+.custom-tabset .slds-tabs_default__item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.slds-tabs_default.slds-tabs_large .slds-tabs_default__item{
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .custom-tabset .slds-tabs_default__item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .filters,
+    .content {
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    table.slds-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

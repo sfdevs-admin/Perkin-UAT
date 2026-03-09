@@ -1,0 +1,92 @@
+<!--
+  @description       : 
+  @author            : S.T
+  @group             : 
+  @last modified on  : 07-02-2025
+  @last modified by  : S.T
+-->
+<!-- <template> -->
+    <!-- <div class="slds-grid">
+        <div class="slds-col slds-size_1-of-2">
+            <div class="slds-col slds-size_1-of-2">
+            <div>
+                <lightning-button variant="base" label={labels.backToCartLabel} title={labels.backToCartLabel} icon-name="utility:chevronleft" onclick={handleBackToCart}></lightning-button>
+            </div>
+            </div>
+        </div>
+        <div class="slds-col slds-size_1-of-2">
+            <div class="slds-col slds-size_1-of-2">
+                <div>
+                    <slot name="checkoutHeaderLogo"></slot>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="pki-site-banner">
+        <slot name="checkout-site-banner"></slot>
+    </div>
+    <header class="pki-custom-commerce-header">
+        <div class="pki-header-grid">
+            <div class="pki-header-column">
+                <div class="pki-header-inner-grid">
+                    <div class="pki-header-inner-column">
+                        <div class="pki-mnav-desktop">
+                            <slot name="checkoutHeaderLogo"></slot>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pki-header-column slds-m-top_medium" >
+                <div >
+                    <lightning-button variant="base" label={labels.backToCartLabel} title={labels.backToCartLabel} icon-name="utility:chevronleft" onclick={handleBackToCart}></lightning-button>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!-- <div class="checkout-header-container">
+        <div class="checkout-header-banner">
+            <slot name="checkout-site-banner"></slot>
+        </div>
+        <div class="checkout-logo-container">
+            <div class="checkout-backtocart">
+                <lightning-button variant="base" label={labels.backToCartLabel} title={labels.backToCartLabel} icon-name="utility:chevronleft" onclick={handleBackToCart}></lightning-button>
+            </div>
+            <div class="checkout-logo">
+                <slot name="checkoutHeaderLogo"></slot>
+            </div>
+        </div>
+    </div>
+</template> -->
+
+<template> 
+    <div class="pki-site-banner">
+        <slot name="checkout-site-banner"></slot>
+    </div>
+    <header class="pki-custom-commerce-header">
+        <div class="pki-header-grid">
+            <!-- Left Column -->
+            <div class="pki-header-column" >
+                <div class="pki-mnav-mobile">
+                    <lightning-button variant="base" label={labels.backLabel} title={labels.backLabel} icon-name="utility:chevronleft" onclick={handleBackToCart}></lightning-button>
+                </div>
+                <div class="pki-mnav-logo-desktop">
+                    <!-- <slot name="headerLogo"></slot> -->
+                    <lightning-button variant="base" label={labels.backToCartLabel} title={labels.backToCartLabel} icon-name="utility:chevronleft" onclick={handleBackToCart}></lightning-button>
+                </div>
+            </div>
+
+            <!-- Center Column -->
+            <div class="pki-header-column">
+                <div class="pki-header-inner-grid">
+                    <div class="pki-header-inner-column">
+                        <div class="pki-mnav-desktop">
+                            <slot name="checkoutHeaderLogo"></slot>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</template>

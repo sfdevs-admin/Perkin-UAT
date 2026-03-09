@@ -1,0 +1,54 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 11-25-2025
+  @last modified by  : Swati Chilap
+-->
+<template>
+    <template if:true={showDetails}>
+            <!-- Purchase Option -->
+
+            <lightning-tabset class="custom-tabset-subscription slds-tabs_default slds-tabs_large"
+                style="--dxp-c-link-text-color: black; --slds-c-tabs-item-sizing-height: 3rem; --slds-c-tabs-item-color-border-active: rgb(37, 79, 158);">
+
+                <lightning-tab label={labels.SubscriptionTab2} value={labels.SubscriptionTab2}
+                    data-tab={labels.SubscriptionTab2}>
+                    <!-- Content for Tab 1 -->
+                    <c-b2b-std-purchase-option product-data={productData} 
+                    product-pricing ={productPricing}>
+                    </c-b2b-std-purchase-option>
+                </lightning-tab>
+
+                <lightning-tab if:true={productItemClass} label={labels.SubscriptionTab1} value={labels.SubscriptionTab1} data-tab={labels.SubscriptionTab1}>
+                    <!-- Content for Tab 2 -->
+                    <c-b2b-custom-subscription-pdp 
+                        product-data={productData} 
+                        product-pricing ={productPricing}
+                        account-subscription-discount={accountSubscriptionDiscount}>
+                    </c-b2b-custom-subscription-pdp>
+                </lightning-tab>
+                
+                
+            </lightning-tabset>
+    </template>
+
+    <template if:false={showDetails}>
+        <div>
+            <div class="slds-grid slds-wrap slds-p-bottom_small slds-p-top_small">
+                <div class="slds-col slds-size_12-of-12 slds-medium-size_2-of-12">
+                    <b>{labels.partNumber} :</b>
+                </div>
+                <div class="slds-col slds-size_12-of-12 slds-medium-size_10-of-12">
+                    {productData.fields.B2B_Part_Number__c}
+                </div>
+                <div class="slds-grid slds-wrap slds-gutters_x-small slds-m-top_small">
+                    <c-b2b-request-more-information product-details={productData}
+                        show-button-when-called-from-parent=true>
+                    </c-b2b-request-more-information>
+                </div>
+            </div>
+        </div>
+    </template>
+
+</template>

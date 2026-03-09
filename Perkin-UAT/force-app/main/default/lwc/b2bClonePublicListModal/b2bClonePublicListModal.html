@@ -1,0 +1,48 @@
+<template>
+    <lightning-modal-header class="custom-modal-header" label={modalTitle}></lightning-modal-header>
+    <!-- Shopping List/ Public List Edit body -->
+    <template if:false={isSubscription}>
+        <lightning-modal-body>
+            <div class="step-section">
+                <lightning-input label={labels.listName} value={newListName} onchange={handleNameChange} required></lightning-input>
+                <lightning-textarea label={labels.description} value={newListDescription} onchange={handleDescriptionChange}></lightning-textarea>
+                <lightning-input type="checkbox" label={labels.setAsDefault} checked={newListIsDefault} onchange={handleIsDefaultChange}></lightning-input>
+
+                <div class="form-actions">
+                    <lightning-button label={labels.save} variant="brand" onclick={handleSave} disabled={disableSave}></lightning-button>
+                </div>
+            </div>
+        </lightning-modal-body>
+    </template>
+
+    <!-- My Subscription Edit body -->
+    <template if:true={isSubscription}>
+        <lightning-modal-body>
+            <div class="step-section">
+                <lightning-input label={labels.listName} value={newListName} onchange={handleNameChange} required></lightning-input>
+                <lightning-textarea label={labels.description} value={newListDescription} onchange={handleDescriptionChange}></lightning-textarea>
+                <lightning-combobox
+                    label="Status"
+                    value={selectedStatus}
+                    options={statusOptions}
+                    onchange={handleStatusChange}
+                    disabled>
+                </lightning-combobox>
+
+                <lightning-combobox
+                    label="Billing Frequency"
+                    value={selectedFrequency}
+                    options={frequencyOptions}
+                    onchange={handleFrequencyChange}
+                    disabled>
+                </lightning-combobox>
+
+                <lightning-input label={labels.billingDate} value={billingDate} disabled></lightning-input>
+
+                <div class="form-actions">
+                    <lightning-button label={labels.save} variant="brand" onclick={handleSaveSubscription} disabled={disableSave}></lightning-button>
+                </div>
+            </div>
+        </lightning-modal-body>
+    </template>
+</template>

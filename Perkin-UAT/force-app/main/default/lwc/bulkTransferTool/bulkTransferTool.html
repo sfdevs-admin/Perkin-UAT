@@ -1,0 +1,313 @@
+<template>
+    <lightning-card title="Bulk Transfer Tool">
+
+        <template if:true={isLoading}>
+            <div class="spinner-container">
+                <lightning-spinner
+                    alternative-text="Loading"
+                    size="medium">
+                </lightning-spinner>
+            </div>
+        </template>
+
+        <!-- TOP SECTION -->
+        <div class="slds-p-around_medium">
+            <div class="slds-grid slds-wrap slds-gutters">
+
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-combobox
+                        label="Select Object"
+                        options={objectOptions}
+                        value={sObject}
+                        onchange={handleObjectChange}>
+                    </lightning-combobox>
+                </div>
+
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-radio-group
+                        label="Owner Type"
+                        options={ownerTypeOptions}
+                        value={ownerType}
+                        type="radio"
+                        onchange={handleOwnerTypeChange}>
+                    </lightning-radio-group>
+                </div>
+
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-input
+                        type="search"
+                        label="Current Owner"
+                        value={currentOwnerName}
+                        required
+                        onchange={handleCurrentOwnerSearch}>
+                    </lightning-input>
+
+                    <template if:true={hasCurrentOwnerResults}>
+                        <div class="slds-box slds-box_x-small">
+                            <template for:each={currentOwnerResults} for:item="item">
+                                <div key={item.value}
+                                     data-id={item.value}
+                                     data-name={item.label}
+                                     onclick={selectCurrentOwner}
+                                     class="slds-p-around_x-small slds-border_bottom">
+                                    {item.label}
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FILTER SECTION -->
+        <lightning-accordion allow-multiple-sections-open class="slds-p-horizontal_medium">
+            <lightning-accordion-section name="filters" label="Filters">
+
+                <div class="slds-grid slds-wrap slds-gutters">
+
+                    <template for:each={filterOptions} for:item="field">
+                        <div key={field.value} class="slds-col slds-size_1-of-3">
+
+                            <!-- DATE -->
+                            <template if:true={field.isDate}>
+                                <lightning-input
+                                    type="date"
+                                    label={field.fromLabel}
+                                    data-field={field.value}
+                                    data-type="from"
+                                    value={field.fromValue}
+                                    onchange={handleDynamicFilterChange}>
+                                </lightning-input>
+
+                                <lightning-input
+                                    type="date"
+                                    label={field.toLabel}
+                                    data-field={field.value}
+                                    data-type="to"
+                                    value={field.toValue}
+                                    onchange={handleDynamicFilterChange}>
+                                </lightning-input>
+                            </template>
+
+                            <!-- DATETIME -->
+                            <template if:true={field.isDateTime}>
+                                <lightning-input
+                                    type="date"
+                                    label={field.fromLabel}
+                                    data-field={field.value}
+                                    data-type="from"
+                                    value={field.fromValue}
+                                    onchange={handleDynamicFilterChange}>
+                                </lightning-input>
+
+                                <lightning-input
+                                    type="date"
+                                    label={field.toLabel}
+                                    data-field={field.value}
+                                    data-type="to"
+                                    value={field.toValue}
+                                    onchange={handleDynamicFilterChange}>
+                                </lightning-input>
+                            </template>
+
+                            <!-- LOOKUP -->
+
+                            <template if:true={field.isLookup}>
+
+                                <!-- Search Input -->
+                                <lightning-input
+                                    type="search"
+                                    label={field.label}
+                                    value={field.inputValue}
+                                    data-field={field.value}
+                                    onchange={handleLookupSearch}>
+                                </lightning-input>
+
+                                <!-- Search Results -->
+                                <template if:true={field.lookupResults.length}>
+                                    <div class="slds-box slds-box_x-small">
+                                        <template for:each={field.lookupResults} for:item="item">
+                                            <div key={item.value}
+                                                data-field={field.value}
+                                                data-id={item.value}
+                                                data-name={item.label}
+                                                onclick={selectLookupRecord}
+                                                class="slds-p-around_x-small slds-border_bottom slds-hoverable">
+                                                {item.label}
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+
+                                <!-- Selected Pills -->
+                                <div class="slds-m-top_x-small">
+                                    <template for:each={field.selectedLookupRecords} for:item="rec">
+                                        <lightning-pill
+                                            key={rec.id}
+                                            label={rec.label}
+                                            name={rec.id}
+                                            data-field={field.value}
+                                            onremove={removeSelectedLookup}>
+                                        </lightning-pill>
+                                    </template>
+                                </div>
+
+                            </template>
+
+                            <!-- PICKLIST -->
+                            <template if:true={field.isPicklist}>
+
+                                <!-- Dropdown -->
+                                <lightning-combobox
+                                    label={field.label}
+                                    options={field.picklistValues}
+                                    value={field.currentValue}
+                                    data-field={field.value}
+                                    onchange={handleMultiPicklistChange}>
+                                </lightning-combobox>
+
+                                <!-- Selected Pills -->
+                                <div class="slds-m-top_x-small">
+                                    <template for:each={field.selectedValues} for:item="val">
+                                        <lightning-pill
+                                            key={val}
+                                            label={val}
+                                            name={val}
+                                            data-field={field.value}
+                                            onremove={removeSelectedPicklist}>
+                                        </lightning-pill>
+                                    </template>
+                                </div>
+
+                            </template>
+
+
+                            <!-- NORMAL FIELD (IMPORTANT FIX) -->
+                            <template if:false={field.isDate}>
+                                <template if:false={field.isDateTime}>
+                                    <template if:false={field.isLookup}>
+                                        <template if:false={field.isPicklist}>
+                                            <lightning-input
+                                                label={field.label}
+                                                value={field.inputValue}
+                                                data-field={field.value}
+                                                onchange={handleDynamicFilterChange}>
+                                            </lightning-input>
+                                        </template>
+                                    </template>
+                                </template>
+                            </template>
+
+
+                        </div>
+                    </template>
+
+
+                </div>
+
+                <div class="slds-m-top_small">
+                    <lightning-button
+                        label="Search"
+                        variant="brand"
+                        onclick={searchRecords}>
+                    </lightning-button>
+
+                    <lightning-button
+                        label="Reset"
+                        class="slds-m-left_small"
+                        onclick={resetFilters}>
+                    </lightning-button>
+                </div>
+
+            </lightning-accordion-section>
+        </lightning-accordion>
+
+        <!-- REST OF YOUR CODE REMAINS EXACTLY SAME -->
+
+        <!-- NEW OWNER SECTION -->
+        <template if:true={showUpdateButton}>
+            <div class="slds-p-around_medium">
+                <div class="slds-grid slds-wrap slds-gutters">
+
+                    <div class="slds-col slds-size_1-of-3">
+                        <lightning-radio-group
+                            label="Assign To"
+                            options={ownerTypeOptions}
+                            value={newOwnerType}
+                            type="radio"
+                            onchange={handleNewOwnerTypeChange}>
+                        </lightning-radio-group>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-3">
+                        <lightning-input
+                            type="search"
+                            label="New Owner"
+                            value={newOwnerName}
+                            onchange={handleNewOwnerSearch}>
+                        </lightning-input>
+
+                        <!-- SAFE LENGTH CHECK -->
+                        <template if:true={hasNewOwnerResults}>
+                            <div class="slds-box slds-box_x-small">
+                                <template for:each={newOwnerResults} for:item="item">
+                                    <div key={item.value}
+                                         data-id={item.value}
+                                         data-name={item.label}
+                                         onclick={selectNewOwner}
+                                         class="slds-p-around_x-small slds-border_bottom">
+                                        {item.label}
+                                    </div>
+                                </template>
+                            </div>
+                        </template>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-3">
+                        <lightning-button
+                            label="Confirm Transfer"
+                            variant="brand"
+                            class="slds-m-top_small slds-float_right"
+                            onclick={handleUpdateClick}>
+                        </lightning-button>
+                    </div>
+
+                </div>
+            </div>
+        </template>
+
+        <!-- RECORD TABLE -->
+        <div class="slds-p-around_medium">
+            <template if:true={hasRecords}>
+                <div class="slds-m-bottom_small slds-text-title_bold">
+                        Total Records: {totalRecordCount} |
+                        Selected: {selectedCount}
+                </div>
+            </template>
+                <lightning-datatable
+                    key-field="Id"
+                    data={records}
+                    columns={columns}
+                    onrowselection={handleRowSelection}>
+                </lightning-datatable>
+        </div>
+
+        <!-- SAVE / CANCEL -->
+        <div class="slds-p-around_medium slds-align_absolute-center">
+            <lightning-button
+                label="Cancel"
+                onclick={handleCancel}>
+            </lightning-button>
+
+            <lightning-button
+                label="Save"
+                variant="brand"
+                class="slds-m-left_small"
+                onclick={handleSave}
+                disabled={isSaveDisabled}>
+            </lightning-button>
+        </div>
+
+    </lightning-card>
+</template>

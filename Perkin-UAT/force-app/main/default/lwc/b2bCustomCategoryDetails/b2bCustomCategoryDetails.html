@@ -1,0 +1,62 @@
+<template>
+    <!-- <div class="slds-grid slds-grid_vertical">
+        <div if:true={showBannerImage} class="slds-col catergory-banner-container">
+            <div class="catergory-banner">
+                <figure class="catergory-banner-image">
+                    <experience-picture alternative-text={categoryBanner.alternateText} url={categoryBanner.url} loading="lazy"></experience-picture>
+                </figure>
+            </div>
+        </div>
+        <div if:true={categoryHeader} class="slds-col catergory-header-container">
+            <div>
+                <h2 class="catergory-header">{categoryHeader}</h2>
+            </div>
+        </div>
+        <div if:true={showCategoryDescription} class="slds-col catergory-details-container">
+            <p class="category-Description">{categoryDescription}</p>
+        </div>
+    </div> -->
+    <div if:false={isLoading}>
+        <div if:true={showBannerImage}>
+            <img  src={categoryBanner.imageurl} alt={categoryBanner.alternateText} 
+            loading="lazy" draggable="true" style="width:100%!important" height="100">
+
+        </div>
+        <div if:false={showBannerImage} class="slds-grid slds-wrap siteSize">
+
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12 ">
+                <div if:true={showTileImage} class="slds-grid slds-grid_vertical">
+                    <div class="slds-col catergory-banner-image">
+                        <img class="product-list-image" src={categoryBanner.imageurl}
+                         alt={categoryBanner.alternateText} loading="lazy" draggable="true" width="350" height="100">
+                    </div>
+                </div>
+                <!-- <div if:true={showBannerImage} class="slds-col catergory-banner-container">
+                <div class="catergory-banner">
+                    <figure class="catergory-banner-image">
+                        <experience-picture alternative-text={categoryBanner.alternateText} url={categoryBanner.url} loading="lazy"></experience-picture>
+                    </figure>
+                </div>
+            </div> -->
+            </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_8-of-12">
+                <div class="slds-grid slds-grid_vertical slds-p-horizontal_medium">
+                    <div class="slds-col">
+                        <div if:true={categoryHeader} class="slds-col catergory-header-container">
+                            <div>
+                                <h2 class="catergory-header">{categoryHeader}</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-col">
+                        <div if:true={showCategoryDescription} class="slds-col catergory-details-container">
+                            <!-- <p class="category-Description">{categoryDescription}</p> -->
+                            <lightning-formatted-rich-text class="category-Description" value={categoryDescription}>
+                            </lightning-formatted-rich-text>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

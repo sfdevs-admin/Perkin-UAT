@@ -1,0 +1,24 @@
+/**
+ * Created by b.s.salmans on 2/15/2021.
+ */
+
+.slds-modal__container {
+     height: 100%;
+     width: 100%;
+     max-width: 70vh;
+}
+
+.THIS .modal-body {
+     height : 40vh !important;
+     max-height: 40vh !important;
+}
+
+.slds-scrollable_y {
+    height: 800px;
+    overflow-y:visible!important;
+}
+
+.THIS .slds-modal__content {
+    overflow: visible;
+    overflow-y: visible;
+}

@@ -1,0 +1,36 @@
+.custom-black-button {
+    color: black !important;  /* Black text */
+    border: 2px solid black !important;  /* Black border */
+    border-radius: 6px; /* Rounded corners */
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-black-button:hover {
+    background-color: black;  /* Black background on hover */
+    color: white !important;  /* White text on hover */
+    border-color: black;
+}
+
+.back-button {
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    padding: 8px 16px; /* This adds internal space */
+    font-size: 0.9rem;
+}
+
+/* Slight adjustment for mobile screens */
+@media (max-width: 768px) {
+    .back-button {
+        padding: 10px 20px; /* More space inside button on small screens */
+        font-size: 1rem;     /* Optional: slightly larger text for tap targets */
+        width: auto !important; /* Keep natural width */
+    }
+}
+
+.back-button:hover {
+    background-color: black;  /* Black background on hover */
+    color: white !important;  /* White text on hover */
+    border-color: black;
+}

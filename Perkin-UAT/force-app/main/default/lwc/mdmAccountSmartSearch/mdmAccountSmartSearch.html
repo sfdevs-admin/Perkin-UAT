@@ -1,0 +1,190 @@
+<!-- sldsValidatorIgnore -->
+<template>
+  <!-- SPINNER -->
+  <template if:true={showSpinner}>
+    <lightning-spinner
+      size="medium"
+      variant="brand"
+      alternative-text="loading"
+    ></lightning-spinner>
+  </template>
+  <!-- / SPINNER -->
+  <div
+    class="
+      slds-theme--default
+      slds-box
+    "
+  >
+    <!-- PAGE HEADER -->
+    <lightning-layout class="slds-page-header slds-page-header--object-home slds-theme--default slds-box">
+      <lightning-layout-item>
+        <lightning-icon
+          icon-name="action:new_event"
+          alternative-text="Point Values"
+        >
+        </lightning-icon>
+      </lightning-layout-item>
+      <lightning-layout-item padding="horizontal-small">
+        <div class="page-section page-header">
+          <b><h1 class="slds-text-heading--label">Account</h1></b>
+          <h2 class="slds-text-heading--medium">SMART SEARCH</h2>
+        </div>
+      </lightning-layout-item>
+    </lightning-layout>
+    <!-- / PAGE HEADER -->
+
+    <lightning-layout>
+      <lightning-layout-item size="2" padding="small">
+        <lightning-input
+          placeholder="search Accounts.."
+          label="Account Name"
+          autocomplete="off"
+          data-id="accountName"
+          value={accountName}
+          onchange={handleInputChange}
+        >
+        </lightning-input>
+      </lightning-layout-item>
+      <lightning-layout-item size="2" padding="small">
+        <lightning-input
+          value={customerNumber}
+          placeholder="search SAP Customer #"
+          label="SAP Customer Number"
+          autocomplete="off"
+          data-id="customerNumber"
+          onchange={handleInputChange}
+        >
+        </lightning-input>
+      </lightning-layout-item>
+      <lightning-layout-item size="2" padding="small">
+        <lightning-input
+          value={street}
+          placeholder="search Street.."
+          label="Street"
+          autocomplete="off"
+          data-id="street"
+          onchange={handleInputChange}
+        ></lightning-input>
+      </lightning-layout-item>
+      <lightning-layout-item size="2" padding="small">
+        <lightning-input
+          value={city}
+          placeholder="search City.."
+          label="City"
+          autocomplete="off"
+          data-id="city"
+          onchange={handleInputChange}
+        ></lightning-input>
+      </lightning-layout-item>
+      <lightning-layout-item size="1" padding="small">
+        <lightning-input
+          value={country}
+          placeholder="search Country.."
+          label="Country"
+          autocomplete="off"
+          data-id="country"
+          onchange={handleInputChange}
+        ></lightning-input>
+      </lightning-layout-item>
+      <lightning-layout-item
+        size="1"
+        padding="small"
+        class="slds-p-top_large"
+      >
+        <lightning-button
+          class="headerButton"
+          variant="brand-outline"
+          label="Search"
+          icon-name="utility:search"
+          onclick={fetchAccount}
+        >
+        </lightning-button>
+      </lightning-layout-item>
+      <lightning-layout-item
+        size="1"
+        padding="small"
+        class="slds-p-top_large"
+      >
+        <lightning-button
+          variant="brand-outline"
+          label="Reset"
+          icon-name="utility:refresh"
+          onclick={handleReset}
+        >
+        </lightning-button>
+      </lightning-layout-item>
+      <lightning-layout-item
+        size="1"
+        padding="small"
+        class="slds-p-top_large"
+      >
+        <lightning-button
+          variant="brand-outline"
+          label="New_Account"
+          onclick={handleNewAccount}
+        >
+        </lightning-button>
+      </lightning-layout-item>
+    </lightning-layout>
+    <!-- more results message box -->
+    <div class={isMoreClass}>
+      <div class="demo-only" style="height: 4rem">
+        <div class="slds-notify_container slds-is-relative">
+          <div
+            class="slds-notify slds-notify_toast slds-theme_warning"
+            role="status"
+          >
+            <span class="slds-assistive-text">warning</span>
+            <span
+              class="
+                slds-icon_container
+                slds-icon-utility-warning
+                slds-m-right_small
+                slds-no-flex slds-align-top
+              "
+              title="Description of icon when needed"
+            >
+              <lightning-icon
+                icon-name="utility:warning"
+                alternative-text="warning"
+                title="warning"
+              ></lightning-icon>
+            </span>
+            <div class="slds-notify__content">
+              <h2 class="slds-text-heading_small">
+                More than 400 records returned. Please refine search
+              </h2>
+            </div>
+            <div class="slds-notify__close"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <span class={totalSizeClass}>Records found: &nbsp;{totalSize}</span>
+    <template if:true={accountsData}>
+      <lightning-datatable
+        key-field="Id"
+        data={recordsToDisplay}
+        columns={accountColumns}
+        hide-checkbox-column
+        show-row-number-column="true"
+        row-number-offset={rowNumberOffset}
+        default-sort-direction={defaultSortDirection}
+        sorted-direction={sortDirection}
+        sorted-by={sortedBy}
+        onsort={handleSort}
+      >
+      </lightning-datatable>
+      <div class="slds-var-m-around_large">
+        <c-smax-paginator
+          records={accountsData}
+          show-search-box={searchBox}
+          records-per-page={recordsPerPage}
+          onpaginatorchange={handlePaginatorChange}
+          pagination-on={paginationOn}
+        ></c-smax-paginator>
+      </div>
+    </template>
+  </div>
+</template>

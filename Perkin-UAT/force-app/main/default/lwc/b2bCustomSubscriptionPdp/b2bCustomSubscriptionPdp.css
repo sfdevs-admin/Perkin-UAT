@@ -1,0 +1,91 @@
+.custom-frequency-button {
+    width: 100% !important;
+    height: 2.75rem; /* slightly smaller */
+    padding: 0.25rem 0.5rem; /* tight vertical and horizontal */
+    white-space: normal;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    margin: 0 !important; /* remove unexpected spacing */
+}
+
+.custom-frequency-button lightning-button {
+    line-height: 1.2; /* avoid spacing issues with 2-line text */
+}
+.container {
+    display: flex;
+}
+
+/* Default (desktop): flatten the wrapper */
+.mobile-button-row {
+    display: contents; /* acts as if the div doesn’t exist */
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.display-saved-amount {
+    /* display: flex; */
+    align-items: center;
+    gap: 10px;
+    /* padding: 5px; */
+}
+.unit-price-style {
+    padding-right: 5px;
+}
+.product-saved {
+    /* background: #d9dfe7;
+    color: #292927; */
+    /* background: rgb(68, 166, 78); */
+    background: #58A618;
+    color: #ffffff;
+    padding: 4px 6px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 4px;
+    font-size: 12px;
+}
+.promo-price {
+    padding-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.strike-prices {
+    display: flex;
+    gap: 5px;
+}
+
+/* Mobile only: activate row layout */
+@media (max-width: 768px) {
+    .mobile-button-row {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .div3, .div2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div1 {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+}
+.custom-frequency-button.slds-button {
+    width: 140px!important; /* Adjust as needed */
+    text-align: center;
+}
+
+.cart-button button {
+    width: 250px;
+    letter-spacing: 0.3px;
+    border-radius: 0px !important;
+}

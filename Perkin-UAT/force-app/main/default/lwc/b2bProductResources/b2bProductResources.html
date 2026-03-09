@@ -1,0 +1,65 @@
+<!--
+  @description       : 
+  @author            : S.T
+  @group             : 
+  @last modified on  : 03-05-2026
+  @last modified by  : Swati Chilap
+-->
+<template lwc:render-mode="light">
+  <template lwc:if={productResourceExist}>
+    <div class="container slds-grid">
+      <div
+        class="filters slds-col slds-size_1-of-4 slds-p-around_medium slds-box slds-theme_default"
+      >
+        <lightning-input
+          type="checkbox"
+          label={labels.FILTER_ALL}
+          checked={allSelected}
+          onchange={handleAllCheckboxChange}
+          class="slds-m-bottom_small styled-checkbox"
+        >
+        </lightning-input>
+        <div class="slds-border_bottom slds-m-bottom_small"></div>
+        <lightning-checkbox-group
+          options={resourceTypes}
+          value={selectedTypes}
+          onchange={handleCheckboxChange}
+          class="slds-m-bottom_small styled-checkbox"
+        ></lightning-checkbox-group>
+      </div>
+
+      <div class="content slds-col slds-size_3-of-4 slds-p-around_medium">
+        <template if:true={groupedResources.length}>
+          <template for:each={groupedResources} for:item="group">
+            <div key={group.type} class="slds-m-bottom_medium">
+              <h2 class="slds-text-heading_medium slds-m-bottom_small">
+                {group.type}
+              </h2>
+              <div class="resource-container">
+                <template for:each={group.records} for:item="resource">
+                  <div key={resource.Id} class="resource-card">
+                    <!-- <a
+                      href={resource.URL__c}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="resource-title"
+                    >
+                      {resource.Title__c}
+                    </a> -->
+                    <a href={resource.URL__c} target="_blank" rel="noopener noreferrer" class="resource-title">
+                      <lightning-formatted-rich-text value={resource.Title__c}></lightning-formatted-rich-text>
+                    </a>
+                    <lightning-formatted-rich-text
+                      value={resource.Summary__c}
+                      class="resource-summary"
+                    ></lightning-formatted-rich-text>
+                  </div>
+                </template>
+              </div>
+            </div>
+          </template>
+        </template>
+      </div>
+    </div>
+  </template>
+</template>

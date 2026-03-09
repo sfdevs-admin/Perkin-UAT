@@ -1,0 +1,29 @@
+<template>
+    <!-- <c-b2b-file-upload-improved 
+        record-id={recordIdVal}
+        accept-extensions={acceptedFormats}
+        label={labelVal}
+        file-name-override={fileNameOverrideVal}
+        is-required={isRequiredVal}
+        file-size-limit={fileSizeLimitVal}
+        help-text={helpTextVal}
+        is-upload-disabled={isUploadDisabledVal}
+    ></c-b2b-file-upload-improved> -->
+
+    <c-b2b-enhanced-file-uploader
+        required={isRequiredVal}
+        required-message={requiredMessageVal}
+        cb_allow-multiple={allowMultiple}
+        label={labelVal}
+        record-id={recordIdVal}
+        accepted-formats={acceptedFormats}
+        help-text={helpTextVal}
+        icon="standard:file"
+        uploadedlabel="Uploaded Files"
+        render-files-below="false"
+        visible-to-all-users="false"
+        disable-delete="true"
+        current-cart-id={currentCartId}
+        cb_render-existing-files={renderExistingFilesVal}
+    ></c-b2b-enhanced-file-uploader>
+</template>

@@ -1,0 +1,41 @@
+<template>
+    <lightning-card>
+        <div class="slds-grid_vertical slds-m-horizontal_medium slds-text-body_regular">
+            <p class="slds-text-heading_medium slds-text-align_center slds-m-bottom_small">
+                <strong>SAP Pricing calculation status</strong>
+            </p>
+            <template lwc:if={hasStalePrices}>
+                <template lwc:if={statusRequested}>
+                    <div class="slds-m-bottom_small">
+                        The request to recalculate Quote prices was sent to SAP. It may take a while before you get a response.
+                    </div>
+                </template>
+                <template lwc:else>
+                    <template lwc:if={quoteDraft}>
+                        <div class="slds-m-bottom_small" style="color: rgb(231, 15, 15);">
+                            <p><strong>Please use the 'Get SAP Prices' button.</strong></p>
+                            <p><strong>At least 1 Quote Line does not have prices aligned with SAP or tax amounts need to be updated based on discounts added.</strong></p>
+                            <p><strong>Quote cannot be Submitted for Approval if the prices & taxes are not up to date.</strong></p>
+                        </div>
+                    </template>
+                    <template lwc:else>
+                        <div class="slds-m-bottom_small">
+                            There are Quote Lines with prices, promotions and taxes not aligned with SAP.
+                        </div>
+                    </template>
+                    <template lwc:if={statusFailed}>
+                        <div class="slds-m-bottom_small">
+                            <p>The last 'Get SAP Prices' action failed. Contact your Salesforce Administrator for details.</p>
+                        </div>
+                        <template lwc:if={quotePriceResponseError}>
+                            <div class="slds-m-bottom_small">
+                                <p class="slds-text-body_small">Error message:</p>
+                                <p>{quotePriceResponseError}</p>
+                            </div>
+                        </template>
+                    </template>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,125 @@
+<template>
+    <!-- Spinner -->
+    <div if:true={showSpinner}>
+        <div class="spinner">
+        <lightning-spinner
+            variant="brand"
+            title="Loading"
+            size="medium">
+        </lightning-spinner>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </div>
+    <div class="details-page">
+
+        <!-- Header with Name & Description -->
+        <div class="header">
+            <div class="list-info">
+                <div class="list-name-edit-cta">
+                    <h2>{selectedListName}</h2>
+                    <template if:false={isPublicListPage}>
+                        <div class="edit-button">
+                            <a onclick={openEditModal}>{labels.edit}</a>
+                        </div>
+                    </template>
+                </div>
+                <h3 class="list-info-description">
+                    <lightning-formatted-rich-text value={selectedListDescription}></lightning-formatted-rich-text>
+                </h3>
+            </div>
+            
+        </div>
+
+        <!-- Search + Actions on Same Row -->
+        <div class="toolbar">
+            <lightning-input
+                class="search-bar"
+                type="search"
+                placeholder={labels.searchBarPlaceholder}
+                value={searchKey}
+                onchange={handleSearchChange}
+                disabled={isListActionDisabled}>
+            </lightning-input>
+
+            <div class="actions">
+                <lightning-button
+                    label={addToCartButtonLabel}
+                    variant="brand"
+                    onclick={handleAddToCartClick}
+                    disabled={isListActionDisabled}>
+                </lightning-button>
+
+                <template if:true={isPublicListPage}>
+                    <lightning-button
+                        label={labels.cloneList}
+                        variant="neutral"
+                        onclick={handleCloneList}>
+                    </lightning-button>
+                </template>
+
+                <template if:false={isPublicListPage}>
+                    <lightning-button
+                        label={labels.deleteList}
+                        variant="destructive"
+                        onclick={handleDeleteList}>
+                    </lightning-button>
+                </template>  
+            </div>
+        </div>
+        <div class="item-count">
+                {itemCountInfo}
+        </div>
+
+        <!-- List Items with Checkboxes -->
+        <div class="items-container">
+            <!-- <template for:each={filteredListItems} for:item="item"> -->
+            <template for:each={visibleItems} for:item="item">
+                <div key={item.id} class="item-card">
+                    <div class="checkbox">
+                        <lightning-input 
+                            type="checkbox"
+                            checked={item.isSelected}
+                            disabled={item.isPricingFailed}
+                            data-itemid={item.id}
+                            onchange={handleCheckboxChange}>
+                        </lightning-input>
+                        <!-- disabled={item.isPricingFailed} -->
+                    </div>
+
+                    <c-b2b-shopping-list-items
+                        item={item}
+                        disabled={addToCartButtonDisabled}
+                        disabled-delete={deleteListButtonDisabled}
+                        onaddtocart={handleAddToCart}
+                        onvaluechanged={handleProductQuantity}
+                        ondeleteitemfromlist={handleDeleteItemFromList}
+                        is-public-list-page={isPublicListPage}
+                        has-deals-applied={hasDealsApplied}
+                        onpricingstatus={handlePricingStatus}>
+                    </c-b2b-shopping-list-items>
+                </div>
+            </template>
+            <template if:true={isShowMoreVisible}>
+                <div class="show-more-container">
+                    <a onclick={handleToggleShowMore}>{showMoreLabel}
+                    </a>
+                </div>
+            </template>
+        </div>
+
+        <!-- No Items  -->
+        <template if:true={isListEmpty}>
+            <div class="empty-message">
+                <h2>{labels.emptyListItemHeading}</h2>
+                <p>{labels.emptyListItemSubHeading}</p>
+            </div>
+        </template>
+        <!-- search result empty -->
+        <template if:true={isSearchListEmpty}>
+            <div class="empty-message">
+                <h2>{labels.noSearchResult} </h2>
+                <p>{labels.noSearchResultSubheading}</p>
+            </div>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,88 @@
+<template>
+    <div class={mainListContainer}>
+        <!-- Empty State UI -->
+        <div if:false={isLoading}>
+            <template if:false={hasShoppingLists}>
+                <div class="empty-state">
+                    <img src={emptyWishlistImage} alt="No Shopping Lists" />
+                    <p class="empty-message">{labels.emptyListHeading}</p>
+                    <p class="empty-subtext">{labels.emptyListSubHeading}</p>
+                </div>
+            </template>
+        </div>
+
+        <!-- Render Shopping List Cards -->
+        <template if:false={isMyListDetailPage}>
+            <div class={containerClass}>
+                <template if:true={hasShoppingLists}>
+                    <template if:true={shoppingLists}>
+                        <template for:each={shoppingLists} for:item="list">
+                            <div key={list.Id} class="summary-card">
+                                <div class="card-header">
+                                    <h2>{list.B2B_Name__c}
+                                        <template if:true={list.B2B_Default__c}>
+                                            <span class="default-label">{labels.defaultLabel}</span>
+                                        </template>
+                                    </h2>
+                                    <!-- <lightning-button
+                                        label={labels.viewDetails}
+                                        variant="brand"
+                                        onclick={handleViewDetails}
+                                        data-id={list.Id}>
+                                    </lightning-button> -->
+                                    <a  onclick={handleViewDetails} data-id={list.Id}>{labels.viewDetails}</a>
+                                </div>
+                                <div class="card-body">
+                                    <lightning-formatted-rich-text 
+                                        value={list.B2B_Description__c}>
+                                    </lightning-formatted-rich-text>
+                                </div>
+                            </div>
+                        </template>
+                    </template>
+                </template>
+            </div>
+        </template>
+
+        <!-- Template for My List Details Page -->
+        <template if:true={isMyListDetailPage}>
+            <div class={containerClass}>
+                <template if:true={shoppingLists}>
+                    <template for:each={shoppingLists} for:item="list">
+                        <div 
+                            key={list.Id} 
+                            class={list.cardClass} 
+                            onclick={handleCardClick} 
+                            data-id={list.Id}>
+
+                            <div class="card-header">
+                                <h2>
+                                    {list.B2B_Name__c}
+                                    <template if:true={list.B2B_Default__c}>
+                                        <span class="default-label">{labels.defaultLabel}</span>
+                                    </template>
+                                </h2>
+                            </div>
+
+                        </div>
+                    </template>
+                </template>
+            </div>
+        </template>
+
+
+        <div if:true={isLoading}>
+            <div class="summary-card">
+                <c-stencil height="20" width="100%"></c-stencil>
+            </div>
+            <div class="summary-card">
+                <c-stencil height="20" width="100%"></c-stencil>
+            </div>
+            <div class="summary-card">
+                <c-stencil height="20" width="100%"></c-stencil>
+            </div>
+        </div>
+
+       
+    </div>
+</template>

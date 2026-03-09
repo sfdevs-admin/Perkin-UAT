@@ -1,0 +1,31 @@
+.separator {
+    margin: 0;
+    /* top: -15px;
+    position: relative; */
+}
+
+.header-section {
+    display: flex;
+    align-items: baseline;
+}
+
+.float-right {
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.custom-select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.clear-cart {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.subscription-msg {
+    background: #efeeee;
+    border-radius: 10px;
+    padding-left: 14px;
+}

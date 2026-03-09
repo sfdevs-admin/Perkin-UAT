@@ -1,0 +1,57 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 03-04-2026
+  @last modified by  : Swati Chilap
+-->
+<template>
+    <div if:true={showSpinner}>
+        <div class="spinner">
+            <lightning-spinner variant="brand" title="Loading" size="large"></lightning-spinner>
+            <p class="loadingText">{loadingMessage}</p>
+        </div>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </div>
+    <div if:true={showReqError} class="slds-text-color_error">{reqErrorMessage}</div>
+    <div class="slds-is-relative">
+        <lightning-radio-group name="radioGroup"
+            label=""
+            variant="label-hidden"
+            options={options}
+            value={paymentOption}
+            onchange={selectPaymentOption}
+            type="radio">
+        </lightning-radio-group>
+    </div>
+    <div if:true={showFileUpload}>
+        <lightning-input
+            lwc:ref="poInput"
+            data-purchase-order-input
+            name="po-number"
+            label={inputLabel}
+            placeholder={placeholderLabel}
+            required
+        ></lightning-input>
+        <c-b2b-checkout-file-upload checkout-details={checkoutDetails} onfileupload={handleUpload}></c-b2b-checkout-file-upload>
+    </div>
+    <div>
+        <h2 class="dxp-text-heading-medium slds-p-vertical_medium slds-p-horizontal_none"><strong>{labels.BILLING_ADDRESS}</strong></h2>
+        <template if:false={hideSameAsShipping}>
+            <lightning-input
+                type="checkbox"
+                label={labels.SAME_AS_SHIPPING_ADDRESS}
+                onchange={handleCheckboxChange}
+                checked={sameAsShipping}
+            ></lightning-input>
+        </template>
+
+        <template if:true={showAddressForm}>
+            <c-b2b-checkout-billing-address
+            accountid={effectiveAccountId}
+                existing-billing-address={existingBillingAddress}
+                onsubmitaddress={handleAddressChange}
+            ></c-b2b-checkout-billing-address>
+        </template>
+    </div>
+</template>

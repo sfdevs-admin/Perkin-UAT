@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    align-items: stretch; /* Ensures both columns stretch */
+    font-family: Arial, sans-serif;
+}
+
+.green-line {
+    width: 4px; /* Thickness of the green line */
+    background-color: #4CAF50; /* Green color */
+    min-height: 100%; /* Ensures it extends fully */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px; /* Space between line and content */
+}
+
+.logo {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    margin-left: auto;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.details a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.details a:hover {
+    text-decoration: underline;
+}
+
+/* Tablet view: smaller logo */
+@media ((min-width: 769px) and (max-width: 1024px)) {
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+        width: 100%;
+    }
+    .green-line {
+        width: 4px; 
+        background-color: #4CAF50; 
+        max-height: 3rem; 
+    }
+
+    slot[name="logo"]{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 10rem;
+    }
+}
+
+/* Mobile view: smaller logo + center everything */
+@media (max-width: 768px) {
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.5rem;
+        width: 100%;
+    }
+    .green-line {
+        width: 4px; 
+        background-color: #4CAF50; 
+        max-height: 3rem; 
+    }
+
+    slot[name="logo"]{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 4rem;
+    }
+}

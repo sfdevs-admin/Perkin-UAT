@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="quoteLineId" type="String" label="Quote Line Id" description="The ID of the Quote Line to load pre-selected conditions from"/>
+            <property name="productName" type="String" label="Product Name" description="The name of the product to display"/>
+            <property name="preSelectedCodes" type="String" label="Pre-Selected Codes" description="Comma-separated list of codes to pre-select (alternative to Quote Line Id)"/>
+            <property name="selectedCodes" type="String" role="outputOnly" label="Selected Codes" description="Comma-separated list of selected pricing condition codes"/>
+            <property name="selectedCodesList" type="String[]" role="outputOnly" label="Selected Codes List" description="Array of selected pricing condition codes"/>
+            <property name="numberOfRowsPerColumn" type="Integer" default="5" label="Rows Per Column" description="Number of checkboxes to display per column"/>
+            <property name="descriptionMaxLength" type="Integer" default="40" label="Description Max Length" description="Maximum length for descriptions before truncation"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

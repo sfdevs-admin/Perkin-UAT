@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B Footer Info</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="externalUrl" type="String" label="Url for Logo Redirection" default="https://perkinelmer.com/"/>
+            <property name="urlTarget" type="String" label="Target Value to Open the Url" default="_blank"/>
+            <property name="addressLine1" type="String" label="Address Line 1" />
+            <property name="addressLine2" type="String" label="Address Line 2" />
+            <property name="otherSitesLink" type="String" label="Other sites link" />
+            <property name="supportLink" type="String" label="Support Link" />
+            <property name="globalLocationsLink" type="String" label="Global Locations Link" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

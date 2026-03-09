@@ -1,0 +1,39 @@
+<template>
+    <template if:false={showStencil}>
+        <template if:true={billingDetails}>
+            <div>
+                <h1 class="slds-page-header__title">{labels.billingInfo}</h1>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                    <div class="slds-var-p-top_x-small">{labels.billingAddress}</div>
+                    <div class="font-weight-300">{billingDetails.BillingStreet}</div>
+                    <div class="font-weight-300">{billingDetails.BillingCity}, {billingDetails.BillingState} {billingDetails.BillingPostalCode}</div>
+                    <div class="font-weight-300">{billingDetails.BillingCountry} </div>
+                </div>
+
+                <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                    <div class="slds-var-p-top_x-small">{labels.emailId}</div>
+                    <div class="font-weight-300">{billingDetails.BillingEmailAddress}</div>
+                </div>
+            </div>
+        </template>
+    </template>
+
+
+    <template if:true={showStencil}>
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                <c-stencil height="25" width="70%" border-radius="5px"></c-stencil>
+                <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+                <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+                <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+            </div>
+            <div class="slds-col slds-large-size_1-of-3 slds-medium-size_1-of-3 slds-small-size_1-of-1">
+                <c-stencil height="25" width="70%" border-radius="5px"></c-stencil>
+                <c-stencil height="20" width="60%" border-radius="5px"></c-stencil>
+            </div>
+        </div>
+    </template>
+    
+</template>

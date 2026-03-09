@@ -1,0 +1,45 @@
+.stencil-card {
+    min-width: 11.25rem;
+    border-color: transparent;
+    border-color: var(--ref-c-search-product-grid-list-color-border, transparent);
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.stencil-image {
+    width: 80px;
+    height: 80px;
+}
+
+.stencil-card {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.stencil-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.stencil-line {
+    height: 16px;
+}
+
+.stencil-line.short {
+    width: 70%;
+}
+
+.stencil-line.shorter {
+    width: 50%;
+}
+.stencil-button {
+    width: 80px;
+    height: 30px;
+} 
+.stencil-actions {
+    display: flex;
+    flex-direction: column;
+}

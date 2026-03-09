@@ -1,0 +1,115 @@
+<template>
+  <template if:true={showDetails}>
+    <lightning-card class="slds-var-p-around_small">
+      <!-- <div> -->
+        <div class="slds-theme_default slds-scrollable_x">
+            <table class="slds-table custom-table">
+                <tbody>
+                    <tr class="slds-hint-parent-header">
+                        <td class="slds-text-align_right" role="gridcell" style="width:3.25rem">
+                          <span class="slds-radio"></span>
+                        </td>
+                        <td role="gridcell" style="width:200px">
+                          <div class="slds-truncate">Part Number</div>
+                        </td>
+                        <td role="gridcell" style="width:200px">
+                          <div class="slds-truncate">Description</div>
+                        </td>
+                        <td role="gridcell" style="width:200px">
+                            <div class="slds-truncate">Unit Price</div>
+                        </td>
+                        <td role="gridcell" style="width:200px">
+                          <div class="slds-truncate">Quantity</div>
+                        </td>
+                    </tr>
+                    <tr class="slds-hint-parent-row">
+                      <td class="slds-text-align_right" role="gridcell" style="width:3.25rem">
+                        <span class="slds-radio">
+                          <input type="radio" id="radio-01" value="radio-01" name="options" tabindex="-1" aria-labelledby="radio-button-label-01 column-group-header" checked="" />
+                          <label class="slds-radio__label" for="radio-01" id="radio-button-label-01">
+                            <span class="slds-radio_faux"></span>
+                            <span class="slds-form-element__label slds-assistive-text">Select item 1</span>
+                          </label>
+                        </span>
+                      </td>
+                      <td role="gridcell" style="width:200px">
+                        <div class="slds-truncate">{productData.fields.B2B_Part_Number__c}</div>
+                      </td>
+                      <td role="gridcell" style="width:200px">
+                        <div class="slds-truncate">{productData.fields.B2B_Product_Line_Description__c}</div>
+                      </td>
+                      <td role="gridcell" style="width:200px">
+                        <template if:false={isPromotionLoaded}>
+                          <div class="slds-truncate strike-prices">
+                            <s>
+                              <lightning-formatted-number value={productPricing.listPrice} currency-code={pricingCurrencyIsoCode} format-style="currency"></lightning-formatted-number>
+                            </s>
+                            <lightning-formatted-number class="unit-price" value={productPricing.unitPrice} format-style="currency" currency-code={pricingCurrencyIsoCode}></lightning-formatted-number>
+                          </div>
+                        </template>
+                            
+
+                        <template if:true={isPromotionLoaded}>
+                          <div class="slds-truncate display-saved-amount">
+                            <s>
+                              <lightning-formatted-number
+                                  value={productPricing.unitPrice}
+                                  currency-code={pricingCurrencyIsoCode}
+                                  format-style="currency">
+                              </lightning-formatted-number>
+                            </s>
+                            <lightning-formatted-number 
+                                class="promo-price"
+                                value={displayPrice} 
+                                format-style="currency" 
+                                currency-code={pricingCurrencyIsoCode}>
+                            </lightning-formatted-number>
+                          </div>
+                            <!-- display promotions saved amount  -->
+                            <template if:true={displaySavedAmount}>
+                              <div class="product-saved">
+                                  {labels.saved}:
+                                  <lightning-formatted-number 
+                                      value={displaySavedAmount} 
+                                      format-style="currency" 
+                                      currency-code={pricingCurrencyIsoCode}>
+                                  </lightning-formatted-number>
+                              </div>
+                            </template>
+                        </template>
+                      </td>
+                      <td role="gridcell" style="width:200px">
+                        <div class="slds-truncate">
+                            <c-b2b-quantity-selector onproductquantity={handleProductQuantity}></c-b2b-quantity-selector>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+        <div class="container">
+          <div class="mobile-button-row">
+              <div class="div3">
+                  <c-b2b-add-to-list product-id={productData.id} quantity={quantity}></c-b2b-add-to-list>
+              </div>
+              <div class="div2">
+                  <c-b2b-add-to-cart product-data={productData} product-id={productData.id} quantity={quantity}></c-b2b-add-to-cart>
+              </div>
+          </div>
+          <div class="div1">
+              <c-b2b-request-more-information 
+                  product-details={productData} 
+                  show-button-when-called-from-parent=true>
+              </c-b2b-request-more-information>
+          </div>
+      </div>
+      
+      
+      
+      <!-- </div> -->
+    </lightning-card>
+  </template>
+  <template if:false={showDetails}>
+
+  </template>
+</template>

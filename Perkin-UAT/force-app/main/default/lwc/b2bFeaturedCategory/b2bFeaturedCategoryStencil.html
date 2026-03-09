@@ -1,0 +1,28 @@
+<template>
+    <div class="slds-p-bottom_large featuredProductheadingContainer">
+        <span> {headingLabel} </span>
+    </div>
+    <div class="slds-grid slds-gutters">
+        <template for:each={categories} for:item="category">
+            <div key={category.id} class="slds-col slds-p-around_x-small">
+
+                <div class="slds-align_absolute-center">
+                    <c-stencil
+                        height="150"
+                        width="150px"
+                        circle=true
+                        count="1"
+                        weight-variant="medium"
+                    ></c-stencil>
+                </div>
+                
+                <div class="slds-align_absolute-center">
+                    <c-stencil
+                        height="25"
+                        width="120px"
+                    ></c-stencil>
+                </div>
+            </div>
+        </template>
+    </div>
+</template>

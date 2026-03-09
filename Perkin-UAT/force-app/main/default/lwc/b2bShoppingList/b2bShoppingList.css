@@ -1,0 +1,88 @@
+.my-list-page {
+    padding: 1rem;
+}
+.my-list-page-details {
+    padding-top: 1rem;
+}
+
+.summary-card {
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    min-height: 9vh;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.card-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0054A6;
+    margin: 0;
+}
+
+.card-body {
+    color: #444;
+    font-size: 0.95rem;
+}
+.default-label {
+    color: black;
+    font-weight: bold;
+    margin-left: 6px;
+}
+.selected-card {
+    background-color: #d8ebf9;
+}
+
+
+
+.card-container {
+    max-height: 600px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.card-container::-webkit-scrollbar {
+    width: 6px;
+}
+.card-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.card-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+}
+.summary-card-hover {
+    cursor: pointer !important;
+}
+
+
+
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #e1e1e1;
+    background-color: #f9f9f9;
+}
+
+.empty-state img {
+    width: 150px;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+
+.empty-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.empty-subtext {
+    font-size: 0.95rem;
+    color: #666;
+}

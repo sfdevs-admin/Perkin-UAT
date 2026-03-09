@@ -1,0 +1,207 @@
+<template>
+    <template if:false={localeSelected}>
+        <template if:false={countrySelected}>
+            <lightning-modal-header>
+                <lightning-formatted-text value={customLabels.B2B_Modal_First_Header} style="font-size: xx-large;"></lightning-formatted-text>
+            </lightning-modal-header>
+        </template>
+        <template if:true={countrySelected}>
+            <lightning-modal-header>
+                <lightning-formatted-text value={customLabels.B2B_Modal_Second_Header} style="font-size: xx-large;"></lightning-formatted-text>
+            </lightning-modal-header>
+        </template>
+    </template>
+    <template if:true={localeSelected}>
+        <lightning-modal-header>
+            <lightning-formatted-text value={customLabels.B2B_Modal_Third_Header} style="font-size: xx-large;"></lightning-formatted-text>
+        </lightning-modal-header>
+    </template>
+    <lightning-modal-body class="slds-text-align_center">
+        <template if:true={isLoading}>
+            <template for:each={regions} for:item="region">
+                <div key={region.id} class="slds-p-around_medium">
+                    <!-- Title Placeholder (Stencil) -->
+                    <div class="slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-4 slds-p-bottom_medium">
+                        <c-stencil height="50" width="50%"></c-stencil>
+                    </div>
+            
+                    <!-- Grid Layout -->
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        <template for:each={region.countries} for:item="item">
+                            <div key={item.id} class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-4 slds-p-around_x-small">
+                                <c-stencil height="50" width="100%"></c-stencil>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </template>            
+        </template>
+        <template if:false={isLoading}>
+            <template if:false={localeSelected}>
+                <template if:false={countrySelected}>
+                    <!-- <lightning-accordion allow-multiple-sections-open active-section-name={activeSections}>
+                        <template for:each={regionToCountries} for:item="region">
+                            <lightning-accordion-section key={region.key} name={region.key} label={region.key} class="custom-accordion">
+                                <div class="slds-grid slds-wrap slds-gutters">
+                                    <template for:each={region.value} for:item="country">
+                                        <div key={country} class="slds-p-bottom_x-large slds-size_1-of-1 slds-medium-size_1-of-2">
+                                            <button class="slds-button slds-button_base" onclick={handleCountry} style="font-size: x-large;">
+                                                {country}
+                                            </button>
+                                        </div>
+                                    </template>
+                                </div>
+                            </lightning-accordion-section>
+                        </template>
+                    </lightning-accordion> -->
+
+                    <!-- <div class="slds-grid slds-wrap slds-gutters">
+                        <template for:each={regionToCountries} for:item="region">
+                            <div key={region.key} class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-2">
+                                <div class="slds-p-around_medium">
+                                    <lightning-formatted-text value={region.key} style="font-size: x-large;"></lightning-formatted-text>
+                                    <div class="slds-grid slds-wrap slds-m-top_medium">
+                                        <template for:each={region.value} for:item="country">
+                                            <div key={country} class="slds-col slds-size_1-of-1 slds-p-around_x-small">
+                                                <button class="slds-button slds-button_base slds-button_stretch" onclick={handleCountry} style="font-size: x-large;">
+                                                    {country}
+                                                </button>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+                    </div> -->
+
+                    <div>
+                        <template for:each={regionToCountries} for:item="region">
+                            <div key={region.key} class="slds-p-around_medium">
+                                <lightning-formatted-text 
+                                    value={region.key} 
+                                    class="slds-text-title_bold"
+                                    style="font-size: x-large; text-align: left; display: block;">
+                                </lightning-formatted-text>
+                                <div class="slds-grid slds-wrap slds-gutters">
+                                    <template for:each={region.value} for:item="country">
+                                        <div key={country} class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-4 slds-p-around_x-small">
+                                            <button 
+                                                class="slds-button slds-button_outline-brand slds-button_stretch slds-p-around_small custom-black-button"
+                                                onclick={handleCountry}
+                                                style="font-size: large;">
+                                                {country}
+                                            </button>
+                                            <!-- <lightning-button class="slds-button_stretch slds-p-around_small custom-blurred-button" label={country} onclick={handleCountry} variant="neutral"></lightning-button> -->
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+                <template if:true={countrySelected}>
+                    <div class={gridClass}>
+                        <template for:each={processedLocaleList} for:item="item">
+                            <div key={item.country} class="slds-p-bottom_x-large slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-3 slds-p-around_medium">
+                                <button class="slds-button slds-button_outline-brand slds-button_stretch slds-p-around_small custom-black-button" onclick={handleClick} style="font-size: large;">
+                                    <span>{item.mainText}</span>
+                                    <span style="color: #76716b;">&nbsp;- {item.currencyText}</span>
+                                    <!-- {country} -->
+                                </button>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+
+                <!-- <div class="slds-grid slds-gutters slds-wrap">
+                    <template for:each={contentArray} for:item="single">
+                        <div key={single.Id} class="slds-p-bottom_x-large slds-size_1-of-1 slds-medium-size_1-of-2">
+                            <button class="slds-button slds-button_base" onclick={handleClick} style="font-size: 20px;" data-id={single.Id}>
+                                <span>{single.MasterLabel} </span>
+                                <span style="color: #76716b;">&nbsp;- {single.Currency_Code__c}</span>
+                            </button>
+                        </div>
+                    </template>
+                </div> -->
+            </template>
+            <template if:true={localeSelected}>
+                <template if:true={isFinalScreenLoading}>
+                    <!-- <div class="slds-grid slds-grid_vertical slds-align_absolute-center slds-p-around_medium" style="min-height: 150px;"> -->
+                        <!-- Text Placeholders -->
+                        <!-- <div class="slds-m-bottom_medium">
+                            <c-stencil height="15" width="80%"></c-stencil>
+                        </div>
+                        <div class="slds-m-bottom_x-large">
+                            <c-stencil height="15" width="60%"></c-stencil>
+                        </div> -->
+                        <div class="slds-grid slds-grid_align-center slds-m-top_small">
+                            <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_6-of-12">
+                                <c-stencil height="25" width="100%"></c-stencil>
+                            </div>
+                        </div>
+
+                        <div class="slds-grid slds-grid_align-center slds-m-top_small">
+                            <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_6-of-12">
+                                <c-stencil height="25" width="100%"></c-stencil>
+                            </div>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="slds-grid slds-grid_align-center slds-m-top_large">
+                            <div class="slds-p-horizontal_small">
+                                <c-stencil height="40" width="90px" border-radius="10px"></c-stencil>
+                            </div>
+                            <div class="slds-p-horizontal_small">
+                                <c-stencil height="40" width="90px" border-radius="10px"></c-stencil>
+                            </div>
+                        </div>
+
+                    <!-- </div>                                                                                    -->
+                </template>
+                <template if:false={isFinalScreenLoading}>
+                    <div style="text-align: center; margin-bottom:5px">
+                        <lightning-formatted-text style="font-size: 20px;" value={customLabels.B2B_Modal_Body_Text_One}></lightning-formatted-text>
+                        <!-- <lightning-button variant="base" label={single.MasterLabel} onclick={handleClick} style="font-size: 18px;"></lightning-button> -->
+                    </div>
+        
+                    <div style="text-align: center; margin-bottom:10px">
+                        <lightning-formatted-text style="font-size: 20px;" value={customLabels.B2B_Modal_Body_Text_Two}></lightning-formatted-text>
+                    </div>
+        
+                    <div class="slds-grid slds-grid_align-center slds-nowrap slds-p-around_medium">
+                        <div class="slds-p-right_xx-small">
+                            <button
+                                class="slds-button slds-button_outline-brand custom-black-button"
+                                onclick={handleContinue}
+                                style="width: 100%;"
+                            >
+                                {customLabels.B2B_Modal_Continue_Button}
+                            </button>
+                        </div>                    
+                        <div>
+                            <button
+                                class="slds-button slds-button_outline-brand custom-black-button"
+                                onclick={handleCancel}
+                                style="width: 100%;"
+                            >
+                                {customLabels.B2B_Modal_Cancel_Button}
+                            </button>
+                        </div>
+                    </div>    
+                </template>
+            </template>
+        </template>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <!-- <lightning-button label="OK" onclick={handleOkay}></lightning-button> -->
+        <template if:true={countrySelected}>
+            <div class="slds-text-align_left slds-p-around_x-small">
+                <button class="slds-button slds-button_outline-brand back-button"
+                onclick={handleBack}
+                style="width: 10%;">
+                {customLabels.B2B_Modal_Back_Button}
+                </button>
+            </div>
+        </template>
+    </lightning-modal-footer>
+</template>

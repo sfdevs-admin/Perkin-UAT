@@ -1,0 +1,31 @@
+<template>
+    <div class="slds-p-around_medium">
+        <template if:true={showTable}>
+            <template if:false={showSpinner}>
+                <div class="slds-p-around_medium">
+                    <lightning-formatted-text class="specs-header" value={label.B2B_Product_Specifications}></lightning-formatted-text>
+                </div>
+                <div class="slds-theme_default" style="max-width: 100%;overflow: auto;">
+                    <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                        <tbody>
+                            <template for:each={listOfFields} for:item="field">
+                                <tr class="slds-hint-parent" key={field.fieldName}>
+                                    <td><div class="slds-truncate slds-wrap">{field.fieldName}</div></td>
+                                    <td><div class="slds-truncate slds-wrap" style="overflow-wrap: break-word;">{field.fieldValue}</div></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </template>
+            <template if:true={showSpinner}>
+                <lightning-card class="slds-var-p-around_small">
+                    <lightning-spinner alternative-text="Loading"></lightning-spinner>
+                </lightning-card>
+            </template>
+        </template>
+        <template if:false={showTable}>
+            <!-- <lightning-formatted-text value={longDescription}></lightning-formatted-text> -->
+        </template>
+    </div>
+</template>

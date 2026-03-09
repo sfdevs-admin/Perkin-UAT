@@ -1,0 +1,24 @@
+<template>
+    <!-- Only to Spinner for the Modal -->
+    <template if:true={showSpinner}>
+        <!-- <lightning-spinner variant="brand" title="Loading" size="medium"></lightning-spinner> -->
+
+        <section role="dialog" tabindex="-1" aria-modal="true" aria-labelledby="modal-heading-01"
+            class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+
+                <div class="slds-modal__header">
+                    <c-stencil height="30" width=100% square=true></c-stencil>
+
+                </div>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <c-stencil height="100" width=100% square=true></c-stencil>
+                </div>
+                <div class="slds-modal__footer">
+                    <c-stencil height="30" width=100% square=true></c-stencil>
+                </div>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+    </template>
+</template>

@@ -1,0 +1,134 @@
+<!--
+  @description       : 
+  @author            : S.T
+  @group             : 
+  @last modified on  : 07-03-2025
+  @last modified by  : S.T
+-->
+<!-- <template lwc:render-mode="light"> -->
+<template>
+    <lightning-modal-header label={labels.B2B_CSVTOCART_HEADING}></lightning-modal-header>
+    <!-- Body start -->
+    <lightning-modal-body> 
+        <div if:true={isLoading} style="height: 15rem;max-width: 85%;">
+            <!-- <lightning-spinner variant="base" size="medium"></lightning-spinner> -->
+            <div class="slds-grid slds-grid_vertical">
+                <div class="slds-col">
+                    <c-stencil height="35" width="25%" border-radius="5px"></c-stencil>
+                </div>
+                <div class="slds-col">
+                    <c-stencil height="25" width="100%" border-radius="5px"></c-stencil>
+                </div>
+                <div class="slds-col">
+                    <c-stencil height="25" width="65%" border-radius="5px"></c-stencil>
+                </div>
+                <div class="slds-col">
+                    <c-stencil height="25" width="80%" border-radius="5px"></c-stencil>
+                </div>
+                <div class="slds-col">
+                    <c-stencil height="25" width="45%" border-radius="5px"></c-stencil>
+                </div>
+                <div class="slds-col">
+                    <c-stencil height="25" width="20%" border-radius="5px"></c-stencil>
+                </div>
+            </div>
+        </div>
+        <div if:false={isLoading} class="">
+            <div>
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-1">
+                        <div class="stepLabel slds-p-bottom_small">
+                            <p>
+                                {labels.B2B_CSVTOCART_STEP1}
+                            </p>
+                        </div>
+                        <div class="">
+                            <p>
+                                {labels.B2B_CSVTOCART_SUBHEADING}
+                            </p>
+                        </div>
+                        <div class="Helptext slds-p-top_small">
+                            <lightning-formatted-rich-text value={noteRichText} class=""></lightning-formatted-rich-text>
+                        </div>
+                        <div class="">
+                            <!-- <a onclick={downloadSampleCSV}>{labels.B2B_CSVTOCART_SAMPLELABEL}</a> -->
+                            <lightning-button label={labels.B2B_CSVTOCART_SAMPLELABEL} title={labels.B2B_CSVTOCART_SAMPLELABEL} icon-name="utility:download" onclick={downloadSampleCSV}></lightning-button>
+                        </div>
+                    </div>
+                    <div class=" slds-m-top_small slds-col slds-size_1-of-1 slds-large-size_1-of-1">
+                        <div class="stepLabel slds-p-bottom_small">
+                            <p>
+                                {labels.B2B_CSVTOCART_STEP2}
+                            </p>
+                        </div>
+                        <div class="Helptext">
+                            <lightning-formatted-rich-text value={step2Description} class=""></lightning-formatted-rich-text>
+                        </div>
+                        <div class="slds-p-top_xx-small">
+                            <lightning-input type="file" 
+                                accept=".csv"
+                                label={labels.B2B_CSVTOCART_UPLOADBTNLABEL} onchange={openfileUpload}>
+                            </lightning-input>
+                            <template if:true={fileData}>
+                                <span class="slds-p-around-x_small">
+                                    {fileData.filename}
+                                </span>
+                            </template>
+                            <template if:true={showLimitError}>
+                                <span class="slds-p-around-x_small slds-text-color_error">
+                                    {labels.B2B_CSVTOCART_LIMITERRORLABEL} {labels.B2B_CSVTOCART_LIMITERROR}
+                                </span>
+                            </template>
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-1">
+                        <!-- <div if:false={showResults} class="Helptext slds-p-top_small">
+                            <lightning-formatted-rich-text value={noteRichText} class=""></lightning-formatted-rich-text>
+                        </div> -->
+                        <div if:true={showResults}>
+                            <div class="slds-box slds-m-top_medium">
+                                <div>
+                                    {labels.B2B_CSVTOCART_TOTALCOUNT} {totalRecordCount}
+                                </div>
+                                <div>
+                                    {labels.B2B_CSVTOCART_SUCCESSCOUNT} {successRecordCount}
+                                </div>
+                                <div if:true={errorResultFound}>
+                                    <div>
+                                        {labels.B2B_CSVTOCART_ERRORCOUNT} {errorRecordCount}
+                                    </div>
+                                    <a onclick={downloadErrorCSV}>{labels.B2B_CSVTOCART_CLICKHERELABEL}</a> {labels.B2B_CSVTOCART_CLICKHEREMSG}
+                                    <div>
+                                        {errorMessage}
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </lightning-modal-body>
+    <!-- Body ends -->
+    <lightning-modal-footer>
+        <div if:true={isLoading} style="text-align: -webkit-right;">
+            <!-- <lightning-spinner variant="base" size="medium"></lightning-spinner> -->
+            <div class="slds-grid">
+                <div class="slds-col">
+                    <!-- <c-stencil height="25" width="25%" border-radius="5px"></c-stencil> -->
+                </div>
+                <div class="slds-col">
+                    <c-stencil height="25" width="50%" border-radius="5px"></c-stencil>
+                </div>
+            </div>
+        </div>
+        <div if:false={isLoading}>
+            <lightning-button class="slds-m-left_x-small slds-button" variant="neutral" label="Cancel" onclick={closeModal}></lightning-button>
+            <lightning-button if:false={showAddToCartButton} class="slds-m-left_x-small" variant="neutral" label={labels.B2B_CSVTOCART_RESETBTNLABEL} title={labels.B2B_CSVTOCART_RESETBTNLABEL} onclick={handleResetClick}></lightning-button>
+            <lightning-button if:false={showAddToCartButton} class="slds-m-left_x-small slds-button" disabled={isUploadDisable} variant="brand" label={labels.B2B_CSVTOCART_PROCESSBTNLABEL} title={labels.B2B_CSVTOCART_PROCESSBTNLABEL} onclick={handleUploadClick}></lightning-button>
+            <lightning-button if:true={showAddToCartButton} variant="brand" label={labels.B2B_CSVTOCART_GOTOCARTBTNLABEL} title={labels.B2B_CSVTOCART_GOTOCARTBTNLABEL} onclick={navigateToCart} class="slds-m-left_x-small"></lightning-button>
+        </div>
+    </lightning-modal-footer>
+</template>

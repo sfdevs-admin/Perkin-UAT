@@ -1,0 +1,91 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 11-25-2025
+  @last modified by  : Swati Chilap
+-->
+<template>
+    <div class="slds-p-top_medium slds-p-bottom_medium">
+
+        <!-- Part Number, Description, and Price -->
+        <div class="slds-grid slds-wrap slds-p-bottom_small">
+            <div class="slds-col slds-size_12-of-12 slds-medium-size_2-of-12">
+                <b>Part Number :</b>
+            </div>
+            <div class="slds-col slds-size_12-of-12 slds-medium-size_10-of-12">
+                {productData.fields.B2B_Part_Number__c}
+            </div>
+            <div class="slds-col slds-size_12-of-12 slds-medium-size_2-of-12 slds-p-top_x-small">
+                <b>Unit Price :</b>
+            </div>
+            <div class="slds-col slds-size_12-of-12 slds-medium-size_10-of-12 slds-p-top_x-small">
+                <template if:false={isPromotionLoaded}>
+                    <div class="slds-truncate strike-prices">
+                        <s>
+                            <lightning-formatted-number value={productPricing.listPrice}
+                                currency-code={pricingCurrencyIsoCode} format-style="currency">
+                            </lightning-formatted-number>
+                        </s>
+                        <lightning-formatted-number class="unit-price" value={productPricing.unitPrice}
+                            format-style="currency" currency-code={pricingCurrencyIsoCode}></lightning-formatted-number>
+                    </div>
+                </template>
+
+                <template if:true={isPromotionLoaded}>
+                    <div class="display-saved-amount">
+                        <s>
+                            <lightning-formatted-number value={productPricing.unitPrice}
+                                currency-code={pricingCurrencyIsoCode} format-style="currency">
+                            </lightning-formatted-number>
+                        </s>
+                        <span
+                            class="promo-price slds-m-horizontal_x-small slds-text-color_success slds-text-heading_small">
+                            <lightning-formatted-number value={displayPrice} currency-code={pricingCurrencyIsoCode}
+                                format-style="currency">
+                            </lightning-formatted-number>
+                        </span>
+                        <template if:true={displaySavedAmount}>
+                            <span class="slds-badge slds-theme_success slds-p-around_xx-small">
+                                Saved :
+                                <lightning-formatted-number value={displaySavedAmount}
+                                    currency-code={pricingCurrencyIsoCode} format-style="currency">
+                                </lightning-formatted-number>
+                            </span>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Quantity + Buttons -->
+        <div class="slds-grid slds-wrap slds-gutters_x-small slds-m-top_small">
+
+            <!-- Quantity Selector -->
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-12 slds-m-bottom_x-small">
+                <c-b2b-quantity-selector onproductquantity={handleProductQuantity}></c-b2b-quantity-selector>
+            </div>
+
+            <div class="container">
+                <div class="mobile-button-row">
+                    <div class="div3">
+                        <c-b2b-add-to-list product-id={productData.id} quantity={quantity}></c-b2b-add-to-list>
+                    </div>
+                    <div class="div2">
+                        <c-b2b-add-to-cart product-data={productData} product-id={productData.id} quantity={quantity}>
+                        </c-b2b-add-to-cart>
+                    </div>
+                </div>
+                <div class="div1">
+                    <c-b2b-request-more-information product-details={productData}
+                        show-button-when-called-from-parent=true>
+                    </c-b2b-request-more-information>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</template>
